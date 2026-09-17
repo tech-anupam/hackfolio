@@ -27,10 +27,9 @@ jobs:
 
       - name: Generate READMEs
         run: python scraper/generate.py
-        working-directory: scraper
 
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: daily update [skip ci]"
-          file_pattern: "README.md data/*.json web3-blockchain/README.md hardware-iot/README.md health-biotech/README.md climate-sustainability/README.md devtools-infrastructure/README.md social-education/README.md gaming-ar-vr/README.md finance-fintech/README.md ai-ml/README.md open-source-builds/README.md"
+          file_pattern: "README.md data/*.json */README.md"
