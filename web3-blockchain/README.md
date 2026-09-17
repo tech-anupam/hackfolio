@@ -2,7 +2,7 @@
 
 ![Projects](https://img.shields.io/badge/Projects-35-4B32C3?style=flat-square) [![GitHub](https://img.shields.io/badge/GitHub-tech--anupam-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/tech-anupam) [![Instagram](https://img.shields.io/badge/Instagram-tech.anupam-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/tech.anupam)
 
-Back to [full showcase](https://github.com/tech-anupam/hackfolio#readme)
+[← Back to all themes](https://github.com/tech-anupam/hackfolio#readme)
 
 ---
 
@@ -11,7 +11,7 @@ Back to [full showcase](https://github.com/tech-anupam/hackfolio#readme)
 
 > MUKUT — Smarter Helmets. Safer Mines.
 
-![HTML](https://img.shields.io/badge/HTML-555555?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-555555?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-555555?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-555555?style=flat-square) ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-555555?style=flat-square) ![Python](https://img.shields.io/badge/Python-555555?style=flat-square) ![LoRa Alliance](https://img.shields.io/badge/LoRa%20Alliance-555555?style=flat-square) ![ESP32](https://img.shields.io/badge/ESP32-555555?style=flat-square)
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![LoRa Alliance](https://img.shields.io/badge/LoRa%20Alliance-333333?style=flat-square) ![ESP32](https://img.shields.io/badge/ESP32-333333?style=flat-square)
 
 **Hardware**
 
@@ -32,7 +32,7 @@ Team **LORA-RX** -- [Aabir Manik](https://github.com/AabirManik), [Jayjit Dutta]
 
 > Git blame for AI Era
 
-![Python](https://img.shields.io/badge/Python-555555?style=flat-square)
+![Python](https://img.shields.io/badge/Python-333333?style=flat-square)
 
 **Software**
 
@@ -49,7 +49,7 @@ Team **Nano Pineapple** -- [Poushali Bhattacharyya](https://github.com/Poushali-
 
 > AI That Turns Intent Into Outcomes.
 
-![React](https://img.shields.io/badge/React-555555?style=flat-square) ![Electron](https://img.shields.io/badge/Electron-555555?style=flat-square) ![Python](https://img.shields.io/badge/Python-555555?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-555555?style=flat-square) ![Redis](https://img.shields.io/badge/Redis-555555?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-555555?style=flat-square) ![FastAPI](https://img.shields.io/badge/FastAPI-555555?style=flat-square) ![Qdrant](https://img.shields.io/badge/Qdrant-555555?style=flat-square)
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Electron](https://img.shields.io/badge/Electron-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=flat-square) ![Redis](https://img.shields.io/badge/Redis-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![FastAPI](https://img.shields.io/badge/FastAPI-333333?style=flat-square) ![Qdrant](https://img.shields.io/badge/Qdrant-333333?style=flat-square)
 
 **Software**
 
@@ -87,7 +87,7 @@ Team **Team Chocolate Coffee** -- [Suparna Panda](https://github.com/suparna39),
 
 > an authority-verified high value car marketplace.
 
-![Solidity](https://img.shields.io/badge/Solidity-555555?style=flat-square) ![React](https://img.shields.io/badge/React-555555?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-555555?style=flat-square) ![ethers.js](https://img.shields.io/badge/ethers.js-555555?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-555555?style=flat-square) ![Ethereum](https://img.shields.io/badge/Ethereum-555555?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-555555?style=flat-square) ![Hardhat](https://img.shields.io/badge/Hardhat-555555?style=flat-square)
+![Solidity](https://img.shields.io/badge/Solidity-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![ethers.js](https://img.shields.io/badge/ethers.js-333333?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=flat-square) ![Ethereum](https://img.shields.io/badge/Ethereum-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![Hardhat](https://img.shields.io/badge/Hardhat-333333?style=flat-square)
 
 **Software**
 
@@ -104,7 +104,7 @@ Team **SmartAgents** -- [Subhojit Gope](https://github.com/Subhojit-cloude), [Ro
 
 > Attack. Verify. Learn. Evolve.
 
-![JavaScript](https://img.shields.io/badge/JavaScript-555555?style=flat-square) ![Java](https://img.shields.io/badge/Java-555555?style=flat-square) ![Docker](https://img.shields.io/badge/Docker-555555?style=flat-square) ![Python](https://img.shields.io/badge/Python-555555?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-555555?style=flat-square) ![SPRINGBOOT](https://img.shields.io/badge/SPRINGBOOT-555555?style=flat-square) ![MAINFRAME](https://img.shields.io/badge/MAINFRAME-555555?style=flat-square)
+![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Java](https://img.shields.io/badge/Java-333333?style=flat-square) ![Docker](https://img.shields.io/badge/Docker-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=flat-square) ![SPRINGBOOT](https://img.shields.io/badge/SPRINGBOOT-333333?style=flat-square) ![MAINFRAME](https://img.shields.io/badge/MAINFRAME-333333?style=flat-square)
 
 **Software**
 
@@ -127,7 +127,7 @@ Team **Chicken Roll** -- [Shamina Kosar](https://github.com/SKosar-2007), [Syed 
 
 > Takeaway the messy branding process!
 
-![React](https://img.shields.io/badge/React-555555?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-555555?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-555555?style=flat-square)
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
 
 **Best Beginner**
 
@@ -144,7 +144,7 @@ Team **Pista Barfi** -- [Subhajit Roy](https://github.com/bitwise-shadowfx), [As
 
 > Your AI sidekick for MacOS
 
-![React](https://img.shields.io/badge/React-555555?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-555555?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-555555?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-555555?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-555555?style=flat-square) ![Swift](https://img.shields.io/badge/Swift-555555?style=flat-square) ![XML](https://img.shields.io/badge/XML-555555?style=flat-square) ![Python](https://img.shields.io/badge/Python-555555?style=flat-square)
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Swift](https://img.shields.io/badge/Swift-333333?style=flat-square) ![XML](https://img.shields.io/badge/XML-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square)
 
 **Software**
 
@@ -165,7 +165,7 @@ Team **FANTASTIC 4** -- [Sattwik Das](https://github.com/Sattwik-Das), [Sampurna
 
 > we make a bridge between technology and farmar
 
-![HTML](https://img.shields.io/badge/HTML-555555?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-555555?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-555555?style=flat-square) ![Internet of Things (IoT)](https://img.shields.io/badge/Internet%20of%20Things%20(IoT)-555555?style=flat-square) ![C++](https://img.shields.io/badge/C++-555555?style=flat-square) ![Arduino](https://img.shields.io/badge/Arduino-555555?style=flat-square)
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Internet of Things (IoT)](https://img.shields.io/badge/Internet%20of%20Things%20(IoT)-333333?style=flat-square) ![C++](https://img.shields.io/badge/C++-333333?style=flat-square) ![Arduino](https://img.shields.io/badge/Arduino-333333?style=flat-square)
 
 **Hardware**
 
@@ -184,7 +184,7 @@ Team **System-F** -- [Ahana Chakraborty](https://github.com/Xyz), [Arisudan Prad
 
 > SEE BEYOND THE VISIBLE
 
-![HTML](https://img.shields.io/badge/HTML-555555?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-555555?style=flat-square) ![OpenCV](https://img.shields.io/badge/OpenCV-555555?style=flat-square) ![Python](https://img.shields.io/badge/Python-555555?style=flat-square) ![YOLOv3 Algorithm](https://img.shields.io/badge/YOLOv3%20Algorithm-555555?style=flat-square) ![Sensors](https://img.shields.io/badge/Sensors-555555?style=flat-square)
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![OpenCV](https://img.shields.io/badge/OpenCV-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![YOLOv3 Algorithm](https://img.shields.io/badge/YOLOv3%20Algorithm-333333?style=flat-square) ![Sensors](https://img.shields.io/badge/Sensors-333333?style=flat-square)
 
 **Hardware**
 
@@ -201,7 +201,7 @@ Team **VORTEX V** -- [Sohan Das](https://github.com/SOHAN-1DAS), [Arnab Basak](h
 
 > Trustworthy telemetry for living power cells
 
-![React](https://img.shields.io/badge/React-555555?style=flat-square) ![WebSockets](https://img.shields.io/badge/WebSockets-555555?style=flat-square) ![Docker](https://img.shields.io/badge/Docker-555555?style=flat-square) ![SQLite](https://img.shields.io/badge/SQLite-555555?style=flat-square) ![Python](https://img.shields.io/badge/Python-555555?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-555555?style=flat-square) ![ESP32](https://img.shields.io/badge/ESP32-555555?style=flat-square) ![FastAPI](https://img.shields.io/badge/FastAPI-555555?style=flat-square)
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![WebSockets](https://img.shields.io/badge/WebSockets-333333?style=flat-square) ![Docker](https://img.shields.io/badge/Docker-333333?style=flat-square) ![SQLite](https://img.shields.io/badge/SQLite-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![ESP32](https://img.shields.io/badge/ESP32-333333?style=flat-square) ![FastAPI](https://img.shields.io/badge/FastAPI-333333?style=flat-square)
 
 **Software**
 
@@ -264,7 +264,7 @@ Team **TEAM ROCKET** -- [Rajeet Ash](https://github.com/rajeet-04), [Ayushman Py
 
 > Automated Preprocessing-Cleans data automatically
 
-![HTML](https://img.shields.io/badge/HTML-555555?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-555555?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-555555?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-555555?style=flat-square) ![REST API](https://img.shields.io/badge/REST%20API-555555?style=flat-square) ![Python](https://img.shields.io/badge/Python-555555?style=flat-square) ![Joblib](https://img.shields.io/badge/Joblib-555555?style=flat-square)
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![REST API](https://img.shields.io/badge/REST%20API-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Joblib](https://img.shields.io/badge/Joblib-333333?style=flat-square)
 
 **Software**
 
@@ -289,7 +289,7 @@ Team **PROJECT TRUST++** -- [Saheli Mondal](https://github.com/sahelimon), [SAYA
 
 > share file
 
-![HTML](https://img.shields.io/badge/HTML-555555?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-555555?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-555555?style=flat-square) ![OpenCV](https://img.shields.io/badge/OpenCV-555555?style=flat-square) ![Python](https://img.shields.io/badge/Python-555555?style=flat-square) ![WebRTC](https://img.shields.io/badge/WebRTC-555555?style=flat-square) ![PyAutoGUI](https://img.shields.io/badge/PyAutoGUI-555555?style=flat-square) ![Mediapipe](https://img.shields.io/badge/Mediapipe-555555?style=flat-square)
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![OpenCV](https://img.shields.io/badge/OpenCV-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![WebRTC](https://img.shields.io/badge/WebRTC-333333?style=flat-square) ![PyAutoGUI](https://img.shields.io/badge/PyAutoGUI-333333?style=flat-square) ![Mediapipe](https://img.shields.io/badge/Mediapipe-333333?style=flat-square)
 
 **Software**
 
@@ -310,7 +310,7 @@ Team **Dev bandit** -- [Aditya Kumar singh](https://github.com/adityakumarsingh1
 
 > Replacing SOCs with a Single Platform
 
-![HTML](https://img.shields.io/badge/HTML-555555?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-555555?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-555555?style=flat-square) ![Python](https://img.shields.io/badge/Python-555555?style=flat-square)
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square)
 
 **Software**
 
@@ -340,7 +340,7 @@ Team **Team Codefather** -- [Ankush Shaw](https://github.com/ankush-shaw), [Hark
 
 > Deocde once route anywhere
 
-![Python](https://img.shields.io/badge/Python-555555?style=flat-square) ![React.js](https://img.shields.io/badge/React.js-555555?style=flat-square)
+![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![React.js](https://img.shields.io/badge/React.js-333333?style=flat-square)
 
 **Hardware**
 
@@ -368,7 +368,7 @@ Team **MicroHarD** -- [Poulami Neogi](https://github.com/ethereal19), [Atanu Mai
 
 > When Voice Fails, BoneTalk Speaks.
 
-![Google Colab](https://img.shields.io/badge/Google%20Colab-555555?style=flat-square) ![GitHub](https://img.shields.io/badge/GitHub-555555?style=flat-square)
+![Google Colab](https://img.shields.io/badge/Google%20Colab-333333?style=flat-square) ![GitHub](https://img.shields.io/badge/GitHub-333333?style=flat-square)
 
 **Hardware**
 
@@ -389,7 +389,7 @@ Team **Team 7** -- [Soumik Chatterjee](https://github.com/soumik7484-art), [Supr
 
 > The ruler your label needs.
 
-![OpenCV](https://img.shields.io/badge/OpenCV-555555?style=flat-square) ![SQLite](https://img.shields.io/badge/SQLite-555555?style=flat-square) ![React Native](https://img.shields.io/badge/React%20Native-555555?style=flat-square) ![Redis](https://img.shields.io/badge/Redis-555555?style=flat-square) ![FastAPI](https://img.shields.io/badge/FastAPI-555555?style=flat-square) ![Tanstack Query](https://img.shields.io/badge/Tanstack%20Query-555555?style=flat-square) ![Cloudflare R2](https://img.shields.io/badge/Cloudflare%20R2-555555?style=flat-square) ![Expo-router](https://img.shields.io/badge/Expo--router-555555?style=flat-square)
+![OpenCV](https://img.shields.io/badge/OpenCV-333333?style=flat-square) ![SQLite](https://img.shields.io/badge/SQLite-333333?style=flat-square) ![React Native](https://img.shields.io/badge/React%20Native-333333?style=flat-square) ![Redis](https://img.shields.io/badge/Redis-333333?style=flat-square) ![FastAPI](https://img.shields.io/badge/FastAPI-333333?style=flat-square) ![Tanstack Query](https://img.shields.io/badge/Tanstack%20Query-333333?style=flat-square) ![Cloudflare R2](https://img.shields.io/badge/Cloudflare%20R2-333333?style=flat-square) ![Expo-router](https://img.shields.io/badge/Expo--router-333333?style=flat-square)
 
 **Software**
 
@@ -422,7 +422,7 @@ Team **Aloo Siddo** -- [Samiran Pal](https://github.com/samiranpal2004), [Sudipt
 
 > smart fire evacuation system
 
-![React](https://img.shields.io/badge/React-555555?style=flat-square) ![MQTT](https://img.shields.io/badge/MQTT-555555?style=flat-square) ![ESP32](https://img.shields.io/badge/ESP32-555555?style=flat-square) ![YOLOv3 Algorithm](https://img.shields.io/badge/YOLOv3%20Algorithm-555555?style=flat-square) ![Mosquitto MQTT Broker](https://img.shields.io/badge/Mosquitto%20MQTT%20Broker-555555?style=flat-square) ![DHT11](https://img.shields.io/badge/DHT11-555555?style=flat-square)
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![MQTT](https://img.shields.io/badge/MQTT-333333?style=flat-square) ![ESP32](https://img.shields.io/badge/ESP32-333333?style=flat-square) ![YOLOv3 Algorithm](https://img.shields.io/badge/YOLOv3%20Algorithm-333333?style=flat-square) ![Mosquitto MQTT Broker](https://img.shields.io/badge/Mosquitto%20MQTT%20Broker-333333?style=flat-square) ![DHT11](https://img.shields.io/badge/DHT11-333333?style=flat-square)
 
 **Hardware**
 
@@ -445,7 +445,7 @@ Team **FlyingHawk** -- [Binay Ray](https://github.com/binay81), [Saiyazul Hasan]
 
 > Where Intelligence Meets Agreement
 
-![React](https://img.shields.io/badge/React-555555?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-555555?style=flat-square) ![Python](https://img.shields.io/badge/Python-555555?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-555555?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-555555?style=flat-square) ![FAST API](https://img.shields.io/badge/FAST%20API-555555?style=flat-square)
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![FAST API](https://img.shields.io/badge/FAST%20API-333333?style=flat-square)
 
 **Software**
 
@@ -477,7 +477,7 @@ Team **Brahmastra** -- [Archita Chakraborty](https://github.com/Architachak2005)
 
 > Code reviewer, Minus the pain.
 
-![React](https://img.shields.io/badge/React-555555?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-555555?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-555555?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-555555?style=flat-square) ![Neo4j](https://img.shields.io/badge/Neo4j-555555?style=flat-square) ![Pinecone](https://img.shields.io/badge/Pinecone-555555?style=flat-square) ![Inngest](https://img.shields.io/badge/Inngest-555555?style=flat-square) ![bun](https://img.shields.io/badge/bun-555555?style=flat-square)
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![Neo4j](https://img.shields.io/badge/Neo4j-333333?style=flat-square) ![Pinecone](https://img.shields.io/badge/Pinecone-333333?style=flat-square) ![Inngest](https://img.shields.io/badge/Inngest-333333?style=flat-square) ![bun](https://img.shields.io/badge/bun-333333?style=flat-square)
 
 Team **Uncaught Exceptions** -- [Priyansu Maji](https://github.com/priyansu-006), [Jeet Sharma](https://github.com/JeetMatrix10), [ADRIJA NAG](https://github.com/adrijanag26-ops), [Prantor Das](https://github.com/Prantor-Das)
 
@@ -490,7 +490,7 @@ Team **Uncaught Exceptions** -- [Priyansu Maji](https://github.com/priyansu-006)
 
 > Detech Dispatch Repair Verify
 
-![HTML](https://img.shields.io/badge/HTML-555555?style=flat-square) ![React](https://img.shields.io/badge/React-555555?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-555555?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-555555?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-555555?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-555555?style=flat-square)
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
 
 **Hardware**
 
@@ -507,7 +507,7 @@ Team **Vzebeeee** -- [Afiya Ali](https://github.com/aliafiya07), [Mohd Qasim](ht
 
 > Early Liver Cancer Detector
 
-![HTML](https://img.shields.io/badge/HTML-555555?style=flat-square) ![React](https://img.shields.io/badge/React-555555?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-555555?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-555555?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-555555?style=flat-square) ![Express.js](https://img.shields.io/badge/Express.js-555555?style=flat-square)
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Express.js](https://img.shields.io/badge/Express.js-333333?style=flat-square)
 
 **Software**
 
@@ -532,7 +532,7 @@ Team **Team_not_Found** -- [Debayan Das](https://github.com/DebayanDas-06), [Som
 
 > AI-Powered Water Infrastructure Decision Support
 
-![React](https://img.shields.io/badge/React-555555?style=flat-square) ![scikit-learn](https://img.shields.io/badge/scikit--learn-555555?style=flat-square) ![NumPy](https://img.shields.io/badge/NumPy-555555?style=flat-square) ![pandas](https://img.shields.io/badge/pandas-555555?style=flat-square) ![Git](https://img.shields.io/badge/Git-555555?style=flat-square) ![Python](https://img.shields.io/badge/Python-555555?style=flat-square) ![GitHub](https://img.shields.io/badge/GitHub-555555?style=flat-square) ![NetworkX](https://img.shields.io/badge/NetworkX-555555?style=flat-square)
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![scikit-learn](https://img.shields.io/badge/scikit--learn-333333?style=flat-square) ![NumPy](https://img.shields.io/badge/NumPy-333333?style=flat-square) ![pandas](https://img.shields.io/badge/pandas-333333?style=flat-square) ![Git](https://img.shields.io/badge/Git-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![GitHub](https://img.shields.io/badge/GitHub-333333?style=flat-square) ![NetworkX](https://img.shields.io/badge/NetworkX-333333?style=flat-square)
 
 **Best Beginner**
 
@@ -549,7 +549,7 @@ Team **Zero Commits** -- [Ritresa Sinha Roy](https://github.com/Ritresa), [Ritoy
 
 > Catch It. Act on It. Never Miss It.
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-555555?style=flat-square) ![OneSignal](https://img.shields.io/badge/OneSignal-555555?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-555555?style=flat-square) ![Vercel](https://img.shields.io/badge/Vercel-555555?style=flat-square) ![React.js](https://img.shields.io/badge/React.js-555555?style=flat-square) ![Supabase](https://img.shields.io/badge/Supabase-555555?style=flat-square)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=flat-square) ![OneSignal](https://img.shields.io/badge/OneSignal-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![Vercel](https://img.shields.io/badge/Vercel-333333?style=flat-square) ![React.js](https://img.shields.io/badge/React.js-333333?style=flat-square) ![Supabase](https://img.shields.io/badge/Supabase-333333?style=flat-square)
 
 **Software**
 
@@ -574,7 +574,7 @@ Team **Valkyrie** -- [Shripriya Dhar](https://github.com/shripriyadhar-glitch), 
 
 > Where Physical Data Meets Digital Security.
 
-![HTML](https://img.shields.io/badge/HTML-555555?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-555555?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-555555?style=flat-square) ![C++](https://img.shields.io/badge/C++-555555?style=flat-square) ![Python](https://img.shields.io/badge/Python-555555?style=flat-square)
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![C++](https://img.shields.io/badge/C++-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square)
 
 **Hardware**
 
@@ -591,7 +591,7 @@ Team **Gach Lagan** -- [Deepra Sarkar](https://github.com/deeprasarkar007-glitch
 
 > AI Agents. Real-Time Fixes. Zero Downtime.
 
-![HTML](https://img.shields.io/badge/HTML-555555?style=flat-square) ![React](https://img.shields.io/badge/React-555555?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-555555?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-555555?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-555555?style=flat-square) ![Docker](https://img.shields.io/badge/Docker-555555?style=flat-square) ![Python](https://img.shields.io/badge/Python-555555?style=flat-square) ![Kubernetes](https://img.shields.io/badge/Kubernetes-555555?style=flat-square)
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Docker](https://img.shields.io/badge/Docker-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Kubernetes](https://img.shields.io/badge/Kubernetes-333333?style=flat-square)
 
 **Software**
 
@@ -613,7 +613,7 @@ Team **Gublet Gang** -- [Soudip Biswas](https://github.com/SoudipBiswas), [Srinj
 
 > Turning memories into meaningful cognitive care.
 
-![Node.js](https://img.shields.io/badge/Node.js-555555?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-555555?style=flat-square) ![OAuth](https://img.shields.io/badge/OAuth-555555?style=flat-square) ![VR](https://img.shields.io/badge/VR-555555?style=flat-square) ![AR](https://img.shields.io/badge/AR-555555?style=flat-square) ![Three.JS](https://img.shields.io/badge/Three.JS-555555?style=flat-square) ![Express.js](https://img.shields.io/badge/Express.js-555555?style=flat-square) ![Service Workers](https://img.shields.io/badge/Service%20Workers-555555?style=flat-square)
+![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![OAuth](https://img.shields.io/badge/OAuth-333333?style=flat-square) ![VR](https://img.shields.io/badge/VR-333333?style=flat-square) ![AR](https://img.shields.io/badge/AR-333333?style=flat-square) ![Three.JS](https://img.shields.io/badge/Three.JS-333333?style=flat-square) ![Express.js](https://img.shields.io/badge/Express.js-333333?style=flat-square) ![Service Workers](https://img.shields.io/badge/Service%20Workers-333333?style=flat-square)
 
 **Software**
 
@@ -650,7 +650,7 @@ Team **FourBits** -- [Shreejata Mukhopadhyay](https://github.com/ShreejataMukher
 
 > Don't Just Detect Threats, Resolve Them
 
-![Docker](https://img.shields.io/badge/Docker-555555?style=flat-square) ![SQLite](https://img.shields.io/badge/SQLite-555555?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-555555?style=flat-square) ![Spring](https://img.shields.io/badge/Spring-555555?style=flat-square) ![Github Actions](https://img.shields.io/badge/Github%20Actions-555555?style=flat-square) ![FastAPI](https://img.shields.io/badge/FastAPI-555555?style=flat-square) ![nmap](https://img.shields.io/badge/nmap-555555?style=flat-square) ![Trivy](https://img.shields.io/badge/Trivy-555555?style=flat-square)
+![Docker](https://img.shields.io/badge/Docker-333333?style=flat-square) ![SQLite](https://img.shields.io/badge/SQLite-333333?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=flat-square) ![Spring](https://img.shields.io/badge/Spring-333333?style=flat-square) ![Github Actions](https://img.shields.io/badge/Github%20Actions-333333?style=flat-square) ![FastAPI](https://img.shields.io/badge/FastAPI-333333?style=flat-square) ![nmap](https://img.shields.io/badge/nmap-333333?style=flat-square) ![Trivy](https://img.shields.io/badge/Trivy-333333?style=flat-square)
 
 **Software**
 
@@ -717,7 +717,7 @@ Team **Algo Rhythm** -- [Prithvi Raj Thakur](https://github.com/prithvi-raj-thak
 
 > GitHub shows the code, HackProof proves the story.
 
-![GPG](https://img.shields.io/badge/GPG-555555?style=flat-square) ![Git](https://img.shields.io/badge/Git-555555?style=flat-square) ![SQLite](https://img.shields.io/badge/SQLite-555555?style=flat-square) ![Python](https://img.shields.io/badge/Python-555555?style=flat-square) ![GitHub](https://img.shields.io/badge/GitHub-555555?style=flat-square) ![Webhook](https://img.shields.io/badge/Webhook-555555?style=flat-square) ![SSH](https://img.shields.io/badge/SSH-555555?style=flat-square)
+![GPG](https://img.shields.io/badge/GPG-333333?style=flat-square) ![Git](https://img.shields.io/badge/Git-333333?style=flat-square) ![SQLite](https://img.shields.io/badge/SQLite-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![GitHub](https://img.shields.io/badge/GitHub-333333?style=flat-square) ![Webhook](https://img.shields.io/badge/Webhook-333333?style=flat-square) ![SSH](https://img.shields.io/badge/SSH-333333?style=flat-square)
 
 **Software**
 
@@ -736,7 +736,7 @@ Team **Third Degree** -- [Pritim Mondal](https://github.com/pritimmondall), [Pri
 
 > version control for the thinking behind software
 
-![HTML](https://img.shields.io/badge/HTML-555555?style=flat-square) ![React](https://img.shields.io/badge/React-555555?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-555555?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-555555?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-555555?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-555555?style=flat-square) ![nest.js](https://img.shields.io/badge/nest.js-555555?style=flat-square) ![React.js](https://img.shields.io/badge/React.js-555555?style=flat-square)
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![nest.js](https://img.shields.io/badge/nest.js-333333?style=flat-square) ![React.js](https://img.shields.io/badge/React.js-333333?style=flat-square)
 
 **Software**
 
@@ -757,7 +757,7 @@ Team **Heroi krush** -- [Enakshi Dalui](https://github.com/EnakxD), [poulami sah
 
 > Thermal hotspots detector using AI based XG-boost
 
-![HTML](https://img.shields.io/badge/HTML-555555?style=flat-square) ![React](https://img.shields.io/badge/React-555555?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-555555?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-555555?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-555555?style=flat-square) ![SQLite](https://img.shields.io/badge/SQLite-555555?style=flat-square) ![Python](https://img.shields.io/badge/Python-555555?style=flat-square) ![Google Sites API](https://img.shields.io/badge/Google%20Sites%20API-555555?style=flat-square)
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![SQLite](https://img.shields.io/badge/SQLite-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Google Sites API](https://img.shields.io/badge/Google%20Sites%20API-333333?style=flat-square)
 
 **Software**
 
@@ -874,7 +874,7 @@ Team **CompileX** -- [Sankirtans Yadav](https://github.com/sankirtansyadavoffici
 
 > 🎙️ “Speak It. Code It. Build It.”
 
-![HTML](https://img.shields.io/badge/HTML-555555?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-555555?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-555555?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-555555?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-555555?style=flat-square) ![Python](https://img.shields.io/badge/Python-555555?style=flat-square)
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square)
 
 **Software**
 
@@ -902,7 +902,7 @@ Team **Byte Beacons** -- [Shilpa Chowdhury](https://github.com/shilpachowdhury20
 
 > “Build healthier digital habits, together.”
 
-![HTML](https://img.shields.io/badge/HTML-555555?style=flat-square) ![React](https://img.shields.io/badge/React-555555?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-555555?style=flat-square) ![Firebase](https://img.shields.io/badge/Firebase-555555?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-555555?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-555555?style=flat-square) ![Android Studio](https://img.shields.io/badge/Android%20Studio-555555?style=flat-square) ![Android SDK](https://img.shields.io/badge/Android%20SDK-555555?style=flat-square)
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Firebase](https://img.shields.io/badge/Firebase-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Android Studio](https://img.shields.io/badge/Android%20Studio-333333?style=flat-square) ![Android SDK](https://img.shields.io/badge/Android%20SDK-333333?style=flat-square)
 
 **Software**
 
@@ -930,7 +930,7 @@ Team **Unemployed billionaire** -- [Shraboni Mukherjee](https://github.com/shrab
 
 > Voice-first AI marketplace for daily-wage workers
 
-![HTML](https://img.shields.io/badge/HTML-555555?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-555555?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-555555?style=flat-square) ![Dart](https://img.shields.io/badge/Dart-555555?style=flat-square) ![Flutter](https://img.shields.io/badge/Flutter-555555?style=flat-square) ![Express.js](https://img.shields.io/badge/Express.js-555555?style=flat-square) ![Vanilla JS](https://img.shields.io/badge/Vanilla%20JS-555555?style=flat-square) ![React.js](https://img.shields.io/badge/React.js-555555?style=flat-square)
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Dart](https://img.shields.io/badge/Dart-333333?style=flat-square) ![Flutter](https://img.shields.io/badge/Flutter-333333?style=flat-square) ![Express.js](https://img.shields.io/badge/Express.js-333333?style=flat-square) ![Vanilla JS](https://img.shields.io/badge/Vanilla%20JS-333333?style=flat-square) ![React.js](https://img.shields.io/badge/React.js-333333?style=flat-square)
 
 **Best Girl Team**
 
@@ -964,7 +964,7 @@ Team **Syntax Sisters** -- [Sayantika Das](https://github.com/sayantikad007-code
 
 > “From Document Overload to Action.”
 
-![Next.js](https://img.shields.io/badge/Next.js-555555?style=flat-square) ![Python](https://img.shields.io/badge/Python-555555?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-555555?style=flat-square) ![JSX](https://img.shields.io/badge/JSX-555555?style=flat-square) ![Cloud](https://img.shields.io/badge/Cloud-555555?style=flat-square)
+![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=flat-square) ![JSX](https://img.shields.io/badge/JSX-333333?style=flat-square) ![Cloud](https://img.shields.io/badge/Cloud-333333?style=flat-square)
 
 **Software**
 
@@ -981,7 +981,7 @@ Team **WEGOOGLEDIT** -- [Sudip Paul](https://github.com/PaulLovesCode), [Archism
 
 > Let AI act. Safely.
 
-![Python](https://img.shields.io/badge/Python-555555?style=flat-square)
+![Python](https://img.shields.io/badge/Python-333333?style=flat-square)
 
 Team **PIKACHU** -- [Saheli Das](https://github.com/saheli56), [Sk Masum Ali](https://github.com/insaneodyssey26)
 

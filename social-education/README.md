@@ -2,7 +2,7 @@
 
 ![Projects](https://img.shields.io/badge/Projects-2-4B32C3?style=flat-square) [![GitHub](https://img.shields.io/badge/GitHub-tech--anupam-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/tech-anupam) [![Instagram](https://img.shields.io/badge/Instagram-tech.anupam-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/tech.anupam)
 
-Back to [full showcase](https://github.com/tech-anupam/hackfolio#readme)
+[← Back to all themes](https://github.com/tech-anupam/hackfolio#readme)
 
 ---
 
@@ -11,7 +11,7 @@ Back to [full showcase](https://github.com/tech-anupam/hackfolio#readme)
 
 > AI LEARNING TWIN
 
-![HTML](https://img.shields.io/badge/HTML-555555?style=flat-square) ![React](https://img.shields.io/badge/React-555555?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-555555?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-555555?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-555555?style=flat-square) ![Python](https://img.shields.io/badge/Python-555555?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-555555?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-555555?style=flat-square)
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
 
 Team **PIXELTHINKERS** -- [SNEHA CHOWDHURY](https://github.com/SnehaChowdhur), [Sristy Singh](https://github.com/studentSS-code)
 
@@ -24,7 +24,7 @@ Team **PIXELTHINKERS** -- [SNEHA CHOWDHURY](https://github.com/SnehaChowdhur), [
 
 > The Next-Gen Real-Time Student Discovery & Network
 
-![React](https://img.shields.io/badge/React-555555?style=flat-square) ![Leaflet](https://img.shields.io/badge/Leaflet-555555?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-555555?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-555555?style=flat-square) ![Firestore](https://img.shields.io/badge/Firestore-555555?style=flat-square) ![Supabase](https://img.shields.io/badge/Supabase-555555?style=flat-square)
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Leaflet](https://img.shields.io/badge/Leaflet-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Firestore](https://img.shields.io/badge/Firestore-333333?style=flat-square) ![Supabase](https://img.shields.io/badge/Supabase-333333?style=flat-square)
 
 Team **Blue_Pheonix** -- [Anirban Sarkar](https://github.com/AnirbansarkarS/), [Chirabrata Ghosal](https://github.com/CHIRABRATA), [Aryan Mishra](https://github.com/aryyann011)
 

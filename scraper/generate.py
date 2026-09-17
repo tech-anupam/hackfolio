@@ -19,14 +19,14 @@ SHIELD       = "https://img.shields.io/badge"
 DEVFOLIO_CLR = "4B32C3"
 GITHUB_CLR   = "181717"
 IG_CLR       = "E4405F"
-THEME_CLR    = "0D1117"
-TAG_CLR      = "555555"
+TAG_CLR      = "333333"
+MAX_FEATURED = 5
 
 
 def load_projects() -> dict[str, dict]:
     if not PROJECTS_FILE.exists():
         return {}
-    with open(PROJECTS_FILE, encoding="utf-8") as f:
+    with open(PROJECTS_FILE, encoding="utf-8-sig") as f:
         return json.load(f)
 
 
@@ -44,7 +44,7 @@ def tag_badge(tag: str) -> str:
     return f"![{tag}]({SHIELD}/{enc(tag)}-{TAG_CLR}?style=flat-square)"
 
 
-def render_description(blocks: list[dict]) -> str:
+def render_description(blocks: list[dict], max_len: int = 0) -> str:
     if not blocks:
         return ""
     lines = []
@@ -53,6 +53,8 @@ def render_description(blocks: list[dict]) -> str:
         body  = (block.get("body") or "").strip()
         if not body:
             continue
+        if max_len > 0 and len(body) > max_len:
+            body = body[:max_len].rstrip() + "..."
         if title:
             lines.append(f"**{title}**")
         lines.append(f"\n{body}\n")
@@ -73,7 +75,7 @@ def render_members(members: list[dict]) -> str:
     return ", ".join(parts)
 
 
-def project_block(proj: dict, show_hackathon: bool = True) -> str:
+def project_block(proj: dict, show_hackathon: bool = True, full_body: bool = True) -> str:
     lines = []
 
     name       = proj.get("name", "")
@@ -120,11 +122,15 @@ def project_block(proj: dict, show_hackathon: bool = True) -> str:
         lines.append(" ".join(tag_badge(t) for t in hashtags))
         lines.append("")
 
-    desc_text = render_description(desc_blocks)
+    if full_body:
+        desc_text = render_description(desc_blocks)
+    else:
+        desc_text = render_description(desc_blocks[:1], max_len=300)
+
     if desc_text:
         lines.append(desc_text)
 
-    if arch:
+    if full_body and arch:
         lines.append(f"**Architecture**\n\n![Architecture Diagram]({arch})\n")
 
     member_line = render_members(members)
@@ -152,13 +158,13 @@ def generate_theme_readme(slug: str, name: str, projects: list[dict]) -> str:
         f"{badge('Instagram', 'tech.anupam', IG_CLR, IG_URL, 'instagram')}"
     )
     lines.append("")
-    lines.append(f"Back to [full showcase]({REPO_URL}#readme)")
+    lines.append(f"[← Back to all themes]({REPO_URL}#readme)")
     lines.append("")
     lines.append("---")
     lines.append("")
 
     for proj in sorted_projects:
-        lines.append(project_block(proj, show_hackathon=True))
+        lines.append(project_block(proj, show_hackathon=True, full_body=True))
         lines.append("---")
         lines.append("")
 
@@ -178,8 +184,8 @@ def generate_main_readme(grouped: dict[str, list[dict]], total: int, updated: st
     lines.append("")
     lines.append(
         f"{badge('Projects', str(total), DEVFOLIO_CLR)} "
-        f"{badge('Source', 'Devfolio', DEVFOLIO_CLR, 'https://devfolio.co/hackathons/past', 'devfolio')} "
-        f"{badge('Updated', updated, '28A745')} "
+        f"{badge('Source', 'Devfolio', '0052CC', 'https://devfolio.co/hackathons/past', 'devfolio')} "
+        f"{badge('Updated', updated, '2EA44F')} "
         f"{badge('License', 'MIT', '000000')} "
         f"{badge('GitHub', 'tech-anupam', GITHUB_CLR, GITHUB_URL, 'github')} "
         f"{badge('Instagram', 'tech.anupam', IG_CLR, IG_URL, 'instagram')}"
@@ -208,7 +214,6 @@ def generate_main_readme(grouped: dict[str, list[dict]], total: int, updated: st
     lines.append("---")
     lines.append("")
 
-    # Theme navigation table
     lines.append("## Themes")
     lines.append("")
     for slug, name in ALL_CATEGORIES:
@@ -216,26 +221,33 @@ def generate_main_readme(grouped: dict[str, list[dict]], total: int, updated: st
         if count == 0:
             continue
         lines.append(
-            f"- [{name}](./{slug}) "
-            f"{badge('', str(count) + ' projects', THEME_CLR)}"
+            f"- [**{name}**](./{slug}) &nbsp; "
+            f"[![{count} projects]({SHIELD}/Projects-{count}-{DEVFOLIO_CLR}?style=flat-square)](./{slug})"
         )
     lines.append("")
     lines.append("---")
     lines.append("")
 
-    # All projects grouped by theme inline
     for slug, name in ALL_CATEGORIES:
         projects = grouped.get(slug, [])
         if not projects:
             continue
 
         sorted_projects = sorted(projects, key=lambda p: -(p.get("likes") or 0))
+        featured = sorted_projects[:MAX_FEATURED]
 
         lines.append(f"## [{name}](./{slug})")
         lines.append("")
 
-        for proj in sorted_projects:
-            lines.append(project_block(proj, show_hackathon=True))
+        for proj in featured:
+            lines.append(project_block(proj, show_hackathon=True, full_body=False))
+            lines.append("---")
+            lines.append("")
+
+        if len(sorted_projects) > MAX_FEATURED:
+            lines.append(
+                f"[**View all {len(sorted_projects)} {name} projects with complete details →**](./{slug})\n"
+            )
             lines.append("---")
             lines.append("")
 

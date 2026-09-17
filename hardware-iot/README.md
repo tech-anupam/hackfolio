@@ -2,7 +2,7 @@
 
 ![Projects](https://img.shields.io/badge/Projects-1-4B32C3?style=flat-square) [![GitHub](https://img.shields.io/badge/GitHub-tech--anupam-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/tech-anupam) [![Instagram](https://img.shields.io/badge/Instagram-tech.anupam-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/tech.anupam)
 
-Back to [full showcase](https://github.com/tech-anupam/hackfolio#readme)
+[← Back to all themes](https://github.com/tech-anupam/hackfolio#readme)
 
 ---
 
@@ -11,7 +11,7 @@ Back to [full showcase](https://github.com/tech-anupam/hackfolio#readme)
 
 > AI-Powered Computer Vision & Visual Odometry
 
-![HTML](https://img.shields.io/badge/HTML-555555?style=flat-square) ![OpenCV](https://img.shields.io/badge/OpenCV-555555?style=flat-square) ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-555555?style=flat-square) ![C++](https://img.shields.io/badge/C++-555555?style=flat-square) ![Python](https://img.shields.io/badge/Python-555555?style=flat-square) ![Robotics](https://img.shields.io/badge/Robotics-555555?style=flat-square) ![Embedded Systems](https://img.shields.io/badge/Embedded%20Systems-555555?style=flat-square) ![Visual Odometry](https://img.shields.io/badge/Visual%20Odometry-555555?style=flat-square)
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![OpenCV](https://img.shields.io/badge/OpenCV-333333?style=flat-square) ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-333333?style=flat-square) ![C++](https://img.shields.io/badge/C++-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Robotics](https://img.shields.io/badge/Robotics-333333?style=flat-square) ![Embedded Systems](https://img.shields.io/badge/Embedded%20Systems-333333?style=flat-square) ![Visual Odometry](https://img.shields.io/badge/Visual%20Odometry-333333?style=flat-square)
 
 Team **Touch my stack** -- [Anit Nath](https://github.com/OrioRiko-09), [Parijat Majumdar](https://github.com/Macro6969), [Abhijit Mridha](https://github.com/paimon-2005), [Akshita .](https://github.com/Akshitakeshav)
 

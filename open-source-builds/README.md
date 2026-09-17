@@ -2,7 +2,7 @@
 
 ![Projects](https://img.shields.io/badge/Projects-9-4B32C3?style=flat-square) [![GitHub](https://img.shields.io/badge/GitHub-tech--anupam-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/tech-anupam) [![Instagram](https://img.shields.io/badge/Instagram-tech.anupam-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/tech.anupam)
 
-Back to [full showcase](https://github.com/tech-anupam/hackfolio#readme)
+[← Back to all themes](https://github.com/tech-anupam/hackfolio#readme)
 
 ---
 
@@ -11,7 +11,7 @@ Back to [full showcase](https://github.com/tech-anupam/hackfolio#readme)
 
 > Helping families manage medications with confidenc
 
-![HTML](https://img.shields.io/badge/HTML-555555?style=flat-square) ![React](https://img.shields.io/badge/React-555555?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-555555?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-555555?style=flat-square) ![Python](https://img.shields.io/badge/Python-555555?style=flat-square) ![Three.JS](https://img.shields.io/badge/Three.JS-555555?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-555555?style=flat-square) ![Vercel](https://img.shields.io/badge/Vercel-555555?style=flat-square)
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Three.JS](https://img.shields.io/badge/Three.JS-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![Vercel](https://img.shields.io/badge/Vercel-333333?style=flat-square)
 
 Team **TeamRocket** -- [Fatima Aslam](https://github.com/fa-code2), [Jyotishka De](https://github.com/Jyotishka1905), [Shreya Patra](https://github.com/Shreyap121), [Isika Rakshit](https://github.com/isikajph12345)
 
@@ -24,7 +24,7 @@ Team **TeamRocket** -- [Fatima Aslam](https://github.com/fa-code2), [Jyotishka D
 
 > ⚙️ Deterministic Scheduling Engine
 
-![HTML](https://img.shields.io/badge/HTML-555555?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-555555?style=flat-square) ![Python](https://img.shields.io/badge/Python-555555?style=flat-square) ![C](https://img.shields.io/badge/C-555555?style=flat-square)
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![C](https://img.shields.io/badge/C-333333?style=flat-square)
 
 Team **Syndicate** -- [Yash Shah](https://github.com/Yashah01), [MEMOSHA ROY](https://github.com/roymemosha-cmd), [Satyaki Mondal](https://github.com/satyakim43-lab), [Purnendu Sharma](https://github.com/Ronnie-sys-hub)
 
@@ -37,7 +37,7 @@ Team **Syndicate** -- [Yash Shah](https://github.com/Yashah01), [MEMOSHA ROY](ht
 
 > Paani nahi lagta
 
-![HTML](https://img.shields.io/badge/HTML-555555?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-555555?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-555555?style=flat-square) ![Three.JS](https://img.shields.io/badge/Three.JS-555555?style=flat-square)
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Three.JS](https://img.shields.io/badge/Three.JS-333333?style=flat-square)
 
 Team **Evacore** -- [Roshni Dubey](https://github.com/roshni22006), [Vedant Raj](https://github.com/vedant29-code), [Anjali .](https://github.com/anjali-137), [Arghya Bhattacharjee](https://github.com/arghya349)
 
@@ -50,7 +50,7 @@ Team **Evacore** -- [Roshni Dubey](https://github.com/roshni22006), [Vedant Raj]
 
 > Delete dead code. Your build is the proof.
 
-![Node.js](https://img.shields.io/badge/Node.js-555555?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-555555?style=flat-square) ![Github Actions](https://img.shields.io/badge/Github%20Actions-555555?style=flat-square) ![esbuild](https://img.shields.io/badge/esbuild-555555?style=flat-square) ![VS Code Extension API](https://img.shields.io/badge/VS%20Code%20Extension%20API-555555?style=flat-square) ![JSON-RPC 2.0](https://img.shields.io/badge/JSON--RPC%202.0-555555?style=flat-square) ![Cytoscape.js](https://img.shields.io/badge/Cytoscape.js-555555?style=flat-square) ![Npm Advisory Database](https://img.shields.io/badge/Npm%20Advisory%20Database-555555?style=flat-square)
+![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![Github Actions](https://img.shields.io/badge/Github%20Actions-333333?style=flat-square) ![esbuild](https://img.shields.io/badge/esbuild-333333?style=flat-square) ![VS Code Extension API](https://img.shields.io/badge/VS%20Code%20Extension%20API-333333?style=flat-square) ![JSON-RPC 2.0](https://img.shields.io/badge/JSON--RPC%202.0-333333?style=flat-square) ![Cytoscape.js](https://img.shields.io/badge/Cytoscape.js-333333?style=flat-square) ![Npm Advisory Database](https://img.shields.io/badge/Npm%20Advisory%20Database-333333?style=flat-square)
 
 Team **Trust Me Bro** -- [RIPAN DAS](https://github.com/Ripan-Das), [Ankan Ghosh](https://github.com/ankanghoshpanduk-a11y), [BISHESWAR BHATTACHARJEE](https://github.com/Bisheswar-94), [Kalyan Manna](https://github.com/Kalyan-github-4)
 
@@ -63,7 +63,7 @@ Team **Trust Me Bro** -- [RIPAN DAS](https://github.com/Ripan-Das), [Ankan Ghosh
 
 > Before the snow breaks & the flood rises-HimVigil
 
-![React](https://img.shields.io/badge/React-555555?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-555555?style=flat-square) ![Leaflet](https://img.shields.io/badge/Leaflet-555555?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-555555?style=flat-square) ![Python](https://img.shields.io/badge/Python-555555?style=flat-square) ![XGBoost](https://img.shields.io/badge/XGBoost-555555?style=flat-square) ![Express.js](https://img.shields.io/badge/Express.js-555555?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-555555?style=flat-square)
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Leaflet](https://img.shields.io/badge/Leaflet-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![XGBoost](https://img.shields.io/badge/XGBoost-333333?style=flat-square) ![Express.js](https://img.shields.io/badge/Express.js-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
 
 Team **CODESTRIX** -- [Surabhi Dutta](https://github.com/codexsurabhi), [SHANNIDHYA MITRA](https://github.com/iammrmitra-6), [Anshuv Debnath](https://github.com/anshuvdebnath-cyber), [KOYEL SAHA](https://github.com/koyelsaha1021-afk)
 
@@ -76,7 +76,7 @@ Team **CODESTRIX** -- [Surabhi Dutta](https://github.com/codexsurabhi), [SHANNID
 
 > AI-Powered Flood Emergency Response & Rescue Coord
 
-![HTML](https://img.shields.io/badge/HTML-555555?style=flat-square) ![React](https://img.shields.io/badge/React-555555?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-555555?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-555555?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-555555?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-555555?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-555555?style=flat-square)
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
 
 Team **C1PH3R** -- [KOYENA DAS](https://github.com/koyena2), [Sashi kumar sah](https://github.com/Sashi921), [Vivek Raj](https://github.com/vivekraj9778), [Akanksha Pandey](https://github.com/Akku9094comp)
 
@@ -89,7 +89,7 @@ Team **C1PH3R** -- [KOYENA DAS](https://github.com/koyena2), [Sashi kumar sah](h
 
 > Autonomous server security agent
 
-![React](https://img.shields.io/badge/React-555555?style=flat-square) ![Python](https://img.shields.io/badge/Python-555555?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-555555?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-555555?style=flat-square) ![FastAPI](https://img.shields.io/badge/FastAPI-555555?style=flat-square) ![Ollama](https://img.shields.io/badge/Ollama-555555?style=flat-square)
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![FastAPI](https://img.shields.io/badge/FastAPI-333333?style=flat-square) ![Ollama](https://img.shields.io/badge/Ollama-333333?style=flat-square)
 
 Team **Quantum Coders** -- [Aditya Dugar](https://github.com/adityaexe-23), [Ankit Sharma](https://github.com/ankitsm08/), [Sk Samim Naser](https://github.com/SamimNaser), [Nikhil Sharma](https://github.com/NikhilSharma-31)
 
@@ -102,7 +102,7 @@ Team **Quantum Coders** -- [Aditya Dugar](https://github.com/adityaexe-23), [Ank
 
 > Predict. Alert. Act.
 
-![React](https://img.shields.io/badge/React-555555?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-555555?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-555555?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-555555?style=flat-square)
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square)
 
 Team **BOOT_X_INNOVATE** -- [ANIK MONDAL](https://github.com/anikmondal12052007-bit), [Ayush Kundu](https://github.com/kunduayush0804-cmyk), [Ankita Jaiswar](https://github.com/ankitaj2406-code), [Debadyuti Barui](https://github.com/DebadyutiBarui2007-Debug)
 
@@ -115,7 +115,7 @@ Team **BOOT_X_INNOVATE** -- [ANIK MONDAL](https://github.com/anikmondal12052007-
 
 > DIGI GROWWWW
 
-![HTML](https://img.shields.io/badge/HTML-555555?style=flat-square) ![React](https://img.shields.io/badge/React-555555?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-555555?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-555555?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-555555?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-555555?style=flat-square) ![Python](https://img.shields.io/badge/Python-555555?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-555555?style=flat-square)
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square)
 
 Team **VOID MINDS** -- [Nandini Kumari](https://github.com/nandini-12388), [Shivam Gupta](https://github.com/ShivamGupta-Official), [Pushkar Kumar](https://github.com/pushkarverse)
 

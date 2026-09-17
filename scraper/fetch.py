@@ -18,9 +18,7 @@ DELAY    = 0.8
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120 Safari/537.36",
-    "Accept": "application/json",
-    "Referer": "https://devfolio.co/hackathons/past",
-    "Origin": "https://devfolio.co",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
 }
 
 
@@ -85,6 +83,28 @@ def fetch_project_detail(project_slug: str):
     return get(f"{BASE_URL}/projects/{project_slug}")
 
 
+def fetch_project_page_fields(slug: str) -> list[dict]:
+    blocks = []
+    try:
+        resp = requests.get(f"https://devfolio.co/projects/{slug}", headers=HEADERS, timeout=12)
+        if resp.status_code == 200:
+            m = re.search(r'<script id="__NEXT_DATA__" type="application/json">(.*?)</script>', resp.text, re.DOTALL)
+            if m:
+                data = json.loads(m.group(1))
+                queries = data.get("props", {}).get("pageProps", {}).get("dehydratedState", {}).get("queries", [])
+                for q in queries:
+                    qd = q.get("state", {}).get("data", {})
+                    if isinstance(qd, dict) and "projectFieldAnswers" in qd:
+                        for item in qd["projectFieldAnswers"]:
+                            field_name = (item.get("project_field") or {}).get("name") or item.get("title") or ""
+                            val = (item.get("value") or "").strip()
+                            if val:
+                                blocks.append({"title": field_name, "body": val})
+    except Exception:
+        pass
+    return blocks
+
+
 def extract_links(raw: str | None) -> list[str]:
     if not raw:
         return []
@@ -92,22 +112,31 @@ def extract_links(raw: str | None) -> list[str]:
     return list(dict.fromkeys(urls))
 
 
-def extract_description_blocks(proj: dict) -> list[dict]:
+def extract_description_blocks(proj: dict, page_fields: list[dict]) -> list[dict]:
     blocks = []
+    seen_bodies = set()
+
+    for item in page_fields:
+        body = (item.get("body") or "").strip()
+        if body and body not in seen_bodies:
+            seen_bodies.add(body)
+            blocks.append(item)
 
     raw_desc = proj.get("description") or []
     if isinstance(raw_desc, list):
         for block in raw_desc:
             if isinstance(block, dict):
                 title = block.get("title") or block.get("heading") or ""
-                body  = block.get("body") or block.get("content") or block.get("text") or ""
-                if body:
+                body  = (block.get("body") or block.get("content") or block.get("text") or "").strip()
+                if body and body not in seen_bodies:
+                    seen_bodies.add(body)
                     blocks.append({"title": title, "body": str(body)})
 
     for track in proj.get("prize_tracks") or []:
         pt = track.get("project_tracks") or {}
         body = (pt.get("description") or "").strip()
-        if body:
+        if body and body not in seen_bodies:
+            seen_bodies.add(body)
             blocks.append({"title": track.get("name", "Track"), "body": body})
 
     return blocks
@@ -169,6 +198,8 @@ def run(max_new_hackathons: int = 0):
             if not wrapper:
                 continue
 
+            page_fields = fetch_project_page_fields(pslug)
+
             proj    = wrapper.get("project", {})
             members = wrapper.get("members", [])
             links   = extract_links(proj.get("links") or "")
@@ -188,7 +219,7 @@ def run(max_new_hackathons: int = 0):
                 "tagline":          proj.get("tagline") or stub.get("tagline") or "",
                 "platforms":        proj.get("platforms") or [],
                 "hashtags":         [t["name"] for t in proj.get("hashtags") or []],
-                "description":      extract_description_blocks(proj),
+                "description":      extract_description_blocks(proj, page_fields),
                 "links":            links,
                 "github":           github,
                 "demo":             demo,

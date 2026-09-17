@@ -2,7 +2,7 @@
 
 ![Projects](https://img.shields.io/badge/Projects-2-4B32C3?style=flat-square) [![GitHub](https://img.shields.io/badge/GitHub-tech--anupam-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/tech-anupam) [![Instagram](https://img.shields.io/badge/Instagram-tech.anupam-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/tech.anupam)
 
-Back to [full showcase](https://github.com/tech-anupam/hackfolio#readme)
+[← Back to all themes](https://github.com/tech-anupam/hackfolio#readme)
 
 ---
 
@@ -11,7 +11,7 @@ Back to [full showcase](https://github.com/tech-anupam/hackfolio#readme)
 
 > Ideas That Create Impact
 
-![React](https://img.shields.io/badge/React-555555?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-555555?style=flat-square) ![Firebase](https://img.shields.io/badge/Firebase-555555?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-555555?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-555555?style=flat-square) ![Python](https://img.shields.io/badge/Python-555555?style=flat-square) ![Geocoding](https://img.shields.io/badge/Geocoding-555555?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-555555?style=flat-square)
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Firebase](https://img.shields.io/badge/Firebase-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Geocoding](https://img.shields.io/badge/Geocoding-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square)
 
 Team **deltax** -- [Ritesh Singh](https://github.com/rsinghrajput2005-glitch), [Rohan Deo](https://github.com/rohandev-ai), [Ashish Raj](https://github.com/araj170805)
 
@@ -24,7 +24,7 @@ Team **deltax** -- [Ritesh Singh](https://github.com/rsinghrajput2005-glitch), [
 
 > Managing your finances
 
-![Next.js](https://img.shields.io/badge/Next.js-555555?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-555555?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-555555?style=flat-square)
+![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
 
 Team **Cipher** -- [Rwitama Aon](https://github.com/rwits08), [Mudita Pandey](https://github.com/Muditapandey26), [Pragati Kumari](https://github.com/pragati-codespace)
 

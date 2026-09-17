@@ -2,7 +2,7 @@
 
 ![Projects](https://img.shields.io/badge/Projects-1-4B32C3?style=flat-square) [![GitHub](https://img.shields.io/badge/GitHub-tech--anupam-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/tech-anupam) [![Instagram](https://img.shields.io/badge/Instagram-tech.anupam-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/tech.anupam)
 
-Back to [full showcase](https://github.com/tech-anupam/hackfolio#readme)
+[← Back to all themes](https://github.com/tech-anupam/hackfolio#readme)
 
 ---
 
@@ -11,7 +11,7 @@ Back to [full showcase](https://github.com/tech-anupam/hackfolio#readme)
 
 > Red Flags Before Red Damage.
 
-![HTML](https://img.shields.io/badge/HTML-555555?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-555555?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-555555?style=flat-square) ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-555555?style=flat-square) ![Python](https://img.shields.io/badge/Python-555555?style=flat-square)
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square)
 
 Team **QuadCore** -- [Aritra Biswas](https://github.com/AritraB2005), [Swayam Mallick](https://github.com/Swayam424), [Debangshu Chakraborty](https://github.com/debangshuc), [Krishnendu Dhar](https://github.com/Krsh-hub)
 
