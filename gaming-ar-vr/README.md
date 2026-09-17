@@ -2,7 +2,7 @@
 
 ![Projects](https://img.shields.io/badge/Projects-10-4B32C3?style=flat-square) [![GitHub](https://img.shields.io/badge/GitHub-tech--anupam-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/tech-anupam) [![Instagram](https://img.shields.io/badge/Instagram-tech.anupam-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/tech.anupam)
 
-Back to [full showcase](https://github.com/tech-anupam/hackvault#readme)
+Back to [full showcase](https://github.com/tech-anupam/hackfolio#readme)
 
 ---
 

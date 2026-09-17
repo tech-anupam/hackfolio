@@ -13,7 +13,7 @@ PROJECTS_FILE = DATA_DIR / "projects.json"
 
 GITHUB_URL   = "https://github.com/tech-anupam"
 IG_URL       = "https://instagram.com/tech.anupam"
-REPO_URL     = "https://github.com/tech-anupam/hackvault"
+REPO_URL     = "https://github.com/tech-anupam/hackfolio"
 
 SHIELD       = "https://img.shields.io/badge"
 DEVFOLIO_CLR = "4B32C3"
@@ -174,7 +174,7 @@ def generate_theme_readme(slug: str, name: str, projects: list[dict]) -> str:
 def generate_main_readme(grouped: dict[str, list[dict]], total: int, updated: str) -> str:
     lines = []
 
-    lines.append("# Hackvault")
+    lines.append("# Hackfolio")
     lines.append("")
     lines.append(
         f"{badge('Projects', str(total), DEVFOLIO_CLR)} "
