@@ -1,0 +1,4 @@
+data/hackathons.json
+scraper/__pycache__/
+*.pyc
+.DS_Store

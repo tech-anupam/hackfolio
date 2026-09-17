@@ -1,0 +1,36 @@
+name: Update Project List
+
+on:
+  schedule:
+    - cron: "0 2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r scraper/requirements.txt
+
+      - name: Fetch new projects
+        run: python scraper/fetch.py --max-new-hackathons 60
+
+      - name: Generate READMEs
+        run: python scraper/generate.py
+        working-directory: scraper
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: daily update [skip ci]"
+          file_pattern: "README.md data/*.json web3-blockchain/README.md hardware-iot/README.md health-biotech/README.md climate-sustainability/README.md devtools-infrastructure/README.md social-education/README.md gaming-ar-vr/README.md finance-fintech/README.md ai-ml/README.md open-source-builds/README.md"
