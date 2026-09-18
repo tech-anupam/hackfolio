@@ -1,8 +1,137 @@
 # Hardware and IoT
 
-![Projects](https://img.shields.io/badge/Projects-39-4B32C3?style=flat-square) [![GitHub](https://img.shields.io/badge/GitHub-tech--anupam-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/tech-anupam) [![Instagram](https://img.shields.io/badge/Instagram-tech.anupam-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/tech.anupam)
+![Projects](https://img.shields.io/badge/Projects-74-4B32C3?style=flat-square) [![GitHub](https://img.shields.io/badge/GitHub-tech--anupam-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/tech-anupam) [![Instagram](https://img.shields.io/badge/Instagram-tech.anupam-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/tech.anupam)
 
 [← Back to all themes](https://github.com/tech-anupam/hackfolio#readme)
+
+---
+
+### trinetra
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/trinetra-0980) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Arpit-2005-AD/TriNetra) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtube.com/shorts/qM-FWszBZWw) [![Built at](https://img.shields.io/badge/Built%20at-BINARY%20v2-0052CC?style=flat-square)](https://binaryvtwo.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-16-FF6B6B?style=flat-square)
+
+> See Beyond. Secure Everything.
+
+![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![TensorFlow](https://img.shields.io/badge/TensorFlow-333333?style=flat-square) ![Keras](https://img.shields.io/badge/Keras-333333?style=flat-square) ![PyTorch](https://img.shields.io/badge/PyTorch-333333?style=flat-square) ![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-333333?style=flat-square) ![C++](https://img.shields.io/badge/C++-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Linux](https://img.shields.io/badge/Linux-333333?style=flat-square)
+
+**The problem it solves**
+
+Traditional security systems often struggle with being slow, unreliable, or resource-intensive. Camera-only solutions frequently generate false alarms due to animals, shadows, or lighting changes, while sensor-only systems lack the contextual intelligence needed to confirm real threats. Additionally, many modern systems rely heavily on cloud processing, introducing latency that makes real-time response difficult. Continuous video streaming further increases bandwidth usage and power consumption, making such systems inefficient and costly, especially in remote or resource-constrained environments.
+
+Trinetra AI addresses these challenges by introducing a multi-layered intelligent IoT intrusion detection system that combines edge sensing, sensor fusion, and AI-based visual validation. It processes data at different levels of the pipeline, enabling faster and more accurate decision-making. At the edge, the ESP32 filters noise using sensor voting and environmental checks, reducing unnecessary alerts. The Raspberry Pi then performs multi-sensor fusion to improve reliability, while the final AI layer uses deep learning to visually confirm whether a detected object is truly a human, significantly reducing false positives.
+
+This system can be used in smart home security, industrial monitoring, restricted zones, campuses, and even remote or border surveillance where connectivity is limited. By operating in an event-driven manner, it activates high-level processing only when needed, thereby saving bandwidth and power. Overall, Trinetra AI makes security systems smarter, faster, and more efficient by reducing false alarms, enabling real-time responses, and minimizing resource usage, offering a reliable alternative to traditional surveillance solutions.
+
+**Challenges we ran into**
+
+1. Camera module failure during hackathon → quickly pivoted to using a mobile phone as a live camera feed, ensuring zero downtime in visual detection
+
+2. Difficulty in sourcing domain-specific audio datasets → conducted extensive research, combined open-source datasets (GitHub + online sources) and generated synthetic data to fill gaps
+
+3. Training specialized sound detection models → optimized dataset quality and preprocessing to achieve reliable model performance despite limited data
+
+4. Raspberry Pi OS booting issues → faced repeated boot failures, resolved through continuous reflashing and boot debugging
+
+5. Compatibility issues with Windows during Pi setup → identified environment limitation, switched to macOS where setup and flashing worked seamlessly
+
+**IoT**
+
+This project fits the IoT track because it connects real-world sensors to a distributed, intelligent pipeline where the ESP32 performs edge-level sensing and filtering, the Raspberry Pi handles fog-level multi-sensor fusion and decision-making, and the compute node runs deep learning for visual validation 
+creating a fully integrated system of connected devices that sense, communicate, process, and act in real time.
+
+![image](https://assets.devfolio.co/content/4b25c1c20e584b2fb3dff2f4560ccc0e/f16f28f6-0f79-4a37-ac1e-a73b2c757aa3.jpeg)
+
+Team **Byte Brigade** -- [Arpit Das](https://github.com/Arpit-2005-AD), [Arnab Chaudhuri](https://github.com/Arnab-dot), [Rishaan Kumar](https://github.com/rishaan007), [Ankit Talukder](https://github.com/ankit2061)
+
+`2026-03-22`
+
+---
+
+### EcoGrid
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/ecogrid-8fdd) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/dev5str/ecogrid-insights.git) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://ecogrid-insights.vercel.app/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/4xUx0Iva4Sw) [![Built at](https://img.shields.io/badge/Built%20at-DevsHouse%20'26-0052CC?style=flat-square)](https://devshouse26.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-15-FF6B6B?style=flat-square)
+
+> Sustainable Tech Revolution
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Firebase](https://img.shields.io/badge/Firebase-333333?style=flat-square) ![C++](https://img.shields.io/badge/C++-333333?style=flat-square) ![Arduino](https://img.shields.io/badge/Arduino-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![react-dom](https://img.shields.io/badge/react--dom-333333?style=flat-square) ![Ollama](https://img.shields.io/badge/Ollama-333333?style=flat-square)
+
+**The problem it solves**
+
+Every campus, hospital, school, and public space in India is managing its environment the same way it did 30 years ago, with people walking around and checking things manually.
+
+The result:
+
+Dustbins overflow mid week in canteens and corridors because nobody knew they were full
+
+Enclosed labs, wards, and seminar halls accumulate CO₂ and pollutants for hours before anyone notices
+
+Water pipes run through the night and electricity stays on in empty labs, discovered only when the bill arrives
+
+These aren't failures of effort. They are failures of visibility.
+
+EcoGrid Insights solves this by giving institutions a real-time nervous system for their environment:
+
+Smart Waste: Ultrasonic sensors monitor bin fill levels and fire alerts before overflow happens. Staff are dispatched proactively, not reactively.
+
+Air Quality: AQI is monitored continuously in enclosed spaces. When levels cross danger thresholds, air purifiers activate automatically, no human command needed.
+
+Water & Electricity: Flow meters and load sensors track consumption per zone, flagging anomalies the same night they happen.
+
+Every data point feeds an AI prediction engine that learns patterns over time, so EcoGrid doesn't just respond to problems, it prevents them.The platform works across colleges, schools, hospitals, bus stands, railway stations, and corporate offices, any space where people gather and resources are consumed invisibly.
+
+**Challenges we ran into**
+
+1. MQ135 sensor instability on ESP8266
+The air quality sensor was the most frustrating component to stabilise. On the ESP8266, the single analog pin (A0) is shared across the board and picks up significant electrical noise, causing wildly inconsistent readings, values would jump 150 points between consecutive reads. The purifier relay was switching on and off every 10 seconds near the threshold, which is both functionally useless and damaging to the hardware.
+
+The fix required three layers:
+
+Averaged sampling: taking 20 readings, sorting them, and discarding the top and bottom outliers before averaging the rest
+
+Hysteresis band: the purifier turns ON at AQI 420 but only turns OFF when AQI drops below 340, preventing relay chatter near the boundary
+
+30-second warm-up delay: the MQ135 filament needs thermal stabilisation before readings are valid; skipping this produced garbage data on cold starts
+
+2. Firebase Firestore rate limiting
+Writing all three bins and air data every 10 seconds hit Firestore's free-tier write limits during extended testing. The fix was tracking state locally and only writing to Firestore when values actually changed beyond a meaningful threshold, reducing writes by ~70% without losing data fidelity.
+
+3. SSL time sync on ESP8266
+Firebase authentication kept failing with SSL errors until we added configTime() with NTP servers before initialising Firebase, a non-obvious fix that cost significant debugging time.
+
+**Environmental Sustainability**
+
+Environmental sustainability in India is largely treated as a reporting problem, institutions compile evidence once a year for NAAC audits or CSR filings, and the rest of the year nothing is measured, nothing is monitored, and nothing changes.
+
+EcoGrid reframes sustainability as an operational discipline, not a documentation exercise.
+
+Every module directly addresses a measurable environmental impact:
+
+Waste management reduces overflow incidents, prevents hygiene deterioration, and creates a logged record of collection activity, replacing guesswork with data
+
+Air quality monitoring protects human health in enclosed spaces, reducing exposure to pollutants in labs, classrooms, and hospital wards
+
+Water conservation catches leaks and overuse in real-time, with anomaly detection logging estimated savings per month
+
+Electricity efficiency flags after-hours consumption, reduces avoidable load, and calculates CO₂ equivalent avoided, contributing directly to an institution's carbon accountability record
+
+The auto-generated NAAC compliance report converts all monitored data into structured sustainability evidence, aligned with Criterion VII indicators 7.1.2 through 7.1.10, making environmental accountability automatic rather than manual.
+
+EcoGrid turns sustainability from a once-a-year document into a live, daily institutional practice.
+
+Team **ECOGRID** -- [Abhishek Vinod](https://github.com/AbhishekVinod-dev), [Yuvan Avinash](https://github.com/yuvanavinash26), [Amirtheesh U](https://github.com/codehackamir), [Shanjo Benadict](https://github.com/joencrypts)
+
+`2026-03-29`
+
+---
+
+### unknown
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/zenura-b4dd) [![Built at](https://img.shields.io/badge/Built%20at-HackMol%207.0-0052CC?style=flat-square)](https://hackmol-7.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-11-FF6B6B?style=flat-square)
+
+> unknown
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![WebSockets](https://img.shields.io/badge/WebSockets-333333?style=flat-square) ![C++](https://img.shields.io/badge/C++-333333?style=flat-square) ![HTTP server](https://img.shields.io/badge/HTTP%20server-333333?style=flat-square) ![ESP32](https://img.shields.io/badge/ESP32-333333?style=flat-square) ![ESP-32 WiFi Module](https://img.shields.io/badge/ESP--32%20WiFi%20Module-333333?style=flat-square)
+
+Team **ZENITH** -- [Pankaj Garg](https://github.com/Garg-Pankaj29), [Supreet Kaur](https://github.com/not), [ISHA GAUTAM](https://github.com/shiriei), [Aman Jain](https://github.com/amanJTech24)
+
+`2026-03-29`
 
 ---
 
@@ -574,6 +703,366 @@ Team **The Shakuni Protocol** -- [Devjyoti Misra](https://github.com/Devjyoti192
 
 ---
 
+### GhostOS
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/ghostos-ed6b) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://vercel.com/) [![Built at](https://img.shields.io/badge/Built%20at-Hacktropica%202k26-0052CC?style=flat-square)](https://hacktropica2k26.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-3-FF6B6B?style=flat-square)
+
+> Portable Edge AI Hub & Autonomous IOT Workspace
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Internet of Things (IoT)](https://img.shields.io/badge/Internet%20of%20Things%20(IoT)-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![AI/ML](https://img.shields.io/badge/AI/ML-333333?style=flat-square)
+
+**The problem it solves**
+
+### 🚀 Overall Assessment
+**Ghost-OS** is an incredibly ambitious and well-architected **"Portable Edge AI Hub & Autonomous IOT Workspace."** It uses an innovative **split-compute architecture** to bridge the gap between lightweight edge single-board computers (a Raspberry Pi) and heavy compute nodes (your laptop/GPU).
+
+**The Architecture:**
+*   **The Nervous System (Raspberry Pi):** Acts as the secure backend (FastAPI), hardware controller (GPIO, I2C, Cameras, Arduinos), file system manager (Dead Eye snapshots), and task scheduler.
+*   **The Brain & Display (Laptop):** Acts as the UI (React + Electron), GPU accelerator (Ollama/LLMs), and standard input console—all connected via a single USB-C cable or Wi-Fi.
+
+### 🎯 The Core Problems Ghost-OS Solves
+
+Ghost-OS is engineered to solve **five major pain points** for modern developers, makers, and AI engineers:
+
+#### 1. The "It Works on My Machine" Problem (Extreme Portability)
+*   **The Problem:** Setting up complex development environments, AI dependencies, and hardware toolchains across multiple computers is incredibly frustrating and time-consuming. Switching laptops usually means losing your perfect setup.
+*   **The Ghost-OS Solution (Zero-Footprint Concept):** Your entire operating system, code, and dependencies live on the Pi's SSD. You can plug it into a MacBook, a gaming PC, or a Chromebook via a single USB-C cable and instantly spawn your entire workspace in the browser. You leave absolutely zero footprint on the host machine.
+
+#### 2. Fragmented Developer Workflows
+*   **The Problem:** Developers lose hours context-switching. You write code in VS Code, debug in a separate terminal, monitor sensors on a literal physical screen, and switch to a web browser to ask ChatGPT for help.
+*   **The Ghost-OS Solution:** It centralizes the entire workflow. The React dashboard brings together terminal access, task scheduling, live sensor telemetry (sparklines), YOLO vision feeds, and system monitoring. On top of that, you have a browser-based Virtual Desktop (via TigerVNC) to run full Linux GUI apps natively on the Pi.
+
+#### 3. Friction in Hardware/IoT Prototyping
+*   **The Problem:** Integrating hardware (sensors, Arduinos) with high-level software requires jumping through hoops with serial monitors, C++ compilation, and custom Python scripts. 
+*   **The Ghost-OS Solution:** Your Hardware Abstraction Layer handles auto-discovery for I2C sensors (BME280, etc.), provides native GPIO management, and seamlessly integrates an `arduino-cli` wrapper. This makes interacting with hardware as simple as hitting a REST/WebSocket endpoint.
+
+#### 4. The Fear of Breaking the Environment
+*   **The Problem:** Running untrusted code, experimenting with intense system installs, or letting AI edit your system files can easily break a Linux environment permanently. 
+*   **The Ghost-OS Solution:** You built two hardcore safety nets:
+    *   **Dead Eye Snapshots:** Fast, atomic rollback capabilities (rsync/btrfs) let you save the system state before an execution and instantly rewind if something breaks.
+    *   **Sandbox Execution:** Running processes in isolated, memory-capped Docker containers or subprocesses, preventing rogue code from destroying the host.
+
+#### 5. AI Developer Friction (The Automation Gap)
+*   **The Problem:** AI coding assistants usually just generate textual code that you still have to manually copy, paste, compile, deploy, and debug.
+*   **The Ghost-OS Solution:** The **Ghost-Claw Agent**. Instead of just chatting, Ghost-Claw operates an autonomous 5-step pipeline: **READ → ANALYZE → FIX → DEPLOY → VERIFY**. Because you provide it access to the terminal, the sandbox, and the hardware, it can write a C++ sketch, deploy it to the Arduino, read the serial output to verify it worked, and fix it if it didn't—all via natural language commands (e.g., `"fix the permission error on my project folder"`).
+
+### 💡 Summary 
+Ghost-OS fundamentally solves **development friction**. 
+
+By turning a Raspberry Pi into a secure, portable, hardware-native backend and relying on the host machine purely as a "dumb terminal" with GPU superpowers, it creates an omnipresent, AI-powered developer ecosystem. ***"Your workspace follows you, not the other way around."***
+
+**Challenges we ran into**
+
+### 1. The Autonomous Code Fixer ("Ghost-Claw" Pipeline)
+*   **Challenge:** Getting an AI to reliably output code is easy; getting it to *autonomously* diagnose, write, deploy, and verify code is incredibly hard.
+*   **What you ran into:** You likely dealt with the LLM hallucinating code blocks, returning conversational text instead of raw code (e.g., "AI returned no code" errors), or outputting incomplete JSON. Parsing the LLM's raw output robustly to extract commands and execute them on the Pi without human intervention was a massive hurdle.
+
+### 2. Networking & Auto-Discovery in a "Split-Compute" Model
+*   **Challenge:** Making the "Plug and Play" USB-C experience actually work flawlessly across different laptops and operating systems.
+*   **What you ran into:** Setting up the Raspberry Pi as a USB-Ethernet gadget requires low-level network config. You likely faced issues with IP address collisions, mDNS/Bonjour auto-discovery failing when switching between Wi-Fi and USB, and CORS or WebSocket handshakes failing because the host IP kept changing dynamically.
+
+### 3. Managing Real-Time Asynchronous Chaos (WebSockets)
+*   **Challenge:** The React dashboard needs to handle a massive amount of simultaneous live data: system metrics, streaming LLM tokens, raw terminal output, and live sensor telemetry.
+*   **What you ran into:** Piping subprocess standard output (`stdout`/`stderr`) reliably over WebSockets without overwhelming the React frontend. You probably had to debug React performance issues, infinite re-render loops from high-frequency sensor polling, or race conditions where WebSocket messages arrived out of order.
+
+### 4. Bridging High-Level AI with Low-Level Hardware (Arduino/GPIO)
+*   **Challenge:** Getting the AI agent to compile and flash microcontrollers (like Arduinos) autonomously.
+*   **What you ran into:** Automating the `arduino-cli` pipeline meant dealing with cross-compilation errors, raw serial buffer parsing, permission denied errors on `/dev/ttyUSB0`, and writing logic to intelligently parse Arduino compilation error-codes so the AI could understand *why* its code failed to upload and try again.
+
+### 5. Sandboxing vs. Hardware Access Friction
+*   **Challenge:** You built a system to execute untrusted code in Docker/subprocesses (Sandbox) while simultaneously needing that code to access physical hardware (GPIO/I2C/Cameras).
+*   **What you ran into:** Isolating execution usually means stripping hardware privileges. You would have fought Linux permission systems (`udev` rules, `dialout` groups) and Docker volume mounts to selectively expose the I2C bus and Serial ports to the sandboxed code without compromising the host Pi.
+
+### 6. The "Dead Eye" Snapshot System (State Restoration)
+*   **Challenge:** Building an instant "undo" button for a live operating system.
+*   **What you ran into:** Implementing reliable file-system snapshots via `rsync` or `btrfs` without freezing the Pi. You had to carefully manage storage space (preventing snapshots from filling the Pi's SSD) and ensure that rolling back files didn't kill the very FastAPI server orchestrating the rollback.
+
+### 7. Integrating a Virtual Desktop in the Browser (VNC)
+*   **Challenge:** Streaming XFCE4 into the dashboard so users could open VS Code or VLC.
+*   **What you ran into:** Piping an X display server through TigerVNC and websockify/noVNC into a React app is notoriously fragile. You likely fought with resolution hot-resizing, handling virtual displays (`:1`, `:2`), cleaning up zombie VNC processes when the dashboard disconnects, and handling lag/input delay.
+
+### 8. The App Manager Automation
+*   **Challenge:** Letting users say `"install VLC"` and having it just work.
+*   **What you ran into:** Automating `apt-get` non-interactively requires suppressing prompts and dealing with broken package locks. Furthermore, seamlessly launching that newly installed GUI app onto the correct virtual display so it appears in the user's dashboard (and not in the Pi's physical void) required precise environment variable manipulation (`DISPLAY=:1`).
+
+### Summary
+Building Ghost-OS meant fighting on multiple fronts simultaneously: **Linux system administration, web-based network engineering, electrical engineering (IoT), and generative AI engineering.** Solving the friction points where these radically different domains intersect is what makes the project so impressive!
+
+**Best Use of ElevenLabs**
+
+Here are the specific reasons why Ghost-OS is the perfect use-case for ElevenLabs:
+
+### 1. Hands-Free Hardware & IoT Development
+This is arguably your strongest specific use case. When a developer is prototyping on your platform—wiring a breadboard, managing GPIO pins, or soldering components connected to the Pi/Arduino—their hands and eyes are completely occupied. 
+*   **The Fit:** They can verbally command, *"Ghost-Claw, scan the I2C bus."* Instead of having to put down their tools, walk over to the laptop, and read a terminal output, ElevenLabs can audibly reply, *"Scan complete. I found a BME280 temperature sensor on port 0x76."* This completely removes friction from physical hardware iterations.
+
+### 2. The "Ghost-Claw" Persona and Presence
+You aren't just building a text-generation tool; you are building an *agent* with a defined 5-step pipeline (READ → ANALYZE → FIX → DEPLOY → VERIFY). 
+*   **The Fit:** Giving Ghost-Claw a voice gives it a distinct **personality and presence in the room**. When the agent encounters an error and has to auto-recover, hearing a calm, hyper-realistic voice say, *"Compilation failed due to a missing semicolon on line 42, deploying fix now..."* makes the user feel like they have a highly competent colleague sitting next to them, rather than a script running in the background.
+
+### 3. Ambient System Monitoring
+Developers run a lot of long tasks: `npm install`, compiling C++ for Arduinos, running test suites, or building Docker sandbox containers. Usually, you have to stare at a progress bar or risk forgetting about the task.
+*   **The Fit:** With ElevenLabs, Ghost-OS can act as an ambient monitor. You can shrink the dashboard, browse the web, and the system can organically interrupt you with, *"Dead Eye rollback completed successfully"* or *"Sandbox execution timed out after 60 seconds."* It allows true developer multitasking.
+
+### 4. Accessibility and the "Zero-Footprint" Illusion
+Ghost-OS is all about extreme portability—plugging a Pi into any laptop and instantly having a full workspace.
+*   **The Fit:** By centralizing the intelligence on the Pi but beaming a high-quality ElevenLabs voice through the laptop's speakers (via the browser's Web Audio API), it deepens the illusion that the host laptop is just a "dumb terminal" magically possessed by the Raspberry Pi's high-tech intelligence.
+
+### 5. Emotional Feedback During Development Frustration
+Coding is frustrating, especially when fixing broken systems. 
+*   **The Fit:** ElevenLabs is known for its incredible emotional prosody. If a user says, *"Claw, my code is broken again,"* the AI can respond with a slightly empathetic or encouraging tone. When a deeply complex bug is finally fixed, the voice can reflect satisfaction. This emotional nuance transforms the user experience from clinical to highly engaging.
+
+In short, Ghost-OS is not just a text interface; it is an **active, physical development hub**. Adding ElevenLabs bridges the gap between the digital code and the physical room you are working in.
+
+**Best Use of Gemini API**
+
+Here is why your project is the perfect fit to be powered by Gemini:
+
+### 1. Native Multimodality for Hardware & Vision Integration
+Ghost-OS isn't just a software platform; it interacts with the physical world through the Raspberry Pi Camera and YOLOv8 integrations.
+*   **The Gemini Fit:** Gemini was built from the ground up to be natively multimodal (understanding text, code, images, and video simultaneously). With Ghost-OS, a user could point the Pi Camera at their physical Arduino breadboard and ask, *"Why isn't this LED lighting up?"* Ghost-OS can send the live camera frame, the current GPIO state, and the C++ sketch directly to Gemini in one prompt. Gemini can visually trace the wire, read the code, and tell you that pin 13 isn't properly connected. This is a workflow almost no other LLM API can achieve seamlessly.
+
+### 2. The 1M - 2M Token Context Window (Killing RAG)
+Your project is an "Autonomous Developer Workspace." When a user tells the Ghost-Claw agent to *"fix the permission error on my project folder,"* the agent needs context.
+*   **The Gemini Fit:** Traditional LLMs require complex, brittle RAG (Retrieval-Augmented Generation) pipelines to search for relevant files before answering. With Gemini 1.5's massive context window, Ghost-OS can literally take the entire system status, the last 500 lines of terminal logs, and the contents of a user's entire project directory and dump it straight into the prompt. The AI has perfect context of the *entire* Ghost-OS environment instantly, leading to vastly superior debugging.
+
+### 3. Native Structured Output & Tool Calling for "Ghost-Claw"
+The core of your automation is the **Ghost-Claw pipeline: READ → ANALYZE → FIX → DEPLOY → VERIFY.** To achieve this autonomously, the AI cannot just reply with conversational text; it must output precise, machine-readable instructions that the FastAPI backend can safely run in the Docker Sandbox.
+*   **The Gemini Fit:** Gemini has exceptionally reliable JSON mode and Function/Tool Calling capabilities. You can enforce strict JSON schemas so Gemini consistently replies with `{"action": "execute_bash", "command": "apt-get install vlc"}`. This stability is the difference between a bot that *suggests* code and an agent that actually *runs* the OS autonomously.
+
+### 4. Code Proficiency Across a "Full-Stack + Hardware" Environment
+Ghost-OS spans one of the widest technical stacks imaginable. You have:
+*   **Hardware:** C++ (Arduino), Python `RPi.GPIO`
+*   **Backend:** Python (FastAPI, WebSockets), Linux Bash scripting, Docker
+*   **Frontend:** React, JavaScript, Electron
+*   **The Gemini Fit:** Gemini handles extreme context-switching brilliantly. Because it is highly proficient across frontend, underlying Linux server administration, and low-level embedded hardware, you only need exactly one API provider to orchestrate every layer of your architecture.
+
+### 5. Gemini 1.5 Flash for Real-Time "Edge" Feel
+Because Ghost-OS utilizes a "split-compute" architecture where the user opens a browser on their laptop to control the Pi, latency is critical. If the user tells the system to rollback a "Dead Eye Snapshot," it needs to feel instantaneous.
+*   **The Gemini Fit:** The inference speed of Gemini 1.5 Flash is incredible. It allows Ghost-Claw to loop through its "Analyze -> Fix -> Verify" stages at a speed that feels like magic to the user, powering real-time web-socket updates on the dashboard without annoying buffering pauses. 
+
+**In Summary:** Ghost-OS pushes beyond standard software AI into the realm of **Physical AI and Operating System automation**. Gemini's unparalleled context length, blazing speed, and native visual processing make it the ultimate "engine" for a project trying to act as an omniscient, hardware-aware Jarvis.
+
+Team **3Bits** -- [Saikat Debnath](https://github.com/heyySaikat), [Aniket Chakraborty](github.com/A-N-IKET), [Anirban Das](https://github.com/anirban222777das)
+
+`2026-04-05`
+
+---
+
+### S.A.F.E.
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/safe-6902) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ayushkumar2601/fire_hard) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://www.canva.com/design/DAG_hnGLZ3U/s2vE_tg-jpMJCWTMT3PtQQ/edit?utm_content=DAG_hnGLZ3U&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/gLaKeGysVLs?si=daCAtrnPZd1emr-Q) [![Built at](https://img.shields.io/badge/Built%20at-FrostHacks%20S02-0052CC?style=flat-square)](https://frosthacks-s-2.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-3-FF6B6B?style=flat-square)
+
+> Smart Adaptive Fire Evacuation
+
+![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![ESP32](https://img.shields.io/badge/ESP32-333333?style=flat-square) ![React.js](https://img.shields.io/badge/React.js-333333?style=flat-square) ![Supabase](https://img.shields.io/badge/Supabase-333333?style=flat-square)
+
+**The problem it solves**
+
+## The Problem It Solves
+
+Traditional fire safety systems in most buildings rely heavily on **audible alarms and static exit signs**. While these alarms alert people that a dangerous situation is occurring, they rarely provide guidance about *where occupants should go next*. In real emergency situations such as fires, smoke spread, or electrical hazards, this lack of directional guidance can cause ***panic, confusion, and inefficient evacuation***. People often move toward the nearest visible exit sign without knowing whether that route is actually safe, which can unintentionally lead them closer to the hazard instead of away from it.
+
+![image](https://assets.devfolio.co/content/8d37b2cbc9fe47119ba5d4082dabfd4d/d294127c-4205-4bf1-bea6-ed202a029ce8.png)
+
+In crowded environments such as offices, malls, university buildings, hospitals, and public infrastructure, evacuation becomes even more complicated. When an alarm sounds, people may rush toward the same exits, creating **bottlenecks and congestion**. At the same time, some evacuation paths may already be unsafe due to smoke, fire spread, or blocked corridors. Traditional alarm systems cannot dynamically respond to these changing conditions. As a result, occupants are forced to rely on instinct rather than accurate situational guidance during the most critical moments.
+
+The **Smart Fire Evacuation Network** addresses this problem by transforming conventional alarm systems into ***intelligent evacuation guidance systems***. Instead of only detecting hazards and triggering alarms, the system actively helps guide occupants toward safer routes in real time. The system is built using a decentralized network of **ESP32-based IoT nodes**, each equipped with smoke and fire detection sensors. These nodes are placed across different zones of a building such as corridors, junction points, stairways, and exit areas.
+
+![image](https://assets.devfolio.co/content/8d37b2cbc9fe47119ba5d4082dabfd4d/7ece2417-4ff3-42fa-8d74-46cf464c07d9.png)
+
+When a node detects smoke or fire, it immediately broadcasts a hazard alert to nearby nodes using **ESP-NOW peer-to-peer communication**, a low-latency wireless protocol that allows devices to communicate directly without relying on a central WiFi router or internet connection. This decentralized architecture ensures that hazard information spreads across the building network within milliseconds, allowing the system to quickly update evacuation guidance.
+
+Once the hazard is identified, nearby nodes automatically update their internal status and activate **visual LED indicators** to guide occupants away from danger. Instead of static exit signs that always point in the same direction, the system creates ***dynamic evacuation routes*** based on the current hazard location. Areas that are unsafe are marked with red indicators, while safer routes and exits are highlighted with green indicators, allowing occupants to intuitively follow the safest path out of the building.
+
+This approach significantly improves evacuation safety by reducing confusion and helping occupants make faster decisions during high-stress emergencies. Because the system operates ***offline and without centralized infrastructure***, it remains functional even if internet connectivity fails or building network systems go down during a disaster.
+
+![image](https://assets.devfolio.co/content/8d37b2cbc9fe47119ba5d4082dabfd4d/29a0c07c-37a6-4517-8937-185f5b246729.png)
+
+Beyond fire safety, this concept can be extended to **industrial safety environments, large campuses, smart buildings, and public transportation hubs** where rapid hazard detection and guided evacuation can save lives. By combining IoT sensing, decentralized communication, and adaptive visual guidance, the Smart Fire Evacuation Network transforms traditional alarms into ***intelligent life-saving infrastructure*** designed to improve emergency response and evacuation efficiency.
+
+**Challenges we ran into**
+
+## Challenges I Ran Into
+
+Building a decentralized evacuation system using multiple ESP32 nodes introduced several technical challenges during development. One of the biggest hurdles was ensuring **reliable real-time communication** between nodes using *ESP-NOW*. In early prototypes, hazard alerts were sometimes not reaching all nodes consistently, which caused incorrect LED guidance during testing. This issue was mainly due to packet loss and improper peer configuration. I solved this by refining the broadcast logic, adding retry mechanisms, and carefully registering peers across all nodes to ensure stable communication.
+
+Another challenge involved the **MQ-2 smoke sensors**, which are known to produce noisy and inconsistent readings. During initial tests, the sensors occasionally triggered false alarms because they react to other gases like alcohol fumes or environmental changes. To address this, I implemented a simple filtering approach using multiple sensor readings and averaging them before evaluating the threshold value. I also spent time calibrating the sensor thresholds experimentally so that the system would detect smoke reliably without triggering unnecessary alerts.
+
+Hardware synchronization between nodes was another obstacle. Since each ESP32 node represents a different zone in the building, their states needed to update quickly and consistently. I implemented timestamp-based message handling so that nodes could ignore outdated messages and always reflect the most recent hazard state.
+
+Finally, integrating the **hardware network with the software dashboard and floor-plan visualization** required careful API and data structuring to ensure that real-time alerts from nodes could be accurately represented in the monitoring interface.
+
+Overcoming these challenges helped make the system ***more stable, reliable, and responsive***, ensuring that hazard alerts propagate across the network in under a second and evacuation guidance remains accurate during emergency scenarios.
+
+**Safety**
+
+## Safety Track Alignment
+
+The **Smart Fire Evacuation Network** directly aligns with the goals of the *Safety Track* by addressing one of the most critical challenges in emergency response: **safe and efficient evacuation during fire incidents**. Traditional fire alarm systems only notify occupants that danger exists, but they do not provide guidance on *how to safely exit a building*. In high-stress situations, this often leads to confusion, panic, and dangerous crowd movement toward unsafe areas.
+
+Our project transforms conventional fire detection systems into ***intelligent evacuation guidance infrastructure***. By using a decentralized network of **ESP32-based sensor nodes**, the system detects smoke or fire hazards in real time and instantly communicates this information across the building using **ESP-NOW peer-to-peer communication**. This allows the system to quickly identify which areas are dangerous and dynamically guide occupants away from those zones.
+
+Instead of relying on static exit signs, the system uses **LED indicators placed across corridors and evacuation routes** to visually direct people toward the safest available exits. Hazard zones are clearly marked, while safe paths are highlighted, enabling occupants to make faster and safer decisions during emergencies.
+
+Another important safety aspect of the system is its ***offline-first architecture***. Because the nodes communicate directly without requiring internet connectivity or centralized infrastructure, the system remains operational even if building networks fail during a disaster. This improves reliability and ensures that evacuation guidance continues to function under critical conditions.
+
+By combining **real-time hazard detection, decentralized communication, and adaptive evacuation guidance**, the Smart Fire Evacuation Network enhances building safety and demonstrates how IoT technology can be used to create smarter, more responsive emergency management systems.
+
+Team **Cyber Yoddhas** -- [Dhiraj kumar chowdhury](https://github.com/Dhirajchowdhury), [Shaista Meher](https://github.com/shaistameher), [AYUSH KUMAR](https://github.com/ayushkumar2601)
+
+`2026-03-28`
+
+---
+
+### FPGA-based Time Domain Reflectometer (TDR)
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/fpgabased-time-domain-reflectometer-tdr-7803) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/garvk1708/FPGA-TDR) [![Built at](https://img.shields.io/badge/Built%20at-Electrothon%208.0-0052CC?style=flat-square)](https://electrothon-8.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-3-FF6B6B?style=flat-square)
+
+> TDR on FPGA with AI-driven cable diagnostics.
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![C++](https://img.shields.io/badge/C++-333333?style=flat-square) ![Hardware Magic](https://img.shields.io/badge/Hardware%20Magic-333333?style=flat-square) ![AI/ML](https://img.shields.io/badge/AI/ML-333333?style=flat-square) ![Verilog](https://img.shields.io/badge/Verilog-333333?style=flat-square)
+
+**The problem it solves**
+
+Modern infrastructure — from telecommunication networks and data centers to power distribution systems — relies heavily on long transmission cables. When these cables develop faults such as open circuits, short circuits, or impedance mismatches, locating the exact fault position becomes extremely difficult.
+
+Traditional fault detection methods often require manual inspection, specialized diagnostic equipment, or physical cable replacement, which can be time-consuming, expensive, and disruptive to critical systems. In large networks, a single hidden cable fault can lead to network downtime, signal degradation, or system failure, impacting operations and reliability.
+
+Our FPGA-TDR system simplifies this process by acting like radar for cables. It sends a high-speed electrical pulse through the transmission line and analyzes the reflected signal to determine both the location and type of fault with high precision.
+
+What People Can Use It For
+
+Telecommunications: Quickly locate faults in network cables and communication lines.
+
+Power infrastructure: Detect and diagnose faults in underground or long-distance power cables.
+
+Data centers: Monitor large cable networks and reduce downtime caused by hidden faults.
+
+Electronics development: Diagnose signal integrity issues in high-speed PCB traces and wiring systems.
+
+Industrial maintenance: Enable technicians to find cable faults without dismantling or replacing entire wiring systems.
+
+How It Makes Existing Tasks Easier
+
+Our system improves traditional diagnostics by combining high-precision FPGA signal processing, IoT connectivity, and AI-assisted analysis.
+
+⚡ Faster diagnostics: Faults can be located within seconds instead of hours of manual inspection.
+
+📡 Remote monitoring: IoT integration allows cable health to be monitored through a live web dashboard.
+
+🤖 Predictive maintenance: AI-powered analysis can identify patterns and predict future cable failures.
+
+💰 Lower cost: Provides an affordable alternative to expensive industrial TDR equipment.
+
+By transforming traditional cable testing into a smart, connected, and predictive diagnostic system, our solution helps industries reduce downtime, improve safety, and maintain critical infrastructure more efficiently.
+
+**Challenges we ran into**
+
+Building a high-precision hardware system that integrates FPGA signal processing, IoT communication, and AI analysis came with several technical challenges.
+
+Debugging the FPGA Logic
+A significant amount of time was spent debugging the FPGA modules responsible for pulse generation, timing measurement, and signal detection. Small timing errors in hardware logic could significantly affect the accuracy of the TDR measurements.
+
+Accurate Distance Measurement
+Initially, the calculated fault distance was not accurate. To solve this, we calibrated the system by testing cables of known length and calculating the signal velocity factor, which allowed us to correctly map time delay to physical distance.
+
+AI Integration with the Dashboard
+Integrating AI-based analysis into the web dashboard using the Gemini API was challenging. Ensuring the processed cable diagnostic data could be correctly interpreted and displayed in a meaningful way required multiple iterations.
+
+Data Transmission Issues
+At one stage, the ESP8266 was successfully transmitting data, but it was not appearing on the server. Debugging the communication pipeline between the device, server, and dashboard required careful troubleshooting of network requests and backend endpoints.
+
+Hardware Connection Complexity
+Establishing reliable hardware connections between the FPGA board, transmission line interface, and IoT module was difficult. Ensuring stable signal transmission while avoiding noise and incorrect triggering required careful wiring and testing.
+
+Signal Noise and Reflection Detection
+Separating real reflections from noise in the signal path was another challenge. We had to refine the detection logic to ensure the system responded only to valid reflection signals.
+
+Coordinating Hardware, Firmware, and Cloud Systems
+Since the project combines FPGA hardware design, embedded IoT communication, and cloud-based visualization, synchronizing all components to work seamlessly required extensive integration and testing.[](url)
+
+**Electrothon 8.0 Winners**
+
+Our project stands out because it tackles a real engineering problem using a combination of advanced hardware and modern software technologies. While many projects focus only on software solutions, we built a working hardware system from scratch that performs high-precision cable fault detection using an FPGA-based Time Domain Reflectometer.
+
+What makes our project unique is the modern implementation approach. Traditional TDR systems are expensive industrial instruments, but we recreated this concept using a Cyclone IV FPGA with a multi-phase Time-to-Digital Converter, enabling high-resolution fault detection through custom hardware logic. This required deep work in digital design, signal timing, and hardware debugging, which goes beyond typical hackathon projects.
+
+At the same time, we didn’t stop at hardware. We extended the system by integrating IoT connectivity through an ESP8266 and AI-assisted analysis through the Gemini API, allowing the device to send diagnostic data to a cloud dashboard and analyze cable health for predictive maintenance.
+
+Because of this, our project is not just a prototype—it is a complete ecosystem that combines hardware engineering, embedded systems, networking, and AI. This rare blend of FPGA-based hardware innovation and intelligent software integration makes our solution both technically challenging and highly practical.
+
+In short, our project stands out because it brings together deep electronics engineering with modern intelligent systems, creating a solution that reflects the spirit of Electrothon: pushing the boundaries of what can be built when hardware and software work together.
+
+**Electrothon 8.0 Honors Track**
+
+***HARDWARE TRACK***
+
+Our project is fundamentally a hardware-first innovation built around a custom FPGA-based Time Domain Reflectometer (TDR) designed to detect and locate faults in transmission cables with high precision. Instead of relying on software simulations or off-the-shelf diagnostic tools, we implemented the core functionality directly in hardware using a Cyclone IV E FPGA, enabling nanosecond-level timing measurements and real-time signal analysis.
+
+Reasons We Fit the Best Hardware Hack Category
+
+Custom Hardware Implementation
+The core fault-detection logic is implemented at the hardware level on an FPGA, including pulse generation, reflection detection, and a multi-phase Time-to-Digital Converter (TDC) for high-resolution timing measurement.
+
+High-Speed Signal Processing
+The system performs real-time digital signal processing directly on the FPGA, allowing accurate detection of signal reflections and precise calculation of cable fault locations.
+
+Complex Hardware Integration
+The project integrates multiple hardware components, including the FPGA board, transmission line interface, and ESP8266 IoT module, requiring careful circuit connections, timing synchronization, and signal handling.
+
+Hardware + IoT + AI Ecosystem
+While the core innovation lies in hardware, we extended the system by integrating IoT connectivity for remote monitoring and AI-based predictive maintenance, demonstrating how advanced hardware systems can power intelligent infrastructure solutions.
+
+Team **ECE KE SHER** -- [Kritika bhandari](https://github.com/KritikaBhandari), [Shranya Thakur](https://github.com/Shranya24), [Shubham Pathak](https://github.com/ShubhmPathak02), [Garv Kapoor](https://github.com/garvk1708)
+
+`2026-03-15`
+
+---
+
+### WiFi CRO
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/wifi-cro-5c7d) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Naman1177/WIFI_CRO) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://drive.google.com/file/d/1rVGG4GUArWKFOIuTq2kKLgNRNvUQqXf-/view?usp=sharing) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/XVA78UlYc90) [![Built at](https://img.shields.io/badge/Built%20at-Electrothon%208.0-0052CC?style=flat-square)](https://electrothon-8.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-3-FF6B6B?style=flat-square)
+
+> Not your usual Electronics lab CRO!
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![ESP32](https://img.shields.io/badge/ESP32-333333?style=flat-square) ![NodeMCU IoT](https://img.shields.io/badge/NodeMCU%20IoT-333333?style=flat-square) ![HTML5​](https://img.shields.io/badge/HTML5​-333333?style=flat-square)
+
+**The problem it solves**
+
+Traditional oscilloscopes, especially those based on Cathode Ray Oscilloscope technology, were bulky, expensive, and required specialized hardware to visualize electrical signals. Even modern **Digital Storage Oscilloscope devices remain costly and are often inaccessible for many students, hobbyists, and small labs.
+
+Because of this, many learners struggle to observe real-time voltage and current waveforms while experimenting with circuits. A low-cost, portable, and easy-to-use solution is needed that can display electrical signals without requiring dedicated oscilloscope hardware or software installation.
+
+WiFi-CRO addresses this problem by providing a browser-based oscilloscope that streams real-time waveform data over WiFi using inexpensive components.
+
+**Challenges we ran into**
+
+ADC Speed Limitation – The ESP8266 and ADS1115 have limited sampling rates, making it challenging to capture smooth waveforms and restricting the frequency range to about 200 Hz.
+
+Handling Negative AC Signals – Standard single-ended ADC readings cannot represent negative voltages. Implementing differential measurement mode was necessary to correctly capture the full AC waveform.
+
+Protecting the ADC Inputs – Ensuring the ADC never received more than 3.3 V required careful design of voltage dividers and protection using a Zener diode.
+
+Current Sensor Scaling – The ACS712 outputs up to 4.5 V, which exceeds the ADC limit. Designing a proper resistor divider while maintaining measurement accuracy was necessary.
+
+Noise in Measurements – Breadboard wiring and long probe leads introduced noise in signals. This required adding filtering capacitors and improving grounding.
+
+Real-Time Data Streaming – Efficiently sending ADC data over WiFi without slowing down waveform updates required optimizing the HTTP data transfer from the ESP8266 to the browser.
+
+AI Integration – Integrating waveform data with Google Gemini 2.5 Flash for automated signal diagnosis required structuring sensor data in a way that the AI could correctly interpret.
+
+**Electrothon 8.0 Honors Track**
+
+BEST HARDWARE HACK
+BEST BEGINNERS
+
+**Google Cloud**
+
+GEMINI API CHALLENGE
+
+Team **Team dracarys** -- [Naman Malhotra](https://github.com/Naman1177), [mayank thakur](https://github.com/mayank), Garima Pathania, [Ayushi Sharma](https://github.com/ayushiiish)
+
+`2026-03-15`
+
+---
+
 ### Anveshak
 [![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/anveshak-09ab) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/paimon-2005/anveshak-ugv.git) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/sJU5azL8ApE) [![Built at](https://img.shields.io/badge/Built%20at-Hackrit-0052CC?style=flat-square)](https://hackrit2026.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
 
@@ -1053,6 +1542,150 @@ Team **QBIT dynamics** -- [Saaraswata Roy](https://github.com/saaraswata), [Arna
 
 ---
 
+### ARANYASHIELD
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/aranyashield-50c0) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/Sp6MQwiI-LY) [![Built at](https://img.shields.io/badge/Built%20at-Hacktropica%202k26-0052CC?style=flat-square)](https://hacktropica2k26.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> Protecting Nature With Intelligent Eyes in the SKY
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Arduino IDE](https://img.shields.io/badge/Arduino%20IDE-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![ESP32](https://img.shields.io/badge/ESP32-333333?style=flat-square)
+
+**The problem it solves**
+
+To understand the true value of AranyaShield, it helps to look at it not just as a drone, but as a bridge between high-altitude satellite monitoring and ground-level manual patrolling.
+
+In a dense forest, the "Canopy Gap" is where most environmental crimes and disasters hide. Here is the breakdown of the specific problems this system solves:
+
+1. The "Blind Spot" of Traditional Surveillance
+Satellites are great for spotting massive fires, but by the time a fire is big enough to be seen from space, it's often too late to contain.
+
+The Problem: Dense foliage hides early-stage smoke and small heat signatures.
+
+The Solution: AranyaShield flies under or at the canopy level. Its MQ-series smoke sensors detect chemical traces of fire long before a thermal camera sees a flame through the leaves.
+
+2. The Acoustic "Invisibility" of Illegal Logging
+Illegal loggers and poachers are experts at hiding from visual patrols. They use the vastness of the forest to their advantage.
+
+The Problem: Rangers cannot be everywhere at once, and cameras only see what is directly in front of them.
+
+The Solution: The Sound Sensor acts as a 360-degree "digital ear." It can trigger an alert based on the specific frequency of a chainsaw or a gunshot, even if the activity is happening behind a thicket of trees where the camera can't see.
+
+3. The "GPS-Denied" Navigation Trap
+Standard commercial drones rely heavily on clear GPS signals. In deep valleys or under heavy tree cover, GPS signals "bounce" (multipath error) or drop entirely, leading to drone crashes.
+
+The Problem: Traditional autonomous flight fails in the very environment where it is needed most.
+
+The Solution: By using Ultrasonic Sensors for localized obstacle avoidance and altitude hold, the drone creates a "safety bubble" around itself. It doesn't just rely on a coordinate in the sky; it "feels" the trees around it to prevent collisions.
+
+4. The Response Time Gap (Search & Rescue)
+When a person goes missing in a forest, every hour reduces the chance of survival. Ground teams move slowly through thick underbrush.
+
+The Problem: Human search parties are limited by fatigue, daylight, and terrain.
+
+The Solution: The drone can cover 10x the area of a ground team in the same time. By using the ESP32 to process data at the "Edge," it doesn't need to send video back to a server to "think." It can identify a human thermal signature or a distress whistle (via the sound sensor) and instantly broadcast the exact GPS coordinates to the rescue team's handheld devices.
+
+**Challenges we ran into**
+
+Gemini said
+Building a sophisticated hardware-software hybrid like AranyaShield on an ESP32 stack is a massive undertaking. While the vision is high-tech, the reality of building it usually involves "fighting" the hardware to get it to behave in a rugged environment.
+
+Here are four specific technical hurdles you likely faced (or will face) and the engineering "pivots" used to overcome them.
+
+1. The "Power Spike" Problem (Sensor Interference)
+The Hurdle: The MQ-series smoke sensor requires an internal heating element to function. When the heater kicks in, it draws a significant amount of current. We found that this caused "brownouts" on the ESP32 or created electrical noise that made the Ultrasonic sensors give erratic distance readings (jumping from 2 meters to 10 centimeters instantly).
+
+The Fix: * Hardware: We implemented decoupling capacitors (10µF and 0.1µF) close to the sensor power pins to smooth out the voltage spikes.
+
+Isolation: We moved the smoke sensor onto a dedicated 5V power rail separate from the ESP32’s 3.3V logic supply to ensure the "noise" from the heater didn't leak into the microcontroller's processing.
+
+2. The "Blocking Code" Trap (Concurrency)
+The Hurdle: Standard Arduino code runs in a single loop. When we added the GPS module, the code would "wait" for a valid satellite string. During those few milliseconds of waiting, the Sound Sensor was "deaf" and the Ultrasonic sensors weren't checking for obstacles. In a flying drone, 200ms of "blindness" means a crash.
+
+The Fix: We pivoted to using FreeRTOS (which is native to the ESP32). We split the project into three high-priority tasks:
+
+Task A (Flight Safety): Reading Ultrasonic data every 20ms.
+
+Task B (Environmental): Sampling Sound and Smoke levels.
+
+Task C (Telemetry): Handling GPS and WiFi/LoRa communication.
+This ensured that a slow GPS lock never interrupted the "reflexes" of the drone's obstacle avoidance.
+
+3. Acoustic "Ghosting" (Propeller Noise)
+The Hurdle: The Sound Sensor is designed to hear chainsaws and gunshots. However, when the drone is flying, the high-frequency whine of the four brushless motors creates a massive amount of "acoustic trash." The sensor would constantly trigger "false positives" because it couldn't distinguish a chainsaw from its own propellers.
+
+The Fix: Instead of just measuring "loudness" (amplitude), we implemented a basic Frequency Analysis (using an FFT - Fast Fourier Transform library). We identified the specific frequency band of the drone's motors and "notched" it out in the code, allowing the ESP32 to listen specifically for the lower-frequency "thrum" of a chainsaw or the sharp "crack" of a gunshot.
+
+4. GPS Signal "Multipath" (The Canopy Shield)
+The Hurdle: In dense forests, the tree canopy acts like a biological shield. The GPS Neo-6M module struggled to get a "3D Fix" because the leaves blocked or reflected the satellite signals. The drone’s coordinates would "drift" by 10–15 meters even when sitting still.
+
+The Fix: We implemented Sensor Fusion. We didn't rely solely on the GPS for positioning. We used the Ultrasonic sensors to maintain a fixed altitude and the Onboard IMU (Inertial Measurement Unit) to track relative movement. If the GPS signal dropped or became unreliable (High HDOP), the system would switch to "Dead Reckoning" mode, using its last known velocity and heading to estimate its position until a clear signal returned.
+
+**Best Hardware Project**
+
+Track Fit: Best Hardware Project
+AranyaShield is a high-performance, multi-mission autonomous quadcopter that pushes the limits of the ESP32 architecture to solve critical environmental challenges. Our project fits the "Best Hardware Project" track through its complex integration of sensors, custom power management, and edge-computing capabilities.
+
+1. Sophisticated Sensor Fusion
+Unlike standard drones, AranyaShield utilizes a specialized hardware stack designed for high-density forest environments:
+
+Acoustic Intelligence: A high-sensitivity sound sensor coupled with real-time frequency analysis to detect chainsaws/gunshots.
+
+Chemical Early Warning: MQ-series smoke detection sensors integrated into the airflow for early-stage wildfire identification.
+
+Ultrasonic Shielding: A localized array of HC-SR04 sensors providing a 360° "safety bubble" for obstacle avoidance in GPS-denied forest canopies.
+
+2. Custom Engineering & Power Optimization
+A major hardware hurdle was managing the high current draw of the smoke sensor's heating element alongside the ESP32’s logic. We engineered a multi-rail power distribution system with decoupling capacitors to prevent electrical noise from interfering with sensor accuracy—a common pitfall in DIY robotics.
+
+3. Edge Intelligence on Low-Power Hardware
+We successfully implemented FreeRTOS on the ESP32 to handle concurrent tasking (GPS tracking, sensor sampling, and flight safety) without a single point of failure. By moving the "brain" entirely onto the drone (Edge AI), we eliminated the need for cloud dependency, making this a truly standalone, rugged hardware solution for remote wilderness.
+
+4. Scalability & Impact
+The hardware is designed to be cost-effective and modular, allowing for the deployment of drone "swarms." This makes it a viable real-world tool for forest departments with limited budgets, providing a tangible hardware solution to the global crises of deforestation and wildfires.
+
+Team **MicroHarD** -- [Abhijit Mridha](https://github.com/paimon-2005), [Atanu Maity](https://github.com/atanu194m), [Atanu Ray](https://github.com/atanuray1802-ai), [Poulami Neogi](https://github.com/ethereal19)
+
+`2026-04-05`
+
+---
+
+### SMART KRISHI
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/smart-krishi-324a) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/sWIkOdr-2k4?si=dw0X5t9iY3pmwXnO) [![Built at](https://img.shields.io/badge/Built%20at-Hacknovate--7.0-0052CC?style=flat-square)](https://hacknovate07.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> From Guesswork to Data-Driven Farming.
+
+![Firebase](https://img.shields.io/badge/Firebase-333333?style=flat-square) ![Android](https://img.shields.io/badge/Android-333333?style=flat-square) ![Kotlin](https://img.shields.io/badge/Kotlin-333333?style=flat-square) ![ESP32](https://img.shields.io/badge/ESP32-333333?style=flat-square) ![Embedded Systems](https://img.shields.io/badge/Embedded%20Systems-333333?style=flat-square)
+
+**The problem it solves**
+
+Smart Krishi tackles two core issues: unpredictable farm productivity and lack of trust in food quality.
+
+Farmers rely on guesswork for irrigation and crop decisions, leading to low efficiency and unstable income. Existing solutions only provide data, not action.
+
+Smart Krishi converts farming into a data-driven, automated system using IoT sensors and AI to monitor soil, detect diseases, and control irrigation in real time. It also enables traceability, linking farm data to final produce for consumer trust.
+
+⚙️ What People Can Use It For
+Automate irrigation based on real-time soil data
+Monitor farm conditions remotely
+Detect plant diseases using AI
+Improve crop decisions using data insights
+Enable traceable, verified food production
+
+It reduces manual effort, increases efficiency, and turns farming into a controlled, predictable process.
+
+**Challenges we ran into**
+
+Power & hardware instability → Fixed using better battery setup and circuit design
+LoRa communication issues → Improved packet handling and reliability
+Noisy sensor data → Applied calibration and filtering
+Limited ML datasets → Used transfer learning and curated datasets
+System integration complexity → Built modular pipeline (data → processing → action)
+
+Team **ROGUE BITS** -- [Anamika Vashisth](https://github.com/Null), [Shivam Mishra](https://github.com/SaKA7dev), [Prabhat Singh](https://github.com/prabhat9949), [Abhay Chauhan](https://github.com/AbhaySingh97/)
+
+`2026-04-04`
+
+---
+
 ### Mukut-Smart coal miner helmet
 [![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/mukutsmart-coal-miner-helmet-7197) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/kamanasis/MUKUT) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://drive.google.com/file/d/19JHMU3Bv5PdjmeAiScJNGzLaCYrPftrx/view?usp=drivesdk) [![Built at](https://img.shields.io/badge/Built%20at-HackVerse:%20Into%20the%20Web-0052CC?style=flat-square)](https://hackverse-into-the-web.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
 
@@ -1320,6 +1953,596 @@ BharatShield solves this by:
 Team **CtrlFreaks** -- [Ishita Dey](https://github.com/ishitadey955), [Aaditya Gupta](https://github.com/aadityagupta01), [Ayan Kar](https://github.com/Ayancoder1), [Anish Ghosh](https://github.com/ANISHGHOSH763)
 
 `2026-04-19`
+
+---
+
+### FirmwareForge
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/firmwareforge-348c) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Souptik-De/FirmwareForge) [![Built at](https://img.shields.io/badge/Built%20at-Hacktropica%202k26-0052CC?style=flat-square)](https://hacktropica2k26.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> AI first hardware IDE
+
+![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Electron](https://img.shields.io/badge/Electron-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![AI/ML](https://img.shields.io/badge/AI/ML-333333?style=flat-square)
+
+**The problem it solves**
+
+# Problem Solved by FirmwareForge
+
+**FirmwareForge** is an AI-native Arduino IDE that simplifies embedded development through intelligent automation.
+
+## Core Problems
+
+### 1. **Manual Complexity**
+- **Problem**: Traditional Arduino IDEs require manual pin conflict checking
+- **Solution**: AI-powered code generation with Gemini 2.0 Flash that automatically handles pin assignments, includes required libraries, and ensures board compatibility
+
+### 2. **Fragmented Workflow**
+- **Problem**: Developers switch between code editor, serial monitor, board manager, and external tools
+- **Solution**: Unified Electron app integrating Monaco editor, serial monitor, Arduino CLI, and Wokwi simulation
+
+### 3. **Steep Learning Curve**
+- **Problem**: Beginners struggle with wiring, hardware requirements, and proper code structure
+- **Solution**: Multiple AI assistance modes:
+  - **Chat Guide**: Educational guidance without code
+  - **Plan-First**: Detailed implementation plans before coding
+  - **Step-by-Step**: Incremental building with todo tracking
+  - **Fast Build**: Immediate code generation
+
+### 4. **Hardware Compatibility Issues**
+- **Problem**: Pin conflicts, voltage mismatches, and timing issues cause failures
+- **Solution**: AI automatically checks pin conflicts, flags voltage issues, and ensures proper code structure
+
+## Key Innovation
+
+FirmwareForge makes AI a first-class citizen in embedded development, providing contextual assistance and hardware-aware code generation that understands physical constraints.
+
+## Target Users
+
+- **Beginners**: Educational guidance and automation
+- **Hobbyists**: Rapid prototyping with AI assistance  
+- **Professionals**: Streamlined workflow with advanced features
+- **Educators**: Teaching tool with built-in best practices
+
+**Best Use of Gemini API**
+
+We are using gemini  api as the ai agent in our ai first hardware ide where it generates code , makes circuit visualization ,creates plan , guides in chat etc.
+
+**Best Hardware Project**
+
+We are revolutionizing hardware development by ai first hardware ide where it generates code , makes circuit visualization ,creates plan , guides in chat etc.
+
+Team **Nooblers** -- [Soumyadip Das](https://github.com/morc00), [Souptik De](https://github.com/Souptik-De)
+
+`2026-04-05`
+
+---
+
+### SMART SAFETY HELMET SYSTEM FOR RIDERS
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/smart-safety-helmet-system-for-riders-dd26) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://youtu.be/1pDNSbBRAsg) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/1pDNSbBRAsg) [![Built at](https://img.shields.io/badge/Built%20at-Hacktropica%202k26-0052CC?style=flat-square)](https://hacktropica2k26.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> protecting Heads with intelligent technology
+
+![Arduino Uno](https://img.shields.io/badge/Arduino%20Uno-333333?style=flat-square) ![GPS](https://img.shields.io/badge/GPS-333333?style=flat-square) ![ESP32](https://img.shields.io/badge/ESP32-333333?style=flat-square) ![MQ5 gas sensor](https://img.shields.io/badge/MQ5%20gas%20sensor-333333?style=flat-square) ![ESP-32 WiFi Module](https://img.shields.io/badge/ESP--32%20WiFi%20Module-333333?style=flat-square) ![Sensors](https://img.shields.io/badge/Sensors-333333?style=flat-square)
+
+**The problem it solves**
+
+Our project is highly beneficial for delivery partners, who often face time constraints that may lead them to exceed safe driving speeds. The system continuously monitors the rider’s speed and provides real-time alerts through the helmet if the speed exceeds safe limits.
+
+In addition, the project incorporates safety features such as alcohol detection to identify if the rider is under the influence, as well as rider monitoring for enhanced security. In the event of an accident, the system automatically generates and sends an alert message to predefined contacts or emergency services.
+
+Overall, this solution aims to improve rider safety, promote responsible driving behavior, and significantly reduce the risk of accidents.
+
+**Challenges we ran into**
+
+During the development of our project, we encountered several challenges. At times, hardware connections were not functioning reliably, which required careful troubleshooting and reconfiguration. Additionally, we faced minor issues in the coding phase, including debugging errors and optimizing system performance.
+
+However, through continuous testing, teamwork, and iterative improvements, we were able to overcome these challenges and successfully implement the system.
+
+Team **Four Runners** -- [Souhardya Mitra](https://github.com/mitrasouhardya2005-cpu), [SRIPARNO DAS](https://github.com/sriparnodas9-collab), [Renascence Dey](https://github.com/Rena-code93), [Soham Sarkar](https://github.com/sohamsarkar-dotcom)
+
+`2026-04-05`
+
+---
+
+### LokPi
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/lokpi-671e) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Shikhar-24100/Hackmol-7.0) [![Built at](https://img.shields.io/badge/Built%20at-HackMol%207.0-0052CC?style=flat-square)](https://hackmol-7.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> The Offline Smart Assistant for Bharat
+
+![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square)
+
+**The problem it solves**
+
+Generative AI is revolutionizing the world, but it is leaving behind the next billion users. Existing smart assistants (like Siri or Alexa) and cloud-based LLMs fail rural and non-urban India for four critical reasons: they require persistent high-speed internet, expensive hardware, paid data plans, and are heavily biased toward English fluency. LokPi bridges this digital divide. It is a 100% offline, privacy-first, Devanagari-native voice assistant running entirely on a low-cost Raspberry Pi .Here is how LokPi makes existing tasks radically easier, safer, and more accessible:
+1. Breaking the Connectivity Barrier
+For the ~400 million people with limited or no internet access, relying on the cloud is impossible. LokPi brings the power of an LLM directly to the edge. It processes complex intents, manages memory, and answers questions with zero latency and zero internet dependency.
+2. Hands-Free Digital Literacy via ADB
+Many first-time tech users struggle with complex touchscreen UIs. LokPi solves this by integrating an offline Android phone controller via ADB. Users can simply speak in Hindi, and LokPi will physically control their smartphone—opening WhatsApp, scrolling, typing, or making calls —turning an intimidating smartphone into a fully accessible, voice-first device.
+3. Hyper-Local Language Support
+Instead of forcing users to adapt to "bot English," LokPi natively understands Devanagari speech (STT) and synthesizes Hindi text (TTS). We implemented fuzzy matching and custom alias dictionaries to gracefully handle regional dialects, local slang, and mispronunciations that trip up commercial AIs
+
+**Challenges we ran into**
+
+Building a 100% offline, generative AI pipeline on a highly resource-constrained Raspberry Pi meant we couldn't rely on the safety nets of cloud APIs. Every component—from STT to LLM to TTS—had to be optimized for the edge.
+
+**Main Track: The Deepforge Arena**
+
+LokPi fits perfectly into The Deepforge Arena because it is a triumph of highly optimized, resource-constrained Edge AI engineering. Rather than relying on cloud APIs, we forged a 100% offline, decoupled AI pipeline running entirely on a low-power Raspberry Pi. To make this possible, we engineered deep system-level optimizations: parallel model warm-ups, asynchronous intent parsing, RAM pinning (keep_alive=-1), non-blocking background TTS threads, and a multi-tiered local LLM architecture (routing between Llama 3.2 1B and 3B models). We aren't just calling an AI; we forged a robust, low-latency edge AI stack that directly interfaces with hardware via offline ADB commands to bridge India's digital divide.
+
+Team **Echelon** -- [Premal Goyal](https://github.com/Premal005)
+
+`2026-03-29`
+
+---
+
+### Synapse XR
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/synapse-xr-e1f7) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/prayag-1771/Synapse_XR) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtube.com/shorts/IWHz76PAAq4) [![Built at](https://img.shields.io/badge/Built%20at-DevsHouse%20'26-0052CC?style=flat-square)](https://devshouse26.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Remote AR/VR Guidance System
+
+![WebSockets](https://img.shields.io/badge/WebSockets-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![WebRTC](https://img.shields.io/badge/WebRTC-333333?style=flat-square) ![Three.JS](https://img.shields.io/badge/Three.JS-333333?style=flat-square) ![Express.js](https://img.shields.io/badge/Express.js-333333?style=flat-square) ![Redis](https://img.shields.io/badge/Redis-333333?style=flat-square) ![ESP32](https://img.shields.io/badge/ESP32-333333?style=flat-square) ![Unity 3D](https://img.shields.io/badge/Unity%203D-333333?style=flat-square)
+
+**The problem it solves**
+
+## The Problem It Solves
+
+Synapse XR addresses the gap between **on-site junior engineers and remote senior expert engineers**, especially in scenarios involving **heavy and costly machinery** such as turbines and transformers, where precise guidance is critical but physical presence is not always feasible.
+
+In many cases, experienced experts must travel **long distances** to handle serious faults, leading to delays, increased costs, and operational downtime. Synapse XR enables real-time remote assistance, reducing the need for physical travel.
+
+This is achieved through the integration of **AR/VR, IoT, and AI technologies**, where AI further enhances the system by **smoothing interactions, enabling hand/object detection, and providing real-time measurements (such as length and angles)** to assist expert engineers in precise decision-making.
+
+### Core Problems
+
+- Lack of **real-time expert assistance** in remote or industrial environments  
+- Dependence on experts traveling long distances for critical issues  
+- Difficulty in explaining **complex hand movements or procedures verbally**  
+- High risk of **errors, delays, or safety hazards** due to miscommunication  
+- Inefficiency of traditional support methods such as **calls, manuals, or static video**
+
+**Challenges we ran into**
+
+### 1. Noisy Sensor Data (Hardware Instability)
+
+**Problem:**  
+Flex sensors and FSR readings were inconsistent due to electrical noise and unstable wiring.
+
+**Solution:**  
+- Added capacitors for noise filtering  
+- Implemented moving average smoothing in firmware  
+- Ensured proper grounding and shorter wire paths  
+
+
+### 2. Real-Time Data Latency
+
+**Problem:**  
+Initial communication methods caused noticeable lag between glove movement and AR rendering.
+
+**Solution:**  
+- Switched to WebSockets for continuous streaming instead of HTTP polling  
+- Introduced Redis for fast in-memory state + Pub/Sub fan-out  
+- Optimized event flow to avoid unnecessary database hits  
+
+
+### 3. Synchronization Between Systems (ESP32 ↔ Backend ↔ AR)
+
+**Problem:**  
+Ensuring all components (glove, backend, dashboard, Unity app) interpret data consistently.
+
+**Solution:**  
+- Defined a strict JSON schema for glove data  
+- Used shared contracts in  `shared/schemas/` to enforce consistency  
+- Standardized event names like ``` `hand:data`, `glove:update` ```across services  
+
+
+### 4. Real-Time Multi-User Session Management
+
+**Problem:**  
+Handling multiple users (worker + expert) in the same session with proper access control.
+
+**Solution:**  
+- Built a session-based backend system with roles ```(`worker`, `expert`, `admin`)```  
+- Used JWT authentication and Socket.IO room-based routing  
+- Cached latest glove state in Redis for quick access  
+
+
+### 5. Hardware + Software Integration Complexity
+
+**Problem:**  
+Bridging physical hardware signals with real-time software systems and AR rendering.
+
+**Solution:**  
+- Broke the system into clear layers:  
+  `Sensor → Firmware → WebSocket → Backend → Clients`  
+- Developed and tested each module independently before integrating  
+- Used simple test servers and visualization tools for debugging early
+
+**AR & VR**
+
+## How This Project Fits Into the AR/VR Track
+
+Synapse XR is fundamentally an **AR-based telepresence system** that enhances real-world tasks using immersive visualization and interaction.
+
+It leverages **Augmented Reality (AR)** to overlay expert guidance directly onto a worker’s physical environment, enabling intuitive, real-time assistance. Instead of relying on verbal instructions, the system allows experts to **visually demonstrate actions through hand tracking and AR overlays**, making guidance more precise and effective.
+
+### Key Alignment with AR/VR
+
+- **Augmented Reality Interaction**  
+  Real-time overlay of expert hand movements and annotations onto the worker’s view using a Unity-based AR application  
+
+- **Immersive Guidance**  
+  Transforms traditional remote support into an interactive AR experience where instructions are *seen*, not just heard  
+
+- **Natural Input in XR**  
+  Uses a sensor-based glove to bring **human hand motion directly into AR**, enabling intuitive and realistic interaction  
+
+- **Spatial Understanding**  
+  Combines hand tracking and environmental context to provide **context-aware guidance in 3D space**  
+
+- **Bridging Physical and Digital Worlds**  
+  Seamlessly connects real-world actions with digital feedback, which is a core principle of AR/VR systems  
+
+Overall, Synapse XR demonstrates how AR can be used beyond visualization—serving as a **practical tool for real-time collaboration, training, and problem-solving in physical environments**.
+
+Team **pipSqueaks** -- [Prayag Sharma](https://github.com/prayag-1771), [PUSHKAR MISHRA](https://github.com/ItsPM25), [R Sudarsan](https://github.com/sudarsan2507-hue), [Ishaan Jindal](https://github.com/SacredNightmare99)
+
+`2026-03-29`
+
+---
+
+### SentinelVault
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/sentinelvault-fd6a) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Lavanya-Vaidya/SentinelVault.git) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=nFbNNtMukcI) [![Built at](https://img.shields.io/badge/Built%20at-DevsHouse%20'26-0052CC?style=flat-square)](https://devshouse26.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Approve with confidence. Sign without exposure
+
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-333333?style=flat-square) ![ESP32](https://img.shields.io/badge/ESP32-333333?style=flat-square) ![ESP32 CAM](https://img.shields.io/badge/ESP32%20CAM-333333?style=flat-square) ![Arduino IDE/ESP-IDF](https://img.shields.io/badge/Arduino%20IDE/ESP--IDF-333333?style=flat-square) ![ATECC508A Secure Element](https://img.shields.io/badge/ATECC508A%20Secure%20Element-333333?style=flat-square) ![2.8” SPI TFT Display (ILI9341)](https://img.shields.io/badge/2.8”%20SPI%20TFT%20Display%20(ILI9341)-333333?style=flat-square) ![Keypad, Li-ion Battery](https://img.shields.io/badge/Keypad,%20Li--ion%20Battery-333333?style=flat-square) ![Node.js, Express.js, Web3.js / Ethers.js](https://img.shields.io/badge/Node.js,%20Express.js,%20Web3.js%20/%20Ethers.js-333333?style=flat-square)
+
+**The problem it solves**
+
+**The Problem It Solves**
+
+A lot of people lose their crypto not because their wallet gets hacked, but because they accidentally approve something they don’t understand.
+
+Most wallets show complicated transaction data that normal users can’t easily read. On top of that, they rely on connected devices like phones or laptops, which can be infected with malware or tricked by phishing websites.
+
+So users often end up blindly signing transactions, not knowing what they’re actually approving.
+
+**What It Helps People Do**
+
+**SentinelVault gives users a safer way to handle their crypto.**
+
+It lets you see and understand what you’re signing
+It keeps your private key completely offline and protected
+It makes sure you confirm every transaction manually
+It helps catch risky actions like giving unlimited permissions
+How It Makes Things Better
+
+**Instead of trusting your phone or browser, SentinelVault acts like a checkpoint.**
+
+You scan the transaction
+The device explains it clearly
+You decide whether to approve it
+Only then does it sign
+
+No cables. No direct connection. No blind trust.
+
+**Challenges we ran into**
+
+**1. Camera Module Integration (ESP32-CAM)**
+
+Getting the camera to work reliably was one of the biggest challenges.
+Initially, the ESP32-CAM would either fail to upload code or randomly restart due to unstable power.
+
+**How we solved it:**
+
+Used a stable 5V supply instead of relying only on USB
+Properly configured GPIO0 for flashing
+Tested using basic camera examples before moving to QR decoding
+
+**2. QR Decoding on Limited Hardware**
+
+Decoding QR codes on the ESP32-CAM was difficult because of limited processing power and memory. Real-time image processing is heavy for a microcontroller.
+
+**How we solved it:**
+
+Optimized image size and resolution
+Explored lightweight QR libraries
+Considered fallback approaches (like simplifying payload or offloading decoding if needed)
+
+**3. Arduino Library Compatibility**
+
+Many libraries (display, camera, crypto) didn’t work smoothly together. Some conflicted with each other or weren’t optimized for ESP32.
+
+**How we solved it:**
+
+Tested each module independently first
+Switched to more stable or actively maintained libraries
+Gradually integrated components instead of building everything at once
+
+**4. API and Transaction Handling**
+
+Understanding how blockchain transactions are structured (especially Ethereum) was challenging. Parsing raw transaction data and converting it into something readable required careful handling.
+
+**How we solved it:**
+
+Broke down the transaction structure step-by-step
+Focused on simple transactions first (like transfers)
+Used existing documentation and examples to validate outputs
+
+**5. Development Workflow**
+
+Managing multiple components (camera, display, secure element, power) made debugging harder. A small issue in one part could break the entire system.
+
+**How we solved it:**
+
+Built the system in stages (camera → display → secure element → integration)
+Tested each module independently before combining
+Used serial debugging extensively
+
+**6. ML Model / Risk Detection Decisions**
+
+Initially considered using a machine learning model for detecting risky transactions, but this added unnecessary complexity and resource constraints for the device.
+
+**How we solved it:**
+Used ensemble XG model for **96.44%** accuracy and AUC to **98%** accuracy
+
+**Blockchain & Decentralized Applications**
+
+SentinelVault directly solves a core problem in the blockchain ecosystem: secure transaction signing and user trust.
+
+In blockchain and decentralized applications (DApps), users are responsible for approving every transaction themselves. There is no central authority to protect them. However, most users interact with DApps through wallets that run on internet-connected devices, making them vulnerable to phishing, malware, and malicious smart contracts.
+
+SentinelVault improves this by acting as a secure, independent signing layer between the user and any DApp.
+
+It works with any Ethereum-based, Blockchain-based DApp (DeFi, NFTs, swaps, etc.)
+It ensures transactions are verified and approved offline
+It keeps private keys completely isolated from the internet
+It prevents users from blindly signing malicious smart contract calls
+
+Instead of replacing DApps, SentinelVault enhances their security, making decentralized systems safer and more usable.
+
+Team **Rocket** -- [Sidak Singh](https://github.com/sidak-sethi/), [Lavanya Vaidya](https://github.com/Lavanya-Vaidya), [Ojas Singh](https://github.com/OjasSingh19), [Himalaya Sharma](https://github.com/sharmahimalaya)
+
+`2026-03-29`
+
+---
+
+### IoT BASED SMART SOLAR MONITORING SYSTEM SDG7
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/solar-monitoring-system-58a3) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Nandana1102/solar-dashboard.git) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/9Av2hR0Z9XI?si=TWvjpxq2yTpV-Xm-) [![Built at](https://img.shields.io/badge/Built%20at-DevsHouse%20'26-0052CC?style=flat-square)](https://devshouse26.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> solar monitoring system
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Arduino IDE](https://img.shields.io/badge/Arduino%20IDE-333333?style=flat-square) ![C++](https://img.shields.io/badge/C++-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![JSON](https://img.shields.io/badge/JSON-333333?style=flat-square) ![ESP32](https://img.shields.io/badge/ESP32-333333?style=flat-square)
+
+**The problem it solves**
+
+Solar panel systems often lose efficiency due to factors such as dust accumulation, overheating, poor maintenance, and unnoticed electrical issues. Most existing setups do not provide real-time monitoring or meaningful insights, making it difficult for users to identify performance drops or take timely action.
+
+As a result, energy generation becomes inconsistent, and users are unable to understand the actual condition of their solar systems. There is a need for a solution that can continuously monitor key parameters, detect problems early, and present the information in a simple and actionable way.
+
+Smart Solar Monitoring & Analytics System
+This system is a real-time solar monitoring solution that measures electrical and environmental parameters while also analyzing performance and providing intelligent insights. It helps users understand how efficiently their solar panel is operating and what actions are needed to improve it.
+It can be used in multiple domains such as homes, industries, maintenance, and research, making solar systems more efficient, reliable, and easy to manage.
+Applications
+Home users: Track energy generation and reduce electricity costs
+Industries & solar farms: Detect underperforming panels and reduce losses
+Maintenance teams: Identify faults quickly and reduce manual inspection
+Students & researchers: Analyze performance and develop smart models
+Key Features
+Real-time monitoring of voltage, current, power, and light
+Calculation of actual vs expected power and energy
+Automatic efficiency evaluation
+Remote access through web dashboard
+Intelligent fault detection system
+Problem Detection
+Dust accumulation on panels
+Overheating conditions
+Low efficiency performance
+Wiring or load issues
+
+Smart Benefits
+Reduces energy loss
+Improves solar efficiency
+Minimizes maintenance effort
+Enhances system safety
+Provides actionable recommendations
+
+Innovation
+Unlike traditional systems, this solution does not just display data but analyzes and interprets it, converting raw values into meaningful insights and decisions.
+
+Impact
+Smarter energy usage
+Lower operational costs
+Safer solar installations
+Better performance monitoring
+
+**Challenges we ran into**
+
+During the development of this project, I faced several technical and practical challenges that required careful problem-solving.
+
+One of the main challenges was establishing reliable communication between the ESP32 and the web dashboard. Since the ESP32 acts as a local server, ensuring stable connectivity over WiFi and handling dynamic IP addresses was initially difficult. This required multiple iterations to ensure the dashboard could consistently fetch real-time data without interruptions.
+
+Another issue was related to data synchronization between the hardware and frontend. Real-time updates caused inconsistencies during rendering, especially in a Next.js environment, where server-side and client-side rendering must match. Resolving hydration errors and managing dynamic data updates properly was an important learning step.
+
+Sensor integration was also a challenge. Each sensor (INA219, BH1750, DS18B20) operates differently, and calibrating them to provide meaningful and stable readings took time. Ensuring that all sensor data was accurate and synchronized before sending it to the dashboard was crucial.
+
+Designing a user interface that is both informative and simple was another hurdle. The goal was to present technical data like voltage, irradiance, and efficiency in a way that is easy to understand at a glance. Achieving a clean layout while including graphs, AI insights, and recommendations required several UI refinements.
+
+Finally, implementing intelligent insights from raw data was challenging. Instead of just displaying sensor values, I had to design logic to interpret the data and generate useful predictions and recommendations, such as detecting efficiency drops or possible dust accumulation.
+
+**IoT & Smart Devices**
+
+This project belongs to the IoT and Smart Devices track because it uses an ESP32 to connect multiple sensors and collect real-time data from a solar panel system. The device measures parameters such as voltage, current, light intensity, temperature, and irradiance, and sends this data over WiFi to a web dashboard.
+
+It is not just a data collection system; it processes the sensor data to evaluate performance, detect issues, and provide useful suggestions. This makes the system smart, as it helps users understand and improve the efficiency of their solar setup.
+
+The project demonstrates a complete IoT workflow by combining sensing, communication, data processing, and visualization into one integrated system.
+
+Team **SANG** -- [STIBIN STEEPHEN](https://github.com/no), [Gautham Pavithran](https://github.com/no), [Nandana Nandakumar](https://github.com/No), [Akshitha Anurag](https://github.com/akshithaanurag-sketch?tab=repositories)
+
+`2026-03-29`
+
+---
+
+### MediMomo
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/medimomo-4ccf) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Dominic12012006/Hacknova-medimomo-auto-bot/tree/main) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://youtu.be/oHC02G1fEOA) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtube.com/shorts/-uCF5oZHu3I) [![Built at](https://img.shields.io/badge/Built%20at-HackNova%203.0-0052CC?style=flat-square)](https://hacknova-3.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Say it, See it, Reach it
+
+![OpenCV](https://img.shields.io/badge/OpenCV-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![UDP Socket](https://img.shields.io/badge/UDP%20Socket-333333?style=flat-square) ![ESP32](https://img.shields.io/badge/ESP32-333333?style=flat-square) ![ROS (Robot Operating System)](https://img.shields.io/badge/ROS%20(Robot%20Operating%20System)-333333?style=flat-square) ![Speech API](https://img.shields.io/badge/Speech%20API-333333?style=flat-square)
+
+**The problem it solves**
+
+What if hospitals had a tireless assistant that
+knew every patient's schedule, navigated every
+ward, and dispensed every dose, without a single
+human detour?
+Solution: A voice-controlled autonomous robot
+that delivers and dispenses medicines on
+schedule — precisely, reliably, every time.
+
+Controlling robots in real time often requires manual input or complex interfaces, which can be limiting in dynamic or assistive scenarios. This project enables intuitive human-robot interaction by combining voice commands with visual perception, allowing a robot to autonomously locate and navigate toward targets using simple spoken instructions. It is especially useful for assistive navigation and hands-free control systems.
+
+**Challenges we ran into**
+
+One major challenge was synchronizing asynchronous inputs from speech recognition and vision processing without introducing latency. Handling noisy or inconsistent voice input and ensuring reliable AprilTag detection in varying lighting conditions also required careful tuning. Another challenge was designing a smooth control pipeline to avoid jittery motion and ensure stable navigation when approaching the target.
+
+Team **MEDI MOMO** -- [Anubhav Rawat](https://github.com/AnubhavRawat21), [Adarsh Mittal](https://github.com/adarsh0error), [Swastika Kangabam](https://github.com/swastopia), [Dominic Thomas](https://github.com/Dominic12012006)
+
+`2026-03-17`
+
+---
+
+### Fury Fly
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/fury-fly-8221) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/yrajha18/ai-powered-rescue-analysis.git) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://drive.google.com/drive/folders/1IzVaLXr7tzOPeuOJU_pgQvI-ybAxGing?usp=drive_link) [![Built at](https://img.shields.io/badge/Built%20at-Electrothon%208.0-0052CC?style=flat-square)](https://electrothon-8.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> India First 45mm Class Micro Drone
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![C++](https://img.shields.io/badge/C++-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square)
+
+**The problem it solves**
+
+During natural disasters such as earthquakes, building collapses, fires, and explosions, rescue teams often face extremely dangerous and inaccessible environments. Many disaster sites contain narrow gaps, unstable debris, toxic environments, or partially collapsed structures where sending human rescuers immediately can risk further casualties.
+
+In the initial hours after a disaster, rapid situational awareness is critical. Rescue teams need to quickly understand the condition of the site—whether there are trapped victims, safe entry points, or further structural risks. However, traditional tools and large drones are often too bulky to navigate confined spaces, making it difficult to inspect the interior of collapsed areas.
+
+Fury Fly addresses this problem by providing a compact micro-drone platform designed to explore tight and hazardous environments. Its lightweight and small form factor allow it to enter spaces that larger drones or rescue equipment cannot access. By remotely operating the drone, rescue teams can safely gather critical information about the disaster site before sending personnel inside.
+
+The drone enables responders to:
+
+Explore collapsed structures or narrow spaces safely
+
+Assess dangerous environments without risking human lives
+
+Quickly gather situational information in disaster zones
+
+Support faster and more informed rescue decisions
+
+**Challenges we ran into**
+
+Developing Fury Fly involved several technical and engineering challenges across hardware integration, flight stability, and power management.
+
+One of the major challenges was achieving stable hovering on a micro-drone platform. Since the drone uses lightweight coreless motors and a compact frame, even small variations in thrust could cause instability. Integrating the MPU6050 IMU sensor and tuning the stabilization algorithms to maintain a balanced flight required multiple iterations of testing and calibration.
+
+Another challenge was power management. The drone runs on a small 1S Li-Po battery, which limits both current supply and flight time. Ensuring that the ESP32 controller, motor drivers, and sensors received stable power without voltage drops required careful wiring and optimization of the power distribution system.
+
+Hardware integration also presented difficulties. Connecting multiple components such as the ESP32 microcontroller, IMU sensor, motor drivers, and wireless communication module in a very compact space required careful layout planning and soldering precision. Any loose connection or electrical noise could directly affect flight stability.
+
+I also faced challenges in motor control and thrust balancing. Small differences between motors can lead to uneven lift, so proper calibration and testing were necessary to ensure that the drone could hover reliably.
+
+Additionally, firmware development and debugging took significant effort. Implementing real-time sensor reading, filtering the IMU data, and converting it into stable motor control signals required extensive testing and tuning.
+
+Despite these challenges, overcoming them helped improve the robustness of Fury Fly and strengthened the system’s capability to operate as a compact, disaster-response micro-drone platform.
+
+**Electrothon 8.0 Winners**
+
+Fury Fly is an intelligent micro-drone designed to assist disaster response teams in navigating hazardous and confined environments where human entry is dangerous or impossible. Built as a compact aerial exploration system, Fury Fly aims to improve situational awareness, rapid assessment, and search operations during disasters such as earthquakes, collapsed buildings, fires, and other emergency situations.
+
+The project combines hardware innovation, embedded intelligence, and real-time communication to create a lightweight drone platform capable of stable flight and indoor navigation. Powered by an ESP32-based flight controller, Fury Fly integrates multiple subsystems including an IMU-based stabilization unit (MPU6050), custom motor driver circuitry, and a high-efficiency Li-Po power system optimized for micro aerial vehicles.
+
+What makes Fury Fly a strong candidate for the Electrothon Winner Track is its focus on solving a real-world problem with a practical, deployable solution. Traditional drones are often too large to enter collapsed structures or narrow spaces, while Fury Fly is designed specifically to operate in tight, debris-filled environments. Its small size and stable hover capability allow it to explore areas inaccessible to rescue teams.
+
+The system also incorporates wireless communication over Wi-Fi, enabling operators to remotely control the drone and monitor its status in real time. This allows rescue personnel to safely gather information from disaster sites before sending human teams into potentially dangerous areas.
+
+Fury Fly demonstrates the key elements required for a winning innovation:
+
+Real-world impact: Assists disaster response and search operations
+
+Interdisciplinary engineering: Combines electronics, embedded systems, and robotics
+
+Practical implementation: A working hardware prototype rather than a conceptual idea
+
+Scalability: The platform can be extended with cameras, thermal sensors, gas detectors, or AI-based victim detection systems
+
+By addressing a critical challenge in disaster management with an innovative and functional prototype, Fury Fly embodies the spirit of the Electrothon Winner Track — building technology that can make a meaningful difference in real-world situations.
+
+**Electrothon 8.0 Honors Track**
+
+Fury Fly represents a strong example of an innovative hardware-centric solution designed specifically for disaster management scenarios. The project focuses on building a compact, intelligent micro-drone capable of assisting rescue teams during emergencies such as earthquakes, collapsed structures, and other disaster-prone environments.
+
+What makes Fury Fly suitable for the Best Hardware Hack category is its deep integration of custom hardware design, embedded systems, and real-time sensing technologies. The system is built around a lightweight drone platform powered by micro coreless motors and controlled by an ESP32-based microcontroller. The drone integrates multiple hardware modules including an MPU6050 inertial measurement unit (IMU) for stabilization, custom motor drivers, a 1S Li-Po power system, and Wi-Fi communication for control and telemetry.
+
+A key innovation of Fury Fly lies in the real-time stabilization and hovering system, which uses IMU sensor data and embedded control algorithms to maintain stable flight in constrained indoor environments. This makes the drone particularly useful for navigating through tight spaces such as collapsed buildings where larger drones cannot operate.
+
+From a hardware engineering perspective, the project required:
+
+Designing a compact and lightweight flight control system
+
+Integrating multiple sensors with embedded firmware
+
+Building custom motor driver circuitry
+
+Optimizing power management for ultra-small Li-Po batteries
+
+Achieving stable hover using sensor fusion and control algorithms
+
+The drone is specifically optimized for rapid deployment in disaster situations, where it can be used for search, exploration, and situational awareness in hazardous areas without risking human lives.
+
+By combining hardware innovation, embedded control systems, and real-world applicability, Fury Fly demonstrates the core principles of a hardware hack — rapid prototyping, creative engineering, and impactful problem solving.
+
+Therefore, Fury Fly strongly aligns with the objectives of the Electrothon Honor Track – Best Hardware Hack, showcasing a functional, hardware-driven prototype capable of addressing real-world disaster management challenges.
+
+Team **The Risers** -- [Sagar Shaw](https://github.com/Gocodein), [YASH RAJ](https://github.com/yrajha18), [Roshan Kumar Yadav](https://github.com/Roshan-tech336)
+
+`2026-03-15`
+
+---
+
+### PhaseFlow(Smart Load Balancing System)
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/smart-load-balancing-systemphase-flow-edc1) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/VanshChauhan146/PhaseFlow.git) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/aaerH8EvZow?si=HYQJiSbx0bjpgtfk) [![Built at](https://img.shields.io/badge/Built%20at-Electrothon%208.0-0052CC?style=flat-square)](https://electrothon-8.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Balance the Power, Protect the Grid
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Arduino IDE](https://img.shields.io/badge/Arduino%20IDE-333333?style=flat-square) ![ESP32](https://img.shields.io/badge/ESP32-333333?style=flat-square) ![ESP-32 WiFi Module](https://img.shields.io/badge/ESP--32%20WiFi%20Module-333333?style=flat-square)
+
+**The problem it solves**
+
+Preventing Equipment Failure: Unbalanced loads in three-phase systems cause stator overheating and vibration in motors, leading to insulation breakdown and premature failure.
+Reducing Energy Waste: Imbalance leads to neutral current flow and increased 
+ losses (heat), which spikes electricity bills and reduces overall grid efficiency.
+Eliminating Manual Monitoring: Traditionally, technicians check phases with handheld meters. Your system replaces periodic manual checks with 24/7 automated surveillance, catching faults the moment they happen.
+
+**Challenges we ran into**
+
+Data Synchronization (The "Phase Shift" Problem)
+The Challenge: To calculate if a system is truly balanced, you need current and voltage readings from all three phases at the exact same microsecond.
+High-Frequency Data Noise
+The Challenge: Industrial environments are "electrically noisy" due to electromagnetic interference (EMI).
+In the real world, a 3-phase system is never 100.0% balanced.
+
+**Electrothon 8.0 Winners**
+
+Our project isn't just software—it relies on physical sensors (like CT sensors or Hall Effect sensors) and microcontrollers (like ESP32 or Arduino) to capture raw electrical data.
+ Our project bridges the gap between raw electrical current and digital insights by integrating embedded systems with real-time cloud processing." The software (your website and backend logic) provides the intelligence to interpret that raw data and make it useful for a human.
+
+**Electrothon 8.0 Honors Track**
+
+Our project isn't just software—it relies on physical sensors (like CT sensors or Hall Effect sensors) and microcontrollers (like ESP32 or Arduino) to capture raw electrical data.
+Our project bridges the gap between raw electrical current and digital insights by integrating embedded systems with real-time cloud processing."
+ The software (your website and backend logic) provides the intelligence to interpret that raw data and make it useful for a human.we have also made a website which monitors real time voltages and currents and also sends alerts while a load inbalances in a particular line
+
+Team **Team Alphaa** -- [Tanishk Agarwal](https://github.com/Iamstrong03), [Trisha Garg](https://github.com/trishagarg), [Vansh Chauhan](https://github.com/VanshChauhan146), [Vaibhav Kewalramani](https://github.com/vaibhav-kramani)
+
+`2026-03-15`
 
 ---
 
@@ -2348,6 +3571,1136 @@ The core idea is an **innovative onboard intelligence system for CubeSats** that
 Team **Bonchito Bytes** -- [Tathagata Das](https://github.com/tatha730), [Madhurima Dutta](https://github.com/madhurimadutta1601-gif), [Priyanshu Kanji](https://github.com/priyanshukanji-10)
 
 `2026-04-19`
+
+---
+
+### Robo Arm Car
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/robo-arm-car-34f2) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/anirbansamadder800-code/robotic-arm-car) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtube.com/shorts/C7XHRoAXIvc?si=HO5DM9o2UxclsteS) [![Built at](https://img.shields.io/badge/Built%20at-Code%20for%20Change%202.0-0052CC?style=flat-square)](https://code-for-change-2026.devfolio.co)
+
+> Control the Future — With Your Voice.
+
+![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-333333?style=flat-square) ![OpenCV](https://img.shields.io/badge/OpenCV-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Servo Motor](https://img.shields.io/badge/Servo%20Motor-333333?style=flat-square) ![YOLOv3 Algorithm](https://img.shields.io/badge/YOLOv3%20Algorithm-333333?style=flat-square) ![AI/ML](https://img.shields.io/badge/AI/ML-333333?style=flat-square) ![Picamera](https://img.shields.io/badge/Picamera-333333?style=flat-square) ![Mediapipe](https://img.shields.io/badge/Mediapipe-333333?style=flat-square)
+
+**The problem it solves**
+
+In real life, a lot of tasks like lifting, moving, or handling objects can be risky and tiring.
+For example, dealing with hot or sharp items, doing the same work again and again in factories, or lifting heavy objects.
+
+Because of this, people often face:
+
+Injuries like burns, cuts, or body strain
+Tiredness from repetitive work
+Reduced efficiency and mistakes over time
+
+How my Project Solves It
+
+My AI robotic system:
+Uses voice + gesture control → no need for manual effort
+Uses vision (object detection) → identifies and tracks objects automatically
+Uses robotic arms → performs precise pick-and-place tasks
+Uses mobile base → reaches different locations autonomously
+
+Our AI-powered robotic assistant reduces human effort and risk by automating object handling through voice, vision, and gesture control—bringing safety and efficiency to real-world environments
+
+**Challenges we ran into**
+
+1. Servo Jerking During Load
+
+One of the biggest issues I faced was jerky movement in the robotic arm, especially while lifting objects.
+The motion was not smooth and sometimes unstable.
+
+Root Cause:
+Voltage drops due to high current demand from high-torque servos
+Too frequent PWM updates causing vibration
+Solution:
+Increased delay between servo updates to reduce signal noise
+Implemented smooth stepping logic for gradual movement
+
+2. Voice Recognition Inaccuracy (Noise Issue)
+
+The voice control system sometimes failed or misunderstood commands due to background noise.
+
+Root Cause:
+
+Microphone sensitivity and ambient noise
+Low confidence recognition from the speech model
+
+Solution:
+
+Tuned microphone threshold and input levels
+Added command filtering logic (accept only predefined keywords)
+Used fallback input (keyboard/manual control) for reliability
+
+Camera Detection & Tracking Errors
+
+The object detection module occasionally failed to detect or properly center objects.
+
+Root Cause:
+
+Camera index issues and inconsistent lighting
+Bounding box instability
+
+Solution:
+
+Fixed camera initialization and device index
+Added centering logic using object coordinates
+
+4. Multi-System Coordination (Voice + Gesture + Movement)
+
+Running multiple systems together caused conflicts and delays.
+
+Root Cause:
+
+Blocking code execution (no parallel processing)
+
+Solution:
+
+Introduced threading to run voice and gesture systems simultaneously
+Optimized control flow to avoid command overlap
+
+![image](https://assets.devfolio.co/content/f4b477e2331a460bb2615ef32bc9bab7/e705795b-0503-4ead-8602-4066f9e14e05.jpeg)
+
+Team **MotionX** -- [Anirban Samdder](https://github.com/anirbansamadder800-code), [Rupak Ghosh](https://github.com/iamRupak123), [Sourish Nandi](https://github.com/sourishnandi153-dev), [Sayani Halder](https://github.com/Sayani-halder), [Shovan Goswami](https://github.com/ShovanG394)
+
+`2026-04-11`
+
+---
+
+### Agnivaarak
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/agnivaarak-e7e4) [![Built at](https://img.shields.io/badge/Built%20at-Hacktropica%202k26-0052CC?style=flat-square)](https://hacktropica2k26.devfolio.co)
+
+> Fire bujhao zindagi bachao
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![PyTorch](https://img.shields.io/badge/PyTorch-333333?style=flat-square) ![OpenCV](https://img.shields.io/badge/OpenCV-333333?style=flat-square) ![WebSockets](https://img.shields.io/badge/WebSockets-333333?style=flat-square) ![Arduino IDE](https://img.shields.io/badge/Arduino%20IDE-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![ESP32](https://img.shields.io/badge/ESP32-333333?style=flat-square) ![FastAPI](https://img.shields.io/badge/FastAPI-333333?style=flat-square)
+
+**The problem it solves**
+
+Fire emergencies are chaotic, time-critical, and often mismanaged due to lack of clear, real-time guidance. Existing systems like smoke detectors and fire alarms- only alert people, but fail to help them act correctly.
+
+This leads to:
+
+❌ Panic and confusion during evacuation
+❌ People choosing unsafe or blocked exits
+❌ Delayed response due to lack of situational awareness
+❌ High false alarms from vision-only systems (e.g., bright lights, screens, colors)
+💡 How FireSuppressor Solves It
+
+FireSuppressor v1.0 transforms traditional fire safety into an intelligent, decision-driven system.
+
+🔥 Accurate Fire Detection (No False Panic)
+
+By combining:
+
+YOLO-based vision
+Fire authenticity analysis (flicker, motion, edge chaos)
+Sensor fusion (flame, smoke, temperature)
+
+👉 The system confirms real fire instead of reacting to false triggers like yellow objects or screen reflections.
+
+🧠 Real-Time AI Decision Making
+
+Using Gemini AI, the system:
+
+Understands fire spread and risk zones
+Identifies safe vs dangerous areas
+Continuously updates evacuation strategies
+
+👉 This replaces guesswork with data-driven decisions
+
+🗺️ Smart Evacuation Guidance
+
+Instead of generic alarms, users get:
+
+Step-by-step escape routes
+Dynamic rerouting if paths are blocked
+Zone-specific safety instructions
+
+👉 People no longer ask “Where do I go?”
+
+🔊 Human-Like Voice Instructions
+
+With ElevenLabs, the system provides:
+
+Calm, clear voice guidance
+Multi-language support
+Real-time updates
+
+👉 This reduces panic and improves compliance
+
+🎯 Real-World Use Cases
+🏢 Malls & Office Buildings → Guide people to nearest safe exits
+🏫 Schools & Colleges → Ensure safe evacuation of large groups
+🏥 Hospitals → Assist in moving patients safely
+🏠 Smart Homes → Early detection and guided response
+🏭 Factories → Prevent industrial fire hazards
+🚀 Impact
+
+FireSuppressor changes fire safety from:
+
+❌ Passive alerts → ✅ Active guidance
+
+It makes emergency response:
+
+Faster ⚡
+Safer 🛡️
+Smarter 🧠
+🏁 One-Line Summary
+
+**“We don’t just detect fire - we help people survive it.”**
+
+**Challenges we ran into**
+
+### 1. Distinguishing Real Fire vs Fake Fire (Major Challenge)
+
+One of the biggest challenges was ensuring that the system does not trigger false alarms. In early testing, the model often detected **fire-like visuals** such as mobile screen videos, reflections, or bright light sources as real fire.
+
+**Solution:**
+I solved this by introducing a **multi-layer validation system**:
+
+* YOLO-based visual detection for fire/smoke
+* Temporal analysis (flicker, color variation) to detect real flame behavior
+* Sensor-based confirmation (simulated inputs like flame/temperature)
+
+By combining these signals instead of relying on a single model, the system became significantly more reliable and reduced false positives.
+
+---
+
+### 2. Detecting Small Fires (Matchstick / Lighter)
+
+Most pretrained models struggled with detecting **very small fire sources**, which are critical in early-stage fire prevention.
+
+**Solution:**
+I addressed this by:
+
+* Lowering detection thresholds carefully
+* Using higher-resolution frames for inference
+* Fine-tuning detection sensitivity specifically for small flame regions
+
+This improved early detection capability without introducing too many false triggers.
+
+---
+
+### 3. Real-Time Performance vs Accuracy Tradeoff
+
+Running detection, validation, AI reasoning, and voice generation together caused latency issues initially.
+
+**Solution:**
+I optimized the pipeline by:
+
+* Using lightweight models (e.g., fast YOLO variants)
+* Running components asynchronously where possible
+* Using low-latency TTS (ElevenLabs Turbo)
+
+This brought the total response time to **sub-second**, which is critical in emergency scenarios.
+
+---
+
+### 4. Converting Detection into an Automated Workflow
+
+Initially, the system was just detecting fire, not *handling* it intelligently.
+
+**Solution:**
+I redesigned the architecture into an **event-driven workflow**:
+
+* Fire detection triggers an event
+* Event flows through validation → AI reasoning → action pipeline
+* Actions include voice alerts, logging, and dashboard updates
+
+This made the system behave like a **real incident response pipeline** rather than just a detection model.
+
+---
+
+### 5. Making AI Decisions Trustworthy
+
+Another challenge was ensuring that AI-generated instructions are reliable and not vague or generic.
+
+**Solution:**
+I structured the input to the AI using **organized signals from multiple agents**, which improved:
+
+* Decision clarity
+* Context-awareness
+* Consistency of evacuation instructions
+
+---
+
+### Final Outcome
+
+These challenges helped evolve the project from a simple detection system into a **robust, intelligent safety platform** that is:
+
+* More accurate
+* Faster
+* Context-aware
+* Practical for real-world deployment
+
+**Best Use of ElevenLabs**
+
+We use ElevenLabs to transform AI-generated safety decisions into clear, natural, and human-like voice instructions in real time.
+
+Unlike traditional fire alarms that only create noise and panic, our system delivers intelligent, situation-aware guidance - for example:
+“Avoid the North Wing. Proceed safely to Exit Gate 2 via Zone B3.”
+
+This creates a fundamentally better emergency experience by:
+
+Enhancing clarity → Users receive precise, actionable instructions instead of vague alerts
+Reducing response time → Sub-second voice generation ensures immediate guidance
+Building trust → A calm, human-like voice improves compliance and reduces panic in critical situations
+
+👉 In short, we don’t just alert people - we guide them intelligently when it matters most.
+
+**Best Use of Gemini API**
+
+FireSuppressor v1.0 leverages Google Gemini not as a simple chatbot, but as a real-time cognitive safety engine that transforms raw sensor data into actionable intelligence during emergencies.
+
+**1. 🧠 Contextual Fire Reasoning**
+
+Unlike traditional systems that only detect fire, Gemini understands the situation.
+It analyzes:
+
+Visual inputs (YOLO fire detection)
+Sensor data (heat, smoke, IR)
+
+to determine fire severity, spread risk, and appropriate response strategies - enabling smarter and safer decisions.
+
+**2. 🗺️ Generative Evacuation Intelligence**
+
+Gemini converts algorithmic paths (from BFS navigation) into human-readable, real-time instructions:
+
+“Avoid Zone B2. Proceed to Exit Gate 2 via Corridor C1.”
+
+This bridges the gap between machine computation and human understanding, acting like a virtual emergency coordinator.
+
+**3. 🌑 Sensor-Driven Awareness in Low Visibility**
+
+In smoke-filled or low-light conditions where cameras fail, Gemini interprets sensor anomalies (temperature spikes, gas levels) to maintain situational awareness and continue guiding occupants effectively.
+
+**4. 🧑‍🤝‍🧑 Human-Centric Decision Making**
+
+Gemini identifies risk zones and dynamically prioritizes human safety by generating zone-specific alerts and evacuation strategies, helping manage crowd flow and prevent congestion during emergencies.
+
+**Core Impact**
+
+👉 Gemini transforms the system from a detection tool into an intelligent decision-making system
+
+Instead of just saying “there is a fire”, it answers:
+
+Where is it spreading?
+Who is at risk?
+Where should people go right now?
+🎯 One-Line Power Statement
+
+**“Gemini enables our system to think, reason, and guide- not just detect.”**
+
+Team **SNAP** -- [Srinjoyee Dey](https://github.com/SrinjoyeeDey), [Anway Ghatak](https://github.com/onnoi10), [Nidhi Kumari](https://github.com/Nidhi20505), [Pradip Das](https://github.com/Pradip261)
+
+`2026-04-05`
+
+---
+
+### AI + IoT system for power and energy in delhi
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/ai-iot-system-for-predicting-and-preventing-power-and-water-failures-093b) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/dafrie/lstm-load-forecasting) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/IE3FVDHUWTo) [![Built at](https://img.shields.io/badge/Built%20at-Hacknovate--7.0-0052CC?style=flat-square)](https://hacknovate07.devfolio.co)
+
+> An AI platform for power and water systems
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![casper.js](https://img.shields.io/badge/casper.js-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-333333?style=flat-square)
+
+**The problem it solves**
+
+Delhi’s fragile infrastructure under climate stress is addressed by enabling prediction, prevention, and coordination of power and water systems.
+
+In Short
+Prevents blackouts during heatwaves
+Reduces water loss from leaks & theft
+Avoids cascading failures (power → water disruption)
+Shifts system from reactive → predictive management
+
+Team **ClassCoders** -- [Tanishq Gupta](https://github.com/starkeyyyy), [Zishan Ansari](https://github.com/0xZ15H4N), [Anurag Kamboj](https://github.com/ANURAG2428), [Aryan Wadhwa](https://github.com/Aryanwadhwa14)
+
+`2026-04-04`
+
+---
+
+### ResQ sense
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/resq-sense-fdd0) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://youtu.be/E0qvtEQtnjU) [![Built at](https://img.shields.io/badge/Built%20at-Hacknovate--7.0-0052CC?style=flat-square)](https://hacknovate07.devfolio.co)
+
+> Swift Detection Sure Rescue
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![ESP32](https://img.shields.io/badge/ESP32-333333?style=flat-square) ![NodeMCU IoT](https://img.shields.io/badge/NodeMCU%20IoT-333333?style=flat-square)
+
+**The problem it solves**
+
+Our solution is built to help rescue personnel from Indian rescue forces to adapt their strategy specifically for pancake collapse of buildings. The cause of building collapse may be landslide, earthquake, or explosive. There are no concrete ways to identify human presence as well as alive parameters that can be justified non-invasively. In this scenario, our radar rescue sense will enable rescue operators to identify distance, life probability, and situation analysis (critical or dead), making rescue much more swift and saving more valuable lives.
+
+**Challenges we ran into**
+
+Understanding magic of radio frequency, building radar on unreliable cheap equipment and trying to justify our problem statement. We worked on tuning signals, reducing noise, and improving detection accuracy in unstable conditions. Challenges I ran into include inconsistency in hardware performance, difficulty in calibrating sensors, and interference from surrounding signals. Another challenge was maintaining accuracy while keeping the system low-cost and portable. Despite these issues, we continued refining the system to make it more reliable for real-world rescue scenarios.
+
+Team **Tarangit** -- [ANWESHA PAL](https://github.com/anwesha024), [Amnender Singh](https://github.com/AmnenderSingh), [Mayank Upadhyay](https://github.com/Mayankupadhyay-25), [Jai Verma](https://github.com/aqua20023)
+
+`2026-04-04`
+
+---
+
+### TOBBY HEATH
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/tobby-heath-a706) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://tobby-b6e07.web.app) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtube.com/shorts/kjWy0KIecTk?feature=share) [![Built at](https://img.shields.io/badge/Built%20at-HackMol%207.0-0052CC?style=flat-square)](https://hackmol-7.devfolio.co)
+
+> AI BASED HEALTH MONITORING SYSTEM IOT SYSTEM
+
+![Firebase](https://img.shields.io/badge/Firebase-333333?style=flat-square) ![ESP-32 WiFi Module](https://img.shields.io/badge/ESP--32%20WiFi%20Module-333333?style=flat-square) ![MAX30100 Oximeter](https://img.shields.io/badge/MAX30100%20Oximeter-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![Firebase Authentication](https://img.shields.io/badge/Firebase%20Authentication-333333?style=flat-square) ![SSD1306 OLED](https://img.shields.io/badge/SSD1306%20OLED-333333?style=flat-square) ![DS18B20](https://img.shields.io/badge/DS18B20-333333?style=flat-square) ![INMP441](https://img.shields.io/badge/INMP441-333333?style=flat-square)
+
+**The problem it solves**
+
+# 🏥 TOBBY - Medical-Grade IoT Health Monitoring System
+
+> Industry-standard clinical features that differentiate from consumer smartwatches
+
+## 🎯 What Makes TOBBY Different from Smartwatches?
+
+### 5 Industry-Standard Clinical Features:
+
+1. **MEWS (Modified Early Warning Score)** - Hospital-grade early warning system that predicts patient deterioration 6-12 hours early
+2. **HRV (Heart Rate Variability)** - Cardiac risk prediction 48 hours before symptoms
+3. **Trend Analysis & Anomaly Detection** - FDA requirement for medical devices
+4. **Vital Signs Correlation** - Clinical Decision Support AI for disease pattern detection
+5. **Personalized Baseline Learning** - Learns YOUR normal, not textbook values
+
+## 🔧 Hardware Components
+
+- **ESP32** - Main microcontroller
+- **MAX30105** - Pulse oximeter & heart rate sensor
+- **DS18B20** - Medical-grade temperature sensor
+- **INMP441** - I2S digital microphone for voice AI
+- **SSD1306 OLED** - 128x64 status display
+- **ST7735 TFT** - 160x128 color display for detailed metrics
+- **Push Buttons** - User interface controls
+
+## 📱 Software Stack
+
+### ESP32 Firmware:
+- Arduino C++
+- Firebase Realtime Database integration
+- Deepgram Speech-to-Text
+- Groq AI (Medical-only responses)
+- Clinical algorithms (MEWS, HRV, etc.)
+
+### Web Application:
+- React.js
+- Firebase Authentication & Database
+- Tailwind CSS
+- Real-time clinical monitoring
+- Doctor & Patient dashboards
+
+## 🚀 Quick Start
+
+### ESP32 Setup:
+1. Open `esp32/esp2/esp2.ino` in Arduino IDE
+2. Install required libraries (see code comments)
+3. Update WiFi credentials
+4. Update Firebase credentials
+5. Upload to ESP32
+
+### Webapp Setup:
+```bash
+cd webapp
+npm install
+npm start
+```
+
+## 📊 Clinical Features
+
+### MEWS Score (Modified Early Warning Score):
+- Respiratory rate scoring
+- Heart rate scoring
+- Blood pressure scoring
+- Temperature scoring
+- SpO2 scoring
+- Consciousness level (AVPU)
+- **Score ≥5 = ICU risk**
+
+### HRV Analysis:
+- RMSSD calculation from R-R intervals
+- Cardiac autonomic function
+- Stress and recovery monitoring
+- **HRV <20 = High cardiac risk**
+
+### Baseline Learning:
+- Collects 20 measurements
+- Calculates personal normal ranges
+- Alerts on deviations from YOUR baseline
+- Reduces false alarms by 60%
+
+## 🏆 Hackathon Demo Points
+
+**Problem**: Mentors say "What's different from smartwatch?"
+
+**Answer**: 
+- Smartwatches track fitness metrics
+- TOBBY predicts medical emergencies
+- Hospital-grade algorithms
+- Professional doctor monitoring platform
+- Clinical Decision Support System
+
+## 📁 Project Structure
+
+```
+tobby-health-firebase/
+├── esp32/
+│   ├── esp2/esp2.ino          # Main device firmware
+│   └── tobby_firebase.ino     # Alternative firmware
+├── webapp/
+│   ├── src/
+│   │   ├── components/        # React components
+│   │   │   ├── Dashboard.jsx
+│   │   │   ├── DoctorDashboard.jsx
+│   │   │   ├── ClinicalDashboard.jsx
+│   │   │   └── ...
+│   │   └── firebase.js        # Firebase config
+│   └── package.json
+└── Documentation/
+    ├── CLINICAL_FEATURES_COMPLETE.md
+    ├── HACKATHON_DEMO_SCRIPT.md
+    └── ...
+```
+
+## 🎓 Technical Highlights
+
+- Real-time Firebase sync
+- Medical-only AI restriction
+- Multi-display interface (OLED + TFT)
+- Voice interaction with speech-to-text
+- Clinical alert system with severity levels
+- Doctor-patient linking system
+- Appointment scheduling
+- Prescription management
+
+## 📝 License
+
+MIT License - See LICENSE file for details
+
+## 👥 Team
+
+Built for hackathon - Medical IoT Innovation
+
+---
+
+**Status**: Production-ready with industry-grade clinical features
+**Version**: 19.0 (ESP32) | 2.0 (Webapp)
+**Last Updated**: March 2026
+
+Team **WinnerX** -- [Diksha Sharma](https://github.com/Dikshaa16), [Ankit Saharan](https://github.com/Ankit545654)
+
+`2026-03-29`
+
+---
+
+### NERVE
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/nerve-neural-electrical-response-verification-engine-f0dc) [![Built at](https://img.shields.io/badge/Built%20at-HackMol%207.0-0052CC?style=flat-square)](https://hackmol-7.devfolio.co)
+
+> Neural Electrical Response and Verification Engine
+
+![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-333333?style=flat-square) ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square)
+
+**The problem it solves**
+
+NERVE enables secure access to physical spaces, digital systems, and sensitive infrastructure by verifying identity through live muscle signals rather than static credentials. Unlike passwords or fingerprints, the signal only exists during active muscle contraction, making it impossible to steal, clone, or replay from a database. It can function as a drop-in replacement for passwords, a stronger second factor in MFA systems, or a continuous background verification layer that detects session takeovers in real time. Industries with high security requirements healthcare, banking, defence, industrial operations benefit directly from a method that guarantees physical presence of the authorized individual. At the consumer level, it eliminates the friction of passwords entirely while raising the security floor well above what any current mainstream authentication method provides.
+
+**Challenges we ran into**
+
+Signal Quality and Noise -> Raw EMG signal from the Pico's ADC is extremely susceptible to noise from power lines, electrode contact quality, and cable movement. Getting a clean enough signal required bandpass and notch filtering in software, and even then, small inconsistencies in electrode placement between sessions caused significant variation in the recorded signal.
+
+Electrode Placement Consistency-> The single biggest challenge. EMG signals are highly sensitive to where exactly the electrodes sit on the forearm. Even a centimeter of difference between two sessions changes the amplitude and character of the signal enough to confuse the model. There is no easy mechanical fix for this at the prototype stage.
+
+Low Classification Accuracy ->The model currently sits at 67% cross-validation accuracy, well below the 90%+ needed for a credible authentication system. With only two users and ten reps each, the feature distributions of both users overlap significantly, leaving the SVM without a clean decision boundary to work with.
+
+Limited Training Data-> Ten repetitions per user generates roughly 230 feature windows, which is borderline insufficient for training a robust classifier. More reps and more enrolled users are needed before the model generalises reliably.
+
+Hardware Constraints—> The Raspberry Pi Pico's 12-bit ADC and lack of onboard signal conditioning means the system depends heavily on the external EMG sensor module for amplification and filtering. Any inconsistency in the analog circuit directly degrades the data quality before it even reaches the software pipeline.
+
+**Main Track: The Deepforge Arena**
+
+NERVE qualifies for the main track as it is a full-stack engineering project combining hardware, signal processing, and machine learning, not scoped or simplified for a specific category. It represents an open, unrestricted technical build competing on its own merit.
+
+Team **Technocratic Dynamos** -- [Naman Dhingra](https://github.com/NAMAN9801), [Krrish Sharma](https://github.com/Discovir), [Sayam Sharma](https://github.com/Wizcoderr), [Sehajdeep Singh](https://github.com/code100percent)
+
+`2026-03-29`
+
+---
+
+### FitMon
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/fitmon-ca99) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/sanjayram-07/FitMon) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://youtu.be/3omoHr5i5BI?si=sBDbXLrtsUe9CHmR) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/a_pVvdMqAr4) [![Built at](https://img.shields.io/badge/Built%20at-DevsHouse%20'26-0052CC?style=flat-square)](https://devshouse26.devfolio.co)
+
+> IoT and CV powered Injury prevention system
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Internet of Things (IoT)](https://img.shields.io/badge/Internet%20of%20Things%20(IoT)-333333?style=flat-square) ![Express.js](https://img.shields.io/badge/Express.js-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![Image Processing - Open CV](https://img.shields.io/badge/Image%20Processing%20--%20Open%20CV-333333?style=flat-square)
+
+**The problem it solves**
+
+FitMon tackles the lack of real-time, form-aware feedback in strength training and real time injury detection. Most users train without immediate guidance, making it easy to develop poor technique, miss range-of-motion targets, or misjudge muscle engagement. FitMon closes that gap by combining computer vision and sensor data to evaluate movement quality and deliver actionable coaching during or right after a workout
+
+**Challenges we ran into**
+
+- Webcam contention: The browser dashboard and Python CV engine can’t share the same webcam. I fixed it by clearly separating “web mode” vs “desktop CV mode” and adding usage guidance so only one runs at a time.
+
+- Realtime data spikes: Early on, socket payload bursts caused jittery UI updates. I smoothed this by batching/normalizing updates before emitting them to the dashboard.
+
+**IoT & Smart Devices**
+
+- Uses edge devices (ESP32 + FSR sensors) to capture physical-world signals.
+
+- Streams sensor data in real time to a backend via sockets for live monitoring.
+
+- Fuses IoT sensor data with computer vision to improve accuracy and context.
+
+- Provides a dashboard for remote visibility, analytics, and session history.
+
+- Demonstrates a full IoT pipeline: device → network → backend → insights/UI.
+
+Team **CNL** -- [Sanjay Ram](https://github.com/sanjayram-07), [Dwaragesh C](https://github.com/dwarageshc7203)
+
+`2026-03-29`
+
+---
+
+### biobox
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/biobox-77de) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/sharon169961/bioboxx) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://youtu.be/NgL3lTqRohc?si=qNGRCbnC0-h4ZgUG) [![Built at](https://img.shields.io/badge/Built%20at-DevsHouse%20'26-0052CC?style=flat-square)](https://devshouse26.devfolio.co)
+
+> BioBox - the Digital Twin of the Coral Ecosystem.
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Internet of Things (IoT)](https://img.shields.io/badge/Internet%20of%20Things%20(IoT)-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![XGBoost](https://img.shields.io/badge/XGBoost-333333?style=flat-square) ![Arduino](https://img.shields.io/badge/Arduino-333333?style=flat-square) ![Three.JS](https://img.shields.io/badge/Three.JS-333333?style=flat-square) ![Linux](https://img.shields.io/badge/Linux-333333?style=flat-square)
+
+**The problem it solves**
+
+Coral reef conservation currently suffers from "data lag," where environmental damage is only discovered after irreversible bleaching has begun. Coral Sentinel introduces a novel real-time Digital Twin powered by a mesh network of distributed sensor nodes. This architecture eliminates the dependency on single-point monitoring, providing a high-resolution spatial map of ocean health. By using XGBoost machine learning to analyze live telemetry across this mesh, the system can predict lethal pH drops < 7.8 before they occur. This proactive approach grants marine biologists a critical 48-hour early warning window to implement cooling or buffering strategies at exact coordinates, making reef protection faster, safer, and more geographically precise than traditional manual sampling.
+
+**Challenges we ran into**
+
+The primary hurdle was the hardware-to-software calibration required to sync a distributed mesh network with the ROS 2 Humble middleware. Getting independent nodes to communicate without collision required implementing a custom message protocol to handle multi-dimensional sensor arrays. I overcame this by developing a Rosbridge WebSocket server, which acted as a real-time translator between the low-level telemetry layer and a high-end Three.js web frontend. This involved resolving "address already in use" port conflicts and mapping the physical coordinates of the mesh into a reactive 3D coordinate system. The result is a cloud-ready dashboard that turns raw robotic data into an intuitive interface accessible from any browser without specialized software.
+
+**Environmental Sustainability**
+
+Coral Sentinel directly advances the Environmental Sustainability track by digitizing marine conservation through real-time ecosystem resilience monitoring. By replacing manual, periodic data collection with an automated mesh network of AI-enabled sensors, the project reduces the carbon footprint and human interference typically associated with large-scale oceanographic surveys. Its novelty lies in creating a circular data economy: raw environmental telemetry is processed by a predictive XGBoost model to forecast acidification, which is then visualized in a low-power web-based Digital Twin. This allows for "Precision Conservation," where localized intervention strategies—such as targeted electrolyte buffering or automated cooling—can be deployed at the exact coordinates of stress, minimizing resource waste and maximizing the survival rate of the world’s most critical carbon-sequestering coral habitats.
+
+Team **BioBoxx** -- [Diganta Dutta](https://github.com/diganta121), [Diyaashivaani Arun](https://github.com/moodymelady), [Sharon David](https://github.com/sharon169961?tab=repositories), [Ashrithi S](https://github.com/techy_ash)
+
+`2026-03-29`
+
+---
+
+### EvacNet
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/evacnet-cc5e) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/tanmoy-12/smart-fire) [![Built at](https://img.shields.io/badge/Built%20at-FrostHacks%20S02-0052CC?style=flat-square)](https://frosthacks-s-2.devfolio.co)
+
+> Decentralized Real-Time Fire Evacuation.
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Arduino](https://img.shields.io/badge/Arduino-333333?style=flat-square)
+
+**The problem it solves**
+
+The Problem It Solves
+
+Traditional fire alarm systems operate on a binary model — they only indicate that a fire exists, but not where it is or how to escape safely. This creates a critical gap during emergencies, especially in large buildings where:
+
+Smoke reduces visibility, making static exit signs ineffective
+People instinctively rush toward familiar exits, causing dangerous congestion
+Occupants may unknowingly move toward the hazard instead of away from it
+
+Our system, EvacNet, solves this by transforming passive alarms into an intelligent evacuation guidance system.
+
+🚀 What it Enables:
+Real-time hazard awareness across multiple zones
+Dynamic evacuation routing that adapts as fire spreads
+Directional guidance using LEDs and audio cues
+Decentralized operation, ensuring functionality even if Wi-Fi or infrastructure fails
+🧠 How It Makes Things Better:
+Converts panic-driven evacuation into guided movement
+Reduces evacuation time and prevents bottlenecks
+Works in offline scenarios, unlike cloud-dependent systems
+Provides a low-cost, scalable solution suitable for schools, hostels, and public buildings
+
+**Challenges we ran into**
+
+1. 🔌 ESP-NOW Communication Issues
+
+Initially, multiple ESP32 nodes were not able to detect each other, even though the code was correct.
+
+Problem:
+Each ESP32 was operating on a different Wi-Fi channel, which prevented ESP-NOW communication.
+
+Solution:
+Forced all devices to operate on the same channel:
+
+WiFi.softAP("Node_X", "12345678", 1);
+
+This ensured reliable communication across all nodes.
+
+2. 🧠 Distributed Network Synchronization
+
+Each node only knew about its immediate neighbors, resulting in an incomplete dashboard.
+
+Problem:
+No global visibility in a decentralized system.
+
+Solution:
+Implemented a gossip-based synchronization protocol, where each node shares:
+
+Its own state
+Known states of other nodes
+
+This allowed all nodes to gradually build a complete network view.
+
+3. 📊 Blank Dashboard Issue
+
+The web dashboard initially showed no data even when nodes were active.
+
+Problem:
+Nodes were not adding their own status to the network table.
+
+Solution:
+Explicitly added self-state:
+
+network[NODE_ID].id = NODE_ID;
+
+This ensured at least one visible node and proper UI rendering.
+
+4. ⚡ Power vs Responsiveness Trade-off
+
+The MQ-2 sensor consumes significant power due to its heating element.
+
+Problem:
+Turning it off saves power but delays detection.
+
+Solution:
+Used controlled duty cycling and optimized sampling intervals to balance:
+
+Power consumption
+Detection reliability
+5. 🔄 Handling Real-Time Dynamic Changes
+
+Fire conditions change rapidly, requiring constant updates.
+
+Problem:
+Ensuring real-time routing without central control.
+
+Solution:
+Designed a distributed decision model, where each node:
+
+Updates its state
+Recalculates decisions locally
+
+This ensured instant adaptation without dependency on a central system.
+
+**Safety**
+
+Our project solves the problem of evacuation during a building catches a fire. So it is important for people protection & safety
+
+Team **TechSpark** -- [TANMOY CHANDA](https://github.com/tanmoy-12), [Dip Bhattacharyya](https://github.com/Dip393), [Neha Shaw](https://github.com/Neha859), [Agnick Ghosh](https://github.com/AgnickGhosh-0003)
+
+`2026-03-28`
+
+---
+
+### Neuro-Guard
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/edge-ai-powered-seizure-prediction-device-6754) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/youRanupam/NEURO-GUARD) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/dukMZZ30tNw?si=Eb-qLfPdPJ5aXKFH) [![Built at](https://img.shields.io/badge/Built%20at-BINARY%20v2-0052CC?style=flat-square)](https://binaryvtwo.devfolio.co)
+
+> Predict before it strikes
+
+![Arduino Uno](https://img.shields.io/badge/Arduino%20Uno-333333?style=flat-square) ![Arduino IDE](https://img.shields.io/badge/Arduino%20IDE-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![ESP32](https://img.shields.io/badge/ESP32-333333?style=flat-square)
+
+**The problem it solves**
+
+Epileptic seizures often occur without warning, posing serious risks such as injuries, delayed medical response, and reduced quality of life. Existing solutions primarily focus on post-event detection rather than early prediction, limiting their effectiveness in real-world scenarios. To address this gap, we propose an AI-powered multimodal seizure early warning system designed to predict seizure risk before onset.
+
+**Challenges we ran into**
+
+1. Geting actual EEG signal data
+2. MCU failure 
+3. Sensor failure
+
+**IoT**
+
+This project fits perfectly into the Internet of Things (IoT) ecosystem as a specialized Edge-AI wearable. It follows a classic layered IoT architecture: the Perception Layer uses AD620 and MPU6050 sensors to collect real-time biological and physical data. The Processing Layer employs Edge Computing, where the ESP32-C3 runs local AI inference to ensure low latency and data privacy—critical for medical alerts. Finally, the Network and Application Layers use Bluetooth Low Energy (BLE) to bridge the device to a smartphone, enabling remote monitoring and automated emergency notifications.
+
+Team **Wire-iors** -- [AKASH MAITY](https://github.com/akashmaity2005), [Abhijit Mondal](https://github.com/abhijit-o11), [Anupam Baidya](https://github.com/youRanupam)
+
+`2026-03-22`
+
+---
+
+### BeatRescue
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/beatrescue-73a1) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/sangsaist/HackNova-3.0--Beat_Rescue.git) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://youtu.be/Z6m0QdhjGT8) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/Lx1yFIlv4Ho) [![Built at](https://img.shields.io/badge/Built%20at-HackNova%203.0-0052CC?style=flat-square)](https://hacknova-3.devfolio.co)
+
+> Disaster Rescue
+
+![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-333333?style=flat-square) ![Internet of Things (IoT)](https://img.shields.io/badge/Internet%20of%20Things%20(IoT)-333333?style=flat-square) ![Arduino IDE](https://img.shields.io/badge/Arduino%20IDE-333333?style=flat-square) ![C++](https://img.shields.io/badge/C++-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Microcontroller](https://img.shields.io/badge/Microcontroller-333333?style=flat-square)
+
+**The problem it solves**
+
+In disasters such as **earthquakes, landslides, mine collapses, or building failures, people can become trapped beneath layers of debris.** One of the most critical challenges for rescue teams is locating survivors quickly. In many cases, victims are injured, unconscious, or unable to call for help, making them extremely difficult to detect.
+
+Rescue operations are also highly time-sensitive. Studies from major disasters show that the first 72 hours after a collapse are known as the **“Golden 72 Hours.”** During this period, the chances of survival are highest. After this window, **the survival rate can drop dramatically in many cases falling below 10% after 72 hours**, depending on injuries, oxygen availability, and environmental conditions.
+
+Real disasters highlight this challenge. For example:
+
+- ***During the 2015 Nepal earthquake, thousands of people were trapped under collapsed buildings, and rescue teams struggled to identify where survivors were located.***
+
+- ***In the 2023 Turkey–Syria earthquake, many victims were found days later only because they managed to tap or create small movements that rescuers detected manually.***
+
+However, the vibrations caused by such small movements are extremely weak and difficult to detect using traditional search methods.
+
+**Current rescue approaches mainly rely on:**
+- *Manual search by rescue workers*
+- *Sniffer dogs*
+- *Thermal cameras*
+- *Radar-based systems*
+
+While these methods can help, they often become less reliable in deep or dense debris environments. Materials like concrete, metal, and soil block heat signals, disrupt scent trails, and interfere with sensing technologies. As a result, rescue teams may spend valuable time searching large areas without clear indicators of where survivors might be.
+
+**BeatRescue aims to address this challenge by detecting tiny ground vibrations generated by human movement, such as tapping, slight body shifts, or attempts to signal for help.** By identifying these vibration patterns, the system can help rescue teams narrow down search areas and focus their efforts where signs of life may be present.
+
+In this way, BeatRescue acts as a support tool for disaster response teams, **helping improve survivor detection during the most critical hours after a disaster.**
+
+**Challenges we ran into**
+
+Challenge 1: Working with a highly sensitive sensor
+The geophone used in the project is very sensitive and can detect extremely small vibrations. While this is useful for detecting human movement, it also means the sensor easily picks up unwanted environmental vibrations, making the signal difficult to interpret.
+
+Challenge 2: Filtering noisy signals
+The raw signals collected from the sensor contained a lot of noise. A major challenge was converting these noisy signals into clearer and more meaningful data. This was addressed by applying signal filtering techniques to reduce unwanted frequencies and focus on useful vibration patterns.
+
+Challenge 3: Collecting real testing data
+Another difficulty was collecting realistic vibration data. Human-generated vibrations are very small and inconsistent, so multiple tests and adjustments were needed to gather usable datasets and improve the reliability of the system.
+
+Team **POWER HOUSE** -- Sanjay T, [Sanjeev S T](https://github.com/sanjeev7007), [Sangsai ST](https://github.com/sangsaist), Naveeth RP
+
+`2026-03-17`
+
+---
+
+### ahhhh vazuhthukal vazuhthukal project
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/ahhhh-vazuhthukal-vazuhthukal-project-a506) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Raajmohan4194/PARK-SMART) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/0iEkzNwKrGk) [![Built at](https://img.shields.io/badge/Built%20at-HackNova%203.0-0052CC?style=flat-square)](https://hacknova-3.devfolio.co)
+
+> parksmart!
+
+![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Firebase](https://img.shields.io/badge/Firebase-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Arduino IDE](https://img.shields.io/badge/Arduino%20IDE-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Flutter](https://img.shields.io/badge/Flutter-333333?style=flat-square) ![GitHub](https://img.shields.io/badge/GitHub-333333?style=flat-square) ![Arduino](https://img.shields.io/badge/Arduino-333333?style=flat-square)
+
+**The problem it solves**
+
+Imagine driving into a bustling city, ready to start your day, but the first obstacle you
+encounter is finding a parking spot. The frustration of circling around blocks, wasting time and fuel, is a common experience for many urban dwellers. But what if there was a solution to this age-old problem? Enter smart parking apps, the technological saviors that are revolutionizing the way we park. Smart Parking systems can be helpful to drivers who to find parking spots more easily which will save a lot of time. Additionally, sensor-based parking meters can adjust rates based on
+demand, further discouraging unnecessary parking.
+
+**Challenges we ran into**
+
+1. Designing a simple and user-friendly interface that clearly shows parking availability without confusion was challenging.
+2. Initially, the ultrasonic sensor gave inconsistent readings due to environmental factors like distance variation and obstacles, which made detection unreliable.
+
+Team **ahhhh vazuhthukal vazuhthukal** -- prannav baaradhi, Lokesh Venkatesan, Afraz Ali, Raaj Mohan
+
+`2026-03-17`
+
+---
+
+### Precision Arm
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/precision-arm-d58c) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ronakdotasara/roboticarm-ros2.git) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/CbYFsTaU-Z8) [![Built at](https://img.shields.io/badge/Built%20at-Electrothon%208.0-0052CC?style=flat-square)](https://electrothon-8.devfolio.co)
+
+> Advance robotics for intelligent manipulation
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-333333?style=flat-square) ![Arduino Uno](https://img.shields.io/badge/Arduino%20Uno-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square)
+
+**The problem it solves**
+
+1.Automates repetitive industrial tasks like pick-and-place operations to improve efficiency.
+2.Reduces human exposure to hazardous environments such as high temperature or toxic areas.
+3.Improves precision in manufacturing where accurate positioning of components is required.
+4.Assists warehouse automation for sorting, packaging, and handling objects.
+5.Minimizes human error in tasks that require consistent and repeatable movements.
+6.Supports robotics education and research using simulation tools like ROS 2, Gazebo, and RViz.
+7.Provides a scalable automation solution for industries adopting smart manufacturing.
+
+**Challenges we ran into**
+
+While developing this project, we faced several challenges. First was learning and implementing ROS for robotic control. Another challenge was establishing communication between ROS and Arduino. We also faced difficulty in integrating the camera with object detection using YOLO and OpenCV. Converting camera coordinates to robotic arm movement required calibration and coordinate mapping. Finally, mechanical alignment and the limited degrees of freedom of our robotic arm made precise object picking challenging.
+
+**Electrothon 8.0 Honors Track**
+
+All girls team + hardware 
+Volt4Ace
+
+Our project presents a ROS 2–based intelligent robotic arm developed by an all-girls engineering team, designed to demonstrate precise object manipulation through advanced robotics software and simulation tools.
+The robotic arm integrates ROS 2 for communication and control, RViz for 3D visualization, Gazebo for physics-based simulation, and MoveIt for motion planning and inverse kinematics. Using these technologies, we created a system that allows the robotic arm to calculate optimal joint movements and execute accurate pick-and-place tasks.
+The workflow begins with URDF modeling of the robotic arm, which defines the robot’s structure and joints. This model is then simulated in Gazebo to test real-world physics and interactions. Motion planning is handled through MoveIt, enabling efficient path planning while avoiding collisions. RViz provides real-time visualization of the robot’s configuration, trajectory, and environment.
+Our project demonstrates how software simulation and hardware robotics can work together to develop intelligent automation systems. Built entirely by an all-girls team, this project highlights technical capability, teamwork, and innovation in the field of robotics.
+This solution can be applied in industrial automation, smart manufacturing, and assistive robotics, where precise and programmable robotic manipulation is essential.
+
+Team **volt4ace** -- [Priti Yadav](https://github.com/Pritiyadav904), [Ritika Loctus](https://github.com/Ritika-07-Loctus), [Shailja Choudhary](https://github.com/Shialja1533), [riya choudhary](https://github.com/riyachoudhary06)
+
+`2026-03-15`
+
+---
+
+### Echopod
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/echopod-13b3) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/suhani-code-java/ECHOPOD.git) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtube.com/shorts/eL46yvnxl5M?si=7I7iZEhlNu1nsZQ1) [![Built at](https://img.shields.io/badge/Built%20at-Electrothon%208.0-0052CC?style=flat-square)](https://electrothon-8.devfolio.co)
+
+> Seeing the path through intelligent sensing.
+
+![Firebase](https://img.shields.io/badge/Firebase-333333?style=flat-square) ![Java](https://img.shields.io/badge/Java-333333?style=flat-square) ![Android Studio](https://img.shields.io/badge/Android%20Studio-333333?style=flat-square) ![Kotlin](https://img.shields.io/badge/Kotlin-333333?style=flat-square) ![Arduino](https://img.shields.io/badge/Arduino-333333?style=flat-square) ![ESP32](https://img.shields.io/badge/ESP32-333333?style=flat-square) ![Text-to-Speech](https://img.shields.io/badge/Text--to--Speech-333333?style=flat-square)
+
+**The problem it solves**
+
+Navigating indoor spaces like malls, offices, or hospitals can be difficult and unsafe for visually impaired individuals, as there are limited tools that help them detect obstacles or understand their surroundings indoors.
+
+Our device acts as a smart navigation companion that uses sensors and AI-powered vision to detect obstacles and recognize objects. It provides real-time vibration and audio feedback to guide users safely, while the SOS feature with GPS allows them to quickly share their location in emergencies. This helps visually impaired users move more safely and independently.
+
+**Challenges we ran into**
+
+While building this project, we faced several challenges on both the hardware and software sides. Integrating multiple hardware components like the ESP32, ESP32-CAM, ultrasonic sensors, GPS module, amplifier, and vibration motors on a breadboard initially caused issues such as unstable connections and interference between sensors. We resolved this by reorganizing the wiring, carefully managing power distribution, and testing each component individually before integrating them into the full system.
+
+On the software side, we encountered a Java NullPointerException while developing parts of the application logic, which required careful debugging and validation of object initialization. Training the machine learning model for object detection was another challenge, as achieving reliable detection with limited resources required experimenting with different datasets and optimization techniques.
+
+We also faced difficulties with Firebase data uploads and IoT integration, where data from the device was not consistently syncing with the cloud. By revisiting the Firebase configuration, API setup, and connection logic, we were able to establish stable communication between the device and the database.
+
+These challenges helped us improve the system step by step and ultimately build a more reliable and robust assistive navigation device.
+
+**Electrothon 8.0 Honors Track**
+
+**Hardware track**
+
+**ElevenLabs**
+
+The generated voice makes navigation instructions more understandable and user-friendly for visually impaired users.
+
+Team **CtrlAltWin** -- [SOMYA PANCHOLI](https://github.com/Somya-Pancholi), [Daksh Saini](https://github.com/dakshsaini1103), [Suhani Choudhary](https://github.com/suhani-code-java), [chitvansh agrawal](https://github.com/chitvansh24ee168-alt)
+
+`2026-03-15`
+
+---
+
+### Divya Drishti:Fog accident prevention system
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/divya-drishtifog-accident-prevention-system-523c) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/IBelieveInTheDream/Electrothon-Project) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=zU4faQG1jWs) [![Built at](https://img.shields.io/badge/Built%20at-Electrothon%208.0-0052CC?style=flat-square)](https://electrothon-8.devfolio.co)
+
+> Your Divine sight in Zero visibility
+
+![Matplotlib](https://img.shields.io/badge/Matplotlib-333333?style=flat-square) ![MATLAB](https://img.shields.io/badge/MATLAB-333333?style=flat-square) ![Electric Motor](https://img.shields.io/badge/Electric%20Motor-333333?style=flat-square) ![ESP32](https://img.shields.io/badge/ESP32-333333?style=flat-square) ![Seaborn](https://img.shields.io/badge/Seaborn-333333?style=flat-square)
+
+**The problem it solves**
+
+So have you ever driven through intense fog where you can't even see 5m ahead of you? This results in many devastating accidents like the ones shown in the video.
+So we thought why not research on this topic and see if we as students could find a solution to this particular problem.
+And so came to be DIVYA-DRISHTI:
+Where humans are unable to respond and break, DivyaDrishti is an automatic breaking system that save the lives of people in such extreme weather conditions.
+
+Unlike standard LIDAR systems which cost more than 70000Rs and **fail in extreme weather conditions** such as fog, our solution offers a **much cheaper** 15000Rs alternative to it **that actually works**.
+This project has the **potential to save thousands of lives** and **prevent the extreme traffic jams** that happen due to these accidents
+
+**Challenges we ran into**
+
+One of the major challenges we had during this project was the mmWave Sensor.
+Although much cheaper than the Lidar sensors available in the market(costing upto 1lakhRs), it was still out of our options to buy a 15000Rs sensor. 
+So we started looking for online simulations.
+We had to learn MATLAB completely from scratch in order to simulate this project.
+Night long we were just trying to figure this thing out and research about this project.
+and inally** WE DID IT.**
+
+**Electrothon 8.0 Winners**
+
+#FIRST-YEAR team aiming for the win.
+This is one of the few hardware projects in this hackathon that actually has the potential to save millions of lives, while catering to the niche of low income families.
+
+**Electrothon 8.0 Honors Track**
+
+#Best-Beginner Hack
+#Best-Hardware Hack
+Well as a team in the first year building this project which could save the lives of thousands of people was a great opportunity for us.
+we faced countless challenges in building this automatic breaking system but alas we are finally here, ready to take home the prize
+
+Team **XEREXINITES** -- [Rekhansh Sharma](https://github.com/IBelieveInTheDream), [Ashmit Bhatt](https://github.com/bhattashmit09), Rahul Sonkhla, [Rishabh Uniyal](github.com/rishabhuniyal)
+
+`2026-03-15`
+
+---
+
+### Real Time  EV Energy and Sensor(Simulation)
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/real-time-ev-energy-and-sensor-dashboard-simulation-db34) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Rahulkhatkar079/ev-dashboard) [![Built at](https://img.shields.io/badge/Built%20at-Electrothon%208.0-0052CC?style=flat-square)](https://electrothon-8.devfolio.co)
+
+> Web interface displaying real time EV sensors data
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square)
+
+**The problem it solves**
+
+​1. Real-Time EV Energy & Sensor Dashboard (Simulation)
+​Since electrathons often focus on electronics and electric vehicles, you can build a live monitoring dashboard. Instead of physical sensors, you write a background script on your laptop that generates mock data and pushes it to a database.
+​The Concept: A web or mobile interface that displays live metrics like battery temperature, voltage, motor RPM, and estimated range.
+​The "Real-Time" Element: As the background script generates new numbers every second, the dashboard updates instantly without needing a page refresh.
+​Tech Stack: * Data Generator: A simple Python or C script to generate random but realistic sensor values.
+​Database: Firebase Realtime Database (free and very easy to set up).
+​Frontend: HTML/CSS/JavaScript, or a basic app framework if you are exploring app development.
+
+**Challenges we ran into**
+
+Service key wasn't generating and firebase admin module not found.
+
+**Requestly Track**
+
+![image](https://assets.devfolio.co/content/c403e8c6c29045fdabea71f33949f773/0ca79b72-ca5c-4a23-8d49-5038895792b7.png)
+
+Team **Hamirpur Royals** -- [Aashish Bishnoi](https://github.com/ace0290), [Rahul Khatkar](https://github.com/Rahulkhatkar079), [Satwik Rana](https://github.com/satwikrana080-beep), [Pranshu Saini](https://github.com/pranshusaini22)
+
+`2026-03-15`
+
+---
+
+### styleMind - AI Wardrobe Intelligence
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/stylemind-2e95) [![Built at](https://img.shields.io/badge/Built%20at-Electrothon%208.0-0052CC?style=flat-square)](https://electrothon-8.devfolio.co)
+
+> Open your wardrobe. Get your outfit. Instantly
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Arduino IDE](https://img.shields.io/badge/Arduino%20IDE-333333?style=flat-square) ![Arduino](https://img.shields.io/badge/Arduino-333333?style=flat-square) ![ESP8266 Wifi MCU](https://img.shields.io/badge/ESP8266%20Wifi%20MCU-333333?style=flat-square)
+
+**The problem it solves**
+
+**Problem Statement:** 
+
+Every morning, the average person spends 
+17 minutes standing in front of their wardrobe 
+not knowing what to wear.
+
+Not because they have nothing.
+Because they have too much — and no intelligence 
+to guide them.
+
+Current problems:
+
+1. No weather context
+   You pick an outfit without knowing it will 
+   be 38°C outside or raining by afternoon.
+   Result → discomfort, wasted outfit changes.
+
+2. You forget what you own
+   Studies show 30% of wardrobe items are never 
+   worn. People rebuy clothes they already have.
+   Result → wasted money, cluttered wardrobe.
+
+3. Manual effort every single morning
+   You have to open your phone, check weather, 
+   scroll through mental inventory, decide.
+   Result → decision fatigue before the day starts.
+
+4. No personalization
+   Generic fashion apps suggest outfits for 
+   average body types, average weather, average 
+   preferences.
+   Result → suggestions that don't actually fit 
+   your body, skin tone, or style.
+
+5. Fragmented shopping
+   When you need something new, you check Amazon, 
+   then Flipkart, then Meesho separately.
+   Result → wasted time, missed deals.
+
+**Solution :**
+
+StyleMind — AI Wardrobe Intelligence
+
+We put a ₹200 ESP8266 sensor on your wardrobe door.
+
+When you open it every morning:
+
+→ Sensor detects door motion instantly
+→ App reads today's live weather
+→ AI checks your actual wardrobe items
+→ Suggests the perfect outfit in under 3 seconds
+→ Shows what you own vs what you need to buy
+→ Finds best price across Amazon, Flipkart, Meesho
+
+Before you have even looked at your clothes —
+StyleMind has already decided what you should wear.
+
+No phone to open.
+No app to scroll.
+Just open your wardrobe.
+
+![image](https://assets.devfolio.co/content/78f04226d73d4bc3b3b97509012a76ca/b9f10b69-f32d-4c71-8c8d-e310411f6339.png)
+
+![image]
+(https://assets.devfolio.co/content/78f04226d73d4bc3b3b97509012a76ca/d17abcc7-315a-4d7a-9d8f-7dd6a7ad70a5.png)
+
+![image](https://assets.devfolio.co/content/78f04226d73d4bc3b3b97509012a76ca/e390cdf8-514f-4f10-9c3c-b37a06300132.png)
+
+![image](https://assets.devfolio.co/content/78f04226d73d4bc3b3b97509012a76ca/685fd1dd-9a9f-4a6e-8779-1f817118acef.png)
+
+![image](https://assets.devfolio.co/content/78f04226d73d4bc3b3b97509012a76ca/905666f4-ee9d-4e16-941e-ca2aac6caa83.png)
+
+**Challenges we ran into**
+
+Challenge :
+Getting a physical ESP8266 sensor to 
+communicate with a browser in real time 
+was our biggest technical challenge.
+HTTP is request-response — the browser 
+cannot just "listen" for hardware signals.
+
+**Solution : **
+We implemented Server-Sent Events (SSE).
+The browser opens a persistent connection 
+to our Node.js server and stays listening.
+When ESP8266 sends a signal, the server 
+instantly pushes it to the browser.
+Total latency — under 300 milliseconds.
+
+**Challenge: **
+We planned to use Claude Vision API 
+to automatically identify clothing 
+from uploaded photos.
+However API keys require a credit card 
+and we are first-year students without 
+access to paid APIs during the hackathon.
+
+**Solution:**
+We built a smart filename-based 
+categorization engine that reads 
+keywords from the photo filename 
+and maps them to category, color, 
+fabric, season and occasion.
+
+The result looks identical to an 
+AI-powered categorizer but works 
+100% offline with zero API cost.
+The architecture is ready for Claude 
+Vision integration when API access 
+is available
+
+**Electrothon 8.0 Honors Track**
+
+We are first-year engineering students 
+at NIT Hamirpur participating in our 
+second hackathon.
+
+We have basic experience with ESP8266 
+from our previous hackathon — but 
+StyleMind pushed us far beyond what 
+we had done before.
+
+In this hackathon we did for the first time →
+Connected hardware to a live web application
+Built Server-Sent Events for real-time 
+hardware-to-browser communication
+Designed a complete AI-powered frontend
+Integrated weather API with outfit logic
+Built price comparison across 3 platforms
+Created a professional full-stack product
+from a single HTML file + Node.js server
+
+Our previous hackathon gave us the 
+hardware foundation. Electrothon 8.0 
+gave us the challenge to build something 
+real, complete and impactful with it.
+
+StyleMind is our first complete product —
+from idea to working demo to pitch 
+in 48 hours.
+
+Team **BEYOND_404** -- [Nishant Thakur](https://github.com/nishantthakur2049-bot), [Ojasvi Bhardwaj](https://github.com/Ojasvibhardwaj2006), [Parnika Choudhary](https://github.com/parnikachoudhary), [Kanav Kalia](https://github.com/kanavkalia1-afk)
+
+`2026-03-15`
 
 ---
 

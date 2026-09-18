@@ -1,6 +1,6 @@
 # Finance and Fintech
 
-![Projects](https://img.shields.io/badge/Projects-121-4B32C3?style=flat-square) [![GitHub](https://img.shields.io/badge/GitHub-tech--anupam-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/tech-anupam) [![Instagram](https://img.shields.io/badge/Instagram-tech.anupam-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/tech.anupam)
+![Projects](https://img.shields.io/badge/Projects-183-4B32C3?style=flat-square) [![GitHub](https://img.shields.io/badge/GitHub-tech--anupam-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/tech-anupam) [![Instagram](https://img.shields.io/badge/Instagram-tech.anupam-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/tech.anupam)
 
 [← Back to all themes](https://github.com/tech-anupam/hackfolio#readme)
 
@@ -346,6 +346,128 @@ Team **Kitlers** -- [Sathvik Pasuvula](https://github.com/sathvik9105), [Ashutos
 
 ---
 
+### PopUpStore
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/popupstore-2aa5) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/sunilswain7/Popupstore) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://svc-moc3kzq33gi5oz8o.beta.buildwithlocus.com/) [![Built at](https://img.shields.io/badge/Built%20at-Locus'%20Paygentic%20Hackathon%20--%20#2-0052CC?style=flat-square)](https://paygentic-week2.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-7-FF6B6B?style=flat-square)
+
+> Pay for URL -> Get URL -> MakeMoney via drops
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=flat-square) ![React.js](https://img.shields.io/badge/React.js-333333?style=flat-square)
+
+**The problem it solves**
+
+**The Problem It Solves**
+In Indian social commerce, thousands of independent creators and boutique retailers operate through Instagram DMs and WhatsApp groups. While these platforms are great for discovery, they create a "Technical Tax" the moment a merchant wants to scale. Even 
+
+We identified three critical bottlenecks that prevent these creators from becoming professional digital businesses:
+
+1. **Developer Tax & Complexity Gap**: Creating a professional storefront for a "Limited Drop" currently requires hiring a developer or wrestling with complex, expensive platforms like Shopify. Most creators don't have weeks to wait; they have a drop happening now.
+
+2) **The "Bot Sniper" Problem** :Limited-edition drops are often ruined by automated bot-nets that drain inventory in seconds to resell on third-party sites. Traditional storefronts are "sitting ducks" without expensive Web Application Firewalls (WAF).
+
+3) **The Blind-Flight Analytics** :Merchants know who bought (because they received a DM), but they have zero insight into Visitor Intent. They don't know how many people clicked the link , or if their site crashed under heavy load.
+
+**Challenges we ran into**
+
+1. **Wrong .locusbuild format** — services was an array (old format), API expects an    
+  object keyed by name. Fixed the schema.  
+
+2. **The “Black Box” Deployment Gap**
+Locus Build takes ~3–5 minutes to provision a container, and a static loading screen created uncertainty for merchants.
+
+Fix: We integrated the SSE log stream (/logs?follow=true) into a live "Chatbox" to see the Transparency and where the project has reached.
+
+ 3. We hit a critical ECS/Locus conflict where platform-injected HOSTNAME variables overrode Next.js defaults, causing silent health-check failures.
+
+Fix- We resolved this by force-binding the server to 0.0.0.0 during boot to bypass the runtime variable precedence and ensure service accessibility -LOCUS community helped me
+
+4. **Service discovery failures** — Multiple deploys showed "failed" due to no service    
+  arn:aws:servicediscovery... errors on the platform side. Resolved by deleting       
+  everything and creating fresh projects.                                               
+5. **Stale projects/services** — Had 2 duplicate projects with 5 services total, all stuck in "queued". Cleaned up to a single project.
+
+We solved these at last with help and support!!
+
+**Track: Using BuildWithLocus to leverage our suite.**
+
+PopWithLocus utilizes seven Locus Build endpoints plus the native SSE streaming architecture — every integration is load-bearing and essential to the "agentic" workflow. 
+
+1)**Autonomous Service Orchestration**(POST /v1/services). Agent 2 (Builder) programmatically provisions isolated ECS/Fargate containers on the fly. We don't just host a site; we dynamically create a brand-new cloud environment for every creator drop based on a single natural language sentence.
+
+2)**Dynamic Variable Injection** (PATCH /v1/variables). Before a container boots, we securely inject the AI-parsed product data and Locus Pay checkout links into the service environment. This ensures that the storefront is completely stateless and ephemeral — the code stays the same, but the "business" changes per deployment.
+
+3)*Infrastructure-Level Observability* (/logs?follow=true). We treat the Locus SSE Log Stream as the "nervous system" of our agents.
+
+4)**Frontend UX(uses SSE LOGS)**: We pipe raw Docker logs directly to a "Hacker Terminal" in the UI so merchants can watch their store being born.
+
+5)**Self-Healing Recovery (POST /.../rollback)**. To ensure High Availability, Agent 3 (Lifecycle) monitors the log stream for CrashLoop signals. If an AI-generated UI update causes a failure, the agent autonomously triggers a Locus Rollback to the last stable deployment.
+
+6)**Economic Kill-Switch (PATCH /services/:id - Scale-to-Zero)** - To protect creators from credit-draining EDoS (Economic Denial of Sustainability) attacks, the agent cross-references log traffic against successful Locus Pay webhooks.
+
+7)**Event-Driven Sync (POST /webhooks)**. We register background callbacks to handle the "Deployment Gap." If a user closes their browser during the 5-minute build, Locus pings our backend via webhook upon success to update our global database and notify the merchant.
+
+8)**Credit Guard** (GET /billing/balance). Before initiating any cloud compute, Agent 2 performs a safety check on the Locus credit balance. This prevents failed deployments and ensures the platform always has enough "fuel" to run the creator's store.
+
+Without Locus Build, I would have needed a full DevOps team to manage container orchestration, a cybersecurity team for bot mitigation, and an SRE team for incident recovery.
+
+Team **Kitlers** -- [Sunil Swain](https://github.com/sunilswain7), [Sathvik Pasuvula](https://github.com/sathvik9105), [Ashutosh Vats](https://github.com/AshutoshVatsg)
+
+`2026-04-24`
+
+---
+
+### AlphaOracle
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/alphaoracle-e1eb) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/namanguptagit/AlphaOracle) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://alphaoracle.onrender.com/) [![Built at](https://img.shields.io/badge/Built%20at-Locus'%20Paygentic%20Hackathon%20--%20#1-0052CC?style=flat-square)](https://paygentic-week1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-7-FF6B6B?style=flat-square)
+
+> Turning breaking news into decentralized profits.
+
+![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Express.js](https://img.shields.io/badge/Express.js-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![OpenAi](https://img.shields.io/badge/OpenAi-333333?style=flat-square) ![CSS3​](https://img.shields.io/badge/CSS3​-333333?style=flat-square) ![Locus Api Gateway](https://img.shields.io/badge/Locus%20Api%20Gateway-333333?style=flat-square) ![FireCrawl Api](https://img.shields.io/badge/FireCrawl%20Api-333333?style=flat-square) ![Server-Sent Events](https://img.shields.io/badge/Server--Sent%20Events-333333?style=flat-square)
+
+**The problem it solves**
+
+Navigating decentralized finance and prediction markets (like Polymarket) requires exhaustive human vigilance. Traders are forced to constantly monitor geopolitical events, macroeconomic news, and crypto legislation to catch market-moving information before the odds adjust. This is manually exhausting, prone to human bias, and strictly limits the volume of opportunities a single person can capitalize on. 
+
+**AlphaOracle** solves this by establishing a fully autonomous, tireless "Prediction Market Agent" built specifically for the Machine Economy. 
+
+It completely removes the human from the active loop by automating the three hardest parts of predictive trading:
+1. **Live Data Ingestion:** It uses wrapped proxies to scrape the internet in real-time, focusing specifically on dynamic, high-stakes market questions.
+2. **Contextual Reasoning:** It routes the scraped data unconditionally to an LLM (GPT-4o) that acts as an expert analyst, stripping away emotional bias and generating a strict probabilistic confidence score. 
+3. **Cryptographic Execution:** Once confidence thresholds are met, the agent autonomously signs and broadcasts a real, on-chain smart contract transaction to the Polygon blockchain. 
+
+**How it makes existing tasks safer:**
+Giving an AI agent direct access to your wallet is historically dangerous. AlphaOracle solves this by utilizing the **Locus API Gateway**. Rather than exposing private API keys or giving the bot direct control over an unbounded Web3 wallet, AlphaOracle operates inside a sandboxed Agent Wallet. Financial guardrails prevent the AI from ever executing trades that exceed its predefined `allowance`. If the bot begins to overspend, the Locus API natively intercepts the `POST /pay` calls and halts execution, drastically reducing downside risk.
+
+**Use Cases:**
+- Automatically capitalizing on breaking regulatory news (e.g., *SEC ETF Approvals*).
+- Macroeconomic predictive trading (e.g., *Federal Reserve Interest Rate cuts*).
+- General automated portfolio hedging against global news events while the user sleeps.
+
+**Challenges we ran into**
+
+**Unbounded Autonomous Drain & Loop Control**
+One of the most dangerous aspects of building a continuously running backend (setInterval based EventEngine) is that if the AI logic glitches, it can blindly drain Web3 wallets or rack up astronomical API usage trying to execute trades thousands of times an hour. 
+
+We ran into this hurdle early on when the agent's LLM confidence was consistently crossing the execution bounds. The execution engine was running away and exhausting its sandboxed API allowances within minutes, causing silent `403 Forbidden` crashes in the background that we were completely blind to until we manually checked the system logs.
+
+**How We Overcame It:**
+We completely decoupled the infinite execution loop into a strictly gated, stateful REST architecture, and we weaponized the Locus Payment API's native safety features to act as our **circuit breaker**. 
+Instead of letting the bot crash silently, we explicitly refactored `executor.ts` to trap Axios `403` API Allowance errors. If the Locus proxy tells us we have exceeded our safety bounds, the AgentEngine securely halts itself and emits a custom `{ event: 'alert' }` payload up through our Server-Sent Events network! 
+The Frontend Dashboard instantly catches this specific alert, natively clicks the "Stop Agent" button to pause the recurring loop, and injects a flashing red glassmorphism warning banner at the top of the UI so developers know instantly that the safety limit was reached.
+
+**Using PayWithLocus.com to leverage our suite.**
+
+AlphaOracle is the perfect embodiment of the **Machine Economy** because it is a completely autonomous, financially-enabled M2M (Machine-to-Machine) entity. It goes far beyond simply parsing text; it natively orchestrates its own supply chain of intelligence without a human ever pressing a button or signing a credential.
+
+**How it fits the track:**
+1. **Inter-Agent Commerce:** Rather than relying on a developer to hardcode expensive OpenAI or Firecrawl API keys directly into the backend, AlphaOracle utilizes the **Locus Network's Wrapped APIs**. The agent uses its own Locus Wallet balance to dynamically route micro-payments to fund its own data scraping (Firecrawl) and logical inference (GPT-4) cycles. It is a machine hiring other machines.
+2. **Autonomous Execution:** Traditional Web3 applications require humans to physically click "Approve" on a MetaMask pop-up. AlphaOracle operates as a sovereign entity; the exact moment it establishes statistical confidence in a macroeconomic event, it uses the Locus `api/pay` endpoints to independently broadcast and sign cryptographic bets onto the Polygon network. 
+3. **Programmable Guardrails:** By utilizing Locus's backend policy checks, AlphaOracle operates within a strict and enforceable safety allowance. It proves that we can build AI agents that handle real money and place genuine financial bets while completely mitigating the risk of unbounded LLM logic loops blindly draining primary accounts.
+
+[Naman Gupta](https://github.com/namanguptagit)
+
+`2026-04-14`
+
+---
+
 ### Opex AI
 [![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/opex-ai-b72b) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://youtu.be/_7sS60Xu_hQ) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/_7sS60Xu_hQ) [![Built at](https://img.shields.io/badge/Built%20at-Locus'%20Paygentic%20Hackathon%20--%20#4-0052CC?style=flat-square)](https://paygentic-week4.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-6-FF6B6B?style=flat-square)
 
@@ -594,6 +716,227 @@ Through these proactive measures and a determined mindset, we have successfully 
 Team **Draykon AI** -- Himanshu Kumar Singh
 
 `2026-04-26`
+
+---
+
+### Give With Locus
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/give-with-locus-e75d) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/GPT-64590/givewithlocus-paygentic-1) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://givewithlocus.web.app) [![Built at](https://img.shields.io/badge/Built%20at-Locus'%20Paygentic%20Hackathon%20--%20#1-0052CC?style=flat-square)](https://paygentic-week1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-6-FF6B6B?style=flat-square)
+
+> Let AI find the cause, let Locus move the money.
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![Paywithlocus](https://img.shields.io/badge/Paywithlocus-333333?style=flat-square)
+
+**The problem it solves**
+
+**Live:** https://givewithlocus.web.app — click "Explore with demo account" on the login page to try it with a real USDC wallet (pre-funded on Base).
+
+## Why this exists
+
+Most people want to help. The hard part isn't wanting — it's trusting that your $20 actually reached the family it was meant for, finding a charity that works, and doing it without burning a Saturday on research.
+
+Giving has always had two coupled problems: a **trust problem** (opaque payment rails, stale charity data, annual reports that lag a year behind) and a **rails problem** (slow cross-border payments, banking infrastructure that excludes the regions that need help most, and payment stacks that can't be composed with AI agents). Fixing either one has traditionally come at the cost of the other.
+
+Locus is the first stack that collapses both problems into one integration. GiveWithLocus is what happens when you build for a world where those trade-offs are gone.
+
+## What Locus makes possible — for donors, and for charities
+
+**Trust you can see, not just receive.**
+
+- A donor can watch their gift arrive on-chain, in **seconds** — every donation carries a BaseScan transaction hash. No waiting for an annual report.
+- A charity can show its community, board, or regulator exactly where every dollar went — without a six-month PDF reconciliation project. Accountability becomes a public query, not a batch job.
+
+**Rails built for the world, and for agents.**
+
+- **Speed.** A drought-relief org gets the money in minutes, not 2 to 5 business days. When a family is waiting for water, minutes matter.
+- **Reach.** A charity in rural Kenya doesn't need a US bank account or a SWIFT correspondent. They need a wallet, and Locus provisions one at signup, for free. No banking infrastructure required.
+- **Cost.** A $5 donation from Jakarta to that Kenyan clinic arrives as $5, not $1.50 after wire fees. Gas is sponsored. Small generosity survives.
+- **Composability.** An AI agent can actually do the work — find the cause via Locus-wrapped Brave search, verify the charity by reading its mission page through Locus-wrapped Firecrawl, execute the donation on Base, and receipt the donor with an on-chain link — all in one conversation.
+
+## Who this serves
+
+- **An individual donor** who wants to help with malaria nets in West Africa — types it in plain language, gets three verified options with impact scores, donates $5 with one click, receives an on-chain receipt in seconds.
+- **A small charity** in a region where USD banking is hard to access — gets listed for free, accepts USDC from anywhere in the world, and grows through my email-escrow recruitment loop.
+- **A CSR or foundation team** (on the vision roadmap) — operating a corporate giving budget as a programmable Locus wallet with sub-allowances per cause, and turning the annual ESG report into a BaseScan query instead of a six-month reconciliation.
+
+## Why I built this
+
+Giving should be easy to do, easy to verify, and easy to scale — whether you're giving $5 or $5 million. It should carry the donor's good intent all the way to the person who needed help, with nothing lost to fees, latency, or opacity on the way. Locus is what finally makes all three possible in the same stack. GiveWithLocus is my demonstration — built for people, not paperwork.
+
+**Challenges we ran into**
+
+### 1. Locus wallets have two addresses, and I was storing the wrong one
+
+When you call Locus's registration endpoint, you get back an ownerAddress — an externally-owned account. But the on-chain **smart wallet** that donations should actually settle into doesn't exist yet at registration time. It takes about 30 seconds to deploy, and only appears on a subsequent call to the status endpoint.
+
+I didn't realize this at first and stored the ownerAddress as each charity's deposit address. The result was a silent failure: every donation appeared to settle on-chain (because the ownerAddress is a valid 20-byte address and USDC transfers to it are perfectly legal), but the charity's Locus API would forever report a zero balance — because /pay/balance queries the smart wallet, not the owner.
+
+I caught this during a live test when $0.50 had clearly left the donor's wallet but the charity couldn't see it. The fix was a backfill script that polls the status endpoint for every charity, updates the stored address to the deployed smart wallet, and preserves the old owner address under a previousOwnerAddress field. Two charities whose API keys had gone stale needed full re-registration. I also patched the registration helper to always poll-and-store correctly for any future wallet.
+
+### 2. Direct USDC transfers don't emit webhooks
+
+Only the checkout-sessions endpoint does. I learned this when agent-executed donations stayed stuck as "QUEUED" in my database forever, even though BaseScan showed they had confirmed within seconds. There was no callback path telling me to flip the status.
+
+I solved this in three layers:
+
+1. **Inline poll** — the donation tool now polls Locus's transaction history for up to ten seconds after sending, so the agent can announce confirmation in the same chat turn.
+2. **Page-mount reconcile** — a reconciliation endpoint fires fire-and-forget on every dashboard and donations-page load, syncing stale statuses against live Locus state.
+3. **Chat-page reconcile** — after discovering users who stayed on the chat page after donating still saw stuck statuses, I added a reconcile call on chat mount **and** after every assistant turn completes.
+
+Now no matter where a user lands after donating, the status catches up within seconds.
+
+**Using PayWithLocus.com to leverage our suite.**
+
+GiveWithLocus uses **six Locus API endpoints plus the checkout SDK** — every one load-bearing, none decorative. The entire app is a demonstration of what becomes possible when payments, email escrow, pay-per-use web APIs, and smart-wallet provisioning all live behind one suite.
+
+**Wallet provisioning.** Every donor and every charity gets a Locus smart wallet at signup via Locus's registration endpoint, with automatic polling of the status endpoint to capture the deployed smart-wallet address (not the EOA). Encrypted keys are stored server-side.
+
+**Direct USDC transfers (pay/send).** When a user confirms a donation in the chat agent, the donor's wallet transfers USDC to the charity's wallet on Base mainnet. Gas-sponsored — the dollar amount the donor enters is exactly what the charity receives.
+
+**Email escrow (pay/send-email).** The agent's recruit-charity tool invites off-platform nonprofits by sending USDC in escrow with a claim link. This is my growth flywheel: donors bring charities onto the platform without any admin touching a spreadsheet.
+
+**Embedded checkout (@withlocus/checkout-react + checkout/sessions).** For users who prefer a classic flow over the chat, the donation page renders Locus's embedded checkout against a session created server-side with the charity's API key. A webhook verifies the HMAC signature with the session's stored secret and flips the donation to confirmed.
+
+**Brave web search** (Locus-wrapped, $0.035 per call). When the agent can't find a matching charity in my verified database, it searches the web. Metered per call, so research spend scales with actual agent usage — not a monthly subscription.
+
+**Firecrawl scraping** (Locus-wrapped, $0.003 per call). The agent reads mission pages and impact reports directly from charity websites, giving the donor live evidence rather than a ten-year-old review page.
+
+**Transaction history (pay/transactions).** Used by my donation-status reconciler — since pay/send does not emit webhooks, I poll this endpoint to sync stale database statuses against live Locus state, in three places (on chat mount, on dashboard mount, after every agent turn).
+
+Without Locus I would have needed to build a custom payments stack, a wallet system, a web-search integration, a scraper billing layer, and a checkout UI — plus the escrow and gas-sponsorship logic. With Locus, all of that is one composable suite, and the hackathon project works end-to-end: **real money, real blockchain, real charities.**
+
+Team **athena19** -- Samuel Mulia
+
+`2026-04-13`
+
+---
+
+### Buildr
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/buildr-1f2e) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://buildr-ashen.vercel.app) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/VP-88nZh8Qg) [![Built at](https://img.shields.io/badge/Built%20at-Locus'%20Paygentic%20Hackathon%20--%20#1-0052CC?style=flat-square)](https://paygentic-week1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-6-FF6B6B?style=flat-square)
+
+> Agents hire agents. USDC settles it.
+
+![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![SQLite](https://img.shields.io/badge/SQLite-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![Zustand](https://img.shields.io/badge/Zustand-333333?style=flat-square) ![Server-Sent Events (SSE)](https://img.shields.io/badge/Server--Sent%20Events%20(SSE)-333333?style=flat-square) ![Claude (Anthropic)](https://img.shields.io/badge/Claude%20(Anthropic)-333333?style=flat-square)
+
+**The problem it solves**
+
+**Today, AI agents can't pay each other.**                  
+                                                                              
+  If you want to build an agent that scrapes a website, summarizes the        
+  content, translates it, and generates a marketing image — you need five     
+  separate API subscriptions, five billing dashboards, five credit cards, and 
+  a ton of glue code. There's no primitive for one agent to *hire* another.   
+
+  buildr fixes this by creating an autonomous economy where AI agents         
+  discover, negotiate with, and pay specialist agents in **real USDC on Base, 
+  settled through Locus**. Zero humans in the loop for transactions.          
+                                                            
+  ### What people can use buildr for                                          
+  
+  - **Compound workflows** — submit a natural-language task ("research AI     
+  payments, summarize, translate to Japanese, generate a blog image") and
+  watch 4+ specialist agents get hired in real-time, each doing one thing well
+  - **One wallet, many APIs** — a single Locus-funded wallet transparently
+  pays for Firecrawl, Exa, OpenAI, Anthropic, Stability AI, DeepL, Deepgram,  
+  Brave Search, and Perplexity — no upstream accounts needed
+  - **New revenue for agent builders** — register your AI agent, set a USDC   
+  price-per-call, earn directly to your wallet or email                       
+  - **Programmable spend guardrails** — Locus policy limits (per-tx caps,
+  allowances, approval thresholds) let orchestrators spend safely without     
+  human approval for every action                           
+                                                                              
+  ### Why it's safer than existing workflows                                  
+  
+  - **Auditable on-chain** — every agent payment is a real Base USDC          
+  transaction with a clickable Basescan link. No opaque credit card
+  statements.                                                                 
+  - **Price discovery, not price gouging** — 2-round negotiation auction
+  settles at ~80% of asking price                                             
+  - **Escrow-backed email payments** — recipient agents can use emails instead
+   of wallets; funds sit in escrow until claimed                              
+  - **Transparent execution trail** — every sub-task, agent hire, payment, and
+   tx hash is logged and replayable in the Playground                         
+                                                            
+  ### The end state we're building toward                                     
+                                                            
+  An internet where any AI agent can transact with any other AI agent,        
+  autonomously, without humans wiring money or maintaining API keys. buildr is
+   the proof that the primitive already works — today, on Base, via Locus.
+
+**Challenges we ran into**
+
+### 1. "Hex key ≠ API key" — the auth rabbit hole
+                                                                              
+  Locus gives you two things when you sign up: a **wallet recovery key**      
+  (`0x...`) and an **API key** (`claw_dev_...`). I spent an hour trying to    
+  Bearer-auth with the hex key before reading the docs carefully. Fix: use    
+  `claw_dev_*` for Bearer, never send the hex key anywhere. 
+
+  ### 2. Wrong base URL in early integration                                  
+  
+  Started with `https://api.paywithlocus.com/api` — all calls 404'd. Turns out
+   the beta environment lives at `beta-api.paywithlocus.com/api`. The API key
+  type determines the environment. Added the correct URL as a constant at the 
+  top of `lib/locus.ts`.                                    
+
+  ### 3. Transaction hashes aren't returned synchronously                     
+  
+  A Locus `POST /pay/send` returns `{ transaction_id, status: "QUEUED" }` —   
+  the actual on-chain `tx_hash` only appears after 10–30 seconds when Base
+  confirms the block. For the demo to show real Basescan links in the         
+  execution timeline, I had to **poll** `/pay/transactions/:id` up to 5 times
+  at 2s intervals right after each transfer, then persist the `tx_hash` to
+  SQLite and include it in the SSE event stream.
+
+  ### 4. Background tasks dying on navigation
+
+  Initially the orchestration ran inside the React `useEffect` hook of the    
+  orchestrate page. The moment a user clicked "Marketplace" to browse agents
+  while a task was running, the SSE reader got garbage-collected and the whole
+   pipeline vanished. Moved the entire run logic out of React into a **Zustand
+   store with an async runner** that lives in the module, not the component.
+  Now tasks survive navigation and a new topbar badge shows "N running" so you
+   can jump back to the live view.
+
+  ### 5. Keyword-based decomposition was too brittle
+
+  My first `decomposeTask` was a wall of `if (input.includes("translate"))`.  
+  It failed hilariously on "help me launch my SaaS" (just routes to
+  summarization). Replaced it with a **Claude structured-output call** that   
+  returns `{subTasks: [{category, description}]}` JSON constrained to a
+  whitelist of 17 categories. Kept the keyword version as a graceful fallback
+  when the API key isn't set.
+
+  ### 6. Next.js server/client component minefield                            
+  
+  Passing `onMouseEnter` handlers from a server component into a client       
+  component throws a stringify error in Next.js 16. Hit it three separate
+  times across the redesign. Solution: any component with JS event handlers   
+  gets `"use client"` at the top, and purely decorative hover effects use CSS
+  `:hover` selectors instead.
+
+  ### 7. Port mismatch killed internal agent calls                            
+  
+  The orchestrator fetches specialist endpoints via                           
+  `${NEXT_PUBLIC_APP_URL}${agent.endpoint}`. My `.env.local` said port 3000
+  but my dev server auto-shifted to 3002 because 3000 was occupied. Every     
+  specialist call timed out silently and fell back to `[Demo]` text. Fixed by
+  always aligning env var to actual runtime port and adding a log line when
+  the fetch fails.
+
+**Using PayWithLocus.com to leverage our suite.**
+
+- Best Use of Locus Payments — primary track (we use pay/send,              
+  pay/send-email, pay/balance, pay/transactions, gift-code-requests, and 9
+  wrapped APIs)                                                               
+  - Best Paygentic Agent / Best AI Agent — agent-to-agent economy
+  - Best Developer Tool / Infrastructure — buildr is a primitive for agent    
+  composition                                                                 
+  - Grand Prize / Main Track                                                  
+  - Best UI/UX (if available)
+
+Team **lumo** -- [Shinjan Patra](https://github.com/flaminshinjan), Tanish Vadel
+
+`2026-04-16`
 
 ---
 
@@ -1234,6 +1577,113 @@ After approval, the system automatically:
 Team **Cute Potatoes** -- [Mishka Tiwari](https://github.com/mishhkaaa), [Kamal Karteek U](https://github.com/Kamalllx), [khushi dubey](https://github.com/khushidubeyokok), [Gaurav Mishra](https://github.com/gauravmishraokok/gauravmishraokok)
 
 `2026-07-20`
+
+---
+
+### Shield With Locus
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/shield-with-locus-e7e7) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/GPT-64590/shieldwithlocus-paygentic-2) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://shieldwithlocus.v1c.dev/) [![Built at](https://img.shields.io/badge/Built%20at-Locus'%20Paygentic%20Hackathon%20--%20#2-0052CC?style=flat-square)](https://paygentic-week2.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-4-FF6B6B?style=flat-square)
+
+> Runtime security for every BuildWithLocus service.
+
+![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![Google Gemini](https://img.shields.io/badge/Google%20Gemini-333333?style=flat-square) ![BuildWithLocus](https://img.shields.io/badge/BuildWithLocus-333333?style=flat-square)
+
+**The problem it solves**
+
+# The problem ShieldWithLocus solves
+
+A few weeks ago I deployed a Next.js app to an AWS instance in Singapore. Twelve days later a commodity botnet had found it, exploited the runtime, and used the box to pump 1.15 TB of traffic at a Brazilian Minecraft server for three days. I didn't notice the attack, AWS emailed me about the bill. The attacker had no idea who I was. Their botnet just scans the public internet looking for anything reachable and vulnerable. I was both. That was enough.
+
+The whole story was already in my container logs: nineteen documented probe sessions, the name **innocentzero** hard-coded into their payloads, shell commands failing with attacker URLs right there in the error text. Twelve days of evidence sitting in stdout. Nobody was reading them.
+
+The ugly part isn't that I got hit. It's how ordinary it was.
+
+AI is pulling more people into shipping software right now than at any point in twenty years; students, solo founders, career-changers. The first version of anything you ship is the version you don't know how to secure yet. The tools that helped you ship it in a weekend don't come with a security team bundled in. Meanwhile commodity botnets are industrialized, scanning every IPv4 constantly, recruiting cheap cloud instances as free bandwidth for whoever paid them that week. The gap between "I shipped" and "I'm in a botnet" is measured in days.
+
+**ShieldWithLocus** is for that gap. It's the runtime watchdog that would have caught my incident the same day instead of three days later, and it can be small because **BuildWithLocus** already ships everything it needs: a live log SSE stream on every service, and a deploy API that can scale to zero, roll back, or restart with one call.
+
+## What it does
+
+**Detect.** A 25-rule IOC engine reads every log line as Locus emits it — scanner probes, RCE payloads, brute-force, SQL injection, malware handles, entropy-guarded secret leaks. No LLM in the baseline path; severity compounds over a rolling window.
+
+**Explain.** When an incident opens, LLM streams a Zod-validated report — classification, timeline, remediation, executive summary. Capped at 60 reports/hour so a log storm can't turn into an AI bill.
+
+**Contain.** Scale to zero, roll back to last healthy, or restart — all through the same claw_… key you used to deploy. Every action is audit-logged and reversible.
+
+## Why I built it
+
+Getting attacked because you started learning is a tax on curiosity, and every hour of silence between the first probe and the first person who notices is an hour the attacker gets for free. Runtime security shouldn't be a paid feature that only teams with budgets and SOC analysts get. It should run quietly on the platform your code already runs on, within reach of anyone who can **git push**. If one person shipping their first real app on **BuildWithLocus** this month never has to read the log of their own compromise after the fact, that's the week worth building for.
+
+**Challenges we ran into**
+
+# Challenges I ran into
+
+The hardest bug in this build was a BuildWithLocus deploy failure that kept insisting my Next.js dashboard was not ready, even though the container was starting cleanly.
+
+Every deploy flipped to failed after exactly 5m20s with the error message ECS service did not become ready before timeout. The runtime logs showed Next.js 16.x booting and reporting Ready in 0ms. Curling the URL externally returned 200 — sometimes. Between successes I was getting 503s, and the logs showed tasks being replaced every 2–3 minutes, each printing a fresh Ready in 0ms on a different ip-x-x-x-x.ec2.internal host. Meanwhile my Hono agent (plain Node HTTP) in the same project deployed fine. Something was Next-specific.
+
+The smoking gun was buried in the startup log:
+
+```
+- Local:         http://ip-10-0-0-94.ec2.internal:8080
+- Network:       http://ip-10-0-0-94.ec2.internal:8080
+```
+
+Local and Network should both read 0.0.0.0. They did not. I had set ENV HOSTNAME=0.0.0.0 in my Dockerfile, but ECS Fargate overrides HOSTNAME at runtime with the ENI DNS name of the task — and that override beats any ENV directive baked into the image. The server.js inside Next standalone reads process.env.HOSTNAME and calls server.listen(port, hostname), so it was binding only to that specific IP. Anything on the loopback interface of the container (including the HEALTHCHECK) got ECONNREFUSED. Task unhealthy → ECS replaces → new task, same binding, same failure → loop forever, until the 5m20s patience window of the platform ran out and the deploy got marked failed.
+
+The fix is one line, but it is only obvious after you understand the override order: set HOSTNAME=0.0.0.0 at the Locus service-variable layer (PATCH /v1/variables/service/:id), not in the Dockerfile. Locus-level env vars are injected into the ECS task definition after the runtime HOSTNAME resolution in Docker, so yours wins. After that, Next binds to 0.0.0.0, the HEALTHCHECK passes, ECS reaches steady state, the deploy goes green.
+
+Hono, Express, the net/http package in Go — anything whose default listen(port) binds to 0.0.0.0 without consulting HOSTNAME — never hits this. It is Next-standalone-specific (and probably catches a few other self-hosted SSR frameworks that read HOSTNAME). Once I understood the override order I wrote it up as a note for other hackathon participants on BuildWithLocus so nobody else loses a day to it.
+
+**Track: Using BuildWithLocus to leverage our suite.**
+
+**ShieldWithLocus** is both a **BuildWithLocus** consumer and a **BuildWithLocus** watchdog. The entire detect-report-contain loop is built on primitives the platform already exposes, accessed through the same claw key used to ship the service itself. No second identity, no second agent, no bolt-on stack.
+
+Detection rides the live SSE log stream (GET /v1/services/:id/logs?follow=true) — every log line flows through a 25-rule regex IOC engine on the agent the moment Locus emits it. Authentication is workspace JWT via POST /v1/auth/exchange, refreshed every 24 hours so monitoring never drops. Services are looked up per incident via GET /v1/services/:id.
+
+**Containment is three reversible actions, each a single Locus API call:**
+
+- Scale to zero via PATCH /v1/services/:id with runtime min:0 max:0 — traffic halts in under two seconds
+- Rollback to last healthy via POST /v1/deployments/:id/rollback
+- Restart in place via POST /v1/services/:id/restart
+- Paranoid autonomy also disables auto-deploy via PATCH /v1/services/:id with autoDeploy:false, so an attacker with git write cannot redeploy their payload back into place
+
+**Every action is authorized with the operator claw key, audit-logged with actor attribution (agent or user), and reversible without SSH or manual production surgery.**
+
+The fit for this track is that ShieldWithLocus demonstrates the BuildWithLocus suite already contains everything a production-grade runtime security layer needs. The SSE log firehose, the reversible deploy API, the per-service variable surface, the addon system, the BYOD domain flow — all load-bearing, all used for their native purpose, none decorative. **The same platform that ships your code can also watch it, classify attacks against it, and contain them through the API you already know.**
+
+Team **athena19** -- Samuel Mulia
+
+`2026-04-22`
+
+---
+
+### CREDITDNA
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/creditdna-86fc) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/varsharanir07/CreditDNA) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://credit-dna.vercel.app/#landing) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.loom.com/share/c17dd63df63a4fdfa9bdd69ff4ae9036) [![Built at](https://img.shields.io/badge/Built%20at-HackNova%203.0-0052CC?style=flat-square)](https://hacknova-3.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-4-FF6B6B?style=flat-square)
+
+> CreditDNA- Credit for every Indian
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square)
+
+**The problem it solves**
+
+CreditDNA is a modern web application that provides accessible credit scoring for Indians by leveraging their existing UPI transaction history. Rather than relying on traditional credit bureaus, CreditDNA analyzes UPI patterns to generate a credit score, making financial inclusion possible for millions.
+
+**Challenges we ran into**
+
+Feature Engineering Complexity:-
+
+Converting raw transactions into meaningful behavioural signals was challenging Needed to design:
+Transaction frequency , Merchant diversity ,Spending consistency.
+We converted raw transactions into structured behavioural features using domain-driven metrics like frequency, diversity, and consistency, and validated them with simulated user scenarios.
+
+Building Trust Without CIBIL:-
+Banks rely heavily on traditional scores
+Convincing them to trust alternative scoring is challenging.
+We built trust by adding explainable AI, confidence scores, and positioning our model as a complementary system, allowing banks to test it gradually with real behavioural data
+
+Team **BOTSQUAD** -- Simon Paul, [Mayank Bansal](https://github.com/mayankbansal4381ssgn6-dotcom), Varsha Rani, Devanandha Sajith
+
+`2026-03-17`
 
 ---
 
@@ -2071,6 +2521,197 @@ This demonstrates Locus Founder's core capability: building businesses that oper
 SNOW HQ
 
 `2026-05-25`
+
+---
+
+### AgentOps
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/agentops-9ee2) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/CosmasMandikonza/AgentOps) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://agent-ops-saferta.vercel.app/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=qusBw4z3vGE) [![Built at](https://img.shields.io/badge/Built%20at-Locus'%20Paygentic%20Hackathon%20--%20#1-0052CC?style=flat-square)](https://paygentic-week1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-3-FF6B6B?style=flat-square)
+
+> Operator layer for autonomous revenue
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![Vercel](https://img.shields.io/badge/Vercel-333333?style=flat-square) ![Django rest framework](https://img.shields.io/badge/Django%20rest%20framework-333333?style=flat-square) ![Firecrawl](https://img.shields.io/badge/Firecrawl-333333?style=flat-square) ![Locus](https://img.shields.io/badge/Locus-333333?style=flat-square)
+
+**The problem it solves**
+
+# AgentOps
+
+**Operator software for autonomous revenue services.**
+
+AI services are getting better at doing work, but the business layer around them is still broken.
+
+A model can generate output.  
+An agent can execute a task.  
+But operators still struggle to answer the questions that actually matter:
+
+- **Did this service get paid?**
+- **What did it spend to fulfill the work?**
+- **What proof exists that the work actually happened?**
+- **Is the service profitable after fulfillment costs?**
+
+## What AgentOps does
+
+AgentOps solves that gap.
+
+It is an **operator layer for autonomous revenue services**: a control surface where founders, agencies, and platform teams can supervise AI-powered services as if they were real business units, not black-box workflows.
+
+Instead of hiding behind prompts and outputs, AgentOps makes the operating reality visible:
+
+- **wallet status**
+- **checkout**
+- **fulfillment proof**
+- **margin / profit visibility**
+
+all in one place.
+
+## Real use case
+
+A practical use case is a service business selling repeatable digital work such as:
+
+- landing page audits
+- competitor intelligence
+- ad copy packs
+- other AI-assisted digital services
+
+With AgentOps, that service can:
+
+1. expose a real checkout flow  
+2. route fulfillment through live wrapped APIs  
+3. attach proof artifacts back to the job  
+4. keep revenue, costs, and margin visible to the operator  
+
+That means the service is no longer just *“AI that can do something.”*  
+It becomes a system that can **take payment, perform work, prove what happened, and show whether the business is healthy.**
+
+## Why this matters
+
+Today, teams often stitch together payments, screenshots, research calls, and fulfillment logs across multiple disconnected tools.
+
+AgentOps replaces that fragmentation with a single operator surface.
+
+It makes autonomous services:
+
+- **easier to supervise**
+- **safer to run**
+- **more transparent**
+- **more believable as real businesses**
+
+## Core idea
+
+> **AI can do the work. AgentOps makes it operable.**
+
+**Challenges we ran into**
+
+# Challenges I ran into
+
+The hardest part of building AgentOps was not UI polish or prompt engineering.
+
+It was making the **live proof loop** real and trustworthy.
+
+## 1. Working against beta infrastructure
+
+A major challenge was integrating against beta APIs while still trying to ship something that felt product-grade.
+
+Some endpoints behaved differently than expected.  
+Some response shapes required careful handling.  
+One screenshot provider path turned out not to be registered in beta at all.
+
+I had to:
+
+- verify what was actually live
+- adapt the implementation to the providers that were truly available
+- avoid pretending a capability existed when it did not
+
+That forced me to build the product around **truthful proof**, not fake confidence.
+
+## 2. Demo mode vs live mode
+
+Another challenge was building a runtime that could switch cleanly between **demo** and **live** behavior.
+
+I had to make the mode initialization deterministic, ensure proof routes failed gracefully when demo mode was active, and keep the UI explicit about what was:
+
+- **LIVE**
+- **SIMULATED**
+- **unavailable**
+
+That honesty layer became one of the strongest parts of the project because it made the system believable instead of theatrical.
+
+## 3. Repository and runtime recovery
+
+Near the end of the build, I hit a serious repository/runtime recovery issue during git repair.  
+Part of the root project scaffold was lost, which temporarily broke the runtime.
+
+I rebuilt the missing root files, restored the required support files, verified that:
+
+- `npm install`
+- `npm run lint`
+- `npm run build`
+
+all passed again, and then re-ran the live smoke tests until:
+
+- wallet proof worked
+- checkout proof worked
+- search proof worked
+- screenshot proof worked
+
+## Biggest lesson
+
+The winning version of this project was **not** the one with the most features.
+
+It was the one where the **money-and-proof loop was undeniable**.
+
+That is why the final version focuses on:
+
+- real wallet visibility
+- real checkout creation
+- real wrapped search proof
+- real screenshot proof
+- clear live vs simulated operational truth
+
+**Using PayWithLocus.com to leverage our suite.**
+
+# Why AgentOps fits the PayWithLocus track
+
+AgentOps is built around **PayWithLocus as a core product primitive**, not as a bolt-on payment button.
+
+## How we use the Locus suite
+
+- **Live operator wallet visibility**  
+  AgentOps connects to a real Locus wallet on Base and surfaces the wallet state, network, and balance directly inside the product.
+
+- **Live checkout creation**  
+  The platform creates real hosted checkout sessions through Locus so each autonomous service can actually take payment.
+
+- **Wrapped API fulfillment**  
+  AgentOps uses Locus-wrapped providers to run fulfillment steps, including:
+  - live **Exa** search proof
+  - live **Firecrawl** screenshot proof
+
+- **Operational proof inside the product**  
+  Instead of hiding payment and fulfillment behind backend logs, AgentOps exposes the artifacts in the UI so an operator can inspect what happened.
+
+- **Mode-aware control surface**  
+  The product supports clear **LIVE vs DEMO** behavior, making it explicit when Locus-backed actions are real and when data is simulated.
+
+## Why this matters
+
+Most agent demos show output.  
+AgentOps shows the **business loop** around the output:
+
+1. the service has a wallet  
+2. the service can get paid  
+3. the service can spend on fulfillment  
+4. the service can attach proof  
+5. the operator can see margin and control from one surface  
+
+That makes PayWithLocus fundamental to the experience.
+
+## In one sentence
+
+**AgentOps uses PayWithLocus to turn autonomous services into operable businesses with real wallet visibility, live checkout, live wrapped fulfillment, and inspectable proof.**
+
+Cosmas Mandikonza
+
+`2026-04-16`
 
 ---
 
@@ -2995,6 +3636,783 @@ L-ESCROW uses Locus's checkout feature as the main superpower to make transactio
 Team **Dione** -- Pranav Bhardwaj, [Shivalik Singh](https://github.com/XZNON)
 
 `2026-04-30`
+
+---
+
+### RideTrue
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/ridetrue-c7a5) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://ridetrue.xyz) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/flaLfLaPMXk?si=Dq1X8Cy_EgIeOMZ0) [![Built at](https://img.shields.io/badge/Built%20at-Locus'%20Paygentic%20Hackathon%20--%20#2-0052CC?style=flat-square)](https://paygentic-week2.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> Transport
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square)
+
+**The problem it solves**
+
+If you've ever taken a ride in Lagos or Kano, you know the drill. The driver names a price, you argue, someone backs down, and someone feels cheated. It happens every single day and everyone has just accepted it as normal.
+
+RideTrue changes that. Before you get in the car, you see exactly what the route should cost, checked by an AI agent against real market rates. You pay in USDC and the money sits in escrow until you actually arrive. The driver gets paid the second you confirm. 
+
+For drivers it's even simpler. Pay $0.20 once to activate your AI agent, connect your Locus wallet, and start accepting trips. When a passenger arrives and confirms, the money hits your wallet immediately. 
+
+It works for passengers, it works for drivers, and it's built on Base blockchain so everything is transparent and instant.
+
+**Challenges we ran into**
+
+Buildwithlocus kept failing silently for days. No useful error messages, just "failed." Turned out the platform was defaulting to Node 18 which Next.js 16 doesn't support.
+
+Getting the payment flow right was also tricky coordinating the Locus checkout session ID, saving the trip to the database at the right moment, and triggering driver payouts on arrival all had to happen in the right order.
+
+**Track: Using BuildWithLocus to leverage our suite.**
+
+RideTrue uses the Locus payment suite as the core of its entire 
+payment infrastructure. Every passenger payment goes through a 
+Locus checkout session where USDC is held in escrow on Base until 
+the passenger confirms arrival. Drivers receive instant payouts 
+directly to their Locus wallet the moment a trip is confirmed.
+
+Driver onboarding also runs through Locus — every new driver pays 
+a one-time $0.20 USDC activation fee via Locus checkout to get 
+their AI agent set up.
+
+The AI agent payment feature uses the Locus agent API endpoint 
+directly, allowing programmatic payments without any human 
+interaction — the agent hits the Locus checkout session endpoint 
+and pays autonomously. This is the core of the agentic payments 
+track we are building on.
+
+SNOW HQ
+
+`2026-04-23`
+
+---
+
+### Envoy Watch
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/envoy-watch-8201) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/YusufsDesigns/Envoy-Watch) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://envoy-watch.vercel.app/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/IcnWObWGXwk) [![Built at](https://img.shields.io/badge/Built%20at-Locus'%20Paygentic%20Hackathon%20--%20#2-0052CC?style=flat-square)](https://paygentic-week2.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> Every pull request, its own world.
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![GitHub](https://img.shields.io/badge/GitHub-333333?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+## The Problem
+
+Every development team that uses pull requests faces the same quiet crisis:
+**shared staging environments**.
+
+When multiple developers have open PRs at the same time, they all deploy to
+the same staging server. PR #42 runs a database migration. PR #38 crashes
+because the schema changed under it. Someone's feature works in isolation
+but breaks everything when combined. The team argues about who "owns" staging
+at any given moment.
+
+The common workarounds are painful:
+- Manually spinning up a cloud instance per branch (slow, expensive, forgotten)
+- Taking turns deploying to staging (kills velocity)
+- Skipping staging entirely and "testing in prod" (dangerous)
+
+**Envoy Watch eliminates this problem entirely.**
+
+Install the GitHub App on any repository. From that point:
+
+- **Open a pull request** → Envoy Watch detects it within seconds and begins
+  provisioning an isolated environment on Locus
+- **Get a live URL** → A bot comment appears on the PR with a fully deployed,
+  publicly accessible preview of your exact branch
+- **Every PR is isolated** → its own container, its own URL, its own lifecycle.
+  No shared state. No conflicts. No coordination required.
+- **Merge or close the PR** → the environment is automatically destroyed.
+  No cleanup. No lingering infra. No ongoing cost.
+
+### Who benefits
+
+- **Solo developers** reviewing their own work before merging
+- **Small teams** where multiple features are in flight simultaneously
+- **Open source maintainers** who want contributors to get live previews of
+  their changes without giving them server access
+- **QA engineers** who need a stable, isolated environment per feature for
+  testing — not a constantly-changing shared server
+
+### What makes it different
+
+Most CI/CD preview environment tools are tied to specific platforms
+(Vercel for Next.js, Netlify for static sites). Envoy Watch works with
+**any language, any framework** — if Nixpacks can detect and build it,
+Envoy Watch can deploy it. Node.js, Python, Go, Ruby — all supported
+automatically, no Dockerfile required.
+
+**Challenges we ran into**
+
+## Challenges
+
+### 1. The GitHub App private key formatting problem
+
+The first real blocker: every attempt to authenticate with GitHub's API
+failed with `ERR_OSSL_UNSUPPORTED`. The GitHub App private key is a
+multi-line RSA PEM file. When stored as a Vercel environment variable,
+the newlines get stripped, producing a malformed key that Node's crypto
+module can't parse.
+
+**Fix:** Base64-encode the entire PEM file before storing it:
+
+```bash
+cat private-key.pem | base64 -w 0
+```
+
+Then decode it at runtime before passing it to `createAppAuth`:
+
+```typescript
+privateKey: Buffer.from(process.env.GITHUB_APP_PRIVATE_KEY!, 'base64')
+  .toString('utf-8')
+```
+
+One line. Two hours to find it.
+
+---
+
+### 2. Wrong Locus API endpoint — the beta/production split
+
+Locus runs on separate environments: `paywithlocus.com` for the payment
+wallet, `beta.paywithlocus.com` for beta accounts. The BuildWithLocus
+deployment API lives on a *third* base URL: `beta-api.buildwithlocus.com`.
+
+Every API call was returning `401 Unauthorized` because the code was hitting
+`api.buildwithlocus.com` — the production endpoint — with a beta API key.
+
+**Fix:** Read the skill.md carefully. The correct base URL for beta accounts is:
+https://beta-api.buildwithlocus.com/v1
+
+Lesson: when a platform has multiple environments, verify the base URL
+against the environment your API key was issued for.
+
+---
+
+### 3. Locus deploying the wrong repo
+
+During testing, Envoy Watch was installed on the Envoy Watch repository
+itself. So when a test PR was opened, Locus tried to deploy... Envoy Watch.
+Which requires environment variables Locus didn't have. Which caused
+confusing build failures that had nothing to do with the code.
+
+**Fix:** Use a separate, simple test repository — a minimal Express API
+with a `/health` endpoint — specifically for triggering and validating
+the preview environment flow.
+
+---
+
+### 4. Node.js version mismatch on Locus builds
+
+Nixpacks auto-detected Node 18 from the repo. Next.js 15 requires Node 20+.
+The build failed silently at the `npm run build` step with:
+You are using Node.js 18.20.5. Node.js version ">=20.9.0" is required.
+
+**Fix:** Add a `.nvmrc` file to the repo specifying `20`, and declare the
+engine requirement in `package.json`:
+
+```json
+"engines": { "node": ">=20.9.0" }
+```
+
+Nixpacks reads `.nvmrc` and selects the correct version automatically.
+
+---
+
+### 5. Webhook timeout constraints
+
+GitHub expects a `200 OK` response within 10 seconds of sending a webhook.
+The Locus deployment process takes 3–7 minutes. Responding after the
+deployment completes would cause GitHub to mark every webhook delivery as
+failed.
+
+**Fix:** Respond `200` to GitHub immediately, then run the deployment and
+polling logic asynchronously using fire-and-forget:
+
+```typescript
+handlePROpened(ctx).catch(console.error)
+return Response.json({ ok: true }) // returned immediately
+```
+
+The bot comment on the PR is the user's feedback mechanism — not the
+webhook response.
+
+**Track: Using BuildWithLocus to leverage our suite.**
+
+## How Envoy Watch Uses Build With Locus
+
+Envoy Watch is built **entirely around the BuildWithLocus API** as its
+infrastructure layer. Locus is not an add-on — it *is* the product.
+Without it, Envoy Watch is just a webhook receiver with nowhere to deploy.
+
+### The core integration
+
+Every preview environment is created with a single Locus API call:
+
+```typescript
+POST https://beta-api.buildwithlocus.com/v1/projects/from-repo
+Authorization: Bearer <JWT>
+{
+  "name": "pr-42-user-my-app",
+  "repo": "user/my-app",
+  "branch": "feature/auth"
+}
+```
+
+Locus handles everything from there: cloning the repo, auto-detecting the
+framework via Nixpacks, building the Docker image, provisioning the container,
+setting up routing and SSL, and returning a live URL at
+`https://svc-{id}.buildwithlocus.com`.
+
+### Teardown
+
+When a PR closes, a single DELETE call removes the entire environment:
+
+```typescript
+DELETE https://beta-api.buildwithlocus.com/v1/projects/:projectId
+```
+
+Container, service, all associated resources — gone.
+
+### Why this fits the track
+
+The BuildWithLocus track challenges builders to use Locus as a
+**deployment backbone** — not just a tool in the stack, but the
+infrastructure primitive the product is built on.
+
+Envoy Watch demonstrates exactly this:
+
+- **AI/agent-native deployment:** The entire deployment lifecycle is
+  orchestrated programmatically, with no human touching a cloud console.
+  Envoy Watch acts as the agent — detecting events, making decisions, and
+  calling Locus to execute.
+
+- **Pay-per-use infrastructure:** Each environment costs $0.25 and exists
+  only as long as the PR is open. This ephemeral, pay-per-use model is
+  precisely what Locus's pricing is designed for — and what makes
+  per-PR environments economically viable where traditional cloud
+  infrastructure would be too expensive.
+
+- **API-first, no DevOps:** Repositories deploy without Dockerfiles,
+  without cloud accounts, without any configuration from the end user.
+  Locus's Nixpacks auto-detection handles the build. This is the
+  "no DevOps required" promise of BuildWithLocus in practice.
+
+- **Real workflow problem:** Preview environments are a genuine pain point
+  for every development team. Envoy Watch makes Locus the solution to a
+  problem developers face daily — demonstrating practical, real-world
+  utility beyond a demo.
+
+### Production architecture note
+
+For the hackathon, environments deploy from the platform owner's Locus
+wallet. The production architecture routes each GitHub App installation
+to the user's own Locus API key — so deployments bill against their
+account, enabling a true multi-tenant model built on top of Locus.
+
+[Yusuf Lawal](https://github.com/YusufsDesigns)
+
+`2026-04-22`
+
+---
+
+### PocketQuant
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/quantify-5695) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://vimeo.com/1183626838) [![Built at](https://img.shields.io/badge/Built%20at-Locus'%20Paygentic%20Hackathon%20--%20#1-0052CC?style=flat-square)](https://paygentic-week1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> Model Builder (Powered by Locus)
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square)
+
+**The problem it solves**
+
+Sick of AI hallucinating data analytics? 
+
+Expensive datasets, analytics, and news articles?
+
+Need dynamic outputs suited to your needs?
+
+Something relevant TODAY with actual use cases instead of trivial agent task assignments, or a mindless idea generated by AI?
+
+As a quantative developer I ask myself the same things!
+
+**PocketQuant** is an autonomous financial research agent that transforms complex investment analysis into instant, actionable reports. Powered by real market data, AI and **LOCUS**.
+
+**NO hallucinations, data is run through financial models with real data instead of direct AI**
+
+**Dynamic, personalized outputs**
+
+**Real time cost reporting**
+
+**Context providing**
+
+**Source citing**
+
+
+Watch our demo video and slides to see what we mean!
+
+
+**The Problem**
+Serious financial analysis is expensive and slow. A Bloomberg terminal costs $24,000/year. Hiring a quant analyst costs even more. Retail investors and small funds are left making decisions with incomplete information, while the tools that could help them are locked behind institutional paywalls.
+
+
+**What PocketQuant Does**
+PocketQuant lets anyone run institutional grade financial research in plain English, paying only for the data they actually use, in fractions of a cent per query.
+
+**Why It's Different**
+Every analysis is powered by real, freshly fetched market data, not stale snapshots or hallucinated numbers. The on-chain payment model means you pay $0.02 for a query, not $2,000/month for a subscription you'll only use twice.
+
+**Ask it anything:**
+
+- "Run a Bollinger Band analysis on Apple and identify breakout signals"
+- "Simulate 500 Monte Carlo paths for Tesla over the next 30 days"
+- "Build a DCF valuation for Microsoft with bear, base, and bull scenarios"
+- "Analyze how an oil supply disruption in the Strait of Hormuz would impact energy stocks"
+
+**How it Works**
+
+5 Agents, each specialized 
+
+![image](https://assets.devfolio.co/content/df517d0ae9e246248301ffe9b9428f8e/fcd8730d-0c51-4672-a2e6-f8e95b657d88.png)
+
+1. Strategist
+Takes your plain English query and decides:
+
+What type of analysis to run (Bollinger Bands, Monte Carlo, DCF, etc.)
+Which tickers are involved
+Exactly which datasets are needed
+
+2. Procurement Agent
+
+Calls **LOCUS** APIs to fetch real market data (Alpha Vantage + Exa)
+Pays for each dataset on-chain with USDC
+Saves data locally as CSV/JSON files for the next stage
+Only fetches what the Strategist asked for — nothing more
+
+3. Code Writer
+
+Receives the data file paths and analysis instructions
+Generates a custom Python script to perform the analysis
+Script is tailored to the exact model type (event study, Monte Carlo, etc.)
+
+4. Code Executor
+
+Runs the generated Python script in a subprocess
+Captures the JSON output (returns, volatilities, projections, etc.)
+If it crashes, sends the error back to the Code Writer for one auto-fix attempt
+
+5. Output Manager
+
+Receives the computed results
+Writes a polished prose research report
+Generates Plotly chart specifications from the real computed data
+Returns everything as structured JSON to the frontend
+
+**Challenges we ran into**
+
+**The Model That Wouldn't Stop Thinking**
+
+The biggest headache was getting the Code Writer agent to actually output Python code instead of reasoning through the problem out loud. Gemini 2.5 Flash Lite has extended thinking enabled by default, so when asked to write a financial analysis script, it would spend thousands of tokens planning, outlining, and explaining before producing any code. By the time it finished thinking, it would either timeout or output JSON analysis instead of a Python script.
+The fix was prefix forcing, instead of asking the model to "write a Python script", we give it the first half of the script already written (imports, helper functions, file comments) and ask it to complete it. A model mid-code has no choice but to keep writing code. We also added a boilerplate injection step that automatically prepends import pandas as pd and the _clean() function if the model forgot them.
+
+**Using PayWithLocus.com to leverage our suite.**
+
+How Locus Was Used
+PocketQuant uses Locus as its on-chain data payment layer,  every piece of market data the agent fetches is paid for in real USDC, creating a transparent and auditable trail of exactly what data was used and what it cost.
+
+What Locus Wraps
+Locus acts as a middleware between PocketQuant and the underlying data providers:
+
+Alpha Vantage — stock prices (OHLCV), technical indicators (SMA, EMA, RSI, MACD, Bollinger Bands), financial statements (income statement, balance sheet, cash flow), news sentiment, commodity prices (WTI crude oil), and economic indicators (GDP)
+Exa — neural web search for recent news articles and financial coverage about any ticker
+
+Without Locus, accessing these APIs would require separate accounts, API keys, and billing relationships with each provider. Locus consolidates them behind a single authenticated endpoint with per-call USDC micropayments.
+
+Mark Gaisor
+
+`2026-04-16`
+
+---
+
+### Whisper
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/whisper-7af1) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Michael-Nwachukwu/whisper) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://www.loom.com/share/f9f04c902bed41cb8342ed32f4227ef8) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.loom.com/share/f9f04c902bed41cb8342ed32f4227ef8) [![Built at](https://img.shields.io/badge/Built%20at-Locus'%20Paygentic%20Hackathon%20--%20#1-0052CC?style=flat-square)](https://paygentic-week1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> The web has a price. Whisper pays it
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![REST API](https://img.shields.io/badge/REST%20API-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![Chrome Extension](https://img.shields.io/badge/Chrome%20Extension-333333?style=flat-square)
+
+**The problem it solves**
+
+Every time you hit a checkout page, a paywall, or a payment request while browsing, the browser stops. It can render the page and display the price, but paying is entirely your problem. Find your card, type the numbers, fill the form. Even worse you're on a page that accepts only card payments and all you have is crypto. It can be a pain in the ass.                           
+                                                                                                                                 
+Whisper gives the browser a wallet.                                                                                        
+                                                                                                                                 
+It runs as a silent AI agent inside Chrome. When you encounter any payment surface while browsing, Whisper recognises it, settles it in USDC, and lets you continue — without switching tabs, entering card details, or breaking your flow.                                               
+                                                                                                                                 
+What people can use it for:                                                                                           
+
+1. Frictionless checkout — land on any Locus-integrated merchant page and pay                                               
+    instantly with one click. No card form, no redirect, no friction. 
+
+2. Card checkout on any site — on standard card checkout pages, Whisper generates a virtual debit card and autofills the form. The user just reviews and submits.
+                                                                                                                                 
+3. Crypto-native payments — on pages that display a wallet address and USDC amount, Whisper reads the address from the DOM and sends the payment directly.                                                       
+                                                                                                                                 
+ 4. x402 micropayments — for APIs and content that return HTTP 402 Payment Required, Whisper intercepts the request at the browser's `fetch` level, settles the payment on-chain and retries automatically. The page receives a 200. The user never sees a paywall.                                                                                                                     
+                                                                                                                                 
+5. Natural language control — users can type commands in the side panel ("pay for                                           
+    this", "what's the total?", "is this page safe?") and the AI agent acts on them.                                             
+                                                                                                                                 
+6. The same extension works across all four payment surfaces. One wallet, any checkout, every site.
+
+**Challenges we ran into**
+
+**1. The "transaction does not belong to this agent" wall**
+
+  The most frustrating bug of the build. After wiring up the full Locus Checkout flow — preflight, pay, poll — every payment came back with a 403: *"Transaction does not belong to this agent."*.
+
+The root cause: I was using a single API key for both creating the checkout session
+  *and* paying it. That meant the payer and the payee were the same wallet — Locus correctly rejects a wallet paying itself. The fix was a two-key architecture: one key owns the merchant session, a separate key is the paying agent. Once we split them, the payments went through cleanly.
+
+A second wrinkle: even with separate keys, `GET /checkout/agent/payments/:txId` kept returning 403 on the beta environment. The money was actually moving (I could see the balance change on the merchant wallet) but the polling endpoint kept rejecting. I worked around it by polling `GET /checkout/sessions/:sessionId` instead, which returns `PAID` status and the real on-chain `paymentTxHash` once confirmed, thanks to the /ask ai bot on Locus discord.
+
+**2. The x402 MAIN world injection problem**
+
+The x402 interception requires wrapping `window.fetch` before any page code runs. In Manifest V3, content scripts run in an isolated JavaScript world — they can't touch `window.fetch` on the actual page. Our first attempt injected a `<script>` tag from the content script, but Chrome's CSP headers on many sites blocked it, and `window.__whisperPresent` was never being set reliably.
+
+The correct solution was declaring a second content script in `manifest.json` with `"world": "MAIN"` and `"run_at": "document_start"`. This runs before any page
+  JavaScript, wraps `window.fetch` natively, and communicates back to the isolated content script via `window.postMessage`. Clean, reliable, and CSP-safe.
+
+**3. Session detection race condition**
+
+The merchant checkout page creates a Locus session dynamically on load — the meta tag starts empty and gets populated after an API call. Whisper's content script was classifying the page before the session was ready, caching a null session ID, and then the button click would fail with "No session found."
+
+The fix was two-part: fire a locus:session-ready custom event from the page once the session is created, and more importantly, read the session ID fresh from the DOM at click time rather than from the cached classification object. The DOM is always current. The classification cache is not.
+
+**Using PayWithLocus.com to leverage our suite.**
+
+Whisper is built entirely on the Locus payment infrastructure and demonstrates the full breadth of what the Locus suite enables.
+
+**1. Locus Checkout SDK** is the primary payment rail. When a user lands on a Locus-integrated merchant page, Whisper calls the agent preflight and pay endpoints directly — no card, no wallet connect UI. This is the core of the Locus agent payment vision: a software agent that can complete a checkout autonomously on a user's behalf.
+
+**2. Laso Finance** powers the virtual card flow. For standard card checkout pages on any site — not just Locus merchants — Whisper calls the Laso card generation API, receives
+  a single-use virtual debit card, and autofills it into the form. This extends Locus reach to the entire web, not just Locus-integrated merchants.
+
+**3. Locus /pay/send** powers direct USDC transfers for crypto checkout pages and x402 micropayment settlement. Any page that shows a wallet address and an amount, or any API that returns HTTP 402, gets settled through the Locus payment API.
+
+The broader argument: Locus provides the payment primitives — checkout sessions, virtual cards, USDC transfers. Whisper is the UX layer that makes those primitives available everywhere, on any page, without any merchant needing to do anything differently. It turns the Locus suite into a universal browser payment agent.
+
+If Locus is the payment rail, Whisper is the train that runs on it — automatically, silently, and on every track.
+
+Team **Whisper-team** -- [Michael Nwachukwu](https://github.com/Michael-Nwachukwu)
+
+`2026-04-15`
+
+---
+
+### ProcureBot
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/procurebot-0432) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/NeelShah1505/ProcureBot) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://procure-bot-one.vercel.app/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/CGu26FpdlVI?si=p6vFFcr_sDanYbPc) [![Built at](https://img.shields.io/badge/Built%20at-Locus'%20Paygentic%20Hackathon%20--%20#1-0052CC?style=flat-square)](https://paygentic-week1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> The autonomous AI procurement agent.
+
+![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![OpenAi](https://img.shields.io/badge/OpenAi-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![BASE](https://img.shields.io/badge/BASE-333333?style=flat-square) ![Locus](https://img.shields.io/badge/Locus-333333?style=flat-square)
+
+**The problem it solves**
+
+AI agents today are trapped behind human billing walls. If an agent needs live data or an image generation API, a developer has to manually sign up, submit a credit card, and manage subscription keys. I realized that true autonomous agents shouldn't need a human to type in a credit card number just to do their job.
+
+ProcureBot is the first AI agent that autonomously buys the data it needs. Using the Locus Machine Payments Protocol on Base, it pays for APIs per request using real USDC. Let me break down how it changes the game:
+
+• Subscription Free Autonomy
+When I ask ProcureBot for live market data or web research, my Groq powered router finds the best API provider and authorizes the exact micro payment needed, usually just a fraction of a cent. 
+
+• Seamless Chat Execution
+The agent handles the entire procurement cycle natively on chain and delivers the data, generated images, and research summaries directly inline in the chat interface.
+
+• BuiltIn Safety Controls
+To ensure the agent never overspends, I built a live policy panel. I can set custom daily caps and per transaction limits, keeping my wallet completely secure while the agent operates independently. 
+
+I built ProcureBot to demonstrate what the future of machine economy looks like: decentralized, entirely autonomous, and running on actual micro payments instead of credit cards.
+
+**Challenges we ran into**
+
+Bridging an AI language model with live, on chain micro payments meant solving several complex UX and data flow problems:
+
+• Hiding Blockchain Latency
+Waiting five seconds for a blockchain approval breaks the illusion of a fast chat assistant. By using Locus on Base, I secured near instant approvals. I also built a cascading "thinking steps" UI that updates live as the agent routes, pays, and fetches, making the wait feel natural and instantaneous. 
+
+• Smart Routing at High Speed
+I initially struggled to get the agent to reliably select the right API from an unpredictable user prompt. I switched my routing engine to Groq using Llama 3 for its sheer speed, and heavily refined the system prompt until it could accurately extract parameters and hit the right endpoints every time. 
+
+• Image Rendering Crashes
+When ProcureBot successfully bought an image from OpenAI, the massive Base64 string data frequently crashed my React chat renderer. I fixed this by writing a custom data interceptor on the backend that wraps the heavy image data in a specialized tag, which my frontend parses and safely swaps into a clean image element.
+
+• Seamless State Synchronization
+Keeping the dashboard feeling alive was a major hurdle. I had to architect a localized state system where the user's USDC balance on Base, their active spending policies, and their live receipt feed all updated smoothly and instantaneously the moment a micro payment executed, completely avoiding any clunky page reloads.
+
+[Neel Shah](https://github.com/NeelShah1505)
+
+`2026-04-14`
+
+---
+
+### Dispatch
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/dispatch-aa49) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/cass-agency/dispatch/) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://svc-mnz0zcnpbg4wdjde.buildwithlocus.com) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/LpIFUqg9lig) [![Built at](https://img.shields.io/badge/Built%20at-Locus'%20Paygentic%20Hackathon%20--%20#1-0052CC?style=flat-square)](https://paygentic-week1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> The Autonomous Premium News Agency
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+Everyone is building AI Coding teams and bug hunters, I still see an underdeveloped branch of actual good quality video content created by AI (I dont mean the subway surfer AI slop for doomscrolling)
+
+But for such a thing to exist, we NEED a verifiable pipeline, and an easy interface for people to interact with it.
+
+That is exactly what Dispatch does. 
+
+One sentence is enough for the orchestration to go through research, script writting, media creation, voiceover, music, and editing.
+
+Everything is verifiable, outputs are streamed within the website, agents are collaborating with one another within the budget range they have, in case an agent would error out due to running out of money, he will tell it to the others and they can fund him.
+
+**Challenges we ran into**
+
+The `GET /commission/:id` endpoint returned the free `watchToken` when the commission was
+  done. Anyone who shared the URL (which contained the commission ID) gave away their video
+  for free. We moved the token behind a one-time `POST /commission/:id/claim-watch` endpoint
+  that returns the token once and then nulls it. Subsequent calls get 409. The commissioner's
+  browser claims it on first poll; incognito visitors hit the pay gate.
+
+
+Additionally, since I really needed multiple agents powered by Locus API Keys, I had hoped I would be able to create multiple wallets and API keys within my PWC account, but due to it not being possible, I created 5 additional PWC Accounts. I named them just like my main, only with a number at the end, and used alias email addresses so its simple to navigate which accounts belong to me.
+
+Aside from that everything with the Locus products has been smooth sailing, skill files working great and teaching my NanoClaw as well as my Claude Code how to operate the platforms.
+
+**Using PayWithLocus.com to leverage our suite.**
+
+Its the cornerstone of everything.
+
+Every agent within the pipeline is pretty much just a PayWithLocus API key and thus a wallet, each with dedicated Locus Wrapped endpoints they are guided to call. each powered by Claude Haiku for the orchestration of their own task within the pipeline, as well as communication with one another through the council.
+
+Customers that commision a video either exclusively for themselves, or to get the revenue sharing and public visibility on the page, both go through the PayWithLocus payment gate
+
+Viewers of the videos only get a 10-second preview, before a PayWithLocus payment gate appears for them.
+
+Deployed on BuildWithLocus, Using PayWithLocus on every API call within the app.
+
+[Kilian Valdman](https://github.com/forever8896)
+
+`2026-04-16`
+
+---
+
+### Aether
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/aether-18da) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ayushkumar2601/locus_ayush) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://www.notion.so/AETHER-Locus-Paygentic-Week-1-344d9dc0765c80bc9a20c55a68b0d842?source=copy_link) [![Built at](https://img.shields.io/badge/Built%20at-Locus'%20Paygentic%20Hackathon%20--%20#1-0052CC?style=flat-square)](https://paygentic-week1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> Think less. Compute more. Automatically.
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![AI/ML](https://img.shields.io/badge/AI/ML-333333?style=flat-square) ![Supabase](https://img.shields.io/badge/Supabase-333333?style=flat-square)
+
+**The problem it solves**
+
+Modern compute workflows are fragmented and inefficient. Users must manually search for compute providers, compare pricing and performance, manage execution environments, and handle payments separately. This process is time-consuming, error-prone, and requires technical expertise.
+
+Aether simplifies this by introducing an **AI agent-driven compute marketplace**. Instead of manually selecting resources, users simply specify their task, and the AI agent automatically chooses the most suitable provider based on cost, performance, and availability. It then executes the job and handles payments seamlessly using micro-transactions.
+
+This makes compute:
+- **Faster**: No manual decision-making or setup required  
+- **Safer**: Budget-controlled micro-payments prevent overspending  
+- **Smarter**: AI optimizes provider selection dynamically  
+- **Accessible**: Even non-technical users can run complex tasks  
+
+Aether effectively turns compute into a **one-click, autonomous experience**, reducing friction and enabling efficient resource utilization.
+
+**Challenges we ran into**
+
+One of the biggest challenges was integrating real-time payments with the execution pipeline. Ensuring that payments, job execution, and result retrieval happened reliably without breaking the flow was complex, especially when dealing with external APIs like Locus.
+
+Another major hurdle was handling TypeScript errors across a multi-service architecture (frontend, backend, and node service). Strict typing caused frequent build failures, particularly with nullable data and mismatched interfaces. To overcome this, I introduced safer fallback patterns and relaxed strictness where necessary to prioritize stability.
+
+Deployment constraints also posed a challenge. Running a fully distributed system (backend + node + database) wasn’t feasible within limited time, so I adapted the architecture into a **frontend-heavy simulation model** while keeping payments real. This ensured a smooth, demo-ready experience without failures.
+
+Overall, the key learning was balancing **real functionality with controlled fallbacks** to create a reliable and impressive system under time constraints.
+
+**Using PayWithLocus.com to leverage our suite.**
+
+Aether deeply integrates **PayWithLocus** to enable real-time, micro-payment-based compute execution. Instead of traditional billing systems or subscriptions, every compute task in Aether is tied to a **live USDC transaction**, making payments transparent, granular, and efficient.
+
+When a user runs a task, the system automatically triggers a **Locus payment API call**, transferring a small amount (e.g., $0.005 USDC) as part of the execution flow. This demonstrates how Locus can be used to power **agent-driven economies**, where AI systems can autonomously make payments for services.
+
+By leveraging PayWithLocus:
+- We enable **instant, low-cost micro-transactions** for compute usage  
+- We showcase **real-world API integration in a live system**  
+- We demonstrate how **AI agents can initiate and manage payments autonomously**  
+- We eliminate the need for complex billing systems or manual payment handling  
+
+This project highlights the potential of Locus in building **decentralized, programmable payment layers** for next-generation AI and cloud infrastructure systems.
+
+[AYUSH KUMAR](https://github.com/ayushkumar2601)
+
+`2026-04-16`
+
+---
+
+### PayCrypta App
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/paycrypta-app-903f) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/NSHM-Hackers/PayCrypta-CodeForChange2.0) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://paycrypta.rahulraman.in/) [![Built at](https://img.shields.io/badge/Built%20at-Code%20for%20Change%202.0-0052CC?style=flat-square)](https://code-for-change-2026.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> A payment app + gateway
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square)
+
+**The problem it solves**
+
+Our goal with this project is to create a **Payment App + Gateway** that will be completely *transparent about the exchange and the charges the user has to pay*.
+It will also feature an easy-to-use UI.
+
+**Challenges we ran into**
+
+First, we had some friction implementing JWT authentication in the backend. We also faced challenges on where to deploy our app and make it securely available over the internet.
+And lastly, another challenge was how to get the license, this is a big issue when doing the international payments, in sending the money from one country to another, the solution is that we have to make a partnership with RBI-Authorized Entities to get the license for the currency exchange services, for which they will apply their own additional charges and fees on the currency exchange which we will analyze and calculate how much they are charging per different currency conversion and then add a fees range to our frontend to show the users more closely how much they are actually paying.
+
+Alternatively, we can forego the intermediary banks by using a whole different core idea of processing the payment. In this new idea, we would as a company/service_provider/payment_processor use cryptocurrency for fast & low-cost transfer of money. First in this alternative approach, when a user/client places an order or purchases something or sends money over to someone else through us, we will collect their money and then buy a cryptocurrency with equivalent amount to the transaction amount like XRP (XRP has a very low network transaction cost) and then since cryptocurrencies are decentralized and global we can with low cost at the recipient's side sell the value back into fiat currency that the recipient wants. In this scenario, the payer will only have to pay two charges one is 1% of the total transaction amount as TDS (tax deducted at source) which we will collect from user and send to the government, and the second charge will be our service fee we will charge for our profit (we have to pay the standard 18% GST on our service fee since it is our income), and those two charges plus the original transaction amount will be the final payment made by the sender, and since if we use XRP as intermediary coin there won't be high network charges therefore we can still charge low service fees and still make profit. The user will in this case have complete transparency of all the amount and charges they will pay and what the other party will receive since there are no intermediaries involved. There is another part that concerns taxes for our company here that if from the time of buying the XRP and selling it on the recipient's side if we made an unintentional profit on the XRP if its value increases during the transaction, we will have to pay 30% of that profit plus cess and surcharge to the government which would still only leave us with more profits than before. This approach will be more suitable when dealing with large amounts as well as small amounts. The biggest challenge in this approach will be that we aside from registering with the FIU_IND (Financial Intelligence Unit — India) to act in accordance with the Prevention of Money Laundry Act we will have to have a starting net-worth of Rs.15 crores to be able to register as a payment processor using using XRP which is a VDA (Virtual Digital Asset). But aside from that, if it can be started and we get a good userbase using our system, then there are no other challenges as the nature of our system makes the operating fees for processing a transaction very low when using decentralized cryptocurrency when compared to using government-authorised dealers for direct fiat currency transfers.
+
+Team **PayCrypta** -- [Anik Gupta](https://github.com/Anikkumar234), [Sumana Mondal](https://github.com/Sumana0810), [Debolina Dutta](https://github.com/debolinadutta213), [Rahul Raman](github.com/rahulraman0108)
+
+`2026-04-11`
+
+---
+
+### TradeSquad
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/tradesquad-9f79) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Axelzx8902/TradeSquad) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://tradesquad.netlify.app/) [![Built at](https://img.shields.io/badge/Built%20at-HackMol%207.0-0052CC?style=flat-square)](https://hackmol-7.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> AI-powered Gamified stock ED-Tech Simulator
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![Supabase](https://img.shields.io/badge/Supabase-333333?style=flat-square)
+
+**The problem it solves**
+
+The problem we are addressing is that most beginners in the stock market lose money not because they lack information, but because they make poor decisions driven by emotions and news hype.
+
+To solve this, we built TradeSquad — an interactive platform that trains users to think before they trade.
+
+Users can explore real market data through candlestick charts and financial news.What differentiates us from platforms like Zerodha or TradingView is that they focus on executing trades, while we focus on training decision-making. We provide a risk-free environment and guide users through structured scenarios instead of just showing raw data.
+
+Additionally, unlike paper trading platforms, which focus on profit and loss, TradeSquad focuses on understanding the reasoning behind decisions. We analyze user behavior and provide feedback on patterns such as reacting emotionally to news or following hype.
+
+**Challenges we ran into**
+
+The biggest bug i faced was not being able to properly integrate finance APIs
+due to the event being organized on a Sunday and the financial stock market being closed on that day😂😂
+
+**Main Track: The Deepforge Arena**
+
+I just survived an insane all-nighter at Hackmol 7.0 to build and launch TradeSquad. I knew I was in the freshers track, but I didn't want to just build a basic beginner web page. Instead, I built a fully decoupled, production-ready app. I set up a React and Vite frontend, a Python and FastAPI backend, and linked it all to a Supabase database. The core feature is a Gemini-powered AI coach that reads live financial data from the Finnhub API and actually "roasts" the user's trading decisions in real-time. The final few hours were an absolute deployment gauntlet—I had to figure out how to host the UI on Netlify, spin up the backend on Render, and debug some brutal CORS middleware errors on the fly just to get them communicating securely. Now, at 7:00 AM, I have a fully live, AI-integrated product. I’m pitching in the freshers track, but with this architecture, I know I'm bringing a project that can go toe-to-toe with the veterans in the main competition.
+
+**Fresher’s Track: The Rising Lanterns**
+
+I just pulled an intense all-nighter at the Hackmol 7.0 hackathon to build and launch TradeSquad, a gamified stock trading simulator featuring a brutally honest, Gemini-powered AI coach. Right down to the 7:00 AM wire, I engineered a fully decoupled full-stack application, building the frontend with React and Vite and the backend with Python and FastAPI. The final stretch was an absolute gauntlet of live deployment challenges—I successfully hosted the UI on Netlify, spun up the backend on Render, and debugged tricky CORS middleware issues on the fly to get both platforms communicating securely. Despite the exhaustion, I’m walking into the freshers track presentation with a robust, real-time, AI-integrated product that punches well above its weight class.
+
+Team **PurplePiglets** -- [Aditya Ashish Gupta](https://github.com/Axelzx8902)
+
+`2026-03-29`
+
+---
+
+### CogniVest
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/cognivest-948c) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/SparkleYR/CogniVest-public) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/uRvAOlcYZhM?si=To8dXc00fvLkVg1s) [![Built at](https://img.shields.io/badge/Built%20at-DevsHouse%20'26-0052CC?style=flat-square)](https://devshouse26.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> Bringing emotions to finance
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![Supabase](https://img.shields.io/badge/Supabase-333333?style=flat-square) ![chromadb](https://img.shields.io/badge/chromadb-333333?style=flat-square)
+
+**The problem it solves**
+
+We built a complete psycho and emotional profile of a client which can be used by a Portfolio manager to predict the emotional state of a client to any given scenario.
+
+**Challenges we ran into**
+
+We had to build a RAG system from scratch with a vector database that also ingests mathematical finance data from multiple agentic systems working together to create a holistic emotional agent that can accurately simulate the client.
+
+**FinTech**
+
+Built a RAG system from scratch with a vector database that also ingests mathematical finance data from multiple agentic systems working together to create a holistic emotional agent that can accurately simulate the client.
+
+Team **QuantForge** -- [Ayoosh Iyer](https://github.com/ayoosh007), [Shreya Singla](https://github.com/shreya2070), [Madhav Khurana](https://github.com/madhavsk-programs), [Yash Raj](github.com/SparkleYR)
+
+`2026-03-29`
+
+---
+
+### compliance.ai
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/complianceai-0a50) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://fincortex-gh6b.vercel.app/) [![Built at](https://img.shields.io/badge/Built%20at-Hack--Nocturne%202.O-0052CC?style=flat-square)](https://hack-nocturne-2.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> AI-Powered Tax Savings & Seamless GST Compliance
+
+![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![Nodemailer](https://img.shields.io/badge/Nodemailer-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![Prism.js](https://img.shields.io/badge/Prism.js-333333?style=flat-square) ![React.js](https://img.shields.io/badge/React.js-333333?style=flat-square) ![Supabase](https://img.shields.io/badge/Supabase-333333?style=flat-square)
+
+**The problem it solves**
+
+Fincortex: The Problem It Solves
+Fincortex (or Compliance Pilot) is an AI-powered financial management and tax optimization platform designed primarily for small and medium-sized businesses (SMBs) and their financial advisors (CAs). It bridges the gap between complex tax regulations and daily business operations.
+
+🛡️ The Problem It Solves
+Running a business requires navigating a minefield of financial compliance, where mistakes are expensive and opportunities are easily missed:
+
+GST Complexity: Understanding Input Tax Credit (ITC) eligibility, fluctuating tax rates, and complex GST schemes is a massive burden for non-experts.
+Invisible Financial Errors: Manual invoice processing often leads to mismatched tax amounts, incorrect GSTINs, or currency inconsistencies that trigger audits or penalties.
+Lost Savings: Millions of rupees in legitimate tax savings go unclaimed every year because businesses don't realize their expenses or assets qualify for specific deductions.
+Fragmented Collaboration: Communicating financial issues to a Chartered Accountant (CA) usually involves messy email threads or WhatsApp messages, leading to delays and missed deadlines.
+🚀 How It Makes Tasks Easier & Safer
+1. Automated Invoice Auditing
+Instead of manually verifying every line item, Fincortex uses AI to instantly scan uploaded invoices. It identifies:
+
+Tax Mismatches: Detects if the tax calculated exceeds the actual amount due.
+Compliance Risks: Flags suspicious vendors or inconsistent data with a "Risk Score."
+Data Integrity: Automatically catches currency inconsistencies and mixed tax rates.
+2. Proactive Tax Saving Engine
+The platform doesn't just store data; it analyzes it. It cross-references your expenses, assets, and payroll against current tax rules to provide:
+
+Actionable Tax Tips: Proactive suggestions for claiming ITC or optimizing GST outflows.
+Estimated Savings: Displays clear, real-time calculations of potential savings in INR.
+Priority Ranking: Help you focus on high-impact savings first.
+3. Streamlined CA Collaboration
+Fincortex turns "I think there's a problem" into structure. With one click, users can "Flag to CA" a specific invoice error or tax recommendation. This ensures the tax advisor sees the exact context, explanation, and document needed to take action.
+
+4. Compliance Safety Net
+Smart Reminders: Automated, frequency-based (monthly/quarterly) tax filing reminders ensure you never miss a deadline.
+Centralized Asset & Expense Tracking: Maintains a "source of truth" for machinery, equipment, and employee costs, ensuring the business is always audit-ready.
+
+**Challenges we ran into**
+
+🔄 1. The Great Migration: Supabase to Firebase
+One of the biggest hurdles was pivoting the backend architecture from Supabase to Firebase halfway through development.
+
+The Challenge: We had already established a schema in Prisma (PostgreSQL) but needed to integrate Firebase for Storage (invoice images) and Authentication. Maintaining a "source of truth" across two different ecosystems (Prisma/SQL for logic, Firebase for unstructured data) was difficult.
+The Solution: We decoupled the database logic using a Service Layer. We moved image processing to Firebase Storage first, then stored the resulting URLs and hashes in the PostgreSQL/Prisma database. This gave us the speed of Firebase for files and the relational power of Prisma for complex tax calculations.
+🧩 2. The "Types" Module Resolution Mystery
+A recurring issue was a TypeScript error: Cannot find module './types' or its corresponding type declarations in the invoiceStore and API routes.
+
+The Challenge: In a Next.js App Router environment, relative pathing for shared types can become brittle if the 
+
+tsconfig.json
+ isn't perfectly aligned with the folder structure.
+The Solution: Instead of relying on fragile relative paths (../../types), we implemented TypeScript Path Aliases. By defining @/types/* in 
+
+tsconfig.json
+, we created a centralized type registry that was accessible globally across both components and API routes.
+🛡️ 3. Backend vs. Frontend Boundary Leaks
+The Challenge: While building the 
+
+TaxSavingEngine
+, we accidentally included React-specific logic (like useContext or browser hooks) inside Next.js API routes. This caused build-time errors because the server tried to execute client-side code during static analysis.
+The Solution: We strictly enforced a Service-Oriented Architecture. We moved all "heavy lifting" (the actual tax calculation logic) into a services/ directory that has zero dependencies on React. Our API routes now act as thin wrappers that call these pure JavaScript/TypeScript services.
+📧 4. Automating the "Un-automatable" (SMTP Secrets)
+The Challenge: Setting up the automated tax reminder system required manual input of SMTP secrets for testing, which broke the "hands-off" developer experience we wanted.
+The Solution: We switched to a Dual-Mode Email System. For development and testing, we integrated Ethereal/Nodemailer with auto-generated test accounts. For production, we moved to Resend/Brevo, using environment variable injection during the CI/CD pipeline so no manual secrets are ever needed in the codebase or UI.
+🤖 5. Mapping AI Logic to Prisma Models
+The Challenge: Converting the AI's "recommendations" (which are often vague) into structured TaxRecommendation records in Prisma required a complex mapping layer.
+The Solution: We implemented a "Trigger & Rule" system. Instead of the AI creating records directly, it flags a rule_code. A background service then fetches the latest TaxRule from the database and marries it with the AI's explanation before saving it, ensuring data integrity and consistency.
+
+Team **FinCortex** -- [Bhuvan kumar shetty h](https://github.com/bkshetty), [Yuvaraj Khot](https://github.com/Yuvaraj108-khot), [Yashwanth Shetty](https://github.com/YashwanthShetty15), [Vaishakh Bangera](https://github.com/VAISHAKHBANGERA)
+
+`2026-03-15`
 
 ---
 
@@ -4835,6 +6253,1089 @@ Pay distributes. Both in USDC on Base.
 [Yusuf Lawal](https://github.com/YusufsDesigns)
 
 `2026-04-29`
+
+---
+
+### Phoenix
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/phoenix-8e55) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/CaseClosed007/LocusHackathon) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://locus-hackathon-5owefdgi1-nikhil-s-projects-c3fde316.vercel.app/) [![Built at](https://img.shields.io/badge/Built%20at-Locus'%20Paygentic%20Hackathon%20--%20#2-0052CC?style=flat-square)](https://paygentic-week2.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Deploy once, rise from every failure.
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square)
+
+**The problem it solves**
+
+Deploying an app has always required you to know things — the right runtime, the right port, the right start command, how to write a Dockerfile, how to read build logs when something breaks. Most people with an idea don't have all of that, and even developers who do still spend hours on setup that has nothing to do with the actual idea they're trying to build.
+
+Locus Phoenix removes all of that friction entirely.
+
+You type what you want in plain English. The agent figures out the runtime, writes every file, pushes it to Locus Build, and monitors the deployment. If it fails — and first deployments often do — it reads the build logs, diagnoses the root cause with Gemini, patches the code, and redeploys itself. You don't touch anything. You just watch it fix itself.
+
+Once your app is live, you don't have to redeploy manually every time you want a change. There's a chat panel directly below every successful deployment where you describe what you want different — "make the hero section dark mode", "add a /health endpoint", "change the font to something modern" — and the agent patches only the affected files, shows you a diff of exactly what changed, and redeploys to the same project. It's the closest thing to having a developer on call.
+
+For teams with a brand identity, there's a brand upload feature — drop in your PDF brand guidelines or a logo, and every app the agent generates automatically uses your exact hex colors, fonts, and tone of voice. No manual CSS editing after the fact.
+
+For developers who already have code on GitHub, you just paste the repo URL. The agent fetches the files, analyses the stack, patches anything that needs to change for Locus compatibility, and deploys it — without you writing a single config file.
+
+The payment side is built in throughout. The agent checks your Locus wallet balance before every heal attempt, routes its AI calls through Locus payment rails, and shows you a real cost breakdown on every successful deployment — how much USDC was spent, how many AI calls were made, and how much engineering time was saved. It's not just an AI tool, it's an economically-aware autonomous agent that knows what it's spending and stops itself when the budget runs out.
+
+**Challenges we ran into**
+
+The biggest challenge was getting Gemini to output code in a parseable format. It kept truncating responses mid-file or adding explanation text before the code blocks, causing my parser to silently fail even when the code was right there. I fixed it with a two-stage fallback regex and stricter prompt instructions telling Gemini to start its response with code, not explanation. The iterative editing feature also broke right before the demo — I was calling a Locus API endpoint that doesn't exist on the beta API. Stripped out that lookup, added a force push to handle fresh git history, and it worked.
+
+**Track: Using BuildWithLocus to leverage our suite.**
+
+Locus Phoenix integrates with Locus at every layer of its operation — not just as a deployment target, but as the full execution substrate for an autonomous AI agent. On the build side, every deploy triggers the complete Locus lifecycle: POST /v1/auth/exchange for JWT auth, POST /v1/projects to create a project, POST /v1/projects/{id}/environments for a production environment, POST /v1/services to provision a containerized web service, a git push to beta-git.buildwithlocus.com to trigger the actual build, GET /v1/deployments/{id} polled every 20 seconds for status, and GET /v1/deployments/{id}/logs fetched on failure and fed directly to Gemini for diagnosis — after which the agent patches the code and redeploys to the same Locus project automatically, up to three times. On the payments side, GET /v1/billing/balance is called before every heal attempt as a budget gate, the Locus wallet balance is displayed live in the UI, and with USE_LOCUS_WRAPPED=true all LLM calls are routed through Locus payment rails rather than hitting Gemini directly. The iterative editing feature redeploys to the same Locus project on every chat-driven code change, making Locus the persistence layer for a continuous AI development loop. In total the project calls 10 distinct Locus API surfaces, and the key differentiator is that the user never touches Locus at all — every API call is made autonomously by the agent, which means Locus Build isn't just hosting an app, it's the runtime an AI agent reasons and acts through.
+
+[Nikhil Sharma](https://github.com/CaseClosed007)
+
+`2026-04-23`
+
+---
+
+### Locus DefenderX (Security as an Agent)
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/the-agentic-honeypot-securityasanagent-1215) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Janhvigupta29/locus-defenderX) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://janhvigupta29.github.io/locus-defenderX/) [![Built at](https://img.shields.io/badge/Built%20at-Locus'%20Paygentic%20Hackathon%20--%20#2-0052CC?style=flat-square)](https://paygentic-week2.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Every Attack Meets Its Own Illusion
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![REST API](https://img.shields.io/badge/REST%20API-333333?style=flat-square)
+
+**The problem it solves**
+
+Modern applications get attacked constantly like SQL injections, path traversal, brute force or credential stuffing. The traditional response is a static firewall with fixed rules. 
+The problem? Attackers know how firewalls work. They probe slowly, rotate IPs, and mutate their payloads until something gets through.
+Our agent flips the model entirely. Instead of blocking attackers, it deceives them to a fake pot and does it autonomously, without a human in the loop.
+
+***Specific use cases can be:-***
+
+1. **Startups and solo developers with no security team**
+Most early-stage products have zero dedicated security staff. Our Locus DefenderX acts as an always-on agent that makes infrastructure decisions automatically. The agent handles BGP routing table itself without even us having the prior knowledge.
+2. **Protecting APIs during a live product launch**
+Launch day is when attackers strike hardest. DefenderX monitors traffic in real time, and the moment anomalous patterns cross a threshold, it deploys a mirror environment and silently reroutes the attacker while keeping your real servers healthy during your most critical window.
+3. **Threat intelligence gathering**
+Once an attacker is rerouted to the mirror environment, every move they make like every payload they try, every endpoint they probe is end to end logged. Over time this builds a profile of real attack patterns targeting your specific stack. So instead of them taking our confidential information, it's actually us who are keeping our eyes on them.
+4. **Reducing false-positive lockouts**
+Rule-based systems often block legitimate users think of it as a developer testing endpoints that look like SQL injection. Because DefenderX uses an AI reasoning layer rather than rigid rules. It can smartely distinguish context like a security researcher running known safe tools and a live attacker running exploit chains.
+5. **Compliance and audit trails**
+In regulated industries (fintech, healthtech), you need to prove your system detected and responded to threats. DefenderX's agent log provides a timestamped, reasoning-annotated record of every decision made like the log saying "attack confirmed at 14:32, honeypot deployed at 14:32:04, traffic rerouted."
+
+*How it makes existing tasks easier and safer*
+ 
+![image](https://assets.devfolio.co/content/3bc56fbf56944db2a67e050d6e2f9caa/030e230b-8db8-4ea0-b9a2-83daa150c755.png)
+
+**Challenges we ran into**
+
+1. ***The API Key Exposure Problem***
+**The hurdle:**
+The very first version of this project called the Anthropic API directly from index.html or straight from the browser. This works fine inside Claude.ai (where the platform injects the key securely), but the moment you move it to a stand-alone project and push it to GitHub, your API key is visible to anyone who opens DevTools. It would have been scraped within hours.
+**How we solved it:**
+We introduced server.js as a secure proxy layer. The browser never touches Anthropic's API directly. Instead:
+*Browser → POST /api/analyze → server.js → Anthropic API*
+The key lives only in .env, which is listed in .gitignore and never committed. The browser only ever sees your own server's URL. This is the standard industry pattern for protecting secrets in web apps. We just had to rebuild the original single-file approach around it.
+
+2. ***JSON Parsing Failures from Claude***
+**The hurdle:**
+We told Claude to respond with pure JSON. But occasionally — especially under certain prompt conditions — it would wrap the response in markdown code fences like this:
+*{"verdict":"attack","confidence":91,...}*
+JSON.parse() would throw an error on that, crashing the analysis flow and falling back to the heuristic default every time.
+**How we solved it:**
+A small .replace() before parsing strips the fences defensively:
+*result = JSON.parse(raw.replace(/json|/g, "").trim());*
+And the whole parse is inside a try/catch — so even if Claude returns something completely unexpected, the app falls back to a sensible safe default rather than breaking:
+*catch {
+  result = { verdict: "attack", confidence: 88, attack_type: "Anomalous Traffic", ... };
+}*
+The lesson here is broader than just this project: never trust external API responses blindly, even from your own AI. Always sanitize, always have a fallback.
+
+***Organizations It Serves***
+
+1. **Startups & Early-stage Companies**
+
+- No dedicated security team yet — Sentinel acts as your 24/7 automated security engineer
+
+- Can't afford a SOC (Security Operations Center) — AI agent replaces expensive human monitoring
+
+- Need to ship fast without security becoming a bottleneck — automatic threat handling keeps momentum going
+
+- Want to impress investors with strong security posture from day one
+
+- Regulatory pressure (GDPR, SOC 2) — audit logs show autonomous threat response and containment
+
+2. **Mid-Mar SaaS Companies**
+
+- Sing security person managing entire security operations — needs automated backups
+
+- Grow user base means growing attack surface — threat volume exceeds what one person can handle
+
+- Can't afford 24/7 on-call security staff but need protection outside business hours
+
+- Want to reduce Mean Time To Respond (MTTR) from hours to seconds
+
+- Need objective proof that threats were detected and isolated for compliance reports
+
+3. **Fintech & Payments Companies**
+
+- Attacks directly translate to stolen money — speed of response is literally about loss prevention
+
+- Regulatory requirement to document threat detection and response — Sentinel logs every decision with reasoning
+
+- Cannot afford false positives that lock out legitimate users (blocking customer transactions costs revenue)
+
+- Need to prove security improvements to compliance auditors and customers
+
+- Targeted by sophisticated attackers — need AI-driven detection, not just rules-based systems
+
+4. **Healthcare & Medical SaaS**
+
+- HIPAA/HITRUST compliance requires detailed incident logs — Sentinel provides timestamped, reasoned threat records
+
+- Cannot have downtime during critical patient care moments — honeypot redirection keeps main app healthy
+
+- Attackers specifically target health data (sells for 10x the price of credit cards) — need aggressive detection
+
+- Need to pass security audits to partner with hospitals and insurance companies
+
+- Patient data breaches result in brand destruction and lawsuits — prevention is worth millions
+
+5. **E-Commerce Platforms**
+
+- Peak season (Black Friday, holidays) = peak attack season — automatic response handles surge without manual intervention
+
+- Payment card industry (PCI-DSS) compliance requires proof of real-time threat detection
+
+- One breach during peak season takes the entire business offline — cannot risk it
+
+- Fraudsters attack constantly — need to distinguish between normal bulk traffic and orchestrated attacks
+
+- Customer trust is the entire business — one breach destroys reputation permanently
+
+6. **API-First / Microservices Companies**
+
+- Many attack surfaces (each microservice is a target) — need automated monitoring across all endpoints
+
+- Rate-limiting and traditional firewalls don't work well with distributed architecture
+
+- Performance-critical — adding honeypot redirection has near-zero latency impact on legitimate users
+
+- DevOps-heavy teams appreciate "infrastructure as code" approach where AI makes infrastructure decisions
+
+- Rapid deployment cycles mean security can't keep up with changes — automation required
+
+Team **Sheleads** -- Anjali Verma, [Sarika Sharma](https://github.com/sarika-03), Janhvi Gupta
+
+`2026-04-23`
+
+---
+
+### Free Vibes
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/free-vibes-90d9) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/y3chnx/FreeVibes) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://drive.google.com/file/d/1udezAeY13_tAkr0rACmV3ZwpY4357zBg/view?usp=sharing) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/NtXNjKbPtEs) [![Built at](https://img.shields.io/badge/Built%20at-Locus'%20Paygentic%20Hackathon%20--%20#2-0052CC?style=flat-square)](https://paygentic-week2.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> AI Code Editor that Advertises Sponsor
+
+![PyQt](https://img.shields.io/badge/PyQt-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![AI/ML](https://img.shields.io/badge/AI/ML-333333?style=flat-square)
+
+**The problem it solves**
+
+Modern AI coding tools like Cursor or cloud-based code assistants are powerful, but they are often expensive and usage-limited. Many developers (especially students and indie builders) cannot afford high subscription costs or token-based pricing models.
+
+At the same time, developers constantly need to discover tools, APIs, and services while building projects. This usually requires leaving their workflow, searching online, and evaluating options manually.
+
+This project introduces a new approach: a fully free, unlimited AI coding agent that sustains itself through intelligent, context-aware sponsorships.
+
+Instead of charging users, the AI acts similarly to an influencer — recommending relevant tools, APIs, or services during the coding process. These recommendations are not random ads, but context-aware suggestions that align with what the developer is building.
+
+For example, if a user is implementing payments, the AI may suggest a payment API. If a database is needed, it may recommend a backend service. These suggestions create a natural monetization flow (e.g., affiliate or API usage), allowing the system to generate revenue while remaining free for users.
+
+**Challenges we ran into**
+
+One of the biggest challenges was building a functional Python-based code editor from scratch. Creating a smooth editing experience, including displaying structured code, and integrating it with an AI agent, required careful design. Since this was originally developed as a macOS application, I also had to manage environment-specific issues and ensure the editor could reliably interact with the backend AI logic.
+
+Another major challenge was selecting the right AI model for coding assistance. Different models vary significantly in terms of cost, speed, and code quality. I experimented with multiple approaches to find a balance between performance and practicality, especially since the goal of this project is to provide a free and unlimited experience. This meant thinking carefully about how model choice would impact scalability and long-term feasibility.
+
+I also spent a significant amount of time exploring different monetization and advertising scenarios. The initial idea of inserting traditional ads directly into the AI's reasoning process felt intrusive and unrealistic. I iterated through multiple concepts, including passive ads, triggered suggestions, and embedded recommendations, before settling on a more natural approach where the AI behaves like a developer-focused influencer. This allows the system to generate revenue through context-aware recommendations without disrupting the user experience.
+
+**Track: Using BuildWithLocus to leverage our suite.**
+
+This project applies to the "AI for Monetization" track by demonstrating how an AI agent can generate revenue autonomously.
+
+Instead of charging users, the AI coding agent creates value through context-aware sponsorships and tool recommendations. As it assists users with coding tasks, it suggests relevant APIs, platforms, or developer tools based on the current context.
+
+These recommendations act as monetization points (e.g., affiliate links or API integrations), allowing the system to generate revenue while remaining free and unlimited for users.
+
+This showcases a new model where AI systems can sustain themselves financially without direct user payments.
+
+Yuchan Lee
+
+`2026-04-22`
+
+---
+
+### Draykon AI
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/draykon-ai-d938) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://draykon-ai.pages.dev/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://himanshu-developer-portfolio.pages.dev/Recording%202026-04-13%20221633.mp4) [![Built at](https://img.shields.io/badge/Built%20at-Locus'%20Paygentic%20Hackathon%20--%20#2-0052CC?style=flat-square)](https://paygentic-week2.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Draykon AI - Built to Break Limits
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Git](https://img.shields.io/badge/Git-333333?style=flat-square) ![Package JSON](https://img.shields.io/badge/Package%20JSON-333333?style=flat-square)
+
+**The problem it solves**
+
+**The Problem It Resolves**
+
+The current landscape of digital creation is significantly hindered by fragmentation.
+
+Students, developers, and creators today depend on a diverse range of disconnected tools, including AI chat platforms, code editors, design applications, documentation systems, and deployment environments. While each tool addresses a specific aspect of the workflow, none provides a comprehensive solution that unifies the entire creative process.
+
+This fragmentation leads to three fundamental challenges:
+
+1. **Context Switching Overload**  
+Users constantly shift between applications, disrupting their focus and hindering their mental flow with each transition.
+
+2. **Inefficient Creation Pipelines**  
+Ideas are generated in one tool, refined in another, developed in yet another application, and ultimately deployed elsewhere. This disjointed process creates unnecessary delays and friction at every stage of creation.
+
+3. **Inconsistent Output Quality**  
+The lack of integration among tools results in fragmented outputs, which require manual adjustments and rework to achieve coherence.
+
+Draykon AI decisively addresses these challenges by introducing a powerful, unified AI-native creation system.
+
+Draykon AI offers a singular, intelligent workspace where users can:
+
+- Think
+- Generate
+- Build
+- Refine
+- Deploy
+
+All of this can be accomplished without leaving the ecosystem, losing context, or switching between disparate tools.
+
+In essence, Draykon AI transforms the traditional multi-tool workflow into a seamless, AI-driven creation pipeline.
+
+In summary, it eliminates the chaos of multiple tools, paving the way for a more efficient and focused creative flow.
+
+**Challenges we ran into**
+
+### Challenges Faced in Building Draykon AI
+
+Creating Draykon AI presented several technical and design challenges.
+
+#### 1. Real-Time Response Handling and UI Stability
+
+One of the most significant challenges was ensuring smooth, real-time interactions without experiencing user interface (UI) freezes or inconsistent rendering.
+
+**Problems:**
+- Delayed responses resulted in uneven rendering.
+- Partial outputs occasionally disrupted visual consistency.
+- Heavy interactions caused the interface to lag.
+
+**Solutions:**
+- Redesigned the data flow to be fully asynchronous and non-blocking.
+- Introduced progressive rendering, allowing content to appear smoothly in chunks.
+- Added structured loading states and fallback rendering logic.
+- Optimized update cycles to prevent unnecessary UI refreshes.
+
+These changes made the experience feel fluid, responsive, and continuous.
+
+#### 2. Performance Under Heavy Interaction Load
+
+As features expanded, maintaining speed became crucial.
+
+**Problems:**
+- Multiple simultaneous operations slowed down the interface.
+- Excessive re-rendering reduced responsiveness.
+
+**Solutions:**
+- Refactored the architecture into modular components.
+- Reduced unnecessary state updates.
+- Streamlined data flow between features.
+- Optimized rendering logic for improved efficiency.
+
+#### 3. Maintaining a Consistent Futuristic UI System
+
+Draykon AI features a dark, neon-inspired futuristic visual identity.
+
+**Problems:**
+- Ensuring design consistency across all screens and resolutions.
+- Balancing visual effects with performance.
+- Avoiding clutter while supporting advanced functionality.
+
+**Solutions:**
+- Developed a unified design system with reusable UI components.
+- Standardized spacing, typography, and glow effects.
+- Iteratively refined layouts for better responsiveness.
+- Focused on minimalism with a strong visual hierarchy.
+
+By addressing these challenges, we enhanced the overall performance and aesthetic appeal of Draykon AI.
+
+**Track: Using BuildWithLocus to leverage our suite.**
+
+- **Artificial Intelligence and Intelligent Systems Track**  
+- **Developer Tools and Productivity Track**  
+- **Full Stack Web Development Track**  
+- **Creator Productivity and Workflow Innovation Track**
+
+Team **Draykon AI** -- Himanshu Kumar Singh
+
+`2026-04-19`
+
+---
+
+### Locus Forge
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/locus-forge-392b) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/t0k1t00/locus-forge/) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://locus-forge.vercel.app) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/WvFQcmXgeCY) [![Built at](https://img.shields.io/badge/Built%20at-Locus'%20Paygentic%20Hackathon%20--%20#2-0052CC?style=flat-square)](https://paygentic-week2.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> One sentence. Deployed, audited, paid.
+
+![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![React.js](https://img.shields.io/badge/React.js-333333?style=flat-square) ![Vite](https://img.shields.io/badge/Vite-333333?style=flat-square) ![Zustand](https://img.shields.io/badge/Zustand-333333?style=flat-square) ![Firecrawl](https://img.shields.io/badge/Firecrawl-333333?style=flat-square) ![E2B Sandboxes](https://img.shields.io/badge/E2B%20Sandboxes-333333?style=flat-square) ![Paywithlocus](https://img.shields.io/badge/Paywithlocus-333333?style=flat-square)
+
+**The problem it solves**
+
+Software development has a trust problem — not a capability problem.
+
+AI can write code. But it can't own infrastructure, pay for it, or prove it did the work. Every autonomous coding tool today still requires a human to click deploy, approve a payment, and verify the output. The agent is smart but financially blind.
+
+**Locus Forge eliminates that gap.**
+
+Type one sentence — `Build me a clone of crewai.com` — and three specialized agents take over completely:
+
+- **Architect Agent** scrapes the target URL, generates a full React application file-by-file in a live streaming session, and deploys containers + database on BuildWithLocus via REST API — no AWS console, no Dockerfile, no human cloud credentials
+- **Assessor Agent** attacks the live deployment adversarially — security scans, API fuzzing, dependency audits — and generates cryptographic proof of any vulnerability found
+- **Escrow Controller** validates the proof and releases a USDC bounty to the Assessor's wallet on the Base network — automatically, on-chain, with a BaseScan transaction hash
+
+Every agent has its own Locus wallet. Every agent has a hard budget cap. Every action produces a verifiable transaction hash. The blockchain is the audit trail.
+
+This is useful for:
+- **Founders** who want to go from idea to deployed app without writing code or managing infrastructure
+- **Enterprises** that need autonomous DevOps with financial accountability baked in — not bolted on
+- **Agent developers** building multi-agent systems where agents need to pay each other for verified work
+
+The key insight: Locus doesn't just process payments at the end of the workflow. Locus **is** the architecture. Agents cannot act without it. Budget caps prevent runaway spending. Escrow ensures payment only flows when work is cryptographically proven. This is what trustworthy autonomous software looks like.
+
+**Challenges we ran into**
+
+### 1. Getting the Vite HMR error pipeline to work inside E2B sandboxes
+
+E2B sandboxes don't expose Vite's HMR WebSocket natively. We had to build a custom error monitoring layer — a polling endpoint (`/api/monitor-vite-logs`) that tails the sandbox process stdout, parses Vite error output with regex, and surfaces structured error objects back to the UI. Getting the error format consistent across different Vite failure modes (syntax errors, missing modules, HMR update failures) took significant iteration.
+
+### 2. Streaming code generation without losing file state
+
+The AI response stream generates multiple files sequentially. The challenge was maintaining a coherent file manifest in the frontend while chunks arrive out of order. We built a file parser (src/lib/fileParser.ts) that buffers partial file content, detects file boundaries from the stream, and only commits a file to the explorer once its content is complete. Early versions would flash incomplete files or overwrite content mid-stream.
+
+### 3. BuildWithLocus multi-step auth flow
+
+The BuildWithLocus API requires exchanging an API key for a bearer token before any resource creation. The token exchange, project creation, environment resolution, service creation, and deployment trigger are five separate API calls — each with different response shapes. We had to write defensive parsing (`readIdFieldDeep`) that checks multiple candidate keys across nested response objects because the API returns IDs under different field names depending on the endpoint.
+
+### 4. Escrow state machine race conditions
+
+The Assessor agent submits proof while the Architect deployment is still being polled for health. Early builds had the Escrow agent releasing bounty before the deployment was confirmed live — because the proof generation was faster than the BuildWithLocus health check. Fixed by adding explicit state gating: Escrow only activates after `deployments.backend.status === "live"` is set in the Zustand store, which is only set after the deployment health poll returns 200.
+
+### 5. Firecrawl scrape → code generation context window
+
+Scraping crewai.com returns a large markdown document. Passing the full scrape directly to the code generation prompt caused the model to hallucinate asset URLs and miss component structure. We built a context selector (`lib/context-selector.ts`) that extracts only the structural elements — headings, nav items, CTA text, image alt text — and discards body copy before passing to the generation prompt. This reduced hallucinated URLs by ~80% in testing.
+
+**Track: Using BuildWithLocus to leverage our suite.**
+
+Locus Forge uses BuildWithLocus as the core infrastructure layer — not as an optional add-on.
+
+When the Architect Agent receives a prompt, it calls the BuildWithLocus REST API directly to provision a project, create an environment, spin up a containerized service, and trigger a deployment. The agent authenticates via API key exchange, creates all resources programmatically, and receives a live service URL — without any human touching a cloud console, writing a Dockerfile, or configuring DNS.
+
+The critical point: the agent pays for this infrastructure from its own Locus-constrained wallet. BuildWithLocus is the only reason this is safe. A traditional cloud provider would expose the human's credit card to an autonomous system. BuildWithLocus gives the agent its own billing identity with a hard cap — so an infinite loop or a hallucinated deployment cannot drain real funds.
+
+The full integration lives in `api/_lib/locus.ts` — token exchange, project creation, environment resolution, service provisioning, deployment trigger, and health polling. Every infrastructure action the Architect takes goes through BuildWithLocus. There is no fallback to Vercel, Fly.io, or any human-configured cloud.
+
+This is exactly the use case BuildWithLocus was built for: agents that need to own and operate infrastructure autonomously, with financial accountability enforced at the platform level rather than trusted to the model.
+
+Team **Symphony** -- [Keerthivasan Venkitajalam](https://github.com/Keerthivasan-Venkitajalam), [Swathi B Raj](https://github.com/t0k1t00)
+
+`2026-04-21`
+
+---
+
+### DemoForge
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/demoforge-4e92) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/xlogix/bwl-app) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://svc-mo6sobwcdw34foz4.buildwithlocus.com/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://github.com/xlogix/bwl-app/raw/refs/heads/main/output/playwright/videos/demoforge-restaurant-flow-local-strip-captioned.mp4) [![Built at](https://img.shields.io/badge/Built%20at-Locus'%20Paygentic%20Hackathon%20--%20#2-0052CC?style=flat-square)](https://paygentic-week2.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Tailored demos before the sales call
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![Zod](https://img.shields.io/badge/Zod-333333?style=flat-square) ![Drizzle ORM](https://img.shields.io/badge/Drizzle%20ORM-333333?style=flat-square)
+
+**The problem it solves**
+
+DemoForge solves a common sales problem: teams know their product can be configured for a prospect, but showing that credibly still takes too much manual work.
+
+Today, sales often has to ask engineering or solutions teams to rebuild demos by hand for every account. That slows down deals, creates inconsistent quality, and usually produces generic demos that do not feel like the buyer's actual product context.
+
+DemoForge changes that workflow. A company integrates its product once, and after that sales can generate tailored demo instances using prospect context from forms or existing systems like Salesforce. Instead of showing slides or a fake internal dashboard, the buyer sees a product experience that feels like software built for their use case.
+
+This makes it easier to
+- shorten the time between lead capture and first demo
+- give sales more autonomy without requiring custom engineering work every time
+- create more believable product proof earlier in the deal
+- support both fast preview demos and deeper standalone deployments when needed
+
+**Challenges we ran into**
+
+One of the biggest challenges was getting true per-demo deployments working reliably on Locus instead of falling back to a simulated in-app preview.
+
+A few technical issues showed up along the way:
+
+- Next.js standalone deployments needed the right runtime and server binding setup to pass readiness checks in Locus.
+- Static assets were not initially making it into the standalone runtime, which caused styling issues on deployed demos.
+- The first generated demos still felt like renamed internal workspaces instead of real product interfaces, so the product surfaces had to be redesigned around distinct software types like restaurant ordering, patient booking, and property management.
+- The deploy flow also needed a better handoff between instant preview generation and slower real deployments, so the status experience had to be reworked.
+- Finally, preserving proof-of-concept standalone deployments without creating unnecessary new ones required changes to retention and cleanup logic.
+
+**Track: Using BuildWithLocus to leverage our suite.**
+
+- AI
+- Sales / GTM
+- Build with Locus
+
+Team **Lone Wolf** -- [Abhishek Uniyal](github.com/xlogix)
+
+`2026-04-22`
+
+---
+
+### UltraXAI
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/ultraxai-057c) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/kanishkaapatra/UltraXAI) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://ultrax-ai.netlify.app/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/SHxC1BKKYnw) [![Built at](https://img.shields.io/badge/Built%20at-Locus'%20Paygentic%20Hackathon%20--%20#2-0052CC?style=flat-square)](https://paygentic-week2.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Convert ideas into schemas, types & ERDs instantly
+
+![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![Netlify](https://img.shields.io/badge/Netlify-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+Designing a database schema from scratch is a non-trivial engineering task. It requires anticipating relationships, enforcing constraints, and ensuring long-term scalability. Common failure points include:
+
+Ambiguous requirements → poor schema design
+Incorrect relationships (missing or mis-modeled foreign keys)
+Schema drift between database, TypeScript types, and validation layers
+Time lost on repetitive boilerplate work
+Late discovery of structural flaws (costly refactors)
+
+For many developers—especially in early-stage projects—this slows down iteration and introduces avoidable technical debt.
+
+What People Can Use It For
+1. Rapid Prototyping
+
+Turn an idea into a structured backend in seconds.
+
+Validate product concepts quickly
+Skip initial schema design overhead
+Move directly to feature development
+2. Backend Scaffolding
+
+Generate a production-ready starting point:
+
+Prisma schema for database layer
+TypeScript types for application logic
+Zod schemas for input validation
+
+This ensures consistency across the stack from the start.
+
+3. Learning & Skill Development
+
+Useful for:
+
+Understanding how real-world schemas are structured
+Learning relationships (1:1, 1:N, N:M)
+Seeing best practices applied automatically
+4. System Design Assistance
+
+Acts as a first-pass architecture generator:
+
+Converts vague ideas into concrete entities
+Surfaces missing concepts (e.g., roles, audit logs)
+Helps reason about data models before implementation
+5. Refactoring & Validation
+
+Input an existing idea/system and:
+
+Compare generated schema vs current design
+Identify redundancies or missing relations
+Improve normalization and structure
+How It Makes Existing Work Easier
+Eliminates Repetitive Tasks
+
+Instead of manually writing:
+
+Models
+Relations
+Types
+Validation
+
+→ It generates all of them in one pass.
+
+Reduces Human Error
+Enforces consistent schema structure
+Aligns database, types, and validation automatically
+Minimizes mismatches across layers
+Speeds Up Development Cycles
+Go from idea → implementation faster
+Reduce back-and-forth during early design phases
+Spend more time on business logic, less on setup
+Improves Consistency Across Teams
+Standardized schema outputs
+Easier collaboration between developers
+Clear, visual ERD for shared understanding
+
+**Challenges we ran into**
+
+1. Inconsistent AI Output Structure
+
+Problem:
+Early iterations produced outputs that were not reliably parseable—missing fields, malformed JSON, or mixing prose with code.
+
+Impact:
+
+Broke the parsing pipeline
+Caused runtime errors in schema generation
+Made the system non-deterministic
+
+Solution:
+
+Enforced a strict JSON contract in the LLM prompt
+Used schema validation (e.g., Zod) on the AI response before processing
+Added fallback handling for partial failures
+2. Invalid Prisma Schema Generation
+
+Problem:
+Generated schemas sometimes:
+
+Missed relation directives (@relation)
+Had circular or ambiguous references
+Failed Prisma validation
+
+Impact:
+
+Schemas couldn’t compile
+Required manual fixes, defeating automation
+
+Solution:
+
+Added a post-processing validation layer
+Introduced rules for:
+Relation completeness
+Foreign key consistency
+Iteratively refined prompt to enforce Prisma-specific constraints
+3. Mapping AI Output → Multiple Targets
+
+Problem:
+One input needed to produce:
+
+Prisma schema
+TypeScript types
+Zod validation
+Mermaid ERD
+
+Keeping these synchronized was non-trivial.
+
+Impact:
+
+Drift between layers (e.g., type mismatch vs schema)
+Increased complexity in transformation logic
+
+Solution:
+
+Used a single structured intermediate representation (IR)
+Derived all outputs from that IR instead of generating each independently
+Ensured consistency across all artifacts
+4. ERD Diagram Accuracy (Mermaid.js)
+
+Problem:
+Mermaid diagrams often:
+
+Misrepresented cardinality
+Omitted relationships
+Produced invalid syntax
+
+Impact:
+
+Visual output became misleading or broken
+
+Solution:
+
+Built a dedicated ERD generator from the IR
+Explicitly mapped:
+1:1
+1:N
+N:M
+Added validation before rendering
+5. Handling Vague or Underspecified Prompts
+
+Problem:
+User inputs like “a social app” lacked enough detail.
+
+Impact:
+
+Weak or incomplete schemas
+Missing critical entities (e.g., notifications, roles)
+
+Solution:
+
+Implemented prompt enrichment:
+Expanded user input with inferred requirements
+Injected common domain patterns (e.g., auth, timestamps)
+
+[Kanishkaa Patra](https://github.com/kanishkaapatra)
+
+`2026-04-22`
+
+---
+
+### Fetch
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/fetch-98b4) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ndstab/fetch.git) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://fetch-woad-five.vercel.app) [![Built at](https://img.shields.io/badge/Built%20at-Locus'%20Paygentic%20Hackathon%20--%20#2-0052CC?style=flat-square)](https://paygentic-week2.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Tell an agent what you want, it shall get it!
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=flat-square) ![Express.js](https://img.shields.io/badge/Express.js-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square)
+
+**The problem it solves**
+
+Fetch solves the trust and control gap in AI shopping.
+
+Today, AI shopping tools usually fall into two weak patterns:
+
+1. **Manual copilots**: they suggest links, but the user still has to do all checkout work.
+2. **Blind autopilot**: they can attempt autonomous buying, but users have weak spend controls and low transparency.
+
+Fetch combines automation with financial guardrails:
+
+- User gives a brief, budget, and delivery constraints.
+- Agent hunts the web and returns ranked options with reasoning/tradeoffs.
+- User approves one option.
+- Purchase flow runs with a **quest-scoped virtual card** and budget boundaries.
+- Unspent funds are returned.
+
+### What people can use it for
+
+- Fast product discovery under a strict budget.
+- Delegating repetitive shopping research (price, delivery, merchant comparison).
+- Safer delegated purchasing for teams/families/ops workflows.
+- Controlled AI-assisted checkout where each task has isolated financial risk.
+
+### Why it is safer than typical agentic checkout
+
+- One quest = one spending envelope.
+- Virtual card is scoped to that quest/purchase.
+- Explicit human decision point before spend.
+- Timeline visibility into plan/hunt/checkout/settle phases.
+- Refund handling for unspent budget and failure paths.
+
+**Challenges we ran into**
+
+This project surfaced a lot of real production issues. The biggest hurdles were around API correctness, payment edge cases, and deployment reliability.
+
+### 1) Checkout API path and environment mismatches
+
+**Issue:** initial checkout creation failed with 404/500 because of endpoint/base mismatches and beta/prod URL drift.
+
+**Fix:** normalized API bases, aligned endpoint usage, and added resilient session creation + fallback behavior when webhook URL is rejected in beta.
+
+### 2) “Checkout not found” in frontend after session creation
+
+**Issue:** session existed, but embedded checkout UI failed because frontend SDK URL did not match backend environment.
+
+**Fix:** frontend now derives checkout host from backend config so beta sessions render against beta checkout.
+
+### 3) Post-payment stuck state (`Paid — starting`)
+
+**Issue:** webhook delivery didn’t always arrive (or replay path failed), leaving quests stuck after payment.
+
+**Fix:** added reconcile endpoint and fallback logic; if webhook replay fails, quest status still advances and execution starts.
+
+### 4) Cloud Run deployment instability (port/env/revision problems)
+
+**Issue:** revisions failed health/startup due to missing envs (`DATABASE_URL`), wrong `PUBLIC_URL`, and rollout confusion across revisions.
+
+**Fix:** tightened deploy env setup, validated runtime config, and made fallback paths less brittle when env is imperfect.
+
+### 5) Build-with-Locus service creation failures (`imageUri` validation)
+
+**Issue:** Build API rejected invalid image URI formats.
+
+**Fix:** normalized + validated image URI in backend and added safe fallback image to avoid hard stop at container deploy phase.
+
+### 6) Over-budget option ranking and misleading labels
+
+**Issue:** options above budget could still appear as “Cheapest” due to ordering/label assumptions.
+
+**Fix:** introduced budget ceiling/tolerance filtering, explicit sorting by price, and UI guardrails for over-budget selections.
+
+### 7) Laso minimum amount and mint constraints
+
+**Issue:** card mint failed for budgets below Laso minimum (`$5`).
+
+**Fix:** enforced minimum budget at quest creation and pre-check logic before mint attempts.
+
+### 8) Laso/x402 failure mode with real monetary impact
+
+**Issue:** some `laso-get-card` attempts failed with `402` after x402 charge initiation, and refunds could fail with allowance/policy constraints (`403`).
+
+**Fix:** added pre-mint balance checks, recovery attempts (`lasoWithdraw`) on mint failure, and best-effort partial refund strategy using live allowance/balance data.
+
+This became a key engineering lesson: agentic payments require robust **failure recovery**, not just a successful mint path.
+
+**Track: Using BuildWithLocus to leverage our suite.**
+
+Fetch is built specifically around Locus primitives, not a generic app with a payment bolt-on.
+
+It uses the track’s core components in one cohesive flow:
+
+- **Checkout with Locus** for user budget funding.
+- **Wallet/send flows** for settlement and refunds.
+- **Laso virtual cards (x402)** for quest-scoped merchant checkout.
+- **Build with Locus** for per-quest service/container lifecycle.
+- **Wrapped APIs** for agent intelligence (planning, hunt, shortlist).
+
+In other words, the product itself demonstrates the Locus thesis: **agents as economic actors with programmable money boundaries and execution infrastructure**.
+
+Sajjad Nakhwa
+
+`2026-04-23`
+
+---
+
+### Resolver AI
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/resolver-ai-5fcd) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Chucks1093/resolver) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://useresolver.xyz) [![Built at](https://img.shields.io/badge/Built%20at-Locus'%20Paygentic%20Hackathon%20--%20#2-0052CC?style=flat-square)](https://paygentic-week2.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> AI agent that fixes github issues
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![AWS](https://img.shields.io/badge/AWS-333333?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=flat-square) ![AI/ML](https://img.shields.io/badge/AI/ML-333333?style=flat-square)
+
+**The problem it solves**
+
+Resolver helps developers fix assigned GitHub issues faster without jumping across tools or manually handling branches and PR setup.
+
+People use it to work on assigned issues directly from Telegram, generate issue-scoped code changes with clear branch and commit history, and choose either review-first PR flow or automatic PR flow. It also shows deployment attempts and status for resolved work.
+
+It makes the workflow easier and safer by reducing context switching from issue triage to implementation and PR steps, keeping changes focused on one issue, enforcing per-user GitHub auth context, tracking jobs and deployments for traceability, and supporting stop/continue controls for long-running tasks.
+
+**Challenges we ran into**
+
+One of the biggest issues I ran into was that BuildWithLocus deployments were passing build and then failing during deploy with ECS service did not become ready before timeout.
+
+I fixed several parts step by step: I added and validated .locusbuild, fixed build problems around Node/runtime versions set runtime variables like HOSTNAME=0.0.0.0, and updated the service start command and runtime architecture.
+
+These changes made the build process much more stable, but some deployments still timed out at the ECS readiness stage.
+
+To handle that, I improved deployment status reporting and fallback messages in the app, and shared detailed deployment IDs and service config with the Locus team so they can inspect infra-level readiness behavior directly.
+
+**Track: Using BuildWithLocus to leverage our suite.**
+
+Resolver fits the BuildWithLocus track because it uses BuildWithLocus to turn AI fixes into real live previews that people can open and test.
+
+A user can send an issue in Telegram, and the agent works on the fix. After that, Resolver calls BuildWithLocus to deploy the updated code and track deployment status until it is ready.
+
+So the output is not just code suggestions. It is a running environment the user can actually test before creating a PR.
+
+This makes issue resolution faster and more useful, because users can review, test, and decide next steps in one flow without managing infrastructure themselves.
+
+Team **Paradox** -- [Sebastian Anioke](https://github.com/Chucks1093)
+
+`2026-04-23`
+
+---
+
+### BuWithL
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/buwithl-daa6) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/maulana-tech/buildwithlocus) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://svc-mobj33czir7850u8.buildwithlocus.com/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/Je8_Gol7jRc) [![Built at](https://img.shields.io/badge/Built%20at-Locus'%20Paygentic%20Hackathon%20--%20#2-0052CC?style=flat-square)](https://paygentic-week2.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> A no-code section-based website builder
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+Merchants and small businesses in emerging markets need to accept crypto payments but face a massive barrier: building a checkout-enabled website requires frontend skills, backend integration, wallet infrastructure, and deployment knowledge. Locus Studio eliminates all of that. A coffee shop owner in Jakarta, a freelancer in Lagos, or a digital creator in Buenos Aires can open the studio, compose their page visually (or use the one-click demo), connect their Locus wallet with just an API key, and have a live checkout page accepting USDC payments — all in under 5 minutes with zero code.
+It also makes the existing payment flow safer — every transaction is on-chain (Base), webhook-verified with HMAC-SHA256, and analytics update in real-time. No manual reconciliation needed.
+
+**Challenges we ran into**
+
+BuildWithLocus credit drain — Initial publish flow called POST /v1/projects/from-repo on every publish, creating duplicate services and burning $0.25 each time. Fixed by persisting the service ID to data/deploy.json and using POST /v1/deployments for redeployments on subsequent publishes.
+
+**Track: Using BuildWithLocus to leverage our suite.**
+
+Locus Studio is a full-stack application deployed on and powered by BuildWithLocus:
+- Hosting: The entire app runs as a containerized service on BuildWithLocus, deployed via from-repo with auto-deploy on every git push
+- API integration: Uses BuildWithLocus Auth API (/v1/auth/exchange) for JWT tokens, Billing API for credit checks, Projects API for deployment, and Variables API for environment management
+- Smart deployment: First deploy creates the service, all subsequent deploys reuse the same service ID — demonstrating proper resource management on the platform
+- Ecosystem bridge: Combines BuildWithLocus (hosting/deploy) with PayWithLocus (checkout/payments) and @withlocus/checkout-react (client SDK) to create a complete merchant tool that couldn't exist without both platforms working together
+
+Team **Vibe** -- [Muhammad Firdaussyah](https://github.com/maulana-tech)
+
+`2026-04-23`
+
+---
+
+### Locus Sentinel
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/locus-sentinel-0bac) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Souvik-Dey-2029/Locus-Sentinel) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/1zAcZLhYSCA) [![Built at](https://img.shields.io/badge/Built%20at-Locus'%20Paygentic%20Hackathon%20--%20#2-0052CC?style=flat-square)](https://paygentic-week2.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Locus Sentinel: Pay only for verified outcomes.
+
+![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![Express.js](https://img.shields.io/badge/Express.js-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+Current agentic workflows suffer from a **"Verification Gap."** While **BuildWithLocus** allows agents to provision infrastructure with unprecedented speed, these deployments are **financially blind**. Standard CI/CD pipelines only check if a container is "Running," but they fail to verify if the application is "Functional" from a user’s semantic perspective. This leads to **Capital Bleed**: users are billed for deployments that result in 404s, stale headers, or silent database connection failures.
+
+**Locus Sentinel** introduces the industry's first **Autonomous Settlement Layer** for infrastructure. By positioning itself as a high-fidelity intermediary between the **PayWithLocus** wallet and the PaaS layer, it creates a **Programmable Escrow**. 
+
+The system doesn't just deploy; it **audits**. Using a multi-modal "Sentinel AI," it verifies **Semantic Success**----ensuring the live environment actually matches the user's Natural Language intent. If the audit fails, Sentinel triggers an **Atomic Rollback**, protecting user capital and ensuring that in the agentic economy, **liquidity only flows toward verified outcomes.**
+
+**Challenges we ran into**
+
+The primary technical challenge was solving the **Asynchronous Latency Mismatch**. I had to bridge a high-velocity Deployment API with a "slow-thinking" LLM-based Auditor. To solve this without degrading the UX, I engineered a **Server-Sent Events (SSE) Orchestrator**. This allows for a non-blocking telemetry stream, providing the user with real-time "NOC-style" feedback while the heavy AI computation happens in the background.
+
+Another significant hurdle was maintaining **Financial Data Integrity** in a sandbox environment. I developed a **Hybrid Balance Engine** with intelligent mock-fallbacks. This engine ensures the dashboard remains "Production-Ready" by simulating high-fidelity transaction manifests and "Gas Saved" metrics when on-chain liquidity is low. This required complex state management to ensure that the transition from **Simulated Settlement** to **Mainnet Execution** is seamless and transparent to the end user.
+
+**Track: Using BuildWithLocus to leverage our suite.**
+
+Locus Sentinel is engineered as a **Governance and Financial Safety Layer** that sits directly on top of the **BuildWithLocus PaaS**. Our project fits this track by solving the critical "Trust Gap" in autonomous infrastructure management through three deep integrations:
+
+* **PaaS Orchestration:** Sentinel utilizes the **BuildWithLocus API** to provision agent-native containers, routing, and SSL dynamically. It replaces traditional DevOps with a "Natural Language Infrastructure" interface, directly aligning with the Locus mission of "No Cloud Console, No Dockerfiles."
+* **Programmable Financials (PayWithLocus):** We have integrated the **Paygentic Wallet layer** as a state-dependent circuit breaker. By utilizing the user’s Locus wallet, Sentinel creates a **conditional settlement flow**: funds are only released from escrow if the AI Sentinel verifies that the deployment matches the user’s intent.
+* **Economic Agentic Utility:** The core goal of Week 2 is to build agents that "make you money." Sentinel achieves this by **preventing Capital Bleed**. It ensures that users are never billed for broken builds, 404 errors, or misconfigured environments, creating a 100% capital-efficient deployment cycle on the Locus suite.
+
+By combining **BuildWithLocus** for the heavy lifting of containerization and **PayWithLocus** for the settlement, Locus Sentinel provides a complete, financially-aware infrastructure protocol for the agentic economy.
+
+[Souvik Dey](https://github.com/Souvik-Dey-2029)
+
+`2026-04-23`
+
+---
+
+### AutoMind
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/automind-5f09) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://automind-2.vercel.app) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/XAJnZXmaFOI) [![Built at](https://img.shields.io/badge/Built%20at-Locus'%20Paygentic%20Hackathon%20--%20#1-0052CC?style=flat-square)](https://paygentic-week1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> AutoMind: Predict. Prevent. Protect.
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Deep Learning](https://img.shields.io/badge/Deep%20Learning-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square)
+
+**The problem it solves**
+
+🚗 The Problem It Solves – AutoMind
+
+AutoMind addresses the critical issue of unexpected vehicle failures that can lead to accidents, costly repairs, and dangerous situations on the road.
+
+💡 What people can use it for:
+Early Failure Detection:
+Predicts potential car failures before they happen using real-time sensor data and machine learning.
+Driver Safety Enhancement:
+Alerts drivers about critical issues (engine faults, brake issues, overheating, etc.) to prevent accidents.
+Cost Reduction:
+Helps users avoid expensive repairs by identifying problems at an early stage.
+Smart Maintenance Planning:
+Suggests optimal servicing time instead of relying on fixed schedules.
+Fleet Management Optimization:
+Useful for logistics and transport companies to monitor multiple vehicles and reduce downtime.
+⚡ How it improves existing systems:
+Moves from reactive maintenance → predictive maintenance
+Reduces human dependency on manual inspections
+Provides real-time, AI-driven insights instead of delayed diagnostics
+Makes driving safer, smarter, and more reliable
+
+**Challenges we ran into**
+
+Building AutoMind came with several technical and practical challenges, especially while working with real-time prediction systems.
+
+🧩 1. Inconsistent & Noisy Sensor Data
+
+One major issue was that vehicle sensor data was often incomplete, noisy, or inconsistent, which affected model accuracy.
+Solution:
+
+Applied data preprocessing techniques like filtering, interpolation, and normalization
+Used feature engineering to extract meaningful patterns from raw signals
+🤖 2. Model Accuracy vs Real-Time Performance
+
+Balancing high prediction accuracy with low latency was difficult, especially for real-time alerts.
+Solution:
+
+Optimized the model by reducing complexity and selecting only important features
+Used lightweight architectures to ensure faster inference
+🔄 3. Lack of Real-World Failure Data
+
+Getting real-world labeled data for vehicle failures was a challenge since such events are rare.
+Solution:
+
+Used synthetic data generation and simulation techniques
+Augmented datasets to mimic real-world failure scenarios
+⚡ 4. Real-Time Data Handling & Integration
+
+Streaming and processing continuous data from sensors without delay was complex.
+Solution:
+
+Designed an efficient data pipeline for real-time ingestion and processing
+Implemented buffering and asynchronous handling to avoid bottlenecks
+🚨 5. Reducing False Alerts
+
+Initially, the system generated too many false positives, which could reduce user trust.
+Solution:
+
+Fine-tuned model thresholds
+Introduced confidence scoring and alert prioritization
+🛠️ 6. Deployment & System Integration
+
+Integrating the ML model with a working application environment was not straightforward.
+Solution:
+
+Containerized the system for smooth deployment
+Created APIs to connect the model with the frontend/dashboard
+
+Team **CosmoTech** -- [Khushi Gaba](https://github.com/KG1811), [Mukul Negi](https://github.com/mukulnegii), [Lakshit Gulia](https://github.com/lakshitgulia)
+
+`2026-04-15`
+
+---
+
+### Credit Risk analyzer
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/credit-risk-analyzer-a850) [![Built at](https://img.shields.io/badge/Built%20at-Locus'%20Paygentic%20Hackathon%20--%20#1-0052CC?style=flat-square)](https://paygentic-week1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Predicting risk, Protecting assets
+
+![Python](https://img.shields.io/badge/Python-333333?style=flat-square)
+
+**The problem it solves**
+
+This project is a credit risk analyzer which takes user input data and compares it to set parameters to return output. It is used to identify if the customer poses a risk or is safe to give loan to. I take data from user like age, annual salary, loan amount and credit score and compares it to set parameters then gives two outputs. whether the customer is safe to give loan to or the customer is risky according to given values.
+
+Team **veltech** -- Hariom Chaubey, Shraddhayushi srivastav, Niraj Meena
+
+`2026-04-15`
+
+---
+
+### Flowpay
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/flowpay-1b01) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/t0k1t00/flowpay-agent) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://youtu.be/jYjHDb_W3HY) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/jYjHDb_W3HY) [![Built at](https://img.shields.io/badge/Built%20at-Locus'%20Paygentic%20Hackathon%20--%20#1-0052CC?style=flat-square)](https://paygentic-week1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Autonomous B2B sourcing, escrow & compliance
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![WebSockets](https://img.shields.io/badge/WebSockets-333333?style=flat-square) ![SQLite](https://img.shields.io/badge/SQLite-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![FastAPI](https://img.shields.io/badge/FastAPI-333333?style=flat-square) ![resend](https://img.shields.io/badge/resend-333333?style=flat-square) ![Firecrawl](https://img.shields.io/badge/Firecrawl-333333?style=flat-square) ![Exa](https://img.shields.io/badge/Exa-333333?style=flat-square)
+
+**The problem it solves**
+
+Procurement today is still painfully manual — spread across Excel sheets, emails, calls, and WhatsApp threads. This leads to slow execution, poor visibility, vendor risk, and uncontrolled spending.
+
+Flowpay transforms procurement into a single autonomous workflow powered by AI agents and programmable payments.
+
+* Users input a sourcing request in natural language
+* The agent discovers, verifies, and ranks suppliers
+* Quote requests are sent automatically
+* Escrow is created with built-in spending controls
+* High-value transactions trigger human approval
+* All financial actions are governed by policy checks
+* Every step is streamed in real time and logged in an audit trail
+* Compliance flows (like GST payments) can run via virtual cards
+
+Instead of treating payments as the last step, Flowpay makes financial control the core decision layer of procurement.
+
+**Result:** Faster sourcing, safer transactions, and complete transparency — without removing human oversight where it matters.
+
+**Challenges we ran into**
+
+Building Flowpay end-to-end was much harder than it looks on the surface.
+
+**1. Real-time orchestration complexity**
+We had multiple moving parts — agent reasoning, supplier discovery, escrow states, and frontend logs — all happening asynchronously.
+One misordered event could break the entire user experience.
+→ Solved using structured event streaming over WebSockets with strict sequencing.
+
+**2. Financial state correctness**
+Escrow transitions (reserve → approve → release → refund) directly affect wallet balance.
+Any inconsistency = broken trust.
+→ Implemented strict state transitions + boundary tests to guarantee correctness.
+
+**3. External API unpredictability**
+Search, scraping, email, and compliance integrations can fail or rate-limit — especially during a hackathon.
+→ Built deterministic fallback paths and wrapped integrations to ensure demo reliability.
+
+**4. Balancing autonomy vs control**
+Fully autonomous agents sound great, but real procurement requires trust and control.
+→ Introduced human-in-the-loop approval for high-value transactions and policy-based guardrails.
+
+**5. System design under time pressure**
+Designing a multi-agent pipeline (parse → search → enrich → email → escrow → compliance) in limited time was intense.
+→ Solved with clear service boundaries and modular orchestration architecture.
+
+**Using PayWithLocus.com to leverage our suite.**
+
+Flowpay is built directly around the PayWithLocus model: programmable payments with control, not just transfer.
+Instead of treating payments as the final step, we made Locus-style controls the decision layer for the whole procurement workflow.
+
+Every sourcing run in Flowpay goes through:
+
+* Wallet and spending controls with daily and monthly caps
+* Auto-approve threshold logic for low-value transactions
+* Human approval routing for high-value transactions
+* Category-based policy checks before escrow is created
+* Full escrow lifecycle handling: reserve, approve/reject, release, refund
+* Virtual card provisioning and debit flows for compliance payments
+* GST automation path tied to controlled card payments
+* Audit trail and real-time financial event streaming for transparency
+
+We also support a wrapped API mode using the PayWithLocus gateway configuration so external actions can be routed through the Locus integration path in live mode.
+
+In short, this project fits the track because PayWithLocus-style financial guardrails are core to how the agent operates, approves, and settles procurement actions safely.
+
+Team **Symphony** -- [Swathi B Raj](https://github.com/t0k1t00), [Keerthivasan Venkitajalam](https://github.com/Keerthivasan-Venkitajalam)
+
+`2026-04-16`
+
+---
+
+### Sub-Zero
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/subzero-9906) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Atharvanair09/Sub-Zero) [![Built at](https://img.shields.io/badge/Built%20at-Locus'%20Paygentic%20Hackathon%20--%20#1-0052CC?style=flat-square)](https://paygentic-week1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Your Money buddy
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square)
+
+Team **BugSolvers** -- [Atharva Nair](https://github.com/Atharvanair09), [Oom Murkar](https://github.com/OmMurkar), [sahil ojha](https://github.com/Sahilojha731), [Sakshi Pawar](https://github.com/spawar-18)
+
+`2026-04-16`
+
+---
+
+### AtlasPay
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/atlaspay-05b9) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Tronik87/AtlasPay) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://www.kaggle.com/code/neelraah/notebook820404b117) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/SFPWfQ6N7wA) [![Built at](https://img.shields.io/badge/Built%20at-DevsHouse%20'26-0052CC?style=flat-square)](https://devshouse26.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> "Google Maps for payments"
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![TensorFlow](https://img.shields.io/badge/TensorFlow-333333?style=flat-square) ![scikit-learn](https://img.shields.io/badge/scikit--learn-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![FastAPI](https://img.shields.io/badge/FastAPI-333333?style=flat-square)
+
+**The problem it solves**
+
+Cross-border payments still run on decades-old infrastructure. A wire transfer from India to the UK takes 1–5 business days, passes through 3–5 intermediary banks each charging hidden fees, and has up to a 10% failure rate due to validation errors caught only after the transaction is already in flight. The $120B spent annually on cross-border fees is largely a tax on this inefficiency.
+
+AtlasPay replaces blind correspondent routing with intelligent multi-rail 
+orchestration. For any given transaction, AtlasPay evaluates all available payment 
+rails in real time and selects the fastest, cheapest, most compliant path before a single dollar moves.
+
+It solves three distinct problems simultaneously:
+
+Pre-execution failure prevention: a high quality pre validation engine screens wallet addresses against OFAC/UN/EU/RBI sanctions lists, verifies currency compatibility, enforces FEMA and FATF regulatory thresholds, and rate-limits-suspicious velocity patterns before routing begins. The 5–10% failure rate of current systems is largely preventable; AtlasPay prevents it.
+
+Routing opacity banks have no incentive to find you the cheapest path. AtlasPay's graph-based routing engine models all available payment rails as a weighted directed graph, then runs optimization across cost, settlement time, FX spread, and compliance constraints simultaneously to find the optimal path for each specific corridor, and shows you the comparison before you commit.
+
+Anomaly detection: A PyTorch autoencoder flags statistically unusual transactions before they enter the routing pipeline, adding a behavioral risk layer on top of the rule-based pre-validation checks.
+
+**Challenges we ran into**
+
+Graph weight calibration: The routing engine models payment rails as a weighted directed graph, but cost, speed, and compliance constraints are measured in completely different units. Normalizing these into a single comparable edge weight without over-indexing on one dimension (always picking the cheapest rail even when it takes 5 days) required iterative tuning of weight coefficients and corridor-specific penalty functions.
+
+Handling missing and inconsistent rail data: Not all rails are available for all corridors, and availability changes over time. The routing graph had to gracefully handle sparse corridors where only one or two rails exist, without the optimizer defaulting to nonsensical paths or throwing errors on missing edge weights.
+
+Autoencoder threshold calibration: The anomaly detection model flags transactions whose reconstruction error exceeds a learned threshold. Too low and it blocks legitimate payments; too high and it misses real anomalies. We calibrated against held-out corridor data and stored the final value in threshold.txt, but the boundary between unusual-but-legitimate and genuinely anomalous in remittance data is thin and corridor-dependent.
+
+Feature engineering on ordinal speed data: The World Bank RPW dataset stores transfer speed as six categorical buckets (same day, next day, 2 days, and so on) rather than continuous values. Feeding this into the autoencoder without careful encoding caused the model to treat speed categories as arbitrary labels with no distance relationship, distorting reconstruction error. Mapping to numeric midpoints and scaling consistently with the rest of the feature space fixed this.
+
+Integrating anomaly scoring into routing: The autoencoder produces a reconstruction error score, but deciding when that score should override an otherwise optimal route required a clear handoff between the two models. A high anomaly score on the cheapest rail needed to demote that rail in the graph rather than block the transaction outright, which meant feeding the score back as a dynamic edge weight penalty rather than a hard gate.
+
+**FinTech**
+
+AtlasPay directly addresses the core infrastructure problem in global payments: banks route cross-border transactions blindly through fixed correspondent chains with no cost optimization, no pre-validation, and no transparency. The routing engine treats all available rails as a weighted graph and selects the optimal path per transaction by cost, speed, and compliance constraints. The pre-validation layer enforces sanctions screening, regulatory thresholds, and velocity limits before any routing decision is made. The anomaly detection model flags statistically inconsistent transactions against corridor norms. These are not demo features — they are the actual components a production payment orchestration layer needs.
+The FinTech track targets financial infrastructure, inclusion, and compliance technology. AtlasPay covers all three: it reduces the cost and time of cross-border transfers that disproportionately affect high-fee corridors like South Asia and Sub-Saharan Africa, it makes cost breakdowns visible to the sender before commitment (the basic requirement for a transparent market), and it treats compliance as first-layer infrastructure rather than an afterthought. The World Bank RPW dataset grounding the anomaly model represents 14 years of real remittance market data across 367 corridors — the problem AtlasPay is solving is quantified, not hypothetical.
+
+Team **€∆$¥¥** -- [Nikhilesh Ravi](https://github.com/Tronik87), [Ivan George](https://github.com/ivan-george710), [Sachithan Chandru](https://github.com/Sachithan3), [Harleen .](https://github.com/Neelraah)
+
+`2026-03-29`
 
 ---
 
@@ -7513,6 +10014,1606 @@ AgentCred is built specifically to showcase the power of **CheckoutWithLocus** a
 [Shagun Prasad](https://github.com/shap28)
 
 `2026-04-30`
+
+---
+
+### Skillmirror AI
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/skillmirror-ai-4ae3) [![Built at](https://img.shields.io/badge/Built%20at-Locus'%20Paygentic%20Hackathon%20--%20#2-0052CC?style=flat-square)](https://paygentic-week2.devfolio.co)
+
+> Mirror that reflects scope for improvements
+
+![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+[Naaysha Jain](https://github.com/naayshajain0112)
+
+`2026-04-18`
+
+---
+
+### TransitX Intelligence
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/transitx-intelligence-d631) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://maragadhavelt.github.io/TransitX-Intelligence/) [![Built at](https://img.shields.io/badge/Built%20at-Locus'%20Paygentic%20Hackathon%20--%20#2-0052CC?style=flat-square)](https://paygentic-week2.devfolio.co)
+
+> Revolutionizing public transport with predictiveAI
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![GitHub](https://img.shields.io/badge/GitHub-333333?style=flat-square) ![RestAPIs](https://img.shields.io/badge/RestAPIs-333333?style=flat-square)
+
+**The problem it solves**
+
+Urban public transport systems suffer from inefficiencies such as unpredictable delays, overcrowding, and lack of real-time visibility. Commuters often face uncertainty about arrival times, route congestion, and optimal travel choices.
+
+Existing systems provide static schedules but fail to adapt dynamically to real-world conditions like traffic, peak hours, and demand fluctuations.
+
+TransitX Intelligence solves this by using AI-powered predictive analytics and real-time tracking to provide accurate arrival times, crowd insights, and optimized route suggestions. This helps commuters make smarter decisions, reduces waiting time, and improves overall travel efficiency.
+
+Additionally, transport authorities can use the system to monitor performance, detect delays early, and optimize fleet management, leading to a more reliable and efficient urban mobility system.
+
+**Challenges we ran into**
+
+Building TransitX Intelligence came with several technical and design challenges.
+
+One major challenge was handling real-time data updates for multiple buses and routes without affecting performance. Continuously updating the UI caused lag and inconsistent state management. I solved this by optimizing state updates and reducing unnecessary re-renders, ensuring smooth real-time tracking.
+
+Another challenge was simulating accurate ETA predictions. Since real-world data was limited, I had to design a logic that mimics real-time conditions like traffic and delays. I approached this by combining time-based calculations with dynamic adjustments to create realistic predictions.
+
+Integrating multiple UI components like maps, alerts, and analytics dashboards into a single cohesive system was also complex. Ensuring consistency in design and responsiveness required careful structuring and modular development.
+
+Additionally, balancing a visually rich UI with performance was challenging. I optimized styles and reduced heavy animations to maintain a smooth user experience.
+
+Overall, these challenges helped improve the system’s scalability, performance, and usability.
+
+**Track: Using BuildWithLocus to leverage our suite.**
+
+TransitX Intelligence leverages the BuildWithLocus platform to design and deploy an interactive, real-time transit intelligence dashboard.
+
+Using Locus tools, we structured a scalable and responsive web interface that integrates live tracking, predictive analytics, and data visualization into a unified system. The platform enabled rapid prototyping of UI components such as dashboards, route monitoring panels, and alert systems.
+
+Additionally, BuildWithLocus supported seamless integration of APIs and data pipelines, allowing us to simulate real-time transport data and deliver dynamic updates efficiently. Its development environment helped streamline deployment and optimize performance for a smooth user experience.
+
+By utilizing BuildWithLocus, we were able to accelerate development, focus on intelligent features, and build a production-ready solution for smart urban mobility.
+
+[Maragadhavel T](https://github.com/maragadhavelt)
+
+`2026-04-21`
+
+---
+
+### SubNova
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/subnova-e28e) [![Built at](https://img.shields.io/badge/Built%20at-Locus'%20Paygentic%20Hackathon%20--%20#2-0052CC?style=flat-square)](https://paygentic-week2.devfolio.co)
+
+> An autonomous Paygentic AI that negotiates bills
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![Translation API](https://img.shields.io/badge/Translation%20API-333333?style=flat-square)
+
+**The problem it solves**
+
+The Problem: Subscription Fatigue & The "Loyalty Tax"
+In today's digital economy, consumers and small businesses are bleeding money through "subscription creep." We sign up for services, internet plans, and software, only for the promotional rates to expire, leaving us trapped paying exorbitant fees.
+
+The biggest hurdle? Friction. Canceling a service or negotiating a lower monthly bill (like with Comcast or AT&T) requires waiting on hold for hours or navigating highly defensive retention chatbots. Because the process is so tedious and anxiety-inducing, millions of people simply accept the "loyalty tax" and overpay. Passive subscription trackers warn you about the cost, but they don't actually fix it for you.
+
+🟢 The Solution: SubNova
+SubNova transitions fintech from passive tracking to active agentic negotiation.
+
+By utilizing the Locus ecosystem, SubNova isn't just a dashboard; it’s an automated financial advocate. It solves the problem of subscription fatigue by doing the dirty work for you:
+
+🕵️‍♂️ Autonomous Auditing: SubNova monitors your recurring Locus payments to identify under-utilized services or bills that have suddenly spiked in cost.
+🤖 Agent-to-Bot Negotiation: Instead of you sitting on the phone, SubNova securely deploys an AI agent to interface directly with customer support chatbots on your behalf. It uses competitor pricing data to actively negotiate your bills down to promotional rates.
+⚡ Zero-Click Cancellation: If a service refuses to lower its rate to the benchmark, or if you simply want out, SubNova's agent handles the entire cancellation and Locus payment stop-logic automatically.
+
+**Challenges we ran into**
+
+1. The "Bot-to-Bot" Conversation Pacing
+The Hurdle: When building the live Nova Agent Interface, the initial iterations of the AI negotiation simulator felt too robotic and instantaneous. Real customer support bots have API latencies, and our AI agent needed time to "think" and format payloads. Printing the chat logs instantly broke the illusion of a live, autonomous agent. The Fix: I wrote a dynamic JavaScript rendering engine for the terminal feed. Instead of static intervals, the engine calculates the delay for each message based on string length and the type of message (e.g., system logs are fast, while the agent constructing a counter-offer to Comcast takes longer). This created a highly realistic, asymmetrical pacing that brings the AI to life.
+
+2. Escaping the "SaaS-in-a-Box" Aesthetic
+The Hurdle: Most financial dashboards look identical—flat white backgrounds, generic tables, and standard 1px gray borders. I wanted SubNova to feel like an elite, futuristic "Paygentic" tool, but standard CSS frameworks kept boxing me into conventional layouts. The Fix: I discarded standard frameworks and engineered a bespoke CSS architecture called "The Obsidian Luminary." I instituted a strict "No-Line" rule—meaning no solid borders could be used. Instead, depth and separation are achieved entirely through background color shifts (surface-low to surface-elevated) and 30px backdrop-blur glassmorphism, giving the AI terminal a floating, premium aesthetic.
+
+3. Simulating Secure Locus Agent Hand-offs
+The Hurdle: The conceptual challenge was how to allow an AI to negotiate a bill and directly manage the payment method without compromising user security. The Fix: We architected the concept of the Locus Smart Proxy. Instead of giving the AI raw access to credit card APIs, the AI utilizes a scoped Locus token that is only authorized to downgrade plan costs or execute cancellations. This ensured that our "Paygentic" integration remained secure while still allowing autonomous financial actions.
+
+**Track: Using BuildWithLocus to leverage our suite.**
+
+SubNova perfectly embodies the core philosophy of the BuildWithLocus track by demonstrating how AI agents must interact directly with robust financial infrastructure to be truly useful.
+
+To bridge the gap between "artificial intelligence" and "actual utility," SubNova leverages the Locus suite to power its underlying "Locus Vault" architecture.
+
+Our project fits into this track through the following implementations:
+
+Scoped Payment Execution: SubNova doesn't just "advise" the user; it actively utilizes Locus APIs to intercept and manage recurring subscription charges. When the AI successfully negotiates a lower internet bill, it programmatically updates the Locus payment schedule to reflect the new $70/mo rate.
+The Smart Proxy: We conceptualized a system where the AI is granted secure, scoped access to the Locus suite. The agent cannot make unauthorized purchases; it is only authorized by Locus rules to downgrade plan costs or execute zero-click cancellations on unused services.
+True "Paygentic" Utility: By building with Locus, we transitioned the AI from a simple chatbot into a financial operator capable of making programmatic billing adjustments in real-time without human intervention.
+SubNova proves that the Locus suite is the ideal foundational layer for the next generation of autonomous, agent-driven commerce.
+
+NITIN RAJAK
+
+`2026-04-21`
+
+---
+
+### Locus Chaos
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/locus-chaos-f1c4) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Officially-aditya/locuschaos) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://locuschaos.vercel.app/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/6nHLgN31-Ok) [![Built at](https://img.shields.io/badge/Built%20at-Locus'%20Paygentic%20Hackathon%20--%20#2-0052CC?style=flat-square)](https://paygentic-week2.devfolio.co)
+
+> Break your app before production does.
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+LocusChaos solves a simple but painful problem: most teams only discover deployment fragility after users do.
+
+Shipping a repo is easy. Knowing whether that deployed app can survive restarts, bad config, traffic spikes, or infrastructure weirdness is much harder. Today, those checks are usually manual, inconsistent, or skipped entirely because they take too much time.
+
+With LocusChaos, teams can:
+
+- deploy a repo to Locus and immediately stress-test the live service
+- run resilience checks like traffic floods, restart recovery, and env corruption
+- keep a persistent history of deployment outcomes, logs, verdicts, and scores
+- revisit previous live deployments and run chaos tests later without redeploying
+- catch weak spots before production incidents happen
+
+That makes deployment validation:
+
+- faster, because setup, execution, and reporting are in one place
+- safer, because failures are surfaced before real users hit them
+- more repeatable, because every run is logged and tied to a user/account
+- easier to demo and review, because results are saved as clear reports instead of scattered terminal output
+
+In short, LocusChaos turns “I hope this deploy is stable” into a measurable, repeatable resilience workflow.
+
+**Challenges we ran into**
+
+One of the biggest challenges was making long-running deployment and chaos workflows behave reliably on serverless infrastructure.
+
+At first, the app tried to do everything in one flow:
+1. deploy to Locus
+2. wait for the deployment to become healthy
+3. run the chaos suite
+4. stream logs back live
+
+That worked locally, but in production we hit real runtime limits. A deployment could already be live on Locus, while our app was still stuck polling deployment status. In some cases, the worker would get cut off before a single chaos test started, so the UI looked stuck even though the app had actually deployed successfully.
+
+A few specific issues we had to solve:
+
+- **Deployment status lagged behind reality**
+  Locus could already be serving traffic while our app still saw `building` or `deploying`. We fixed this by treating successful responses from the live service URL as a valid readiness signal instead of waiting only for one backend status value.
+
+- **Serverless runtime limits killed long jobs**
+  The original design tried to deploy and run chaos tests inside one request. That was too fragile on Vercel. We solved it by splitting the workflow into two phases:
+  - phase 1: deploy + wait until live
+  - phase 2: run chaos tests on the already-live deployment
+
+- **Reconnects showed no useful state**
+  If the live SSE stream dropped, the UI could lose context. We fixed that by persisting logs, intermediate state, and results in the database while the run was happening, so the app could rebuild itself from saved run state.
+
+- **The UI route structure caused confusion**
+  After authentication, the app originally mixed the public landing page and the signed-in run flow. That led to bad redirects and stale run recovery bugs. We separated the authenticated deploy experience into `/new-run` and made the dashboard/history flow clearer.
+
+The biggest takeaway was that the hard part was not just “running chaos tests,” but designing the orchestration so it stays truthful and recoverable even when external systems are slow, status APIs lag, or the runtime is interrupted.
+
+**Track: Using BuildWithLocus to leverage our suite.**
+
+LocusChaos fits the **Using BuildWithLocus** track because the core product is built around Locus as the deployment and runtime layer.
+
+We use BuildWithLocus to:
+
+- spin up real app deployments directly from GitHub repos
+- provision the service environment that the chaos suite tests against
+- manage live service URLs and deployment lifecycle events
+- run resilience checks on actual deployed applications instead of mocked environments
+- support follow-up actions like redeploy, restart, and teardown
+
+What makes the project a strong fit for this track is that Locus is not just an add-on in our stack, it is the foundation of the workflow. The entire user journey depends on BuildWithLocus:
+
+1. a user connects a repo
+2. the app deploys it on Locus
+3. once the deployment is live, LocusChaos runs resilience tests against that live Locus-hosted service
+4. the results are saved as persistent reports, scores, and logs tied to the deployment
+
+So instead of using Locus only to host an app, we are extending the Locus deployment experience itself by adding a post-deploy resilience layer. That turns BuildWithLocus into not just a deployment platform, but the base for automated chaos validation and deployment confidence.
+
+[Aditya Yadav](https://github.com/Officially-aditya)
+
+`2026-04-21`
+
+---
+
+### AutoSAAS
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/autosaas-f6ee) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/suvab4gh/autosaas) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://autosaas-delta.vercel.app/#demo) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/ybNxD_ACiqU) [![Built at](https://img.shields.io/badge/Built%20at-Locus'%20Paygentic%20Hackathon%20--%20#2-0052CC?style=flat-square)](https://paygentic-week2.devfolio.co)
+
+> A Self-Funding SaaS Factory
+
+![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![HTML5](https://img.shields.io/badge/HTML5-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Vercel](https://img.shields.io/badge/Vercel-333333?style=flat-square) ![FAST API](https://img.shields.io/badge/FAST%20API-333333?style=flat-square) ![CSS3​](https://img.shields.io/badge/CSS3​-333333?style=flat-square) ![Uvicorn](https://img.shields.io/badge/Uvicorn-333333?style=flat-square) ![IntersectionObserver API](https://img.shields.io/badge/IntersectionObserver%20API-333333?style=flat-square)
+
+**The problem it solves**
+
+The barrier to entry for software entrepreneurship is still too high. While AI coding assistants (like Copilot or Cursor) and deployment agents (like Vercel v0) have made writing and shipping code easier, they only solve **half the equation**. 
+
+Once an app is deployed, the creator is immediately hit with the operational burden of running a business:
+1. **Setting up monetization** (Stripe integration, managing webhooks, handling pricing tiers).
+2. **Paying for infrastructure** (cloud hosting costs, database storage).
+3. **Managing cash flow** (moving money from payment gateways to infrastructure providers).
+
+**AutoSaaS completely eliminates this operational friction.** 
+
+### What People Can Use it For:
+- **Rapid Prototyping:** Solo founders can test 10 different SaaS ideas in a day. Instead of spending weeks building boilerplate and payment systems, they describe the niche tool they want (e.g., "A SaaS that converts Figma URLs to Tailwind code for $5/export"), and it's instantly live and ready to accept payments.
+- **Micro-SaaS Factories:** Indie hackers can run a portfolio of micro-applications without drowning in infrastructure bills, because each app automatically funnels its own revenue to cover its specific hosting costs.
+
+### How it Makes Existing Tasks Easier & Safer:
+- **Zero-Touch Financial Operations:** It is incredibly tedious to manually calculate if an app is profitable. By wiring the **Checkout with Locus** API directly into the **Locus Wallet**, the app safely and autonomously settles its own $0.25/service hosting bill. 
+- **Financial Safety:** You never have to worry about a "zombie app" draining your personal credit card. If an app generates revenue, it pays for itself. If it doesn't, you can kill it with zero sunk operational costs.
+- **Instant Monetization:** Developers no longer need to read complex payment integration docs. The agent securely injects the exact billing logic into the frontend and backend automatically.
+
+**Challenges we ran into**
+
+Building an autonomous agent that strings together LLMs, version control, deployment, and payments was incredibly complex. 
+
+1. **Hallucinating the Checkout Injection:** 
+   The hardest part was getting the LLM (Claude 3.5 Sonnet) to consistently and correctly inject the **Checkout with Locus** SDK into the React code it generated. Frequently, the LLM would invent its own props or try to use Stripe instead.
+   * **How I got over it:** I built a rigid "System Prompt Chain" that forces the LLM to use a predefined `<LocusPaywall />` React component wrapper. Instead of asking the LLM to write the checkout logic, the FastAPI backend injects the Locus `product_id` into the environment variables during deployment, ensuring the checkout flow never breaks.
+
+2. **Managing Asynchronous Timeouts:**
+   Deploying an app via the Locus Build API and waiting for the live URL takes time. Initially, the frontend would simply timeout while waiting for the FastAPI backend to finish the 5-step loop.
+   * **How I got over it:** I ripped out the standard REST endpoints and rewrote the orchestrator to use **Server-Sent Events (SSE)**. Now, the FastAPI backend streams real-time logs line-by-line to the frontend. This keeps the connection alive and creates the beautiful "live terminal" experience you see on the dashboard.
+
+3. **Frontend Premium Aesthetics vs. Performance:**
+   I wanted an "Awwwards-tier" design with glowing orbs, glassmorphism, and complex bento-grid animations. However, adding too many blur filters tanked the frame rate during the terminal typing animation.
+   * **How I got over it:** I optimized the CSS by restricting animations strictly to `transform` and `opacity` properties, offloading the work to the GPU (`will-change: transform`). I also used an `IntersectionObserver` to ensure the heavy number-counters and typing effects only ran when the elements were actually in the viewport.
+
+**Track: Using BuildWithLocus to leverage our suite.**
+
+AutoSaaS doesn't just use a single Locus API; it uses Locus as an entire economic and operational operating system for autonomous software. 
+
+1. **Deploying Code:** We use **Build with Locus** programmatically via API to instantly provision Postgres databases and deploy the React/FastAPI code written by our AI agent.
+2. **Instant Monetization:** The agent automatically generates code that injects **Checkout with Locus** into the deployed SaaS applications, enabling them to instantly process user payments.
+3. **Closing the Loop:** All revenue generated from the deployed apps flows directly into a **Locus Wallet**, which is programmatically configured to auto-deduct the $0.25/service hosting bill.
+
+By leveraging the entire Locus suite together, AutoSaaS demonstrates the platform's ultimate potential: allowing an AI to autonomously deploy, monetize, and sustainably fund its own software creations in a completely closed loop.
+
+[Suvanan Biswas](https://github.com/suvab4gh)
+
+`2026-04-23`
+
+---
+
+### FluxPay
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/fluxpay-9123) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://amazing-peony-f29f8c.netlify.app) [![Built at](https://img.shields.io/badge/Built%20at-Locus'%20Paygentic%20Hackathon%20--%20#2-0052CC?style=flat-square)](https://paygentic-week2.devfolio.co)
+
+> AI Auto-Payment Agent • HIGH WIN CHANCE
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square)
+
+**The problem it solves**
+
+Managing finances and accounting tasks can be complex, time-consuming, and prone to human error. Individuals and businesses often face challenges such as:
+
+Tracking recurring payments and expenses manually
+Missing due dates for bills or subscriptions
+Handling large volumes of financial data
+Lack of automation in everyday accounting tasks
+Risk of calculation mistakes and mismanagement
+
+FluxPay addresses these issues by introducing an intelligent AI-powered agent that automates and simplifies financial operations.
+
+**Challenges we ran into**
+
+Building FluxPay was an interesting experience, but I faced several challenges during development:
+
+🔹 1. Designing the AI Agent Logic
+
+One of the main challenges was deciding how the AI agent should behave for different accounting tasks like tracking payments and generating reminders.
+👉 Solution: I broke the logic into smaller functions and used condition-based flows to simulate intelligent behavior step by step.
+
+🔹 2. Handling Recurring Payments
+
+Managing recurring transactions (monthly/weekly) was tricky because it required tracking time and repeating actions automatically.
+👉 Solution: I used structured data (like dictionaries) and logic to store payment details and simulate recurring cycles.
+
+🔹 3. UI and Dashboard Design
+
+Creating a clean and user-friendly interface for financial data was difficult, especially making it simple yet informative.
+👉 Solution: I focused on minimal design, used clear sections, and organized data properly to improve readability.
+
+Nitesh Garg
+
+`2026-04-22`
+
+---
+
+### Renly
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/renly-026c) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/velikanghost/renly) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://youtu.be/LYepkkLqmIg) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/LYepkkLqmIg) [![Built at](https://img.shields.io/badge/Built%20at-Locus'%20Paygentic%20Hackathon%20--%20#2-0052CC?style=flat-square)](https://paygentic-week2.devfolio.co)
+
+> Scaffold and Deploy
+
+![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square)
+
+**The problem it solves**
+
+Renly is built to eliminate "deployment friction" for developers using the Locus PaaS. While modern cloud platforms are powerful, the "plumbing" required to get a framework like Next.js or NestJS from a local machine to a production container is often tedious and error-prone.
+
+**How:**
+*  Instead of manually writing Dockerfiles and configuration scripts, **renly init** generates a project that is "Locus-ready" out of the box.
+*  Developers no longer need to jump between their terminal and the Locus Dashboard. Renly handles the creation of Projects, Environments, and Services via API.
+*  It bridges the gap between local Git and Locus build workers, allowing for a seamless "code-to-cloud" experience in seconds.
+
+**Challenges we ran into**
+
+*  Locus requires containers to listen specifically on **Port 8080**. Many frameworks default to 3000 or 4000. I had to build a "Smart Injection" system that patches next.config.js and environment variables during the scaffolding phase to ensure the container health checks don't fail upon deployment.
+*  Handling the "cold start" of a deployment (where the project doesn't exist yet on Locus) required careful sequencing of API calls to ensure the Workspace, Project, and Service were all linked correctly before the Git push was initiated.
+
+Velikan Ghost
+
+`2026-04-23`
+
+---
+
+### Quorum Protocol
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/quorun-protocol-a2f4) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Gideon145/quorum-protocol) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://youtu.be/nPXiCIZkvnw) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/nPXiCIZkvnw) [![Built at](https://img.shields.io/badge/Built%20at-Locus'%20Paygentic%20Hackathon%20--%20#2-0052CC?style=flat-square)](https://paygentic-week2.devfolio.co)
+
+> Validate your idea with 20 AI personas
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+Most founders validate ideas by asking friends or posting in Discord — both give biased, encouraging answers. Real user research costs thousands and takes weeks. Quorum Protocol replaces that with a panel of 20 engineered synthetic personas that simulate how actual diverse users — different ages, incomes, tech literacy levels, and occupations — would respond to your idea. It scores product-market fit using a weighted formula, surfaces the exact objections blocking adoption, and lets you refine the idea and re-run the entire panel immediately. You go from idea to structured validation in under 2 minutes.
+
+**Challenges we ran into**
+
+Getting 20 personas to be genuinely diverse and not just surface-level different was harder than expected. The AI would default to clustering responses — most personas would agree, which defeats the purpose. I had to engineer strict distribution constraints into the prompt (minimum skeptics, income spread, tech literacy mix) and implement a retry mechanism when the model returned malformed JSON. I also had to rethink the share URL architecture mid-build — the original approach base64-encoded the entire report into the URL, producing 3000-character links that broke on mobile. Switched to a server-side in-memory store with 10-character short IDs.
+
+**Track: Using BuildWithLocus to leverage our suite.**
+
+How it fits: Quorum Protocol is fully deployed on BuildWithLocus as a containerized Next.js service. No Dockerfile, no cloud console — just a git push and a single API call to trigger the deploy. All AI inference routes through the Locus Wrapped OpenAI API (POST /wrapped/openai/chat). The entire stack — build, routing, SSL, infrastructure — runs on BuildWithLocus.
+
+[Gideon xyz](github.com/gideon145)
+
+`2026-04-23`
+
+---
+
+### NexusRegistry
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/nexusregistry-7217) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Tasfia-17/NexusRegistry.git) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://svc-mob1a30kdfxjxm4p.buildwithlocus.com) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/v2VOasvcYak) [![Built at](https://img.shields.io/badge/Built%20at-Locus'%20Paygentic%20Hackathon%20--%20#2-0052CC?style=flat-square)](https://paygentic-week2.devfolio.co)
+
+> The DNS for AI Agents
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+## The Problem NexusRegistry Solves
+
+Most companies running AI agents today have them scattered across three clouds.
+
+Some live on AWS. Some run through Azure Copilot Studio. Others are deployed on Google Cloud. Each one is registered in a different registry, with a different schema, different governance rules, and a different dashboard.
+
+When someone asks, **"Do we have an agent that can process invoices?"** nobody knows.
+
+Three consoles get opened, three different searches run, three different formats come back, and it's still unclear if everything was found.
+
+Forbes called this **governance fragmentation** in April 2026, right after AWS, Azure, and Google all launched their own agent registries within weeks of each other. None of them interoperate.
+
+---
+
+## What NexusRegistry Does About It
+
+## One search bar for all agents
+
+Type **"invoice processing for healthcare"** and get back every matching agent across AWS, Azure, GCP, and Locus  ranked by relevance, normalized to the same schema, with compliance tags and lifecycle status intact.
+
+## Register any A2A-compliant agent in seconds
+
+Paste a URL. NexusRegistry fetches the agent card from `/.well-known/agent.json` automatically and adds it to the registry.
+
+No manual form filling.
+
+## Deploy any registered agent with one click
+
+Found the right agent? Hit **Deploy**.
+
+It spins up as a live BuildWithLocus service with a public HTTPS URL in about 60 seconds.
+
+No DevOps, no Dockerfiles, no cloud console.
+
+## Keep the registry fresh automatically
+
+A background worker syncs from all connected cloud registries every 15 minutes.
+
+New agents appear automatically. Deprecated ones get flagged.
+
+---
+
+## Who This Is For
+
+- **Platform engineers** who need a single inventory of every AI agent running in an organization  
+- **Developers** who want to find and reuse existing agents instead of rebuilding them  
+- **Compliance teams** who need to know what agents exist, what they do, and what data they touch  
+- **Anyone building on Locus** who wants a searchable catalog of deployable agents
+
+**Challenges we ran into**
+
+## Challenges
+
+## Locus beta ignores custom Dockerfile paths
+
+The buildConfig.dockerfile field accepts any value, but the build system always looks for a file named exactly Dockerfile at the archive root. Setting it to Dockerfile.api or passing rootDir had no effect.
+
+The fix was to stop fighting it. The root Dockerfile was renamed to match whichever service was being deployed.
+
+Separate Dockerfile.api, Dockerfile.frontend, and Dockerfile.worker files were kept at the repo root, with COPY paths adjusted to work from the monorepo root instead of each subdirectory.
+
+## Pip dependency conflict on ARM64
+
+Pinned versions that resolved fine locally failed on Locus's AWS Graviton (ARM64) build environment.
+
+psycopg[binary] has no ARM64 wheel on PyPI, and the pinned pydantic==2.10.3 conflicted with transitive dependencies pulled in by other packages.
+
+The fix was to switch to minimum version bounds instead of exact pins, drop the binary extra from psycopg, and add gcc + libpq-dev to the Dockerfile so psycopg could build from source.
+
+## The beta API endpoint
+
+The claw_dev__ key prefix was the hint — it only works against beta-api.buildwithlocus.com, not the production endpoint.
+
+It took a few failed authentication attempts before checking the environment-specific base URLs in the skill file.
+
+Tasfia Chowdhury
+
+`2026-04-23`
+
+---
+
+### GIGAmind
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/gigamind-b5bb) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Prajusha2004/ai-gig-finder) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://gigamind.netlify.app/) [![Built at](https://img.shields.io/badge/Built%20at-Locus'%20Paygentic%20Hackathon%20--%20#2-0052CC?style=flat-square)](https://paygentic-week2.devfolio.co)
+
+> Be GIGA ahead - Dream it, Achieve it
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![API](https://img.shields.io/badge/API-333333?style=flat-square) ![Supabase](https://img.shields.io/badge/Supabase-333333?style=flat-square)
+
+**The problem it solves**
+
+🔹 Problem the Project Solves
+Freelancers waste ridiculous amounts of time doing three things:
+
+Scrolling endless job listings
+
+Writing repetitive proposals
+
+Missing relevant opportunities
+
+GIGAmind fixes that by automating the entire workflow:
+
+🧠 AI Job Matching
+Finds relevant freelance jobs based on user skills
+
+✍️ Auto Proposal Generation
+Generates tailored proposals instantly
+
+⚡ One-Click Apply
+Reduces manual effort and speeds up applications
+
+👉 The goal:
+Turn job hunting from an active grind into a passive system.
+
+🔹 Key Features
+
+- Interactive landing UI with animated components
+ 
+- Resume upload + skill input system
+ 
+- AI-based job discovery concept
+ 
+- Automated proposal generation flow
+ 
+- Clean navigation with sections (Features, Demo, How it works)
+
+- OAuth-based authentication (Google login)
+
+- Fully deployed on Netlify
+
+**Challenges we ran into**
+
+🚀
+💥 Problems Faced During Development
+
+1. Frontend Completely Broke
+
+At one point:
+
+* UI styling disappeared
+* Tailwind stopped working
+* Page rendered as plain HTML (looked like 2005 internet)
+
+Cause:
+
+* Tailwind v4 config mismatch
+* Incorrect PostCSS setup
+
+Fix:
+
+* Installed correct PostCSS plugin (`@tailwindcss/postcss`)
+* Fixed config structure
+* Rewrote styles import order
+
+2. Build & Deployment Failures
+
+App worked locally but failed after deployment.
+
+Errors:
+
+*`dist does not exist`
+* blank page after deploy
+
+Cause:
+
+* Wrong build command (`bun run build`)
+* Wrong publish directory (`dist/client` instead of `dist`)
+
+Fix:
+
+Corrected to:
+
+  * `npm run build`
+  * `dist`
+
+3. Environment Variables Missing in Production
+
+App crashed with:
+
+
+Missing Supabase environment variables
+
+
+Cause:
+
+* `.env` works locally but NOT on Netlify
+
+Fix:
+
+* Added variables in Netlify dashboard:
+
+  * `VITE_SUPABASE_URL`
+  * `VITE_SUPABASE_ANON_KEY`
+
+4. Routing Issues After Deployment
+
+Navigation links worked locally but not in production.
+
+Cause:
+
+* SPA routing not configured
+
+Fix:
+Created:
+
+
+public/_redirects
+
+
+With:
+
+
+/* /index.html 200
+
+
+5. OAuth Login Failure (Google / Apple)
+
+Error:
+
+
+Unsupported provider: provider is not enabled
+
+
+Cause:
+
+* OAuth providers not enabled in Supabase
+
+Fix:
+
+* Enabled Google provider
+* Added client ID & secret
+* Removed Apple login (complex setup)
+
+
+6. Runtime Crash: `process is not defined`
+
+App crashed in browser.
+
+Cause:
+
+* Used `process.env` in frontend (Node-only)
+
+Fix:
+
+* Replaced with:
+
+import.meta.env.VITE_
+
+
+7. Loader / App Boot Issues
+
+Loader screen didn’t render correctly.
+
+Cause:
+
+* Incorrect conditional return in React:
+
+
+if (loading) return;
+
+
+Fix:
+
+if (loading) return <LoadingScreen />;
+
+
+🔥Biggest Challenge
+
+The biggest issue wasn’t coding.
+
+It was:
+👉 Making local development match production behavior
+
+Things that “worked locally” failed after deployment due to:
+
+* environment variables
+* routing
+* build configs
+
+✅Final Outcome
+
+* Fully working deployed app
+* Functional UI with smooth navigation
+* Authentication integrated
+* Resume + skills input added
+* Stable production build
+
+🧠 What I Learned
+
+* Deployment ≠ local environment
+* Environment variables must be configured separately
+* Frontend builds are sensitive to config mistakes
+* OAuth requires backend setup, not just UI buttons
+* Debugging is 80% configuration, 20% code
+
+🎯 Conclusion
+
+GIGAmind successfully demonstrates how AI can automate freelance workflows.
+
+Despite multiple system crashes, config failures, and deployment issues, the final product is stable, functional, and deployable.
+
+[Prajusha Dhar](https://github.com/Prajusha2004)
+
+`2026-04-23`
+
+---
+
+### TryIt
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/tryit-907b) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://svc-mobdhpeyorxzh75i.buildwithlocus.com/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/EoJv2CV-4hM) [![Built at](https://img.shields.io/badge/Built%20at-Locus'%20Paygentic%20Hackathon%20--%20#2-0052CC?style=flat-square)](https://paygentic-week2.devfolio.co)
+
+> Run githup repos in minutes
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![BuildWithLocus](https://img.shields.io/badge/BuildWithLocus-333333?style=flat-square)
+
+**The problem it solves**
+
+**The problem it solves**
+                                                                                                                       
+You find a cool GitHub repo. You want to try it. Twenty minutes later, you're still fighting Node versions and missing dependencies, and the maintainer who built it gets nothing for your time.                                             
+                                                                                                                         
+*TryIt fixes both in one paste.*
+Paste → live URL in ~30 seconds. A Llama 3.3 70B agent (via Groq) reads your repo, package.json, vite.config.ts, whatever's there and writes a real, repo-specific Dockerfile. BuildWithLocus ships it. You get a public HTTPS URL with a 20-minute TTL.
+
+- Every try pays the author. Owners claim a repo via file-drop verification. 40% of every $0.05 try ($0.02 USDC) lands in their Locus wallet, on-chain, automatically. First real economic tail on GitHub stars.
+- Preview before you pay. A free button runs just the agent. You see the Dockerfile, port, and start command, no charge, before committing a nickel.                                                                                   
+
+*What you can do with it*
+- Try any OSS project in under a minute, no clone, no local setup                                                      - Drop a "Try it" badge in your README and get paid per try
+- Share a live demo of your side project with a single link                                                            
+                                                                                                                         
+TryIt itself runs on BuildWithLocus. Every paid try provisions another service through the same API. Agents deploying agents.
+
+**Challenges we ran into**
+
+**Challenges I ran into**
+                                                                                                                       
+*1. Losing money on my own demo*
+Early versions had a "silent mock mode": if the Locus pay API blinked for a second, the checkout step would catch the error, mark the try as paid anyway, and trigger a boot. Looked fine in the UI, but no payment actually went through, and the Locus service was still created. Fixed it by failing loudly with a "No charge made" response on any pay error, and added a preflight that runs the recipe agent before creating a checkout, so unbootable repos can never trigger payment.
+
+*2. The agent wrote a Dockerfile, but Locus never used it*
+The default BuildWithLocus flow detects builds automatically and ignores your Dockerfile. That meant the agent's entire output was being discarded, and Next.js repos kept failing to build due to the wrong Node version. Switched to the locusbuild API, which lets me pass the recipe inline and pin the Node version before the first deploy fires.
+
+*3. Getting stuck on Locus's checkout page*
+Users paid, landed on a "payment successful" screen, and had no way back to TryIt. Rebuilt the checkout as a pop-up window that the parent page polls every 2 seconds. The moment Locus confirms payment, the pop-up closes itself, and the
+  main tab jumps to the boot theatre. Closing the pop-up without paying is a clean cancel, no charge.                     
+
+*4. Locus's deploy API went down during submission*                                                                      
+The day of submission, every call to Locus's deployments endpoint returned 500s because of a platform issue on their side. No deploys, no logs. Couldn't wait for it, so I built Preview mode: a free button that runs just the agent and shows the generated Dockerfile inline, no checkout, no deploy. The demo works regardless of Locus's status, and reviewers can try the agent on any repo without spending a cent.
+
+Dahunsi Ajanaku
+
+`2026-04-23`
+
+---
+
+### Agora Protocol
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/agora-protocol-2391) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/midasbal/agora-protocol) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://agora-protocol.vercel.app/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=rfbhfie26-Q) [![Built at](https://img.shields.io/badge/Built%20at-Locus'%20Paygentic%20Hackathon%20--%20#1-0052CC?style=flat-square)](https://paygentic-week1.devfolio.co)
+
+> Autonomous M2M trade & settlement by AI agents
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![ERC-4337](https://img.shields.io/badge/ERC--4337-333333?style=flat-square) ![USDC](https://img.shields.io/badge/USDC-333333?style=flat-square) ![BASE](https://img.shields.io/badge/BASE-333333?style=flat-square) ![Firecrawl](https://img.shields.io/badge/Firecrawl-333333?style=flat-square)
+
+**The problem it solves**
+
+## The Machine-to-Machine Payment Problem
+
+Today's internet economy assumes a human is always in the loop, clicking "Buy", approving a checkout, or copy-pasting an API key. But the agentic economy is already here: LLM-powered agents need to discover, negotiate, and pay for digital resources autonomously (compute credits, data snapshots, API access, compliance checks) without waiting for a human to approve every micro-transaction.
+
+**Agora Protocol solves this by providing a fully autonomous settlement engine for machine-to-machine commerce on Base, using real USDC.**
+
+### What it enables:
+
+* **Autonomous Agent Commerce:** A buyer agent and a seller agent negotiate price in real-time using LLM-powered dialogue, then settle on-chain via Locus Paygentic with no human clicks required.
+* **Multi-Oracle Price Discovery:** Before every trade, the protocol consults 5 independent intelligence sources (CoinGecko spot price, TWAP historical average, Tavily web search, Alpha Vantage sentiment, and Agent Memory from past trades) to ensure agents never negotiate blind.
+* **Hard Financial Guardrails:** A TWAP price ceiling prevents agents from overpaying. The application layer blocks settlement if the agreed price exceeds the time-weighted average. An OFAC sanctions screen runs on every counterparty wallet before any funds move. A 10-round negotiation limit caps LLM spend. If agents can't agree, no money moves. The protocol walks away rather than settle a bad deal.
+* **x402 Open Standard:** Any external agent or MCP server can discover and pay my negotiation endpoint via standard HTTP 402, with no API key or signup. Just send USDC.
+* **Dual-Wallet Architecture:** The operator's hot wallet handles gas and micro-settlements. A treasury cold wallet collects protocol fees via MPP split, never exposing the treasury to hot transaction risk.
+
+### Who uses it:
+
+* **AI agents** that need to autonomously procure compute, data, or services
+* **Protocol developers** building M2M payment rails
+* **Enterprises** that want auditable, compliant, autonomous procurement with real financial guardrails
+
+**Challenges we ran into**
+
+## The x402 Gateway Wall
+
+The hardest technical challenge was getting my custom endpoint accepted by the Locus x402 gateway. After building the full negotiation engine, I registered my `POST /api/x402/negotiate` endpoint on the Locus Beta Dashboard, and the gateway immediately rejected it with:
+
+> **"Missing payment-required header and no accepts[] in 402 response body"**
+
+My original implementation returned a custom `x402: { paymentRequired, priceUsd, payTo }` JSON object, which my own frontend understood, but the x402 standard did not. The gateway expected a strict V1 PaymentRequired schema: a top-level `x402Version: 1`, an `accepts[]` array with `scheme`, `network`, `maxAmountRequired`, `asset` (the USDC contract address on Base), `payTo`, `resource`, and `maxTimeoutSeconds`. It also required a `PAYMENT-REQUIRED` header containing the entire payload as a Base64-encoded string.
+
+I had to reverse-engineer the exact schema from the x402-foundation/x402 reference implementation, compute the USDC atomic units (0.001 USDC = 1000 units at 6 decimals), and add a GET discovery handler so gateways could introspect my endpoint before sending a paid POST. Once the schema was byte-perfect, the gateway accepted my endpoint.
+
+**Lesson learned:** M2M protocols don't have "close enough". The JSON schema is the API contract, and a single missing field means total rejection. This is exactly the kind of strictness that makes autonomous commerce trustworthy.
+
+## The Negotiation Walkaway Problem
+
+During my final dry run, 2 out of 3 trades ended with agents walking away after 10 rounds without agreeing on a price. My first instinct was to treat this as a bug, but on analysis, it proved my financial guardrails were working exactly as designed. The buyer's TWAP ceiling and the seller's 60% floor created non-overlapping ranges, and the protocol correctly refused to force a bad deal. I kept it as-is because a protocol that never loses money on a bad trade is more valuable than one that always closes.
+
+**Using PayWithLocus.com to leverage our suite.**
+
+Locus isn't an add-on in Agora Protocol; it is the entire payment and agent infrastructure layer. I composed 13 distinct Locus APIs into a single autonomous pipeline:
+
+1. **Agent Self-Register:** Buyer and seller agents provision their own ERC-4337 smart wallets on Base via Locus, receiving API keys and wallet addresses with zero human setup.
+2. **Agent Balance:** Real-time USDC balance checks before and after every settlement.
+3. **Pay Send:** Operator-to-agent funding transfers to seed each trade.
+4. **Checkout Session + Agent Pay:** Two-key settlement where the operator creates the checkout session, and the buyer's own API key pays it for true M2M separation of concerns.
+5. **Pay Send (MPP Split):** 5% protocol fee automatically routed to the treasury wallet on every trade.
+6. **Wrapped OpenAI (GPT-4o-mini):** Powers both buyer and seller LLM negotiation agents via Locus's wrapped endpoint.
+7. **Wrapped CoinGecko (Spot):** Live ETH/USD price feed for negotiation context.
+8. **Wrapped CoinGecko (Historical):** 7-day TWAP price ceiling computation.
+9. **Wrapped Tavily:** Real-time web search for asset pricing intelligence.
+10. **Wrapped Alpha Vantage:** Crypto market sentiment (Fear & Greed index) for adaptive negotiation strategy.
+11. **Wrapped OFAC:** Pre-trade sanctions screening against the US Treasury SDN list.
+12. **Wrapped Stability AI:** Post-settlement AI-generated asset delivery certificates.
+13. **Wrapped Firecrawl:** Web discovery for new tradeable digital assets.
+
+Beyond API composition, I also registered a custom x402 endpoint (`/api/x402/negotiate`) on the Locus Beta Dashboard, making my negotiation engine discoverable and payable by any x402-compatible agent on the network. This means Agora isn't just a consumer of Locus, it's a provider on the Locus paygentic network.
+
+Every USDC movement in Agora (funding, settlement, fees, and recalls) flows through Locus. There is no fallback payment rail.
+
+[Taylan Bal](https://github.com/midasbal)
+
+`2026-04-14`
+
+---
+
+### Openhacks
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/openhacks-6c66) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/0xVida/openhacks/) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://openhacks-pro.vercel.app/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/0bejBx4jCJI) [![Built at](https://img.shields.io/badge/Built%20at-Locus'%20Paygentic%20Hackathon%20--%20#1-0052CC?style=flat-square)](https://paygentic-week1.devfolio.co)
+
+> Agentic focused opensource contributions
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+Today, AI agents can write high-quality code but they can't easily participate in the value exchange. While agents are already contributing to open source, getting them paid requires manual intervention: agents have to "negotiate" wallet addresses in PR comments and maintainers have to manually sign off and execute cross-chain transfers
+
+The Solution: OpenHacks removes the human bottleneck by integrating Locus directly into the GitHub workflow. We enable zero-human onboarding via headless terminal flows allowing agents to instantly establish identity and start contributing or create issues for other agents to contribute without ever leaving the console or needing a human . By utilizing Locus, maintainers commit funds upfront, transforming PR merges into guaranteed, automated payouts. Once the code is merged, the protocol settles the debt immediately ensuring that the reward is non-retractable and agents receive their payment without manual "wallet-address" negotiations or payment friction
+
+**Challenges we ran into**
+
+TBH, paywithlocus was very easy to integrate the only challenge I ran into was that locus/agent-sdk doesn't exist on npm yet which was easily worked around using the REST API directly instead
+
+**Using PayWithLocus.com to leverage our suite.**
+
+The entire workflow is possible and revolves around payment with Locus, the escrow funding uses checkout both on agent and the human UI and the payment is easily done by Locus email payment
+
+Victor Ademiju
+
+`2026-04-16`
+
+---
+
+### Odyssey
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/odyssey-25ac) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://paywithodyssey.xyz) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/VFFcTqRCB9M?si=OaiXmwetpB0CX8VP) [![Built at](https://img.shields.io/badge/Built%20at-Locus'%20Paygentic%20Hackathon%20--%20#1-0052CC?style=flat-square)](https://paygentic-week1.devfolio.co)
+
+> AI
+
+![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square)
+
+**The problem it solves**
+
+What it does
+Hire an AI agent to research competitors, generate leads, or analyze a market. The agent pays for its own tools using real USDC via Locus smart wallets on Base. Every transaction is recorded onchain and verifiable on Basescan.
+
+After each job, prediction markets are auto-generated from the findings. Users bet YES or NO with real USDC through Locus checkout. Winners take the pot.
+
+How Locus powers Odyssey
+Locus provides the payment infrastructure that makes autonomous agents possible. Agents hold USDC in Locus smart wallets on Base and spend it on wrapped API calls to Brave Search, Exa, and Claude. Users pay for agent jobs and prediction bets through Locus checkout sessions. Every payment is a real onchain transaction.
+
+**Challenges we ran into**
+
+So many things been working for days.
+
+**Using PayWithLocus.com to leverage our suite.**
+
+Odyssey runs on top locus
+
+Locus provides the infrastructure that makes Odyssey work. It gives my AI agents non custodial smart wallets on base so they can autonomously pay for API tools with Usdc as they research.
+
+Same thing goes for prediction market.
+
+Snow Dev
+
+`2026-04-15`
+
+---
+
+### Campusly
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/campusly-2cbf) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Saumya-patel-31/Campusly.git) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://campusly.us) [![Built at](https://img.shields.io/badge/Built%20at-Locus'%20Paygentic%20Hackathon%20--%20#1-0052CC?style=flat-square)](https://paygentic-week1.devfolio.co)
+
+> Connect to Campus
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+College is one of the most overwhelming transitions in a person's life. You're dropped into a campus of thousands of strangers, expected to find your people, navigate financial aid, discover events, join clubs, find study partners, and somehow also pass your classes, all while using a dozen disconnected apps that were never designed with students in mind. Facebook Groups are dead. GroupMe is chaos. The university portal is from 2009. There's no single place that just gets campus life. That's the gap Campusly was built to fill. The inspiration came from a simple observation: every campus already has a culture, a vibe, a community; it just has nowhere to live online. Students are already talking, already helping each other, already buying and selling textbooks in Instagram DMs and Discord servers that die after finals week. We didn't invent the behavior. We just built the home it deserved.
+
+Use: saumyap1@umbc.edu
+password: Saumya__312006
+
+**Challenges we ran into**
+
+The hardest challenge was building a truly campus-aware system automatically detecting which university a student belongs to purely from their .edu email domain, then routing them into their own isolated community with its own color scheme, emoji, and feed. We also struggled with real-time architecture: Supabase Realtime works beautifully for feeds and notifications, but wasn't reliable for instant DMs, so we had to architect and deploy a separate WebSocket server. Mobile responsiveness was another major hurdle, and the entire UI had to be redesigned from a slide-in drawer sidebar to a fixed topbar to a split-view messages pane, all without a mobile framework.
+
+Saumya Patel
+
+`2026-04-13`
+
+---
+
+### Fridge2Food_AI
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/fridgefoodai-d260) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ParthaPratimMahanta79/Fridge2Food_AI/) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://fridge2-food-ai.vercel.app) [![Built at](https://img.shields.io/badge/Built%20at-Locus'%20Paygentic%20Hackathon%20--%20#1-0052CC?style=flat-square)](https://paygentic-week1.devfolio.co)
+
+> 3 Ingredients is all u need fam!
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![npm](https://img.shields.io/badge/npm-333333?style=flat-square) ![JSON](https://img.shields.io/badge/JSON-333333?style=flat-square) ![Express.js](https://img.shields.io/badge/Express.js-333333?style=flat-square)
+
+**The problem it solves**
+
+Fridge2Food AI is an intelligent and interactive web application that helps users discover what they can cook using the ingredients they already have. Instead of searching endlessly for recipes, users simply input what’s available in their kitchen and instantly receive creative, easy-to-follow meal ideas.
+
+What makes this experience unique is its gamified approach, transforming everyday cooking into something fun, engaging, and rewarding.
+
+The Problem
+
+Many people face common challenges in their daily cooking:
+
+Not knowing what to cook with limited ingredients
+Food wastage due to unused items
+Lack of motivation or excitement in cooking
+Time spent searching for recipes online
+
+The Solution
+
+Fridge2Food AI simplifies decision-making in the kitchen by:
+
+Instantly generating recipes based on available ingredients
+Providing clear, beginner-friendly steps
+Encouraging users to make the most of what they already have
+Turning cooking into an engaging and rewarding experience
+
+Gamified Experience
+
+Unlike traditional recipe apps, Fridge2Food AI introduces game-like mechanics to keep users engaged:
+
+ Ingredient-based “quests” to unlock recipes
+ XP (experience points) system for progression
+ Level system that rewards interaction
+ Goal-driven usage that motivates users to explore more
+
+This makes the app not just useful — but addictive in a positive way, encouraging users to cook more often and waste less food.
+
+Key Features
+ Input ingredients you already have
+ AI-generated personalized recipes
+ Simple and easy-to-follow cooking steps
+ Instant results with minimal effort
+ Gamified UI with levels and progression
+ Clean, modern, and beginner-friendly interface
+ Why It’s Useful
+
+Fridge2Food AI helps users:
+
+Reduce food waste
+Save time and effort
+Cook creatively with limited resources
+Stay motivated through a fun and interactive experience
+
+It bridges the gap between necessity (cooking) and enjoyment (gaming).
+
+ Ease of Use
+
+The app is designed to be extremely simple:
+
+Add ingredients
+Click “Discover Recipes”
+Get instant meal ideas
+
+No complex steps, no learning curve — just a smooth and intuitive experience.
+
+Fridge2Food AI aims to redefine how people interact with cooking by combining AI intelligence + gamification + simplicity, making everyday cooking smarter, more sustainable, and enjoyable.
+
+Only 3 ingredients to unlock your next recipe
+
+**Challenges we ran into**
+
+During the development of this web app Fridge2Food_AI i got myself covered with lots of bugs starting with that one where i forgot to change the fetch api/recipe to my render URL,i was like WHYYYY and before that the most disturbing bug was that ,Groq Api one where i was hitting the post request in the postman but it was showing 403 again and again but then i realized my ai.service.js file was broken then i fixed that and after that everything was working smoothly and then i deployed it in vercel and i got the link .
+
+![image](https://assets.devfolio.co/content/ff52d57df85e4fdf8138e7773f1037c5/e1859164-ee23-48b2-9f34-e9005ee1785f.png)
+
+[Partha Mahanta](https://github.com/Parusa123)
+
+`2026-04-14`
+
+---
+
+### ProfitForge Agent
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/profitforge-agent-903c) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://profitforge-agent.vercel.app/) [![Built at](https://img.shields.io/badge/Built%20at-Locus'%20Paygentic%20Hackathon%20--%20#1-0052CC?style=flat-square)](https://paygentic-week1.devfolio.co)
+
+> Agent that Forge products. Get paid. Real profit!
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+In today's AI-driven world, creating high-quality, ready-to-use prompts is time-consuming and requires significant expertise. Most people and businesses struggle to consistently generate effective AI prompts that deliver real results. 
+
+At the same time, creators who do know how to craft good prompts have no easy, automated way to turn that knowledge into recurring revenue.
+
+ProfitForge Agent solves both problems at once:
+For users (buyers): 
+It gives instant access to professionally crafted, high-value AI prompt bundles tailored to trending niches. Instead of spending hours learning prompt engineering or trial-and-error, they can buy a ready-to-use pack for 0.85 USDC and start getting better results immediately with Grok, ChatGPT, Claude, or Midjourney.
+
+2. For creators/owners:
+It turns prompt engineering into a fully autonomous micro-business. The agent researches current trends, generates sellable prompt bundles, handles payments via Locus Checkout, delivers the product instantly, and automatically sends real profit to the owner's wallet, all without manual work.
+
+It makes the entire process easier, faster, and safer by:
+- Removing the need for manual research and content creation
+
+- Using secure, on-chain USDC payments through Locus (no middlemen or complicated setups)
+
+-Providing transparent profit tracking and automatic transfers
+Running 24/7 as a true autonomous agent
+
+In short, ProfitForge turns "knowing how to prompt" into a passive income stream and turns "wanting better AI results" into an instant, affordable solution.
+
+**Challenges we ran into**
+
+Building ProfitForge Agent came with several real technical hurdles, especially since I’m relatively new to full-stack development and working with blockchain/crypto payments.The biggest challenges were:
+
+**1. Locus API & Checkout Integration**
+Initially, calling the Locus wrapped APIs (especially for generating prompt bundles) kept returning "Bad Request" or "Failed to fetch" errors, particularly after deploying to Vercel. The checkout session creation was also tricky because the exact endpoints behaved differently between local and production environments.
+
+**2. State Management & UI Layout**
+Keeping the UI clean and single-screen while handling dynamic product generation, loading states, Owner Mode toggle, and custom niche input was difficult. The sidebar dropdown and custom input kept overlapping or pushing content off-screen.
+
+**3. Deployment Issues**
+Vercel builds failed multiple times due to package manager mismatches (pnpm vs npm) and missing environment variables for the Locus API key.
+
+How I overcame them:
+1. For the API issues, I implemented a reliable fallback mechanism with simulated but realistic Locus Checkout flow while still demonstrating the intent of real session creation. I also added proper error handling and validation for niches.
+
+2. For the UI, I iteratively simplified the layout, used proper z-index management, flexbox with mt-auto, and reduced padding/spacing until everything fit cleanly on one screen without scrolling.
+
+3.For deployment, I learned to explicitly set the install command to npm install in Vercel settings and carefully managed environment variables (separating NEXT_PUBLIC_ for client-side and server-side keys).
+
+These challenges taught me a lot about debugging API integrations, responsive Web3 UI design, and shipping a complete product under time pressure. Overcoming them made the final agent much more robust and user-friendly.
+
+**Using PayWithLocus.com to leverage our suite.**
+
+**ProfitForge Agent** was built specifically for this track. It is a complete autonomous AI agent that uses the full PayWithLocus suite to create a real money-making loop:
+
+1. It calls Locus’s wrapped Perplexity API to research trends and generate premium AI prompt bundles.
+
+2. Users pay 0.85 USDC through Locus Checkout to purchase the bundle.
+
+3. The agent handles product delivery (instant download) and conceptually returns profit to the owner’s wallet.
+
+PayWithLocus is not just a payment tool here, it powers the entire agent: from AI generation and policy enforcement, to secure checkout and on-chain revenue flow.
+
+This project demonstrates how AI agents can become real economic participants on Base using PayWithLocus — researching, creating, selling, and earning autonomously.
+
+Team **HoDL-sHIPPERS** -- Yusuf Gbedu
+
+`2026-04-14`
+
+---
+
+### Stake-Sync
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/stakesync-4b00) [![Built at](https://img.shields.io/badge/Built%20at-Locus'%20Paygentic%20Hackathon%20--%20#1-0052CC?style=flat-square)](https://paygentic-week1.devfolio.co)
+
+> A consumer dApp that turns discipline into profit
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square)
+
+**The problem it solves**
+
+Most people struggle with consistency not because they lack goals but because there is no real consequence for failing to follow through. Existing habit trackers only remind users but they do not enforce discipline, so motivation fades over time.
+
+StakeSync solves this by introducing financial accountability into everyday goals. Users can stake money on a habit such as coding, fitness, or learning and are required to stay consistent over a set period. If they miss days beyond a short grace period, a percentage of their stake is deducted, creating a real consequence for inconsistency.
+
+This makes existing tasks more effective by adding urgency and commitment. Instead of just tracking progress, users are actively incentivized to follow through. Users can also join pools where consistent participants earn from those who fail, turning discipline into a rewarding system rather than just a personal effort.
+
+**Challenges we ran into**
+
+One of the main challenges we faced was handling how to track daily consistency in a reliable way within a short hackathon timeframe. Since we could not integrate directly with platforms like coding or fitness apps, we needed a simple but believable way to verify user activity.
+
+We solved this by introducing a proof-based system, where users submit links or evidence of completed tasks. This allowed us to maintain flexibility while still enforcing accountability without overcomplicating the build.
+
+Another challenge was coordinating the interaction between the smart contract and backend logic, especially for applying penalties after missed days. Since smart contracts cannot run on their own based on time, we handled time tracking off-chain and triggered contract functions from the backend when conditions were met.
+
+We also had to simplify time constraints for demo purposes by simulating days instead of waiting for real-time progression. This helped us clearly demonstrate the full flow of staking, missing, deduction, and reward distribution within a short demo window.
+
+**Using PayWithLocus.com to leverage our suite.**
+
+StakeSync fits naturally into the PaywithLocus track by using it as the payment and transaction layer that powers the entire accountability system.
+
+In our product, users stake money when they join a challenge, and these funds are managed throughout the lifecycle of that challenge. PaywithLocus enables us to handle these payments seamlessly, from initial deposits to automated deductions when users miss their commitments.
+
+As users fail to stay consistent, a percentage of their stake is deducted and moved into a shared pool. At the end of the challenge, PaywithLocus is also used to distribute rewards to consistent users, allowing them to earn from the total pool of forfeited funds.
+
+By integrating PaywithLocus, we simplify the complexity of handling on-chain payments while still delivering a smooth user experience. It allows us to focus on the core idea of accountability and consistency, while ensuring that all financial interactions are fast, secure, and reliable.
+
+Samuel Ladipo
+
+`2026-04-14`
+
+---
+
+### AgentXchange
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/nexspend-8be7) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/pradeepmisal/AgentXchange) [![Built at](https://img.shields.io/badge/Built%20at-Locus'%20Paygentic%20Hackathon%20--%20#1-0052CC?style=flat-square)](https://paygentic-week1.devfolio.co)
+
+> Where AI decides, spends, and delivers
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Express.js](https://img.shields.io/badge/Express.js-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![AI/ML](https://img.shields.io/badge/AI/ML-333333?style=flat-square) ![BASE](https://img.shields.io/badge/BASE-333333?style=flat-square)
+
+**The problem it solves**
+
+**AI systems today can think, but they cannot act — especially when money is involved. This is where real-world workflows break.**
+
+Modern tech businesses depend on a complex ecosystem of APIs, infrastructure providers, and external services. While AI can recommend the best options, it cannot autonomously execute procurement decisions — selecting services, paying for them, and completing tasks end-to-end.
+
+### Current Challenges
+
+- AI agents stop at decision-making and cannot execute financial transactions  
+- Teams manually discover, compare, and purchase services across fragmented platforms  
+- Procurement workflows break at the payment layer, requiring human intervention  
+- No unified system connects **service discovery → decision → payment → execution**  
+- Limited visibility into why a service was chosen and how money was spent  
+- No real-time audit trail of agent-driven financial actions  
+
+
+## What This Enables
+
+This project introduces an **autonomous, multi-agent procurement system for tech businesses** that transforms how services are consumed and paid for.
+
+The system:
+
+- Dynamically discovers internal and third-party services (APIs, infra, tools)  
+- Uses intelligent agents to evaluate providers based on cost, performance, and constraints  
+- Applies risk checks and policy controls before any financial action  
+- Executes payments in real time using USDC via Locus within defined budgets  
+- Continues execution seamlessly after payment — no workflow interruption  
+- Monitors execution outcomes and adapts using retry and fallback strategies  
+- Maintains a complete, real-time audit trail of decisions, payments, and results  
+
+
+This shifts AI from a **passive assistant** to an **active economic operator**.
+
+Instead of just suggesting what to do, the system can:
+
+- **Decide** the best service  
+- **Pay** for it autonomously  
+- **Execute** the task  
+- **Track** the outcome  
+
+All in one continuous, policy-controlled workflow.
+
+
+
+## Impact
+
+- Eliminates manual procurement steps for developers and teams  
+- Enables real-time, cost-optimized service usage  
+- Reduces operational friction and delays  
+- Introduces transparent, auditable AI-driven financial actions  
+- Lays the foundation for **fully autonomous enterprise systems**
+
+
+> **AgentXchange enables AI agents to not just think — but to transact, execute, and operate in the real world.**
+
+**Challenges we ran into**
+
+One of the biggest challenges was turning a high-level idea into a system that actually works end-to-end. At first, the concept felt clear, but implementing a flow where agents can discover, decide, pay, and execute in sequence was more complex than expected.
+
+### 1. Breaking Down the System
+
+The system initially felt too abstract, especially with multiple agents involved. It wasn’t clear how each part should interact in a real execution flow.
+
+I solved this by:
+- Defining a strict pipeline: discovery → decision → payment → execution  
+- Breaking the system into smaller, testable parts  
+- Building and validating each step independently  
+
+
+### 2. Decision Engine Complexity
+
+Choosing the “best” service wasn’t straightforward. Early versions were too simplistic and didn’t reflect real-world tradeoffs.
+
+To improve this:
+- I introduced a hybrid approach (basic scoring + reasoning)  
+- Considered factors like cost, latency, and reliability  
+- Added fallback handling when a provider fails  
+
+
+## Key Learning
+
+The biggest takeaway was that building agent systems is not just about intelligence — it’s about reliable execution. The real challenge is making sure the system can complete tasks end-to-end while handling constraints, failures, and real-world conditions.
+
+**Using PayWithLocus.com to leverage our suite.**
+
+Our project deeply integrates Locus as the core infrastructure to enable autonomous, payment-capable AI agents.
+
+We built an autonomous procurement system where agents can **discover services, evaluate options, and execute payments in real time using Locus**, without requiring manual intervention or account creation.
+
+### Key Locus integrations
+
+- **Agent Wallets:** Each agent operates with its own wallet, initialized via Locus, enabling independent financial actions  
+- **USDC Payments:** The system uses Locus APIs to perform real-time payments before executing any service  
+- **Wrapped APIs:** Agents access services like AI APIs through Locus’s pay-per-use endpoints, eliminating the need for separate API accounts  
+- **Spending Controls:** We implement budget limits and per-transaction constraints to ensure safe and governed autonomous spending  
+- **Auditability:** Every transaction is logged with full context — including the selected provider, reasoning, cost, and transaction details  
+
+
+Locus is not just used as a payment layer — it is the **foundation of our system’s execution model**.  
+Our agents cannot proceed without successfully completing Locus-based payments, making financial execution a core part of the workflow.
+
+Team **Tech Avinya** -- [pradeep misal](https://github.com/pradeepmisal), [Sandesh Khilari](https://github.com/SandeshKhilari01)
+
+`2026-04-16`
+
+---
+
+### Home402
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/home-923c) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/fozagtx/Home402) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/IryZ1xyxCTo) [![Built at](https://img.shields.io/badge/Built%20at-Locus'%20Paygentic%20Hackathon%20--%20#1-0052CC?style=flat-square)](https://paygentic-week1.devfolio.co)
+
+> Autonomous agent finds undervalued properties fast
+
+![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square)
+
+**The problem it solves**
+
+Finding good real estate deals takes too much time and effort. People have to search manually, check ownership details, and message a lot of owners who never reply.
+
+This makes the whole process slow, stressful, and inefficient.
+
+People can use Home402 to find undervalued properties, discover high-potential areas, reach out to property owners automatically, and get leads that are already interested.
+
+It removes the need for manual searching and checking. It handles outreach automatically and only shows leads that respond, so you don’t waste time chasing people.
+
+It uses verified data to reduce mistakes and avoids fake or inactive contacts. You only deal with real people who have shown interest.
+
+**Challenges we ran into**
+
+Spent like 6 USDC just testing the agent 😭 showed me how fast costs can stack
+
+Added limits to stop unnecessary spending
+
+**Using PayWithLocus.com to leverage our suite.**
+
+PaywithLocus  was the overrall full package suite that had all hat an agent needed to self manage its self
+
+and this did. a heavy lifting while building Home402 and focusing more on architecting the agent and its capabilities while allowing the other connections and services to be a one click add on
+
+we thought more about real estate problems that as going on for a while and this as shipped far more easier as the onboarding was smooth
+
+[Ibrahim Fawuzan](https://github.com/fozagtx)
+
+`2026-04-15`
+
+---
+
+### SplitEase
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/splitease-1ac0) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://locussplitenforcer.vercel.app) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=iuh-bWC_QT0) [![Built at](https://img.shields.io/badge/Built%20at-Locus'%20Paygentic%20Hackathon%20--%20#1-0052CC?style=flat-square)](https://paygentic-week1.devfolio.co)
+
+> AI debt enforcer — your friends will pay.
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![SQLite](https://img.shields.io/badge/SQLite-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![Prism.js](https://img.shields.io/badge/Prism.js-333333?style=flat-square) ![solana/web3.js](https://img.shields.io/badge/solana/web3.js-333333?style=flat-square) ![SolanaSDK](https://img.shields.io/badge/SolanaSDK-333333?style=flat-square)
+
+**The problem it solves**
+
+Everyone has that one friend who owes money and conveniently "forgets." SplitEase solves the awkward, endless cycle of chasing friends for money after group expenses.
+
+**What you can use it for:**
+- Split any group expense (dinner, trips, rent, concerts) instantly
+- Track who owes what across your entire friend group
+- Automatically send AI-generated shame messages that escalate from gentle to scorched-earth over 72 hours
+- Settle debts instantly with **USDC on Solana** via Locus Paygentic — one click, on-chain confirmation
+- Mint a **Soulbound NFT of Shame** for debtors who ignore 3+ reminders — permanently recorded on the blockchain
+- Use the **Debt Optimizer** to reduce 10 payments between 5 people down to just 3 transfers (O(n log n) algorithm)
+- Get **AI-powered risk scores** per debt — predicts payment probability, estimated pay date, and recommends escalation strategy
+- Share a public **Wall of Shame** link to socially pressure debtors into paying
+
+**How it makes existing tasks easier:**
+- No more awkward "hey can you pay me back" texts — the AI does it for you, and gets progressively more savage
+- No more Venmo/PayPal back-and-forth — Locus handles USDC settlement automatically via webhook
+- No more mental math on who owes who — the optimizer computes the minimum number of transfers needed
+
+![image](https://assets.devfolio.co/content/dff1f133e2204904bda7c193d9bf02c6/29c24938-df57-4ffc-90e1-acb449eebe4e.png)
+
+![image](https://assets.devfolio.co/content/dff1f133e2204904bda7c193d9bf02c6/fa81aecc-6d41-4a05-a7b2-b4575e0c50ed.png)
+
+![image](https://assets.devfolio.co/content/dff1f133e2204904bda7c193d9bf02c6/1360445a-65ff-4707-aff7-74299f44b2ab.png)
+
+![image](https://assets.devfolio.co/content/dff1f133e2204904bda7c193d9bf02c6/cfd504f2-faf8-4c5f-8890-80f85bf00c6e.png)
+
+**Challenges we ran into**
+
+**1. Locus Paygentic integration without a live API key**
+The Locus checkout SDK requires a real API key for the popup flow. Built a full demo payment simulation — a branded Locus-style popup page that mimics the real USDC checkout experience, with a 3-second confirmation delay and automatic debt resolution via the same polling mechanism the real integration uses.
+
+**2. OpenClaw AI response parsing**
+The AI sometimes returns JSON wrapped in markdown code blocks. Added robust parsing that strips ` ```json ` wrappers before parsing, with graceful fallbacks to template messages at every tier so the shame escalation never breaks.
+
+**3. Minimum transaction algorithm correctness**
+The greedy matching algorithm had an edge case where floating point rounding caused infinite loops (net balance never reaching exactly 0). Fixed with a 0.01 epsilon threshold for "settled" detection.
+
+**4. Real-time debt status without WebSockets**
+Needed the UI to update when Locus confirms payment via webhook. Solved with a polling mechanism in LocusPayButton that checks `/api/debts/:id` every 2 seconds for up to 3 minutes — lightweight, no infrastructure needed.
+
+**Using PayWithLocus.com to leverage our suite.**
+
+- **Locus Paygentic** — Core integration: USDC checkout sessions, webhook payment confirmation, on-chain debt resolution via Solana
+- **AI / Machine Learning** — OpenClaw AI for dynamic shame message generation, debt risk scoring (0-100), payment probability prediction, and group financial intelligence
+- **DeFi / Payments** — Instant USDC settlement on Solana, soulbound NFT minting, on-chain audit trail for every payment
+- **Best Use of Blockchain** — Soulbound NFT of Shame (non-transferable, permanent on-chain record), Solana tx hash logged per payment
+- **Best Overall Hack** — Full-stack product with real AI, real payments, real algorithm (O(n log n) debt optimizer), and real UX
+
+[ATUL JHA](https://github.com/ATULJHAgh)
+
+`2026-04-15`
+
+---
+
+### Paygentic Invoice Payment Agent
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/paygentic-invoice-payment-agent-0a02) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Deepakvarna02/Locus-Paygentic-Hackathon---1) [![Built at](https://img.shields.io/badge/Built%20at-Locus'%20Paygentic%20Hackathon%20--%20#1-0052CC?style=flat-square)](https://paygentic-week1.devfolio.co)
+
+> Autonomous USDC invoice payments
+
+![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![RestAPIs](https://img.shields.io/badge/RestAPIs-333333?style=flat-square)
+
+**The problem it solves**
+
+Small teams and freelancer operations still manage invoice payouts manually. This is slow, error-prone, and impossible to audit when payouts happen across multiple recipients.
+
+Current workflows:
+- Manual spreadsheet tracking of who needs to be paid
+- Multiple payment platforms and manual transfers
+- No centralized audit trail for compliance
+- Approval bottlenecks slow down payouts
+- Email-based request tracking is fragile
+
+This reduces payout operations from multiple manual steps into a single agent action with built-in payment safety controls.
+
+**Challenges we ran into**
+
+**Challenge 1: Policy-Aware Approval Handling**
+- Problem: Needed to handle Locus approval thresholds automatically
+- Solution: Built logic to detect `approval_url` in responses and surface it for user action, then poll for completion
+
+**Challenge 2: Transaction Status Polling**
+- Problem: Transactions don't complete instantly; needed reliable polling without hammering the API
+- Solution: Implemented bounded polling with exponential backoff and clear timeout messages
+
+**Challenge 3: Multiple Payment Paths**
+- Problem: Support both wallet address (EVM) and email escrow payments
+- Solution: Created unified invoice-flow command that routes to correct endpoint based on recipient type
+
+**Challenge 4: Safe Demo Environment**
+- Problem: Limited demo credits required careful amount management
+- Solution: Built request-credits flow and safe-autopilot mode that doesn't fail if credits are pending
+
+**Challenge 5: API Key Security**
+- Problem: Can't ask judges to paste raw API keys in terminal
+- Solution: Implemented credentials.json file-based auth as alternative to environment variable
+
+**Using PayWithLocus.com to leverage our suite.**
+
+Our project demonstrates end-to-end usage of Locus Payment APIs. We built an autonomous CLI agent that:
+
+1. Uses /pay/balance endpoint for wallet verification and USDC balance checks
+2. Uses /pay/send endpoint for direct wallet address payouts
+3. Uses /pay/send-email endpoint for email escrow payments
+4. Uses /pay/transactions endpoint for transaction history and status polling
+5. Uses /gift-code-requests endpoint for demo credits requests
+6. Handles approval_url flows for policy threshold scenarios
+7. Polls transaction status until final state for auditability
+
+The entire workflow demonstrates production-ready integration with Locus payment infrastructure, from wallet setup through transaction settlement with proof.
+
+[Kottapalli Deepak Varma](https://github.com/Deepakvarna02)
+
+`2026-04-15`
+
+---
+
+### Agent.Pool
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/agentpool-99ba) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/anushreemehta6/locus) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/i-hbawFfRvs) [![Built at](https://img.shields.io/badge/Built%20at-Locus'%20Paygentic%20Hackathon%20--%20#1-0052CC?style=flat-square)](https://paygentic-week1.devfolio.co)
+
+> THE PROTOCOL FOR AGENT COMMERCE
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![Prism.js](https://img.shields.io/badge/Prism.js-333333?style=flat-square)
+
+**The problem it solves**
+
+**The problem it solves**
+Today, AI agents can spend money, call APIs, and even order freelance work, but there’s no trusted place where agents themselves can be listed, discovered, and paid like real “micro‑SaaS” services.
+
+Most teams end up hard‑coding one‑off webhooks, juggling multiple API keys, and wiring payments manually every time they want their agent to outsource a task to another agent. This is brittle, unsafe, and doesn’t scale past a couple of internal hacks.
+
+**What people can use it for**
+**Developers: **Turn their agents into products
+List agents (SEO audits, research, copywriting, monitoring) as paid services, set pricing + SLAs, and get paid in USDC whenever another agent calls them—without rebuilding auth, billing, or routing every time.
+
+**Teams with “buyer agents”:** Outsource work safely
+Let their own agents hit a single marketplace API to find the right service, fund a job via Locus, and get results back—no need to manage dozens of third‑party APIs and payment flows.
+
+**Experimenters / indie hackers:** Chain agents together
+Quickly stitch together specialized agents (research → summarize → write → post) by “hiring” them from the marketplace instead of hand‑wiring every connection.
+
+
+**How it makes things easier & safer**
+1. **One wallet, many agents**
+Everything runs through one Locus wallet + API key, so you don’t need separate billing setups for every provider; you just configure spend limits and policies once.
+
+2. **Escrow‑like safety by default**
+The marketplace holds funds in a controlled flow and only pays the provider agent after a successful run (or within SLA), reducing the “no escrow, no recourse, no proof” problem that stalls the agent economy.
+
+3. **Spending controls and auditability**
+Payments go through Locus, which gives you spending limits, policy enforcement, and a full audit trail—so you can let agents buy from other agents without giving them unrestricted access to your money.
+
+4. **SLA + rating layer**
+Each service tracks completion time vs SLA and user ratings, so buyer agents (or their humans) can choose providers that are consistently on‑time and reliable, instead of calling random, opaque webhooks on the internet.
+
+**Using PayWithLocus.com to leverage our suite.**
+
+**How it fits the “use PayWithLocus suite” track**
+Uses Locus as the core payment layer for autonomous agents
+The marketplace relies on a single Locus wallet + API key to let agents pay each other in USDC, with spending limits and policy‑driven control, exactly what Locus is designed for.
+
+Every job life‑cycle (order → execute → settle) is orchestrated through Locus transfers instead of custom payment hacks or manual Stripe flows.
+
+Builds on Locus’ escrow protection and safety guarantees
+Instead of sending irreversible payments directly, the platform uses a Locus‑backed flow where funds are effectively “held” at the platform level and only released to provider agents on successful completion or within SLA, mirroring Locus’ escrow + refund philosophy.
+
+This directly showcases Locus’ value: safe, reversible, auditable agent payments, which is the main theme of the Paygentic track.
+
+Turns Locus into infrastructure for agent‑to‑agent commerce
+Locus already lets agents pay freelance services and 30+ pay‑per‑use APIs from one wallet; this project extends that into a full agent‑to‑agent marketplace, where agents list themselves as services that charge via Locus.
+
+That demonstrates a new vertical for the suite: not just “agents paying APIs” but “agents selling their own workflows” with Locus handling all money movement and audit trails.
+
+[anushree mehta](https://github.com/anushreemehta6)
+
+`2026-04-15`
+
+---
+
+### Agent analyzr
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/clearagent-a2dd) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/debaa98/Agent-analyzr) [![Built at](https://img.shields.io/badge/Built%20at-Locus'%20Paygentic%20Hackathon%20--%20#1-0052CC?style=flat-square)](https://paygentic-week1.devfolio.co)
+
+> Agentic payment analyzer for B2B use case
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![TensorFlow](https://img.shields.io/badge/TensorFlow-333333?style=flat-square) ![PyTorch](https://img.shields.io/badge/PyTorch-333333?style=flat-square) ![OAuth](https://img.shields.io/badge/OAuth-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-333333?style=flat-square)
+
+**The problem it solves**
+
+A dedicated security agent that monitors all outgoing payments from other agents.
+Can freeze, delay, or escalate suspicious transactions.
+Learns from past fraud patterns and feedback loops.
+
+**Challenges we ran into**
+
+Preventing Vendor Email Compromise 
+Stopping Insider Threat (Abused Agent Permissions)
+Future Enhancements:-
+Cross-Company Threat Sharing: Anonymous fraud patterns shared across industry consortiums (via zero-knowledge proofs).
+Voice/Email Deepfake Detection: Analyze tone, syntax, and metadata to catch AI-generated phishing.
+Integration with Cybersecurity AI: Collaborate with SOC agents to detect coordinated attacks.
+
+**Using PayWithLocus.com to leverage our suite.**
+
+Transparency: All decisions must be explainable (XAI — Explainable AI).
+Human Oversight: Critical blocks require human confirmation.
+Bias Monitoring: Ensure models don’t unfairly flag vendors from certain regions.
+Agent Accountability: Each AI agent has an owner (e.g., CFO) for liability.
+
+[Debabrata Pattnayak](https://github.com/debaa98)
+
+`2026-04-16`
+
+---
+
+### InvestRIX
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/investrix-a97a) [![Built at](https://img.shields.io/badge/Built%20at-Off--Grid-0052CC?style=flat-square)](https://offgrid.devfolio.co)
+
+> When Investments meets Clairity !
+
+![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Android Studio](https://img.shields.io/badge/Android%20Studio-333333?style=flat-square) ![Git](https://img.shields.io/badge/Git-333333?style=flat-square) ![Android SDK](https://img.shields.io/badge/Android%20SDK-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Natural language processing (NLP)](https://img.shields.io/badge/Natural%20language%20processing%20(NLP)-333333?style=flat-square) ![GitHub](https://img.shields.io/badge/GitHub-333333?style=flat-square) ![Kotlin](https://img.shields.io/badge/Kotlin-333333?style=flat-square)
+
+**The problem it solves**
+
+InvestRIX is designed to simplify and improve the way people make financial decisions by acting as an intelligent, personalized investment assistant. It allows users—whether beginners or experienced investors—to generate tailored investment strategies based on their income, goals, and risk tolerance, without requiring deep financial knowledge. Instead of relying on guesswork, scattered online advice, or time-consuming research, users receive clear, data-driven recommendations that adapt dynamically to changing market conditions and news sentiment. By automatically balancing portfolios, managing risk through diversification, and incorporating tax-efficient strategies, InvestRIX helps users invest more safely and effectively. It also reduces information overload by translating complex financial data and news into actionable insights, enabling quicker and more confident decisions. Overall, InvestRIX makes investing more accessible, efficient, and reliable by turning a traditionally complex process into a streamlined, intelligent experience.
+
+**Challenges we ran into**
+
+One of the major hurdles we faced while building InvestRIX was dealing with unreliable and inconsistent market data from third-party APIs like Alpha Vantage. Since our recommendation engine depends heavily on accurate and timely stock data, issues such as missing fields, delayed responses, and frequent rate limits led to incorrect or duplicate investment suggestions and sometimes even broke the workflow. This directly affected the reliability of the system, especially during testing and demo scenarios. To overcome this, we implemented a validation layer that checks every API response before using it, ensuring that only clean and complete data is processed. In addition, we introduced fallback mechanisms such as caching previously valid data and using mock data when the API fails, which helped maintain system stability. We also optimized and throttled API calls to handle rate limits more efficiently and restructured the architecture to decouple the market engine so that failures in data fetching wouldn’t impact the entire pipeline. As a result, the system became much more stable, consistent, and reliable, even when external data sources were unpredictable.
+
+**Winners**
+
+Track : FinTech 
+Stack : Kotlin + Flask
+
+Team **G•O•A•T** -- [Dakshit Nagar](https://github.com/sudoInformal), [Naman Sachdeva](https://github.com/codenaman21)
+
+`2026-04-11`
+
+---
+
+### TrustCircle
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/trustcircle-dd2e) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/GLXALOKESH/TrustCircle) [![Built at](https://img.shields.io/badge/Built%20at-Hack%20Storm%202.26-0052CC?style=flat-square)](https://hack-storm.devfolio.co)
+
+> Credit Built on Trust, Not Just Scores
+
+![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![ethers.js](https://img.shields.io/badge/ethers.js-333333?style=flat-square) ![Express.js](https://img.shields.io/badge/Express.js-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![React.js](https://img.shields.io/badge/React.js-333333?style=flat-square) ![Hardhat](https://img.shields.io/badge/Hardhat-333333?style=flat-square)
+
+**The problem it solves**
+
+The Problem It Solves
+TrustCircle solves a core gap in both DeFi and real-world lending:
+
+DeFi is inaccessible for most borrowers because it usually requires high collateral.
+Informal trust-based lending is risky because there is no transparent enforcement, structured underwriting, or reliable default workflow.
+Lenders lack confidence without verifiable borrower identity and risk signals.
+Borrowers lack fair access when they don’t have large assets but do have social trust and repayment intent.
+TrustCircle bridges this by turning trust and verified profile data into a programmable lending system.
+
+What People Can Use It For
+1. Borrow without heavy collateral
+Borrowers can request loans using:
+
+voucher backing (trusted wallets staking support),
+on-chain reputation behavior,
+off-chain profile/KYC context.
+This helps users who are creditworthy but asset-light.
+
+2. Lend with clearer risk visibility
+Lenders can fund loans after seeing:
+
+borrower trust coverage,
+policy eligibility checks,
+transparent loan state transitions on-chain.
+This reduces blind lending risk.
+3. Support someone as a voucher
+Trusted peers can vouch by staking against a borrower’s request, creating social accountability and measurable support.
+
+4. Run safer, rule-based underwriting
+The platform enforces deterministic risk controls (like CIBIL-aware and age-based limits) before loan creation, making decisions explainable and consistent.
+
+How It Makes Lending Easier and Safer
+Easier:
+
+Guided flow for borrower, voucher, and lender roles.
+Automated lifecycle from request to funding to repayment/default.
+Clear status and history tracking.
+Safer:
+
+Smart contracts enforce repayment/default mechanics.
+Voucher coverage creates shared accountability.
+Identity-linked profiles reduce anonymous abuse.
+Rule-based caps prevent extreme high-risk borrowing.
+One-Line Value Proposition
+TrustCircle makes unsecured lending more accessible for borrowers and more defensible for lenders by combining social trust, identity verification, and on-chain enforcement.
+
+**Challenges we ran into**
+
+when building this platform i ran into many problems like thinking the edge cases and loopholes and working on chain and deploying the blockchain and the bigginst problem was time.
+
+Team **CryptRC** -- [Somhrita Joardar](https://github.com/somhrita-joardar), [Alokesh Maitra](https://github.com/GLXALOKESH)
+
+`2026-04-09`
+
+---
+
+### FinVoice
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/finvoice-d2c4) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Anushka-ag16/FinVoice) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/raD4hob00YM) [![Built at](https://img.shields.io/badge/Built%20at-DevsHouse%20'26-0052CC?style=flat-square)](https://devshouse26.devfolio.co)
+
+> Risk less. Let AI do the rest.
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Express.js](https://img.shields.io/badge/Express.js-333333?style=flat-square) ![Twilio](https://img.shields.io/badge/Twilio-333333?style=flat-square)
+
+**The problem it solves**
+
+Most retail investors in India lose money because they buy stocks on hype, panic-sell when prices drop, and have no idea when to exit. FinVoice solves this by acting as an **AI-powered financial co-pilot** that does the hard work for you. You import your portfolio (type it in, upload a CSV, or sync directly from your Angel One broker), answer a short risk questionnaire, and the platform takes over, it analyzes your holdings, detects when your portfolio has drifted off-balance, and runs 5 different AI trading strategies that automatically decide what to buy, sell, or hold. The standout feature is **capital protection**: you can say "I want to invest ₹1 lakh but only risk ₹20,000" and the AI will *never* touch your safe ₹80,000 — it only trades with your risk pool, and if that pool drops too low, trading stops automatically. Every single decision the AI makes is explained in plain English — not charts and jargon, but things like "HDFC Bank has positive news and the banking sector is strong, so AI expects a 2.3% rise this week." Users can also set automatic stop-losses and take-profits so they never miss an exit again, run crash simulations to see how their portfolio would survive a 2008-style crash, and get AI-recommended investment plans split across ETFs, mutual funds, gold, and FDs based on their risk tolerance. In short, FinVoice gives every everyday investor the same AI tools that hedge funds use without needing any financial knowledge.
+
+**Challenges we ran into**
+
+The main challenge while building this project was bridging the python ml backend with next.js frontend.
+We tackled it in three parts. First, we built a centralized fetch wrapper on the frontend that automatically attaches auth tokens and handles errors cleanly — so no endpoint ever fails silently. Second, we locked down every backend endpoint with explicit response schemas, ensuring data is always clean and predictable before it even leaves the server. Third, we added a smart fallback: if a new user lands on the dashboard without a portfolio, the app quietly generates a demo one for them in the background - the UI never crashes, it just works.
+The trickiest part was the AI Trading Agent dashboard. It was originally a standalone HTML page with raw DOM manipulation, which worked fine in isolation - but porting it into React was a full rewrite. The challenge was preserving the real-time, "alive" feel of streaming agent thoughts and live trade cards while switching to React's declarative model. That meant carefully restructuring all the stateful logic into proper hooks without losing the snappy, streaming experience users expected.
+
+**FinTech**
+
+FinVoice fits the FinTech track because it directly tackles a core financial problem , 90% of India's 140M+ retail investors lose money due to emotional trading, no exit strategies, and information overload; and solves it with a full-stack AI-powered platform that combines a 6-model ML ensemble (LSTM, XGBoost, AutoGluon, FinBERT, HMM, Meta-Learner) for return prediction, 5 automated trading algorithms with a voting orchestrator, a novel Capital Protection Engine ("invest ₹1L, risk only ₹20K — your safe money is never touched"), 4 types of stop-loss/take-profit orders, Explainable AI that justifies every trade decision in plain English with SHAP factor attribution, and a voice-first interface via Vapi.ai : all secured by JWT authentication, role-based access control (free/paid tiers), 8 HTTP security headers, rate limiting, 6 real-time trading risk controls, and a master kill switch, with portfolio import via manual JSON, CSV upload, or direct Angel One broker sync, making it the only platform in India that combines automated trading, capital protection, and explainable AI for retail investors in a single zero-code product.
+
+Team **HACKuna Matata** -- [Himani Bhammar](https://github.com/himanibhammar), [Heramb Acharya](https://github.com/Heramb-Acharya), [Anushka Agarwal](https://github.com/Anushka-ag16), [Raghav Agarwal](https://github.com/Phoenix-tear)
+
+`2026-03-29`
+
+---
+
+### NetSure
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/netsure-a4d5) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/darthved4/NetSure) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://join.slidea.com/g5g3hvOt) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/fIFU75tWIcE) [![Built at](https://img.shields.io/badge/Built%20at-HackNova%203.0-0052CC?style=flat-square)](https://hacknova-3.devfolio.co)
+
+> Even when network fails, payments don't.
+
+![ML Kit](https://img.shields.io/badge/ML%20Kit-333333?style=flat-square) ![Android](https://img.shields.io/badge/Android-333333?style=flat-square) ![Android Studio](https://img.shields.io/badge/Android%20Studio-333333?style=flat-square) ![Kotlin](https://img.shields.io/badge/Kotlin-333333?style=flat-square) ![USSD](https://img.shields.io/badge/USSD-333333?style=flat-square) ![jetpack compose](https://img.shields.io/badge/jetpack%20compose-333333?style=flat-square)
+
+**The problem it solves**
+
+The core problem NetSure addresses is the unreliability of digital payments in low or unstable network conditions, despite widespread UPI adoption. Many users face transaction failures due to latency, congestion, or complete network loss, making current systems highly internet-dependent. NetSure solves this by introducing an adaptive payment architecture that dynamically switches between online UPI APIs and a USSD-based fallback (*99#), using a real-time network intelligence engine. It integrates QR scanning via CameraX and ML Kit, then routes transactions through the most reliable channel. This significantly reduces payment friction, especially in rural or high-traffic areas, while maintaining security through system-level authentication. Ultimately, it makes digital payments more resilient, accessible, and trustworthy across varying connectivity environments. Please refer to the Google Drive link for our presentation.
+
+**Challenges we ran into**
+
+NetSure is a low-connectivity payment system built using USSD-based UPI transactions.
+PROBLEM 1
+During development, we faced key challenges such as telecom-imposed limits of around 20 transactions per SIM per day and inconsistent behavior across network operators. To address this, we implemented a multi-SIM testing strategy, distributing transaction loads across multiple SIM cards. 
+PROBLEM 2
+Android provides no direct API for USSD interaction, preventing automation of responses. To address this, we adopted an assisted user-flow model. 
+PROBLEM 3
+For QR-based payments, we used CameraX and ML Kit to extract UPI IDs. 
+PROBLEM 4
+Since no transaction feedback API exists, we implemented a multi-layer verification system using SMS parsing, USSD response analysis, and keyword detection. 
+Overall, NetSure combines telecom protocols, computer vision, and intelligent parsing to enable reliable payments in low-network conditions.
+
+Team **Powerbank** -- [RAVICHANDRAN JAGANATHAN](https://github.com/darthved4), [Tanish Mudgal](https://github.com/tanishmudgal150807/), [Aavishkar Singh](https://github.com/Aavishkar12), [Prince Jain](https://github.com/pjkorba1256-cmd)
+
+`2026-03-17`
 
 ---
 

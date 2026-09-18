@@ -1,6 +1,6 @@
 # Climate and Sustainability
 
-![Projects](https://img.shields.io/badge/Projects-106-4B32C3?style=flat-square) [![GitHub](https://img.shields.io/badge/GitHub-tech--anupam-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/tech-anupam) [![Instagram](https://img.shields.io/badge/Instagram-tech.anupam-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/tech.anupam)
+![Projects](https://img.shields.io/badge/Projects-164-4B32C3?style=flat-square) [![GitHub](https://img.shields.io/badge/GitHub-tech--anupam-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/tech-anupam) [![Instagram](https://img.shields.io/badge/Instagram-tech.anupam-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/tech.anupam)
 
 [← Back to all themes](https://github.com/tech-anupam/hackfolio#readme)
 
@@ -251,6 +251,58 @@ Ultimately, RECONNECT makes the daunting task of starting over manageable, measu
 Team **Mavericks** -- [Akshdeep Singh](https://github.com/its-akshdeep06), [Anmol Anmol](https://github.com/Anmol2627), [Ketan Saini](https://github.com/ketansaini-io), [Arnav Sinha](https://github.com/thebatmanbeginning)
 
 `2026-09-03`
+
+---
+
+### TidyWindow
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/tidywindow-4d0a) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/balatharunr/tidy-window) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://www.canva.com/design/DAHDkdaFujQ/iZ_2ATQhXhhqdbsVGtMCRA/view?utm_content=DAHDkdaFujQ&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h2adb407483) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/nfHyNJpjpQY) [![Built at](https://img.shields.io/badge/Built%20at-HackNova%203.0-0052CC?style=flat-square)](https://hacknova-3.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-7-FF6B6B?style=flat-square)
+
+> Cleanup, diagnose, optimize and recover Windows
+
+![.NET](https://img.shields.io/badge/.NET-333333?style=flat-square) ![C#](https://img.shields.io/badge/C#-333333?style=flat-square) ![wpf](https://img.shields.io/badge/wpf-333333?style=flat-square) ![Powershell 7](https://img.shields.io/badge/Powershell%207-333333?style=flat-square)
+
+**The problem it solves**
+
+## The problem it solves  
+Windows maintenance is fragmented across command-line tools, scripts, and hidden utilities, making tasks error-prone, difficult to track, and risky due to the lack of proper safeguards, consistency, and rollback mechanisms.
+
+---
+
+## What people can use it for / How it makes tasks easier and safer  
+- Manage installations, updates, cleanup, and diagnostics from a single interface  
+- Execute system operations safely with validation, elevation checks, and restore points  
+- Automate and repeat workflows using queues and presets  
+- Monitor and audit actions through detailed logs and execution tracking  
+- Replace complex terminal commands with a structured and controlled GUI experience
+
+**Challenges we ran into**
+
+## Challenges I ran into  
+
+- **Reliable package manager detection (Winget/Chocolatey/Scoop)**  
+  Detection was inconsistent due to environment differences and missing dependencies. Solved by combining PowerShell inventory scripts with fallback checks and clear state validation.
+
+- **Handling elevation and permissions**  
+  Many operations required admin rights, causing failures when not properly handled. Fixed by implementing controlled elevation flows and preserving state across restarts.
+
+- **Sequential task execution without conflicts**  
+  Running multiple operations in parallel caused instability. Resolved by designing a single-queue, sequential execution model with proper locking.
+
+- **Ensuring safe rollback for critical actions**  
+  Risky operations like registry edits and system tweaks needed recovery mechanisms. Addressed by enforcing restore points and maintaining structured backup states.
+
+- **Parsing inconsistent script outputs (logs/JSON errors)**  
+  PowerShell outputs were not always clean or predictable. Overcame this by adding robust parsing, error handling, and fallback messaging.
+
+- **Maintaining UI responsiveness during long operations**  
+  Long-running scripts blocked the UI. Fixed using async execution with background services and real-time streaming of logs.
+
+- **Cross-feature state synchronization (logs, queue, status)**  
+  Keeping UI components consistent was challenging. Solved by centralizing state management and event-driven updates across modules.
+
+Team **Vibrant** -- [Arjjun S](https://github.com/Arjjun-S), Hariharan D, [Dhanush S](https://github.com/Cosmos-0118), [Bala Tharun](https://github.com/balatharunr)
+
+`2026-03-17`
 
 ---
 
@@ -828,6 +880,226 @@ mimetypes.add_type('text/css', '.css')
 
 ---
 
+### ResQ_link
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/resqlink-9cc1) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Prith-2005/ResQ_link) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/7AfCwi8Ap0w?si=hV4SnYpPYuHagoPT) [![Built at](https://img.shields.io/badge/Built%20at-Hacktropica%202k26-0052CC?style=flat-square)](https://hacktropica2k26.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-4-FF6B6B?style=flat-square)
+
+> Reducing response time when every second matters
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![JSON](https://img.shields.io/badge/JSON-333333?style=flat-square) ![Express.js](https://img.shields.io/badge/Express.js-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![MongoDB Atlas](https://img.shields.io/badge/MongoDB%20Atlas-333333?style=flat-square)
+
+**The problem it solves**
+
+Emergency response is often slow and uncoordinated, especially in critical situations like accidents, fires, or crimes.
+People struggle to quickly contact help or share their exact location during emergencies.
+There is no centralized platform to report incidents and track their status in real time.
+Lack of communication between users and responders leads to delays and confusion.
+Existing systems do not provide real-time updates or transparency in handling incidents.
+ Our Solution (ResQLink)
+Provides a one-click SOS system that instantly alerts a trusted contact via WhatsApp with the user’s location.
+Enables users to report incidents and disasters in real time, ensuring faster information flow.
+Uses a centralized admin panel where authorities can:
+Verify reports
+Assign responders
+Track progress (on the way, reached, resolved)
+Offers real-time status updates, improving transparency and user confidence.
+Integrates location-based reporting and GPS access, making response more accurate and faster.
+Maintains live statistics and tracking, helping monitor system performance and efficiency.
+
+**Challenges we ran into**
+
+Designing a fast reporting system
+Balancing speed and usability was difficult, as we needed a system that works in seconds without overwhelming the user with forms.
+Real-time data flow between user and admin
+Ensuring that reports instantly appear on the admin dashboard and update correctly required careful handling of APIs and backend logic.
+Database transition (Local → Cloud)
+Migrating from local MongoDB to MongoDB Atlas involved handling connection issues, authentication errors, and ensuring smooth data flow.
+Managing multiple workflows
+Handling different flows like SOS, incident reporting, and disaster reporting while keeping the system simple was challenging.
+UI/UX optimization
+Designing an interface that is both fast and intuitive under emergency conditions required multiple iterations.
+Error handling and reliability
+Ensuring the system works even when inputs are incomplete or when location access fails required robust validation and fallback logic.
+
+**Best Use of MongoDB**
+
+ResQLink heavily relies on MongoDB Atlas as its core database to manage real-time emergency data efficiently.
+We use MongoDB Atlas (cloud database) to store user information, incident reports, and disaster data, enabling scalable and remote access.
+The system handles dynamic and unstructured data such as different types of emergencies, locations, and user inputs, which fits perfectly with MongoDB’s flexible document model.
+Each report is stored as a document containing fields like type, severity, location, and status, allowing easy updates and tracking throughout the response lifecycle.
+MongoDB enables fast read/write operations, which is critical for real-time emergency reporting and admin monitoring.
+Using Atlas allows our system to be accessible across multiple devices and environments, supporting future scalability.
+We also utilize MongoDB to maintain live statistics and status updates, which are reflected instantly on the admin dashboard.
+
+Team **Bugged Brains** -- [PRATYAY CHATTERJEE](https://github.com/PRATYAYCHATTERJEE), [PRIYANSHU MUKHERJEE](https://github.com/Priyanshumkjee), [Nileswar Dawn](https://github.com/Nileswar007), [PRITHWISH CHATTERJEE](https://github.com/Prith-2005)
+
+`2026-04-05`
+
+---
+
+### EnvDiff
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/envdiff-32bd) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Abhi6537/EnvDiff) [![Built at](https://img.shields.io/badge/Built%20at-Hacktropica%202k26-0052CC?style=flat-square)](https://hacktropica2k26.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-4-FF6B6B?style=flat-square)
+
+> Fix your environment. Not your entire system.
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![FastAPI](https://img.shields.io/badge/FastAPI-333333?style=flat-square) ![Vite](https://img.shields.io/badge/Vite-333333?style=flat-square) ![GOOGLE GEMINI API](https://img.shields.io/badge/GOOGLE%20GEMINI%20API-333333?style=flat-square)
+
+**The problem it solves**
+
+Every developer has been here: you need a specific Python or Node version to run one project. You install it. Now three other projects are broken.
+
+You paste the error into Claude or ChatGPT. It gives you five things to try. 
+None of them work. Because the AI is guessing. It doesn't know what actually changed on your machine.
+
+**EnvDiff fixes this two ways:**
+
+***First,*** it tells you exactly what's wrong. It keeps a snapshot of your 
+working environment and when something breaks, it shows you which change caused it. Not five possibilities. The actual cause.
+
+***Second,*** before applying any fix, it saves your current environment as a 
+restore point. Your app runs. When you're done, one click brings everything back to exactly how it was.
+
+No Docker setup. No config files. No permanently broken system.
+
+*It's like Time Machine for your dev environment.*
+
+**Challenges we ran into**
+
+Building EnvDiff wasn't just about calling an LLM our biggest challenges revolved around safety, determinism, and cross-platform execution. If an AI is going to automatically fix a developer's environment, it absolutely cannot break their machine in the process.
+
+Here are the specific hurdles we faced and how we overcame them:
+
+**1. The "Don't Break My Machine" Hurdle:** Safe Sandboxed Execution
+The Challenge: Initial tests revealed a terrifying reality: the AI would frequently generate destructive or global-modifying scripts (e.g., curl | sudo bash, pyenv global, or writing to ~/.bashrc). We couldn’t just pipe raw LLM output into a user's terminal—that defeats the purpose of a helpful tool. The Solution: We engineered a Tangible, Project-Scoped Sandbox Environment. We built an execution interceptor in our VS Code extension that parses the AI's bash/PowerShell scripts before they run. It blocks system-modifying commands and automatically rewrites them into safe, local equivalents (e.g., forcing Python fixes into a .envdiff-sandbox/venv instead of the global interpreter). We made the sandbox visible and verifiable—creating an audit log (sandbox.log) of what was blocked vs. executed, alongside an auto-generated rollback.sh so developers can trust the tool completely.
+
+**2. The "Hallucination vs. Action" Dilemma**
+The Challenge: We found that a single LLM prompt trying to diagnose complex environment diffs (Node versions, OS differences, missing Env Vars, and package mismatches) simultaneously was prone to hallucinations. It would sometimes invent dependencies or suggest fixes that didn't align with the error stack trace. The Solution: We implemented a 3-Persona Consensus Engine. Instead of one generic prompt, the diff is analyzed by three distinct AI personas:
+
+The Node/Frontend Expert
+The Python/Backend Expert
+The DevOps/Sysadmin Expert The backend aggregates their independently generated fixes, scores them based on the actual error trace, and only returns the highest-confidence, cross-verified solution to the VS Code extension.
+
+**3. The "Observer Effect" in Version Detection**
+The Challenge: We ran into severe cross-platform edge cases while capturing the "Golden" environment. For example, on Windows, querying Python versions using the py launcher inside spawned shell processes was failing due to complex quoting/escaping bugs ("py -3.11" vs py -3.11). This caused golden snapshots to record the wrong system defaults instead of the project-specific requirements. The Solution: We refactored our CLI detectors to act as "smart observers". Instead of blindly running shell commands, the CLI now proactively scans for project markers (like .python-version or .nvmrc) and dynamically restructures how it invokes sub-processes based on the host OS (win32 vs linux). This ensured that the golden snapshot perfectly matches the developer's intended project state, eliminating false-positive diffs across operating systems.
+
+**Best Use of Gemini API**
+
+We use the **Gemini API to power a 3-expert consensus engine.** 
+Instead of asking one AI to figure everything out, we run three specialized Gemini instances in parallel, each with a different focus:
+
+- **Infrastructure Expert:** looks at OS, runtime versions, system-level changes
+- **Dependency Expert:** looks at package mismatches and version conflicts  
+- **Configuration Expert:** looks at env vars, permissions, network config
+
+All three analyze the environment diff and the error simultaneously. 
+We then cross-validate their outputs using keyword overlap. If all three agree, we show a high confidence fix. If two agree, moderate confidence. If they diverge, we show all perspectives and let the developer decide.
+
+The result is a diagnosis that is more reliable than asking a single model, because each expert is focused on exactly one layer of the environment.
+
+Team **Jugaadu** -- [Piuli Biswas](https://github.com/iampiuli), [Kripasindhu Ghosh](https://github.com/kripa521), [Abhinandan Ghosh](https://github.com/Abhi6537), [AMRIT KAR](https://github.com/Amrit7679)
+
+`2026-04-05`
+
+---
+
+### PlasticSense.ai
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/plasticsenseai-beab) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/mjdevs27/Fantastic_Four_DJS_hn4) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://drive.google.com/drive/folders/1S2G_z75vNdHM_dB4SGC6cAoHwHTlZFpY?usp=sharing) [![Built at](https://img.shields.io/badge/Built%20at-HackNiche%204.0-0052CC?style=flat-square)](https://hackniche4-0.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-4-FF6B6B?style=flat-square)
+
+> helps users dispose of waste using real-time camer
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Kotlin](https://img.shields.io/badge/Kotlin-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square)
+
+**The problem it solves**
+
+Waste sorting today is:
+
+manual → slow, inconsistent, unsafe
+error-prone → contamination reduces recyclability
+inefficient → valuable recyclable material gets lost
+
+There is no real-time intelligence layer that tells:
+
+what material is present
+how recyclable the batch is
+how confident the system is
+how much volume is being processed
+
+**Challenges we ran into**
+
+1. Dataset Imbalance (LDPE issue)
+Problem: LDPE class had very few samples
+Impact: Model biased toward majority classes, poor LDPE recall
+Solution: Class-weighted loss + oversampling + augmentation
+2. Dataset Mismatch
+Problem: Combined datasets had different label structures (organic vs plastic-specific)
+Impact: Inconsistent training signals
+Solution: Unified label mapping + cleaned overlapping/ambiguous classes
+3. Image → Video Generalization
+Problem: Model trained on static images but deployed on live video
+Impact: Performance drop due to motion blur, lighting, occlusion
+Solution: Augmentation (blur, brightness, occlusion) + frame sampling
+4. Real-Time Latency
+Problem: Running detection + classification sequentially increased latency
+Impact: FPS drop, non-smooth live feed
+Solution: Mixed precision (FP16), threshold filtering, skipping redundant frames
+5. Detection–Classification Pipeline Sync
+Problem: YOLO outputs bounding boxes while classifier expects cropped images
+Impact: Misaligned crops → wrong classification
+Solution: Proper scaling, bounding box normalization, consistent preprocessing
+6. Overlapping Objects
+Problem: Waste items overlap on conveyor
+Impact: Missed or merged detections
+Solution: Tuned detection thresholds + accepted limitation of bounding-box approach
+7. Confidence vs Accuracy Misinterpretation
+Problem: Initially tried showing “correct vs incorrect” per frame
+Impact: Conceptually wrong (no ground truth in live feed)
+Solution: Switched to confidence-based “cleared vs flagged” system
+8. Live Dashboard Design
+Problem: Static UI didn’t reflect real-time inference
+Impact: Poor interpretability
+Solution: Built live stats pipeline (objects, confidence, alerts, class breakdown)
+9. Backend–Frontend Sync
+Problem: No real-time communication of inference stats
+Impact: UI not updating with model output
+Solution: Created /live_stats endpoint + polling mechanism
+10. Model Accuracy Plateau (~70–73%)
+Problem: Performance saturated early
+Impact: Limited reliability
+Solution: Fine-tuning (ConvNeXtV2), better augmentation, calibration (temperature scaling)
+11. Low-Confidence Handling
+Problem: Model forced predictions even when uncertain
+Impact: False positives
+Solution: Confidence thresholding + “flag for review” system
+12. Multi-Object Handling
+Problem: Multiple objects per frame
+Impact: Need per-object tracking and summarization
+Solution: Per-frame aggregation (counts, class distribution)
+13. Deployment Constraints
+Problem: Need to run on edge devices with limited compute
+Impact: Model too heavy initially
+Solution: Considered quantization, lighter inference pipeline
+14. Frame Redundancy in Video
+Problem: Consecutive frames nearly identical
+Impact: Wasted compute
+Solution: Frame skipping / sampling strategy
+15. Real-World Variability
+Problem: Dataset is clean, real waste is dirty, deformed
+Impact: Generalization gap
+Solution: Aggressive augmentation + acknowledging limitation
+16. Threshold Tuning
+Problem: Low threshold → too many false detections
+Impact: noisy predictions
+Solution: Tuned confidence threshold dynamically
+17. Integration Complexity
+Problem: Combining IP camera + backend inference + frontend display
+Impact: Synchronization issues
+Solution: Continuous streaming + polling-based updates
+
+Team **Fantastic_Four_DJS** -- [Megh Dave](https://github.com/MEGH06), [Vansh Momaya](https://github.com/VanshMomaya7), [Moksh Jhaveri](https://github.com/mjdevs27), [Ketan Gaikwad](https://github.com/ketan-2905)
+
+`2026-03-26`
+
+---
+
 ### NepOrigin
 [![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/nepal-origin-0620) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/walterwhite91/nep-agentic-commerce) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://drive.google.com/file/d/1n0D0yZyp0bTs9sEb39HYwce-4QdLpzXc/view?usp=sharing) [![Built at](https://img.shields.io/badge/Built%20at-Agentic%20Commerce%20Hackathon-0052CC?style=flat-square)](https://agentic-commerce.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-3-FF6B6B?style=flat-square)
 
@@ -1011,6 +1283,206 @@ The Solution: We built strict try/except timeout wrappers around our requests. W
 Team **Goggins** -- [Arya Mishra](https://github.com/Arya-Mm), [MANSI DUBEY](github.com/manas447), [ADVAIT JHA](https://github.com/advaitjha111-spec), [Gopal Parik](https://github.com/Gokup23)
 
 `2026-06-13`
+
+---
+
+### GreenGuard AI
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/econode-d2ac) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/anushkachatterjee07-ui/Campus-Watt-Meter) [![Built at](https://img.shields.io/badge/Built%20at-FrostHacks%20S02-0052CC?style=flat-square)](https://frosthacks-s-2.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-3-FF6B6B?style=flat-square)
+
+> Turning Idle Classroom into Active Savings.
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![OpenCV](https://img.shields.io/badge/OpenCV-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![FastAPI](https://img.shields.io/badge/FastAPI-333333?style=flat-square)
+
+**The problem it solves**
+
+The Campus-Watt-Meter is an integrated IoT and AI-driven solution designed to eliminate energy passivity in educational institutions. By bridging the gap between real-time occupancy sensing and power management, the system transforms "dumb" classrooms into responsive, energy-efficient environments.
+
+**Challenges we ran into**
+
+The Green Guard AI is a smart, IoT-driven energy conservation system designed to eliminate "Ghost Consumption" in educational institutions. By integrating real-time occupancy sensing with precise power monitoring, the project transforms traditional classrooms into responsive environments that automatically mitigate energy waste.
+
+**GREEN & SUSTAINABLE EARTH**
+
+The Campus-Watt-Meter project directly supports the "Green and Sustainable Earth" movement by transforming passive institutional buildings into active participants in carbon reduction. It moves energy management from a human-dependent "reminder" system to an automated, data-driven "guaranteed" system.
+
+Team **Eco_Queens** -- [Ankita Basak](https://github.com/ankitabasak2022), [Anushka Chatterjee](https://github.com/anushkachatterjee07-ui), [Anushka Choudhury](https://github.com/anushkachoudhury866-ux)
+
+`2026-03-27`
+
+---
+
+### SpecOps
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/blueprintdev-e819) [![Built at](https://img.shields.io/badge/Built%20at-Hack--Nocturne%202.O-0052CC?style=flat-square)](https://hack-nocturne-2.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-3-FF6B6B?style=flat-square)
+
+> Architecture begins here.
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=flat-square) ![Express.js](https://img.shields.io/badge/Express.js-333333?style=flat-square) ![axios](https://img.shields.io/badge/axios-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![Supabase](https://img.shields.io/badge/Supabase-333333?style=flat-square)
+
+**The problem it solves**
+
+Modern software development begins with Product Requirement Documents (PRDs), but transforming these documents into actual technical implementation is often slow, error-prone, and poorly coordinated.
+
+Teams typically spend days or weeks manually converting PRDs into architecture designs, APIs, and development tasks. During this process:
+
+Important requirements are misinterpreted or lost
+
+Developers and product managers lack a shared understanding
+
+There is no traceability between requirements and implementation
+
+Tasks across tools like GitHub, Slack, and project management tools become disconnected
+
+SpecOps acts as an AI-powered Architecture Assistant that automatically transforms product requirements into a structured development blueprint.
+Analyzes PRDs using AI and provides PRD health score, completeness analysis, and complexity insights.
+
+Extracts features, requirements, and ambiguities from the PRD automatically.
+
+Provides a Chat & Clarify feature to resolve ambiguities, enhance missing fields, and update the PRD for better feature and task generation.
+
+Generates tasks, developer-ready user stories, and story points, and organizes them into structured development tasks.
+
+Includes a Sprint Planner to group tasks into sprints and track development progress.
+
+Generates system architecture and API specifications based on the extracted requirements.
+
+Maintains a Traceability system linking PRD lines → services → generated APIs → tasks, allowing teams to track which requirement created which component and identify impacted services or APIs when the PRD is updated.
+
+Provides a Code Generator that creates a project code scaffold which can be pushed directly to GitHub, opened in VS Code, or downloaded as a ZIP.
+
+Includes a Testing feature that generates positive, negative, and unit test cases for APIs and allows exporting a Postman collection as JSON.
+
+Offers automation and integrations with GitHub, ClickUp, and Slack, enabling automatic task updates from GitHub commits, two-way synchronization with ClickUp tasks, and real-time notifications in Slack channels.
+
+Integrates with Requestly, allowing users to download Requestly rules, import them into Requestly, and start frontend development using mocked APIs without waiting for the backend team.
+
+Ultimately reduces the gap between product planning and engineering execution by automating the journey from PRD to architecture, APIs, tasks, and development workflows.
+
+**Challenges we ran into**
+
+One of the major challenges we faced was relying on a third-party AI API (Gemini) for generating outputs. This caused slow loading times and we were also quickly exhausting the free-tier API limits.
+
+Initially, our system was making separate LLM calls for each feature (for example, 11 features resulted in 11 different API calls), which significantly increased response time and API usage.
+
+To solve this, we optimized and restructured our prompts and orchestrated the generation pipeline so that multiple features could be processed within fewer LLM calls instead of separate requests.
+
+This optimization reduced the number of API calls, prevented free-tier exhaustion, and significantly improved the overall response time and performance of the platform.
+
+**Creative Use of Requestly**
+
+PRD-Based Requestly API Client:
+
+Value: Simplifies onboarding for developers. The platform generates ready-to-use Requestly collections that allow developers to directly test APIs generated from the PRD.
+
+Implementation: These requests include embedded JavaScript test scripts that automatically validate the AI-generated responses and APIs in real time, helping developers quickly verify whether the generated outputs match the expected behavior.
+
+Automated Debugging with SessionBook:
+
+Value: Acts like a flight recorder for the AI pipeline, making debugging easier when something goes wrong.
+
+Implementation: Whenever a backend failure occurs, the system automatically triggers a Requestly SessionBook capture, which records network requests, console logs, and session activity. This allows developers to quickly analyze and debug issues in the AI pipeline.
+
+Executable Specifications with Backend Parity:
+
+Value: Ensures strong alignment between backend development and frontend implementation.
+
+Implementation: The platform exports project configurations and API specifications directly as Requestly rules, allowing the frontend team to mock and simulate backend APIs based on the PRD. This ensures the PRD remains the single source of truth and enables frontend development without waiting for backend completion.
+
+Attached a google drive link which have code snippet screenshots and demo video demonstration of Requstley implementation.
+https://drive.google.com/drive/folders/1iZJCe5yVwrE7oXDJ0SmD5tmidKy05oUj?usp=drive_link
+
+Team **ZeroPoint_O** -- [Akshat KumarModi](https://github.com/modiakshat1806), [S Dhruv](https://github.com/dhrxv30), [Rounak Mittal](https://github.com/rounak1208)
+
+`2026-03-15`
+
+---
+
+### AgriNegotiator
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/agrinegotiator-0e17) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Ritikmehta080905/FarmGenAI) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://youtu.be/9SaVg81OXxc) [![Built at](https://img.shields.io/badge/Built%20at-Bytecamp'26-0052CC?style=flat-square)](https://bytecamp-26.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-3-FF6B6B?style=flat-square)
+
+> Decentralized AI Negotiation for Agriculture
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![SQL](https://img.shields.io/badge/SQL-333333?style=flat-square) ![YAML](https://img.shields.io/badge/YAML-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square)
+
+**The problem it solves**
+
+The Problem It Solves
+
+- Agricultural markets are highly fragmented and decentralized. Farmers, buyers, warehouses, and transporters operate independently with limited coordination. This leads to several challenges:
+- Manual negotiation: Farmers must negotiate prices with buyers individually, which is slow and inefficient.
+1. Poor price discovery: Farmers often cannot identify the best buyers or market opportunities.
+2. Logistics inefficiencies: Transport and storage resources are not coordinated properly.
+3. Post-harvest losses: Produce spoils when farmers cannot find buyers in time.
+4. Distress selling: Farmers are forced to sell crops below profitable prices due to urgent financial needs.
+5. These issues reduce farmer income and create significant waste across the agricultural supply chain.
+
+How AgriNegotiator Helps
+
+- AgriNegotiator introduces a decentralized AI-powered multi-agent negotiation platform that automates coordination between agricultural stakeholders.
+- Instead of manual decision-making, autonomous AI agents represent different participants in the supply chain, including:
+1. Farmer agents
+2. Buyer agents
+3. Transport agents
+4. Warehouse agents
+5. Food processor agents
+6. Compost / waste management agents
+
+These agents negotiate prices, allocate resources, and coordinate logistics automatically, ensuring more efficient market interactions.
+
+What People Can Use It For
+
+AgriNegotiator can be used to:
+- Automatically negotiate crop prices between farmers and buyers
+- Coordinate transportation and delivery logistics
+- Find storage options when buyers are unavailable
+- Redirect unsold produce to processors or alternative markets
+- Reduce food waste by ensuring produce always has a usable pathway
+
+Impact
+
+By introducing intelligent negotiation and coordination, AgriNegotiator helps:
+
+- Improve farmer profitability through better price discovery
+- Reduce post-harvest waste
+- Optimize logistics and storage utilization
+- Enable faster and more efficient agricultural transactions
+
+Overall, the platform transforms traditional crop marketplaces into an AI-driven decentralized negotiation ecosystem.
+
+**Challenges we ran into**
+
+One of the biggest challenges while building AgriNegotiator was designing the interaction and communication between multiple autonomous agents. Since our system involves several agents — such as farmer agents, buyer agents, transporter agents, and warehouse agents — ensuring that they could communicate, exchange offers, and negotiate correctly in real time was complex.
+
+Another major hurdle was implementing a live negotiation log. We wanted users to see how agents were negotiating step-by-step (offers, counteroffers, and final agreements). Synchronizing this negotiation flow between the backend agent system and the frontend dashboard required careful API design and state management.
+
+Integrating LLM-based reasoning into the agents was also challenging. We needed the agents to not just follow fixed rules, but also analyze context and decide whether to accept, reject, or counter an offer. This required experimenting with prompt design and connecting the system with LLM APIs such as Groq / OpenRouter to generate meaningful negotiation decisions.
+
+We addressed these challenges by modularizing the agent architecture, clearly defining negotiation protocols between agents, and creating structured prompts for the LLM reasoning layer. This allowed the agents to interact more reliably and made the negotiation process more transparent and dynamic.
+
+**GenAI**
+
+AgriNegotiator leverages Generative AI to enable intelligent decision-making and negotiation between autonomous agents in a decentralized agricultural marketplace.
+
+In our system, each stakeholder in the supply chain — such as farmers, buyers, and logistics providers — is represented by an AI agent. These agents use LLM-based reasoning to analyze negotiation contexts and generate responses such as offers, counteroffers, or acceptance decisions.
+
+Instead of relying on fixed rules, the agents use Generative AI to dynamically interpret market conditions, pricing constraints, and negotiation history to determine the most suitable action.
+
+Key ways our project uses Generative AI include:
+
+AI-powered negotiation reasoning for generating offers and counteroffers
+
+Context-aware decision making based on price constraints, demand, and supply
+
+Dynamic interaction between agents through natural-language reasoning
+
+Adaptive negotiation strategies that simulate real-world market behavior
+
+By embedding Generative AI into a multi-agent negotiation system, AgriNegotiator demonstrates how Gen AI can power autonomous coordination and decision-making in complex decentralized environments.
+
+This aligns strongly with the Gen AI track by showcasing how LLMs can move beyond text generation and enable intelligent autonomous systems that solve real-world coordination problems.
+
+Team **BUG HUNTERS** -- [Rashmi Andhale](https://github.com/rashmi2307), [Tanishka Bhoir](https://github.com/tanishka), [Gayatri Mahajan](https://github.com/Gayatrii0911), [Ritik Mehta](https://github.com/Ritikmehta080905)
+
+`2026-03-15`
 
 ---
 
@@ -1883,6 +2355,975 @@ The fix: Locked all tokens into CSS variables early (--teal, --fd for display fo
 Team **404 Duo Not Found** -- Shubham Mukhopadhyay, [Tamojit Mandal](https://github.com/TamojitMandal)
 
 `2026-05-15`
+
+---
+
+### LCusAgent
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/lcusagent-042e) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/maulana-tech/locus-paygents) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://paygents.vercel.app) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/PSnHvESxoAQ) [![Built at](https://img.shields.io/badge/Built%20at-Locus'%20Paygentic%20Hackathon%20--%20#1-0052CC?style=flat-square)](https://paygentic-week1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> Autonomous AI agent economy simulation
+
+![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![Vercel](https://img.shields.io/badge/Vercel-333333?style=flat-square) ![BASE](https://img.shields.io/badge/BASE-333333?style=flat-square)
+
+**The problem it solves**
+
+AI agents are spending money invisibly. When an autonomous agent calls an API, pays for a service, or transfers funds, there's zero visibility into what happened, why, and whether it was legitimate. Developers building agent-based products have no way to:
+- See what their agents are doing financially in real-time
+- Debug failed transactions or unexpected spending
+- Demonstrate agent economy flows to stakeholders or investors
+- Test payment scenarios before going to production
+PayGentic solves this by making agent transactions visible. It's a real-time 3D simulation that connects to the Locus Payment Infrastructure and visualizes every USDC transaction as it happens — agents physically walk to service booths, energy beams fire between buyer and seller, USDC coins float up with the exact amount, and success toasts confirm the transaction.
+What people can use it for:
+- Developers building with Locus — a live dashboard to watch their agents transact in real-time instead of digging through API logs
+- Product demos & investor pitches — show, don't tell, how autonomous AI commerce works. The 3D visualization makes abstract crypto payments tangible
+- Testing & debugging agent workflows — trigger skills via OpenClaw and instantly see if the transaction flows correctly through the Locus pipeline
+- Education — teach people how AI agent economies work through an interactive, visual simulation rather than reading documentation
+How it makes things safer:
+- Real-time transaction monitoring catches unexpected spending immediately
+- Wallet balance is always visible — no hidden drains
+- Every transaction is logged in a Live Ledger with full details (agent, skill, amount, timestamp)
+
+**Challenges we ran into**
+
+1. Locus API CORS Restriction
+Problem: The Locus API (beta-api.paywithlocus.com) does not send Access-Control-Allow-Origin headers. When deployed on Vercel, every fetch() call from the browser was blocked by CORS policy.
+Solution: Built a Vercel serverless function (api/locus/index.js) that acts as a proxy — the browser calls our own /api/locus endpoint, and the serverless function forwards requests to Locus with the API key injected server-side. In local development, calls go directly to Locus (no CORS on localhost). The config auto-detects the environment and switches between proxy and direct mode.
+2. OpenClaw GitHub App Installation Blocked
+Problem: The build-with-locus-beta GitHub App is set as "Private" — external users cannot install it on their repos, blocking the from-repo deployment flow on Locus PaaS.
+Solution: Pivoted to Vercel deployment with manual API proxy. Auth token exchange was also different from the docs — the actual endpoint was /v1/auth/exchange, not /v1/auth/token as documented in OPENCLAW_SETUP.md.
+3. Transaction-to-Animation Mapping
+Problem: Real Locus transactions use wallet addresses (e.g. 0x6299...), but the simulation uses agent IDs (e.g. c1, i3). There's no direct mapping between the two.
+Solution: Created a resolution system where real transactions (buyerId: 'locus-wallet') automatically get assigned to an eligible idle agent (PROCUREMENT or CONSUMER) on the current floor. The skill endpoint is mapped to a booth position (e.g. agentmail-create-inbox → Booth A1, laso-get-card → Booth B1) using a mapping function.
+4. Event Queue Race Condition
+Problem: Multiple transactions arriving simultaneously could trigger overlapping animations — two agents trying to walk to the same booth, or beam animations colliding.
+Solution: Implemented a sequential event queue processor with isProcessingRef guard. Only one transaction animates at a time. New events queue up and process one-by-one after each animation completes.
+
+**Using PayWithLocus.com to leverage our suite.**
+
+Track: Pay with Locus — PayGentic is built entirely on the Locus Payment Infrastructure. Every transaction in the simulation goes through real Locus APIs:
+- x402 Pay-per-Use Endpoints — AgentMail (create inbox, send email, list messages) and Laso Finance (auth, virtual card) are called directly, with USDC deducted from the Locus wallet
+- Transaction Polling — GET /api/x402/transactions and GET /api/pay/transactions are polled every 5 seconds to detect new on-chain activity
+- Wallet Balance — GET /api/pay/balance syncs the real USDC balance from Base chain
+- Locus API Client — Custom locusRequest<T>() helper with Bearer token auth, used across the entire app
+The project demonstrates how to leverage the full Locus suite: not just payments, but the entire x402 skill catalog, transaction history, wallet management, and real-time monitoring — all visualized in an interactive 3D simulation.
+
+Team **Fivee-LCus** -- [Muhammad Firdaussyah](https://github.com/maulana-tech), [Catur Setyono](https://github.com/catursetyono)
+
+`2026-04-16`
+
+---
+
+### Lumen
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/lumen-a129) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/sayak-code/Lumen) [![Built at](https://img.shields.io/badge/Built%20at-Code%20for%20Change%202.0-0052CC?style=flat-square)](https://code-for-change-2026.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> Smart.Private.Green.
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+🔆 Lumen — The Problem It Solves
+
+Campus buildings and institutional spaces hemorrhage energy every day - lights blazing in empty lecture halls, ACs running in vacant labs, fans humming in deserted corridors - simply because there's no intelligent system watching. Lumen solves this by repurposing the CCTV cameras already installed in these spaces, transforming them into a real-time occupancy intelligence layer using YOLOv11 AI person detection. Rather than requiring expensive smart-sensor retrofits or manual intervention from facility managers, Lumen continuously scans each room, detects whether people are actually present, and automatically triggers appliance ON/OFF commands (lights, fans, AC) through smart relays - all without storing or transmitting any identifiable footage, thanks to its privacy-first "Ghost Mode" that renders only skeletal stick-figure outlines. Facility admins get a live dashboard showing occupancy counts, appliance states, and a historical Waste Event Log that tracks every time energy was saved - turning invisible waste into measurable, actionable data. Whether it's a university trying to cut its electricity bill, a school aiming to reduce its carbon footprint, or a corporate campus optimizing after-hours energy use, Lumen makes energy efficiency automatic, auditable, and camera-agnostic - working with built-in webcams, USB cameras, or IP/RTSP streams right out of the box, with zero dependency on cloud services or external infrastructure.
+
+**Challenges we ran into**
+
+🧱 Challenges I Ran Into
+
+One of the trickiest hurdles we hit early on was getting the CV microservice to reliably open camera sources across different hardware setups. OpenCV's VideoCapture behaves inconsistently depending on the backend (DSHOW vs FFMPEG vs ANY), and on some machines the webcam would silently fail to open — returning no error, just an empty frame — causing the entire audit cycle to crash silently. We solved this by implementing a backend waterfall strategy: the detector now tries CAP_FFMPEG, then CAP_DSHOW, then CAP_ANY in sequence, and if all fail, the backend gracefully falls back to mock occupancy data so the UI never breaks. Another significant challenge was decoupling the system from hard infrastructure dependencies — the original design required MongoDB and an MQTT broker, which made local demos nearly impossible without a full DevOps setup. We refactored the backend to auto-detect missing services at startup and switch to an in-memory mock mode, keeping every feature functional for demos while printing clear diagnostic logs. On the frontend, achieving a consistent glassmorphism dark-mode aesthetic across all pages (Live Auditor, Room Management, Analytics, Settings) without Tailwind utility conflicts required carefully authoring a custom CSS design system with CSS variables and backdrop-filter layers, since many Tailwind utilities don't compose cleanly with glassmorphic backgrounds. Finally, managing the "ghost feed" privacy pipeline — rendering MediaPipe skeletal overlays onto a canvas without leak
+
+Team **Mango Byte** -- [Urjita Paul](https://github.com/urjitapaul06), [Sayak Adak](https://github.com/sayak-code), [Souptik Pal](https://github.com/palriju11234-del)
+
+`2026-04-11`
+
+---
+
+### codebaseGPT
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/codebasegpt-9749) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/SUBHAZIT/CODEBASE-GPT) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://codebasegpt-0.pages.dev/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/FfE8VMOqDN8) [![Built at](https://img.shields.io/badge/Built%20at-Code%20for%20Change%202.0-0052CC?style=flat-square)](https://code-for-change-2026.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> The most complex codebases decoded in seconds.
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Embeddings](https://img.shields.io/badge/Embeddings-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+**CodebaseGPT** is built to bridge the gap between complex source code and developer understanding. Whether you're a new engineer onboarding to a massive repository or a senior architect maintaining multiple systems, it provides the AI-powered "eyes" and "brain" you need to navigate efficiently.
+
+### The Problems It Solves
+
+*   **Cognitive Overload in Massive Repositories:** Large codebases (1,000+ files) are notoriously difficult to "grok." Developers spend hours manually tracing function calls and mapping dependency chains just to make a small change.
+*   **The "Onboarding Tax":** New team members often take weeks to become fully productive as they wait for senior developers to guide them through the project's architecture and conventions.
+*   **Security Gaps in Development:** Security is often treated as an afterthought or a "CI stage" issue. Manual reviews are slow, and vulnerabilities are frequently missed until they reach production.
+*   **PR Review Fatigue:** Human reviewers are inconsistent. They get tired, miss subtle logic flaws, or overlook deviations from established architectural patterns in large Pull Requests.
+*   **AI Context Limitations:** Standard AI assistants often fail with large repositories because they hit "token limits" or lose track of the broader project context.
+
+---
+
+###  What People Use It For
+
+*   **Instant Technical Onboarding:** Use the **Architecture Narrative** to get a high-level overview of any repo instantly. Ask questions like: *"How does the auth flow work here?"* or *"Where is the data validation logic located?"*
+*   **AI-Powered Code Reviews (PRGPT):** Integrate directly into GitHub workflows. **PRGPT** automatically reviews every commit, catching logic errors, suggesting improvements, and summarizing changes before a human even opens the PR.
+*   **Automated Security Audits:** Run deep scans across the entire codebase to detect vulnerabilities, hardcoded secrets, and security anti-patterns tailored to your specific stack.
+*   **Safe Repository Exploration:** Use the **Developer CLI** or **Dashboard** to index public and private repositories safely. The "skeleton-first" indexing engine handles huge repos without hitting AI context limits.
+*   **Issue Resolution:** Fetch GitHub issues directly into the dashboard and let the AI propose solutions, complete with exact code changes and root cause analysis.
+
+---
+
+### How It Makes Development Easier & Safer
+
+*   **Faster Velocity (Easier):** You no longer need to read every file to understand a system. The AI provides a searchable, interactive map that acts as a 24/7 Technical Lead.
+*   **Proactive Security (Safer):** Integrated scanning shifts security "left" in the development lifecycle, identifying risks the moment they are introduced into the codebase.
+*   **Consistent Quality (Safer):** PRGPT never misses a line of code. It acts as a tireless first-pass reviewer, ensuring that every merge meets a high baseline of quality and consistency.
+*   **Scalable Intelligence (Easier):** The on-demand indexing engine allows you to work with 50,000+ file repositories just as easily as a 50-file script, fetching only what the AI needs to answer your question.
+
+**Challenges we ran into**
+
+Building **CodebaseGPT** was a journey of constantly fighting "scale." When you're feeding entire repositories to AI models, you hit limits immediately token limits, API limits, and even browser memory limits. 
+
+Here are the three biggest hurdles we faced and how we engineered our way around them:
+
+### 1. The "Big Repo" Context Overflow 
+**The Challenge:** AI models like GPT-4 and Gemini have fixed context windows (e.g., 128k tokens). A repository like `facebook/react` or `grafana/grafana` can easily contain millions of tokens. Initially, our indexer would just crash or the AI would return a `400: Context too large` error.
+
+**The Solution: Skeleton-First Indexing**
+We moved away from "index everything" to a **Two-Tier Strategy**:
+*   For small repos, we fetch everything.
+*   For large repos (>300 files), we index only a **"Skeleton"** initially: directory structure, [README.md](cci:7://file:///Users/apple/Desktop/FULLSTACK%20GIT%20DEV%20TOOLS%20PLATFORM/README.md:0:0-0:0), [package.json](cci:7://file:///Users/apple/Desktop/FULLSTACK%20GIT%20DEV%20TOOLS%20PLATFORM/package.json:0:0-0:0), and root-level config files. 
+*   We then implemented **On-Demand Loading**, where the system lazy-loads file contents only when specific questions are asked or when a user clicks a file. This kept our "structural map" intact while staying well within token limits.
+
+### 2. The 60FPS Visualization Bottleneck 
+**The Challenge:** We wanted an interactive dependency graph. Our first version used **D3.js with SVG**. It looked great for 50 files, but at 1,000 files, the browser DOM couldn't keep up. Dragging a node caused the entire UI to lag (dropping to 5-10 FPS) because hundreds of SVG elements had to be recalculated.
+
+**The Solution: Canvas-Based Rendering**
+We refactored the entire visualization engine to use **Canvas rendering** via `react-force-graph-2d`. By shifting the drawing logic from the DOM to the GPU-accelerated Canvas API, we achieved smooth 60FPS performance even for massive monorepos. We also added a **warmup period** (50 simulation ticks) before rendering to prevent nodes from "exploding" across the screen when first loaded.
+
+### 3. GitHub API Rate Limits & "Throttling" 
+**The Challenge:** Fetching thousands of files requires individual API calls. Even with high-limit Personal Access Tokens (PATs), we would frequently hit GitHub's secondary rate limits when indexing deeply nested repositories, leading to failed index jobs and "hanging" progress bars.
+
+**The Solution: Smart Batching & Concurrency Control**
+We built a specialized **Supabase Edge Function** (`repo-fetch-batch`) that acted as an intelligent proxy.
+*   **Batching:** It pulls up to 10 files in a single request.
+*   **Concurrency:** It limits internal fetch workers to a maximum of 3 concurrent requests to stay under GitHub's "abuse" triggers.
+*   **Retries:** We implemented exponential backoff (starting at 1s) that automatically kicks in the moment we detect a `403` or `429` status code, ensuring index jobs always finish, even if they have to slow down.
+
+### 4. Browser Quota limits (`localStorage`) 
+**The Challenge:** We wanted the app to feel "instant" by caching repo data locally. However, caching the full file tree of large projects triggered the browser's `QuotaExceededError` in `localStorage` (which is often limited to ~5MB).
+
+**The Solution: IndexedDB + Compressed Metadata**
+We moved the heavy repository cache from `localStorage` into **IndexedDB** using a lightweight wrapper. We also started compressing our "Architecture Narratives" and metadata strings before storage, allowing us to store dozens of project indices on a single device without ever hitting a storage cap.
+
+Team **0101 CREW** -- [SUBHAJIT PATHAK](https://github.com/SUBHAZIT), [Debasis Khamari](https://github.com/dev-debasis), [Neel Das](https://github.com/neeldas0032), [Souvik Kundu](https://github.com/Souvik-kundu-off)
+
+`2026-04-11`
+
+---
+
+### GreenPlate
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/greenplate-8197) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/AkibDa/GreenPlate) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/oDBQInX6bGE?si=8dkYbubuEOrZzAHA) [![Built at](https://img.shields.io/badge/Built%20at-Hacktropica%202k26-0052CC?style=flat-square)](https://hacktropica2k26.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> The timesaver that you need !
+
+![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Java](https://img.shields.io/badge/Java-333333?style=flat-square) ![Android Studio](https://img.shields.io/badge/Android%20Studio-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![React Native](https://img.shields.io/badge/React%20Native-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![Firestore](https://img.shields.io/badge/Firestore-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+# The problem it solves
+
+GreenPlate solves one of the most common yet overlooked problems in colleges and campuses: **food waste and inefficient canteen ordering systems**.
+
+Every day, campus food stalls face issues like:
+
+* students waiting in long queues during rush hours
+* cancelled orders leading to prepared food being wasted
+* unsold meals at the end of serving hours
+* no easy way to reuse safe leftover food
+* lack of incentives for students to make sustainable food choices
+* staff having no data on waste, performance, or demand trends
+
+Traditional canteen systems only focus on ordering food, but they do not solve what happens **after cancellations**, **unsold inventory**, or **food surplus**.
+
+GreenPlate transforms this process into a **closed-loop sustainable food ecosystem**.
+
+## What people can use it for
+
+Students can use GreenPlate to:
+
+* browse live menus from verified campus stalls
+* prepay and skip queues with secure pickup codes
+* buy discounted surplus meals from the resale marketplace
+* earn Eco Points for sustainable purchases
+* redeem points for discounts on future meals
+* avoid unnecessary cancellations through reward-based accountability
+
+Staff and managers can use it to:
+
+* manage menus quickly using AI-powered menu scanning
+* handle pickup verification securely
+* monitor stall and staff performance
+* convert cancelled READY orders into discounted resale items
+* donate unsold safe food to nearby shelters
+* track waste reduction and sustainability impact
+
+## How it makes existing tasks easier
+
+GreenPlate makes campus food ordering faster, smarter, and more sustainable by:
+
+* reducing queue time with digital ordering
+* preventing edible food from being wasted
+* automatically converting cancellations into resale opportunities
+* creating a donation workflow for shelters
+* rewarding responsible student behavior with Eco Points
+* helping stalls recover revenue from cancelled orders
+* giving managers better operational visibility
+
+Instead of food being thrown away, it gets:
+```bash
+resold, rewarded, or rescued
+```
+This makes GreenPlate not just a food ordering app, but a **campus sustainability platform that reduces waste while improving convenience and affordability**.
+
+**Challenges we ran into**
+
+# Challenges I ran into
+
+Building GreenPlate was exciting because the biggest challenge was not just creating a food ordering system, but making sure the **sustainability workflows remained reliable, fair, and abuse-proof**.
+
+One of the toughest hurdles was designing the **order lifecycle architecture**.
+
+A normal food app only needs:
+```bash
+order → payment → pickup
+```
+But GreenPlate had to support a much more complex real-world flow:
+```bash
+order → payment → cancellation → refund → resale → donation → eco rewards
+```
+Making all these states work together without breaking the user experience was one of the hardest engineering problems in the project.
+
+## 1) Preventing race conditions in resale purchases
+
+A major issue appeared in the **discounted resale marketplace**.
+
+Multiple students could try to buy the same surplus meal at the same time, which created a risk of **double booking the same food item**.
+
+To solve this, I implemented **Firestore transactional reservations with a timed lock window**, where an item becomes temporarily reserved for 5 minutes during payment.
+This ensured only one student could complete checkout while keeping the system fair and scalable.
+
+## 2) Keeping payments, refunds, and cancellations consistent
+
+Another big challenge was integrating **Razorpay payments with Firestore order states**.
+
+The difficult part was ensuring:
+
+* payment success updates the correct order
+* cancelled paid orders trigger refunds safely
+* READY orders convert into resale items
+* duplicate webhook/payment verification does not break the order state
+
+I solved this by introducing:
+
+* internal order IDs
+* idempotent payment verification
+* batch Firestore writes
+* strict order status validation before every transition
+
+This made the payment flow much safer and production-ready.
+
+## 3) Designing Eco Points without loopholes
+
+The **Eco Points reward economy** introduced a new challenge:
+how to reward sustainable behavior **without letting users exploit the system**.
+
+For example, users could repeatedly:
+```bash
+order → earn points → cancel → refund → repeat
+```
+To prevent this abuse, I added:
+
+* eco point penalties on cancellation
+* no negative point balances
+* tier recalculation after penalties
+* weekly cancellation limits
+* discount caps during redemption
+
+This turned gamification into a **fair sustainability incentive system instead of a loophole-prone rewards feature**.
+
+## 4) Balancing features without making the app feel overloaded
+
+Since GreenPlate includes:
+
+* food ordering
+* AI menu scanning
+* resale marketplace
+* donation rescue
+* eco rewards
+* analytics
+
+…the hardest product challenge was ensuring the app still felt **simple and intuitive**.
+
+I solved this by keeping the **core student flow minimal**:
+```bash
+menu → order → pickup
+```
+while advanced sustainability workflows only activate when needed in the backend.
+
+This kept the user experience clean while still making the platform powerful.
+
+## What I learned
+
+This project taught me how to design **real-world backend systems where business logic, payments, sustainability, and gamification all interact safely**.
+
+The biggest takeaway was learning how to think beyond CRUD APIs and build **state-driven systems that solve real operational problems at scale**.
+
+**Best Use of Gemini API**
+
+GreenPlate fits the **Best Use of Gemini API track** by using Gemini as a **real-world intelligence layer for campus food operations and waste reduction**.
+
+One of the biggest operational problems in college stalls is that menu updates are usually manual, slow, and error-prone. To solve this, we integrated **Gemini API for AI-powered menu extraction from images**.
+
+Staff can simply upload a photo of a handwritten or printed menu, and Gemini automatically extracts:
+
+* food item names
+* prices
+* short descriptions
+* structured JSON output ready for verification
+
+This removes the need for staff to manually enter every menu item, making menu onboarding significantly faster and reducing human errors.
+
+What makes our Gemini integration especially impactful is that it is **not just a demo feature**, but directly improves a real operational workflow used by stall staff every day.
+
+We use Gemini to:
+
+* process menu images in multiple formats
+* normalize noisy price patterns like ```25/-```
+* generate concise food descriptions
+* return clean JSON for direct backend integration
+* help non-technical staff digitize menus instantly
+
+This AI-powered workflow makes GreenPlate highly scalable across multiple college stalls where menus frequently change.
+
+By combining Gemini with our **FastAPI + Firestore backend**, we turned an otherwise repetitive manual task into an **intelligent one-click digitization workflow**, helping staff save time while improving menu accuracy.
+
+This directly supports GreenPlate’s broader mission of making campus food systems **faster, smarter, and more sustainable**.
+
+Team **Code Newbies** -- [Kushal Golder](https://github.com/KushDa), [Sk Akib Ahammed](https://github.com/AkibDa), [Susovan Chatterjee](https://github.com/suso-van), [Jeet Sarkar](github.com/StackUnderflow10)
+
+`2026-04-05`
+
+---
+
+### Classpilot
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/classpilot-46a7) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/rocker1166/frosthacks_localhost) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://frosthacks-localhost.vercel.app/) [![Built at](https://img.shields.io/badge/Built%20at-FrostHacks%20S02-0052CC?style=flat-square)](https://frosthacks-s-2.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> Ai powered next gen classroom ecosystem.
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![AI/ML](https://img.shields.io/badge/AI/ML-333333?style=flat-square) ![langchain](https://img.shields.io/badge/langchain-333333?style=flat-square) ![Convex](https://img.shields.io/badge/Convex-333333?style=flat-square)
+
+**The problem it solves**
+
+## Project Summary: ClassPilot  
+ClassPilot is an AI-powered, next-generation classroom platform that reimagines Google Classroom with an intelligent tutor layer. Instead of focusing on narrow text-only retrieval, we use a multimodal RAG approach that understands and reasons across class notes, PDFs, images, diagrams, code, quizzes, and voice interactions to deliver personalized, context-grounded learning for students and actionable insights for educators.
+
+---
+
+## The Problem It Solves
+
+Most classroom platforms are strong at content storage but weak at day-to-day learning support and teaching intelligence.
+
+- Students get stuck outside class and wait too long for help.
+- Teachers repeatedly answer the same doubts with limited automation.
+- Course materials exist, but finding the exact relevant page is hard.
+- Generic AI tools are often ungrounded and unsafe for academic use.
+- Faculty visibility into confusion, risk, and engagement is delayed.
+
+ClassPilot solves this by turning static class content into an always-available, context-grounded tutor and teacher assistant.
+
+---
+
+## What People Can Use It For
+
+### Students
+- Ask course-specific questions and get grounded answers with citations.
+- Learn with adjustable tutoring style, from direct explanation to Socratic guidance.
+- Personalize experience only for the students with long term memory .
+- Request quizzes, code help, diagrams, tables, and document navigation inside one chat flow.
+- Attach specific resources directly in chat for focused answers.
+- Use interactive canvas experiences for visual and active learning.
+- Continue context-aware learning with conversation memory and summarization.
+
+### Teachers
+- Upload and organize class resources, then make them instantly tutor-ready.
+- View student performance insights with risk tagging and weak-topic signals.
+- Monitor topic confusion trends, engagement, and learning behavior.
+- Manage classwork quizzes with authored question banks, publish guards, and grading paths.
+- Capability to customize student side ai tutor behavior to fine tune student experience.  
+
+### Institutions
+- Run a safer, more effective AI-supported learning layer on top of standard LMS workflows.
+- Improve response speed, personalization quality, and academic support coverage.
+- Enable scalable student help while preserving course-grounded behavior and auditability.
+
+---
+
+## Major Implemented Capabilities 
+
+- Convex-native production agent pipeline with intent routing, retrieval, generation, citation mapping, and canvas directives.
+- Personalized tutor profile prompts per user for adaptive tutoring style.
+- Interactive classwork quiz system:
+  - faculty authoring,
+  - question management and ordering,
+  - student attempts,
+  - objective grading support.
+- Resource attachment in tutor chat using mention-based selection.
+- Memory-aware tutoring with resilient long-term memory write flow and policy checks.
+- Reliable citations and page-sync behavior with improved resource ID resolution and fail-safe PDF handling.
+- Dashboard-level productivity features including notifications, calendar, and to-do aggregation.
+- Route and navigation hardening for consistency, canonical paths, and safer dynamic routing.
+- Streaming quality improvements including reasoning/answer separation and robust response handling.
+
+---
+
+## How It Makes Existing Tasks Easier and Safer
+
+- Faster doubt resolution through instant, course-aware support.
+- Higher answer trust through retrieval grounding and source citations.
+- Lower faculty repetition cost via tutoring and assistant automation.
+- Better learning outcomes through adaptive Socratic teaching modes.
+- Earlier intervention via confusion heatmaps and insight dashboards.
+- Safer operations through role-based access checks, guarded workflows, and resilient backend handling.
+
+---
+
+## Why This Approach Matters
+
+Many projects focus first on building custom RAG internals.  
+Our approach is to use Convex’s reliable retrieval primitives and direct engineering effort toward higher-impact education outcomes:
+
+- intelligent tutoring behavior,
+- personalized learning pathways,
+- teacher copilots and insights,
+- interactive learning surfaces,
+- classroom workflow integration.
+
+ClassPilot is not just a chatbot over PDFs.  
+It is an AI-powered operating layer for modern education.
+
+**Challenges we ran into**
+
+## ClassPilot — Key Technical Challenges
+
+Building ClassPilot wasn’t about generating answers.
+The core challenge was making AI **trustworthy, multimodal, and classroom-ready** under real constraints.
+
+---
+
+### 1. Reliable Multimodal RAG
+
+**Problem:** Inconsistent retrieval across PDFs, images, and mixed notes → missing context
+
+**Solution:**
+
+* Clean ingestion + optimized chunking
+* Page-aware context stitching
+* Tuned retrieval ranking
+* Standardized embeddings using *Gemini Embedding 2*
+
+**Result:** Consistent, high-quality retrieval across all content types
+
+---
+
+### 2. Hallucination Prevention
+
+**Problem:** Confident but incorrect answers beyond retrieved data
+
+**Solution:**
+
+* Strict **RAG-boundary enforcement**
+* Faithfulness checks + response gating
+* Explicit fallback when context is insufficient
+
+**Result:** Reliable, evidence-grounded responses
+
+---
+
+### 3. Clean Streaming Output
+
+**Problem:** Reasoning + final answer mixed during streaming
+
+**Solution:**
+
+* Separate reasoning and answer channels
+* Delta-safe parsing + fallback completion
+* Robust output assembly
+
+**Result:** Clear, readable responses with no duplication
+
+---
+
+### 4. Voice–Text Consistency
+
+**Problem:** Voice responses drifted from text behavior
+
+**Solution:**
+
+* Unified retrieval + tool-routing logic
+* Injected live context into voice flows
+* Session sync + refresh
+
+**Result:** Consistent, grounded voice interactions
+
+---
+
+**EDUCATION**
+
+## How Our Project Fits the Education Track
+
+Our project, **ClassPilot**, is built specifically for the exact problem in this track: students need reliable, course-specific help after hours, and faculty need scalable support for repetitive academic queries.
+
+We are not building a generic chatbot.
+We are building an AI-powered learning system that is grounded in course materials, uses Socratic tutoring behavior, cites sources, and gives faculty real-time insight into student confusion.
+
+---
+
+## Problem-Solution Alignment
+
+The track asks for a tutor that is context-restricted, pedagogically safe, and useful for both students and instructors.
+Our implementation directly matches that goal.
+
+* We provide a faculty workflow to upload and manage course resources.
+* We process those resources into a multimodal RAG pipeline with vector retrieval.
+* We use **Gemini Embedding 2** for semantic indexing quality across mixed educational content.
+* We enforce strict retrieval grounding so answers stay within course evidence.
+* We apply configurable Socratic tutoring behavior so the system guides learners instead of simply giving away solutions.
+
+---
+
+## Functional Requirement Coverage
+
+### 1. Faculty material upload
+
+We support structured resource ingestion for course content (PDF/text/image-based learning resources).
+
+### 2. Vector indexing + RAG
+
+We chunk, embed, index, and retrieve context before generation.
+RAG is part of the core architecture, not an optional add-on.
+
+### 3. Context-only answering
+
+We enforce strict RAG boundaries and faithfulness controls so responses remain course-grounded and out-of-scope handling is explicit.
+
+### 4. Student chat interface
+
+We provide a full student chat experience with streaming, contextual continuity, and interactive learning surfaces.
+
+### 5. Socratic tutor behavior
+
+We implement adjustable Socratic levels so teaching style can shift from direct explanation to guided reasoning.
+
+### 6. Source citations
+
+We return citation-linked responses with source/page traceability for transparency.
+
+### 7. Faculty dashboard insights
+
+We provide topic confusion and performance-oriented analytics, including teacher-facing AI assistance flows.
+
+---
+
+## Expected Outcomes Match
+
+Our system is designed to deliver the outcomes requested in the brief:
+
+* Automated course-specific support without requiring constant faculty intervention.
+* High context adherence through strict retrieval boundaries and grounding checks.
+* Student-wise and topic-wise insight signals in near real time.
+* Transparent assistance through citation-aware responses and evidence-linked outputs.
+
+---
+
+## Impact Fit
+
+Our project supports the intended education impact:
+
+* 24/7 personalized support for students.
+* Reduced repetitive workload for faculty and TAs.
+* Better academic integrity through guided learning behavior.
+* Better teaching decisions through confusion and engagement visibility.
+
+---
+
+## Constraint Fit
+
+We satisfy the listed constraints:
+
+* Vector retrieval and RAG are mandatory and central in our system.
+* We do not rely only on pretrained model knowledge; retrieval grounding is enforced.
+* We maintain role-aware access patterns and controlled data handling to support student privacy expectations.
+
+---
+
+## Why Our Submission Stands Out
+
+Many solutions stop at “chat with documents.”
+Our team built a broader AI classroom system that combines:
+
+* multimodal RAG,
+* Socratic pedagogy,
+* faithfulness and strict boundary controls,
+* citation transparency,
+* teacher intelligence and analytics.
+
+That is why our project fits this track strongly, both technically and educationally.
+
+Team **localhost** -- [sajal patra](https://github.com/sajalpatra), [Deep Rajak](https://github.com/DeepRajak/), [Surya Dey](https://github.com/Surya2005Dey), [Suman Jana](https://github.com/rocker1166)
+
+`2026-03-28`
+
+---
+
+### TerraForge
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/terraforge-bbd0) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/DotSlash-9-0/Hell-Boys) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://drive.google.com/drive/folders/1xp3-ZZdFuDh1A1DtoKCyf04WK9N0X9Dp?usp=sharing) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/MPwrHHJqDtY?si=AY0mU3XFNeiZjFxn) [![Built at](https://img.shields.io/badge/Built%20at-DotSlash%209.0-0052CC?style=flat-square)](https://dotslash-9.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> TerraForge powers data-driven climate action
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![scikit-learn](https://img.shields.io/badge/scikit--learn-333333?style=flat-square) ![pandas](https://img.shields.io/badge/pandas-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![jspdf](https://img.shields.io/badge/jspdf-333333?style=flat-square) ![React-leaflet](https://img.shields.io/badge/React--leaflet-333333?style=flat-square)
+
+**The problem it solves**
+
+# 🌍 TerraForge: Environmental Intelligence OS  
+**Bridging rural agricultural diagnostics with government-level climate policy using Hybrid Edge-AI**
+
+
+---
+
+## 📖 Overview
+
+TerraForge is an **AI-driven Environmental Operating System** for **real-time environmental tracking and predictive policy simulation**, enabling governments and citizens to make proactive, data-driven climate decisions.
+
+Unlike cloud-dependent AI systems (high latency, API costs, bandwidth-heavy), TerraForge uses a **Hybrid Edge-AI architecture** with **locally deployed, quantized 1.1B parameter LLMs**, ensuring:
+
+- ⚡ Zero API costs  
+- 🔒 Complete data privacy  
+- ⚙️ Low-latency performance  
+
+---
+
+## 🚀 Core AI Pipeline (Local ML)
+
+A tightly integrated pipeline of optimized models:
+
+### 🧠 TinyLlama-1.1B (Core LLM)
+
+**Dual LoRA adapters:**
+- Agricultural Diagnostic LLM → Crop/Livestock issue detection  
+- Policy Strategy LLM → 3-tier plans (Strict / Moderate / Advisory)  
+
+👉 **Key Innovation: Real-Time Prompt Injection**  
+Live API + ML outputs are injected into prompts before generation:
+- ✔ No hallucinations  
+- ✔ Context-aware outputs  
+- ✔ Scientifically grounded explanations  
+
+---
+
+### 🌐 NLLB-200 (Translation Layer)
+
+- Converts regional languages → English → back to native  
+- Enables multilingual rural accessibility  
+
+---
+
+### 🎙️ Whisper (Speech Input)
+
+- Voice-to-text for non-technical users  
+
+---
+
+### 🔊 gTTS (Speech Output)
+
+- Converts responses into audio (`.mp3`)  
+
+---
+
+### 📊 Random Forest (Prediction Engine)
+
+- Processes AQI, rainfall, feed, temperature, etc.  
+- Predicts yield changes (e.g., milk/crop output)  
+- Feeds results into LLM for explanation  
+
+---
+
+## 🖥️ Frontend Ecosystem
+
+Built with **Next.js + React + TailwindCSS + Shadcn UI**
+
+### 👨‍🌾 Farmer Dashboard
+
+- 🌦️ Live weather & AQI (*Open-Meteo API*)  
+- 📉 Yield prediction from real-time stress factors  
+- 🎤 Multilingual voice assistant (speech + audio output)  
+- 📡 Works in low/no internet environments  
+
+---
+
+### 🏛️ Government Dashboard
+
+- 🗺️ Geospatial map (*react-leaflet*)  
+- 🔥 NASA FIRMS fire hotspot overlay  
+- 🤖 AI-generated policy recommendations  
+- 🧪 “What-if” simulation sandbox  
+- 📄 Auto PDF reports (*jsPDF*)  
+
+---
+
+## 🧠 Architecture (API + AI Flow)
+
+Separated into **Training (Past)** and **Inference (Present/Future)**
+
+### 🏗️ Phase 1: Offline Training
+
+- Historical data (2021–2024)  
+- **Granger Causality (statsmodels)** → discovers environmental relationships  
+- Train **RandomForest regressors** → saved as lightweight models  
+
+---
+
+### ⚡ Phase 2: Live Inference
+
+1. Fetch live APIs (Open-Meteo, OpenAQ, NASA FIRMS)  
+2. Apply trained rules → instant predictions  
+3. Inject results into TinyLlama prompt  
+4. Generate explanation  
+5. Translate (NLLB) + Voice output (gTTS)  
+
+---
+
+## 📊 Foundational Datasets
+
+- 🔥 Fires & Emissions → NASA FIRMS, Climate TRACE  
+- 🌫️ Air & Weather → OpenAQ, IMD  
+- 💧 Water → Central Ground Water Board  
+- 🌾 Agriculture → ISRO/USGS (NDVI), Animal Husbandry (Milk Yield)  
+- 💰 Economy → Agmarknet, Census of India  
+
+---
+
+## 💻 Tech Stack & Deployment
+
+**Frontend:**  
+Next.js 14, React, TailwindCSS, Shadcn UI, React-Leaflet, jsPDF  
+
+**Backend:**  
+Python, FastAPI  
+
+**ML Stack:**  
+transformers, statsmodels, scikit-learn, pandas  
+
+**Models:**  
+TinyLlama, NLLB-200, Whisper  
+
+**Database:**  
+Supabase (PostgreSQL)  
+
+---
+
+## 🚀 Deployment Strategy
+
+- 🌐 Frontend → **Vercel (Global CDN)**  
+- 🧠 Backend → Local GPU execution  
+- 🔗 Public Access → **Ngrok / Cloudflare Tunnels**  
+
+---
+
+## 💡 Core Value
+
+- Offline-first AI  
+- Zero API dependency  
+- Real-time + predictive intelligence  
+- Multilingual + voice-enabled  
+- Scalable from farmers → government systems  
+
+---
+
+
+**Built for the future. Running locally. Healing globally. 🌱🚀**
+
+**Challenges we ran into**
+
+## ⚡ Challenges I Ran Into
+
+### 🧠 Running LLMs Locally Without Crashes
+
+One of the biggest challenges was running a **1.1B parameter LLM locally** with limited GPU/CPU resources. Initially, the model either crashed or had very slow inference times.
+
+**How I solved it:**
+- Used quantization techniques to reduce memory usage  
+- Optimized inference with CPU fallback when GPU wasn’t available  
+- Reduced token generation limits for faster responses  
+
+---
+
+### 🔄 Eliminating AI Hallucinations
+
+The LLM initially produced **generic or incorrect answers** due to lack of real-time environmental awareness.
+
+**How I solved it:**
+- Implemented **real-time prompt injection**  
+- Injected live API data + ML predictions directly into the prompt  
+- Ensured outputs were **context-aware and fact-based**, not guessed  
+
+---
+
+### 🌐 Multilingual Pipeline Integration
+
+Integrating **NLLB (translation) + TinyLlama (LLM) + Whisper (speech)** into a single pipeline caused latency and formatting issues.
+
+**Problems faced:**
+- Incorrect translations breaking prompts  
+- Delays due to multiple model calls  
+
+**Solution:**
+- Standardized all inputs into **English before LLM processing**  
+- Optimized pipeline flow:  
+  `Speech → Translation → LLM → Translation → Audio`  
+- Reduced token size to improve speed  
+
+---
+
+### 📡 Handling Real-Time APIs Reliably
+
+Live APIs (weather, AQI, NASA FIRMS) sometimes returned **inconsistent or missing data**, affecting predictions.
+
+**How I solved it:**
+- Added fallback/default values  
+- Implemented validation and error handling layers  
+- Cached recent API responses to ensure reliability  
+
+---
+
+### 🗺️ Geospatial Map Performance
+
+Rendering real-time data (fire hotspots, regions) using `react-leaflet` caused **UI lag and overlapping issues**.
+
+**Solution:**
+- Implemented marker clustering  
+- Limited real-time refresh frequency  
+- Filtered only relevant data points for rendering  
+
+---
+
+### 🔊 Voice Input/Output Sync Issues
+
+There were delays and mismatches between **speech input (Whisper)** and **audio output (gTTS)**.
+
+**Fix:**
+- Added async handling and proper sequencing  
+- Ensured text confirmation before generating audio  
+- Optimized audio generation timing  
+
+---
+
+## 💡 Key Learning
+
+> Building TerraForge showed that the hardest part of AI systems isn’t just the models—  
+> it’s **orchestrating LLMs, APIs, ML models, and UI into a reliable real-time system**.
+
+**GreenTech**
+
+**🌱 Green Tech Track Justification**
+
+TerraForge directly aligns with the Green Tech track by enabling data-driven environmental monitoring, prediction, and policy action.
+
+Our platform tackles critical climate challenges such as air pollution, agricultural stress, and environmental degradation by combining real-time data with AI-powered insights.
+
+**🌍 Environmental Monitoring:** Integrates live data from sources like weather APIs, AQI sensors, and satellite fire detection (NASA FIRMS) to track ecological conditions in real time.
+**📊 Predictive Sustainability:** Uses machine learning models to forecast impacts such as crop yield loss or livestock stress due to environmental factors.
+**🏛️ Policy Optimization:** Generates actionable government strategies (e.g., pollution control, resource allocation) through AI-based simulations and scenario testing.
+**🌾 Sustainable Agriculture:** Helps farmers make informed decisions to reduce losses, optimize resources, and adapt to climate variability.
+**🌐 Accessibility & Inclusion:** Works offline with multilingual voice support, ensuring rural communities can actively participate in sustainable practices.
+
+👉 By bridging ground-level environmental data with high-level policy decisions, TerraForge enables faster, smarter, and more sustainable climate action.
+
+Team **Hell Boys** -- [Aryan Buha](https://github.com/Aryanbuha890), [Neel Prajapati](https://github.com/Neel-2606), [Krushit Prajapati](https://github.com/krushit1307), Sumit Patel
+
+`2026-03-22`
+
+---
+
+### MedConnect
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/medconnect-b9b7) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/mridulsharma17/electrothon-8.0) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://electrothon-frontend-a28k.vercel.app/) [![Built at](https://img.shields.io/badge/Built%20at-Electrothon%208.0-0052CC?style=flat-square)](https://electrothon-8.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> Connecting Help When Every Second Matters.
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Kotlin](https://img.shields.io/badge/Kotlin-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square)
+
+**The problem it solves**
+
+MedConnect solves the critical problem of delayed assistance during emergencies.
+In many situations such as medical emergencies, accidents, or when someone suddenly collapses, immediate help is often not available nearby. People around may be willing to help, but they are usually unaware that someone nearby needs urgent assistance.
+
+Because of this delay in response, the victim may not receive timely first aid or support, which can worsen the situation and sometimes even lead to loss of life.
+
+MedConnect addresses this problem by instantly connecting people in emergencies with nearby volunteers and responders. By sharing live location, medical information, and real-time alerts, the platform helps ensure that help reaches the victim as quickly as possible when every second matters.
+
+**Challenges we ran into**
+
+While building MedConnect, one of the main challenges was implementing real-time location sharing and alerts so that nearby volunteers could receive emergency notifications instantly. Ensuring that the system could accurately detect and notify the closest volunteers required proper integration with location services and backend databases.
+
+Another challenge was designing a simple and reliable SOS interface that users can operate quickly during stressful emergency situations. We had to focus on making the UI minimal and intuitive so that users could trigger alerts with just a few actions.
+
+We also faced difficulties in managing real-time data synchronization between users and volunteers, such as updating request status and responder information. This was addressed by using Firebase services for real-time updates and authentication, which helped us build a more responsive and scalable system.
+
+**Electrothon 8.0 Winners**
+
+Our project, MedConnect, directly aligns with the goals of Electrothon 8.0 by leveraging technology to solve a critical real-world problem — reducing emergency response time and improving access to healthcare assistance.
+
+In many emergency situations, delays in communication and lack of immediate medical guidance can significantly worsen outcomes. MedConnect addresses this challenge through a platform that combines AI-powered health assistance, location-based hospital discovery, and a community-driven volunteer response network.
+
+The system works in two main parts. First, our web platform allows users to quickly find nearby hospitals using their PIN code and interact with an AI health assistant that provides structured medical guidance and recommended actions based on symptoms. This helps users make informed decisions during uncertain health situations.
+
+Second, our mobile application focuses on real-time emergency response. With a single SOS trigger, the platform notifies nearby registered volunteers who can quickly respond and assist the victim. Volunteers can accept the request and coordinate through an in-app group chat to ensure faster and more organized help until professional medical care is available.
+
+By integrating AI, real-time communication, and location intelligence, MedConnect demonstrates how modern technology can be applied to build scalable, socially impactful solutions for emergency healthcare support.
+
+Electrothon encourages innovation that addresses real societal challenges, and our project reflects that vision by focusing on practical implementation, accessibility, and community-driven emergency assistance.
+
+**Google Cloud**
+
+Our project, MedConnect, leverages the power of Google Cloud to build a scalable platform that improves emergency healthcare accessibility and response time.
+
+The system consists of a web platform and a mobile application designed to assist users during health emergencies. The web platform allows users to find nearby hospitals using their PIN code and interact with an AI-powered health assistant that analyzes symptoms and provides structured medical guidance, risk assessment, and recommended next steps.
+
+Google Cloud services play a key role in enabling this functionality. Our AI assistant is powered by models from Google Gemini, which allows us to process natural language health queries and generate helpful responses. We also use cloud-based infrastructure to ensure that the system is reliable, scalable, and capable of handling real-time requests during emergency situations.
+
+In addition to the AI assistant, our mobile application includes an SOS feature that notifies nearby registered volunteers when someone requires urgent assistance. Volunteers can accept the request and coordinate through an in-app group chat, helping reduce response time until professional medical help is available.
+
+By using Google Cloud’s AI capabilities and scalable backend infrastructure, MedConnect demonstrates how cloud technology can support intelligent healthcare assistance, real-time coordination, and location-based services to improve emergency response and accessibility to medical support.
+
+**ElevenLabs**
+
+Our project, MedConnect, is an AI-powered emergency response and healthcare assistance platform designed to help users quickly access medical guidance and connect with nearby hospitals or volunteers during emergencies.
+To improve accessibility and make the platform usable in real-world stressful situations, we integrated ElevenLabs text-to-speech technology directly into our AI health assistant. When a user asks a health-related question or receives guidance from the AI system, the response can be read aloud using natural, human-like voice synthesis. This allows users to receive information even if they cannot easily read their screen, such as during a medical emergency, while driving, or when assisting someone who is injured.
+The ElevenLabs integration plays an important role in our system for several reasons:
+Accessibility: Voice responses help visually impaired users or people in stressful situations quickly understand medical guidance.
+Emergency usability: During urgent scenarios, listening to instructions is often faster and safer than reading text.
+Human-like interaction: ElevenLabs provides realistic voice output, which makes the AI assistant feel more supportive and easier to interact with.
+In our platform workflow, when the AI health assistant generates a response, the text is sent to the ElevenLabs text-to-speech API, which returns a natural voice output that can be played directly in the application. This transforms our assistant from a simple chatbot into a voice-enabled health companion capable of guiding users during critical moments.
+By combining AI-generated medical guidance with ElevenLabs’ voice technology, MedConnect creates a more accessible, responsive, and human-centered emergency healthcare experience.
+
+**Best Use of Gemini 3 [Google Deepmind]**
+
+MedConnect leverages Gemini-powered AI to enhance emergency response and decision support.
+We implemented a Retrieval-Augmented Generation (RAG) system that allows the AI to access relevant medical guidance and emergency response information in real time. When an emergency alert is triggered, the AI can analyze the situation and provide helpful suggestions or guidance to volunteers assisting the victim.
+
+Additionally, the model is fine-tuned to understand emergency scenarios, enabling it to generate context-aware responses such as first-aid instructions, situational advice, or guidance based on available medical data.
+
+By combining Gemini’s generative capabilities with RAG-based knowledge retrieval, MedConnect ensures that volunteers and responders receive accurate, reliable, and context-aware assistance during critical situations, helping reduce response time and improve the quality of emergency support.
+
+Team **Devorbit** -- [Ayush Jha](https://github.com/itssAayush), [Shubham Singh](https://github.com/Shubham-singh112), [Ashish Gupta](https://github.com/Aashish-Op), [mridul sharma](https://github.com/mridulsharma17)
+
+`2026-03-15`
 
 ---
 
@@ -2965,6 +4406,865 @@ The result is the simplest possible CheckoutWithLocus surface for an entire new 
 ALIE JANNEH
 
 `2026-04-26`
+
+---
+
+### ZEARCH
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/zearch-d3a4) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/XZNON/ZEARCH) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://www.loom.com/share/fd5724b567dd413185b1af251f7e795f) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.loom.com/share/fd5724b567dd413185b1af251f7e795f) [![Built at](https://img.shields.io/badge/Built%20at-Locus'%20Paygentic%20Hackathon%20--%20#2-0052CC?style=flat-square)](https://paygentic-week2.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Zearch — Doubt? → Live Application in Seconds
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Express.js](https://img.shields.io/badge/Express.js-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![Charts.js](https://img.shields.io/badge/Charts.js-333333?style=flat-square)
+
+**The problem it solves**
+
+Have you ever searched online for a WHAT IF scenario but don't quite get what you asked for? Wont it be super cool if you searched for something and you could get an answer visually, be able to manipulate according to your will. 
+WHAT IF is exactly that, it takes your what if scenarios and gives you a live working dynamic website, still not quite what you wanted well no worries, you can prompt further until you're satisfied.  Its a SEARCH but better, its a ZEARCH.
+
+Every time we search for something whether it’s a financial calculation, data analysis, or a decision we get information, not tools.
+
+**You search:**
+
+“If I invest ₹10k/month for 10 years at 12% return?”
+
+And you get blog posts, static answers, or generic calculators that don’t quite fit your needs. Even AI only gives you answers in text.
+
+**We asked:**
+
+What if instead of searching for tools, you could generate them instantly?
+
+That’s where LiveAnswer came from.
+
+**What it does?** 
+
+LiveAnswer turns natural language into fully functional, live web applications.
+
+**Instead of returning text, it:**
+
+generates a complete interactive app
+deploys it instantly using Locus
+returns a live URL in seconds
+
+Every prompt becomes a working product.
+
+**Key Features**
+- Prompt → App Generation 
+- Converts user input into a React-based interactive application
+- Instant Deployment via Locus
+- Automatically provisions infrastructure (project, service, deployment)
+
+ **Modify & Redeploy**
+Users can evolve apps with follow-up prompts
+
+With the help of buildWithLocus platform and APIs, we were able to generate applications , get live and factual data, whip up a container on the spot.
+
+**BuildWIthLocus is the core of the project as this is where you live applications are created, hosted and destroyed. **
+
+***What you can do:***
+
+1) **Data **→ **Interactive Insight**
+
+(Turn raw data into a mini SaaS dashboard)
+
+2)**Simulators & Calculators**
+
+3)**Learning by Doing**
+
+“Visualize how quicksort works”
+→ animated sorting app
+“Teach me binary trees”
+→ drag & build tree
+“Projectile motion simulation”
+→ change angle, velocity
+
+4)** Dev Tools as Apps**
+
+“Create a JSON formatter + validator”
+“Regex tester with live matches”
+“SQL query playground”
+“API tester like Postman”
+
+5)**“What-if” Explorers**
+
+“What if I save 20% more every year?”
+“What if CAC increases 2x?”
+“Population growth simulation”
+“Business profit scenarios”
+
+**Challenges we ran into**
+
+**1. CDN timing issues (Recharts crash)**
+
+Generated apps relied on CDN libraries like Recharts, which don’t always load before execution.
+
+This caused runtime errors like:
+
+window.Recharts is undefined
+
+*Solution:*
+
+implemented runtime readiness checks
+delayed rendering until libraries loaded
+added fallback UI
+
+**2. Making AI-generated apps reliable**
+
+LLM outputs are not always production-safe:
+
+missing guards
+unsafe assumptions
+runtime crashes
+
+*Solution:*
+
+built a post-processing layer
+patched generated HTML before deployment
+enforced safe patterns
+
+**3. Dynamic deployment orchestration**
+
+Each request required:
+
+project creation
+service provisioning
+git push deployment
+polling status
+
+Managing this in real time with low latency was challenging.
+
+*Solution:*
+
+optimized deployment pipeline
+efficient polling
+scheduled teardown system
+
+**Track: Using BuildWithLocus to leverage our suite.**
+
+The core of the project relies on BuildWithLocus's platform and its APIs, it uses the API wrappers to generate applications on spot and uses containers created by BWL to host that appliation. With the ability also to destroy the applications built on spot or after a set time using BWL's APIs.
+
+Team **Dhurandar** -- [Shivalik Singh](https://github.com/XZNON)
+
+`2026-04-22`
+
+---
+
+### FinGuard-Nexus
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/finguardnexus-7242) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Shubhang-8/FinGuard-Nexus) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://finguard-nexus-auaxvwumaeekxkdybquvz7.streamlit.app/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/XGH2pn1TPi0) [![Built at](https://img.shields.io/badge/Built%20at-DAYZERO%202.0-0052CC?style=flat-square)](https://dayzero2o.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> 6-Hour Audits into 60-Second AI Insights
+
+![pandas](https://img.shields.io/badge/pandas-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![JSON](https://img.shields.io/badge/JSON-333333?style=flat-square) ![Streamlit](https://img.shields.io/badge/Streamlit-333333?style=flat-square) ![pathlib](https://img.shields.io/badge/pathlib-333333?style=flat-square) ![Claude 3.5 Sonnet](https://img.shields.io/badge/Claude%203.5%20Sonnet-333333?style=flat-square)
+
+**The problem it solves**
+
+FinGuard-Nexus addresses the critical "AI Trust Gap" in the financial sector. Currently, compliance teams are forced to choose between slow, manual audits—taking up to 6 hours per report—or "Black Box" AI systems that often hallucinate regulatory data, creating massive legal liabilities.
+
+FinGuard-Nexus solves this by:
+
+
+Eliminating Hallucinations: Our proprietary Hallucination Shield cross-references every AI-generated claim against raw Ledger Row IDs, ensuring 100% data grounding.
+
+
+Drastic Velocity Gains: We transform the manual 6-hour SAR generation process into a 60-second automated workflow.
+
+
+Mathematical Integrity: An autonomous Integrity Agent performs vectorized reconciliation to catch "fat-finger" errors and ledger mismatches that humans often overlook.
+
+
+Regulatory Defensibility: Every decision is backed by a timestamped Multi-Agent Decision Timeline, providing a clear audit trail for regulators and auditors.Multi-Agent Synchronization: One of the biggest hurdles was ensuring that the Forensic Agent and the Governance Agent could communicate without losing context. I solved this by implementing a centralized state management system where each agent contributes to a shared "Decision Timeline".
+
+Zero-Hallucination Enforcement: It was difficult to force the LLM to stick strictly to the ledger data. I overcame this by building the Hallucination Shield—a post-processing layer that uses Python to parse the AI's narrative and verify every name and amount against the source CSV.
+
+Environment Agnostic Pathing: I ran into issues with file pathing when moving from local development to Streamlit Cloud. I fixed this by utilizing the Pathlib library to ensure the system handles regulatory rule-sets correctly across different operating systems.
+
+**Challenges we ran into**
+
+Multi-Agent Synchronization: One of the biggest hurdles was ensuring that the Forensic Agent and the Governance Agent could communicate without losing context. I solved this by implementing a centralized state management system where each agent contributes to a shared "Decision Timeline".
+
+Zero-Hallucination Enforcement: It was difficult to force the LLM to stick strictly to the ledger data. I overcame this by building the Hallucination Shield—a post-processing layer that uses Python to parse the AI's narrative and verify every name and amount against the source CSV.
+
+Environment Agnostic Pathing: I ran into issues with file pathing when moving from local development to Streamlit Cloud. I fixed this by utilizing the Pathlib library to ensure the system handles regulatory rule-sets correctly across different operating systems.
+
+Team **Horcrux** -- [Shubhang Kedia](https://github.com/Shubhang-8), [Yash Saxena](https://github.com/yashsaxena2209), [Riya Baliyan](https://github.com/Riyab15)
+
+`2026-04-16`
+
+---
+
+### ICD Decoder
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/icd-decoder-8948) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/yuvrajai1234-work/ICD-Decoder.git) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://icd-decoder.vercel.app/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtube.com/shorts/Bl5bivcKZyQ?feature=share) [![Built at](https://img.shields.io/badge/Built%20at-DAYZERO%202.0-0052CC?style=flat-square)](https://dayzero2o.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Demystifying diagnostics
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+Manual ICD-10 Coding Burden 🏥
+
+Medical coders manually read clinical documents (discharge summaries, operation notes, triage logs) and assign ICD-10 diagnosis/procedure codes
+Time-consuming, error-prone, and expensive for healthcare organizations
+
+Insurance Claims Delays 💰
+
+Incorrect or delayed ICD-10 coding directly impacts claim processing and reimbursement
+Wrong codes = denied claims, revenue loss, or overpayments
+Current manual process creates bottlenecks in claims submission
+
+Healthcare Research Data Quality 📊
+
+Researchers need accurately coded medical data for epidemiology, quality studies, and outcome analysis
+Manual coding inconsistencies introduce errors in research datasets
+
+Real-World Value:
+For Insurance Companies: Faster claims processing, reduced denials, better fraud detection
+For Healthcare Providers: Reduced coding staff burden, faster billing cycles, improved cash flow
+For Researchers: Consistent, audit-able coded datasets for quality studies and outcome analysis
+For Compliance: Full traceability for medical coding audits and regulatory requirements
+Technical Implementation:
+Uses TF-IDF + machine learning (not just rule-based) trained on mtsamples.csv medical records
+Maps medical specialties → ICD-10 code ranges + keyword matching
+Live deployment at https://icd-decoder.vercel.app
+This is a productivity multiplier for healthcare's most tedious administrative task while maintaining human oversight for quality assurance.
+
+**Challenges we ran into**
+
+1. Multi-Service Architecture 
+Complexity
+
+Challenge: The system spans 3 layers (Next.js frontend, Node.js API, Python Flask ML service)
+
+Issue: Services must communicate reliably, especially with cold start delays on Render
+
+Evidence: Code shows 60-second timeout handling for ML API:
+TypeScript
+export const maxDuration = 60; // Allow for Render's cold start
+
+2. ML-Backend Communication & Deployment
+
+Challenge: Python Flask backend (ML service) deployed separately on Render, which has cold starts
+
+Impact:
+Predictions fail if ML service is unresponsive or starting up
+Graceful error handling needed throughout (see error responses with fallbacks)
+Environment variable ML_API_URL must be correctly configured
+
+3. Missing ICD-10 Ground Truth Data
+
+Challenge: mtsamples.csv contains clinical text but NO actual ICD-10 codes
+
+Workaround: Had to create manual specialty → ICD-10 mapping (essentially rule-based)
+
+Limitation: This reduces model accuracy vs. supervised learning with real labels
+Code note: Implementation uses TF-IDF + keyword matching as proxy for true medical coding
+
+Team **Snipe Coders** -- [Akshat Singh](https://github.com/Akshat-Singh-SRM), [LAKSH NAGORI](https://github.com/Lakshnagori1508), YuvRaj Thakur
+
+`2026-04-17`
+
+---
+
+### Revenue Recovery Engine
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/revenue-recovery-engine-be32) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/pranavghuge/AI-Revenue-Recovery-Engine.git) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://ai-revenue-recovery-engine.vercel.app/) [![Built at](https://img.shields.io/badge/Built%20at-Locus'%20Paygentic%20Hackathon%20--%20#1-0052CC?style=flat-square)](https://paygentic-week1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Turn cold leads into real commissions.
+
+![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![OpenAi](https://img.shields.io/badge/OpenAi-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![Vercel](https://img.shields.io/badge/Vercel-333333?style=flat-square)
+
+**The problem it solves**
+
+Real estate agents don’t lose deals due to lack of leads — they lose them due to poor timing and inconsistent follow-ups.
+
+High-intent buyers often go cold because agents fail to respond at the right moment or forget to follow up after key actions like site visits or price discussions. These missed interactions result in significant revenue leakage, often worth lakhs in lost commissions.
+
+Existing tools focus on lead management, not revenue recovery.
+
+This project solves that by identifying stalled conversations, quantifying the revenue at risk, and automatically re-engaging leads with context-aware AI follow-ups — ensuring that potential deals are actively recovered instead of silently lost.
+
+**Challenges we ran into**
+
+One of the main challenges was shifting the system from a traditional lead management mindset to a revenue-focused recovery engine.
+
+Instead of just tracking leads, I needed to design a system that could:
+- Identify when a conversation is “cooling off”
+- Infer buyer intent from partial chat context
+- Estimate potential deal value and prioritize accordingly
+
+Another challenge was designing a clear and intuitive user experience. The goal was to ensure that within seconds, a user (or judge) can understand where revenue is at risk and what action should be taken.
+
+Balancing AI intelligence with simplicity was also critical — making sure the system feels smart without becoming complex or overwhelming.
+
+Finally, creating a realistic demo environment (with seeded data, chat flows, and recovery moments) was essential to effectively communicate the product’s value in a short time.
+
+Pranav Ghuge
+
+`2026-04-15`
+
+---
+
+### VERDANTIX
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/verdantix-5b83) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Aayush9-spec/Verdantix) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://verdantix-ebon.vercel.app/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/tRT_y7rDMXc) [![Built at](https://img.shields.io/badge/Built%20at-Off--Grid-0052CC?style=flat-square)](https://offgrid.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> EARN FROM EVERY GREEN MOVE
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![scikit-learn](https://img.shields.io/badge/scikit--learn-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![GitHub](https://img.shields.io/badge/GitHub-333333?style=flat-square) ![Kaggle](https://img.shields.io/badge/Kaggle-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![AI/ML](https://img.shields.io/badge/AI/ML-333333?style=flat-square)
+
+**The problem it solves**
+
+Farmers lack access to simple tools to **understand their carbon impact**, as existing systems are complex and not designed for small-scale use. This is especially challenging in rural areas with poor internet connectivity.
+
+Verdantix solves this by providing AI-powered carbon score predictions, actionable recommendations, and a multilingual assistant. It also works offline, storing data locally and syncing automatically when connectivity returns.
+
+This makes sustainable farming easier, more accessible, and data-driven, helping farmers improve practices and potentially benefit from carbon credits without needing advanced technical knowledge.
+
+**Challenges we ran into**
+
+A key challenge was handling offline functionality. When users were offline, API requests failed and data was lost.
+
+I solved this by implementing a localStorage-based queue system, storing inputs locally and syncing them via a /sync API once connectivity returned.
+
+Another challenge was the lack of real carbon datasets, which I addressed by using a Kaggle dataset and engineering a realistic carbon scoring model.
+
+**Winners**
+
+Verdantix fits into AgriTech, Climate Tech, and Rural Innovation by using AI to help farmers make smarter, sustainable decisions. It works even in low-connectivity areas and translates complex carbon data into simple, actionable insights for real-world use.
+
+Team **CoderX** -- [amitesh kumar shukla](https://github.com/amiteshkrshukla), [Arpit Tiwari](https://github.com/arpitjr7-hub), [Aayush Singh](https://github.com/Aayush9-spec)
+
+`2026-04-11`
+
+---
+
+### SolarAnalysis
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/solaranalysis-41c5) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Divyapriya382006/SolarAnalysis-Devshouse.git) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/dViISvEozNE?si=ysUMESEugUD3Pb4Z) [![Built at](https://img.shields.io/badge/Built%20at-DevsHouse%20'26-0052CC?style=flat-square)](https://devshouse26.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> "Turn Your Rooftop into a Smart Energy Source”
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+Many people want to install solar panels but don’t know where to start. They struggle to understand how much energy they will generate, how much money they will save, and whether their roof is even suitable. Existing solutions are either too complex, require manual input, or don’t provide real-time, personalized insights.
+
+Our project solves this by providing a simple, interactive platform that helps users plan solar installation easily. It uses simulation and smart analysis to show energy output, cost savings, and optimal panel placement based on location and conditions.
+
+This makes solar planning:
+
+Faster –>no need for manual calculations
+Easier – >visual and user-friendly interface
+More accurate –> data-driven predictions
+More accessible –> anyone can use it without technical knowledge
+
+Ultimately, it helps users make better and more confident decisions about switching to solar energy.
+
+**Challenges we ran into**
+
+One of the main challenges we faced was integrating multiple features like maps, simulation, and real-time updates into a smooth and responsive interface. Since different components depended on each other (like location data affecting energy prediction), managing state and ensuring everything updated correctly was initially difficult.
+
+We also faced issues with development environment differences. For example, some commands and configurations behaved differently in PowerShell compared to standard terminal environments, which caused errors during setup.
+
+Another challenge was handling realistic data. Since we did not rely fully on external APIs, we had to simulate weather conditions and energy calculations in a way that still felt accurate and meaningful.
+
+To overcome these challenges:
+
+We structured the project into modular components to manage complexity
+Used TypeScript to reduce bugs and improve code reliability
+Debugged environment issues step-by-step and adapted commands accordingly
+Designed fallback logic and simulations to ensure smooth functionality even without real APIs
+
+These challenges helped us improve both the technical robustness and usability of the project.
+
+**Environmental Sustainability**
+
+Our project directly contributes to environmental sustainability by making solar energy adoption easier, more accessible, and more efficient. Many people hesitate to switch to solar due to lack of clarity around energy output, cost savings, and feasibility.
+
+By providing a platform that simulates solar energy generation, predicts efficiency based on location and conditions, and visualizes optimal panel placement, we help users make informed decisions about adopting renewable energy.
+
+This reduces dependency on non-renewable energy sources and encourages the use of clean energy. By simplifying the transition to solar power, our solution supports lower carbon emissions and promotes a more sustainable and eco-friendly future.
+
+Team **MARGHERITA** -- [Kushagra Kalra](https://github.com/kushxgr), [Giridharan RE](https://github.com/dharanre/-Blockchain-Explorer), [Aanya Malhotra](https://github.com/aanyamalhotra2024-source), [Divya Priya RK](https://github.com/divyapriya382006/)
+
+`2026-03-29`
+
+---
+
+### WasteIQ - Predictive Waste Intelligence Platform
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/wasteiq-predictive-waste-intelligence-platform-9920) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/DotSlash-9-0/Team-Vertex) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/a84IsBTLPs8) [![Built at](https://img.shields.io/badge/Built%20at-DotSlash%209.0-0052CC?style=flat-square)](https://dotslash-9.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Waste intelligence for sustainable cities
+
+![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![SQLite](https://img.shields.io/badge/SQLite-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![JWT](https://img.shields.io/badge/JWT-333333?style=flat-square) ![XGBoost](https://img.shields.io/badge/XGBoost-333333?style=flat-square) ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square)
+
+**The problem it solves**
+
+# ♻️ WasteIQ  
+**Smart Waste Intelligence & Diversion Platform**
+
+WasteIQ is a data-driven platform designed to transform how waste is predicted, collected, and utilized. It bridges critical gaps in municipal waste management by combining predictive analytics, real-time matching, and inclusive data collection.
+
+---
+
+## 🚀 Problem Statement
+
+Current waste management systems are largely **reactive**, **inefficient**, and **data-blind** in key areas:
+
+- Overflow issues are addressed only after complaints  
+- Usable waste ends up in landfills due to missed timing  
+- Informal workers contribute massively but remain invisible in data systems  
+
+---
+
+## 💡 Our Solution
+
+WasteIQ tackles these challenges through three core innovations:
+
+---
+
+### 📊 1. Collection Intelligence Engine  
+**Problem:** No system predicts waste surges in advance  
+
+**Solution:**  
+We use predictive analytics to forecast waste spikes **24–72 hours in advance** by correlating:
+
+- Festival calendars  
+- Weather forecasts  
+- Market schedules  
+- Construction permits  
+
+**Outcome:**  
+- Proactive waste collection  
+- Reduced overflow incidents  
+- Optimized resource allocation  
+
+---
+
+### 🔄 2. Surplus Diversion Matching Engine  
+**Problem:** Usable waste reaches landfills due to missed connections  
+
+**Solution:**  
+A **time-constrained matching system** connects waste generators with receivers such as:
+
+- NGOs  
+- Biogas plants  
+- Recycling units  
+- Animal farms  
+
+**Outcome:**  
+- Maximum utilization of waste  
+- Reduced landfill dependency  
+- Circular economy enablement  
+
+---
+
+### 📱 3. Informal Sector Integration  
+**Problem:** Informal waste workers generate no structured data  
+
+**Solution:**  
+We design for real-world constraints:
+
+- Offline-first mobile logging  
+- Works on low-end Android devices  
+- Opportunistic data sync  
+
+**Outcome:**  
+- Inclusion of informal sector in data ecosystem  
+- Better decision-making with real ground data  
+- Empowerment of waste workers
+
+**Challenges we ran into**
+
+## ⚠️ Challenges I Ran Into
+
+Building WasteIQ involved solving multiple real-world and technical challenges:
+
+---
+
+### 🔌 1. Handling Low Connectivity (Offline-First Design)
+
+**Challenge:**  
+Many waste workers operate in areas with poor or no internet connectivity, making real-time data syncing unreliable.
+
+**Solution:**  
+We implemented an **offline-first architecture** using IndexedDB in a PWA. Data is stored locally and synced automatically when even minimal connectivity (e.g., 2G) is available. This ensured uninterrupted data collection in all environments.
+
+---
+
+### 📊 2. Accurate Waste Prediction Without Sensors
+
+**Challenge:**  
+Most existing systems rely on IoT sensors, but our goal was a **hardware-free solution**.
+
+**Solution:**  
+We used **time-series forecasting (Prophet)** combined with **XGBoost** and external signals like weather and events. This allowed us to predict waste surges without deploying any physical infrastructure.
+
+---
+
+### 🚛 3. Dynamic Route Optimization
+
+**Challenge:**  
+Traditional waste collection uses fixed routes, but we needed dynamic routing based on predicted demand.
+
+**Solution:**  
+We implemented a **Vehicle Routing Problem (VRP)** solver using OR-Tools to optimize routes in real time, prioritizing high-waste zones and improving efficiency.
+
+---
+
+### 🔄 4. Real-Time Matching for Surplus Waste
+
+**Challenge:**  
+Surplus resources (like food) have a **very limited usability window**, making matching time-critical.
+
+**Solution:**  
+We designed a **constraint-based matching engine** that filters receivers based on type, distance, and capacity, and sends instant alerts via SMS and push notifications.
+
+---
+
+### 👥 5. Integrating the Informal Sector
+
+**Challenge:**  
+A large portion of recycling is handled by informal workers who are not part of any digital system.
+
+**Solution:**  
+We built a **simple, low-barrier interface** that works on basic smartphones, requires minimal input, and supports offline usage, ensuring inclusivity and better data coverage.
+
+---
+
+### 🚀 Conclusion
+
+These challenges pushed us to design a system that is not only technically robust but also practical, scalable, and usable in real-world conditions.
+
+**GreenTech**
+
+## 🌱 How WasteIQ Fits the GreenTech Track
+
+WasteIQ is a predictive waste intelligence platform designed to improve sustainability, optimize resource usage, and reduce environmental impact using a **software-only approach**.
+
+---
+
+### ♻️ 1. Predictive Waste Management
+
+WasteIQ uses data sources such as:
+- Weather forecasts  
+- Festival and event calendars  
+- Historical waste generation data  
+
+to **predict waste surges 24–72 hours in advance**.
+
+This enables:
+- Proactive waste collection  
+- Reduced bin overflows  
+- Optimized truck routes  
+- Lower fuel consumption and emissions  
+
+---
+
+### 🔄 2. Surplus Diversion & Circular Economy
+
+WasteIQ introduces a **real-time matching system** that connects:
+- Waste generators (restaurants, markets, factories)  
+- Waste receivers (NGOs, recyclers, biogas plants)  
+
+This ensures:
+- Food and recyclable materials are utilized before expiry  
+- Reduced landfill dependency  
+- Promotion of a circular economy  
+
+---
+
+### 📱 3. Inclusion of Informal Waste Sector
+
+The platform includes an **offline-first mobile system** for informal workers:
+- Works on low-end Android devices  
+- Stores data offline and syncs when connectivity is available  
+- Captures previously untracked recycling activity  
+
+This improves:
+- Data completeness  
+- Recycling efficiency  
+- Social and economic inclusion  
+
+---
+
+### ⚙️ 4. Software-Only, Scalable Solution
+
+WasteIQ:
+- Requires **no IoT sensors or additional hardware**  
+- Works with existing infrastructure  
+- Is scalable across cities and rural areas  
+- Functions even in low-connectivity environments  
+
+---
+
+### 🌍 5. Environmental Impact
+
+With WasteIQ:
+- Waste overflow is predicted instead of reacted to  
+- Fuel usage and emissions are reduced  
+- Recyclables and surplus materials are efficiently utilized  
+- Sustainability metrics and accountability are improved  
+
+---
+
+### 🚀 Conclusion
+
+WasteIQ transforms waste into actionable intelligence, enabling smarter decisions, reducing environmental impact, and building a more sustainable and efficient waste management ecosystem.
+
+Team **Team Vertex** -- [Kunj vaghani](https://github.com/kunjvaghani), [Vansh Patel](https://github.com/VanshPatel2010), [Mit Keraliya](https://github.com/keraliya07), [Neel Patel](https://github.com/Neel-001)
+
+`2026-03-22`
+
+---
+
+### FlyWaySafe
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/flywaysafe-5f72) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/DotSlash-9-0/Medhavi) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/uBWCBxJERNo?si=oCcUVeGQwRk2-hia) [![Built at](https://img.shields.io/badge/Built%20at-DotSlash%209.0-0052CC?style=flat-square)](https://dotslash-9.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Smart Wind Turbine for Bird Migration Safety
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+We're trying to maximise the efficiency of wind turbines along with trying to save lives of migratory birds. Both of these problem are closely linked as Wind turbine plants loose around $200-250 million in revenue due to being hauted to allow the safe movement of migratory birds. Annually 400-600k birds die because of colliding with these wind turbines. We aim to solve both these problems.
+
+**Challenges we ran into**
+
+Challenges Faced 
+Dataset Integration: Combined three datasets into a single, consistent training set.
+Class Imbalance: Handled uneven class distribution to avoid biased predictions.
+Data Engineering: Performed preprocessing and feature engineering to improve model performance.
+
+**GreenTech**
+
+There are 2 types of things which comply with the PS
+1) Energy Production increase as less time for shut down.
+2) Community is now able to use more green energy.
+
+Team **Medhavi** -- [Vatsal Bateriwala](https://github.com/Vatsal565), [Deep Das](https://github.com/THE-DEEPDAS), [Sneha kumari](https://github.com/Sneha25-bit), [Vikram Singh](https://github.com/VikramSingh138)
+
+`2026-03-22`
+
+---
+
+### EcoGo
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/ecogo-1736) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Nishanth773/EcoGo) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://nishanth773.github.io/login) [![Built at](https://img.shields.io/badge/Built%20at-Hack--Nocturne%202.O-0052CC?style=flat-square)](https://hack-nocturne-2.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Sustainability in Logistics
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+The logistics sector contributes significantly to CO₂ emissions and fuel consumption due to inefficient route planning, traffic congestion, poor road conditions, and unnecessary engine idling
+
+Existing solutions like Google Maps provide eco-routing, but they are primarily designed for individual users and do not consider logistics-specific challenges such as truck load, driver behavior, idle fuel wastage, and road conditions like potholes
+
+Our solution EcoGo, addresses these issues by providing an AI-powered eco-routing system tailored for logistics fleets. It analyzes real-time traffic, weather, road conditions, and vehicle data to recommend the most fuel-efficient routes instead of just the shortest or fastest ones
+
+Additionally, it promotes sustainable driving through driver behavior tracking, idle detection, and a gamification system that rewards eco-friendly driving, ultimately reducing fuel consumption, operational costs, and environmental impact
+
+**Challenges we ran into**
+
+One of the major challenges we faced was integrating map functionality into our application. Embedding and customizing map services for route optimization required handling APIs and ensuring proper configuration, which initially led to errors like 404 issues during deployment.
+
+Another challenge was accessing real-time data such as traffic, fuel consumption, and road conditions. Since we did not have access to real fleet data, we had to simulate data for our prototype.
+
+To overcome these challenges, we used available APIs, simplified our routing logic for the prototype, and focused on building a working model that demonstrates the concept effectively.
+
+Team **Code Crafters** -- [Nishanth P](https://github.com/Dnj), [Akshaya Saravanan](https://github.com/Akshaya-csbs), [Roshan Ganesh M](https://github.com/ROSHAN-456), [Merwin O](https://github.com/merwin27)
+
+`2026-03-17`
+
+---
+
+### NeuroRoute
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/neuroroute-da0e) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://neuroroute-03-k74k-kradftmjq-jeevitha3shetty-9221s-projects.vercel.app/) [![Built at](https://img.shields.io/badge/Built%20at-Hack--Nocturne%202.O-0052CC?style=flat-square)](https://hack-nocturne-2.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Optimize Intelligence, Minimize Waste
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square)
+
+**The problem it solves**
+
+**The Problem It Solves :**
+
+Today, most AI systems follow a “one-size-fits-all” approach — every query, whether simple or complex, is processed by large, resource-heavy models.
+
+This leads to several **critical issues:**
+
+**Unnecessary Energy Consumption**
+Simple queries like “summarize this paragraph” still trigger powerful models, wasting computational resources.
+
+**High Carbon & Water Footprint**
+Large-scale AI inference consumes significant electricity and water for cooling, contributing to environmental impact.
+
+**Increased Latency**
+Users experience slower responses because heavy models are used even when not needed.
+
+**Inefficient Resource Utilization**
+Systems fail to optimally use available CPU/GPU resources, leading to poor cost-performance balance.
+
+**Lack of Transparency**
+Users have no visibility into how much energy their queries consume or what impact they create.
+
+**No Data for Optimization**
+Current systems don’t systematically log usage patterns to improve efficiency or train better routing strategies.
+
+**What People Can Use It For?**
+
+NeuroRoute transforms how users interact with AI by making it intelligent, efficient, and sustainable.
+
+**Everyday Use Cases**
+
+**Instant Summarization**
+Quickly summarize articles, PDFs, or selected text directly from any webpage. No page switching required .
+
+**Smart Q&A and Explanations**
+Get answers or simplified explanations without overloading heavy AI models unnecessarily.
+
+**Context-Aware Research**
+Analyze selected content and generate insights tailored to the complexity of the query.
+
+**Content Simplification**
+Convert complex information into easy-to-understand language instantly.
+
+How It Makes Tasks Easier, Faster, and Safer
+
+**Dynamic Model Routing**
+Automatically selects the most efficient AI model based on query complexity (LOW → small model, HIGH → large model).
+
+**Faster Response Times**
+Lightweight queries are handled by smaller models, reducing latency significantly.
+
+**Green AI Optimization**
+Tracks and minimizes energy, carbon, and water usage, promoting sustainable AI usage.
+
+**CPU → GPU Escalation (Smart Compute Shift)**
+Only uses GPU-heavy computation when necessary, ensuring optimal hardware utilization.
+
+**Plug-and-Play Architecture**
+New models can be added easily without modifying core system logic which boosts the economy of the company.
+
+**Dataset Generation for Research**
+Logs anonymized query data, enabling future improvements in AI efficiency and routing strategies.
+
+**Privacy-Conscious Design**
+Stores only necessary metadata (not sensitive user data), ensuring safer usage.
+
+**Works Anywhere (Browser Extension)**
+Seamlessly integrates into any webpage — no need to switch apps or workflows.
+
+**Why It Matters ?**
+
+NeuroRoute shifts AI from being power-hungry and inefficient to smart, adaptive, and environmentally responsible — making advanced AI accessible while reducing its global impact.
+
+**Challenges we ran into**
+
+One of the biggest challenges we faced was ensuring reliable **real-time routing** of AI queries through our middleware layer. Initially, incoming requests were not being properly captured due to mismatches between expected and actual API request patterns. This made it difficult to verify whether the system was functioning correctly. We resolved this by **analyzing live network traffic** using browser developer tools, identifying the exact request structures, and refining our routing conditions to ensure accurate interception and forwarding.
+
+Another key challenge was establishing **stable communication between the browser extension and the middleware server**. We encountered issues related to **permissions and cross-origin restrictions**, which prevented requests from reaching the backend. This was addressed by configuring the correct access permissions and request headers, enabling seamless and secure interaction between the frontend and backend components.
+
+We also faced difficulties in debugging and validating the routing pipeline, since the system operates across multiple layers. To overcome this, we built dedicated monitoring endpoints such as /neuroroute/queries and /neuroroute/stats that log every request, including the selected model and performance metrics. This provided clear visibility into the system’s behavior and helped us ensure that routing decisions were accurate and consistent.
+
+Finally, designing an effective dynamic model selection strategy was challenging. We needed to **balance performance, cost, and efficiency** while handling queries of varying complexity. Through iterative testing and refinement, we developed a reliable classification and routing mechanism that consistently maps queries to the most appropriate model, resulting in an optimized and scalable system.
+
+**Creative Use of Requestly**
+
+We used **Requestly **in a highly unconventional and impactful way by transforming it from a simple API redirection tool into a **real-time AI routing layer**. Instead of modifying applications or integrating SDKs, we leveraged Requestly to intercept outgoing AI requests and **dynamically reroute** them through our NeuroRoute middleware. This allowed us to introduce an **intelligent decision-making layer** into existing systems without requiring any changes to their code, effectively turning Requestly into a zero-code AI infrastructure enabler.
+
+This approach is powerful because it removes the biggest barrier in AI optimization- integration complexity. Any application making AI calls can instantly benefit from our system. Once intercepted, each query is analyzed based on its complexity and routed to the most efficient model, ensuring that simple queries do not consume expensive or energy-intensive resources. This **transforms static AI usage into a dynamic**, optimized pipeline that improves both performance and cost efficiency.
+
+What makes our implementation especially unique is its focus on sustainability. By routing queries intelligently, we reduce unnecessary compute usage and actively track environmental metrics such as energy consumption, carbon emissions, and water usage. In our testing, we successfully routed **100+** queries across multiple models while continuously monitoring their environmental impact. This demonstrates how Requestly can act not just as a network tool, but as a gateway for enabling greener AI systems.
+
+Overall, we reimagined Requestly as a foundational layer in an AI architecture - one that enables real-time optimization, sustainability, and universal compatibility. This approach has the potential to evolve into a platform-level solution where any AI-powered application can become smarter, more efficient, and environmentally responsible without requiring redevelopment.
+
+Team **CodeWin** -- [Neha Reddy](https://github.com/Neha20-git), [Jeevitha Shetty](https://github.com/JeevithasHetty), [Srividisha MS](https://github.com/Vidishams), [Jeevitha R](https://github.com/JeevithaR3)
+
+`2026-03-18`
+
+---
+
+### Heart Guard AI
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/heart-guard-ai-4305) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Skyhitman/project-1-----) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://www.canva.com/design/DAHDci8ruAM/upR93WLeToby806EvJTS7w/view?utm_content=DAHDci8ruAM&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h683aaf9c0d) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.loom.com/share/8608f654acd24d2fae3153ed4547ce2d) [![Built at](https://img.shields.io/badge/Built%20at-HackNova%203.0-0052CC?style=flat-square)](https://hacknova-3.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Every heart deserves a second chance
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![TensorFlow](https://img.shields.io/badge/TensorFlow-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![FAST API](https://img.shields.io/badge/FAST%20API-333333?style=flat-square)
+
+**The problem it solves**
+
+The project addresses the critical challenge of early and accurate detection of Myocardial Infarction (MI) using real-time ECG signal analysis, as delayed diagnosis of heart attacks remains a leading cause of preventable deaths globally. Traditional ECG interpretation requires trained cardiologists and hospital infrastructure, making it inaccessible in remote areas or emergency situations outside clinical settings. This project aims to build a portable, low-cost IoT-based system using an ESP32 microcontroller paired with an AD8232 ECG sensor that continuously monitors a patient's heart activity and streams the data wirelessly to a machine learning backend. The backend employs an ensemble of three deep learning models that collectively analyze the ECG signal and predict the likelihood of MI in real time, with the results displayed on a web interface for immediate visibility. The core challenge being solved is bridging the gap between raw biosignal acquisition from affordable hardware and reliable clinical-grade MI detection, enabling faster intervention in time-critical cardiac events outside of hospital environments.
+
+**Challenges we ran into**
+
+One of the most frustrating challenges encountered during this project was the ESP32 consistently producing a false positive MI detection on a completely healthy patient, with the ensemble model confidently outputting 86.3% probability despite the subject having no cardiac condition. After extensive debugging, the root cause was traced to the AD8232 ECG sensor operating at too high a gain, causing the R-peaks in the QRS complex to clip at the ADC's maximum value of 4095 repeatedly. This clipped flat-top waveform closely resembles an ST-segment elevation pattern in ECG morphology, which is one of the primary indicators of MI that the models were trained to detect from the PhysioNet dataset. Compounding this was an irregular sampling rate issue where multiple samples were being logged with identical timestamps due to the WebSocket transmission batching on the ESP32, meaning the signal reaching the model was unevenly spaced rather than the consistent 360Hz the models expected. To diagnose this, a session recording feature was built directly into the backend that captured and saved the raw live ESP32 data as JSON, which was then visualized and analyzed to reveal the clipping and baseline drift problems clearly. The fix involved adjusting the electrode placement to standard Lead I configuration, tuning the AD8232 gain, adding a bandpass filter between 0.5–40Hz in the firmware, and fixing the timestamp logging to ensure uniform sampling before the signal reaches the inference pipeline.
+
+Team **TEAM SOLVIX** -- [Saurav Karunakaran](https://github.com/Skyhitman), [Santhoshkumar R](https://github.com/santhoshkumar1009), Vishwanathan S, [Shreethrudhi B](https://github.com/shreethurdhi)
+
+`2026-03-17`
+
+---
+
+### CreatorInsight
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/creatorinsight-8290) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/sahilalamshaikh/CreatorInsight-Syntax-Erroz-) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://presenti.ai/app/share/CAE.IAEqEH7yotn_X4r02FgflKvmKukwAUABSgoxNzczNzU3ODY4?invite_code=ZHAs0cZ9%EF%BC%8C) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/XWRwB-f6WFU) [![Built at](https://img.shields.io/badge/Built%20at-HackNova%203.0-0052CC?style=flat-square)](https://hacknova-3.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Smart recommendations for creators
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![fast.ai](https://img.shields.io/badge/fast.ai-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![RestAPIs](https://img.shields.io/badge/RestAPIs-333333?style=flat-square)
+
+**The problem it solves**
+
+The main objective of our project is to develop a centralized analytics platform that combines data from multiple social media platforms and presents it in a single dashboard.
+
+The system aims to help creators:
+
+Monitor their follower growth and engagement trends
+
+Analyze the performance of their posts
+
+Understand audience demographics and behavior
+
+Receive intelligent insights about their content performance
+
+By providing all analytics in one place, CreatorInsight helps creators save time and gain a clearer understanding of their overall social media presence.
+
+To address the problem, we developed CreatorInsight, a platform that collects and analyzes social media data and presents it through an interactive dashboard.
+
+The system aggregates information such as post metrics, engagement rates, reach, impressions, and follower growth. Using these metrics, the platform generates insights that help creators understand how their content performs across different platforms.
+
+One important feature of CreatorInsight is its AI-based analysis system, which evaluates the performance of posts and identifies patterns in engagement. This allows creators to recognize which content is performing well and what type of content resonates most with their audience.
+
+The platform also generates alerts for important events, such as when a post becomes viral or when engagement increases significantly.
+
+**Challenges we ran into**
+
+Obstacles Faced During the Project
+1. Integrating Data from Multiple Platforms
+
+One of the major challenges was designing a system that can handle data from multiple social media platforms. Each platform provides analytics in different formats, so we had to create a unified data structure to store and process this information.
+
+2. Designing the Database Structure
+
+Another challenge was designing the database schema to efficiently store analytics data such as posts, metrics, alerts, milestones, and brand deals. We needed a well-structured database to ensure the system could handle large amounts of analytics data.
+
+3. Handling Real-Time Analytics
+
+Displaying live updates for post engagement and analytics required implementing real-time communication between the backend and frontend. Ensuring smooth data updates without performance issues was a technical challenge.
+
+4. Authentication and Security
+
+Implementing secure user authentication using JWT tokens was another obstacle. We had to ensure that only authorized users could access their analytics dashboards and data.
+
+5. Creating Realistic Data for Testing
+
+Since we were not directly connected to real social media APIs, we had to generate realistic analytics data for testing and demonstrating the system. Designing a seed script that simulates real creator analytics was a challenge.
+
+6. UI and Data Visualization
+
+Designing a dashboard that clearly presents complex analytics data in an easy-to-understand way was also difficult. We had to carefully structure charts, tables, and metrics so users could quickly understand their performance.
+
+Team **Syntax Erroz** -- Sahil Sahikh, Prikshit Kaswan, Chris Juvin, Vignesh Swain
+
+`2026-03-17`
 
 ---
 
@@ -5440,6 +7740,1616 @@ Despite these challenges, each issue helped improve the system's robustness and 
 Team **Gijutsu no Bushi** -- [Samrat Chatterjee](https://github.com/cmdX-samrat), [Swapnil Banerjee](https://github.com/Swapnil-2005), [Debjit Roy](https://github.com/LOrd-Debjit)
 
 `2026-04-19`
+
+---
+
+### AuditPilot
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/auditpilot-4637) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ckasidis/audit-pilot) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://audit-pilot-eight.vercel.app/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/PIHYTngaaAM) [![Built at](https://img.shields.io/badge/Built%20at-Push%20to%20Prod%20Hackathon%20with%20Genspark%20&%20Claude-0052CC?style=flat-square)](https://push-to-prod.devfolio.co)
+
+> See everything. Miss nothing. Recover faster.
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=flat-square) ![Vercel](https://img.shields.io/badge/Vercel-333333?style=flat-square)
+
+**What is the deployed URL for this project?**
+
+https://audit-pilot-eight.vercel.app/
+
+**Use of Genspark**
+
+Used for UI prototyping before implementation
+
+**Use of Claude**
+
+- Genspark → Claude Code workflow: We generated the initial UI prototype and the per-agent system prompts in Genspark, then handed both off to Claude Code as a reference spec for production implementation.
+  - Claude Code Skills: Leveraged official skills (vercel:nextjs, vercel:ai-sdk, neon-drizzle, shadcn) to avoid hallucinated APIs and stay aligned with current best practices.
+  - Plan → Review → Implement loop: Every non-trivial change ran through Plan Mode for architectural alignment, a review pass, then implementation — with deliberate context clears between cycles to keep
+  the agent sharp.
+  - Structured output everywhere: Every LLM step uses generateObject with Zod schemas so outputs land directly in typed DB tables (no regex JSON extraction).
+
+**How you are solving it**
+
+User upload required files -> Run parser -> Fraud Detection Subagent -> Risk Ranking Subagent -> Data ingested to PostgreSQL database so it will be available for querying in. a chat based conversational UI
+
+**The problem your project solves**
+
+Description: AuditPilot is an AI intelligence layer that transforms Singapore Airlines'  Audit from a manual, cycle-driven process into a proactive fraud detection and revenue recovery system. Built on Anthropic Claude , it deploys a pipeline of specialist agents —  Parser, Fraud Detector, Risk Scorer, and Audit Assistant — against audit data sources: HOT files, DCS no-show feeds, eDA discount reports, and AGM group booking extracts. 
+The problem AuditPilot solves is real: fraud patterns that cross HOT Files and DCS no-show records go undetected until the billing cycle closes, AGM PDFs require manual monthly extraction, eDA completeness checks block audit from starting. AuditPilot collapses this into a single weekly AI-generated digest — cutting query resolution time by 80%, surfacing 3× more fraud cases than end-of-cycle manual review, and auto-generating every ADM notice with zero manual drafting.
+Genspark was used to generate the base UI which the team then further enhanced with Claude Code.
+
+Team **SIA Pilots** -- Christine Choy, [ARUNKUMAR THANGARAJU](https://github.com/na), [Kasidis Chantharojwong](https://github.com/ckasidis)
+
+`2026-04-24`
+
+---
+
+### Push & Pray
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/push-and-pray-c26d) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/kittypurrnaz/push-and-pray) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/K4Do2PLhmQg) [![Built at](https://img.shields.io/badge/Built%20at-Push%20to%20Prod%20Hackathon%20with%20Genspark%20&%20Claude-0052CC?style=flat-square)](https://push-to-prod.devfolio.co)
+
+> Post-event reports in 60 seconds, not 8 hours
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![SQLite](https://img.shields.io/badge/SQLite-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![powerpoint](https://img.shields.io/badge/powerpoint-333333?style=flat-square) ![Streamlit](https://img.shields.io/badge/Streamlit-333333?style=flat-square) ![Anthropic Claude](https://img.shields.io/badge/Anthropic%20Claude-333333?style=flat-square)
+
+**Use of Genspark**
+
+## Genspark Integration
+
+We make **two Genspark API calls** per report run:
+
+### Call 1 — Quantitative Benchmarks (`fetch_benchmarks`)
+Searches for industry-average metrics for the event type and region:
+- Average attendance rates and no-show percentages
+- Typical NPS score ranges
+- Conversion and engagement benchmarks
+
+This gives Claude real numbers to benchmark the client's data against, rather than just reporting raw figures in isolation.
+
+### Call 2 — Audience Intelligence (`fetch_event_context`)
+Searches for qualitative context specific to the event:
+- What this type of audience typically expects
+- Common feedback themes from similar events
+- Key success and failure factors
+
+This grounds the AI-written narrative in genuine industry knowledge, making the recommendations specific and credible rather than generic.
+
+Both calls fall back to sensible mock data if no API key is provided, so the pipeline always produces a complete report.
+
+**The problem your project solves**
+
+link: https://sudoku-calamity-abnormal.ngrok-free.dev
+
+## The Problem
+
+Every event — conferences, product launches, company offsites — generates a mountain of data: attendance CSVs, survey exports, check-in logs. Someone has to turn all of that into a polished post-event report for the client or leadership team.
+
+That someone spends **5–8 hours** doing this by hand:
+- Cleaning dirty spreadsheets (duplicate rows, blank columns, inconsistent date formats)
+- Computing NPS scores, attendance rates, and demographic breakdowns manually
+- Googling industry benchmarks to give the numbers context
+- Writing the same sections over and over: exec summary, venue commentary, recommendations
+- Formatting everything into a presentable PowerPoint
+
+The result is always late, always inconsistent, and never uses the full depth of the data.
+
+**How you are solving it**
+
+## Our Solution
+
+**Push & Pray** is a Post-Event Report Auto-Generator. Upload your CSV/XLSX files, set the event brief, and receive a polished PowerPoint report in under 60 seconds.
+
+### How it works
+
+1. **Data Ingestion** — Upload attendance and survey files. A `DataCleaner` module normalises formats, deduplicates rows, and infers column roles automatically.
+
+2. **Deep Analytics** — A `DataAnalyst` module computes NPS scores, rating distributions, demographic breakdowns, check-in curves, and data quality scores. Results are persisted in a local SQLite `ContextMemory` database so the system learns from every event run.
+
+3. **AI Enrichment (Genspark)** — Two Genspark calls fetch real-world context:
+   - Quantitative benchmarks (industry-average attendance rates, NPS, conversion)
+   - Qualitative audience intelligence (expectations, feedback themes, success factors)
+
+4. **Report Writing (Claude)** — Claude Sonnet writes the full narrative: headline, exec summary, conversion commentary, venue notes, demographics, voice-of-attendee synthesis, and 3–5 actionable recommendations — grounded in the actual numbers.
+
+5. **PowerPoint Export** — A custom `ReportGenerator` builds a branded, visually polished `.pptx` with a dark navy/indigo theme, ready to send to the client.
+
+**Use of Claude**
+
+## Claude Integration
+
+Claude does three jobs in the pipeline:
+
+### 1. Dataset Profiling (Claude Haiku — fast)
+On upload, Haiku classifies column roles (`attendee_name`, `check_in_time`, `rating`, `nps_score`, etc.), identifies data quality issues, and confirms the analytical plan — all in a single fast call before the heavier work begins.
+
+### 2. Report Narrative (Claude Sonnet — deep)
+Sonnet receives the cleaned data, computed statistics, Genspark benchmarks, and audience context, then writes the full report in one structured JSON response:
+- `headline` and `subheadline`
+- `exec_summary` (3–5 bullet points)
+- `conversion_commentary`, `venue_commentary`, `demographics_commentary`
+- `voice_of_attendee` synthesis
+- `recommendations` (3–5 actionable next steps)
+
+The tone is configurable (professional, casual, bold) per client brief.
+
+### 3. React Frontend Commentary API (Claude Sonnet — via Flask)
+The React/Vite frontend calls a Flask endpoint (`/api/commentary`) that hits Claude Sonnet directly, enabling real-time AI commentary generation in the browser UI — powered by the Anthropic SDK with prompt caching on the system prompt for efficiency.
+
+Team **Push & Pray** -- [Sarah Ahmad](https://github.com/kittypurrnaz), [Estelle Teh](https://github.com/Builtbyest)
+
+`2026-04-24`
+
+---
+
+### Q2 Economic Report Automation
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/q-economic-report-automation-3c7b) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/JoozKelly/q2-automation-webapp) [![Built at](https://img.shields.io/badge/Built%20at-Push%20to%20Prod%20Hackathon%20with%20Genspark%20&%20Claude-0052CC?style=flat-square)](https://push-to-prod.devfolio.co)
+
+> AI-powered quarterly reports for FTZ tenants
+
+![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![TailWindCSS](https://img.shields.io/badge/TailWindCSS-333333?style=flat-square) ![Zustand](https://img.shields.io/badge/Zustand-333333?style=flat-square) ![Recharts](https://img.shields.io/badge/Recharts-333333?style=flat-square) ![Claude API](https://img.shields.io/badge/Claude%20API-333333?style=flat-square) ![Genspark](https://img.shields.io/badge/Genspark-333333?style=flat-square) ![XLSX](https://img.shields.io/badge/XLSX-333333?style=flat-square)
+
+**Use of Claude**
+
+## Use of Claude
+
+Claude (via the Anthropic SDK) powers four distinct API routes in the application:
+
+### 1. `/api/ingest` — Economic Data Synthesis
+After Genspark returns raw search results, Claude structures them into a typed JSON schema covering 8 data categories: dashboard KPIs, GDP timeseries, investment inflows, inflation trends, macro indicator grid, sector summaries, infrastructure projects, and geopolitical events. A custom brace-counting extraction algorithm handles reliable JSON parsing from Claude's streaming output.
+
+### 2. `/api/analyze-files` — Multimodal File Ingestion
+Uploaded Excel, PDF, and image files are sent to Claude's multimodal API. Claude extracts structured economic data from charts, tables, and text — even from scanned documents or slide decks — and maps it to the same typed schema.
+
+### 3. `/api/generate` — Report Copywriting
+Claude takes the structured dashboard data and writes the executive narrative sections of the quarterly report: macroeconomic commentary, sector analysis, infrastructure progress summaries, and geopolitical risk assessments.
+
+### 4. `/api/ceo-brief` — Q3 Strategy Generation
+Users upload their Q2 report document, and Claude generates a forward-looking **5-chapter Q3 storyline** for the CEO:
+1. Macroeconomic Foundation
+2. Infrastructure & Policy Enablers
+3. Geopolitical Tailwinds
+4. Sector Momentum
+5. H2 Setup & Outlook
+
+Claude is the core intelligence layer — Genspark feeds it data, and Claude transforms that data into actionable business intelligence.
+
+**The problem your project solves**
+
+## The Problem
+
+Batam Free Trade Zone (FTZ) tenant-relations teams produce a **Quarterly Economic Report** every three months for investors, government liaisons, and C-suite stakeholders. The process today looks like this:
+
+- Analysts manually pull macroeconomic data from BPS (Indonesia's national statistics bureau), news sites, and internal trackers
+- Data is copy-pasted into Excel to build charts, then charts are manually placed into PowerPoint or Word
+- A copywriter produces the executive narrative from scratch
+- Design is re-done from scratch each quarter to maintain branding consistency
+- The whole cycle takes **3–5 business days** per report
+
+**Why it matters:** Delays in quarterly intelligence mean that investment decisions, tenant conversations, and policy responses all happen on stale data. The manual process also introduces transcription errors and inconsistent framing across quarters, undermining credibility with senior stakeholders.
+
+**How you are solving it**
+
+## Our Solution
+
+We built a full-stack **Next.js web application** that automates the entire quarterly reporting pipeline:
+
+### 1. Data Ingestion (`/ingestion`)
+- Users upload Excel, CSV, PDF, or image files — or trigger a **live Genspark web search** to pull the latest macroeconomic data automatically
+- BPS-targeted search mode fetches official Indonesian statistics directly
+- Files are parsed with the XLSX library; images and PDFs go through Claude's multimodal API
+
+### 2. AI Synthesis (`/api/ingest`)
+- Claude synthesises raw data into a structured JSON payload covering: GDP timeseries, investment inflows, inflation trends, sector momentum, infrastructure projects, geopolitical events, and a Batam FTZ news feed
+- A custom brace-counting JSON extraction algorithm ensures reliable parsing of Claude's responses
+
+### 3. Interactive Dashboard (`/`)
+- KPI cards, historical GDP line charts, stacked area investment charts, and inflation bar charts — all rendered with Recharts and driven by Zustand state
+
+### 4. Report Builder (`/report-builder`)
+- Section-by-section report composition with infrastructure trackers, geopolitical impact ratings, and sector momentum summaries
+- One-click **PDF export** with professional layout via react-to-pdf
+
+### 5. CEO Brief (`/ceo-brief`)
+- Upload the current Q2 report and Claude generates a forward-looking **5-chapter Q3 strategy narrative** for the executive team
+
+**Result:** Report turnaround drops from 3–5 days to under 2 hours.
+
+**Use of Genspark**
+
+## Use of Genspark
+
+Genspark is the **live data backbone** of the ingestion pipeline.
+
+### How it's integrated
+- The `/api/ingest` route calls Genspark via its CLI interface to perform real-time web searches for macroeconomic indicators (GDP growth, FDI inflows, inflation, BPS publications, sector news)
+- A dedicated **BPS search mode** targets Indonesia's national statistics bureau specifically for official quarterly figures
+- Search results stream back in real time, with logs displayed in the UI so users can see exactly what data was retrieved and from where
+- Genspark also powers the **Batam FTZ news feed**, fetching and categorising recent articles by topic (FDI, infrastructure, policy, geopolitics, sector activity)
+
+### Why Genspark
+Instead of maintaining brittle scrapers for dozens of government and news sources, Genspark acts as an intelligent web research layer — returning structured, relevant results that Claude can immediately synthesise into the dashboard schema. This means the app always has access to the **latest published data** without any manual refresh.
+
+**The problem it solves**
+
+Quarterly economic reporting for Batam Free Trade Zone (FTZ) tenants is slow, fragmented, and highly manual. Economic data is scattered across government portals (BPS), news feeds, and internal spreadsheets — requiring analysts to spend days aggregating figures, building charts, writing narratives, and designing polished PDFs before a single report reaches a stakeholder.
+
+**Challenges we ran into**
+
+Reliable JSON extraction from Claude's streaming responses required a custom brace-counting algorithm instead of greedy regex, which broke on nested structures. Multimodal ingestion (PDF, Excel, images in one pipeline) needed careful schema design so the AI output always mapped cleanly to typed TypeScript interfaces. Streaming Genspark search logs in real time while simultaneously synthesising the data into a structured dashboard required careful async orchestration across Next.js API routes.
+
+**Hackathon Prizes**
+
+This project directly addresses the hackathon's core theme: eliminating invisible, painful internal workflows with AI. Quarterly economic reporting is a real internal process experienced at trade-zone management companies — hours of manual data collection, Excel charting, and PowerPoint design that this app replaces end-to-end with Claude and Genspark.
+
+[Kelly Tayong](https://github.com/JoozKelly)
+
+`2026-04-24`
+
+---
+
+### MarginMind
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/marginmind-abb9) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Rohan5commit/marginmind-paygentic) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://marginmind-paygentic.vercel.app) [![Built at](https://img.shields.io/badge/Built%20at-Locus'%20Paygentic%20Hackathon%20--%20#2-0052CC?style=flat-square)](https://paygentic-week2.devfolio.co)
+
+> AI Agent finds SaaS waste and saves teams cash now
+
+![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![GitHub](https://img.shields.io/badge/GitHub-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![Vercel](https://img.shields.io/badge/Vercel-333333?style=flat-square) ![Nvidia Nim](https://img.shields.io/badge/Nvidia%20Nim-333333?style=flat-square) ![Locus API](https://img.shields.io/badge/Locus%20API-333333?style=flat-square)
+
+**The problem it solves**
+
+Startups and solo builders lose money every month to SaaS waste: duplicate tools, underused subscriptions, rising vendor costs, and missed refund/negotiation opportunities.
+
+Most people can spot waste, but they don’t take action because the follow-through is manual and slow.
+
+MarginMind solves this by acting like a finance operations agent:
+  - Ingests spend data from CSV/demo transactions
+  - Detects duplicate subscriptions, pricing outliers, underused tools, and refund/negotiation candidates
+  - Prioritizes actions by expected monthly/annual savings
+  - Uses NVIDIA NIM for concise, founder-ready reasoning
+  - Uses a Locus-native action layer (wallet context, wrapped API planning, and task escalation logic) to move from analysis to execution
+
+ The result is practical: less monthly burn, higher savings capture, and an agentic workflow that is focused on money saved, not just dashboards.
+
+**Challenges we ran into**
+
+A major challenge was making the product truly agentic instead of a generic analytics dashboard.
+
+I had to redesign the flow so each finding maps to an executable next step (cancel, downgrade, refund request, negotiate, replace, or monitor), then connect that to a Locus-first action model.
+
+ Other hurdles:
+  - Deployment reliability on Vercel: I hit failed production deploys and fixed build/runtime issues, then validated with GitHub Actions + production checks.
+  - AI output reliability: NIM responses needed strict JSON handling, schema validation, retry logic, and deterministic fallbacks.
+  - Security hardening: Public AI endpoints needed payload validation, rate limiting, and safer error handling to prevent abuse.
+  - Locus clarity in demo: I added explicit live/simulation state, redacted sensitive wallet fields, and surfaced Locus capability checks so judges can clearly see what is live now vs guarded in MVP.
+
+These fixes made the app more robust, safer, and demo-ready under real judging conditions.
+
+**Track: Using BuildWithLocus to leverage our suite.**
+
+MarginMind is built specifically for the Week 2 BuildWithLocus track: it is an agentic spend-optimization product where Locus is part of core execution, not branding.
+
+The system ingests startup SaaS spend, detects waste duplicates, underused tools, pricing outliers, rising costs, refund/negotiation candidates), and maps each finding to an actionable agent decision. It then routes these decisions through a Locus-native layer: wallet-aware policy guardrails, wrapped API planning, app capability discovery, and ROI-based task escalation logic.
+
+This directly matches “Hack an Agent to Make You Money” because MarginMind is designed to reduce real monthly burn and recover money, not just visualize data. NVIDIA NIM is used for structured strategy/explanation outputs, while deterministic heuristics keep decisions grounded and auditable for demo and judging.
+
+Rohan Santhosh
+
+`2026-04-19`
+
+---
+
+### LIVECollab
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/livecollab-96ad) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://fork-yeah-three.vercel.app/) [![Built at](https://img.shields.io/badge/Built%20at-Ctrl%20+%20Build-0052CC?style=flat-square)](https://ctrl-build.devfolio.co)
+
+> Collaborate. Create. Sync — in real time
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square)
+
+**The problem it solves**
+
+## ❗ Problem Statement
+
+Modern collaboration is fragmented.
+
+Teams often rely on multiple disconnected tools for:
+- brainstorming (whiteboards)
+- communication (voice & chat)
+- decision-making (polls, data tools)
+
+This constant context switching:
+- breaks workflow  
+- slows down productivity  
+- causes loss of ideas and clarity  
+
+There is no single platform that seamlessly combines real-time visual collaboration, communication, and interactivity.
+
+---
+
+## 💡 Solution
+
+LiveCollab solves this by providing a unified, real-time collaborative environment where teams can:
+
+- Draw and brainstorm together on a shared canvas  
+- Communicate via voice, chat, and live captions  
+- Use interactive tools like polls and graphs  
+- Stay fully synchronized without switching platforms  
+
+All in one place — fast, intuitive, and built for real-time teamwork.
+
+**Challenges we ran into**
+
+## ⚔️ Challenges I Ran Into
+
+Building LiveCollab came with several real-world engineering challenges:
+
+---
+
+### 🔄 Real-Time State Synchronization
+Keeping multiple users in sync on a shared canvas was difficult.  
+Issues like:
+- duplicate events  
+- out-of-order updates  
+- inconsistent canvas states  
+
+**Solution:**  
+Implemented event-based synchronization using Socket.IO with controlled state broadcasting and idempotent updates to ensure consistency across all clients.
+
+---
+
+### 🎨 Canvas Performance (React-Konva)
+Handling continuous drawing events caused performance drops and lag, especially with multiple users.
+
+**Solution:**  
+- Optimized re-renders by minimizing state updates  
+- Batched drawing events  
+- Used refs and efficient layer updates in React-Konva  
+
+---
+
+### 🧩 Draggable Widget Sync (Graphs & Polls)
+Keeping widget positions, resizing, and data synchronized across users was tricky.
+
+**Solution:**  
+- Centralized widget state on the server  
+- Synced position + data changes via socket events  
+- Used controlled components with React-Rnd  
+
+---
+
+### 🎙️ Voice Chat + Live Captions
+Integrating real-time speech-to-text with live updates on the canvas introduced latency and accuracy issues.
+
+**Solution:**  
+- Used browser Speech-to-Text APIs  
+- Streamed partial transcripts instead of waiting for full sentences  
+- Optimized UI updates for smoother caption rendering  
+
+---
+
+### 🔐 Google OAuth + Session Handling
+Managing authentication across frontend and backend caused session persistence issues (especially with CORS).
+
+**Solution:**  
+- Configured proper CORS with credentials  
+- Used Express sessions with secure cookies  
+- Ensured consistent session handling across requests  
+
+---
+
+### 🌐 Handling Late Joiners
+New users joining a room weren’t seeing the existing canvas state initially.
+
+**Solution:**  
+- Implemented state persistence on the server  
+- Sent full canvas snapshot on join  
+- Synced chat history and widgets on connection  
+
+---
+
+## 🚀 Key Takeaway
+
+The biggest challenge was not building features individually, but making them **work together in real-time without breaking synchronization or performance**. Solving this required careful event design, state management, and optimization.
+
+Team **Fork yeah** -- Ayush Thakur, Vedant Sharma
+
+`2026-04-16`
+
+---
+
+### RoadRakshak
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/roadrakshak-c7b8) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/pulkit1245/RoadRakshak.git) [![Built at](https://img.shields.io/badge/Built%20at-Off--Grid-0052CC?style=flat-square)](https://offgrid.devfolio.co)
+
+> Har second pe nazar, Har jaan ki fikar
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![OpenCV](https://img.shields.io/badge/OpenCV-333333?style=flat-square) ![FastAPI](https://img.shields.io/badge/FastAPI-333333?style=flat-square) ![Vite](https://img.shields.io/badge/Vite-333333?style=flat-square) ![Ultralytics](https://img.shields.io/badge/Ultralytics-333333?style=flat-square) ![YOLOv8](https://img.shields.io/badge/YOLOv8-333333?style=flat-square) ![Base64Encoding](https://img.shields.io/badge/Base64Encoding-333333?style=flat-square) ![OlaMap](https://img.shields.io/badge/OlaMap-333333?style=flat-square)
+
+**The problem it solves**
+
+Today traffic infrastructure is not good enough. It only reacts to things after they have already happened. For example cameras just record what is happening. People only do something about it after they notice that something has gone wrong. When there are car accidents this delay is not a waste of time. It can cost people their lives. When someone has an accident emergency services still have to wait for someone who saw it happen to call them which can take 15 to 20 minutes. This is a long time especially when every minute counts.
+
+We are trying to fix this problem. The problem of not being able to respond enough when something happens.
+
+Our system is different from what's already out there. We use intelligence to make traffic cameras smarter. Of just watching what is happening we understand what is going on. If someone has an accident our system knows away and sends out emergency alerts in just a few seconds. It does all of this without needing anyone to get involved.
+
+What really makes our system special is that it does not just stop at seeing that something is wrong. Most other systems just identify the problem. Then stop. Our system does everything. It sees the problem figures out what is happening. Then does something, about it. From looking at the details of what happened to getting emergency services to respond our system does it all automatically. There are no delays, no need to wait for someone to do something and no bottlenecks.
+
+Basically we are not just building a system that can detect problems. We are changing the way that cities respond to emergencies.
+
+We are taking traffic infrastructure, which used to record what was happening and turning it into a system that can actually save lives. Our system does not just see accidents happen. It responds to them away.
+
+**Challenges we ran into**
+
+One of the hardest challenges we faced was not building detection, but building reliable detection. 
+
+In real-world traffic, vehicles are constantly moving close to each other. If you rely on just one signal like bounding box overlap, the system starts detecting ‘accidents’ everywhere, which makes it unusable in practice. 
+
+So instead of thinking like developers, we started thinking like people in the real world.
+
+We designed a multi-layer intelligence system where no single parameter can trigger an accident. We combine spatial signals like overlap, temporal signals like motion patterns, and physical indicators like sudden velocity changes. Only when multiple independent signals align do we confirm a collision. 
+
+This shift from single-condition detection to multi-signal validation was the key to making our system reliable, not just functional.
+
+The second major challenge was real-time performance. Deep learning models are powerful, but they are also costly in terms of computation. We had to balance speed and accuracy, optimizing our pipeline so that detection happens instantly without sacrificing performance.
+
+We also had to handle real-world unpredictability, such as low-light conditions, varying camera angles, and inconsistent environments. Instead of ignoring these issues, we engineered around them using adaptive image enhancement techniques to maintain consistency.
+
+But the real challenge wasn’t technical; it was conceptual. 
+
+Building a model is easy. Building a system that works reliably in the chaos of the real world is where the real engineering begins. 
+
+And that’s exactly what we focused on.
+
+**Winners**
+
+We have designed our project at the crossroads of Smart Cities, AI & Machine Learning, and Public Safety & Mobility.
+
+In terms of Smart Cities, our approach involves turning traditional traffic infrastructure into a smart network that does not simply monitor but also reacts to traffic conditions in real time.
+
+In the area of AI & Machine Learning, our project uses the capabilities of computer vision in real time for traffic analysis and decision-making. In this context, the speed of our model is vital because each second can mean the difference between life and death.
+
+Finally, it is crucial to emphasize the connection of our project with Public Safety. Road accidents are one of the leading causes of mortality, but the issue here lies in emergency response time. Our model significantly decreases the time between detecting an accident and sending an alert.
+
+The power of our AI technology should be seen in its practical application to create a more responsive and safe city environment.
+
+In other words, we are not limited to any particular path; on the contrary, we embrace various domains to solve a real-life problem that benefits from technological advancements.
+
+Team **Mahaveera** -- [Pulkit Verma](https://github.com/pulkit123459), [Anupriya Saxena](https://github.com/AnupriyaSaxena28), [Shreyasvi Srivastava](https://github.com/Shreyasvi25)
+
+`2026-04-11`
+
+---
+
+### GoSustain
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/gosustain-0971) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/pragga9876/GoSustain) [![Built at](https://img.shields.io/badge/Built%20at-Hack%20Storm%202.26-0052CC?style=flat-square)](https://hack-storm.devfolio.co)
+
+> Your Carbon. Your Control
+
+![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Embedded Javascript (EJS)](https://img.shields.io/badge/Embedded%20Javascript%20(EJS)-333333?style=flat-square) ![MongoDB Atlas](https://img.shields.io/badge/MongoDB%20Atlas-333333?style=flat-square) ![Charts.js](https://img.shields.io/badge/Charts.js-333333?style=flat-square) ![Leaflet.js](https://img.shields.io/badge/Leaflet.js-333333?style=flat-square) ![Chrome Extension](https://img.shields.io/badge/Chrome%20Extension-333333?style=flat-square)
+
+**The problem it solves**
+
+In the fight against climate change, we introduce GoSustain — a smart energy optimization platform that transforms sustainability into everyday action. It collects real-time device data, uncovers consumption patterns, and delivers hyper-personalized recommendations through interactive dashboards. Powered by anomaly detection and predictive AI, GoSustain automates savings, slashes wastage and carbon emissions, and empowers households and organizations to live greener — efficiently and affordably.
+
+**Challenges we ran into**
+
+Developing GreenLane, the ecofriendly route finder, we needed to tackle the traffic on routes, travelling modes chosen by user, etc
+
+Team **Humein Select Bilkul Mat Karna** -- [Sonam Das](https://github.com/squirtlenotgangster), [Pragga Mukherjee](https://github.com/pragga9876), [Abhirup Nandi](https://github.com/Abhirup-261004)
+
+`2026-04-09`
+
+---
+
+### Energy Consumption Optimizer
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/energy-consumption-optimizer-0f36) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/agamonighosh6-prog/Energy-Consumption) [![Built at](https://img.shields.io/badge/Built%20at-Hack%20Storm%202.26-0052CC?style=flat-square)](https://hack-storm.devfolio.co)
+
+> Reduce energy wastage
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![C++](https://img.shields.io/badge/C++-333333?style=flat-square)
+
+**The problem it solves**
+
+• Our hardware project model is an energy conservation system using ESP 32 ,DHT 11 sensor 
+• It measures temperature and humidity .
+• Machine learning analyzes data to find unusual changes and possible energy waste.
+• If probable expected event does not occurs then the system since alerts to a mobile phone and activate a buzzer.
+• These helps maintain stable environmental conditions, reduces and necessary energy used and improves smart monitoring.
+
+**Challenges we ran into**
+
+I face the device capacity issue.Our ESP32 have 2mb capacity.But if we deploy human detection Ml model ,it can't process due it's low capacity .So ,if we have the raspberry pi device then ,we can develope it.
+
+Team **Hackops** -- Agamoni Ghosh, [Pritam Ghosal](https://github.com/pritamghosal), [Aritro Dey](https://github.com/Aritro-2005)
+
+`2026-04-09`
+
+---
+
+### ClaimGuard Ai
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/claimguard-ai-dadb) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/rajsingh62/ClaimGuard-AI.git) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://docs.google.com/presentation/d/1lqgseI1cahDcCSYWwo3vLlod9nVEEv28/edit?usp=drive_link&ouid=116213143042471078316&rtpof=true&sd=true) [![Built at](https://img.shields.io/badge/Built%20at-Hacktropica%202k26-0052CC?style=flat-square)](https://hacktropica2k26.devfolio.co)
+
+> From policy confusion to payout clarity-in seconds
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square)
+
+**The problem it solves**
+
+## 💡 The Problem It Solves
+
+ClaimGuard AI is designed to solve a very real and frustrating problem that almost everyone faces with insurance—**confusion and lack of trust**. Most people don’t fully understand their insurance policies because they are filled with complex terms and hidden conditions. When it comes time to file a claim, they often don’t know what will actually be covered, which leads to unexpected rejections, delays, and stress.
+
+This project makes that entire process much simpler and more transparent. Instead of manually reading long policy documents or relying on agents, users can just upload their policy and bill, and the system clearly tells them what is payable, what is not, and most importantly—**why**. This saves time, reduces confusion, and helps users make better decisions.
+
+It also makes the process safer and more trustworthy. By storing a proof of the result on blockchain, users can be confident that the decision hasn’t been altered or manipulated. This is especially important in cases where disputes happen between customers and insurance providers.
+
+In simple terms, ClaimGuard AI turns a complicated, uncertain process into something **clear, fast, and reliable**, helping users feel more in control of their insurance decisions.
+
+**Challenges we ran into**
+
+## ⚠️ Challenges I Ran Into
+
+One of the biggest challenges I faced while building ClaimGuard AI was handling **unstructured PDF data, especially insurance policies and bills. Every document had a different format—some were scanned images, some had complex tables, and others had inconsistent wording for the same clauses. Initially, the OCR output was messy and the AI was giving incorrect or incomplete results because it couldn’t clearly understand the structure.
+
+To solve this, I didn’t rely on a single approach. I improved the pipeline step by step—first by cleaning the OCR output, then by introducing basic preprocessing like removing noise and standardizing text. After that, I built a rule-based layer alongside NLP so that even if the AI model missed something, the system could still make logical decisions based on keywords and patterns. This hybrid approach significantly improved accuracy.
+
+Another challenge was integrating the blockchain layer using Solana. At first, I tried storing too much data directly, which made things inefficient. After researching and experimenting, I realized that storing only the hash of the result was the right approach—it reduced cost and improved performance while still ensuring data integrity.
+
+Overall, these challenges taught me an important lesson: building real-world systems is not about perfect models, but about combining multiple techniques and iterating until the system becomes reliable.
+
+**Best Build on Solana**
+
+ClaimGuard AI fits perfectly into the “Built on Solana” track because it uses blockchain in a meaningful, real-world way rather than just as an add-on. In our system, AI analyzes insurance policies and bills to generate a claim decision, but the key innovation is what happens next—we convert that result into a secure hash and store it on Solana. This ensures that once a decision is made, it cannot be altered, creating a transparent and tamper-proof record. In an industry like insurance, where trust and disputes are major issues, this adds a powerful layer of credibility. So, while AI handles the intelligence, Solana guarantees the integrity of the outcome, making the entire system reliable, verifiable, and aligned with the core purpose of blockchain technology.
+
+Team **Shadow Solver** -- [Yogesh Prasad](https://github.com/yogeshHax), [Sunny Kumar](https://github.com/Sunny25052005), RAJ SINGH, [Nitesh Barnwal](https://github.com/Nitesh0986)
+
+`2026-04-05`
+
+---
+
+### Smart Waste Segregation(Team Beta)
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/smart-waste-dustbin-6590) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Priya342-gif/Beta) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://docs.google.com/presentation/d/1BUxQgbarub_6qSpunt78DjLqs2DWb4oR/edit?usp=drive_link&ouid=104871653029729584555&rtpof=true&sd=true) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/gpFGEkUT2qI?feature=shared) [![Built at](https://img.shields.io/badge/Built%20at-Hacknovate--7.0-0052CC?style=flat-square)](https://hacknovate07.devfolio.co)
+
+> Clean & Green Technology
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![TensorFlow](https://img.shields.io/badge/TensorFlow-333333?style=flat-square) ![MQTT](https://img.shields.io/badge/MQTT-333333?style=flat-square) ![Arduino IDE](https://img.shields.io/badge/Arduino%20IDE-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square)
+
+**The problem it solves**
+
+This project is an AI powered smart waste segregation system designed to automate and improve waste management. It uses an ESP32, IR sensors, and a camera to detect and capture waste images. A Tensor Flow Lite model classifies the waste into organic, recyclable, and hazardous categories in real time. Based on the result, servo motors automatically direct the waste into the correct bin, eliminating manual sorting.
+A secondary IR sensor monitors the bin level and triggers an alert when it becomes full, displaying a message on the LCD and sending a notification via MQTT for timely action.
+Benefits
+Automation: Eliminates manual waste segregation
+Safety: Reduces human exposure to hazardous waste
+Efficiency: Improves accuracy of waste classification
+Real-time Monitoring: Detects bin overflow instantly
+Scalability: Can be deployed in smart cities and campuses
+Cost-effective: Reduces long
+
+**Challenges we ran into**
+
+Servo Power Issues: Servos caused instability and ESP32 resets due to low power
+Solution: Used external 5V supply with common ground
+Camera Connection Failure: Camera stream failed due to network restrictions
+Solution: Switched to mobile hotspot for same network access
+TensorFlow Compatibility: Installation failed on newer Python versions
+Solution: Downgraded to Python 3.12 and used virtual environment
+LCD Not Displaying: No output due to wrong I2C address and pin conflicts
+Solution: Fixed address and reassigned SDA/SCL pins
+MQTT Delays: Delay in receiving classification results
+Solution: Improved message handling and added timeout
+Dataset Limitations: Model accuracy affected by limited data
+Solution: Combined datasets and used preprocessing and augmentation
+
+Team **Beta** -- [Priya Chauhan](https://github.com/Priya342-gif), [Urvi Gupta](https://github.com/UrviGupta8124), [Akarshi Srivastava](https://github.com/Akarshi27), [Ayush Pandey](https://github.com/aayuk003)
+
+`2026-04-04`
+
+---
+
+### Aarogya_sos
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/aarogyasos-c212) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://aarogyasos.netlify.app) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://vimeo.com/1180043712?share=copy&fl=sv&fe=ci) [![Built at](https://img.shields.io/badge/Built%20at-Hacknovate--7.0-0052CC?style=flat-square)](https://hacknovate07.devfolio.co)
+
+> “From SOS to Solution in Seconds"
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+AarogyaSOS is an intelligent, integrated emergency healthcare platform that enables instant medical assistance through a single action — no complex steps, no delay. Unlike standalone emergency calling apps, AarogyaSOS combines real-time location intelligence, medical profile sharing, AI assistance, and a community helper network — all in one unified platform.
+
+**Challenges we ran into**
+
+Problem 1: Getting accurate user location was inconsistent, and sometimes the browser denied location access.
+
+Solution: We implemented:
+enableHighAccuracy: true in Geolocation API
+Proper error handling (permission denied, timeout, etc.)
+User prompts to allow location access
+This improved reliability and user experience.
+
+Problem 2: The biggest challenge was ensuring SOS works without internet, since web apps rely heavily on connectivity.
+
+Solution: We designed an offline fallback system:
+
+Detect network status using navigator.onLine
+Store SOS requests in localStorage
+Trigger SMS/call fallback mechanism
+Auto-sync data when internet reconnects
+
+This made the system more real-world reliable.
+
+Team **Titans** -- [VIVEK Vivek](https://github.com/Vitalvon), [Nishant Goel](https://github.com/Nishant121002), [Abhishek Goswami](https://github.com/Abhi001199), [Amira .](https://github.com/amira7289)
+
+`2026-04-04`
+
+---
+
+### Blood Help
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/blood-help-2cf5) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/FqjC8rKTnTQ?si=amqnMiTP0pH_D_tJ) [![Built at](https://img.shields.io/badge/Built%20at-Hacknovate--7.0-0052CC?style=flat-square)](https://hacknovate07.devfolio.co)
+
+> Made by ECOSHIELD love for India
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square)
+
+**The problem it solves**
+
+Provides instant, AI-powered matching
+
+Enables real-time emergency alerts
+
+Uses GPS to find nearest donors
+
+Ensures verified and trusted requests
+
+ Motivates donors through rewards & recognition
+
+Predicts demand using AI/ML
+
+
+
+“Our project solves the problem of delayed and unorganized blood access by creating a real-time, AI-driven network that connects donors and patients instantly.”
+
+![image](https://assets.devfolio.co/content/8a5ec7863e644dd99760e87160716d56/e6b76c22-c1c7-4468-b988-19faac10473b.jpeg)
+
+**Challenges we ran into**
+
+“Our main challenges were real-time matching, scalability, and ensuring secure, reliable communication — which we solved through optimized backend design and AI-driven logic.”
+
+Team **EcoShield** -- [Anushka Sharma](https://github.com/anushka658), [Krishna Yadav](https://github.com/raokrishna4455-debug), [Krishna Sagar](https://github.com/krishnasagarg10), [Anushka Singh](https://github.com/anushkaasingh26)
+
+`2026-04-04`
+
+---
+
+### Greencred
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/greencred-b599) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/prakharsi055-netizen/greencred2) [![Built at](https://img.shields.io/badge/Built%20at-HackMol%207.0-0052CC?style=flat-square)](https://hackmol-7.devfolio.co)
+
+> Strava for eco actions
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![Django](https://img.shields.io/badge/Django-333333?style=flat-square) ![Cloudinary](https://img.shields.io/badge/Cloudinary-333333?style=flat-square) ![SQLite](https://img.shields.io/badge/SQLite-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![OpenStreetMap](https://img.shields.io/badge/OpenStreetMap-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+GreenCred is solving the lack of a trusted, social, and rewarding platform for environmental action, turning eco work from an invisible private habit into a visible, verified, and celebrated public identity.
+
+**Challenges we ran into**
+
+Can't host  the website because free scription of firebase can only host static site but we are using django which is dynamic and we are unable to use Google vision API due to lack of resources. Profile window in our site is not fully loading
+
+**Fresher’s Track: The Rising Lanterns**
+
+All team members are in first year this is our first hackathon before this, we have no prior experience .
+
+Team **Dead Neurons** -- [Amit Singh](https://github.com/amitsingh005), [dhruv singh](https://github.com/ru-dhruv)
+
+`2026-03-29`
+
+---
+
+### DanishRecon- Advance Vulnerability Platform
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/danishrecon-advance-vulnerability-and-reconnaissance-analysis-platform-9c08) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/DanishDhanjal15/DanishRecon.git) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://vimeo.com/1178120914) [![Built at](https://img.shields.io/badge/Built%20at-HackMol%207.0-0052CC?style=flat-square)](https://hackmol-7.devfolio.co)
+
+> Cybersecurity project
+
+![Matplotlib](https://img.shields.io/badge/Matplotlib-333333?style=flat-square) ![PyQt](https://img.shields.io/badge/PyQt-333333?style=flat-square) ![SQLite](https://img.shields.io/badge/SQLite-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![NetworkX](https://img.shields.io/badge/NetworkX-333333?style=flat-square) ![Cybersecurity](https://img.shields.io/badge/Cybersecurity-333333?style=flat-square) ![Python3.11](https://img.shields.io/badge/Python3.11-333333?style=flat-square)
+
+**The problem it solves**
+
+DanishRecon solves the problem of slow, manual, and error-prone cybersecurity reconnaissance by automating the entire process of discovering exposed services, vulnerabilities, and misconfigurations across networks and web applications.
+
+For penetration testers and security teams: It dramatically reduces the time and expertise needed to perform comprehensive assessments, enabling even small teams to scan multiple targets in parallel and receive professional, actionable reports.
+For organizations: It helps identify security gaps before attackers do, making it easier and safer to secure digital assets.
+For students and researchers: It provides a hands-on, all-in-one platform to learn and practice real-world security testing techniques.
+By integrating advanced detection, AI-powered analysis, and compliance mapping in a single tool, DanishRecon makes security assessments faster, more thorough, and accessible to a wider audience.
+
+**Challenges we ran into**
+
+Integrating Multiple Tools:
+Combining Nmap, Nikto, and custom scripts into a single workflow was challenging due to differences in output formats and error handling. I overcame this by writing robust parsers and standardizing the data models.
+
+Handling False Positives:
+Some vulnerability checks (especially WAF detection and secret scanning) produced false positives. I improved accuracy by adding cross-verification steps and allowing manual review in the reports.
+
+Performance Optimization:
+Scanning multiple targets in parallel caused high memory and CPU usage. I optimized the threading model and implemented resource limits to ensure stable performance even on modest hardware.
+
+User Experience (UX):
+Designing an intuitive GUI with real-time feedback and export options required several iterations and user feedback. I used PyQt5’s features to add progress bars, dark/light themes, and easy report exports.
+
+AI Integration:
+Integrating Gemini AI for advanced analysis required learning new APIs and handling asynchronous responses. I solved this by modularizing the AI components and providing clear fallbacks if the AI service was unavailable.
+
+Team **CYBERKNIIGHTS** -- [Danish Dhanjal](https://github.com/DanishDhanjal15), [AINESH CHAKRAVARTI](https://github.com/Darthvader)
+
+`2026-03-29`
+
+---
+
+### PhantomCut
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/wattwatch-b716) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/LeonDae/PhantomCut) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://drive.google.com/drive/folders/1I6M3TSICMa8vxF-k48eXM_Y6EtVJjSvC?usp=sharing) [![Built at](https://img.shields.io/badge/Built%20at-FrostHacks%20S02-0052CC?style=flat-square)](https://frosthacks-s-2.devfolio.co)
+
+> #Command your energy. Cut the phantom.
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![FastAPI](https://img.shields.io/badge/FastAPI-333333?style=flat-square) ![YOLOv8](https://img.shields.io/badge/YOLOv8-333333?style=flat-square)
+
+**The problem it solves**
+
+We tackled something really common but often overlooked appliances like lights, ACs, and screens being left running in empty rooms. The tricky part is that regular motion sensors just can't tell the difference between "no one's here" and "someone's sitting quietly." Our system repurposes CCTV cameras that are already installed everywhere and turns them into smart energy monitors that can actually catch these situations and act on them automatically.
+
+![image](https://assets.devfolio.co/content/9334cca562a842d4979c94025ac91572/39cc6484-56dd-47fd-ac8d-d19a732d2d00.jpeg)
+
+**Challenges we ran into**
+
+We ran into a few real ones — someone sitting still might not get detected, so our system could wrongly think a room is empty. Figuring out whether a light or screen is genuinely on, just from a camera feed, turned out to be harder than it sounds. Running all of this in real time also puts a heavy load on basic hardware. And of course, having cameras watching people constantly raised some obvious privacy concerns that we had to think carefully about.
+
+
+
+![image](https://assets.devfolio.co/content/9334cca562a842d4979c94025ac91572/8a172900-3df7-4435-a5a4-2112aea2bc9f.jpeg)
+
+**GREEN & SUSTAINABLE EARTH**
+
+This fits squarely under a sustainability/green tech track, since the whole project is about reducing energy waste in buildings using smart AI-powered monitoring.
+
+Team **Team Resolve** -- [Dhritiman Roy](https://github.com/d-r-o-y), [Rudrakshee Banerjee](https://github.com/Rudrakshee), [Ditsu Kundu](https://github.com/LeonDae), [Jishnu Roy](https://github.com/Jishnu1618)
+
+`2026-03-28`
+
+---
+
+### Watt-Watch
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/wattwatch-033b) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/reashav7/Watt-Watch.git) [![Built at](https://img.shields.io/badge/Built%20at-FrostHacks%20S02-0052CC?style=flat-square)](https://frosthacks-s-2.devfolio.co)
+
+> Turning Every Camera into an Energy Guardian
+
+![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![YOLOv3 Algorithm](https://img.shields.io/badge/YOLOv3%20Algorithm-333333?style=flat-square) ![Twilio Rest API](https://img.shields.io/badge/Twilio%20Rest%20API-333333?style=flat-square) ![Streamlit](https://img.shields.io/badge/Streamlit-333333?style=flat-square)
+
+**The problem it solves**
+
+An AI-powered system that transforms existing CCTV cameras into smart energy auditors by detecting room occupancy and active appliances in real time. It identifies “empty but active” spaces, ensures privacy through anonymization, and delivers actionable insights to reduce energy waste and carbon footprint.
+
+**Challenges we ran into**
+
+One of the key challenges we faced was accurately detecting ceiling fans using computer vision. Unlike common objects, fans are not well-represented in standard datasets and often appear small, blurred, or partially visible in CCTV footage—especially when rotating, which caused frequent false negatives in our system. To overcome this, we created a custom dataset with fan images in different conditions (angles, lighting, ON/OFF states) and fine-tuned a YOLOv8 model specifically for fan detection. We also applied data augmentation (blur, brightness changes) and adjusted detection thresholds, which significantly improved accuracy and made our “empty but active” energy detection more reliable.
+
+**GREEN & SUSTAINABLE EARTH**
+
+Our solution directly supports the theme of Green and Sustainable Earth by reducing unnecessary energy consumption through intelligent monitoring. By using AI to detect “empty but active” spaces in real time, it helps eliminate phantom energy waste from lights, fans, and other appliances. This leads to lower electricity usage, reduced carbon emissions, and cost savings for institutions. Additionally, by leveraging existing CCTV infrastructure and ensuring privacy through anonymization, the system promotes sustainable innovation without requiring extra hardware, making it both environmentally and socially responsible.
+
+Team **Byte Dunes** -- [Rajobrata Mukherjee](https://github.com/rajobrata1201), [REASHAV DE](https://github.com/reashav7), [Snehan Maity](https://github.com/Snehan-Maity)
+
+`2026-03-28`
+
+---
+
+### Watt-Watch
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/wattwatch-7167) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/alitacodes/Watt-Watch) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/vQ6Ko7n3V8s) [![Built at](https://img.shields.io/badge/Built%20at-FrostHacks%20S02-0052CC?style=flat-square)](https://frosthacks-s-2.devfolio.co)
+
+> Save Energy, Save your Money
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![PyTorch](https://img.shields.io/badge/PyTorch-333333?style=flat-square) ![Internet of Things (IoT)](https://img.shields.io/badge/Internet%20of%20Things%20(IoT)-333333?style=flat-square) ![MySQL](https://img.shields.io/badge/MySQL-333333?style=flat-square)
+
+**The problem it solves**
+
+Watt-Watch is an AI-driven system that transforms passive CCTV feeds into "smart" energy auditors. By distinguishing between active occupancy and empty, power-draining rooms, it eliminates the "phantom energy" traditional sensors miss—without disrupting quiet students.
+
+Facilities managers can use it to automate lighting adjustments in real-time, cutting costs and carbon footprints without expensive retrofits. It simplifies building oversight by providing actionable data, making campus operations more efficient, sustainable, and less reliant on manual energy checks.
+
+**Challenges we ran into**
+
+One of the most significant technical hurdles was establishing a seamless, low-latency synchronization between the edge IoT devices and our centralized server. Initially, the automation pipeline suffered from data bottlenecks and inconsistent state updates, where the system struggled to trigger real-time energy cut-offs based on rapidly changing visual metadata.
+We overcame this by integrating this with a Flask-SocketIO backend, we established a dedicated "live pipe" between the vision-processing server and the edge devices.
+
+This architecture solved the synchronization bottleneck by enabling the server to push state changes (e.g., "Room 402 is now empty") directly to the IoT controllers the millisecond the AI detected a change. This transformed a manual, high-latency process into an automated, event-driven pipeline that ensures the power grid responds at the speed of the visual data.
+
+**GREEN & SUSTAINABLE EARTH**
+
+Our project bridges the gap between infrastructure and ecology by repurposing existing visual data into "intelligent energy audits." By converting standard CCTV feeds into real-time occupancy detectors, we eliminate phantom energy loads without the high cost of hardware retrofits. This creates a scalable Smart City framework that achieves massive carbon reduction and quantifiable financial savings, proving that AI-driven "Ethical Surveillance" can prioritize resource optimization while strictly respecting individual privacy.
+
+Team **NanoDevs** -- [Jyotipriya Biswas](https://github.com/noob-master-jpb), [Sneha Mandal](https://github.com/alitacodes), [Subham Majumdar](https://github.com/Linux56ax), [Sayani Rana](https://github.com/Sayani966)
+
+`2026-03-28`
+
+---
+
+### TraceFlow
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/traceflow-b125) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Abhishek222983101/Paradigm_hn4) [![Built at](https://img.shields.io/badge/Built%20at-HackNiche%204.0-0052CC?style=flat-square)](https://hackniche4-0.devfolio.co)
+
+> AI-powered traceability for recycled materials.
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square)
+
+**The problem it solves**
+
+The recycling industry is a cornerstone of global sustainability, but its supply chain is notoriously opaque. Tracking a plastic bottle from a local scrap vendor, through the washing and shredding process, all the way to becoming a finished recycled pellet usually involves messy spreadsheets, manual data entry, and siloed software. 
+This lack of transparency causes three massive problems:
+1. It is incredibly difficult to calculate actual material yield and pinpoint where physical losses are happening on the factory floor.
+2. It is easy for fraudulent or non-compliant materials to slip into the supply chain.
+3. Companies struggle to prove their compliance for sustainability certifications and Extended Producer Responsibility (EPR) audits.
+TraceFlow AI solves this by providing an intelligent, end-to-end traceability platform specifically built for recycled materials. 
+We make the existing workflow significantly easier by allowing warehouse managers and floor workers to log inventory using natural language. Instead of navigating complex drop-down menus, a worker can simply type or speak, "Received 500kg of PET plastic from Vendor A and sent it to washing." Our NLP engine automatically extracts the entities and updates the database.
+We make the process safer and more transparent for plant operators by visualizing the exact journey of all materials using interactive Sankey diagrams. If a batch of plastic loses an unusual amount of weight during the washing phase, our integrated Machine Learning models (Isolation Forest and XGBoost) instantly flag the anomaly, allowing quality control teams to catch inefficiencies or theft in real-time.
+
+**Challenges we ran into**
+
+💥 The D3.js Sankey Crash
+The Bug: Our material flow visualization broke during backend integration. d3-sankey strictly requires numeric indices, but our database uses string-based IDs (like "INV-S4"), causing the canvas to crash with cryptic errors.
+
+The Fix: Instead of building fragile data-mapping dictionaries, we configured D3 natively to accept strings using .nodeId((d) => d.id). We paired this with a pre-render sanitization script to strip out circular loops and orphaned nodes. It rendered flawlessly on the first compile.
+
+🧠 Taming Unstructured Jargon
+The Hurdle: We wanted natural chat interactions, but parsing factory jargon with Regex was too brittle, and sending every message to a massive LLM was too slow and expensive.
+
+The Fix: We built a two-tier NLP pipeline. A lightweight, local DistilBERT model handles rapid intent classification (e.g., logging vs. querying). Only then do we ping Featherless API LLMs to extract specific entities. This architectural split slashed latency and made the bot highly accurate.
+
+Team **Paradigm** -- [Bhoomika Surve](https://github.com/bhoomisurve), [Abhishek Tiwari](https://github.com/Abhishek222983101)
+
+`2026-03-26`
+
+---
+
+### ERTH
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/erth-f625) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/lokesh-3s/Kabo_hn4) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://drive.google.com/file/d/1ZBwF1pI5s5QzFmocKumZ4nH4ckm4sBzY/view?usp=sharing) [![Built at](https://img.shields.io/badge/Built%20at-HackNiche%204.0-0052CC?style=flat-square)](https://hackniche4-0.devfolio.co)
+
+> Classify. Recycle. Sustain.
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![OpenCV](https://img.shields.io/badge/OpenCV-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![YOLOv3 Algorithm](https://img.shields.io/badge/YOLOv3%20Algorithm-333333?style=flat-square) ![Convolutional neural network (CNN)](https://img.shields.io/badge/Convolutional%20neural%20network%20(CNN)-333333?style=flat-square)
+
+**The problem it solves**
+
+This AI-powered pipeline tackles one of recycling's most persistent failures the misidentification and inconsistent sorting of plastic waste at scale. By combining an EfficientNet-B3 classifier (plastic type), CLIP-based recyclability grading (A/B/C condition scoring), and monocular depth estimation for volume measurement, the system transforms a single image of plastic waste into a structured, actionable output telling operators what the plastic is, whether it's worth recycling, and how much is there automatically replacing the slow, dangerous, and error-prone manual sorting that causes millions of tonnes of recyclable plastic to end up in landfills every year.
+
+**Challenges we ran into**
+
+The main hurdle was bridging the domain gap between lab photos and real conveyor footage. We tackled this with Focal Loss, WeightedRandomSampler, and SAM optimizer to find flatter loss minima that generalize better to unseen conditions. Inconsistent dataset labels required building a normalization pipeline, while the small conveyor dataset pushed us toward efficient architectures like YOLOv8-nano. Three-phase progressive training preserved pretrained knowledge while adapting to plastic classification, and confidence thresholding let us gracefully handle uncertainty. While the initial clean-test performance was excellent at 98.8%, the real-world gap taught us invaluable lessons about the importance of domain-specific data and robust optimization strategies, challenges we successfully addressed through principled engineering rather than shortcuts.
+
+Team **kabo** -- [Kashish Mandhane](https://github.com/KashProgramming), [Lokesh Sahuji](https://github.com/lokesh-3s), [Durvi Bangera](https://github.com/durvibangera), [Ishita Singh](https://github.com/ishitahq)
+
+`2026-03-26`
+
+---
+
+### EcoScan
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/ecoscan-8dc4) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/SwarikaaM/CodeRescue_hn4) [![Built at](https://img.shields.io/badge/Built%20at-HackNiche%204.0-0052CC?style=flat-square)](https://hackniche4-0.devfolio.co)
+
+> AI-driven plastic recognition.
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Firebase](https://img.shields.io/badge/Firebase-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![PyTorch](https://img.shields.io/badge/PyTorch-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+Plastic waste is one of the most critical environmental challenges due to its non-biodegradable nature and long-lasting ecological impact. Efficient recycling relies on correctly identifying plastic types, but most recycling facilities still depend on manual sorting, which is:
+
+**Slow** – processing large volumes of waste takes significant time.
+**Labor-intensive** – requires continuous human effort for inspection.
+**Error-prone** – dirt, deformation, or visually similar plastics often cause misclassification.
+
+Consequences of incorrect sorting include contamination of recycling streams, lower-quality recycled materials, and reduced economic value of plastics.
+
+Our project provides an AI-powered system that automatically classifies plastic waste from images, delivering:
+
+- Faster and more accurate recycling
+- Reduced human effort and errors
+- Improved quality of recycled materials
+- A scalable solution for sustainable waste management
+
+
+This system leverages computer vision and machine learning to handle real-world conditions like dirt, deformation, and lighting variations, making recycling safer, smarter, and more efficient.
+
+**Workflow:**
+
+![image](https://assets.devfolio.co/content/f9e2b9be261c46dc89e1cae9fc107a60/6f4800d7-68e1-46db-97f7-6a84ba99efa0.png)
+
+**Challenges we ran into**
+
+**1. Low accuracy on real-world images**
+- Model performed well on clean dataset images but struggled with dirty, deformed, or poorly lit waste.
+- Solution: Applied data augmentation (rotation, brightness, noise) and used transfer learning to improve generalization.
+
+**2. Visually similar plastic types**
+- Categories like PET and HDPE were hard to distinguish, leading to misclassification.
+- Solution: Fine-tuned model architectures and optimized hyperparameters for better feature extraction.
+
+**3. Model overfitting**
+- The model started memorizing training data instead of learning patterns.
+- Solution: Used regularization techniques, validation checks, and improved dataset diversity.
+
+**4. Backend integration issues**
+- Difficulty in connecting the trained model with the frontend for real-time predictions.
+- Solution: Built a FastAPI backend and created efficient API endpoints for image uploads and inference.
+
+Team **CodeRescue** -- [Sharanya Pillai](https://github.com/sharanyaa23), [Swarika Maurya](https://github.com/SwarikaaM), [Nikita Mulam](https://github.com/NikitaMulam2005)
+
+`2026-03-26`
+
+---
+
+### AaharIQ
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/aahariq-7d93) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/SarveshTikekar/SAASukeClan_hn4) [![Built at](https://img.shields.io/badge/Built%20at-HackNiche%204.0-0052CC?style=flat-square)](https://hackniche4-0.devfolio.co)
+
+> Market noise to restaurant moves, decoded.
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Django](https://img.shields.io/badge/Django-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square)
+
+**The problem it solves**
+
+In the current landscape, a single viral Reddit thread or a sudden dip in Google Maps ratings can determine whether a restaurant thrives or closes. While most owners are flooded with data, they lack the time to translate "social chatter" into a winning business strategy.
+**AaharIQ** acts as a bridge between fragmented digital noise and decisive physical action. People can use it to:
+
+- **Exit "Reactive Mode"**: 
+Instead of panicking after a negative trend goes viral, owners use Real-Time Social Listening to detect early warning signals and address service "defects" before they escalate
+
+- **Automate Professional Consulting**: 
+It eliminates the need for expensive manual audits by instantly populating 8 Strategic Frameworks (like SWOT, PESTEL, and the BCG Matrix) using live data from Google Reviews, Zomato, Magicpin, and niche foodie communities.
+
+- **Master the Hyperlocal Market**: 
+Managers can stop guessing what the competition is doing. The platform provides Competitor Benchmarking, allowing a side-by-side performance comparison against local rivals to identify exactly where they can reclaim market share.
+
+- **Bridge the Boardroom Gap**: 
+For enterprise-level hospitality groups, it transforms messy web data into "Boardroom-Ready" PDF reports. These reports use coordinate-based precision to present high-contrast visuals that justify strategic pivots to stakeholders.
+
+**AaharIQ** takes the "guesswork" out of hospitality. It makes the task of market analysis faster, competitive positioning sharper, and reputation management effortless, allowing restaurateurs to focus on what they do best: serving great food and providing a quality experience.
+
+**Challenges we ran into**
+
+Building a high-fidelity platform like **AaharIQ** in the 2026 hospitality climate came with significant technical and strategic hurdles. Here are the primary challenges we navigated to ensure the platform met the rigorous "Restaurant Oracle" requirements:
+
+- **The "Cold Start" Data Problem**: 
+We encountered severe review scarcity for newer or niche suburban restaurants. To overcome this, we implemented a Triangulated Delta Mapping engine that compensates for low volume by analyzing the broader "hyperlocal mean" of the sector.
+
+- **API Volatility (Featherless.ai)**:
+ During the integration of the required unique AI features, we faced the expiry of the provided Featherless.ai API key. We pivoted by building a modular intelligence layer that allowed us to swap in temporary inference mocks to maintain the "Insight-to-Action" flow until the enterprise credentials were restored.
+
+- **Meta’s Walled Gardens**: 
+Extracting clean data from Facebook and Instagram proved impossible without risking account bans due to gated models and aggressive anti-scraping measures. We made the strategic decision to exclude Meta sources to protect account integrity, instead deepening our integration with Zomato and Swiggy APIs to ensure "Traceable" and "Audit-Ready" intelligence.
+
+- **The Global vs. Hyperlocal Paradox**:
+ Balancing broad market trends with "street-level" signals was a perilous balancing act. We resolved this by engineering a Strategic Intelligence Matrix that filters macro-environmental data (PESTEL) through a hyperlocal discovery engine, ensuring the "Offensive Tactics" remained relevant to the restaurant's specific zip code.
+
+- **Framework Complexity**:
+ Populating 8 distinct strategic frameworks (like VRIO and Six Sigma) from fragmented social chatter was a massive logic hurdle. We moved beyond simple word clouds by using MECE Problem Architecture to ensure every customer complaint was deconstructed into mutually exclusive, actionable categories.
+
+Team **SAASukeClan** -- [Sarvesh Tikekar](https://github.com/SarveshTikekar), [Ketan Shelke](https://github.com/ketanshelke97), [Mangesh Gautam](https://github.com/Gautammangesh), [Arkaprabha Ghosh](https://github.com/Hrickthegeek)
+
+`2026-03-26`
+
+---
+
+### AI-BASED PLASTC WASTE TYPE AND GRADE
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/aibased-plastc-waste-type-and-grade-identification-28c8) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://drive.google.com/drive/folders/103Chj6MahjKxdfADAdpv0F-iftarRQlN?usp=sharing) [![Built at](https://img.shields.io/badge/Built%20at-HackNiche%204.0-0052CC?style=flat-square)](https://hackniche4-0.devfolio.co)
+
+> Turning Waste into Wisdom
+
+![TensorFlow](https://img.shields.io/badge/TensorFlow-333333?style=flat-square) ![PyTorch](https://img.shields.io/badge/PyTorch-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Computer Vision](https://img.shields.io/badge/Computer%20Vision-333333?style=flat-square) ![Streamlit](https://img.shields.io/badge/Streamlit-333333?style=flat-square)
+
+**The problem it solves**
+
+1. Smart Recycling 
+Automatically identifies plastic types (PET, HDPE, LDPE, PP, PS, Others) in real time.
+
+Reduces human error in manual sorting.
+Ensures cleaner, higher-quality recycled materials.
+
+2. Environmental Monitoring 
+Detects plastics in rivers, beaches, and public areas.
+
+Tracks plastic pollution quickly.
+Helps plan clean-up and recycling strategies.
+
+3. Education & Awareness 
+Shows how different plastics are recycled.
+
+Useful for schools, colleges, and workshops.
+Teaches proper segregation in an interactive way.
+
+4. Industrial Automation & Safety 
+Integrates with conveyor systems to sort plastics automatically.
+
+Prevents contamination in production lines.
+Makes handling hazardous plastics safer.
+
+Team **404 Error Not Found** -- [Soundarya Kolte](https://github.com/SoundaryaKolte?tab=repositories), [Shreya Chavan](https://github.com/Shreyachavan15), [Vaishnavi Nagane](https://github.com/nagane09)
+
+`2026-03-26`
+
+---
+
+### WasteLens
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/wastelens-345b) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/hi-karanb/TSM_Entity_hn4) [![Built at](https://img.shields.io/badge/Built%20at-HackNiche%204.0-0052CC?style=flat-square)](https://hackniche4-0.devfolio.co)
+
+> clean india green india
+
+![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![React.js](https://img.shields.io/badge/React.js-333333?style=flat-square)
+
+**The problem it solves**
+
+WasteLens AI is an intelligent recycling and waste management platform that simplifies complex operations through automation and AI. It helps industries, recycling units, and vendors efficiently track materials from purchase to processing and dispatch, reducing manual errors and improving transparency.
+
+The platform makes tasks easier by enabling natural language input, where users can simply type or speak data instead of filling long forms. Its multi-step workflows guide users through processes like tracking processed and lost material, ensuring accurate calculations and validation.
+
+With AI-powered analytics, users gain real-time insights into efficiency, loss percentage, and vendor performance, making decision-making faster and data-driven. The multi-agent system automates tasks like data extraction, analysis, and anomaly detection.
+
+Additional features like image-based waste classification, QR-based batch tracking, and a marketplace for trading materials enhance usability and traceability. Overall, it improves operational efficiency, reduces waste loss, and supports sustainable practices.
+
+**Challenges we ran into**
+
+so there were deployment issues on the vercel when i was deploying and there was connection of backend and frontend issues which we later resolved
+
+Team **TSM Entity** -- [Karan Banerjee](https://github.com/hi-karanb), [Faiz Moulavi](https://github.com/faizzz11), [Aaditya Mourya](https://github.com/mouryaaditya20), [SHREY MISHRA](https://github.com/SHREY275)
+
+`2026-03-26`
+
+---
+
+### mergeinfinity
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/mergeinfinity-ba16) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/EmaadAkhter/MergeInfinity_hn4) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://frontend-inky-gamma-68.vercel.app/) [![Built at](https://img.shields.io/badge/Built%20at-HackNiche%204.0-0052CC?style=flat-square)](https://hackniche4-0.devfolio.co)
+
+> AI-Based Plastic Waste Type & Grade Identification
+
+![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![OpenCV](https://img.shields.io/badge/OpenCV-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Vercel](https://img.shields.io/badge/Vercel-333333?style=flat-square) ![FastAPI](https://img.shields.io/badge/FastAPI-333333?style=flat-square) ![Render](https://img.shields.io/badge/Render-333333?style=flat-square)
+
+**The problem it solves**
+
+Plastic waste is rarely sorted correctly — most people can't identify plastic types (PET, HDPE, PP, etc.)
+Recyclers lose value due to mixed/misgraded plastic inputs
+No accessible tool exists for real-time plastic identification at the consumer level
+Leads to increased landfill waste and lost recycling revenue
+
+**Challenges we ran into**
+
+Training a lightweight CNN (MobileNetV3) with high accuracy on limited plastic image data
+Balancing model size vs accuracy — final model is only 5.9MB at 80.87% accuracy
+LLM API reliability — implemented Featherless AI → Qwen fallback chain
+MongoDB async integration with FastAPI without blocking inference
+Deploying model on Render with cold start latency issues
+
+Team **MergeInfinity** -- [Ayaan Shaikh](https://github.com/Ayaanshaikh12243), [Emaad Ansari](https://github.com/EmaadAkhter)
+
+`2026-03-26`
+
+---
+
+### emission-watchdog
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/emissionwatchdog-1917) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://emission-watchdog-codex-frontend.onrender.com/) [![Built at](https://img.shields.io/badge/Built%20at-DotSlash%209.0-0052CC?style=flat-square)](https://dotslash-9.devfolio.co)
+
+> From AQI number to guilty party — automatically.
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![NumPy](https://img.shields.io/badge/NumPy-333333?style=flat-square) ![pandas](https://img.shields.io/badge/pandas-333333?style=flat-square) ![SQLite](https://img.shields.io/badge/SQLite-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Leaflet.js](https://img.shields.io/badge/Leaflet.js-333333?style=flat-square)
+
+**The problem it solves**
+
+Millions breathe toxic air daily in Delhi. Tools like IQAir show you a number. 
+Nobody tells you *who caused it, when it will happen again, or what it's doing to your body.*
+
+
+### What's missing from existing tools
+
+- *IQAir / AQI Now* — shows current AQI, no history, no attribution
+- *CPCB Dashboard* — raw sensor data, no pattern detection
+- *Google Maps* — eco-routing for cars, nothing for pedestrians
+- *None of them* identify which industry is responsible
+
+### Who suffers
+
+- *Residents* — don't know why pollution spikes or when it will happen
+- *Parents* — can't decide when it's safe for children to go outside
+- *Regulators* — no automated system to catch repeat industrial violators
+- *Journalists* — no tool to investigate environmental accountability
+
+### What Emission Watchdog does
+
+We built an *accountability engine*, not a monitoring dashboard.
+
+- Detects anomalous pollution spikes using rolling Z-score analysis
+- Proves spikes follow a weekly schedule using chi-squared statistical testing
+- Attributes spikes to nearby industries using 4 signals: distance, wind direction, pollutant profile, and operating hours
+- Predicts next spike up to 24 hours in advance
+- Translates AQI into human terms — "breathing this air = smoking 15 cigarettes today"
+- Tracks how many days per month each area violated CPCB legal limits
+- Sends automated email alerts to regulators when a severe spike is detected
+
+
+### The core discovery
+
+*Pollution spikes in Delhi follow weekly schedules.*
+
+- Mundka: every Wednesday 8pm
+- Siri Fort: every Wednesday 4am  
+- Delhi city-wide: every Sunday 3am
+
+Statistically proven on real CPCB data (p < 0.001). A 4am Wednesday spike is not 
+traffic. It is not weather. *It is a scheduled industrial activity — and now we can prove it.*
+
+**Challenges we ran into**
+
+### 1. No free historical AQI data existed
+
+Our entire project depends on detecting patterns over time — but WAQI's free API 
+only gives current readings. We tried three sources before finding one that worked:
+
+- *WAQI historical API* → requires paid plan. Dead end.
+- *OpenAQ API* → changed to require API keys mid-build, then rate-limited us. 
+  Pulling 1 year of hourly data for 13 stations would have taken 6+ hours.
+- *Kaggle CPCB Dataset* → finally found 219,125 real hourly readings from 5 NCR 
+  cities. Free, official government data.
+
+We wrote a custom importer to load it into our database — and the Sunday 3am spike 
+pattern we discovered is a genuine statistical finding on real CPCB data.
+
+### 2. Attribution was scientifically weak
+
+Our first version attributed spikes using only proximity — "closest factory is 
+responsible." A mentor pointed out this is guesswork, not evidence.
+
+*Fix:* Rebuilt attribution with 4 independent signals:
+- *Distance* (25%) — GPS proximity via Haversine formula
+- *Wind alignment* (30%) — is the facility upwind at spike time?
+- *Pollutant fingerprint* (25%) — does the chemical profile match the facility type?
+- *Schedule match* (20%) — does spike timing match known operating hours?
+
+Four converging signals is evidence. One signal is guesswork.
+
+**GreenTech**
+
+The GreenTech track asks for software solutions that improve **sustainability, 
+environmental awareness, and efficient resource usage.** Emission Watchdog 
+addresses all three directly:
+
+- **Environmental awareness** — we don't just show AQI numbers, we prove *who* 
+  is causing pollution, *when* they do it, and *how often* — turning passive 
+  awareness into actionable accountability
+- **Sustainability** — by identifying repeat industrial violators with statistical 
+  proof, we create a tool that can drive real regulatory action and force polluters 
+  to clean up operations
+- **Resource usage** — regulators currently spend enormous time manually reviewing 
+  sensor data to identify violations. Our system automates this entirely — one API 
+  call delivers a statistically proven case for inspection
+
+Team **codex123** -- Kunal Maka, [Nishant Sharma](https://github.com/Nishant-NITG)
+
+`2026-03-22`
+
+---
+
+### GreenO
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/greeno-ccfb) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://drive.google.com/file/d/1CFHUhSmxoOEWhH29c88z5MoY9SV8WhTB/view?usp=drive_link) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/wEKyCYb84_0) [![Built at](https://img.shields.io/badge/Built%20at-DotSlash%209.0-0052CC?style=flat-square)](https://dotslash-9.devfolio.co)
+
+> Orchestrate your energy
+
+![Express.js](https://img.shields.io/badge/Express.js-333333?style=flat-square) ![Prism.js](https://img.shields.io/badge/Prism.js-333333?style=flat-square) ![FastAPI](https://img.shields.io/badge/FastAPI-333333?style=flat-square) ![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-333333?style=flat-square) ![React.js](https://img.shields.io/badge/React.js-333333?style=flat-square) ![Razorpay API](https://img.shields.io/badge/Razorpay%20API-333333?style=flat-square) ![Reinforcement learning](https://img.shields.io/badge/Reinforcement%20learning-333333?style=flat-square) ![RAG](https://img.shields.io/badge/RAG-333333?style=flat-square)
+
+**The problem it solves**
+
+GreenO solves a critical challenge facing modern manufacturing: **how to maximize renewable energy utilization while optimizing operational costs and minimizing carbon footprint in real-time**.
+
+**For factory operators and energy managers:**
+- **Real-time Energy Routing**: Intelligently directs solar power to HVAC systems, essential machinery, and battery storage based on instantaneous grid prices and carbon intensity
+- **Automated Optimization**: Eliminates manual energy scheduling guesswork with RL-driven agents that continuously learn and adapt to operational patterns
+- **Cost Savings**: Arbitrage opportunities between battery storage and grid pricing can reduce energy costs by 20-30%
+- **Carbon Accountability**: Tracks grid carbon intensity and prioritizes renewable consumption, supporting ESG reporting and regulatory compliance
+- **Subscription-Protected Analytics**: Enterprise-grade analytics dashboards with real-time SSE streaming, protected subscription verification, and audit trails for compliance
+
+**Without GreenO**: Factories either overspend on grid energy, underutilize solar capacity, or rely on static rule-based systems that can't adapt to market changes. With GreenO, energy decisions become **intelligent, data-driven, event-driven, and continuous**.
+
+**Challenges we ran into**
+
+### **Challenge 1: RL Model Training for Time Series Data & Data Leakage Prevention**
+
+**Problem**: Training RL agents on factory energy time series introduced critical data leakage:
+- **Future Information Leakage**: Agents saw future grid prices and solar output, making decisions unrealistically perfect
+- **Temporal Dependencies**: During training the timeseries data is continues in timestamp but in our system the infranceing of RL agent is uneven.
+- **Distribution Shift**: Training on 2023 data vs. 2026 production patterns with different renewable penetration
+- **Episode Boundaries**: Day/night cycles and factory operating hours were ignored
+
+**Solution**: Strict temporal validation framework:
+
+1. **Time-Aware Data Splitting**: 
+   - Training: Jan-Aug 2023 | Validation: Sep-Oct 2023 | Test: Nov-Dec 2023 (sine of temporal features)
+   - Temporal boundaries enforced in `greeno_orchestrator.onnx`
+
+2. **Causal Windowing**:
+   - Agent observes only current window
+   - Future features (solar_forecast, grid_price) explicitly excluded
+   - Realistic 3-5 ms action latency
+
+3. **Episode Segmentation**:
+   - Split trajectories at midnight (reset battery assumptions)
+   - Separate training for peak (06:00-22:00) vs. off-peak (22:00-06:00) hours
+   - Stratified sampling across seasons
+
+4. **Distribution Shift Mitigation**:
+   - `norm_stats.npz` stores 2023 mean/std with monthly retraining triggers
+   - Novelty detection for out-of-distribution states (>80% solar penetration)
+
+5. **Validation Metrics**:
+   - Leakage detector: Evaluate on shuffled future timesteps (performance should drop)
+   - Causality check: Mask future features and measure reward degradation
+   - Production sim: Test on 2026 data with distribution shifts
+
+---
+
+### **Challenge 2: Real-time RL Orchestration with Event-Driven Architecture**
+
+**Problem**: Integrating ONNX-based RL models with real-time decision-making across a distributed event bus required careful orchestration. The RL agent needed to:
+- Process streaming telemetry data without blocking
+- Generate optimized decisions within <100ms
+- Propagate decisions through Kafka for async consumption
+- Handle variable input states (weather, grid prices, battery SOC)
+
+**Solution**: Implemented an **event-driven orchestration pipeline**:
+1. Telemetry events trigger RL inference via FastAPI
+2. Decision events published to Kafka topic
+3. Express backend consumes decisions from Kafka consumer group
+4. Real-time decision streaming to frontend via SSE
+
+Used ONNX Runtime for sub-10ms inference and normalized state preprocessing (SB3 epsilon clipping) to handle edge cases.
+
+---
+
+### **Challenge 3: Kafka Integration for Decision Propagation**
+
+**Problem**: Kafka consumer lag and exactly-once semantics were critical since energy decisions can't be missed or duplicated.
+
+**Solution**: Implemented consumer groups with offset management:
+- Each RL decision assigned unique monotonic timestamp
+- DuckDB stores decision outcomes for idempotency checks
+- Graceful handling of late-arriving events (within 5-minute window)
+- Monitoring dashboard tracks Kafka lag across producers/consumers
+
+This ensured **100% decision delivery** without duplication across concurrent streams.
+
+**GreenTech**
+
+GreenO is a **real-time RL-driven energy orchestration platform** that directly addresses the GreenTech challenge of optimizing renewable energy utilization in manufacturing.
+
+### Environmental Impact
+- **Carbon Reduction**: Maximizes solar/wind consumption during generation peaks, reducing reliance on grid carbon-intensive power
+- **Demand-Side Management**: Smart battery/load orchestration shifts heavy operations to renewable-rich periods, cutting facility carbon footprint
+- **Grid Stabilization**: By predictably consuming renewable energy, GreenO reduces wind/solar curtailment waste
+
+### Core Innovation
+Our ONNX-based RL agent learns optimal energy routing decisions by observing:
+- Real-time solar/wind generation
+- Grid carbon intensity (time-varying mix)
+- Battery state & thermal inertia
+- Factory operating patterns
+
+The system maximizes **renewable energy utilization**.
+
+Team **Concurrents** -- [Devan Chauhan](https://github.com/Devan019), [Zeel Javia](https://github.com/ZeelJavia), [Milan Bhadarka](https://github.com/milanbhadarka), [Manil Modi](https://github.com/ManilModi)
+
+`2026-03-22`
+
+---
+
+### JunkIn
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/junkin-12f5) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/sajeed69/JunkIn) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://junkin-seven.vercel.app/) [![Built at](https://img.shields.io/badge/Built%20at-Hack--Nocturne%202.O-0052CC?style=flat-square)](https://hack-nocturne-2.devfolio.co)
+
+> AI-Powered Recycling & Resale,Turn Junk Into Value
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![JWT](https://img.shields.io/badge/JWT-333333?style=flat-square) ![Express.js](https://img.shields.io/badge/Express.js-333333?style=flat-square) ![MongoDB Atlas](https://img.shields.io/badge/MongoDB%20Atlas-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+JunkIn is a production-ready, scalable hybrid platform that maximizes the value of unwanted items through a dual-mode approach: Reuse (Marketplace) and Scrap (Recycling).
+Powered by an AI Decision Engine, JunkIn analyzes every item to recommend whether it should be sold to a neighbor or professionally recycled for its material value.
+🚀 Key Features
+AI-Driven Decision Engine: Instantly analyzes items (images/text) to provide resale and scrap value estimates.
+Rare Item Detection: AI-powered rarity analysis that performs web searches to identify high-value/limited-edition items for collectors.
+Collector Bidding Marketplace: Dedicated auction-style platform where verified collectors can bid on rare items detected by AI.
+Eco Rewards Gift Card System: Gamified incentive system where users earn Eco Points for sustainable actions and unlock scratch cards for digital gift cards.
+Dual-Mode Marketplace:
+Reuse Mode: Peer-to-peer marketplace for functional items.
+Scrap Mode: Scheduled professional pickups for recyclables with transparent pricing.
+Kabadiwala Interface: Dedicated dashboard for scrap collectors with real-time request tracking and digital receipts.
+Admin Control Panel: Full platform monitoring, commission management, and scrap rate configuration.
+Digital Receipts: Automated PDF generation for every scrap transaction.
+Environmental Impact Tracking: CO2 savings calculation for every item diverted from landfills.
+Requestly API Client Integration: Built-in API interception tool for real-time market simulation and dynamic recommendation testing.
+
+**Challenges we ran into**
+
+For the JunkIn hybrid reuse–scrap platform, the three major challenges you can mention are:
+
+1. AI Decision Engine Accuracy
+
+The biggest challenge was designing the AI model that decides whether an item should be reused (sold) or scrapped.
+
+Many items have uncertain conditions from images.
+
+Some items have both resale and scrap value, making classification difficult.
+
+Limited datasets for training models on second-hand or waste items.
+
+2. Real-Time Price Estimation for Scrap Materials
+
+Scrap values depend on dynamic market prices of metals, plastics, and electronics.
+
+Prices change frequently across locations.
+
+Maintaining accurate and updated scrap rates required building an admin system to configure rates dynamically.
+
+Incorrect pricing could affect user trust in the platform.
+
+3. Integration of Dual Marketplace System
+
+The platform combines two completely different workflows:
+
+Peer-to-peer resale marketplace
+
+Scrap pickup and recycling logistics
+
+Building a system where the AI automatically routes items to the correct mode while maintaining a smooth user experience was technically complex.
+
+**Creative Use of Requestly**
+
+Requestly API Client — Feature & Usage
+JunkIn integrates a built-in Requestly-inspired API Client that allows real-time interception and modification of backend API responses. This enables dynamic market simulation without changing any backend code.
+
+🎯 Purpose
+The Requestly API Client demonstrates how real-time market data changes directly affect JunkIn's AI recommendation engine. By intercepting API responses, users can simulate scenarios like scrap price surges or demand crashes and watch the AI recommendation update live.
+📖 How to Use
+Step 1: Open AI Analysis Page
+List an item on JunkIn → Navigate to the AI Analysis results page.
+You'll see the Live Market Rates card showing current scrap prices.
+Step 2: Enable Simulation Mode
+Toggle the "Simulation Mode" switch in the top-right header.
+This reveals the Future Value Simulator panel with 3 scenario buttons.
+Step 3: Run a Scenario
+Click any scenario (e.g., "Scrap Market Price Surge").
+Watch the Today vs Future Scenario comparison appear instantly.
+The AI recommendation dynamically recalculates based on modified prices.
+Step 4: Use the Requestly API Client (Advanced)
+From the AI Analysis page (with Simulation Mode ON), click "OPEN API CLIENT".
+This opens the full Requestly API Client interface at /requestly-client.
+Select an endpoint from the sidebar (e.g., Scrap Prices).
+Edit the JSON response body with custom values.
+Click "Save & Intercept" to mock the API response.
+Return to the AI Analysis page — your custom data is now active.
+Step 5: Observe Reactive Changes
+Open your browser DevTools Console (F12 → Console tab).
+Look for green [REQUESTLY DEMO] and [REQUESTLY CLIENT] log messages.
+These show exactly how intercepted data flows through the recommendation engine.
+
+![image](https://assets.devfolio.co/content/c0cfa8de67bd4bebb9692b010b3e36a4/d5abe9f0-94f7-4b6f-a808-1e1cc512d5a6.png)
+
+![image](https://assets.devfolio.co/content/c0cfa8de67bd4bebb9692b010b3e36a4/6e6afcb9-585c-4268-959c-cd7d305ce81c.png)
+
+Team **Kaizen** -- [Divyanshu Raj](https://github.com/divyanshuraj1095), [Sajeed Ahmed](https://github.com/sajeed69), [Sankalp Suman](https://github.com/s8sankalp)
+
+`2026-03-16`
+
+---
+
+### EcoLedger
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/ecoledger-f6dc) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/hrishitashenvi144/Team_Smash) [![Built at](https://img.shields.io/badge/Built%20at-Hack--Nocturne%202.O-0052CC?style=flat-square)](https://hack-nocturne-2.devfolio.co)
+
+> Scrap to Supply
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+ScrapToSupply
+
+Turning industrial waste into opportunity.
+A platform that connects businesses with surplus materials to businesses that can reuse them, while calculating the environmental and economic impact of that reuse.
+
+Problem:
+Industries generate large amounts of surplus and waste materials every year.
+Most of this waste ends up in landfills even though many of these materials could still be useful to other businesses.
+
+There is currently no simple system that helps industries discover, exchange, and evaluate the impact of reusing these resources.
+
+Solution:
+
+ScrapToResource is a platform that enables businesses to:
+
+- List surplus or waste materials
+- Discover usable resources from other businesses
+- Exchange these materials instead of discarding them
+- Calculate the environmental and economic impact of reuse
+
+The system promotes industrial symbiosis and circular economy practices.
+
+Key Features
+
+Waste / surplus material listing
+Resource discovery between businesses
+Environmental impact estimation
+Economic value estimation
+Landfill reduction tracking
+Dashboard visualization of impact metrics
+Impact Metrics Calculated
+
+The platform estimates three key sustainability indicators:
+
+1.CO₂ Emissions Saved
+Estimated emissions avoided by reusing waste instead of producing new raw materials.
+2.Landfill Reduction
+Amount of waste diverted from landfills through reuse.
+3.Economic Value Generated
+Estimated market value created by converting waste into usable material.
+
+How It Works
+
+A business lists a surplus resource (type, quantity, location).
+Other businesses can view and request the resource.
+When the material is reused, the system calculates:
+CO₂ saved
+landfill reduction
+estimated economic value
+
+These values are calculated using resource-specific impact factors.
+
+Tech Stack
+
+Backend:
+Python
+FastAPI
+
+Frontend:
+React
+
+Database:
+MongoDB
+
+AI / Data Component:
+Python-based impact estimation model
+
+Example Scenario:
+
+A furniture manufacturer generates 500 kg of wood scrap.
+Instead of sending it to a landfill:
+A packaging company claims the material.
+
+The system estimates:
+CO₂ emissions saved
+landfill waste avoided
+economic value generated
+
+This transforms waste into a usable resource.
+
+Future Improvements:
+
+Real-time industry matchmaking
+Logistics optimization
+Verified environmental impact datasets
+AI-based waste-resource matching
+Industry-specific material marketplaces
+
+Team **SMASH** -- [Hrishita S](https://github.com/hrishitashenvi144), [MAMTHA D](https://github.com/dmamtha9468-sudo), [P Saranya](https://github.com/SaranyaPadala), [Samiksha Singi](https://github.com/Samikshagit-07)
+
+`2026-03-16`
+
+---
+
+### S.A.R.A.
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/sara-8693) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/johanesronin22/SARA) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://www.canva.com/design/DAHEMqbkwRE/14zdBI_o4OLMIxcdyAXfPA/edit?utm_content=DAHEMqbkwRE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.loom.com/share/76d7675a463c4b77a0abb92005f4ecdc) [![Built at](https://img.shields.io/badge/Built%20at-HackNova%203.0-0052CC?style=flat-square)](https://hacknova-3.devfolio.co)
+
+> Stock Analysis and Recommendation AI
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square)
+
+**The problem it solves**
+
+Beginners often struggle to invest in stocks due to confusion, fear, and lack of proper guidance, and this is exactly where SARA steps in. The stock market can feel overwhelming, filled with complex terms, data, and charts that are difficult to understand without prior knowledge. Many people don’t know how to choose the right stocks or even grasp basic financial concepts, creating a strong barrier to entry. On top of that, the fear of losing money discourages them from starting, while those who do invest often make emotional decisions, buying at high prices out of excitement or selling during market drops out of panic. Most available advice online is generic and not tailored to individual needs, leaving users without personalized direction based on their budget, goals, or risk tolerance. Additionally, beginners usually lack the time and expertise to research companies and market trends, making informed decision-making even harder. There is also no clear strategy for when to buy, sell, or hold investments, and trust issues arise when users are asked to rely on random tips without proper explanations. SARA solves all of these problems by acting as an intelligent, beginner-friendly financial companion, simplifying complex information, offering personalized recommendations, reducing emotional bias with data-driven insights, and making the entire investing process easy, transparent, and accessible for everyone.
+
+**Challenges we ran into**
+
+Building SARA came with a few key challenges, such as simplifying complex financial data for beginners, ensuring the AI gives accurate and personalized recommendations, and designing a clean, easy-to-use interface. We also had to be careful to provide responsible insights without misleading users, all while working within tight hackathon time constraints.
+
+Team **FinNova** -- Anagha Mithra, Sravan Salimkumar, amodini A, Johanes Aryo Noegroho
+
+`2026-03-17`
+
+---
+
+### Waste Wise
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/waste-wise-5eb7) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Natansh11/WasteSort) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://waste-wise1.vercel.app/insights) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.loom.com/share/f2e797ba7e2e44d6bef7f1eee41f7fb8) [![Built at](https://img.shields.io/badge/Built%20at-HackNova%203.0-0052CC?style=flat-square)](https://hacknova-3.devfolio.co)
+
+> identifies recyclable materials and contamination
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![YOLOv3 Algorithm](https://img.shields.io/badge/YOLOv3%20Algorithm-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+Team **TP306** -- C Vaishnavi, Natansh Natansh
+
+`2026-03-17`
+
+---
+
+### FocusTube
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/focustube-debc) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Vanshika490/FocusTube/tree/pr-changes) [![Built at](https://img.shields.io/badge/Built%20at-Electrothon%208.0-0052CC?style=flat-square)](https://electrothon-8.devfolio.co)
+
+> Optimized YouTube Learning Environment
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Express.js](https://img.shields.io/badge/Express.js-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+The Problem:
+Students use YouTube to learn but YouTube is built to keep you watching, not learning. There's no study mode, no intent tracking, no accountability. A student opens YouTube to study DSA and 40 minutes later they're watching Silicon Valley or The Imitation Game — not because they're lazy, but because the platform has no concept of their goal.
+
+What FocusTube Solves:
+A focused study companion that sits on top of YouTube — you set a goal, it finds the best educational content, tracks your session timer, detects the moment you drift off topic using AI, and quizzes you at the end to reinforce learning
+
+**Challenges we ran into**
+
+1. Stateless backend losing goal context
+The biggest one. Every search request was stateless so goal and session_id were undefined on the backend. Gemini had nothing to compare against so classification never fired. Fixed by persisting goal server-side in sessionGoals{} and generating a UUID session_id in localStorage on the frontend.
+2. Gemini analysis silently failing
+The catch block only logged err.message — when Gemini returned malformed JSON the error was swallowed completely with no visibility. Fixed by logging the raw Gemini response before parsing and making the JSON extraction non-greedy.
+3. Zero results blocking Gemini
+When a query like "taylor swift" returned 0 educational results after filtering, the condition finalResults.length > 0 prevented Gemini from running at all — so off-topic searches never got flagged. Fixed by moving Gemini analysis before the YouTube fetch entirely, making it query-based not result-based.
+4. buildQueryWithGemini polluting searches
+An earlier version appended suffixes like "lecture explained tutorial" to every query via Gemini. This hurt result quality and added unnecessary API latency. Removed entirely — raw query now goes straight to YouTube.
+5. MODULE_NOT_FOUND crash on startup
+@google/generative-ai was used in quiz.js but not installed in the Backend's node_modules. Fixed with npm install @google/generative-ai in the Backend folder.
+
+**Google Cloud**
+
+FocusTube uses Gemini API as its core intelligence in two ways:
+1. Real-time Rabbit Hole Detection
+Every search query is sent to Gemini along with the user's study goal and session history. Gemini classifies intent as on_topic, related_educational, rabbit_hole, off_topic, or entertainment. This isn't a keyword filter — it's contextual reasoning. Gemini understands that "the imitation game" is a Turing biopic and a rabbit hole for a DSA student, while "turing machine tutorial" is on topic. No hardcoded rule could make that distinction. Session history is passed with every call so Gemini gets smarter about repeat offenses within the same session.
+2. Dynamic Quiz Generation
+After each session Gemini generates a fresh 5-question quiz tailored to exactly what the user watched — not a static question bank.
+Why it fits the Gemini track:
+The entire product value depends on Gemini being right. It's not a feature — it's the reason the product works. Without Gemini, FocusTube is just a YouTube search bar.
+
+Team **Nullptr** -- [Vanshika Sharma](https://github.com/Vanshika490), [Rakhi Badhan](https://github.com/Rakhi-web579), [Zulikha Banoo](https://github.com/zulikha-star)
+
+`2026-03-15`
+
+---
+
+### VanDoot
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/vandoot-b3a0) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Mansi249/Vandoot_project) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/a5oWSf7bEqA?si=gNKIsYsC1BSv-9Mc) [![Built at](https://img.shields.io/badge/Built%20at-Electrothon%208.0-0052CC?style=flat-square)](https://electrothon-8.devfolio.co)
+
+> Messenger of Forest
+
+![Arduino IDE](https://img.shields.io/badge/Arduino%20IDE-333333?style=flat-square) ![C++](https://img.shields.io/badge/C++-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![ESP-32 WiFi Module](https://img.shields.io/badge/ESP--32%20WiFi%20Module-333333?style=flat-square)
+
+**The problem it solves**
+
+Forests are difficult to monitor continuously due to their large geographical areas and limited connectivity. Traditional monitoring systems often rely on a single detection source such as cameras or smoke sensors, which frequently produce false alarms caused by environmental conditions like lighting changes, animal movement, or natural smoke sources. These false alerts waste valuable time and resources for forest rangers and can delay responses to real threats such as wildfires or illegal human activities.
+
+Additionally, raw monitoring data collected from remote sensing systems is difficult to interpret at scale. Rangers and monitoring teams require tools that not only detect events but also help them understand long-term patterns in forest activity. There is a need for a system that can combine edge detection, sensor verification, and intelligent analysis to provide reliable alerts and meaningful insights for forest monitoring
+
+**Electrothon 8.0 Honors Track**
+
+BEST HARDWARE TRACK
+VanDoot is fundamentally a hardware-driven system designed for real-world deployment in remote forest environments. The core detection layer runs directly on an ESP32-CAM microcontroller, where a lightweight TinyML MobileNet model performs on-device image classification to detect events such as fire, human presence, or animal activity. Running the model at the edge allows the system to operate in areas with limited or no internet connectivity while maintaining low power consumption.
+
+In addition to the vision module, the system integrates multiple environmental sensors such as smoke, thermal, PIR motion, and audio sensors. These sensors provide additional environmental signals that help verify visual detections. A Random Forest model performs sensor fusion using these inputs to reduce false alarms and improve detection reliability.
+
+By combining embedded AI inference, physical sensor integration, and edge-based decision making, VanDoot demonstrates a complete hardware-software monitoring pipeline. The hardware layer performs real-time detection and logging, while the cloud-based analytical layer uses Gemini to interpret long-term monitoring data and generate actionable environmental insights.
+
+**Best Use of Gemini 3 [Google Deepmind]**
+
+VanDoot uses the Gemini API as an intelligence layer that analyzes monitoring data generated by the edge detection system. The primary detection pipeline operates on hardware using an ESP32-CAM running a TinyML MobileNet model that classifies images into categories such as fire, human, animal, or empty scenes. In addition, environmental sensors such as smoke, thermal, PIR motion, and audio provide supporting signals. These inputs are combined using a Random Forest classifier to perform sensor fusion and verify potential threats while reducing false alarms.
+
+The system logs significant monitoring events over time. Instead of presenting these logs as raw data, the Gemini API is used to analyze aggregated monitoring summaries and convert them into natural language ecological reports. Gemini processes the structured event statistics and generates explanations describing patterns such as wildlife movement trends, potential human intrusion, or indicators of wildfire risk.
+
+The Streamlit dashboard serves as the interface where users upload or select monitoring logs, which are then summarized and sent to Gemini for analysis. By leveraging Gemini’s reasoning and natural language generation capabilities, VanDoot transforms low-level detection logs into actionable insights that can help forest rangers better understand environmental activity and respond to threats more effectively.
+
+Team **VanDoot** -- [Hardik Matta](https://github.com/Hardikmatta), [Mansi Sangwan](https://github.com/Mansi249), [Aadrit Kuthialia](https://github.com/Aadrit-sys), [Gaurav .](https://github.com/gaurav2175)
+
+`2026-03-15`
 
 ---
 

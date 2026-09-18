@@ -1,6 +1,6 @@
 # Social Impact and Education
 
-![Projects](https://img.shields.io/badge/Projects-51-4B32C3?style=flat-square) [![GitHub](https://img.shields.io/badge/GitHub-tech--anupam-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/tech-anupam) [![Instagram](https://img.shields.io/badge/Instagram-tech.anupam-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/tech.anupam)
+![Projects](https://img.shields.io/badge/Projects-87-4B32C3?style=flat-square) [![GitHub](https://img.shields.io/badge/GitHub-tech--anupam-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/tech-anupam) [![Instagram](https://img.shields.io/badge/Instagram-tech.anupam-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/tech.anupam)
 
 [← Back to all themes](https://github.com/tech-anupam/hackfolio#readme)
 
@@ -486,6 +486,240 @@ Team **Jinn Coderzs** -- [TARUN KUMAR](https://github.com/tarun05108), [Somobrat
 
 ---
 
+### Local Services
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/local-services-321f) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/expertcoder06/localServices.git) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://local-services-q53h.vercel.app/) [![Built at](https://img.shields.io/badge/Built%20at-FrostHacks%20S02-0052CC?style=flat-square)](https://frosthacks-s-2.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-3-FF6B6B?style=flat-square)
+
+> Connecting community with trusted providers
+
+![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Git](https://img.shields.io/badge/Git-333333?style=flat-square) ![GitHub](https://img.shields.io/badge/GitHub-333333?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=flat-square) ![Nodemailer](https://img.shields.io/badge/Nodemailer-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+![image](https://assets.devfolio.co/content/6d710d53b33149d0b20556d68abbb073/a589e261-4121-4da0-9411-0e39f83f63e5.jpeg)
+
+🚨 The Problem It Solves
+1. 🔍 Difficulty in Finding Reliable Service Providers
+
+People struggle to find trusted local professionals like electricians, plumbers, or tutors.
+➡️ Most options rely on:
+
+Word-of-mouth
+Unverified contacts
+
+❌ Result: Low trust and poor service quality
+
+2. 🛡️ Lack of Trust & Verification
+
+There is no proper system to verify:
+
+Identity of providers
+Skill authenticity
+
+➡️ This creates a high risk of fraud and fake profiles.
+
+3. 💰 Unclear & Unpredictable Pricing
+
+Customers often don’t know:
+
+Final cost
+Hidden charges
+
+❌ Result: Disputes and hesitation in booking services
+
+4. ⏱️ Time-Consuming Process
+
+Finding and contacting providers involves:
+
+Multiple calls
+Waiting for responses
+
+➡️ Leads to delays and frustration
+
+5. 📍 Inefficient Local Matching
+
+No efficient way to:
+
+Find nearby providers
+Compare options quickly
+
+➡️ Results in wasted time and effort
+
+6. 📉 No Performance Tracking
+
+There is no system to track:
+
+Provider reliability
+Job completion rate
+Response time
+
+➡️ Users cannot make data-driven decisions
+
+7. ❌ Poor Communication & Coordination
+
+Lack of:
+
+Real-time updates
+Booking confirmations
+
+➡️ Leads to miscommunication and missed appointments
+
+**Challenges we ran into**
+
+![image](https://assets.devfolio.co/content/6d710d53b33149d0b20556d68abbb073/fb2c308e-e0f8-4cc7-a9ca-b46ec6775328.jpeg)
+🚧 Challenges We Ran Into
+1. 🔍 Service Standardization Across Categories
+
+We needed to support multiple services like electricians, tutors, and plumbers.
+➡️ Each service has different workflows and pricing models, making it difficult to design a unified system architecture.
+
+2. 🛡️ Provider Verification & Fake Profile Prevention
+
+Ensuring that service providers are genuine was a major challenge.
+➡️ We planned facial recognition-based authentication, but implementing accurate real-time face matching within the hackathon timeframe was complex.
+
+3. 😓 Face Recognition Implementation Challenge (IMPORTANT)
+
+We faced difficulties in:
+
+Matching uploaded images with live camera input
+Handling lighting, angles, and image quality
+Achieving real-time performance in the browser
+
+➡️ Due to these constraints, we implemented a face detection + alternative verification approach, while keeping the system ready for full face recognition integration in future.
+
+4. ⏱️ Real-Time Booking & Response Handling
+
+Users expect instant booking confirmations and provider responses.
+➡️ Managing real-time updates, chatbot replies, and availability sync caused latency challenges.
+
+5. 💰 Dynamic Pricing Complexity
+
+We designed pricing based on:
+
+Demand
+Availability
+Ratings
+
+➡️ Creating a fair and understandable pricing model without confusing users was difficult.
+
+6. 📍 Location-Based Matching
+
+Matching users with nearby providers required:
+
+Radius-based filtering
+Efficient location queries
+
+➡️ Balancing accuracy and performance was challenging.
+
+7. 📅 Scheduling & Time Slot Conflicts
+
+Implementing:
+
+Provider availability
+Booking slots
+Conflict handling
+
+➡️ Avoiding double bookings and overlapping schedules was a key issue.
+
+8. 🤖 Chatbot Integration
+
+We integrated a chatbot to assist users.
+➡️ Challenge was making it:
+
+Context-aware
+Fast
+Useful for booking decisions
+9. 📧 Notification System
+
+Sending booking confirmations via email required reliability.
+➡️ Ensuring instant and consistent delivery was tricky during development.
+
+10. ⚖️ Handling Cancellations & Penalties
+
+We introduced penalties for both users and providers.
+➡️ Designing a fair and logical penalty system for different scenarios was complex.
+
+These challenges helped us design a more scalable and practical system, where we prioritized reliability, user experience, and future extensibility over incomplete implementations
+
+**OPEN INNOVATION**
+
+![image](https://assets.devfolio.co/content/6d710d53b33149d0b20556d68abbb073/ef44d6b0-7638-480f-935c-d2428e617c3e.png)
+
+Our platform allows any local service provider (plumbers, electricians, tutors, etc.) to join and offer services.
+➡️ This creates an inclusive and open marketplace, instead of a closed system.
+
+🤝 2. Community-Driven Trust System
+
+We don’t rely on a central authority only.
+➡️ Trust is built using:
+
+User ratings
+Reviews
+Completed jobs
+Response time
+
+👉 This means users themselves contribute to improving the platform, which is a core idea of open innovation.
+
+🔄 3. Continuous Feedback Loop
+
+Customers and providers both:
+
+Give feedback
+Rate each other
+Influence visibility and trust score
+
+➡️ The system evolves continuously based on real user input, not static rules.
+
+🧠 4. Integration of AI & Open Technologies
+
+We use:
+
+Chatbots
+Scalable MERN stack
+Future-ready APIs (face recognition, etc.)
+
+➡️ The system is designed to integrate new technologies easily, making it adaptable and innovative.
+
+🌐 5. Solving Real Community Problems
+
+Open Innovation focuses on real-world impact.
+➡️ Our project:
+
+Reduces search time for services
+Increases income opportunities for local workers
+Builds trust in the informal sector
+
+👉 This directly benefits the local community ecosystem.
+
+🔗 6. Modular & Extensible Architecture
+
+Our system can easily expand to:
+
+New service categories
+New cities
+New features (AI, verification, payments)
+
+➡️ This makes it an open and scalable innovation platform, not a fixed product.
+
+⚡ 7. Collaboration Between Multiple Stakeholders
+
+The platform connects:
+
+Customers
+Service providers
+AI systems
+Admin dashboards
+
+➡️ This creates a collaborative innovation environment, which is the essence of open innovation.
+
+Instead of building a closed solution, we built an open system where innovation comes not just from us, but from every user interacting with the platform
+
+Team **Decoders** -- [Swayam Prasad](https://github.com/Swayam-Was-Here), [Mohit Yadav](https://github.com/19-mohityadav), [Sanjay Sharma](https://github.com/expertcoder06)
+
+`2026-03-28`
+
+---
+
 ### digiGUIDE
 [![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/digiguide-f082) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/studentSS-code/digi_Guide.git) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://youtu.be/gMuMUMkBUso?si=9K3Kx2LB7PI-tm6x) [![Built at](https://img.shields.io/badge/Built%20at-Hackrit-0052CC?style=flat-square)](https://hackrit2026.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
 
@@ -628,6 +862,146 @@ Inserting structured bullet points and collapsible sections into arbitrary third
 Tasfia Chowdhury
 
 `2026-06-28`
+
+---
+
+### FundMySkill
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/fundmyskill-9b7b) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/monojitgoswami69/FundMySkill) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/O75yYtLc-iI) [![Built at](https://img.shields.io/badge/Built%20at-BINARY%20v2-0052CC?style=flat-square)](https://binaryvtwo.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> Bringing learning to the needy, one fund at a time
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![Firestore](https://img.shields.io/badge/Firestore-333333?style=flat-square) ![Firebase Authentication](https://img.shields.io/badge/Firebase%20Authentication-333333?style=flat-square) ![Pinecone](https://img.shields.io/badge/Pinecone-333333?style=flat-square) ![RAG](https://img.shields.io/badge/RAG-333333?style=flat-square)
+
+**The problem it solves**
+
+***The problem it solves***
+
+Crowdfunding for education sounds effective, but in reality, it often lacks transparency. Once money is donated, there’s usually no clear visibility into how it’s actually used. This creates doubt for donors and opens the door for partial misuse or inefficient allocation of funds.
+
+At the same time, underprivileged students don’t just need financial support, they need a complete and structured learning environment. Many solutions either stop at funding or provide fragmented educational resources without continuity or accountability.
+
+* ***Donors can’t clearly track how their contributions are used***
+* ***Lack of transparency reduces trust in crowdfunding platforms***
+* ***Students often receive incomplete or unstructured learning support***
+* ***Credentials are easy to fake and hard to verify***
+
+To address this, the platform not only ensures transparent fund management through escrow but also provides a full learning ecosystem.
+
+* ***Structured courses with video lectures and guided curricula***
+* ***Live interactive sessions for real time learning and doubt solving***
+* ***Assessments and quizzes to track progress and understanding***
+* ***On demand study materials and resources for flexible learning***
+* ***AI based Socratic tutor for personalized, question driven learning***
+* ***Verifiable on chain certificates that cannot be forged***
+
+This connects funding directly to measurable learning outcomes, making the entire system more accountable and effective.
+
+**Challenges we ran into**
+
+***Challenges I ran into***
+
+This project turned out to be harder than it looked on paper because it mixes a lot of moving parts, AI, payments, and a full learning platform.
+
+The AI tutor was one of the biggest challenges. Getting the RAG system to actually give useful, relevant answers wasn’t easy. In the beginning, it either pulled the wrong context or gave very generic responses that didn’t really help students. I had to spend a lot of time improving how content was stored, how it was retrieved, and how the system understood what the student was actually asking.
+
+Another tricky part was handling the escrow system. It’s not just about holding money safely, it’s about deciding when and where that money should go. Splitting funds across course providers, APIs, and platform costs while keeping everything transparent and fair took a lot of thought. Making it automated without making it unsafe was a constant balancing act.
+
+* ***Making the AI tutor actually helpful instead of just technically correct***
+* ***Improving how content is retrieved so answers stay relevant***
+* ***Designing fund flow logic that prevents misuse but still works smoothly***
+* ***Connecting spending (APIs, courses, infra) directly to real usage***
+* ***Keeping everything stable while multiple systems interact together***
+
+Most of this was solved through a lot of iteration, testing, and breaking things repeatedly until the system became more reliable.
+
+**Web3**
+
+The crowdfunding model is built around decentralized escrow, where funds are not blindly handed over but are programmatically controlled. This ensures that money is only released under predefined conditions, making misuse significantly harder and accountability much stronger.
+
+* ***Funds are stored and managed through decentralized escrow instead of centralized control***
+* ***Transactions are transparent and can be verified, improving donor trust***
+* ***Fund distribution is tied to actual usage like course access and platform resources***
+
+On the education side, Web3 is used to solve the problem of credential authenticity. Certificates are minted on chain, making them tamper proof and independently verifiable without relying on the platform.
+
+* ***Course completion certificates are issued as on chain credentials***
+* ***Eliminates forgery and enables instant verification of achievements***
+
+Overall, Web3 enables this platform to move from a trust based system to a trustless one, where both funding and outcomes are transparent, enforceable, and verifiable.
+
+**AI/ML**
+
+The platform includes an AI powered Socratic tutor that guides students through concepts using questions, helping them think rather than just consume answers.
+
+The system is built on a RAG pipeline, so responses are grounded in actual course material. This keeps explanations relevant to what the student is studying and avoids generic or incorrect outputs.
+
+* ***RAG based architecture to retrieve and ground responses in course specific content***
+* ***Reduces hallucination and improves answer reliability***
+* ***Adapts explanations based on student queries and learning context***
+
+Beyond tutoring, AI is also used to continuously evaluate understanding in real time.
+
+* ***Generates on demand quizzes based on current topics***
+* ***Tests student understanding instantly instead of delayed assessments***
+* ***Adjusts difficulty dynamically based on performance***
+* ***Provides immediate feedback to reinforce weak areas***
+
+This turns the platform into an active learning system instead of a passive content delivery tool.
+
+* ***Acts as a 24/7 personalized tutor***
+* ***Combines teaching and testing in a continuous feedback loop***
+* ***Scales high quality learning without increasing instructor load***
+
+**Open Innovation**
+
+***How this project fits into Open Innovation***
+
+This project brings together ideas from multiple domains, Web3, AI, and education, and combines them into a single system focused on solving a real world problem. Instead of improving just one layer, it rethinks how funding and learning can work together in a more open and accountable way.
+
+At its core, the platform is designed to be modular and extensible, making it possible to integrate different course providers, learning resources, and AI systems without being locked into a single ecosystem.
+
+* ***Open integration with multiple course providers and content sources***
+* ***Flexible infrastructure that can incorporate new tools, APIs, and learning modules***
+* ***Decoupled architecture allowing independent improvement of funding, AI, and education layers***
+
+The system also promotes transparency and verifiability, which are key aspects of open innovation.
+
+* ***Fund flows are visible and auditable instead of being hidden behind centralized control***
+* ***Learning outcomes and certifications are independently verifiable***
+* ***Encourages trust between contributors, educators, and learners***
+
+By making both the financial and educational components more open, composable, and accountable, the project creates a foundation that others can build on, extend, or adapt to different use cases beyond just this platform.
+
+**Education**
+
+***How this project fits into Education***
+
+This project focuses on making quality education accessible, structured, and accountable for students who typically don’t have access to it. Instead of just providing content, it delivers a complete learning environment supported by both technology and funding.
+
+The platform combines structured courses with continuous support, ensuring that students don’t just enroll, but actually learn and complete their journey.
+
+* ***Well structured courses with video lectures and guided learning paths***
+* ***Live sessions for interaction, doubt solving, and engagement***
+* ***Assessments and quizzes to consistently track progress***
+* ***On demand study materials for flexible learning***
+
+AI plays a key role in improving how students learn, especially where teacher access is limited.
+
+* ***AI powered tutor that helps students understand concepts step by step***
+* ***On demand quizzes to test understanding in real time***
+* ***Immediate feedback to help students improve continuously***
+
+What makes this different from typical edtech platforms is the accountability layer tied to funding.
+
+* ***Students’ learning is directly supported through transparent crowdfunding***
+* ***Funds are tied to actual educational usage and outcomes***
+* ***Certificates are verifiable, ensuring real value of completion***
+
+This ensures that students are not only given access, but are supported through a reliable and complete learning system that leads to measurable outcomes.
+
+Team **Nohara Family** -- [Monojit Goswami](https://github.com/monojitgoswami69), [Shubhadeep Biswas](https://github.com/sbr69)
+
+`2026-03-22`
 
 ---
 
@@ -1265,6 +1639,819 @@ The realtime model would close the socket immediately after setupComplete, dropp
 Team **Veer Di Code** -- [Aryan Kumar](https://github.com/Aryxn0608), [Saransh Suman](https://github.com/Saransh-Suman)
 
 `2026-05-10`
+
+---
+
+### Life sync AI
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/life-sync-ai-054a) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/dineshpagadala7492/life-sync-ai) [![Built at](https://img.shields.io/badge/Built%20at-Locus'%20Paygentic%20Hackathon%20--%20#2-0052CC?style=flat-square)](https://paygentic-week2.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Your AI assistant for student life
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square)
+
+**The problem it solves**
+
+Students often struggle to balance academics, schedules, finances, career planning, and personal productivity using multiple disconnected apps. This causes poor time management, stress, and reduced efficiency.
+
+Life Sync AI solves this by combining all essential student and daily life tools into one smart AI-powered platform.
+
+**Challenges we ran into**
+
+During development, we faced challenges in combining multiple modules such as task planning, reminders, finance tracking, and AI recommendations into one smooth workflow.
+
+We solved this by dividing work among team members, creating a modular structure, and integrating features step by step.
+
+**Track: Using BuildWithLocus to leverage our suite.**
+
+Life Sync AI uses BuildWithLocus tools to create a smart productivity platform that combines planning, reminders, automation, and AI-powered assistance in one place.
+
+Our project leverages the Locus ecosystem to build a seamless user experience for students and young professionals managing academics, career goals, finances, and daily tasks.
+
+Team **LEO** -- [Rohit Raaj Anish Lanka](https://github.com/PhantomCoder1000), Aravind_sai_ Reddy, Dinesh Pagadala, Krishna Vamshi
+
+`2026-04-22`
+
+---
+
+### Autopay Agent
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/autopay-agent-c17a) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://svc-moabg1ducfxrqwdo.buildwithlocus.com/) [![Built at](https://img.shields.io/badge/Built%20at-Locus'%20Paygentic%20Hackathon%20--%20#2-0052CC?style=flat-square)](https://paygentic-week2.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Autonomous payments from natural language.
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![npm](https://img.shields.io/badge/npm-333333?style=flat-square) ![Git](https://img.shields.io/badge/Git-333333?style=flat-square) ![Express.js](https://img.shields.io/badge/Express.js-333333?style=flat-square) ![Cron Scheduler](https://img.shields.io/badge/Cron%20Scheduler-333333?style=flat-square)
+
+**The problem it solves**
+
+## The problem it solves
+
+Sending crypto payments is still harder than it should be.
+
+Even when someone knows exactly what they want to do, like sending a small payment to a wallet or repeating the same payment every week, they still have to go through a bunch of manual steps. They need to open the right wallet, enter the address carefully, type the amount, double-check everything, and remember to do it again later if it’s a recurring payment. That process takes time, creates stress, and leaves a lot of room for mistakes.
+
+AutoPay Agent makes that experience feel much more natural. Instead of treating payments like a technical wallet task, it lets people describe what they want in plain language and have the system turn that into a clear payment action.
+
+## What people can use it for
+
+People can use AutoPay Agent for simple everyday payment tasks, like sending USDC to someone with a short instruction, or setting up recurring payments without having to remember them manually.
+
+It’s especially useful for:
+
+- sending one-time payments faster
+- setting up repeat payments like daily, weekly, or monthly transfers
+- reducing mistakes when entering payment details manually
+- making crypto payments feel easier for people who are not deeply technical
+- creating a more natural interface for AI agents that need to manage payments on someone’s behalf
+
+## How it makes things easier
+
+What makes this helpful is not just that it sends payments, but that it removes friction.
+
+Instead of forcing users to think in wallet steps, addresses, forms, and repeated actions, it lets them think in intent. They can simply say what they want to happen, and the app handles the structured part for them.
+
+That makes payments feel:
+
+- easier to start
+- easier to repeat
+- easier to understand
+- and safer to review before execution
+
+In simple terms, AutoPay Agent helps turn crypto payments from a stressful manual process into something that feels closer to talking to an assistant.
+
+**Challenges we ran into**
+
+## Challenges I ran into
+
+One of the biggest challenges was getting the deployment flow working correctly with Locus.
+
+At first, the project would not deploy because the credential we had worked for the **PayWithLocus beta payment API**, but not for the default **BuildWithLocus production deployment API**. That created a confusing situation where payments were working in one environment, but deployment authentication kept failing in another. After digging through the docs and testing the different endpoint combinations, I found that the correct deployment flow for this project had to use the **beta BuildWithLocus endpoints**, not the default production ones. Once I switched the deployment flow to the beta environment, I was able to authenticate, create the project, create the service, and push the app successfully.
+
+Another challenge was that the app kept showing this fallback response:
+
+```json
+{
+  "success": true,
+  "simulated": true,
+  "message": "LOCUS_API_KEY is not set. Payment simulated for MVP."
+}
+```
+
+At first this looked like the API key was missing completely, but the real issue was more subtle. The backend only checked `process.env.LOCUS_API_KEY`, so local runs without injected environment variables would always fall back to simulation even though a saved Locus credential existed elsewhere. I fixed that by improving configuration loading and adding `.env` support for local development, which made the behavior much clearer and removed the misleading “key is not set” path.
+
+I also ran into a deployment timing issue after the app was pushed successfully. The deployment eventually became healthy, but the public service URL briefly returned:
+
+```json
+{
+  "error": "Service unavailable or not found",
+  "host": "...",
+  "hint": "The service behind this hostname may be deploying, stopped, or not registered."
+}
+```
+
+That turned out to be a service-discovery delay rather than a broken deployment. I verified the deployment logs, checked runtime status, and confirmed that the service container was healthy before the public route fully caught up.
+
+On the product side, a separate challenge was the frontend itself. I went through multiple design passes because early versions looked too rough or too generic for a real demo. I rebuilt the UI several times using different frontend design skill directions until it felt clean, focused, and more presentable for a hackathon-quality demo.
+
+Overall, the hardest part of the project was not the basic app logic, it was making sure the **payment environment, deployment environment, runtime configuration, and user-facing experience** all lined up correctly.
+
+Ismail Abubakar
+
+`2026-04-22`
+
+---
+
+### AI Study Planner
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/ai-study-planner-3832) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://canva.link/9ccxqg9pnsug0ig) [![Built at](https://img.shields.io/badge/Built%20at-Locus'%20Paygentic%20Hackathon%20--%20#2-0052CC?style=flat-square)](https://paygentic-week2.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> AI-powered personalized study planner for students
+
+![pandas](https://img.shields.io/badge/pandas-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Streamlit](https://img.shields.io/badge/Streamlit-333333?style=flat-square)
+
+**The problem it solves**
+
+Students often struggle to manage their study time effectively and lack structured planning. This leads to poor time management, missed deadlines, and reduced productivity. Existing methods like manual timetables are rigid and not personalized to individual needs.
+
+**Challenges we ran into**
+
+One of the main challenges was designing a simple yet effective solution within a short time. Deciding how to structure the planner and present the idea clearly was difficult. I overcame this by focusing on a minimal approach and creating a basic prototype that demonstrates the core functionality.
+
+**Track: Using BuildWithLocus to leverage our suite.**
+
+AI / Machine Learning
+
+Sindhu Saravanan
+
+`2026-04-23`
+
+---
+
+### AI Academic Agent: Student Productivity System
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/ai-academic-agent-autonomous-student-productivity-system-569b) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/shashank-wd/ai-academic-planner) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://ai-academic-planner-swart.vercel.app/) [![Built at](https://img.shields.io/badge/Built%20at-DAYZERO%202.0-0052CC?style=flat-square)](https://dayzero2o.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> AI agent for planning, execution, and optimization
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square)
+
+**The problem it solves**
+
+**What can people use it for?**
+
+**1. Automated Study Planning**
+
+*Converts syllabus and deadlines into structured study schedules*
+
+**2. Smart Note Generation**
+
+*Summarizes PDFs, lectures, and study materials into concise notes*
+
+**3. Intelligent Reminders**
+
+*Sends proactive alerts for deadlines, exams, and tasks*
+
+**4. Performance Tracking**
+
+*Analyzes study patterns and provides insights for improvement*
+
+**5. Personalized Learning Support**
+
+*Adapts study plans based on user behavior and progress*
+
+___________________________________________________________________________
+
+**How it makes tasks easier**
+
+1. *Reduces manual planning effort*
+
+2. *Eliminates information overload*
+
+3. *Organizes scattered academic data into one system*
+
+4. *Automates repetitive tasks (scheduling, reminders, summaries)*
+
+___________________________________________________________________________
+**“Transforms academic management from manual effort into an intelligent, automated workflow.”**
+___________________________________________________________________________
+
+![image](https://assets.devfolio.co/content/5df754da77ee4aadbfc70578c9f02ccd/b9cfac68-817f-4caf-914e-a6374766812d.png)
+
+![image](https://assets.devfolio.co/content/5df754da77ee4aadbfc70578c9f02ccd/ef8620ca-5e1f-432a-88a6-ff0e98640db8.png)
+
+**Challenges we ran into**
+
+![image](https://assets.devfolio.co/content/5df754da77ee4aadbfc70578c9f02ccd/80ed777e-a8e0-4e3e-a742-0ec7d60d87b9.png)
+
+![image](https://assets.devfolio.co/content/5df754da77ee4aadbfc70578c9f02ccd/c85d2873-f350-48d8-9187-73acf036d1db.png)
+
+![image](https://assets.devfolio.co/content/5df754da77ee4aadbfc70578c9f02ccd/86f5a8df-0501-403c-b451-f8e0556ba06c.png)
+
+___________________________________________________________________________
+
+**1. ⚙️ Deployment Configuration Issues**
+*Render couldn’t detect package.json due to wrong root directory
+Build failed initially because backend wasn’t structured correctly for deployment*
+
+**2. 🔌 Backend Runtime Failures**
+*Server crashed with “Exited with status 1”
+Root cause:
+Missing or incorrect environment variables
+MongoDB connection failure*
+
+**3. 🗄️ Database Connectivity Issues**
+*Incorrect MongoDB URI format
+Missing database name in connection string
+MongoDB Atlas not allowing external access (IP whitelist issue)*
+
+**4. 🌐 CORS Errors (Frontend ↔ Backend)**
+*Frontend hosted on Vercel couldn’t access backend on Render
+Caused by:
+Default cors() config (too open / not specific)
+Missing CLIENT_URL setup*
+
+**5. 🔑 Environment Variable Confusion**
+*Confusion between:
+Backend env variables (Render)
+Frontend env variables (Vercel)
+Initially unclear where to place VITE_API_URL*
+
+**6. 🔗 Frontend–Backend Integration Issues**
+*API calls still pointing to localhost
+Required replacing with deployed backend URL*
+
+**7. 🔒 Security Oversights**
+*Sensitive data (MongoDB credentials) exposed during setup
+Logging environment variables in production*
+
+**8. 🧪 Debugging Challenges**
+*Limited error logs initially made debugging harder
+Needed to improve logging for MongoDB connection errors*
+
+Team **Byte4Life** -- Shreyash Mishra, [Aditya Pandey](github.com/devSin8), [Shashank Bhadoriya](www.github.com/shashank-wd), [Aniruddha Verma](https://github.com/N0VACHR0NO)
+
+`2026-04-17`
+
+---
+
+### Society help Page
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/society-help-page-f2ee) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://society-one-kohl.vercel.app/) [![Built at](https://img.shields.io/badge/Built%20at-Locus'%20Paygentic%20Hackathon%20--%20#1-0052CC?style=flat-square)](https://paygentic-week1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> "The Digital Backbone of Your Community."
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+Manually tracking who has paid maintenance and providing receipts is a common headache for society secretaries.
+
+The Solution: The Member Portal allows residents to "pay maintenance" and "view notices" in real-time, creating a clear digital trail and reducing disputes over payment history.
+
+**Challenges we ran into**
+
+**. Architectural & Logic Challenges
+Role-Based Access Control (RBAC): One of the biggest hurdles is ensuring a Member cannot access Admin routes (like /admin-panel) by simply typing the URL. You had to implement middleware or logic to check user roles before rendering pages.
+
+State Management: Keeping the UI updated across two different panels. For example, when an Admin approves a request, the Member panel needs to reflect that "Approved" status immediately without a manual database refresh.
+
+2. Technical Development (The "BCA Grind")
+Frontend-Backend Integration: Since you've worked with Flask and HTML/CSS/JS before, connecting your Vercel-hosted frontend to a live database (like MongoDB or Firebase) and ensuring the API endpoints were secure and responsive was likely a challenge.
+
+Responsive Design: Society members will use this on phones, while admins might use it on laptops. Making those complex tables (like maintenance logs) look good on a 6-inch screen is a classic CSS Flexbox/Grid struggle.
+
+3. Data Integrity & Security
+Input Validation: Dealing with "dirty data." You had to ensure that when a member raises a complaint, they can't inject malicious code (SQL injection or XSS) into your database.
+
+Session Management: Handling logins so that a user stays logged in while browsing but gets logged out for security after a certain period of inactivity.
+
+4. Feature-Specific Logic
+Maintenance Calculation: Coding the logic for "pay maintenance." You had to handle scenarios like partial payments, late fees, or generating digital receipts, which requires precise math and date-handling in JavaScript or Python.
+
+Broadcast Filtering: Ensuring that a broadcast sent by the Admin actually reaches the right "Members" and doesn't get lost or sent to other Admins by mistake.
+
+[Dhairya Gulati](https://github.com/dgulati352-cpu)
+
+`2026-04-11`
+
+---
+
+### SmartAid
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/smartaid-c73d) [![Built at](https://img.shields.io/badge/Built%20at-Locus'%20Paygentic%20Hackathon%20--%20#1-0052CC?style=flat-square)](https://paygentic-week1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> AI-based app to help students study faster
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![AI/ML](https://img.shields.io/badge/AI/ML-333333?style=flat-square)
+
+**The problem it solves**
+
+Students often struggle with managing study time, understanding concepts, and staying consistent. Many existing tools are complicated or not personalized, making learning inefficient.
+
+**Challenges we ran into**
+
+We faced challenges in designing a simple and user-friendly interface while integrating AI features. Managing time and planning features effectively was also difficult.
+
+**Using PayWithLocus.com to leverage our suite.**
+
+AI / Machine Learning
+Or Productivity / Education
+
+Aman Choudhary
+
+`2026-04-12`
+
+---
+
+### LIBRE METRO
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/libre-metro-1a7c) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://otzua.in) [![Built at](https://img.shields.io/badge/Built%20at-Matrix%203-0052CC?style=flat-square)](https://matrix-3.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> A community driven METRO service
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Leaflet](https://img.shields.io/badge/Leaflet-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![LocationServices](https://img.shields.io/badge/LocationServices-333333?style=flat-square) ![Supabase](https://img.shields.io/badge/Supabase-333333?style=flat-square)
+
+**The problem it solves**
+
+Metro systems like Delhi Metro are widely used, but existing apps and websites only provide official routes, which are often not the most convenient in real-life situations. These routes may involve unnecessary interchanges, long walking distances, or crowded segments, making daily travel uncomfortable—especially for students, new commuters, and tourists.
+
+A major gap is the absence of community-driven insights. Regular commuters often know better, more practical routes (for example, fewer interchanges or higher chances of getting a seat), but there is no platform where these optimized routes can be shared or accessed.
+
+Additionally, current solutions lack:
+	•	Personalized guidance for different users (students, tourists)
+	•	Accurate “nearest metro” detection based on real location
+	•	Clear step-by-step navigation including direction and platform details
+	•	Fare comparison (smart card vs ticket, discounts, etc.)
+	•	Discovery features like nearby food spots or useful stops
+
+As a result, users rely on trial-and-error or word-of-mouth to find better routes.
+
+Libre Metro solves this by combining official data with real user experience, creating a smarter, more practical metro navigation system focused on comfort, efficiency, and personalization.
+
+**Challenges we ran into**
+
+Building Libre Metro came with several practical and technical challenges.
+
+One major issue was data inconsistency between APIs and our internal dataset. Metro station names were not always formatted the same (for example, spacing differences like “Vishwavidyalaya” vs “Vishwa Vidyalaya”), which caused route search failures. I resolved this by implementing a normalization system that ignores case, spaces, and special characters, ensuring consistent matching across the app.
+
+Another challenge was accurate nearest metro detection. Initial implementations using browser geolocation were not precise enough and often returned incorrect stations. This was improved by comparing user coordinates with our own dataset of metro stations using distance calculations, making the results more reliable.
+
+Designing the community-driven route builder was also complex. Allowing users to input custom routes while automatically filling intermediate stations required careful logic using ordered station data. This was solved by mapping station sequences and dynamically generating routes between selected points.
+
+Additionally, implementing real-world navigation features like direction (towards terminal stations), interchanges, and platform guidance required structuring route data in a more meaningful way instead of just listing stations.
+
+Finally, maintaining a consistent UI/UX using neo-brutalism design while continuously adding new features was challenging. Care was taken to enhance functionality without breaking the visual consistency of the application.
+
+Overall, these challenges helped improve both the technical robustness and real-world usability of the project.
+
+**Grand Cash Prize Pool – ₹50,000**
+
+Libre Metro fits this track by addressing a real-world, large-scale problem faced by millions of daily metro commuters. It combines practical utility with modern technology to improve how people navigate public transport systems.
+
+The project goes beyond traditional metro apps by introducing a community-driven layer, where users can share and discover more efficient and comfortable routes based on real experience, not just official data. This directly improves commuting efficiency, reduces travel friction, and enhances user comfort.
+
+From a technical perspective, the project integrates:
+	•	Real-time location-based features (nearest metro detection)
+	•	Smart route processing and visualization
+	•	Structured navigation guidance including direction and interchanges
+	•	Dynamic UI/UX built for mobile-first usage
+
+Additionally, Libre Metro focuses on scalability and real-world impact. While currently implemented for Delhi Metro, the system is designed to expand to other metro cities, making it adaptable and widely applicable.
+
+By combining community intelligence, structured data, and intuitive design, Libre Metro aligns strongly with the goals of this track—building practical, impactful solutions using technology.
+
+Team **NOOBS** -- [Krish singh](https://github.com/otzua), shubham .k
+
+`2026-04-07`
+
+---
+
+### Learnova
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/learnova-a9cb) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://antara0619.github.io/LEARNOVA/) [![Built at](https://img.shields.io/badge/Built%20at-Hacktropica%202k26-0052CC?style=flat-square)](https://hacktropica2k26.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> “Learnova – Where Learning Meets Innovation.”
+
+![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![HTML5​](https://img.shields.io/badge/HTML5​-333333?style=flat-square)
+
+**The problem it solves**
+
+Learnova is an AI-powered smart learning platform that solves the problem of scattered and inefficient studying by providing a personalized, interactive, and all-in-one learning experience. With features like smart recommendations, progress tracking, and gamified learning, Learnova transforms the way students learn—making it faster, smarter, and more engaging.
+Learnova Solution
+Learnova = One Smart Learning Hub.
+ All-in-one platform for videos, PDFs, quizzes, and notes.
+🧠 Personalized learning paths based on user goals.
+📊 Progress tracking dashboard to monitor growth.
+🔔 Smart reminders for consistency.
+💬 Interactive chatbot for instant doubt solving.
+Your personal learning assistant, anytime, anywhere.
+From confusion to clarity in one platform.
+
+**Challenges we ran into**
+
+Challenges We Faced While Building Learnova
+1. 🔄 Integrating Multiple Learning Resources
+Bringing together videos, PDFs, and quizzes in one place was difficult.
+Different formats required different handling (embedding, file storage, UI display).
+Ensuring smooth loading without slowing the website was a challenge.
+2. 🤖 Implementing AI Chatbot
+Creating a smart chatbot was not straightforward.
+Understanding user queries accurately was tough.
+Maintaining fast response time while keeping answers relevant required optimization.
+3. 🔐 Authentication & Login Issues
+Handling user login/signup was one of the major problems.
+Errors in authentication logic caused login failures.
+Managing sessions and user data securely was complex.
+4. 📊 Progress Tracking System
+Tracking student performance in real time was challenging.
+Needed to store and update user data dynamically.
+Designing a simple yet meaningful dashboard took effort.
+5. 🎨 UI/UX Design Balance
+Making the website both attractive and user-friendly was tricky.
+Too many features made the UI cluttered.
+Simplifying navigation while keeping it modern required multiple redesigns.
+6. ⚡ Performance Optimization
+Website speed became an issue due to heavy content.
+Large videos and files slowed down loading.
+Required optimization techniques like lazy loading and compression.
+
+Team **Learnova** -- [Aashtha Kumari](https://github.com/Aashtha2405), [Antra Srivastava](https://github.com/ANTRA123-STACK), [Antara Dutta](https://github.com/antara0619), [Ankita Chandra](https://github.com/Ankita-code77)
+
+`2026-04-05`
+
+---
+
+### ThinkMate
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/thinkmate-db9b) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/itsmeayan45/ThinkMate2) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/6vrS7kj7idg) [![Built at](https://img.shields.io/badge/Built%20at-Hacktropica%202k26-0052CC?style=flat-square)](https://hacktropica2k26.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> AI-powered learning, designed to focus.
+
+![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![JWT](https://img.shields.io/badge/JWT-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square)
+
+**The problem it solves**
+
+The problem it solves:
+Students and teachers often use disconnected tools for notes, doubt-solving, exams, and performance tracking. This leads to slow learning, repeated manual work, and poor visibility into student progress.
+
+What people can use it for:
+ThinkMate is an AI-powered learning platform where students can learn from uploaded study materials, ask instant doubts, and practice exams in one place, while teachers can manage content and track analytics.
+It makes studying faster, revision more focused, and teaching workflows easier by combining everything into a single system.
+
+**Challenges we ran into**
+
+Challenges I Ran Into
+One major hurdle was making the AI chat reliable with uploaded documents.
+At first, responses were either too generic or missed context because the retrieval pipeline was not consistently returning the most relevant chunks.
+
+What was going wrong
+Document chunks were uneven, so important points got split badly.
+Embedding/vector settings were sensitive, and small config mismatches hurt retrieval quality.
+Network/API failures sometimes interrupted the flow and created inconsistent user experience.
+How I fixed it
+Tuned chunk size and overlap so context stayed meaningful during retrieval.
+Standardized embedding + vector index configuration and re-indexed documents.
+Added stronger error handling and fallback responses so chat didn’t break on transient failures.
+
+**Best Use of MongoDB**
+
+ThinkMate uses MongoDB as the core data layer for both application data and AI retrieval workflows, which directly aligns with the “Best Use of MongoDB” track.
+
+Why MongoDB is a strong fit here
+Flexible schema for evolving edtech data: Users, courses, documents, chat history, and exam records all have different shapes and change frequently during development.
+Single database for product + AI context: MongoDB stores standard app entities and powers document-grounded AI through vector storage.
+Fast iteration for hackathon speed: MongoDB Atlas let us quickly move from prototype to working cloud deployment without complex infra setup.
+How MongoDB is used in this project
+Core collections: student/teacher accounts, courses, uploaded document metadata, chat sessions, exam interactions, and analytics signals.
+Vector search pipeline: processed document chunks are embedded and stored in a MongoDB vector collection, enabling semantic retrieval for course-aware Q&A.
+Scalable cloud setup: Atlas provides managed hosting, indexing, and reliability needed for multi-user classroom-style usage.
+
+Team **KernelPanic** -- [Rupsa Adhikary](https://github.com/Rupsa004), [Swapit Biswas](https://github.com/swapitbiswas/), [Swarnadip Sen](https://github.com/swarnadipsen/), [Ayan Guchhait](https://github.com/itsmeayan45)
+
+`2026-04-05`
+
+---
+
+### SkillEx
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/skillex-85ad) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/VanshikaCharak/SkillExchange/tree/main) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://skill-exchange-riyn.vercel.app/dashboard) [![Built at](https://img.shields.io/badge/Built%20at-HackMol%207.0-0052CC?style=flat-square)](https://hackmol-7.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> A communal skill exchange community for learners.
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Figma](https://img.shields.io/badge/Figma-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+Learners no matter the stage they are in,  face a constant issue of finding reliable and tried and tested resources for their learning journey. We try to solve that issue by building a community where learners can exchange high quality verified resources, teach other skills they are proficient in, build their resume and even get 1:1 mentorship. How it is different from the widely available free resources on the net is that, the resources are never ending, and our opinions are influenced mostly based on the people we interact with, but having someone experienced guide you in the skill you want to master, that they have themselves learned, narrows down the infinite resources present on the internet, to few reliable and trusted resources. Which is quite the headache among learners of all ages trying to master something new.
+
+**Challenges we ran into**
+
+So our team being fully comprised of first year students with little knowledge about actual deployment, our biggest hurdle was to deploy the app using Vercel. We built our repository quite fast on GitHub, but we faced numerous challenges during integration of different aspects of the project that were being handled by each teammate. Syncing the code across all the machines uniformly, was quite the headache. After integrating, we faced huge issues while deploying. Even after manually parsing through the whole repository and taking help of various resources, the deployment was challenging. As it was our first time integrating and deploying an actual project.
+
+**Women Track: The Queen’s Vanguard**
+
+All team members are females and belong to the First Year Batch at NITJ. Hence, this project is a perfect fit for the aforementioned track.
+
+Team **Tech Gurlies** -- [Aruta Kochey](https://github.com/arutakochey-sketch), [Akashita .](https://github.com/akashita08), [Vanshika Charak](https://github.com/VanshikaCharak), [Sehaj Modi](https://github.com/SehajModi)
+
+`2026-03-29`
+
+---
+
+### EduLite
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/edulite-b3b6) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/elambarathi-C/EduLite-OS) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/oOsOXlwwwbY) [![Built at](https://img.shields.io/badge/Built%20at-DevsHouse%20'26-0052CC?style=flat-square)](https://devshouse26.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Education for everyone
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![SQLite](https://img.shields.io/badge/SQLite-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square)
+
+**The problem it solves**
+
+Large Language Models usually require expensive GPUs and 16GB+ of RAM. Most donated or low-cost laptops in schools have only 2GB of RAM.
+	EduLite Solution: Through extreme optimization and 4-bit quantization, it shrinks a massive AI brain to fit into a tiny ~700MB memory footprint, reviving older "e-waste" laptops into powerful tutoring stations.
+
+Most modern AI tutors (like ChatGPT or Gemini) require a constant, high-speed internet connection. In rural or underserved areas, "digital learning" often stops the moment the signal drops.
+	EduLite Solution: It runs 100% offline. All AI inference and textbook processing happen on the local hard drive, making education "signal-independent."
+
+Generic AI models often make up facts or use curricula from different countries.
+	EduLite Solution: By using RAG (Retrieval-Augmented Generation), the AI is "grounded" in local NCERT/CBSE PDFs. It doesn't just guess; it "reads" the specific textbook provided to give accurate, syllabus-aligned answers.
+
+**Challenges we ran into**
+
+Cubic silent failure on Ubuntu 24.04 was the first major hurdle — the sudo password dialog never appeared due to a policykit-1 vs polkitd incompatibility. Fixed it by installing a patched community .deb and launching with sudo cubic.
+
+ChromaDB failed silently during pip install because the Ubuntu VM defaulted to Python 3.12, which was incompatible at the time. Resolved by installing Python 3.11 via the deadsnakes PPA and recreating the virtual environment.
+
+EduLite service crashed on boot because systemd started Flask before Ollama finished loading. Fixed by adding After=ollama.service, Restart=on-failure, and RestartSec=5 to the service unit file — ensuring the app retried automatically.
+
+Each bug taught us something real about Linux service management, dependency pinning, and OS-level deployment that no tutorial had covered.
+
+**IoT & Smart Devices**
+
+EduLite is a lightweight AI-powered education OS designed to run on low-cost, resource-constrained school computers — devices that share the same core challenge as IoT hardware: doing meaningful computation with minimal resources.
+
+The system runs a locally deployed TinyLlama AI model via Ollama entirely on-device, with no cloud dependency. This mirrors the edge-computing model central to smart IoT deployments, where data is processed locally rather than sent to external servers — critical in schools with unreliable internet.
+
+The OS is packaged as a custom bootable Ubuntu image, meaning any bare-metal machine can become a smart educational device simply by booting from a USB — essentially turning ordinary school PCs into purpose-built smart learning terminals.
+
+Team **Exotic coders** -- [Adarshini Raju](https://github.com/adarshinimapraju), [Rokith Sathyamoorthy](https://github.com/rokithsathyamoorthy-prog), [Elambarathi C](https://github.com/elambarathi-c), [Haripriya Srinivasan](https://github.com/Haripriya-15-06)
+
+`2026-03-29`
+
+---
+
+### Vidyarthi Saarthi
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/vidyarthi-saarthi-32d0) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/monojitgoswami69/frosthacks) [![Built at](https://img.shields.io/badge/Built%20at-FrostHacks%20S02-0052CC?style=flat-square)](https://frosthacks-s-2.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> why keep learning exclusive to classrooms?
+
+![Firebase](https://img.shields.io/badge/Firebase-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![NumPy](https://img.shields.io/badge/NumPy-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Firestore](https://img.shields.io/badge/Firestore-333333?style=flat-square) ![Firebase Authentication](https://img.shields.io/badge/Firebase%20Authentication-333333?style=flat-square) ![sentence-transformers](https://img.shields.io/badge/sentence--transformers-333333?style=flat-square) ![hugging-face](https://img.shields.io/badge/hugging--face-333333?style=flat-square)
+
+**The problem it solves**
+
+* Students frequently encounter course-specific doubts outside regular class hours when faculty or teaching assistants are unavailable.
+* Existing general-purpose AI tools provide overly broad or context-agnostic responses, often relying on external knowledge instead of prescribed academic materials.
+* These systems may directly provide answers without guiding the learning process, reducing conceptual understanding and encouraging passive learning.
+* Lack of a structured, course-aware support system leads to repeated queries being handled manually by faculty, increasing their workload.
+* Students do not have a reliable way to verify whether answers are grounded in their official lecture notes, textbooks, or curriculum.
+* There is limited visibility for instructors into common areas of student confusion, making it difficult to adapt teaching strategies.
+* Ensuring academic integrity and maintaining student privacy in digital doubt-solving systems remains a challenge.
+
+**Challenges we ran into**
+
+* Ensuring strict **context grounding** so the model answers only from uploaded course materials and does not rely on external knowledge.
+* Designing a reliable **retrieval pipeline (RAG)** with accurate chunking, embeddings, and similarity search to minimize irrelevant results.
+* Handling **edge cases in queries** where student questions are vague, multi-topic, or partially outside the provided context.
+* Implementing **Socratic response behavior**, forcing the model to guide rather than directly answer, which conflicts with default LLM tendencies.
+* Maintaining **high citation accuracy**, ensuring every response correctly references source documents (page, lecture, etc.).
+* Balancing **latency vs accuracy**, especially when using vector search + LLM generation under real-time constraints.
+* Managing **document preprocessing issues** (PDF parsing errors, inconsistent formatting, noisy text extraction).
+* Preventing **hallucinations**, especially when relevant context is weak or missing.
+* Designing a scalable system without **expensive infrastructure**, while keeping it responsive under load.
+* Ensuring **student privacy** while still logging queries for analytics and faculty insights.
+* Creating a flexible system that supports **dynamic filtering (course, semester, topic)** without degrading search performance.
+* Integrating multiple components (LLM, vector DB, backend, frontend) into a **stable, production-ready pipeline**.
+
+**EDUCATION**
+
+***How It Fits the Education Track***
+
+* Provides a **course-specific AI tutor** that delivers personalized academic support aligned strictly with official lecture materials and curriculum.
+* Enhances **conceptual learning** by using a Socratic approach, guiding students through reasoning instead of giving direct answers.
+* Enables **24/7 doubt resolution**, reducing dependency on faculty availability and improving learning continuity.
+* Reduces **faculty workload** by automating repetitive queries while still maintaining academic rigor through grounded responses.
+* Improves **learning transparency** by including citations from lecture notes and textbooks, helping students verify and trust answers.
+* Generates **actionable insights for educators** by analyzing common student queries and identifying areas of confusion.
+* Promotes **academic integrity** by preventing blind answer generation and ensuring responses are context-bound.
+
+Team **Runtime Terrors** -- [Monojit Goswami](https://github.com/monojitgoswami69), [Prabrisha Das](https://github.com/Pdas2506), [PIYALI CHAKRABORTY](https://github.com/PIYALI2025)
+
+`2026-03-28`
+
+---
+
+### RuralDev
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/ruraldev-188d) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ARPANkundu2404/RuralDev) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/S6bKmjLxMb4) [![Built at](https://img.shields.io/badge/Built%20at-BINARY%20v2-0052CC?style=flat-square)](https://binaryvtwo.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> From Village Roots to Global Routes
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square)
+
+**The problem it solves**
+
+In rural areas, people have skills:
+Pottery, Embroidery, Origami, Handicrafts
+But they face major issues:
+❌ No direction on how to earn
+❌ No trust in buyers/sellers
+❌ High fraud (fake workshops, low-quality products)
+A trust-driven platform that transforms rural skills into sustainable income using AI-based job recommendations, verified workshops, and a fraud-resistant marketplace.
+
+**Challenges we ran into**
+
+The biggest challenges in our system are data scarcity, fraud detection complexity, and integrating AI recommendations with real-world rural economic behavior. We addressed these using hybrid approaches combining rule-based logic, machine learning, and admin verification.
+
+Team **Electrocoders** -- [Anubhab De](https://github.com/anubhab1001), [Avrajit Dey](https://github.com/Avrajit-718), [Arpan Kundu](https://github.com/ARPANkundu2404)
+
+`2026-03-22`
+
+---
+
+### voice first digital access for financial inclusion
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/voice-first-digital-access-for-financial-inclusion-8785) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/yuvashree5806-hub/VoiceFirstDigitalAccessBanking) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://vaaniaccess.netlify.app/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.loom.com/share/7220b7512f374f03a5ec5f7e5c26b9b8) [![Built at](https://img.shields.io/badge/Built%20at-HackNova%203.0-0052CC?style=flat-square)](https://hacknova-3.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> VoicePay: Speak to Spend, Speak to Save
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+Voice-First Multilingual Financial Inclusion Platform
+
+1. The Core Problem
+
+Digital banking and government welfare systems today suffer from an Inaccessibility Gap. Most platforms are designed for the "average" user—someone who is literate, tech-savvy, and possesses full physical dexterity.
+This excludes millions from the global financial ecosystem:
+Literacy Barriers: 25% of the global population struggles with functional literacy, making text-heavy banking apps impossible to navigate.
+Cognitive & Physical Hurdles: Elderly users and Persons with Disabilities (PwDs) often find complex menus, small buttons, and rapid-fire OTP/PIN entries stressful or physically impossible.
+The "Middleman" Trap: Because these users cannot use digital tools independently, they rely on third parties (family, neighbors, or agents), which leads to financial exploitation, loss of privacy, and fraud.
+
+2. What People Use It For
+Our platform transforms the mobile phone into a Voice Companion that understands intent rather than just commands.
+
+A. Independent Banking
+Balance Inquiries: A user can simply ask, "How much money do I have left?" in their native dialect.
+Money Transfers: Instead of typing account numbers, a user says, "Send five hundred rupees to my daughter for her school books."
+Bill Payments: Making utility payments via voice without navigating nested service menus.
+
+B. Welfare & Scheme Accessibility
+Eligibility Checks: Users can ask, "What government schemes am I eligible for as a senior citizen?"
+Enrollment: Applying for benefits by answering spoken questions rather than filling out complex digital forms.
+
+C. Financial Literacy & Planning
+Spending Insights: Users receive audio-based advice like, "You spent more on groceries this month than usual. Would you like to save some money for your medicine next week?"
+
+**The Impact**
+
+By moving the interface from the Eyes/Hands to the Voice/Ears, we achieve:
+Dignity: Users manage their own money without asking for help.
+Reach: Banks can serve rural populations without building physical branches.
+Transparency: Direct-to-beneficiary transfers eliminate "leakage" in government welfare systems.
+
+**Challenges we ran into**
+
+Challenges & Hurdles
+
+Building a voice-first fintech solution presented several unique technical and design obstacles:
+
+A. Handling Intent Over Syntax
+The Bug: Initial versions used rigid keyword matching. If a user said "Send money" instead of "Transfer funds", the system failed.
+The Hurdle: Natural human speech is messy, especially in rural dialects.
+The Fix: We integrated the Gemini API to act as a semantic interpreter. Instead of looking for words, the LLM extracts the intent and entities (Amount, Recipient) regardless of the phrasing or slang used.
+
+B. The "Code-Switching" Problem
+The Bug: Standard Speech-to-Text (STT) engines struggled when users mixed languages (e.g., mixing Hindi with English technical terms like "Transfer" or "Balance").
+The Fix: We implemented a hybrid prompt engineering strategy with Gemini that explicitly instructs the model to recognize "Hinglish" and regional variations, ensuring the AI maintains context even when the language shifts mid-sentence.
+
+C. Latency and User Trust
+The Hurdle: In voice interfaces, a 2-second delay feels like an eternity. Users often wonder if the app crashed, leading to repeated commands and errors.
+The Fix: We designed a "Cognitive Feedback" system. We added real-time visual waveforms and "Thinking" haptics/animations that trigger immediately upon voice detection, providing instant reassurance while the API processes the request.
+
+5. The Impact
+
+By moving the interface from the Eyes/Hands to the Voice/Ears, we achieve:
+Dignity: Users manage their own money without asking for help.
+Reach: Banks can serve rural populations without building physical branches.
+Transparency: Direct-to-beneficiary transfers eliminate "leakage" in government welfare systems.
+
+Team **falcon** -- [JAY CHANDRA](https://github.com/JC-29068), [Yuvashree M](https://github.com/Yuva-2006-del), [Tejeshwar p](https://github.com/teju-1024)
+
+`2026-03-17`
+
+---
+
+### KinetixVerse
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/kinetixverse-2c4e) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ramanbansal1/KinetixVerse) [![Built at](https://img.shields.io/badge/Built%20at-Electrothon%208.0-0052CC?style=flat-square)](https://electrothon-8.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Making Robot learning easy
+
+![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![SAM3D](https://img.shields.io/badge/SAM3D-333333?style=flat-square) ![RERUN](https://img.shields.io/badge/RERUN-333333?style=flat-square) ![MUJOCO](https://img.shields.io/badge/MUJOCO-333333?style=flat-square)
+
+**The problem it solves**
+
+Robotics systems trained in simulation often fail when deployed in the real world. This is known as the **sim-to-real gap**.
+
+Traditional robotics development relies on controlled laboratory environments and manually created simulation scenes. These simulations rarely capture the variability and complexity of real-world environments.
+
+Key limitations of current approaches:
+
+* Training cycles typically take **6–12 months**.
+* Building robotics lab infrastructure can cost **$500K–$2M+**.
+* Only **~15% of universities** have access to advanced robotics facilities.
+* Most simulations cover **less than 30% of real-world scenarios**.
+
+At the same time, the internet contains **billions of videos showing real-world interactions**, but almost none of this data is used for robotics training.
+
+This creates a massive opportunity to convert real-world video data into training environments.
+
+**Challenges we ran into**
+
+One major hurdle we encountered while building KinetixVerse was maintaining stable object tracking across video frames when converting videos into simulation environments. In our early pipeline using YOLO segmentation and tracking, we observed issues such as mask area spikes, sudden centroid jumps, and identity switches where the same object would be assigned different IDs across frames. These inconsistencies caused incorrect trajectories and made downstream modules like pose estimation and physics prediction unreliable. To overcome this, we implemented several stabilization techniques, including filtering out frames with abnormal mask area changes or large centroid movements, adding embedding-based re-identification using DINOv2 with FAISS to maintain consistent object identities, and storing tracking history in a lightweight database to preserve temporal context. These improvements significantly stabilized object trajectories and allowed us to generate reliable motion data for physics-aware simulation.
+
+**Electrothon 8.0 Winners**
+
+KinetixVerse fits strongly within the **AI/Robotics innovation track of Electrothon** because it addresses a real and well-known robotics challenge: the **sim-to-real gap**, where robots trained in simulation fail in real-world environments. The project introduces a novel pipeline that converts **real-world videos into physics-aware 3D simulation environments** using technologies like object detection, segmentation, scene reconstruction, pose estimation, and physics engines such as MuJoCo. This allows robotics developers to generate training environments in **hours instead of months**, significantly reducing cost and development time. The combination of **deep technical complexity, real-world impact, scalability, and a strong visual demo (video → simulation → robot training)** aligns well with the key judging criteria of Electrothon, making it suitable for the **innovation and advanced AI systems category that typically produces winning projects**.
+
+**IQ AI**
+
+In KinetixVerse, we used IQ-AI to estimate the physical behavior of objects directly from video, enabling the system to understand how objects move and interact in the real world. Modern AI systems can analyze video sequences and infer underlying physical dynamics such as motion, collisions, and object interactions, rather than only recognizing visual appearance. Research in video-based physics reasoning shows that AI models can learn to predict object trajectories and interactions by observing frames over time, effectively learning the rules of dynamics from visual data.For example, recent work on physics-aware video benchmarks demonstrates that AI systems must understand principles like solid mechanics, fluid dynamics, and motion to accurately predict what will happen next in a sceneUsing this idea, IQ-AI in our pipeline analyzes tracked objects in the video and predicts their physical properties—such as motion patterns, interactions, and dynamic behavior—which are then integrated into our simulation engine to produce physics-consistent environments for robotics training.
+
+**Google Cloud**
+
+We leveraged the Gemini API on Google Cloud and integrated it with ADK and IQ-AI to enhance physics estimation in our video-to-simulation pipeline. Gemini provides multimodal scene understanding that helps interpret object interactions, contextual relationships, and motion cues from video frames. This contextual intelligence is combined with IQ-AI’s physics inference module, allowing our system to estimate how objects behave and interact in the real world. By using Gemini’s reasoning capabilities alongside our computer vision and tracking pipeline, we were able to generate more accurate and physics-consistent simulations from real-world video data.
+
+**Best Use of Gemini 3 [Google Deepmind]**
+
+We used the Gemini API in combination with ADK and IQ-AI to enhance physics estimation from video by providing high-level scene understanding and reasoning about object interactions. While our computer vision pipeline detects, segments, and tracks objects, Gemini helps interpret the context of the scene—such as how objects interact, whether they are static or dynamic, and what type of physical behavior they exhibit. This contextual reasoning is passed to the IQ-AI physics module, which uses it to better estimate motion patterns and interaction dynamics. By integrating Gemini’s multimodal understanding with our physics inference pipeline, we were able to generate more realistic and physically consistent simulations from real-world video data.
+
+Team **DEV.HUNTERS** -- [Khushvinder Thakur](https://github.com/thakursanju), [Mridul Ahluwalia](https://github.com/Mridul-Ahluwalia06), [Raman Bansal](https://github.com/ramanbansal1), [Pradyuman Sharma](https://github.com/its-me-meax)
+
+`2026-03-15`
+
+---
+
+### Campus Link
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/campus-link-d1f7) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/chetan208?tab=packages&repo_name=Electrothon-Backend) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://campuslink-tawny.vercel.app/login) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/EXYAqNwiezI) [![Built at](https://img.shields.io/badge/Built%20at-Electrothon%208.0-0052CC?style=flat-square)](https://electrothon-8.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> your AI powered student network
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+College students today struggle with a fragmented experience — WhatsApp groups are chaotic, LinkedIn feels too corporate, and there's no platform built specifically for verified college students to connect, collaborate, and grow together.
+
+**CampusConnect solves this by:**
+
+- **Verified identity** — only students with college email domains can join, eliminating fake profiles
+- **Smart connections** — an AI-powered recommendation engine suggests people based on mutual connections, shared skills, same college, and common interests — not just random people
+- **Personalized AI assistant** — CampusBot answers any question like ChatGPT, but also fetches real student profiles when learning help is needed ("mujhe React sikhna hai" → roadmap + relevant students to connect with)
+- **Daily opportunity alerts** — an AI agent scans the internet daily and sends each student a personalized notification for internships, hackathons, and fellowships matching their exact profile
+- **Real-time feed** — post updates, ask questions, share projects — and get notified when your connections post something new
+- **One platform** — profile, posts, connections, chat, search, and AI — all in one place built for students
+
+**Challenges we ran into**
+
+**1. Zod version conflict with ADK-TS**
+ADK-TS internally uses Zod v4 but our project had Zod v3 installed. This caused a `Cannot read properties of undefined (reading 'def')` crash at runtime. Fixed by upgrading to `zod@4`.
+
+**2. Gemini passing wrong userId to tools**
+The AI agent was reading `Name: chetan` from the system prompt and passing `"chetan"` as userId to MongoDB queries instead of the actual ObjectId — causing `Cast to ObjectId failed` errors. Fixed by moving tools inside `getCampusAgent()` as closures so `userId` came from JavaScript scope, not from Gemini's interpretation.
+
+**3. Duplicate AI responses**
+Gemini would write the full answer, call the tool, then rewrite the entire answer again with tool results appended — resulting in duplicate content. Fixed with explicit `CRITICAL: Write everything ONCE` instructions in the system prompt.
+
+**4. Daily agent suggesting same opportunity to all users**
+The AI was defaulting to "Google Summer of Code" for every student regardless of their profile. Fixed by building profile-specific prompts using `preferredType` (hackathon/internship/open source) derived from each student's `openTo` field, and explicitly blocking generic suggestions unless they genuinely matched.
+
+**5. Regex crashing on C++ skill**
+MongoDB regex queries with `C++` caused `Invalid regular expression: /C++/i: Nothing to repeat` because `+` is a special regex character. Fixed with a `safeRegex()` function that escapes all special characters before building the regex.
+
+**6. Stacking context blocking chatbot overlay**
+The floating chatbot had `z-index: 9999` but was still appearing behind the navbar because a parent component created a new stacking context. Fixed using `createPortal` to render the chatbot directly into `document.body`.
+
+**7. Real-time notification architecture**
+Building a notification system that handled both friend post triggers (event-driven) and daily AI opportunity alerts (cron-based) while keeping the frontend in sync required combining `node-cron`, MongoDB `insertMany`, and a 30-second polling interval on the frontend.
+
+**Requestly Track**
+
+we have used  requestly to test our Apis
+
+**IQ AI**
+
+we have used IA ai to build ai chat bot
+
+**n8n**
+
+i have used n8n to build ai agents
+
+**Best Use of Gemini 3 [Google Deepmind]**
+
+we have user gemini api
+
+Team **Team Phantom** -- [Anuj Keshri](https://github.com/anujkeshri7), [Abhishek .](https://github.com/abhishek1343), [Arpita Soni](https://github.com/arpita-1111), [CHETAN .](https://github.com/chetan208/)
+
+`2026-03-15`
 
 ---
 
@@ -2396,6 +3583,1159 @@ These experiences helped transform the project into a fully functional AI-powere
 Ishan Lal
 
 `2026-05-22`
+
+---
+
+### dealpilot
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/dealpilot-725a) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/WiceKiwi/DealPilot) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://drive.google.com/file/d/1cHmMBr-4HOTOeg2kMK2CJOZOiUOg-U4p/view?usp=sharing) [![Built at](https://img.shields.io/badge/Built%20at-Push%20to%20Prod%20Hackathon%20with%20Genspark%20&%20Claude-0052CC?style=flat-square)](https://push-to-prod.devfolio.co)
+
+> uni students
+
+![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![Anthropic](https://img.shields.io/badge/Anthropic-333333?style=flat-square)
+
+**Use of Genspark**
+
+Genspark serves as the agentic workspace and orchestration layer for DealFlow AI's revenue agents. Rather than
+  making a single LLM call that extracts fields, we use Genspark to run a coordinated team of specialized agents —
+  each with a narrow responsibility and auditable output. The dashboard's Live Agent Console makes this pipeline
+  visible: judges can watch each Genspark-powered agent complete its step in sequence, see what it produced, and
+  understand why a deal was flagged, enriched, or saved. Genspark is not tucked away in the backend — it's the
+  centerpiece of the demo and the reason the product feels like a revenue team rather than a chatbot.
+
+**How you are solving it**
+
+DealFlow AI turns one natural sentence from a sales rep into a full CRM workflow. A rep sends a casual update —
+  via Telegram or the web dashboard — and six specialized AI agents handle the rest:
+
+  - Intake Agent — normalizes the message and confirms it's CRM-relevant
+  - Extraction Agent — pulls contact, company, deal stage, sentiment, next action, and date with field-level
+  confidence scoring
+  - Validation Agent — flags missing fields, ambiguous dates, and risk signals; decides if confirmation is needed
+  - Enrichment Agent — adds deal risk level, manager summary, and next best action recommendation
+  - Action Agent — generates a CRM payload and a follow-up email draft
+  - Manager Intelligence Agent — updates the pipeline digest with at-risk deals and follow-up queue
+
+  Confirmed deals are written to Airtable as live CRM records. The Next.js dashboard updates in real time via
+  WebSocket so managers always have an accurate pipeline view — without chasing reps for updates.
+
+**Use of Claude**
+
+Claude (via the Anthropic API) powers the structured reasoning at the core of each agent. Every agent receives a
+  tightly scoped system prompt and returns valid JSON — contact extraction with confidence levels, validation
+  decisions with field-by-field reasoning, enrichment outputs with manager-readable summaries, and follow-up email
+  drafts. Claude's instruction-following and JSON reliability are what make the multi-agent pipeline deterministic
+  enough to trust for CRM automation. The backend routes through Genspark first and falls back to Claude
+  automatically, so the pipeline stays live even under API instability.
+
+**The problem your project solves**
+
+Sales teams lose revenue because CRM data is late, incomplete, and untrusted. After every call or meeting, reps know exactly what happened, but updating the CRM means stopping to open a system, finding the right record, and filling multiple fields. Most reps skip it or do it hours later from memory. The result: managers are forecasting from stale data, follow-ups get missed, and deals slip without warning.                                           
+
+The root cause isn't laziness, it's friction. DealFlow AI removes that friction entirely.
+
+Team **U&C** -- [Angelina Jennings](https://github.com/jenningsk-ux), [Justin Wicent](https://github.com/WiceKiwi), [Pranav Krishna](https://github.com/nil)
+
+`2026-04-24`
+
+---
+
+### SmartEdu
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/smartedu-7c66) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/adityapandey97/smartEdu) [![Built at](https://img.shields.io/badge/Built%20at-Off--Grid-0052CC?style=flat-square)](https://offgrid.devfolio.co)
+
+> Smart Learning. Fair Attendance. Better Outcomes.
+
+![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Flutter](https://img.shields.io/badge/Flutter-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square)
+
+**The problem it solves**
+
+** The Problem It Solves**
+Fragmented classroom management across multiple platforms (WhatsApp, Excel, notice boards)
+Manual and error-prone attendance tracking
+No mechanism to correct incorrect attendance records
+Lack of real-time communication for updates (holidays, schedule changes, events)
+Poor visibility into student performance and progress
+Low classroom engagement and interactivity
+Inefficient assignment and study material management
+ **What People Can Use It For
+ Students**
+Track attendance and receive alerts for shortage (<75%)
+Access study materials (PPTs, notes, PYQs) in a centralized system
+Submit, edit, and manage assignments
+Raise attendance disputes for incorrect marking
+Attempt quizzes and receive instant feedback
+View marks and monitor academic performance
+Receive real-time notifications and announcements
+ **Teachers**
+Mark and manage attendance efficiently
+Upload and organize study materials
+Create and manage assignments with deadlines
+Upload and update student marks
+Conduct quizzes to improve engagement
+Send notifications (holidays, substitute teachers, events)
+Review and resolve attendance-related issues
+ How It Improves Existing Systems
+Centralization: Consolidates all classroom activities into a single platform
+Accuracy: Reduces errors in attendance through validation and correction mechanisms
+Transparency: Enables fair attendance management via dispute resolution
+Efficiency: Automates repetitive tasks like mark calculation and notifications
+Real-Time Communication: Ensures instant updates and reduces information gaps
+Data-Driven Insights: Provides performance analytics for better decision-making
+Enhanced Engagement: Integrates quizzes and feedback to improve learning experience
+Scalability: Can be extended across multiple classes and institutions
+ **Final Statement**
+Provides a comprehensive, efficient, and transparent digital classroom ecosystem that improves both teaching and learning outcomes.
+
+**Challenges we ran into**
+
+Challenges Faced
+The project was built in a new domain with limited prior experience in Flutter-based app development.
+Initial setup and running the application were challenging due to environment configuration and device/emulator issues.
+There were difficulties in properly rendering and visualizing the UI, which slowed down development.
+Time constraints limited the ability to implement all planned features and full backend integration.
+How We Addressed Them
+Focused on learning the basics quickly and building the application step-by-step.
+Used debugging tools like flutter doctor and tested on real devices to resolve setup issues.
+Simplified UI design to ensure consistency and faster implementation.
+Prioritized core features and ensured a working prototype for demonstration.
+Key Takeaway
+
+We adapted to a new technology stack under time constraints and delivered a functional solution that demonstrates the core concept effectively.
+
+Team **Defeated coders** -- [Nandita Sahni](https://github.com/Nanditasahni), [ADITYA PANDEY](https://github.com/adityapandey97), [ANKU YADAV](https://github.com/anku2622)
+
+`2026-04-11`
+
+---
+
+### Broke AF
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/broke-af-4b84) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/UzumakiNarutoX/Broke-AF) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://broke-af-sooty.vercel.app) [![Built at](https://img.shields.io/badge/Built%20at-Matrix%203-0052CC?style=flat-square)](https://matrix-3.devfolio.co)
+
+> Your CA Best Friend Who Grew Up Among Students.
+
+![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![React.js](https://img.shields.io/badge/React.js-333333?style=flat-square) ![Supabase](https://img.shields.io/badge/Supabase-333333?style=flat-square)
+
+**The problem it solves**
+
+Indian college students have always been broke but never had a tool built for them existing apps assume a salary and bank account, not a monthly allowance and a Zomato habit. Broke AF solves this by showing your exact broke date before it hits, holding you accountable through a brutally honest AI spending verdict, letting you log expenses just by speaking, and replacing the chaotic WhatsApp bill-split thread with a clean, one-tap system. It doesn't try to be a full financial suite it just fixes the four things that make student finances painful, in a way that actually fits how students live.
+
+**Challenges we ran into**
+
+The trickiest part was getting the voice logging to reliably parse natural, messy student speech people say "80 ka chai" as easily as "spent 80 on chai," and making the AI handle both Hinglish patterns consistently took a lot of prompt tuning. The AI Judge was another hurdle; early responses were either too generic to be useful or too harsh to be funny, so finding the right tone that felt honest but not discouraging required several iterations. The broke date prediction also had edge cases where mid-month allowance top-ups would throw off the burn rate calculation entirely, which needed careful logic to handle gracefully. On the UI side, getting the bill split flow to feel frictionless especially the OCR receipt scanning reliably extracting totals from crumpled or low-light photos was harder than expected and involved falling back to manual entry as a safety net
+
+**Grand Cash Prize Pool – ₹50,000**
+
+Broke AF sits squarely at the intersection of AI and personal finance, built ground-up for a demographic that existing tools have always ignored. It uses AI not as a gimmick but as the core engine powering voice expense parsing, spending pattern analysis, and personalized financial verdicts making it a strong fit for any track centered around practical AI applications, fintech innovation, or student-focused solutions.
+
+Team **Vertex** -- Priyansh Bharti, Jiya chaddha
+
+`2026-04-07`
+
+---
+
+### StudyBuddy
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/studybuddy-f190) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/monojitgoswami69/hacktropica) [![Built at](https://img.shields.io/badge/Built%20at-Hacktropica%202k26-0052CC?style=flat-square)](https://hacktropica2k26.devfolio.co)
+
+> Improving learning beyond and within classrooms
+
+![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![FastAPI](https://img.shields.io/badge/FastAPI-333333?style=flat-square) ![React.js](https://img.shields.io/badge/React.js-333333?style=flat-square) ![Gemini API](https://img.shields.io/badge/Gemini%20API-333333?style=flat-square) ![Sentence Transformers](https://img.shields.io/badge/Sentence%20Transformers-333333?style=flat-square)
+
+**The problem it solves**
+
+Modern educational institutions operate in a highly fragmented digital environment, where learning resources, communication, and academic support are spread across multiple disconnected platforms such as WhatsApp, Google Classroom, shared drives, and informal notes. This fragmentation creates inefficiencies in accessing relevant study material and prevents students from having a consistent, structured learning experience.
+
+At the same time, while AI-powered tools are increasingly used by students for doubt solving, they are **not aligned with institutional curricula**. These systems often generate responses that are either out-of-syllabus, lack contextual grounding, or directly provide answers without reinforcing conceptual understanding. This results in shallow learning and reduces academic reliability.
+
+From an institutional perspective, the problem is more severe. Faculty members and administrators currently lack **granular visibility into student comprehension** at the module or topic level. There is no systematic way to identify:
+
+* Which concepts students consistently struggle with
+* Whether teaching methods are effective across different cohorts
+* Where curriculum delivery is breaking down
+
+As a result, education systems today function without a **closed feedback loop** between teaching, learning, and measurable outcomes. Decisions are often reactive rather than data-driven, and opportunities for timely academic intervention are lost.
+
+---
+
+### Our solution
+
+We address these challenges by building a **curriculum-aware, AI-powered academic platform** that unifies learning, support, and analytics into a single system.
+
+At the student level, the platform provides a **RAG-based AI tutor** that is strictly grounded in institution-specific content. This ensures that every response is:
+
+* Contextually accurate
+* Aligned with the prescribed syllabus
+* Supported with citations for transparency and trust
+
+In addition, students gain access to a **centralized repository of study materials**, eliminating the need to navigate multiple platforms, and a **flash quiz generation system** that enables continuous practice and reinforcement.
+
+At the faculty and administrative level, the platform introduces a **data-driven analytics layer**. Faculty can structure curriculum and monitor engagement, while HODs and administrators gain access to:
+
+* Module-level and subject-level performance insights
+* Identification of commonly misunderstood topics
+* Indicators of potential gaps in teaching effectiveness
+
+This creates a **closed-loop academic system**, where student interactions and performance data continuously inform teaching strategies and curriculum improvements.
+
+**Challenges we ran into**
+
+Building a curriculum-aware AI system within a real academic workflow introduced multiple technical and architectural challenges:
+
+---
+
+#### 1. Ensuring strictly curriculum-bound AI responses
+
+Generic LLMs tend to hallucinate or pull in external knowledge beyond the syllabus, which directly conflicts with our requirement of controlled, institution-specific answers.
+
+**What we did:**
+
+* Designed a **RAG pipeline with strict retrieval gating**, ensuring responses are generated only from approved academic sources
+* Implemented **context filtering and chunk relevance scoring** to avoid noisy or low-quality retrievals
+* Added **citation generation** to enforce transparency and allow users to verify sources
+
+---
+
+#### 2. Handling fragmented and unstructured academic content
+
+Study materials came in inconsistent formats (PDFs, notes, slides), often poorly structured and not optimized for retrieval.
+
+**What we did:**
+
+* Built a preprocessing pipeline involving:
+
+  * Text extraction and normalization
+  * Semantic chunking instead of naive splitting
+  * Metadata tagging (subject, module, topic) for filtered retrieval
+* This significantly improved retrieval accuracy and response grounding
+
+---
+
+#### 3. Balancing retrieval accuracy with latency
+
+High-quality semantic search (especially across multiple filters like subject/module) introduced latency, which negatively impacted user experience.
+
+**What we did:**
+
+* Optimized vector search using **index partitioning (by year/subject)**
+* Used **lightweight pre-filtering before similarity search**
+* Tuned embedding size vs speed trade-offs to maintain responsiveness
+
+---
+
+#### 4. Designing meaningful academic analytics
+
+Raw interaction data is noisy and does not directly translate into actionable insights for faculty or HODs.
+
+**What we did:**
+
+* Defined **clear academic metrics**, such as:
+
+  * Topic-level query frequency
+  * Error concentration zones
+  * Student performance clustering
+* Aggregated this into **module-level and subject-level insights** to highlight weak areas in teaching or understanding
+
+---
+
+#### 5. Building a multi-role system (students, faculty, admin)
+
+Each user type required different capabilities, access controls, and data visibility, increasing system complexity.
+
+**What we did:**
+
+* Designed a **role-based architecture** with scoped permissions
+* Separated data layers to ensure:
+
+  * Students see only learning tools
+  * Faculty access structured insights
+  * Admins get cross-cohort analytics
+
+---
+
+#### 6. Maintaining response quality under limited data
+
+In early stages, limited academic content reduced the effectiveness of retrieval-based answers.
+
+**What we did:**
+
+* Introduced **fallback strategies**, including:
+
+  * Confidence thresholds for responses
+  * Prompt constraints to avoid speculative answers
+* Focused on improving dataset quality rather than over-relying on the model
+
+---
+
+**Best EdTech Project**
+
+Our project directly aligns with the **EdTech track** by addressing a core limitation in current digital education systems: the absence of **curriculum-aligned AI support and measurable learning feedback loops**.
+
+Unlike generic AI tutoring tools, our platform is designed specifically for **institutional deployment**, where accuracy, syllabus adherence, and accountability are critical. By leveraging a RAG-based architecture constrained to institution-approved content, we ensure that student interactions remain **reliable, verifiable, and academically relevant**, which is a key requirement in real-world education environments.
+
+Beyond student support, the platform extends into an often-overlooked area in EdTech — **teaching effectiveness and academic analytics**. Our system captures and processes student interaction data to generate **module-level and subject-level insights**, enabling faculty and administrators to identify:
+
+* Frequently misunderstood concepts
+* Gaps in curriculum delivery
+* Patterns in student performance across cohorts
+
+This shifts the role of EdTech from passive content delivery to **active academic optimization**, where both learning and teaching can be continuously improved using data.
+
+Additionally, by consolidating study materials, doubt solving, and practice tools into a single platform, we reduce ecosystem fragmentation and create a **structured, unified learning environment**, which is essential for scalability in institutional settings.
+
+**Best Use of MongoDB**
+
+Our platform relies heavily on **MongoDB as a flexible, high-performance data layer** to support the dynamic and unstructured nature of educational data and AI-driven workflows.
+
+Unlike traditional relational databases, our system deals with **heterogeneous data types**, including:
+
+* Unstructured academic content (PDFs, notes, extracted text chunks)
+* Semi-structured metadata (subject, module, topic hierarchies)
+* User interaction logs (queries, responses, quiz attempts)
+* Analytics data generated from student behavior
+
+MongoDB’s document-based model allows us to store and query this data **without rigid schemas**, which is critical as curriculum structures and content formats evolve across institutions.
+
+---
+
+### Key use cases of MongoDB in our system
+
+#### 1. Content storage and retrieval for RAG
+
+We store processed academic content as **document chunks with rich metadata**, enabling:
+
+* Fast filtering (by subject, module, topic)
+* Efficient retrieval pipelines before vector search
+* Seamless updates when curriculum changes
+
+---
+
+#### 2. User interaction tracking at scale
+
+Student queries, AI responses, and quiz attempts are stored as **event-like documents**, allowing us to:
+
+* Capture fine-grained learning behavior
+* Build longitudinal learning profiles
+* Support real-time analytics without complex joins
+
+---
+
+#### 3. Analytics and insights generation
+
+MongoDB enables aggregation pipelines that power:
+
+* Module-level performance metrics
+* Identification of high-frequency doubt areas
+* Cohort-based analysis for faculty and HOD dashboards
+
+This allows us to transform raw interaction data into **actionable academic insights**.
+
+---
+
+#### 4. Role-based system design
+
+We manage multiple user roles (students, faculty, admin) with different data access patterns. MongoDB’s flexible schema allows us to:
+
+* Store role-specific data efficiently
+* Adapt permissions and structures without costly migrations
+
+---
+
+### Why MongoDB was the right choice
+
+* Schema flexibility for evolving academic structures
+* High read/write throughput for real-time interactions
+* Native support for nested and hierarchical data (ideal for curriculum modeling)
+* Scalable architecture suitable for multi-institution deployment
+
+---
+
+**Best Use of Gemini API**
+
+Our platform leverages the **Gemini API as the core intelligence layer** to deliver reliable, context-aware academic assistance within a controlled, curriculum-bound environment.
+
+A key challenge in education-focused AI systems is ensuring that responses are not only accurate, but also **aligned with institutional content and pedagogical intent**. We address this by integrating Gemini within a **RAG-based architecture**, where the model is guided strictly by retrieved academic context. Gemini’s strong reasoning capabilities allow it to:
+
+* Generate **context-grounded explanations instead of generic answers**
+* Maintain coherence across multi-step academic queries
+* Adapt explanations based on the complexity of the topic
+
+---
+
+### Key ways we utilize Gemini API
+
+#### 1. Context-aware academic tutoring
+
+Gemini processes retrieved content chunks and generates **structured, easy-to-understand explanations**, ensuring:
+
+* No out-of-syllabus drift
+* Concept-focused guidance instead of direct answer dumping
+* Citation-backed responses for transparency
+
+---
+
+#### 2. Intelligent quiz and practice generation
+
+We use Gemini to dynamically generate **flash quizzes and practice questions** from curriculum content, enabling:
+
+* Rapid reinforcement of concepts
+* Variation in question patterns
+* Continuous student engagement
+
+---
+
+#### 3. Academic content transformation
+
+Gemini helps convert raw academic material into:
+
+* Simplified explanations
+* Summarized notes
+* Structured learning outputs
+
+This improves accessibility of complex topics for students.
+
+---
+
+#### 4. Signal generation for analytics
+
+Student interactions processed through Gemini (queries, misunderstandings, response patterns) act as **semantic signals**, which are later used to:
+
+* Identify weak concepts
+* Detect learning gaps
+* Feed into higher-level academic analytics
+
+---
+
+### Why Gemini API was critical
+
+* Strong **reasoning and contextual understanding**, essential for academic use cases
+* Ability to generate **structured and pedagogically useful outputs**, not just raw answers
+* Efficient handling of long-context inputs, improving performance in RAG pipelines
+* Consistent output quality across varied academic subjects
+
+---
+
+Team **Nohara Family** -- [Monojit Goswami](https://github.com/monojitgoswami69), [Shubhadeep Biswas](https://github.com/sbr69)
+
+`2026-04-05`
+
+---
+
+### FlowEval
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/floweval-1c3f) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Agni-glitch/FlowEval_hacktropica) [![Built at](https://img.shields.io/badge/Built%20at-Hacktropica%202k26-0052CC?style=flat-square)](https://hacktropica2k26.devfolio.co)
+
+> Cognitive Grading System for Educational purposes
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+Closing the Delayed Feedback Loop
+In traditional settings, by the time students receive feedback, they have often moved on to new topics, making the corrections less useful.
+
+Real-Time Intervention: FlowEval provides instant, actionable feedback while the learning is still fresh.
+
+Data-Driven Insights: It automatically generates Sentiment Radar Charts (measuring Clarity, Fact Density, etc.), turning raw feedback into visual data that helps teachers identify class-wide learning gaps.
+Overcoming Manual Grading Burnout and Inconsistency
+Manual grading is mentally draining and prone to personal bias, fatigue, and inter-rater variability.
+
+Sentiment Calibration: It addresses human subjectivity by allowing teachers to set an "Examiner Persona" (e.g., Harsh Critic vs. Lenient Mentor), ensuring consistent grading across hundreds of papers.
+
+Scalability: It handles high-volume tasks (like grading long-form essays or complex flowcharts) that would typically take a teacher dozens of hours.
+Eliminating the "Black Box" of Automated Grading
+Most AI grading tools are "wrappers" that provide a score without explanation, leading to student distrust. FlowEval solves this through:
+
+Logical Trace Analysis: Instead of a generic grade, it simulates the student’s logic and identifies the exact "Divergence Point" where an algorithm or math problem fails.
+
+**Challenges we ran into**
+
+API & Model Availability
+Gemini deprecations — gemini-1.5-flash was deprecated mid-development, forcing a switch to gemini-2.0-flash. Then gemini-2.0-flash hit free tier quota limits (limit: 0), meaning the model wasn't available on the free tier in that region at all — not a rate limit, a hard wall.
+Free tier exhaustion — Multiple Gemini API keys from multiple accounts all hit quota. This is because Google ties free tier limits to the project/billing account, not just the key. Creating new keys under the same Google account reuses the same quota pool.
+
+**Best Use of MongoDB**
+
+The "Polymorphic Schema" Advantage
+MongoDB’s document model is the perfect fit for FlowEval 2.0 because it handles two vastly different data structures in one collection without complex SQL joins:
+
+Mode-Agnostic Storage: Store a Graph-based HIR Map (for logic) and a Thematic Heatmap (for essays) within the same evaluation object.
+
+Performance: All "Digital Red Pen" data (highlights, stats, and logic nodes) is nested in a single document, allowing the frontend to fetch everything in one database query.
+
+Rapid Iteration: You can add new AI metrics (like "Sentiment Scores" or "Plagiarism") instantly without the "migration nightmare" of traditional databases.
+
+Why Mongoose?
+Data Integrity: It enforces strict validation for sentimentProfiles and strictness levels while keeping the database flexible.
+
+Developer Speed: Built-in middleware (like pre('save') for password hashing) handles security automatically, letting you focus on the AI logic.
+
+**Best Use of Gemini API**
+
+For your project, FlowEval 2.0, the Gemini API acts as the "Cognitive Engine" that powers the transition from raw student input to structured, pedagogical feedback. You are using the Gemini 1.5 Flash/Pro multimodal capabilities to bridge the gap between human reasoning and digital data.
+
+Here is exactly how the Gemini API key is being utilized in your workflow:
+
+1. Multimodal Logic Extraction (The "Parser")
+When a teacher or student uploads a file—whether it is a handwritten flowchart, a digital image, or a text-based essay—you use the Gemini API to "see" and "read" the content.
+
+Logical Mode: Gemini analyzes the visual structure of flowcharts and converts them into a Hierarchical Intermediate Representation (HIR). This turns a picture into a JSON-based logic map consisting of nodes and edges.
+
+Subjective Mode: Gemini performs Latent Semantic Analysis to identify key historical facts, literary themes, or geographical concepts within a written response.
+
+2. Dual-Core Evaluation (The "Brain")
+The API key allows your backend to send complex, persona-driven prompts that control how the AI "thinks":
+
+Sentiment Simulation: In Subjective Mode, the API simulates specific Examiner Archetypes (e.g., "Harsh Critic" vs. "Lenient Mentor") to provide feedback that matches a specific grading tone.
+
+Symbolic Execution: In Logical Mode, Gemini doesn't just look for keywords; it simulates the execution trace of the student's logic to find the exact "Divergence Point" where their algorithm fails.
+
+3. Coordinate-Mapped Annotation (The "Digital Red Pen")
+Rather than just giving a final score, you use Gemini’s structured output to generate point-of-interest feedback:
+
+Visual Highlighting: The API returns specific snippets of text or node IDs that contain errors.
+
+JSON Overlay: Your application takes this structured JSON response and overlays it as a "Red Pen" layer on the frontend, allowing students to see hover-able tooltips explaining their mistakes.
+
+4. Quantified Data Visualization
+You use the API to generate raw numerical scores for various criteria like Clarity, Strictness, Tone Positivity, and Fact Density. This data is then fed directly into your Recharts Radar Chart on the frontend, transforming "AI chat" into a professional data visualization.
+
+Team **NameNotFoundExceptions** -- [Arpan Das](https://github.com/ArpanDasGitHub), [Agni Roybar](https://github.com/Agni-glitch), [Abhirup Saha](https://github.com/abhirup004)
+
+`2026-04-05`
+
+---
+
+### Tropic Town
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/tropic-town-626a) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Arnob-B/hacktropica-localhost) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/1Z58HS0o1HQ) [![Built at](https://img.shields.io/badge/Built%20at-Hacktropica%202k26-0052CC?style=flat-square)](https://hacktropica2k26.devfolio.co)
+
+> Where education meets innovation
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square)
+
+**The problem it solves**
+
+Traditional Learning Management Systems (LMS) often suffer from a disconnect between effort and reward.
+Low Engagement: Standard video-and-quiz formats often feel like a chore, leading to high drop-off rates (often as high as 90% in self-paced courses).
+Abstract Rewards: Grades and digital certificates are "static" and lack immediate utility for the student.
+Isolation: Virtual learning frequently lacks the "campus feel" where social interaction and spontaneous discovery occur.
+
+**Challenges we ran into**
+
+We are building a persistent 2D world where learning is an exploration, not a list of links.
+Immersive Navigation: Using a Phaser.js engine integrated into a React frontend, students move an avatar through a virtual campus.
+Contextual Classrooms: Entering a building leads to a corridor of classrooms. Each door represents a specialized module where users can initiate real-time video calls or submit tasks.
+The Token Loop: We utilize Solana to issue utility tokens.
+Earn: Complete assignments $\rightarrow$ Receive Solana-based coins.
+Spend: Use coins in the "Game Map" area to unlock mini-games, customize avatars, or access premium social zones.
+For Students: Provides Immediate Gratification. The "Learn-to-Earn" (L2E) model transforms academic milestones into tangible assets that have immediate value within the platform's ecosystem.
+For Educators: Higher Retention Rates. Gamification has been shown to improve student motivation by over 71%.
+For the Platform: The use of Solana ensures low transaction fees and sub-second finality, making the micro-reward system financially viable at scale.
+
+Team **localhost:6767** -- [Asmit Deb](github.com/asmitdeb), [Aritra Sarkar](https://github.com/AritraS05), [Rahul Pandey](https://github.com/rahul-p19), [Arnob Bhakta](https://github.com/Arnob-B)
+
+`2026-04-05`
+
+---
+
+### Resq-ai
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/resqai-50fc) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/harshchhabraa/Resq-AI-hacknovate) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://resq-ai-hacknovate-qtd1.onrender.com/) [![Built at](https://img.shields.io/badge/Built%20at-Hacknovate--7.0-0052CC?style=flat-square)](https://hacknovate07.devfolio.co)
+
+> An AI-Driven, Community-Powered, End-to-End
+
+![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square)
+
+**The problem it solves**
+
+Current disaster alert systems only notify users but don’t tell them what to do next.
+Alerts are often generic, delayed, or unclear, leading to panic, poor decisions, and unsafe situations—especially for vulnerable groups.
+This application converts alerts into personalized, real-time action plans.
+
+- Uses location + quick survey to understand user context
+
+- Generates step-by-step checklists for immediate action
+
+- Suggests safe evacuation or stay strategies
+
+- Updates guidance as conditions change
+
+- Supports multiple languages + voice instructions
+
+Impact:
+
+- Reduces panic with clear, actionable guidance
+
+- Enables faster and safer decision-making
+
+- Makes disaster response accessible to everyone
+
+**Challenges we ran into**
+
+- Real-time data integration: Combining multiple data sources (weather, location, user inputs) reliably and quickly
+
+- Personalization vs speed: Generating accurate, context-aware plans within seconds during emergencies
+
+- Handling edge cases: Supporting users with no internet, no transport, or high-risk conditions
+
+- UX under stress: Designing a simple, intuitive interface that works in panic situations
+
+- Multilingual & accessibility support: Ensuring clarity across languages and adding voice guidance
+
+- Dynamic updates: Continuously adapting plans as conditions (routes, risk levels) change
+
+Team **kasukabe** -- [Harsh Chhabra](https://github.com/harshchhabraa), [Shivansh PrasadChaudhary](https://github.com/shivanshpc), [Tanishka Jayant](https://github.com/tanishkajayant), [Siya Satija](https://github.com/SiyaSatija)
+
+`2026-04-04`
+
+---
+
+### EDUPATH-AI
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/edupathai-2182) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/hemendra-opensource/HACKNOVATE-PROJECT) [![Built at](https://img.shields.io/badge/Built%20at-Hacknovate--7.0-0052CC?style=flat-square)](https://hacknovate07.devfolio.co)
+
+> CENTRALIZED LEARNING DASHBOARD FOR STUDENTS
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+📚 Students don't know what to study next → solved by the AI Recommendation Engine that scores every unlocked skill
+🧠 No way to measure what a student actually knows → solved by Bayesian Knowledge Tracing (BKT) that updates mastery after every answer
+🗺️ No visual map of learning progress → solved by the interactive Knowledge Graph showing locked/unlocked/mastered skills
+🤖 No personalised tutoring at scale → solved by the Gemini-powered AI Tutor that adapts its language to the student's mastery level
+📋 No structured study plan → solved by the ML Plan Generator using topological sort + weighted gap analysis
+🔁 Students forget what they've learned → solved by the Spaced Repetition System (SRS) with SM-2 algorithm scheduling
+😴 No awareness of cognitive overload → solved by Intelligence Widgets (burnout detection, cognitive load, optimal study time)
+
+Team **RESEARCH RADIANCE** -- [AMAN GUPTA](https://github.com/amangupta9454), [Anshu .](https://github.com/anshu2006288), [Hemendra Sharma](https://github.com/hemendra-opensource), [Himanshu Gupta](https://github.com/himanshu561hi)
+
+`2026-04-04`
+
+---
+
+### Carevista
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/carevista-dc6f) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/mukundangopalachary/carevista-telemedicine-2) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/ISjaf9eOUFg) [![Built at](https://img.shields.io/badge/Built%20at-DevsHouse%20'26-0052CC?style=flat-square)](https://devshouse26.devfolio.co)
+
+> Rural first , consent driven offline capable
+
+![Firebase](https://img.shields.io/badge/Firebase-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![ngrok](https://img.shields.io/badge/ngrok-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![Agora API](https://img.shields.io/badge/Agora%20API-333333?style=flat-square)
+
+**The problem it solves**
+
+our platform primarily solves the problem of doctors lacking structured and reliable patient information in rural telemedicine environments with limited internet access, which increases cognitive load and reduces the quality of consultations. In many low-resource settings, patients not only struggle to clearly describe symptoms due to language and literacy barriers, but also face poor or unstable internet connectivity, making real-time, smooth consultations difficult. This forces doctors to spend valuable time both understanding fragmented patient input and dealing with incomplete or interrupted communication. Our system addresses this by enabling low-bandwidth-friendly input methods(voice or text), converting unstructured data into concise, structured clinical summaries that can be reviewed asynchronously or with minimal connectivity. In addition, it improves efficiency and access by introducing basic triage to prioritize cases, ensuring urgent patients are seen first without requiring continuous online presence. Finally, it attempts to tackle the financial barrier to care by allowing patients to request anonymous support for treatment-related expenses, although this remains a secondary, independent feature.
+
+In short, our system solves:
+
+Unstructured + low-connectivity patient communication →converts messy, intermittent input into clear, doctor-ready summaries
+High doctor cognitive load →reduces time spent gathering and reconstructing patient information
+Poor internet access →supports asynchronous, low-bandwidth interactions instead of relying on continuous video calls
+Inefficient consultation flow → enables prioritization through non-diagnostic triage
+Financial drop-offs in care →provides optional, anonymous support for treatment costs (secondary feature)
+
+**Challenges we ran into**
+
+In a hackathon setting, we faced several challenges primarily related to scope, feasibility, and time constraints. Our initial idea combined multiple complex components such as telemedicine, AI-assisted intake, triage, and crowdfunding, which made it difficult to build a complete and functional system within a limited timeframe. We also lacked access to real medical datasets, making it challenging to implement a fully trained AI model, and had to consider practical constraints like low internet connectivity and the need for a simple, intuitive user experience. Additionally, clearly demonstrating the value of the system to judges without overcomplicating the prototype was a key challenge.
+
+We overcame these challenges by strategically narrowing our focus to a core, high-impact feature—structured patient intake and doctor-ready summaries instead of attempting to build the entire system. We replaced complex AI models with rule-based or simulated logic to generate reliable outputs within the given constraints. To address feasibility, we designed a lightweight and low-bandwidth-friendly workflow, avoiding dependence on real-time heavy infrastructure. We also prioritized clear and effective user flows, ensuring that the transformation from patient input to doctor summary was easy to understand and demonstrate. More advanced components like AI learning and crowdfunding were presented as future extensions rather than fully implemented features, allowing us to deliver a working, focused prototype. Overall, we approached the hackathon by simplifying the system, focusing on usability, and ensuring a strong, end-to-end demonstration instead of trying to do everything at once.
+
+**Open Innovation**
+
+Our project fits the Open Innovation track because it presents a flexible, extensible platform that rethinks how patient-doctor interactions are structured using assistive AI, rather than being limited to a single narrow use case. While it is applied in rural telemedicine, the core innovation—converting unstructured human input into structured, decision-ready summaries—can be adapted across multiple domains such as urban healthcare, emergency response, or even other sectors that rely on expert decision-making. The system is designed with a modular architecture, where components like AI-assisted intake, triage, and support systems can evolve independently over time. Additionally, by emphasizing a human-in-the-loop approach, where AI assists but does not replace professionals, the solution aligns with sustainable and responsible innovation principles. This openness in design, scalability, and cross-domain applicability makes our project a strong fit for the Open Innovation track.
+
+Team **Ctrl Alt Hacks** -- [Mukundan Gopalachary](https://github.com/mukundangopalachary), [Shriya Srinivasan](https://github.com/shriyasrinivasann), [Srividhya Parthasarathy](https://github.com/Srividhyapartha), [Shreya Kasi](https://github.com/Shreya10052006)
+
+`2026-03-29`
+
+---
+
+### ScholarTrace
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/scholartrace-74db) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/megha-muhuri06/ScholarTrace) [![Built at](https://img.shields.io/badge/Built%20at-FrostHacks%20S02-0052CC?style=flat-square)](https://frosthacks-s-2.devfolio.co)
+
+> For Students in Need
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square)
+
+**The problem it solves**
+
+The core 3 problems it solves is the direct answering learning trap. It provides socratic method of solving question of hallucination and accuracy problem. We use RAG system to generate every response mathematically. The blackbox for educators. It curator control dashboard provides real time frictional telementry.
+
+**Challenges we ran into**
+
+1. API Errors
+2. System Deadlocks
+3. Meta data sync
+4. Startup Crashes
+5. Motion Logic
+
+Team **SkillSeedd** -- [Megha Muhuri](https://github.com/megha-muhuri06), [Priyanshu Das](https://github.com/dpriyanshu888-droid), [Sahina Mamtaj](https://github.com/Sm-2007-code)
+
+`2026-03-28`
+
+---
+
+### EDUXA
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/eduxa-f81d) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Shrimant05/AI_TUTOR) [![Built at](https://img.shields.io/badge/Built%20at-FrostHacks%20S02-0052CC?style=flat-square)](https://frosthacks-s-2.devfolio.co)
+
+> Empowering Students to Think, Not Just Retrieve
+
+![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![RestAPIs](https://img.shields.io/badge/RestAPIs-333333?style=flat-square) ![RAG](https://img.shields.io/badge/RAG-333333?style=flat-square)
+
+**The problem it solves**
+
+EDUXA: The Grounded Socratic Tutor "Guiding Minds, Not Just Providing Answers."🚀 
+
+The VisionEDUXA was engineered from the ground up to solve a critical flaw in modern AI education: the "Answer Machine" crisis. While generic LLMs act as a shortcut for students, EDUXA acts as a Socratic Scaffold, using a Grounded RAG architecture to guide students toward understanding while staying strictly within the boundaries of faculty-verified material. 
+
+🎯 Alignment with the Problem StatementWe didn't just build a chatbot; we designed a high-precision engine tailored to the specific requirements of the challenge:Grounded Accuracy: By implementing a Similarity Threshold (0.4) and hybrid search, we ensure a 95%+ query accuracy rate, strictly refusing out-of-scope questions.Mandatory Citations: Every response is dynamically linked to metadata, providing Page-Level and File-Name citations so students can verify logic in their physical notes.
+
+Socratic Pedagogy: The system identifies misconceptions and responds with Level-based hints and guiding questions instead of direct solutions.Data Isolation: Using isolated vector namespaces, we ensure that Student A's private notes are never accessible to Student B, satisfying all privacy requirements.
+
+🌟 Major Achievements & Extra FeaturesBeyond the core requirements, ByteHacks pushed the boundaries of multimodal learning:🖊️ Handwritten Notes Embedding (The Big Achievement): We successfully implemented an OCR-enhanced ingestion pipeline.  This allows EDUXA to process "messy" handwritten lecture notes, transforming scanned images into searchable vectors—a breakthrough for legacy academic archives.
+
+🎙️ Voice-Activated Tutoring: For a more natural learning experience, we integrated a Voice Mechanism, allowing students to engage in Socratic dialogue hands-free, making the tutor accessible for diverse learning needs.
+
+🖼️ Student-Side Image Support: Students can upload images of diagrams or handwritten problems. EDUXA "sees" the context and provides Socratic hints based on the visual input, bridging the gap between text and imagery.
+
+📊 The Ripple EffectEDUXA creates a data-driven ecosystem for both ends of the classroom:For Students: 24/7 inquiry-based guidance that builds academic autonomy. For Faculty: Reclaims 70% of manual effort by automating FAQs and generating Real-Time Confusion Heatmaps to pinpoint curriculum "hotspots." 🛠️ 
+
+
+Technical StackBackend: Spring Boot (Java) for high-concurrency API orchestration. RAG Engine: FastAPI (Python) using LangChain for recursive chunking and reranking.Vector Store: MariaDB & ChromaDB for high-precision metadata-driven indexing. LLM: Gemini 1.5 Flash for low-latency, multimodal Socratic reasoning.
+
+**Challenges we ran into**
+
+local llm ollama showed very high latency
+
+Socratic "hint-ladder" constraints
+
+OCR pre-processing layer to accurately transcribe and index non-digital academic archives
+
+**EDUCATION**
+
+Gemini said
+EDUXA fits the education track by transforming AI from a direct-answer engine into a grounded Socratic partner that reinforces academic integrity through inquiry-based guidance. By anchoring responses strictly to faculty-verified materials with 95%+ query accuracy and mandatory page-level citations, the system creates a hallucination-free environment for deep learning. Our specialized RAG architecture achieves significant multimodal milestones, including a Voice Mechanism for natural dialogue, student-side image support for visual problem solving, and a breakthrough handwritten notes embedding pipeline that digitizes legacy academic archives. Furthermore, EDUXA empowers instructors with real-time confusion heatmaps, reclaiming 70% of faculty time from repetitive queries to allow for more impactful, data-driven mentorship.
+
+Team **ByteHacks** -- [Shrimant Shaw](https://github.com/Shrimant05), [Anushka Shaw](https://github.com/anushkashaw951), [Aditya Kumar Shaw](https://github.com/Itadi02), [Akash Sadhukhan](https://github.com/IamAkashSadhukhan)
+
+`2026-03-28`
+
+---
+
+### BEACON
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/beacon-d3c9) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://beacon-landing-page-one.vercel.app/) [![Built at](https://img.shields.io/badge/Built%20at-HackNiche%204.0-0052CC?style=flat-square)](https://hackniche4-0.devfolio.co)
+
+> AI-Powered Web Accessibility & Security Audits
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![Firebase](https://img.shields.io/badge/Firebase-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![Lighthouse](https://img.shields.io/badge/Lighthouse-333333?style=flat-square) ![Featherless.ai](https://img.shields.io/badge/Featherless.ai-333333?style=flat-square)
+
+**The problem it solves**
+
+BEACON (Benchmarking & Evaluation of Accessibility Compliance Optimization Node) addresses the critical and growing accessibility gap in modern web applications, where dynamic, feature-rich websites often unintentionally exclude users with disabilities—such as those with visual impairments, motor limitations, or cognitive challenges. Despite established standards like WCAG 2.2, developers frequently lack practical, intuitive tools to identify, contextualize, and resolve accessibility issues across entire websites. Traditional auditing solutions typically deliver raw, overwhelming reports without meaningful visualization, historical tracking, or actionable guidance, making compliance feel like an afterthought rather than an integrated part of development workflows.
+
+This results in:
+- **Poor user experience** for millions of users who rely on assistive technologies.
+- **Legal and reputational risks** from non-compliance with accessibility regulations (e.g., ADA, Section 508).
+- **Inefficient development cycles** where accessibility is treated as a separate, burdensome task instead of a core quality metric.
+
+BEACON transforms accessibility auditing from a reactive, manual chore into a proactive, automated, and insightful process. By combining rule-based scanning (axe-core, Lighthouse, custom WCAG checks) with AI-powered semantic analysis, it catches not just surface-level violations but also complex cognitive and contextual issues that rule engines miss. The platform enables users to:
+
+- **Automate comprehensive audits**: Scan entire websites for accessibility, security, and performance issues with multi-page crawling and real-time monitoring.
+- **Gain contextual insights**: Visualize issues directly on pages, track scores over time, and receive AI-generated explanations and code fix suggestions.
+- **Integrate seamlessly**: Use browser extensions for live overlays, VS Code extensions for development-time checks, dashboards for project management, and CI/CD integrations (e.g., Lighthouse CI) for continuous compliance.
+- **Achieve compliance effortlessly**: Generate branded PDF reports, compliance certificates, and even auto-create GitHub pull requests with AI-recommended fixes.
+
+For developers, QA teams, and accessibility specialists, BEACON makes auditing **easier** by eliminating manual testing, providing clear guidance, and offering benchmarking against industry standards. It makes processes **safer** by ensuring inclusivity, reducing legal exposure, and fostering a culture of accessible design from the start. Businesses can use it to maintain compliance, improve user satisfaction, and demonstrate commitment to diversity—turning accessibility from a checkbox into a competitive advantage. Whether you're building inclusive web experiences or retrofitting existing sites, BEACON bridges the gap between identification and resolution, making the web more accessible for everyone.
+
+**Challenges we ran into**
+
+Building BEACON as a multi-layered, AI-enhanced accessibility auditing platform presented several significant hurdles, from integrating complex technologies to debugging runtime issues. As a full-stack project combining Python backends, React frontends, browser extensions, and AI systems, we encountered challenges that tested my problem-solving skills and forced me to deepen my understanding of web development, accessibility standards, and system architecture. Below, I'll detail some key bugs and obstacles, along with how we overcame them.
+
+#### 1. **API Error Handling Leading to Cryptic Console Errors**
+   - **The Hurdle**: During frontend development, API requests to the FastAPI backend were throwing generic `"[object Object]"` errors in the browser console. This occurred because the error response from the server contained a JSON object in the `detail` field (e.g., `{ "message": "Invalid URL", "code": 400 }`), but the frontend's error handling code was directly passing this object to `new Error()`, which converted it to a meaningless string representation.
+   - **Impact**: Users saw unhelpful error messages, making debugging difficult and degrading the user experience during scans or project management.
+   - **Solution**: We modified the error handling in `frontend/lib/api.ts` to check the type of `error.detail`. If it was a string, use it directly; otherwise, stringify the object with `JSON.stringify()`. This ensured meaningful error messages like `"{"message":"Invalid URL","code":400}"` or custom fallbacks. We also added logging to capture raw responses for better debugging. This fix improved error visibility and helped identify server-side issues faster.
+
+#### 2. **JSX Parsing Errors in Complex Dashboard Components**
+   - **The Hurdle**: A build error `"Expected '</', got '{'"` appeared in the Next.js dashboard (`app/dashboard/[projectId]/page.tsx`), pointing to a comment line. The root cause was an unclosed `<div>` tag in a grid layout containing conditional rendering for charts and auth-detected pages. The parser expected a closing tag but encountered the opening brace of a conditional block, causing the entire component to fail compilation.
+   - **Impact**: The build process halted, preventing deployment and testing of new features like score history visualization.
+   - **Solution**: We carefully audited the JSX structure, counting opening and closing tags. The issue was a missing `</div>` to close the grid container after the AI Analysis section. Adding the tag resolved the parsing error. To prevent future issues, we adopted stricter JSX linting rules and used tools like Prettier for auto-formatting, ensuring balanced tags in complex conditional renders.
+
+#### 3. **Integrating AI-Powered RAG Semantic Analysis with Rule-Based Scanning**
+   - **The Hurdle**: Combining Layer 1 (rule-based axe-core/Lighthouse scans) with Layer 2 (RAG-based semantic analysis) was challenging. The vector store (using NumPy and sentence-transformers) needed to filter out issues already caught by Layer 1, but initial implementations caused duplicate findings or missed nuanced problems like cognitive language complexity. Additionally, embedding generation for 86+ WCAG criteria was computationally intensive, leading to timeouts during scans.
+   - **Impact**: Scans were slow, inaccurate, or failed entirely, undermining the platform's core value of comprehensive auditing.
+   - **Solution**: We refactored the scan pipeline in `backend/services/scan_service.py` to run Layer 1 first, collect rule IDs, and pass them as filters to the RAG query. For performance, we implemented batch embedding and caching with a hybrid retrieval (70% semantic + 30% BM25). Testing with sample websites and profiling with Python's `cProfile` helped optimize query times. This hybrid approach ensured faster, more accurate results without sacrificing depth.
+
+#### 4. **Browser Extension Development and Cross-Origin Issues**
+   - **The Hurdle**: Building Chrome extensions (MV3) for live accessibility overlays required handling content scripts that inject into any webpage. Initial attempts to communicate between popup scripts and content scripts failed due to cross-origin restrictions and asynchronous message passing, leading to overlays not displaying or crashing on certain sites.
+   - **Impact**: The extension, a key "multi-surface" feature, was unreliable, limiting real-time auditing capabilities.
+   - **Solution**: We studied Chrome's extension APIs and implemented proper message passing using `chrome.runtime.sendMessage()` and listeners. For cross-origin issues, we used `chrome.scripting.executeScript()` to inject scripts safely. Testing across multiple sites (including those with CSP headers) and using the Chrome DevTools extension debugger helped isolate issues. This resulted in a stable overlay that highlights accessibility issues directly on pages.
+
+#### 5. **PDF Report Generation and Template Rendering**
+   - **The Hurdle**: Gener
+
+Team **Localbros:3000** -- [David Porathur](https://github.com/41vi4p), [Swar Churi](https://github.com/SC136), [Sai Balkawade](https://github.com/WillyEverGreen), [Sherwin Gonsalves](github.com/SHERV22)
+
+`2026-03-26`
+
+---
+
+### Scanable
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/scanable-bf87) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Yashpithwa/noobs_next_door_hn4) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/98gtnWBhLO4) [![Built at](https://img.shields.io/badge/Built%20at-HackNiche%204.0-0052CC?style=flat-square)](https://hackniche4-0.devfolio.co)
+
+> Building the next standard of accessibility
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![npm](https://img.shields.io/badge/npm-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![Chrome Extension](https://img.shields.io/badge/Chrome%20Extension-333333?style=flat-square)
+
+**The problem it solves**
+
+Modern web applications are often not accessible to all users.
+
+Many developers only check accessibility at the end of development, or sometimes not at all. This leads to websites that are difficult or impossible to use for:
+
+Users with visual impairments
+Keyboard-only users
+Screen reader users
+
+As a result, accessibility issues remain unnoticed and reach production
+
+**Challenges we ran into**
+
+Handling Dynamic Websites
+
+Modern websites load content using JavaScript, so simple HTTP scraping was not enough.
+
+Problem:
+Some elements were not visible during scanning.
+
+Solution:
+I used Puppeteer to render the full page and wait for content to load before scanning.
+
+2. Navigation Timeout Errors
+
+Problem:
+I often got navigation timeout errors while loading heavy or slow websites.
+
+Solution:
+I increased the timeout and switched to domcontentloaded instead of waiting for full network idle.
+I also added fallback handling so the scan doesn’t crash.
+
+3. False Positives in Detection
+
+Problem:
+Some elements were incorrectly flagged as issues (e.g., buttons with hidden labels).
+
+Solution:
+I improved rule logic to consider context like aria-label, alt, and inner text.
+
+4. Detecting Keyboard Accessibility
+
+Problem:
+It was difficult to check whether elements were truly usable via keyboard.
+
+Solution:
+I used Puppeteer and custom logic to simulate focus and detect focusable elements.
+5. Performance Issues with Multi Crawling
+
+Problem:
+Scanning multiple pages at once caused high memory usage and slow performance.
+
+Solution:
+I implemented controlled concurrency and avoided duplicate URL scans using a Set.
+
+🟢 6. Integrating CI/CD
+
+Problem:
+Making the tool fail builds correctly inside GitHub Actions was tricky.
+
+Solution:
+I added exit codes (process.exit(1)) based on scan results to enforce accessibility.
+
+7. Generating Useful AI Explanations
+
+Problem:
+Raw accessibility errors were hard to understand.
+
+Solution:
+I integrated an LLM to convert technical issues into simple explanations and fixes.
+
+8. Designing Game Mode
+
+Problem:
+Making developers feel accessibility issues instead of just reading them.
+
+Solution:
+I created a keyboard-only mode with visual restrictions to simulate real user challenges.
+
+Team **NOOB'S NEXT DOOR** -- [Yash Pithwa](https://github.com/Yashpithwa), [Vansh Jain](https://github.com/jvansh1204), [Rachit Chotalia](https://github.com/RachitChotalia), [Tanishk Sancheti](https://github.com/tanSan9869)
+
+`2026-03-26`
+
+---
+
+### DevDiff
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/devdiff-23b6) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/DotSlash-9-0/Team-Garuda) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/60td4zLUMOE) [![Built at](https://img.shields.io/badge/Built%20at-DotSlash%209.0-0052CC?style=flat-square)](https://dotslash-9.devfolio.co)
+
+> It is a learning PR intelligence engine
+
+![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![scikit-learn](https://img.shields.io/badge/scikit--learn-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![GitHub](https://img.shields.io/badge/GitHub-333333?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![Supabase](https://img.shields.io/badge/Supabase-333333?style=flat-square)
+
+**The problem it solves**
+
+**DevDiff solves this by combining fast static checks + ML scoring + logic review + feedback learning.**
+
+### What people can use it for
+- Scan pull requests before merge for security and logic risks
+- Get a **risk score** per PR instead of raw alert spam
+- See findings in real-time during analysis (faster review loop)
+- Track risk trends by project/developer (history, scorecard, heatmap)
+- Reduce repeated false positives through feedback-based adaptation
+
+### How it makes tasks easier/safer
+- Makes code review **faster** (priority-first findings)
+- Makes releases **safer** (critical issues surfaced early)
+- Makes teams **smarter over time** (developer-specific learning profile)
+- Makes demos/reviews **clearer** (explainable and visual analytics)
+
+**Challenges we ran into**
+
+### Challenge A: Analysis looked “empty” even when pipeline ran
+- **Issue:** Users thought analysis failed if no findings were shown clearly.
+- **Fix:** Added explicit analysis states (loading, streaming, completed, no-findings success message) and PR metadata visibility.
+
+### Challenge B: ML/LLM appeared unreliable in real environments
+- **Issue:** Python scorer process and optional LLM sometimes failed silently due to runtime/env differences.
+- **Fix:** Added ML bridge resilience (python fallback candidates, timeout fallback score), clearer event handling for logic findings, and robust websocket state updates.
+
+### Challenge C: Auth timeout confusion (“invalid token” vs network timeout)
+- **Issue:** Temporary auth network errors looked like user token failures.
+- **Fix:** Added retry + timeout-aware auth handling and returned graceful service-unavailable responses for transient failures.
+
+### Challenge D: Repeated noisy alerts (same pattern keeps coming back)
+- **Issue:** Same findings repeatedly distracted reviewers.
+- **Fix:** Implemented staged false-positive lifecycle:
+  - first feedback → tracked
+  - next occurrence → low priority
+  - repeated feedback → ignored/suppressed pattern in future scans
+
+### Challenge E: Demo reliability (stale dev cache/process conflicts)
+- **Issue:** Frontend chunk 404 / route errors from stale build artifacts and conflicting processes.
+- **Fix:** Stabilized dev run flow (clean restart, cache clear, port hygiene) and validated critical routes/builds before demo.
+
+**DevTech**
+
+DevDiff is a strong DevTrack fit because it improves the complete developer workflow from PR creation to merge decision.
+
+### Why it fits
+- **Developer Productivity:** prioritizes real risks so reviewers spend time on high-impact issues.
+- **Engineering Quality:** blends deterministic security rules with probabilistic ML confidence.
+- **Operational Maturity:** project-scoped analytics, developer profiles, history, and feedback loops.
+- **Human-in-the-loop AI:** not “black-box AI only”; reviewer feedback directly influences future behavior.
+- **Adoption-ready:** dashboard + live stream + scorecard + heatmap makes it practical for real teams, not just research demo.
+
+Team **Team Garuda** -- [kalpan kaneriya](https://github.com/kalpan2007), [Tapan Vachhani](https://github.com/Vachhani-Tapan), [Mohil Mundke](https://github.com/mundkes-tech)
+
+`2026-03-22`
+
+---
+
+### Civic Service Radar
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/civictech-a234) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/DotSlash-9-0/Runtime-Rebels) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://youtu.be/pZM5G9xiALk) [![Built at](https://img.shields.io/badge/Built%20at-DotSlash%209.0-0052CC?style=flat-square)](https://dotslash-9.devfolio.co)
+
+> Bridging Language Gaps and Predictive AI Routing
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Computer Vision](https://img.shields.io/badge/Computer%20Vision-333333?style=flat-square) ![YOLOv3 Algorithm](https://img.shields.io/badge/YOLOv3%20Algorithm-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+Traditional civic grievance systems are often fragmented, slow, and inaccessible to the common citizen. DotSlash solves these core problems:
+
+1.Language Barriers: Most platforms require English or a specific regional language. We use NLLB-200 to allow citizens to report issues in 200+ languages (Hindi, Gujarati, Tamil, etc.), which are then automatically translated and unified for officials.
+2,Manual Triage Overload: Municipal offices are buried under thousands of complaints. Our Semantic Centroid Model automatically classifies, validates, and ranks complaints by priority (0-100 score) based on severity and category, ensuring life-threatening emergencies are handled first.
+Welfare Inaccessibility: Citizens often don't know which government schemes they qualify for. By utilizing Gemini 2.0 Flash, we extract profiles from uploaded identity documents and instantly match users with 700+ government schemes.
+3.Information Asymmetry: People waste hours in queues at government offices. Our Computer Vision (YOLOv8) system provides real-time "Traffic Levels" and wait-time estimations for municipal centers, allowing for smarter resource routing.
+
+**Challenges we ran into**
+
+1.Model Optimization & Latency: Running heavy models like NLLB-200 (600M parameters) and Sentence Transformers while maintaining a responsive UI was a challenge. We solved this by architecting a dedicated FastAPI ML Microservice that runs independently of the Next.js frontend, allowing for asynchronous processing and better memory management.
+2.The "Semantic Ambiguity" Problem: During testing, we found that generic text (like food recipes or casual chat) was sometimes incorrectly classified into civic categories with low confidence. We overcame this by implementing a Dual-Threshold filtering system and a Civic Confidence Guard (0.22 benchmark). Any input that doesn't strongly mathematically align with a known civic "centroid" is now accurately flagged as invalid.
+Cross-Language Entity Extraction: Extracting specific entities (location, dates, names) from translated text required careful handling. We used a hybrid approach of NLLB-200 for translation and MiniLM-L6-v2 for semantic mapping to ensure the "meaning" of the complaint wasn't lost in translation.
+3.E2E Multimodal Integration: Coordinating the flow of data—from a user uploading an Aadhaar image in Next.js to Gemini extracting JSON, and then persisting that profile to MongoDB Atlas—required a robust error-handling pipeline to deal with varying image quality and document formats.
+
+**CivicTech**
+
+1.Bridging the Linguistic Divide: By integrating NLLB-200, we ensure that language is no longer a barrier to justice. Every citizen can report grievances in their native dialect, ensuring that marginalized communities have an equal voice in municipal improvements.
+2.AI-Driven Governance: Our Semantic Triage System replaces slow, manual sorting with an automated priority matrix (0-100 score). This ensures that critical infrastructure failures and emergencies are surfaced to the right department in seconds, not weeks.
+3.Welfare Transparency: We simplify the overwhelming complexity of government welfare using Gemini 2.0 Flash. By automating eligibility matching from document uploads, we ensure that entitled citizens actually receive the benefits meant for them, reducing the "knowledge gap" in social security.
+4.Real-Time Public Utility: Our Queue Prediction system (YOLOv8) and Live Map Alerts turn passive citizens into active data contributors, creating a real-time "Civic Radar" for the city's infrastructure health.
+
+Team **Runtime Rebels** -- Samanvitha Bolisetty, Ansh Gupta, [Pratham Patadiya](https://github.com/Pratham722007), Naina Jain
+
+`2026-03-22`
+
+---
+
+### Access ai
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/access-ai-d76d) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/HarshGupta492/ACCESSWAY-AI) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.loom.com/share/e7d571405be84f3eaa5ae1c16b7f4366) [![Built at](https://img.shields.io/badge/Built%20at-HackNova%203.0-0052CC?style=flat-square)](https://hacknova-3.devfolio.co)
+
+> Disability
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![TensorFlow](https://img.shields.io/badge/TensorFlow-333333?style=flat-square) ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+Current navigation systems like Google Maps are designed for the general population and focus primarily on finding the shortest or fastest route, without considering accessibility challenges. They do not account for real-world barriers such as stairs, broken sidewalks, steep slopes, or narrow pathways, which can make routes unsafe or completely unusable for wheelchair users, elderly individuals, and visually impaired people. Additionally, these systems lack real-time awareness of changing environments and do not provide personalized routing based on different user needs. As a result, over a billion people with mobility challenges face reduced independence, increased risk during travel, and limited access to public spaces. The core problem is that navigation today follows a one-size-fits-all approach, while accessibility requires adaptive, real-time, and user-specific solutions.
+
+**Challenges we ran into**
+
+## ⚠️ Challenges Faced During Development
+
+While building AccessWay AI, several technical and practical challenges were encountered. One of the primary challenges was implementing real-time obstacle detection using YOLOv8 without causing performance issues, as continuous image processing can be computationally expensive. Integrating live camera input with the backend while maintaining low latency required careful optimization and asynchronous processing. Another major challenge was designing a dynamic accessibility graph using map data from OpenStreetMap and applying user-specific constraints such as slope, path width, and obstacle avoidance in routing algorithms like A*. Ensuring real-time synchronization across users using WebSockets and Redis was also complex, especially when handling frequent updates from both AI detection and crowdsourced inputs. Additionally, generating meaningful and context-aware voice navigation for visually impaired users using RAG and NLP required combining multiple systems effectively. Finally, managing a full-stack architecture involving React, FastAPI, ML models, and real-time communication within a limited development timeframe required careful planning, modular design, and prioritization of core features for the MVP.
+
+Team **DevEyes** -- [Ashneet Jha](https://github.com/ashneetjha), Harsh Gupta, [SHLOK YAGNICK](https://github.com/Shlok0005), [Surbhi Kaushal](https://github.com/SurbhiKaushal)
+
+`2026-03-17`
+
+---
+
+### VitalVoice
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/vitalvoice-b1af) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ashishkumarjaiswal999/vitalvoice-backend) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://drive.google.com/drive/folders/10oaXEqFc7KIEpw-yG_SCpLeOdU18rZeh?usp=drive_link) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtube.com/shorts/Yr8NYIk_ciE?feature=share) [![Built at](https://img.shields.io/badge/Built%20at-Electrothon%208.0-0052CC?style=flat-square)](https://electrothon-8.devfolio.co)
+
+> Doctor in your pocket, in your language.
+
+![Android Studio](https://img.shields.io/badge/Android%20Studio-333333?style=flat-square) ![Kotlin](https://img.shields.io/badge/Kotlin-333333?style=flat-square) ![Camera](https://img.shields.io/badge/Camera-333333?style=flat-square) ![Room Database](https://img.shields.io/badge/Room%20Database-333333?style=flat-square)
+
+**The problem it solves**
+
+VitalVoice — Voice-First AI Healthcare Companion for Bharat
+The Problem
+700 million Indians live in rural areas with limited access to quality healthcare. Language barriers, lack of doctors, and health illiteracy make even basic medical guidance inaccessible. Most health apps are English-only and require strong internet — leaving the majority of India behind.
+Our Solution
+VitalVoice is a voice-first AI healthcare companion built specifically for India. It brings hospital-grade medical intelligence to anyone's pocket — in their own language, with their own voice.
+What Makes Us Different
+ Multi-Agent AI Pipeline
+Built on CrewAI with a 2-agent architecture — an Intent Filter agent that blocks non-medical queries, and a Medical Analyst agent that provides accurate health guidance. Every response is grounded in a RAG (Retrieval Augmented Generation) pipeline using ChromaDB vector database with 18 medical knowledge documents sourced from WHO, CDC, and ICMR.
+
+
+ 10 Indian Regional Languages
+VitalVoice speaks India's languages — Hindi, Bengali, Tamil, Telugu, Marathi, Gujarati, Kannada, Malayalam, Punjabi, and English. Users select their language and every AI response comes back in that language automatically.
+🎤 Voice-First Design
+Speak your symptoms in your language. VitalVoice listens, understands, and responds — making it accessible to users who cannot read or type.
+11 Health Modules
+
+Symptom Checker — AI-powered diagnosis assistance
+Medicine Reminder — Never miss a dose
+Mental Health — Daily emotional check-ins
+Report Explainer — Scan and understand medical reports
+Child Health — Growth and milestone tracking
+Emergency First Aid — Instant guided emergency help
+Rural Health Worker — Field-ready health assistance
+Genetic Risk — Understand your genetic profile
+Dental Health AI — Scan and analyze dental concerns
+Accessibility Mode — Voice-first, high-contrast UI
+FitFuel — AI fitness and nutrition coaching
+
+Tech Stack
+
+Android: Kotlin, Jetpack Compose, MVVM, Room DB, WorkManager
+AI Backend: Python FastAPI + CrewAI multi-agent pipeline
+Vector Database: ChromaDB with RAG pipeline
+AI Model: Google Gemini (gemini-3-flash-preview)
+Voice: ElevenLabs TTS + Android SpeechRecognizer
+Knowledge Base: 18 medical documents (WHO/CDC/ICMR)
+
+Impact
+VitalVoice targets India's 700 million rural population who currently have no access to quality medical guidance. By supporting 10 regional languages and working on low-end Android devices, we make AI healthcare truly accessible to every Indian — regardless of language, literacy, or location.
+GitHub
+
+Android App: https://github.com/ashishkumarjaiswal999/vitalvoice-android
+Backend: https://github.com/ashishkumarjaiswal999/vitalvoice-backend
+
+**Challenges we ran into**
+
+1. CrewAI Domain Blocking — App Answered Everything
+The biggest early challenge was that our AI was answering non-medical questions like Python code, math problems, and general knowledge. Judges in our first review flagged this as "just calling APIs."
+Fix: We built a 2-layer blocking system — a local keyword filter that runs before any API call, and a CrewAI Intent Filter agent that validates every query is health-related. Non-medical queries now get blocked instantly with zero API calls.
+
+2. Gemini API Model 404 Errors
+We kept getting 404 errors trying every Gemini model name — gemini-pro, gemini-1.5-flash, gemini-2.0-flash. None worked with our SDK version.
+Fix: After extensive testing we found that gemini-3-flash-preview was the correct model string for our SDK version. One model name change fixed all AI calls across 11 modules.
+
+3. Dependency Hell on Cloud Deployment
+Deploying to Railway and Render failed repeatedly because our requirements.txt had loose version constraints. pip was trying hundreds of package combinations, timing out after 30+ minutes. CrewAI version conflicts with Python 3.13 made it worse.
+Fix: We pinned exact package versions and added a .python-version file to force Python 3.11. For the hackathon demo we used a local backend with firewall rules configured for phone-to-PC communication over WiFi.
+
+4.  SpeechRecognizer Crash on Android
+Our voice input crashed on build because we used EXTRA_ONLY_RETURN_LANGUAGE_RESULTS — a constant that doesn't exist in the Android SDK.
+Fix: Removed the non-existent constant and rewrote the SpeechRecognizer helper using only valid Android speech recognition APIs.
+
+5. 15-20 Second AI Response — App Looked Frozen
+When the CrewAI pipeline ran (Intent Filter → RAG retrieval → Medical Analyst → Response Writer), it took 15-20 seconds. Users thought the app crashed.
+Fix: Built a full-screen loading overlay with a large animated spinner, "Vita is analyzing..." message, and "Running AI agents + medical knowledge base — this may take 15-20 seconds" so users understand the wait is intentional and valuable.
+
+6. Regional Language Integration
+Making AI respond in 10 Indian languages while maintaining medical accuracy was tricky. We couldn't fine-tune the model and ElevenLabs doesn't support Indian languages well on the free tier.
+Fix: We appended language instructions to every CrewAI prompt — Gemini natively understands all Indian languages. For TTS we use ElevenLabs for English and Android's native TTS engine for regional languages, which actually has better Indian language support.
+
+**Electrothon 8.0 Honors Track**
+
+1) Best Beginner Hack
+
+Team **Bitwise** -- [Nitin Tiwari](https://github.com/tiwari-nitin), [Ashish Jaiswal](https://github.com/ashishkumarjaiswal999)
+
+`2026-03-15`
+
+---
+
+### self-learning AI agent
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/selflearning-ai-agent-520d) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/KESHAV-CHANDEL-07/Self_learning_AI_agent) [![Built at](https://img.shields.io/badge/Built%20at-Electrothon%208.0-0052CC?style=flat-square)](https://electrothon-8.devfolio.co)
+
+> A self learning agent that organizes your workflow
+
+![Python](https://img.shields.io/badge/Python-333333?style=flat-square)
+
+**The problem it solves**
+
+This self-learning AI agent solves the problem of manual and static digital organization, where files are often scattered or mismanaged because traditional tools rely on rigid, hard-coded rules rather than user context.
+It addresses the following specific pain points:
+
+ * Static vs. Dynamic Organization: Traditional file sorters use shallow logic, such as moving all .pdf files to a single folder regardless of content. This agent uses context-aware perception to detect the specific workflow (e.g., Web Dev, App Dev, or ML) and organize files based on project-specific structures.
+
+ * Manual Maintenance Fatigue: Users often spend significant time manually cleaning workspaces and repositories. The agent automates this via a daemon watcher that monitors the filesystem in real-time, handling organization tasks in the background without user intervention.
+
+ * Information Decay and Code Changes: When a file's code or purpose changes, its current location may become obsolete. The agent utilizes content fingerprinting (SHA-256 hashing) and MIME-type inspection to detect internal changes and re-classify files even if their names remain the same.
+
+ * Tool Rigidity: Most tools do not learn from their mistakes. By implementing Q-Learning, this agent adapts its behavior based on rewards and user corrections, effectively "learning" the specific organizational style preferred by the user over time.
+
+ * Infrastructure Fragmentation: It bridges the gap between local development and remote collaboration. By supporting remote repository ingestion, the agent can clone and organize entire codebases before they are integrated into a local workflow, ensuring a consistent structure across distributed teams.
+
+ * Reliability in Automation: It solves the issue of automation "crashes" through a robust daemon watcher with built-in error recovery and backoff logic, ensuring the organization process remains stable even when encountering system-level exceptions.
+
+**Challenges we ran into**
+
+1. State Space Explosion and Overfitting
+
+ * The Challenge: Moving beyond simple file extensions to include content hashes, MIME types, and workflow anchors significantly increased the complexity of the "State Key".
+ * The Impact: A state key that is too specific (e.g., including a unique file hash) prevents the agent from generalizing its learning to other files. This can lead to a Q-table that grows infinitely without ever "learning" a broad rule.
+ * The Solution: We implemented a Hierarchical State Key where the agent first looks at the workflow_context and then the mime_type, treating the file hash only as a trigger for re-evaluation rather than a permanent part of the decision-making state.
+
+2. Synchronization and Race Conditions
+
+ * The Challenge: The DaemonWatcher uses the watchdog library to monitor file events in real-time.
+ * The Impact: If a user is currently saving a large file, the agent might attempt to move it before the OS has finished writing, leading to "File in Use" or "Permission Denied" errors.
+ * The Solution: We had to implement a Poll Interval and retry logic in the DaemonWatcher to ensure the agent waits for file stability before executing an action.
+
+3. Reward Loop Fragility
+ * The Challenge: Defining what constitutes a "successful" organization is subjective.
+ * The Impact: If the reward function is hard-coded (e.g., only rewarding moves that match a static config), the agent stops being "intelligent" and simply becomes a complex mirror of an if/else statement.
+ * The Solution: We shifted toward Dynamic Reward Shaping, where manual user overrides (moving a file back) are treated as heavy negative penalties, allowing the agent to learn the user's specific "Workflow Style" over time.
+
+4. Dependency and Environment Management
+* The Challenge: Shipping the tool as a CLI requires it to work across different operating systems (Windows, macOS, Linux) with various library requirements.
+ * The Impact: Libraries like python-magic depend on external "libmagic" binaries, which can cause the tool to crash on systems where these aren't pre-installed.
+ * The Solution: We standardized the environment using a requirements.txt and a setup.py entry point, and added crash-recovery logic in the DaemonWatcher to handle missing dependencies gracefully.
+
+5. Remote Repository Ingestion Complexity
+ * The Challenge: Integrating repo links required managing local clones, temporary directories, and cleanup cycles.
+ * The Impact: Improper cleanup can quickly fill a user's /tmp directory with gigabytes of cloned data from different repo links.
+ * The Solution: We developed the RepoManager to handle the lifecycle of remote data, ensuring that clones are isolated and deleted after the organization cycle is complete.
+
+Team **Chaos & Order** -- [Tanishq Thakur](https://github.com/tanishqq00), [KESHAV CHANDEL](https://github.com/KESHAV-CHANDEL-07), [Sachin Thakur](https://github.com/sachinthakur4002), [Shubham kumar](https://github.com/Shubham00097)
+
+`2026-03-15`
 
 ---
 

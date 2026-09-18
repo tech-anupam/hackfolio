@@ -1,8 +1,79 @@
 # DevTools and Infrastructure
 
-![Projects](https://img.shields.io/badge/Projects-169-4B32C3?style=flat-square) [![GitHub](https://img.shields.io/badge/GitHub-tech--anupam-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/tech-anupam) [![Instagram](https://img.shields.io/badge/Instagram-tech.anupam-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/tech.anupam)
+![Projects](https://img.shields.io/badge/Projects-265-4B32C3?style=flat-square) [![GitHub](https://img.shields.io/badge/GitHub-tech--anupam-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/tech-anupam) [![Instagram](https://img.shields.io/badge/Instagram-tech.anupam-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/tech.anupam)
 
 [← Back to all themes](https://github.com/tech-anupam/hackfolio#readme)
+
+---
+
+### AlgoGate SDK
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/algogate-sdk-2b87) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/notlevi911/algogate-sdk.git) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/D4R0c05gYK8?si=UR3nxrRAq6phD6KR) [![Built at](https://img.shields.io/badge/Built%20at-BINARY%20v2-0052CC?style=flat-square)](https://binaryvtwo.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-42-FF6B6B?style=flat-square)
+
+> Algorand x402 micropayments SDK for APIs
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square)
+
+**The problem it solves**
+
+Monetizing an API today requires setting up a payment processor, managing subscriptions, issuing API keys, handling billing failures, and building an entire auth layer around it. This is a lot of infrastructure for a developer who just wants to charge for access to a route.
+AlgoGate solves this by making payment the access mechanism itself. A developer adds one decorator to any FastAPI route and that route immediately requires an Algorand micropayment before it responds. No Stripe account, no subscription table, no API key management, no user accounts.
+Any client with an Algorand wallet and some ALGO can pay and get access instantly. The payment is verified directly on-chain, so there is no middleman and no way to fake it.
+It is useful for developers who want to sell access to data APIs, AI model endpoints, premium content routes, or any service where pay-per-call makes more sense than a monthly subscription. It is also useful for developers who want to reach a global audience without dealing with credit card infrastructure or geographic payment restrictions.
+The Chrome extension that AlgoGate scaffolds automatically means the client side is also handled. A user installs the extension, creates a wallet, funds it, and can start paying for API calls immediately without the API developer writing any frontend code.
+
+**Challenges we ran into**
+
+The biggest challenge was getting the middleware and route decorator to share request context cleanly in FastAPI without forcing the developer to add request: Request to every endpoint. We solved this using a Python context variable that the middleware populates before the route runs.
+Verifying Algorand transactions without the Python algosdk was tricky at first. We had to read through the Algorand Indexer REST API documentation carefully to understand exactly which fields to check and how the payment transaction object is structured in the JSON response.
+The note prefix system took several iterations to get right. We needed a way to tie a payment to a specific route so that a payment for one endpoint could not be replayed against another. We ended up deriving a 16 character hex prefix from the SHA-256 hash of the route path, which the extension embeds in the transaction note.
+Scaffolding the Chrome extension from inside Python was harder than expected. We used inspect.stack() to find the caller's directory and embedded all the extension templates as strings inside scaffold.py. Getting the browser algosdk bundle to work without npm install required bundling the minified JS directly into the scaffold output.
+The JWT session token scope was also a subtle problem. We needed tokens to be route-scoped so a session bought for one endpoint could not unlock a different one, and we had to make sure the secret was deterministic but not guessable, so we derived it from the receiver address.
+
+**Web3**
+
+AlgoGate is a Python SDK that lets FastAPI developers paywall their API routes using Algorand micropayments. Instead of centralized billing, every API call is gated by an on-chain Algorand transaction  fully decentralized, permissionless, and trustless.
+Web3 elements of the project:
+
+Uses the Algorand blockchain for payment settlement  no banks, no payment processors
+Implements the x402 Payment Required protocol pattern  HTTP-native crypto payments
+Verifies payments directly against the Algorand Indexer (on-chain truth, not a database)
+Ships a Chrome wallet extension that signs and submits Algorand transactions in-browser
+Uses AES-GCM encrypted wallet vaults and browser-native key management
+Replay protection is enforced via on-chain transaction IDs  immutable and auditable
+Any user with an Algorand wallet and ALGO can access any protected API  no accounts, no KYC
+
+AlgoGate makes Web3 payments invisible to the end user while keeping the settlement fully on-chain  bridging the gap between traditional REST APIs and the decentralized payment layer.
+
+**Open Innovation**
+
+AlgoGate introduces a novel approach to API monetization that didn't exist before in the Python ecosystem. It paywall individual FastAPI routes using Algorand blockchain micropayments, with zero subscription infrastructure required.
+What makes it an open innovation:
+New protocol pattern for APIs. AlgoGate implements the x402 Payment Required flow, turning HTTP 402 (a long-dormant status code) into a functional, real-time payment gate. This is a genuinely new primitive for how APIs can be monetized.
+Full-stack from a single decorator. A developer adds @gate.protect to any route and AlgoGate handles everything: middleware, on-chain verification, JWT session caching, a live dashboard, and even scaffolds a Chrome wallet extension beside their main.py, all from one pip install.
+No payment processor, no accounts, no KYC. Any wallet with ALGO can call any protected endpoint. The payment rail is the Algorand blockchain itself, making it globally accessible and censorship-resistant.
+Self-contained Chrome extension scaffold. The SDK generates a fully working browser extension at runtime, complete with AES-GCM encrypted wallet storage, payment signing, and automatic retry logic. No npm install needed.
+Published open source on PyPI. pip install algogate-sdk, MIT licensed, available today, built for the broader developer community to extend.
+AlgoGate is infrastructure-level open innovation: a reusable, open-source building block that changes how any Python API developer can think about monetization.
+
+**Best Beginners' Team**
+
+Our team of four students built AlgoGate from scratch with no prior experience in blockchain development or SDK design. None of us had ever published a Python package to PyPI before, worked with the Algorand ecosystem, or built a Chrome extension.Over the course of this hackathon we learned how Algorand transactions work, how to verify on-chain payments via the Indexer REST API, how to structure and publish a Python SDK, how to scaffold a browser extension programmatically from Python, and how to implement AES-GCM wallet encryption in the browser.We went from zero blockchain knowledge to a working, installable SDK at pip install algogate-sdk with a full end-to-end payment flow: FastAPI backend, on-chain Algorand settlement, JWT session tokens, and a generated Chrome wallet extension.Every part of the stack was new territory for us and we figured it out together as a team.
+
+**Algorand**
+
+AlgoGate brings a payment primitive to the Python API ecosystem that did not exist before. It lets any FastAPI developer paywall their routes using Algorand micropayments with a single decorator, no subscription infrastructure, no payment processor, and no user accounts.
+
+The x402 Payment Required pattern turns HTTP 402 into a real, functional payment gate. A client without a valid on-chain payment gets a 402 with a cryptographic challenge. They pay on Algorand, submit the transaction ID, and the SDK verifies it directly against the Algorand Indexer. No middleman, no database of payments, just the chain.
+
+Algorand was the right choice because of near-instant finality and sub-cent fees. A payment gate only works as a developer tool if the transaction cost is negligible compared to the value of the API call. Algorand makes that math work.
+
+The SDK also scaffolds a Chrome wallet extension at runtime so the client side is handled too. A user installs it, creates an AES-GCM encrypted wallet, funds it with ALGO, and starts paying for API calls immediately.
+
+Everything is open source, MIT licensed, and published at `pip install algogate-sdk`.
+
+Team **Water Melon** -- [Soumajit Goswami](https://github.com/Soumajit05), [Soumen Hati](https://github.com/Soumen0908), [Soham Kundu](https://github.com/Soham748), [Soubhagya Sadhukhan](https://github.com/notlevi911)
+
+`2026-03-22`
 
 ---
 
@@ -197,6 +268,258 @@ Team **Wearebatman** -- [Abhimanyu R B](https://github.com/Abm32), [Aagneye S](h
 
 ---
 
+### NeuroChain
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/neurochain-000e) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/sumit-bhagat-2004/NeuroChain) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://www.system-404.xyz/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/QeGHjcQrccc) [![Built at](https://img.shields.io/badge/Built%20at-BINARY%20v2-0052CC?style=flat-square)](https://binaryvtwo.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-13-FF6B6B?style=flat-square)
+
+> Connect & Evolve
+
+![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![Docker](https://img.shields.io/badge/Docker-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![DigitalOcean](https://img.shields.io/badge/DigitalOcean-333333?style=flat-square) ![Algorand](https://img.shields.io/badge/Algorand-333333?style=flat-square) ![Snowflake](https://img.shields.io/badge/Snowflake-333333?style=flat-square)
+
+**The problem it solves**
+
+## 🧠 The Problem It Solves
+
+In today's digital landscape, collaborative discourse and knowledge building are broken. We face **information fragmentation**, endless repetitive chat threads, and "echo chambers" where the evolution of an idea is lost in the noise. When multiple people try to solve a complex problem or debate a topic, tracking who contributed what—and determining the logical strength of the arguments—becomes nearly impossible.
+
+**NeuroChain** solves this by transforming chaotic, linear discussions into a structured, AI-curated, and blockchain-verified **Knowledge Graph**.
+
+### 🚀 What People Can Use It For
+
+* **Collaborative Brainstorming & Research:** Instead of getting lost in slack threads or massive Google Docs, teams can input their ideas as "Thoughts." NeuroChain automatically merges similar ideas using AI, tracking how a concept evolves over time while preserving the history of its development.
+* **Structured Debates & Decision Making:** Organizations can use the platform to untangle complex debates. The system ingests transcriptions and user inputs, evaluating the **strongest and weakest arguments** based on logical coherence, and visually maps out where consensus is actually forming.
+* **Academic & Scientific Synthesis:** Researchers dealing with "information overload" can use the AI Analysis tools to synthesize massive amounts of qualitative data, extracting key insights, emerging patterns, and proposing unified frameworks automatically.
+
+### 🛡️ How It Makes Existing Tasks Easier and Safer
+
+**Making it Easier:**
+* **Eliminates Redundancy:** The *Enhanced Similarity Service* automatically detects duplicate or overlapping thoughts (using semantic, keyword, and fuzzy matching) and merges them into an evolving "Accumulated Text" node. You never have to read the exact same idea twice.
+* **Visual Navigation:** The Graph Canvas makes it intuitively easier to understand the relationship between disparate concepts compared to reading a linear text thread.
+* **Instant Synthesis:** What would take hours of manual reading and summarizing is done instantly via the Snowflake Cortex LLM, which provides high-level summaries and actionable recommendations.
+
+**Making it Safer:**
+* **Immutable Attribution (Proof of Contribution):** By integrating with the Algorand blockchain (via `LiveProof` and `DebateStake` smart contracts), every participant's intellectual contribution is securely tracked. Even when an idea is merged or evolved, the original creators maintain verifiable credit.
+* **Logical Rigor & Fact-Checking:** The AI acts as a safety layer against misinformation and weak logic. It explicitly identifies arguments that "lack support or coherence," helping communities avoid acting on flawed premises.
+* **Reduced Echo Chambers:** By mapping ideas based on semantic relationship rather than just social popularity, NeuroChain forces users to confront diverse perspectives and clearly see the logical bridges (or gaps) between different clusters of thought.
+
+**Challenges we ran into**
+
+## 🧗 Challenges I Ran Into
+
+Building NeuroChain involved several complex hurdles, particularly around tuning the AI logic and managing infrastructure. Here are the main challenges and how we solved them:
+
+### 1. The "Logical Inference" vs. "Text Similarity" Edge Bug
+**The Hurdle:** When building the knowledge graph, we noticed that edges weren't being generated between clearly related nodes. For example, a rule about "Liquid Neon" wasn't connecting to a component called "Thermal-X Unit." 
+**The Cause:** Our `Enhanced Similarity Service` was tuned too strictly. The `score_threshold` was set to `0.7`, and the scoring algorithm placed too much weight (20%) on exact Keyword Overlap (Jaccard similarity). Because the logically related nodes used different terminologies, the score dropped to ~0.52, failing to create an edge.
+**The Fix:** We realized that a *Systematic Concluder* needs to evaluate logical relationships, not just exact word matches. We lowered the global edge threshold to `0.45`, rebalanced the algorithm to heavily prioritize **Semantic Similarity** (embeddings) at 80%, and relied on our `Thought Evolution Service` to dynamically merge highly similar thoughts instead of forcing brittle edge connections.
+
+### 2. Mixed Content Security Violations (WebSockets & HTTPS)
+**The Hurdle:** During deployment, the frontend graph canvas suddenly failed to load, throwing `SecurityError` and `TypeError: Failed to fetch` in the browser console.
+**The Cause:** Our frontend was securely hosted via HTTPS, but it was attempting to establish insecure WebSocket (`ws://`) and API (`http://`) connections to our backend. Modern browsers automatically blocked this to prevent "downgrading" security.
+**The Fix:** We updated our environment variables and API utility classes (`frontend/lib/api.ts`) to dynamically enforce secure protocols (`wss://` for WebSockets and `https://` for standard REST fetches) whenever the app is running in a secure production environment.
+
+### 3. Strict Pydantic Validation & Dependency Corruption
+**The Hurdle:** The backend completely crashed on startup with a `pydantic_core._pydantic_core.ValidationError: 1 validation error for Settings`. Shortly after, running `pip install` resulted in a massive gibberish error (`ERROR: Invalid requirement: '慦瑳...'`).
+**The Cause:** * Pydantic: Our `config.py` uses `BaseSettings` with `extra='forbid'`. A stray `app_id=1002` in our `.env` file triggered a fatal crash because it wasn't explicitly defined in the Python model.
+* Requirements: Our `requirements.txt` file had its encoding accidentally corrupted (saved as UTF-16 instead of UTF-8), making it unreadable to pip.
+**The Fix:** We cleaned the `.env` file to remove the unused variable (satisfying Pydantic's strictness) and completely regenerated the `requirements.txt` file using standard UTF-8 encoding via the command line.
+
+**Web3**
+
+## ⛓️ Decentralized Proof of Contribution: Technical Architecture
+
+NeuroChain uses a hybrid architecture, combining the heavy computational power of **Snowflake Cortex LLM** with the immutable, low-cost ledger of the **Algorand Blockchain**. This ensures that while an AI dynamically merges and evolves thoughts, the original creator's intellectual property is cryptographically preserved.
+
+Here is the step-by-step technical breakdown of how a user's thought is notarized via the `LiveProof` smart contract.
+
+### Phase 1: The Frontend (Client-Side Signature)
+When a user submits a new idea or transcription, the frontend does not just send raw text to the server.
+
+1. **Wallet Connection:** The user connects their Algorand wallet via our `WalletContext.tsx` provider. This generates a persistent, pseudo-anonymous identity.
+2. **Payload Generation:** The user types their thought. The frontend creates a payload containing the text, a timestamp, and the user's Algorand public address.
+3. **Transaction Signing:** Before sending the request to the FastAPI backend, the user's wallet is prompted to sign a micro-transaction (or an application call) directed at the `LiveProof` smart contract.
+
+### Phase 2: The Backend (AI Evolution & Hashing)
+The FastAPI backend serves as the bridge between the AI logic and the blockchain API.
+
+1. **Ingestion:** The backend receives the signed thought payload.
+2. **AI Similarity Check:** The `Enhanced Similarity Service` checks if this thought already exists in the graph. 
+   - If it's novel, it creates a new node.
+   - If it's highly similar, the `Thought Evolution Service` merges it into an existing node, updating the `accumulated_text`.
+3. **Cryptographic Hashing:** Regardless of whether the thought was merged or kept distinct, the backend generates a unique `SHA-256` hash of the *original* raw text submitted by the user.
+
+### Phase 3: The Blockchain (The `LiveProof` Contract)
+Written in Python using **AlgoKit** and **Puya**, the `LiveProof` contract acts as a decentralized notary.
+
+1. **API Relay:** The core backend forwards the generated hash and the user's public address to the dedicated `blockchain-api`.
+2. **Contract Invocation:** The `blockchain-api` invokes the `LiveProof` smart contract on the Algorand network.
+3. **State Storage:** The smart contract stores the hash in its local/global state, forever tying the specific thought hash to the user's Algorand wallet address and the block timestamp.
+
+---
+
+### 🔄 The Architecture Flow
+
+\`\`\`mermaid
+sequenceDiagram
+    participant User as Frontend (Wallet)
+    participant Core as FastAPI Backend
+    participant AI as Snowflake Cortex LLM
+    participant BChain as Blockchain API
+    participant Algo as Algorand (LiveProof)
+
+    User->>Core: Submit Thought + Wallet Address
+    Core->>AI: Request Similarity & Evolution Check
+    AI-->>Core: Return Merged Node Data (Thought Evolution)
+    Core->>Core: Generate SHA-256 Hash of original thought
+    Core->>BChain: Send Hash + Wallet Address
+    BChain->>Algo: Invoke LiveProof Contract
+    Algo-->>BChain: Confirm Transaction (Block Logged)
+    BChain-->>Core: Return TxID
+    Core-->>User: Success (Node Updated + TxID provided)
+\`\`\`
+
+### Why This Architecture Matters
+If User A submits "Liquid Neon is required for Level 5 Cooling," and User B later submits a slight variation, the AI will merge them. However, if anyone ever questions who originated the *core* idea, we can take User A's original text, hash it, and prove that that exact hash was logged on the Algorand blockchain by User A's wallet hours (or days) before User B ever participated.
+
+**AI/ML**
+
+## 🤖 AI & Machine Learning: The Cognitive Engine
+
+Most modern AI applications use Large Language Models (LLMs) to generate *more* text—acting as chatbots or copywriters. **NeuroChain flips this paradigm.** It uses AI and ML to *condense, evaluate, and structure* chaotic human discourse into a mathematically rigorous knowledge graph. 
+
+Rather than generating noise, the AI acts as a decentralized epistemological engine. Here is how it uniquely utilizes AI/ML:
+
+### 1. Multi-Dimensional Similarity & Thought Evolution
+Traditional semantic search relies solely on vector embeddings, which often fail to capture the nuance of a logical debate. NeuroChain's `Enhanced Similarity Service` builds a proprietary composite score using six different ML and NLP techniques:
+* **Semantic Meaning:** 40% (Cosine similarity of dense embeddings).
+* **Domain Context:** 15% (Jaccard keyword overlap).
+* **Typo/Syntax Resistance:** 15% (Fuzzy character n-gram matching).
+* **Plus:** Edit distance (Levenshtein), token overlap, and length ratios.
+
+**Why it's unique:** Instead of just "blocking" duplicates, the AI uses these scores to calculate a **Creativity Delta**. If a user submits a highly similar idea, the system merges it as an "Evolution" of the original thought. If the similarity is low, it assigns a high creativity score and spawns a new node. The AI effectively maps the genealogical tree of an idea.
+
+### 2. The "Systematic Concluder" (Multi-Hop Reasoning)
+When a debate graph reaches critical mass, the system triggers the `node_ai_service`, leveraging **Snowflake Cortex LLM (`llama3.1-70b`)**.
+* **Argument Evaluation:** The AI analyzes the interconnected nodes to explicitly identify the *Strongest Arguments* (based on logical coherence) and the *Weakest Arguments* (flagging those that lack evidence or contain logical fallacies).
+* **Consensus Extraction:** It acts as a neutral moderator, looking across isolated clusters of thought to propose a "Unified Framework" or "Best Stance" that bridges disparate viewpoints.
+
+**Why it's unique:** It forces the LLM to act as a logic engine rather than a text generator. By feeding the LLM a structured graph of merged, deduplicated thoughts (complete with evolution velocity and contributor metadata), the AI performs complex **Relational Inference** that would be impossible in a standard, messy chat thread.
+
+### 3. Automated Controversy & Health Analytics
+The backend automatically calculates the "Health" of a debate. If an idea branches rapidly into heavily contested nodes, the ML logic flags the topic's `controversy_score` and `evolution_velocity`. 
+
+**The Ultimate Value:**
+NeuroChain uses AI not to speak *for* users, but to **perfectly map what users are saying to each other**. It curates the ultimate signal-to-noise ratio, ensuring that the best, most logically sound ideas naturally rise to the top of the graph, visually and computationally.
+
+**Open Innovation**
+
+## 🌍 Open Innovation: Structuring Global Collaboration
+
+Open Innovation relies on the premise that the best ideas often come from outside an organization's internal boundaries. However, large-scale public brainstorming, hackathons, and open-source R&D face three major bottlenecks: **Idea Fragmentation**, **IP Theft/Credit Loss**, and **Noise-to-Signal ratios**. 
+
+NeuroChain solves these bottlenecks, making it the ultimate infrastructure for decentralized R&D and Open Innovation challenges. Here is how it uniquely enables global problem-solving:
+
+### 1. Solving the Intellectual Property Dilemma (Micro-Attribution)
+In traditional open innovation forums (like Reddit, Discord, or standard hackathon boards), if a user posts a brilliant foundational concept and a larger team executes it, the original user rarely gets credit. 
+* **The NeuroChain Approach:** Through the `LiveProof` smart contract, every single "thought" or idea fragment is hashed and assigned to the creator's wallet. 
+* **Why it's unique:** It creates a system of **Verifiable Micro-IP**. Organizations can host open innovation challenges where thousands of people contribute. If an idea is eventually used, the blockchain graph proves exactly who originated the core thought and who contributed the necessary "evolutions" to make it viable.
+
+### 2. Eliminating Redundancy with "Composable Brainstorming"
+When a company crowdsources solutions, hundreds of people often submit the exact same idea in different words, creating a massive administrative burden to read and categorize them.
+* **The NeuroChain Approach:** The `Thought Evolution Service` actively listens to all submissions. If User B submits an idea highly similar to User A's, the AI doesn't just create a new ticket—it **merges** them, tracking the evolution and maintaining the accumulated context.
+* **Why it's unique:** Contributors are no longer shouting into the void; they are actively and automatically building on top of one another's mental models in real-time. The community builds a single, highly refined Knowledge Graph instead of 1,000 disconnected Google Docs.
+
+### 3. AI-Driven Synthesis & Consensus Extraction
+In any open innovation community, separating good ideas from bad ones usually requires a slow, biased human review panel.
+* **The NeuroChain Approach:** The system utilizes **Snowflake Cortex LLM** to analyze the entire graph of submissions. It automatically extracts the "Key Insights," identifies the "Strongest Arguments," and synthesizes a "Unified Framework." 
+* **Why it's unique:** The AI acts as an impartial Chief Innovation Officer. It looks at the interconnected data and tells the organization exactly where the community consensus lies and which creative ideas are structurally sound.
+
+### 4. Bounties and Stake-Driven R&D
+By integrating the `DebateStake` smart contract, organizations can attach actual economic incentives to open innovation nodes.
+* **The NeuroChain Approach:** A company can stake a bounty on a specific problem node. As the community debates and evolves the node, the AI evaluates the logical weight and creativity score of the contributions.
+* **Why it's unique:** It allows for programmatic, merit-based distribution of funds to the wallets that actually provided the highest-value insights, filtering out spam and financially rewarding genuine intellectual labor.
+
+**Requestly**
+
+## 🛠️ Requestly: Decoupled Development & Deterministic AI Testing
+
+Building an application that relies on real-time Large Language Models (Snowflake Cortex) and Blockchain networks (Algorand) introduces a massive development bottleneck: **Latency and Non-Determinism**. 
+
+If a frontend developer wants to test how the Graph Canvas renders a complex "Thought Merge," waiting for an LLM to process the similarity score and a blockchain to confirm the transaction is incredibly inefficient. NeuroChain solves this using a comprehensive **Requestly** interception architecture.
+
+### 1. Deterministic AI UI Testing
+LLMs are inherently non-deterministic—they return slightly different text every time. This makes building strict UI components (like the `TopicsAnalysis` or `DebateConclusion` dashboards) very difficult. 
+* **The Requestly Solution:** We built a full suite of Mock API routes via Requestly (e.g., `get-ai-analysis.json`, `get-conclusion.json`). 
+* **Why it's unique:** It allows the frontend to test the exact JSON schemas required for the "Systematic Concluder" without spending API credits or waiting for the LLM to "think." The UI team can guarantee the Graph Canvas renders perfectly against a known, static AI payload.
+
+### 2. Simulating Complex ML Edge Cases
+In a live environment, forcing the `Enhanced Similarity Service` to exactly hit the `0.65` threshold to trigger a "Thought Merge" (instead of a new node) requires carefully crafted prompt engineering during testing.
+* **The Requestly Solution:** We use specific Requestly routing rules like `add-transcription-merge.json` versus `add-transcription.json`.
+* **Why it's unique:** Developers can instantly toggle the backend's behavior between "Create New Distinct Idea" and "Evolve Existing Idea" with a single click in the Requestly extension, bypassing the complex ML similarity calculations to strictly test frontend state management.
+
+### 3. Bypassing Web3/Blockchain Friction
+Running a local Algorand node (LocalNet) and managing test wallets can slow down rapid UI iteration.
+* **The Requestly Solution:** Our Requestly `auth.json` and environment variables simulate successful `LiveProof` smart contract interactions, returning mock Transaction IDs.
+* **The Ultimate Value:** It allows frontend engineers, AI engineers, and Web3 engineers to work completely decoupled. The frontend can be built and demonstrated with 100% fidelity using the Requestly mocks, while the backend services are tuned in isolation.
+
+* ** https://youtu.be/EhOM9nMGV4Q Youtube Link
+
+**Algorand**
+
+## ⛓️ Algorand: The Decentralized Trust Layer for AI
+
+Most Web3 projects focus on Decentralized Finance (DeFi) or speculative tokenomics. **NeuroChain takes a completely different approach.** We use the Algorand blockchain to solve one of the biggest emerging problems in Artificial Intelligence: **Attribution and Intellectual Property.** When an AI actively merges, evolves, and synthesizes human thoughts, the original creators usually lose their credit. NeuroChain uses Algorand as an immutable ledger to track exactly who contributed what to the collective AI brain.
+
+Here is how we uniquely utilize the Algorand ecosystem:
+
+### 1. Verifiable Micro-IP via the `LiveProof` Contract
+In traditional platforms, if you post a brilliant foundational idea and an AI repackages it, your ownership is lost. 
+* **The Algorand Solution:** Every time a user submits a thought, our backend generates a SHA-256 hash of the original text. Before the AI merges or evolves the thought, the user's connected wallet signs a micro-transaction, logging that hash to our `LiveProof` smart contract.
+* **Why it's unique:** Algorand’s fraction-of-a-cent transaction fees and ~3-second finality make it economically and technically viable to notarize *individual sentences and thoughts* in real-time. We are building a decentralized, cryptographically verifiable academic citation graph.
+
+### 2. Economic Accountability via the `DebateStake` Contract
+The internet is plagued by bots and bad-faith arguments because producing garbage data is free.
+* **The Algorand Solution:** To participate in high-level knowledge graph sessions, users connect their wallets and stake a small amount of ALGO via our `DebateStake` contract. 
+* **Why it's unique:** We combine Web3 game theory with LLM logic analysis. Because our AI backend evaluates the *logical coherence* of every submission, the smart contract can dynamically protect or reward the stakes of users who provide structurally sound arguments, while penalizing spam or logical fallacies. It forces "skin in the game" for digital discourse.
+
+### 3. Python-Native Synergy (AlgoKit & Puya)
+Building a complex AI backend requires a heavy Python ecosystem (FastAPI, Scikit-learn, Snowflake Cortex). 
+* **The Algorand Solution:** By utilizing **AlgoKit** and writing our smart contracts in native Python using **Puya**, we achieved a completely unified tech stack. 
+* **Why it's unique:** Our AI models, backend API, and blockchain smart contracts all speak the exact same language, allowing for seamless data serialization between the machine learning models and the decentralized ledger.
+
+**Education**
+
+## 🎓 Education: Transforming Passive Classrooms into Dynamic Knowledge Graphs
+
+Modern education is attempting to shift from rote memorization to collaborative critical thinking. However, educators face three massive hurdles: **assessing individual participation in group settings**, **evaluating the logical rigor of classroom debates**, and **combating passive learning**.
+
+NeuroChain completely reimagines the digital classroom by turning student discussions into a verifiable, AI-assisted cognitive map. Here is how it uniquely serves the Education track:
+
+### 1. Solving the "Group Project" Dilemma (Proof of Contribution)
+In traditional group work or discussion boards, a few students do the heavy lifting while others coast, making fair grading nearly impossible.
+* **The NeuroChain Approach:** Through the `LiveProof` smart contract on Algorand, every student's individual contribution (a "thought" or argument) is cryptographically hashed to their student wallet.
+* **Why it's unique:** It creates a system of **Verifiable Academic Micro-IP**. Teachers no longer have to guess who contributed what. The blockchain graph provides an immutable record of exactly which student originated a core concept and which students iteratively evolved it.
+
+### 2. Automated Assessment of Critical Thinking (AI Synthesis)
+Grading the quality of a 30-student debate or forum discussion requires hours of subjective manual reading.
+* **The NeuroChain Approach:** The system utilizes **Snowflake Cortex LLM** to analyze the classroom's entire knowledge graph. The AI acts as an impartial teaching assistant, automatically identifying the *Strongest Arguments* (based on logical coherence) and the *Weakest Arguments* (flagging logical fallacies or claims lacking evidence).
+* **Why it's unique:** It shifts AI in education from a "cheating tool" (like students using ChatGPT to write essays) to an **epistemological grading engine**. The AI evaluates *how well the students are reasoning with each other*, providing the educator with an instant summary of the class's consensus and knowledge gaps.
+
+### 3. Composable Socratic Seminars (Thought Evolution)
+Standard educational forums (like Canvas or Blackboard) are linear and repetitive. Students often post slight variations of the exact same answer just to get participation points.
+* **The NeuroChain Approach:** The `Thought Evolution Service` actively listens to student submissions. If Student B submits an idea highly similar to Student A's, the system merges them, tracking the evolution. If a student introduces a genuinely novel perspective, the AI calculates a high `Creativity Delta` and branches a new node.
+* **Why it's unique:** Students are visually rewarded for original thinking rather than repetition. The class builds a single, highly refined "Master Concept Map" over the semester, allowing students to visually trace how their collective understanding of a topic has evolved.
+
+### 4. Gamified Debate & Logical Incentives
+By utilizing the `DebateStake` mechanics (which can be adapted to use "class participation tokens" rather than real currency), educators can gamify critical thinking.
+* **The NeuroChain Approach:** Students stake participation tokens on their arguments. If the AI and peer consensus validate the argument as logically sound and highly creative, they earn reputation points.
+* **Why it's unique:** It financially (or academically) disincentivizes trolling, echo chambers, and low-effort posts, organically training students to value evidence-based reasoning and constructive discourse.
+
+Team **System 404** -- [Sowdarjya Kolay](https://github.com/0x-rekt), [SUMIT BHAGAT](https://github.com/sumit-bhagat-2004), [Subhabrata Mondal](https://github.com/Subhabrata0010)
+
+`2026-03-21`
+
+---
+
 ### FundX
 [![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/fundx-6c89) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Kobi1003/FundX) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://youtu.be/IeVFKISaN3M) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/IeVFKISaN3M) [![Built at](https://img.shields.io/badge/Built%20at-Hackrit-0052CC?style=flat-square)](https://hackrit2026.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-12-FF6B6B?style=flat-square)
 
@@ -349,6 +672,68 @@ However, one must say that using Claude Opus with Langchain DeepAgents did give 
 Pranjal Pranjal
 
 `2026-08-08`
+
+---
+
+### CamRig
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/camrig-1207) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/sanchit-dhir/CamRig) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://cam-rig.vercel.app/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/KlGHNxXKHF0) [![Built at](https://img.shields.io/badge/Built%20at-HackMol%207.0-0052CC?style=flat-square)](https://hackmol-7.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-7-FF6B6B?style=flat-square)
+
+> Transform Human motion into 3d animations
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+# CamRig Studio
+
+CamRig Studio is a real-time AI motion capture and animation toolkit that allows creators to capture human movement through a webcam and instantly apply it to 3D characters.
+
+Built with modern web technologies, it provides a fast and accessible way to prototype animations without expensive motion capture hardware.
+
+---
+
+## 🚀 Live Demo
+
+👉 https://cam-rig.vercel.app/
+
+## 🛠️ Getting Started (Local Setup)
+
+```bash
+git clone https://github.com/sanchit-dhir/CamRig.git
+cd cam-rig-studio
+npm install
+npm start
+```
+
+## ✨ Features
+
+- Real-time video-based motion capture  
+- Direct mapping to rigged 3D characters  
+- Low-latency animation preview  
+- Export-ready animation pipeline  
+- Fully browser-based (no setup required for usage)
+
+---
+
+## Tech Stack
+
+**UI:** Next Js, React, TailwindCSS, ThreeJs
+
+**Server:** Mediapipe, Kalidokit
+
+## 📦 Examples
+
+Explore projects built using CamRig Studio:
+
+- **Endless Runner Demo**  
+  👉 https://endless-runner-camrig.vercel.app/
+
+- **More Examples**  
+  Available inside the repository: `/Examples`
+
+Team **Among Devs** -- [Pawan Yadav](https://github.com/codewithpawan8), [Sagar Kumar](https://github.com/sagar-03-pixel), [Sanchit Dhir](https://github.com/sanchit-dhir), [Sumit Kumar](https://github.com/SUMIT98770)
+
+`2026-03-29`
 
 ---
 
@@ -522,6 +907,177 @@ Building **RideLink AI** involved solving several complex full-stack engineering
 Team **Code Shift** -- [SURYA K](https://github.com/suryak2025cse-sys), [Udhayan L](https://github.com/udhayanl), [Vithull M](https://github.com/vithull-m), Shobika S, [SETHUKAMAL PG](https://github.com/sethukamalpg), Vaanathi J
 
 `2026-07-30`
+
+---
+
+### Tradewise(www.tradewise.cloud)
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/tradewise-92db) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ArjunDeshwal/Tradewise) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://www.tradewise.cloud) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/nOyzxO2bSg0?si=rkmkDRM7N681unvc) [![Built at](https://img.shields.io/badge/Built%20at-Innovate--Iterate--Interrupt%20(III)%205.0-0052CC?style=flat-square)](https://innovateiterateinterrupt-iii-5.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-6-FF6B6B?style=flat-square)
+
+> Your AI trading desk in one platform.
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Deep Learning](https://img.shields.io/badge/Deep%20Learning-333333?style=flat-square) ![Docker](https://img.shields.io/badge/Docker-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![FastAPI](https://img.shields.io/badge/FastAPI-333333?style=flat-square)
+
+**The problem it solves**
+
+# The Problem It Solves
+
+## The Problem
+
+Learning to invest is expensive, intimidating, and fragmented. New investors face several painful realities:
+
+- **Real money means real fear.** Beginners hesitate to experiment because a single bad trade can wipe out weeks of savings. This kills the learning loop before it starts.
+- **Tools are scattered everywhere.** You need one app for charts, another for news, a third for fundamentals, a fourth for an AI opinion, and a fifth to backtest an idea. Nothing connects.
+- **AI advice is a black box.** ChatGPT can talk about stocks, but it doesn't see your portfolio, your risk exposure, or your live market data. Generic advice isn't actionable advice.
+- **Strategies are untestable.** "Buy when RSI drops below 30" sounds smart, but without a way to simulate it on historical data, it's just a guess.
+- **Markets never stop moving.** By the time a human spots a breakout or reversal pattern across 65 stocks, the opportunity is already gone.
+
+---
+
+## What TradeWise Solves
+
+TradeWise is a unified, AI-native paper trading platform that turns market learning into a safe, hands-on experience, and gives users capabilities normally reserved for quant funds.
+
+### For learners and students
+
+- Start with **$100,000 in paper money** and trade without risking a cent.
+- Every trade executes atomically against **real live prices** via Finnhub WebSocket, so you are learning on real market behavior, not a toy simulator.
+- When markets are closed, simulated ticks keep the experience alive 24/7, so there is no waiting for Monday to practice.
+
+### For people who want AI that actually understands their portfolio
+
+- The **AI Advisor** is a ReAct agent with 7 tools. It pulls your live holdings, current quotes, technical indicators, fundamentals, news sentiment, ML predictions, and a financial knowledge base before answering.
+- Ask *"Is my portfolio too concentrated?"* or *"Should I rotate out of tech?"* and get context-aware, explainable answers, streamed step-by-step so you see the reasoning.
+- Type trades in plain English: *"Buy $2,000 of NVDA and trim 20% of my TSLA"*. The system parses, previews, and executes.
+
+### For data-driven decision makers
+
+- A **3-model ensemble** (XGBoost, LSTM, and Logistic Regression) votes on every prediction, with confidence capped at 85% so humility is built in.
+- **Cascading sentiment analysis** runs FinBERT on news headlines, falling back to Gemini when confidence is low, balancing speed and accuracy.
+- A **Monte Carlo risk engine** simulates 10,000 portfolio paths to compute Value-at-Risk and expected shortfall, so you know how bad a bad day could really be.
+
+### For people who want a second (and third) opinion
+
+- The **Swarm Debate** pits a Bull, a Bear, and a Fundamentalist agent against each other on any stock, running two rounds of arguments and rebuttals grounded in real indicators.
+- An **episodic memory bank** powered by ChromaDB remembers past debates and actual outcomes, weighting each agent by its track record in the current market regime.
+- The result is a final BUY, SELL, or HOLD decision with conviction level, fully explained.
+
+### For active traders who cannot watch every ticker
+
+- The **Signal Scanner** sweeps 65 symbols every 5 minutes, detecting 6 pattern types (ML consensus, breakouts, oversold, overbought, momentum, and reversals) with confluence scoring.
+- Alerts stream live via Server-Sent Events, so you never miss a setup because you were in a meeting.
+
+### For people who want automation they can trust
+
+- **Autopilot** runs autonomous portfolio management in four modes: Conservative, Balanced, Aggressive, and Full Auto.
+- Hard **guardrails** enforce max drawdown, daily loss limits, and position size caps. The bot cannot blow up your account.
+- Every decision streams its reasoning in real time, so automation never feels like a black box.
+
+### For strategy designers
+
+- Describe a strategy in **plain English**, such as *"Buy when MACD crosses above zero and sell when RSI exceeds 75"*, and TradeWise parses it, simulates it over 1 month to 1 year of data, and returns the equity curve, Sharpe ratio, max drawdown, win rate, and every individual trade.
+- Test an idea in seconds instead of learning Python.
+
+### For portfolio risk managers
+
+- The **Correlation Network** renders your holdings as a force-directed physics graph. Nodes are sized by allocation, colored by sector, and edges are weighted by correlation.
+- Instantly see hidden concentration risk. If everything in your portfolio is correlated, you don't actually own a diversified portfolio.
+
+---
+
+## Who It's For
+
+| User | What TradeWise does for them |
+|---|---|
+| **Students and beginners** | Learn markets risk-free with real data, real AI guidance, and real feedback. |
+| **Self-directed investors** | Get institutional-grade analysis (ensemble ML, Monte Carlo VaR, multi-agent debate) in one place. |
+| **Strategy hobbyists** | Prototype and backtest ideas in plain English without writing a l
+
+**Challenges we ran into**
+
+# Challenges I Ran Into
+
+## 1. Finnhub Free Tier Rate Limits
+
+The free tier caps at 60 API calls per minute. One dashboard refresh wanted quotes for 8 holdings, 5 watchlist symbols, news for 3 tickers, and historical OHLCV, which blew through the quota instantly and returned 429s.
+
+**Fix:** Built a 3-layer cache (in-memory dict, then Redis, then Finnhub) in `app/core/cache.py`. Every market data call goes through a single `cache_get(key, ttl, fetch_fn)` helper. Finnhub usage dropped around 95%.
+
+## 2. SSE Connection Storm
+
+Autopilot's SSE endpoint closed immediately when idle. The browser's `EventSource` auto-reconnects every 3 seconds, AND our `onerror` handler was also reconnecting. Dozens of concurrent connections accumulated and starved the backend so badly that even `/api/autopilot/status` timed out. The page would spin forever.
+
+**Fix:** Backend now polls for state every 5 seconds with heartbeats instead of closing. Frontend only opens SSE when the agent is actually running. Reconnects tracked in a ref so stale callbacks can't fire phantom reconnections.
+
+## 3. Trade Race Conditions
+
+A user spamming "Buy" twice in 100ms could end up with double holdings but one balance deduction. We hit this when autopilot fired trades in parallel with a manual trade on the same symbol.
+
+**Fix:** Used SQLAlchemy's `with_for_update()` for row-level locks on both the User balance row and the Holding row before any calculation. Transaction either fully commits or fully rolls back.
+
+## 4. Gemini Hallucinating Tool Outputs
+
+Our first AI Advisor passed tool definitions to Gemini 2.5 Flash via system prompt. Gemini would confidently fabricate tool results instead of calling them. It once said a user owned 50 shares of AAPL when they owned nothing.
+
+**Fix:** Abandoned function calling and built a manual ReAct loop. The prompt forces a strict `TOOL_CALL: tool_name(argument)` format. We parse that with regex, execute the tool ourselves, append results to context, loop up to 7 iterations. No tool call means no data to claim.
+
+## 5. Vercel Build Failing on TypeScript
+
+Hardcoded fallback data we added didn't match the `ParsedRules` interface. Local dev mode was lenient but production builds enforced types strictly, so `npm run build` failed on deploy.
+
+**Fix:** Rewrote the fallback to match the exact nested shape (`entry: { conditions, logic }` instead of `entry: string[]`), and converted `equity_curve` from `number[]` to `{ date, equity }[]`.
+
+## 6. Markets Closed During Demo
+
+We tested the "live ticking prices" feature at 9 PM IST on a weekend. US markets were closed, Finnhub's WebSocket sent nothing, and every number on screen was frozen. Terrible look for a real-time trading app.
+
+**Fix:** Added a `simulate_prices()` background task in `ws_manager.py` that kicks in when the real feed is silent. It applies a 0.05% random walk per second to 10 default symbols and broadcasts through the same pipeline. Frontend cannot tell the difference.
+
+## 7. JWT Over Server-Sent Events
+
+Browser `EventSource` cannot set custom headers, so our standard `Authorization: Bearer` pattern broke every SSE endpoint (advisor chat, autopilot stream, signals feed, backtest runner). They all returned 401.
+
+**Fix:** Added a second FastAPI dependency `get_current_user_sse` that reads the token from a `?token=` query param instead of the header. Same validation, different source. Frontend appends the token to the SSE URL.
+
+## 8. Scope vs Time
+
+The biggest challenge was ambition. We wanted a trading platform, ML ensemble, AI advisor, multi-agent swarm, autopilot, signal scanner, backtester, correlation graph, and natural language commands, all in a hackathon window.
+
+**Fix:** Built the shared layers first (cache, auth, trading engine, market data service) before any feature on top. That gave every feature a consistent base and let them interoperate cleanly. The autopilot uses the same ML predictions as the dashboard, the swarm reads the same cache as the backtester, the command palette executes through the same trading engine as the trade page.
+
+Team **rm -rf** -- [Arjun Deshwal](https://github.com/ArjunDeshwal), YASH AGGARWAL
+
+`2026-04-12`
+
+---
+
+### Verix
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/verix-19b1) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Kutan-Fuiton/Verix) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://youtu.be/Q32d-H6tXVE) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/Q32d-H6tXVE) [![Built at](https://img.shields.io/badge/Built%20at-BINARY%20v2-0052CC?style=flat-square)](https://binaryvtwo.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-6-FF6B6B?style=flat-square)
+
+> AI System for Detecting Misinformation Risk
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![PyTorch](https://img.shields.io/badge/PyTorch-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+In today’s Indian digital ecosystem, information spreads rapidly through platforms like WhatsApp, X, and Telegram—often in code-mixed languages like Hinglish and Banglish that combine multiple languages, slang, and informal structure. Existing AI moderation systems are largely designed for clean English text and fail to accurately interpret these mixed-language messages. As a result, high-risk content—such as panic-inducing messages, unverified claims, and emotionally persuasive narratives—spreads unchecked, not because it is explicitly false, but because it is difficult to detect using traditional methods. This creates a critical gap where harmful information can influence public behavior and perception before any verification or intervention occurs.
+
+Verix solves this problem by acting as a real-time intelligence layer over conversations, analyzing every message the moment it is sent. Instead of trying to fact-check content after it spreads, Verix uses a specialized AI model trained on code-mixed Indian language patterns to detect risk signals such as panic intent, unverified claims, and narrative bias instantly. Through a live chat interface powered by WebSockets, each message is evaluated, assigned structured risk scores, and visually highlighted for users, making hidden risks immediately visible. This proactive, scalable approach ensures that potentially harmful information is identified before it goes viral, especially in linguistic contexts where traditional systems fail
+
+**Challenges we ran into**
+
+One of the biggest challenges I faced was structuring the problem into a clean, learnable format for the model. Since the project involves multiple outputs like fear signal, misinformation risk, claim type, and more, designing a consistent labeling scheme and converting raw mixed-language text (Hinglish/Banglish) into structured data was tricky. Initially, the model performance was unstable due to inconsistent labels and limited data, so I addressed this by standardizing categories and generating more balanced synthetic data. Another major hurdle was building the chat interface that could seamlessly connect with the model in real time. Handling asynchronous responses, ensuring low latency, and displaying meaningful outputs (like risk scores and explanations) required multiple iterations. I overcame this by simplifying the backend pipeline, optimizing API calls, and gradually improving the UI to make the interaction smooth and intuitive.
+
+**AI/ML**
+
+This project aligns with the AI/ML track by leveraging transformer-based models like BERT to perform multi-label classification and risk prediction on real-world multilingual text. It applies machine learning to detect misinformation, analyze sentiment, and generate structured insights, showcasing practical AI deployment in social and communication systems.
+
+**Smolify AI track**
+
+We accquired datasets of code-mixed Hinglish and Banglish social media messages to train our text classification model.
+
+Team **XCRYPT** -- [Aritra Roy Choudhury](https://github.com/rio-ARC), [Subhajit Das](https://github.com/Subhajit-Das-1), [Subarno Chakraborty](https://github.com/kutan-fuiton)
+
+`2026-03-21`
 
 ---
 
@@ -1051,6 +1607,108 @@ By integrating Backboard, we’ve moved away from static web pages and built a R
 Team **Kalki** -- [M. KISHORE](https://github.com/KISHORE0709-LEO), [CH V Sneha](https://github.com/chv-sneha)
 
 `2026-05-10`
+
+---
+
+### StudySync AI
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/studysync-ai-9bcc) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Aryan-coder06/III-Leaning-Platform) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://iii-leaning-platform.vercel.app/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/6y32t5nRviY) [![Built at](https://img.shields.io/badge/Built%20at-Innovate--Iterate--Interrupt%20(III)%205.0-0052CC?style=flat-square)](https://innovateiterateinterrupt-iii-5.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-5-FF6B6B?style=flat-square)
+
+> Community driven education platform
+
+![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Jitsi](https://img.shields.io/badge/Jitsi-333333?style=flat-square) ![FastAPI](https://img.shields.io/badge/FastAPI-333333?style=flat-square) ![nextjs](https://img.shields.io/badge/nextjs-333333?style=flat-square)
+
+**The problem it solves**
+
+# **StudySync AI**
+
+**StudySync AI** is a **real-time collaborative study operating system** built for students, study groups, hackathon teams, and academic collaborators who need more than scattered chats and disconnected tools. It replaces the fragmented workflow of juggling **messaging apps, video meeting links, shared drives, whiteboards, and task trackers** with one unified platform designed for focused execution, knowledge sharing, and AI-assisted learning.
+
+## **The Problem It Solves**
+
+Modern student collaboration is broken by **context switching**.
+
+A typical study workflow is spread across too many disconnected products:
+
+- a chat app for discussion
+- a video app for live sessions
+- a drive for PDFs and notes
+- a whiteboard for brainstorming
+- a task tool for deadlines and execution
+- separate AI tools with no room context
+
+This creates **tool fatigue, lost context, duplicated effort, and weak coordination**.
+
+**StudySync AI** solves this by turning each study room into a **persistent, intelligent collaboration workspace** where communication, resources, execution, and AI retrieval all live in one place.
+
+## **What StudySync AI Delivers**
+
+### **1. Persistent Collaborative Rooms**
+
+Users can create **private rooms** for trusted team collaboration or join **public rooms** around shared interests and subjects. Each room acts as a structured workspace for discussions, files, sessions, room codes, invites, and shared context.
+
+### **2. Real-Time Communication**
+
+The platform provides **live room chat powered by WebSockets**, allowing members to collaborate instantly without leaving the workspace. Messages are room-scoped, persistent, and designed for active academic discussion rather than generic social messaging.
+
+### **3. Integrated Live Sessions**
+
+StudySync AI supports **embedded video collaboration** for room-based discussions, planning meetings, and live study sessions. Instead of switching to external meeting flows, users stay inside the room and work in context.
+
+### **4. Resource and Workflow Management**
+
+Students can upload **PDFs, notes, and study materials** directly into a room, manage shared activity, and coordinate execution through structured workspace modules such as task tracking, feeds, progress updates, and room-specific knowledge surfaces.
+
+### **5. AI-Native Knowledge Retrieval**
+
+A core differentiator is the platform’s **room-scoped RAG pipeline**. Users can ask natural-language questions about uploaded materials, and the system retrieves relevant chunks from room resources to generate **grounded, source-aware answers**. This turns static PDFs into an interactive study layer.
+
+## **Powerful RAG Layer**
+
+StudySync AI’s AI assistant is not a generic chatbot. It is designed as a **context-aware academic retrieval system**.
+
+### **Key RAG strengths**
+
+- **Room-scoped intelligence** so answers stay isolated to the selected workspace
+- **Incremental indexing** so newly uploaded documents become queryable without rebuilding everything
+- **Grounded retrieval** from actual uploaded study resources
+- **Chunk-level source references** for trust and traceability
+- **Student-friendly answer generation** that explains clearly without losing technical accuracy
+- **Architecture ready for agentic workflows** and deeper orchestration in later stages
+
+### **Why this matters**
+
+Instead of forcing students to re-read long PDFs, search manually through notes, or rely on hallucination-prone generic AI tools, StudySync AI converts academic material into a **queryable knowledge layer** that is fast, relevant, and aligned to the room’s actual context.
+
+## **Core Capabilities**
+
+- **Private and public collaborative rooms**
+- **Room codes and invite-based access**
+- **Real-time room messaging**
+- **Integrated live study sessions**
+- **Room-based document upload and resource sharing**
+- **Task and execution workflow support**
+- **Context-aware AI retrieval from uploaded materials**
+- **Unified workspace experience instead of fragmented tools**
+
+## **Technical Architecture**
+
+StudySync AI uses a **multi-service, production-oriented architecture** designed for real-time collaboration and scalable AI integration.
+
+### **Frontend**
+
+Built with **Next.js 16, React 19, TypeScript, Tailwind CSS, and Zustand**, the frontend delivers a responsive, workspace-style interface with modern routing, protected flows, and real-time room experiences.
+
+### **Core Backend**
+
+The main backend is powered by **Node.js, Express, MongoDB, Socket.IO, and Cloudinary**. It handles room lifecycle, chat transport, user collaboration flows, resource orchestration, and persistent application state.
+
+### **AI Microservice**
+
+A dedicated **FastAPI-based AI service** powers the retrieval pipeline, document processing, chunking, indexing, and grounded question-answering workflows. This separation keeps AI concerns modular and prepares the platform for future **LangGraph- and agent-based orchestration**.
+
+Team **Manifestation** -- [Ajay Kathar](https://github.com/ajaykathar30), [Anshdeep Singh](https://github.com/Anshdeep-Singh-9), Aryan Saini, [Abhijeet Jain](https://github.com/Aj-Levi)
+
+`2026-04-12`
 
 ---
 
@@ -2171,6 +2829,124 @@ Team **ASTRAX** -- [Subhranil Mondal](https://github.com/extremecoder-rgb), [Sou
 
 ---
 
+### Cloudster: The AI-Powered Hybrid Edge Server.
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/cloudster-the-aipowered-hybrid-edge-server-680e) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Jai-0709/CLOUDSTER.git) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/zal0iKd7BZU?si=YlkmX1mpxUvI--00) [![Built at](https://img.shields.io/badge/Built%20at-DevsHouse%20'26-0052CC?style=flat-square)](https://devshouse26.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-4-FF6B6B?style=flat-square)
+
+> Cloud Gigabit Speeds on Off-Grid Infrastructure
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![PyPDF2](https://img.shields.io/badge/PyPDF2-333333?style=flat-square)
+
+**The problem it solves**
+
+Today’s digital classrooms face a crippling bottleneck: over reliance on the cloud. When 50 students simultaneously upload heavy assignments, campus bandwidth collapses, causing network crashes and forcing institutions to pay for expensive internet upgrades.
+Furthermore, administrative inefficiency is at an all-time high. Teaching assistants waste countless hours manually downloading files just to check for correct formatting, corrupted PDFs, and "smart cheaters" who tweak a few words to bypass basic duplicate filters.
+Finally, if the campus internet goes down, cloud-based learning portals freeze, and education stops completely.
+Cloudster solves this three-fold crisis. We bring intelligence to the Edge, eliminating bandwidth congestion with offline, local gigabit uploads. Our automated AI pipeline instantly rejects non-compliant formats and quarantines plagiarized work without needing expensive, cloud-dependent APIs. By processing everything locally and syncing off-peak, institutions save thousands on bandwidth while guaranteeing network uptime.
+
+**Challenges we ran into**
+
+Building Cloudster presented several complex edge-computing hurdles that we successfully engineered into robust features. First, we encountered a network race condition, where our aggressive AI attempted to analyze incoming files before the data packets fully downloaded, causing false corruption errors. We solved this by developing a dynamic traffic monitoring delay to guarantee data integrity. Then running an automated plagiarism engine completely offline on lightweight hardware initially caused severe CPU strain.
+
+**IoT & Smart Devices**
+
+Cloudster redefines the Internet of Things by moving beyond traditional sensory hardware to introduce a high performance Enterprise Edge IoT Node designed for smart infrastructure. In typical IoT networks, edge devices merely collect data and rely entirely on centralized cloud servers for processing, creating severe bandwidth bottlenecks at scale. Cloudster inverts this model. By deploying a localized micro-computing appliance directly into the physical environment, we transform a standard lecture hall into a self-contained "Smart Classroom." Our IoT node intercepts high-bandwidth data transfers over localized Wi-Fi, utilizing onboard compute power to execute deterministic AI pipelines such as cryptographic deduplication, heuristic validation, and offline plagiarism detection entirely off-grid. By processing, filtering, and grading data at the source before running an asynchronous cloud sync during off peak hours, Cloudster exemplifies the ultimate goal of modern IoT: a decentralized network architecture that eliminates latency, preserves public bandwidth, and brings enterprise-grade intelligence directly to the physical edge.
+
+Team **CLOUDSTER** -- [JAISURYA M](https://github.com/Jai-0709), [Rhishvanth RV](https://github.com/Rhishvanth-RV), [MUHILAN S](https://github.com/Muhil-18), [KAMASHWARA D K](https://github.com/kamashwara-dk)
+
+`2026-03-29`
+
+---
+
+### SentinalQA
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/sentinalqa-56c8) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](http://github.com/harshkg23/Hack-nocturne/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=eW3eUXeiMJU) [![Built at](https://img.shields.io/badge/Built%20at-Hack--Nocturne%202.O-0052CC?style=flat-square)](https://hack-nocturne-2.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-4-FF6B6B?style=flat-square)
+
+> Software that tests, heals, and deploys itself
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Docker](https://img.shields.io/badge/Docker-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Kubernetes](https://img.shields.io/badge/Kubernetes-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![FastAPI](https://img.shields.io/badge/FastAPI-333333?style=flat-square) ![langchain](https://img.shields.io/badge/langchain-333333?style=flat-square) ![GithubMCP](https://img.shields.io/badge/GithubMCP-333333?style=flat-square)
+
+**The problem it solves**
+
+Modern development teams spend a huge amount of time debugging failing tests and investigating issues after code changes. Traditional QA tools only report that something broke  they don’t explain why or help fix it. This creates a slow feedback loop where developers must manually reproduce bugs, analyze logs, write fixes, and deploy patches.
+
+SentinelQA solves this by creating an autonomous QA pipeline.
+It automatically analyzes code changes, generates end-to-end tests, detects failures, performs root cause analysis, and generates a fix. If the fix is reliable, the system automatically opens a pull request and safely deploys it using a canary deployment strategy.
+
+This reduces debugging time, speeds up development cycles, and makes deployments safer by detecting and fixing issues early.
+
+**Challenges we ran into**
+
+One major challenge was orchestrating multiple AI agents reliably. Since the system includes several stages (test generation, execution, analysis, and fixing), it was important to maintain consistent state across the pipeline. I solved this by using LangGraph, which allowed me to model the workflow as a stateful graph instead of independent scripts.
+
+Another challenge was integrating AI agents with real developer tools like GitHub and Playwright. To solve this, I used Model Context Protocol (MCP) servers, which provided structured communication between the AI system and external tools.
+
+Finally, implementing safe deployments was important because automatically generated fixes should not break production. I solved this by adding Kubernetes-based canary deployments with automatic rollback, ensuring that new versions are gradually released and monitored before full promotion.
+
+Team **Loosers** -- [Arpit Srivastava](https://github.com/arpit529srivastava), [AASKAR RANA](https://github.com/rana8aaskar), [Harsh Kumar Gupta](https://github.com/harshkg23), [Himanshu .](https://github.com/Himanshu3141)
+
+`2026-03-15`
+
+---
+
+### Scalora
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/scalora-fb80) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/TanmayThakur2209/Scalora) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://scaloraai.vercel.app/) [![Built at](https://img.shields.io/badge/Built%20at-Electrothon%208.0-0052CC?style=flat-square)](https://electrothon-8.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-4-FF6B6B?style=flat-square)
+
+> AI Powered Cloud Optimization Platform
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![scikit-learn](https://img.shields.io/badge/scikit--learn-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square)
+
+**The problem it solves**
+
+Scalora is designed to help developers, startups, and DevOps teams manage their cloud infrastructure more efficiently. Many organizations deploy cloud servers that remain underutilized or improperly scaled, leading to unnecessary costs and wasted resources. Scalora continuously monitors system metrics such as CPU usage, memory consumption, and workload patterns, and then provides intelligent recommendations for optimizing infrastructure. By identifying idle resources, suggesting better instance configurations, and recommending scaling strategies, Scalora helps teams reduce cloud spending while maintaining optimal performance.
+
+In addition to cost optimization, Scalora also improves system reliability and simplifies infrastructure management. It detects sudden spikes in resource usage or abnormal system behavior and alerts users with recommended actions to prevent performance issues or service downtime. This allows developers to proactively manage workloads instead of reacting to failures after they occur. By automating infrastructure analysis and decision support, Scalora makes cloud management easier, safer, and more efficient for both small startups and large-scale applications.
+
+**Challenges we ran into**
+
+One of the biggest challenges while building Scalora was creating a realistic way to demonstrate cloud infrastructure load during the demo. Since this project was developed during a hackathon and we didn’t have access to production-level traffic or real-world workloads, it was difficult to show how Scalora would react to sudden spikes in server usage. Without dynamic metrics, the optimization engine would not produce meaningful recommendations.
+
+To overcome this, I created a CPU workload simulation script in Python that artificially increased CPU usage on the server. This allowed Scalora to detect high resource utilization in real time and trigger optimization recommendations such as scaling instances or adjusting resource allocation. By simulating infrastructure stress conditions, I was able to demonstrate how Scalora would behave in real-world scenarios and provide a clear visualization of its monitoring and optimization capabilities.
+
+Another challenge was collecting and processing system metrics efficiently from the server environment. Initially, extracting CPU and memory statistics required experimenting with different system utilities and libraries. After testing multiple approaches, I implemented a lightweight metrics collection method using Python and system monitoring tools, which allowed Scalora to gather resource data reliably without adding significant overhead to the server.
+
+Team **Retired Hackers** -- [Tanmay Thakur](https://github.com/TanmayThakur2209), [Priyanshu Sharma](https://github.com/Priyanshusharma2006)
+
+`2026-03-14`
+
+---
+
+### Skill Swap
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/skill-swap-8824) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/shubham-037/SkillSwap) [![Built at](https://img.shields.io/badge/Built%20at-Electrothon%208.0-0052CC?style=flat-square)](https://electrothon-8.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-4-FF6B6B?style=flat-square)
+
+> Skill Exchange platform
+
+![Firebase](https://img.shields.io/badge/Firebase-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![Firestore](https://img.shields.io/badge/Firestore-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![Firebase Authentication](https://img.shields.io/badge/Firebase%20Authentication-333333?style=flat-square)
+
+**The problem it solves**
+
+Expensive Education: Private tutoring and specialized courses are unaffordable for many.
+The "Expertise Silo": Millions of people have skills (languages, coding, cooking) but no easy way to share or trade them.
+Passive Learning: Most online learning is one-way (videos). SkillSwap focuses on Active Learning through 1-on-1 interaction.
+
+**Challenges we ran into**
+
+### Challenges Faced During the Project
+
+One of the major challenges we encountered while building our skill-sharing platform was ensuring the authenticity and credibility of users who claimed they could teach a particular skill. In a peer-to-peer learning environment, it is easy for users to list skills without actually having sufficient expertise in them. This creates a trust issue for learners who rely on the platform to find knowledgeable educators. If the platform cannot guarantee that educators truly possess the skills they claim, the overall user experience and reliability of the system can suffer.
+
+Initially, we considered simpler verification methods such as allowing users to self-declare their expertise or uploading certificates. However, these methods are either easy to fake or do not truly reflect a person's practical knowledge of the subject. We needed a solution that could assess a user's real understanding of a skill in a scalable and automated way.
+
+To address this challenge, we implemented a **verification badge system**. In order to obtain the badge, users must complete a verification test consisting of five intermediate-to-hard level questions related to the skill they wish to teach. These questions are dynamically generated using Gemini 3 Flash, which allows the platform to create unique and relevant questions for each attempt.
+
+After the user submits their answers, the system evaluates them and also checks whether the responses were generated by AI tools or written by the user themselves. This ensures that the verification process reflects genuine human understanding rather than copied or AI-generated responses. Only users who successfully pass this evaluation are granted a **verified educator badge**, which appears on their profile.
+
+This approach helps maintain trust within the platform by clearly distinguishing verified educators from regular users. Learners can confidently choose instructors who have demonstrated real knowledge of the skill they offer, while educators are motivated to prove their expertise. Overall, implementing this verification system significantly improved the credibility and reliability of the platform.
+
+Team **Enigma** -- [Sneha Dogra](https://github.com/Sneha-101), [Srijan Gupta](https://github.com/srijan-039), [SHUBHAM VERMA](https://github.com/shubham-037)
+
+`2026-03-15`
+
+---
+
 ### SilverHands-  A senior-first digital platform
 [![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/silverhands-a-seniorfirst-digital-livelihood-platform-turning-lifelong-skills-into-dignified-safe-alsupported-income-012a) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/MohamedSuhailN/silver-hands) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/ewulp27yObA?si=UI4A1LvBP3KcERhg) [![Built at](https://img.shields.io/badge/Built%20at-HackVerse:%20Into%20the%20Web-0052CC?style=flat-square)](https://hackverse-into-the-web.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-3-FF6B6B?style=flat-square)
 
@@ -2915,6 +3691,661 @@ These improvements made DriftWatch:
 Team **Outliers** -- [Divya DS](https://github.com/divyads5), [Nishant tripathi](https://github.com/Tripathi-Nishant)
 
 `2026-05-04`
+
+---
+
+### NovaTrade
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/novatrade-48ce) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Skr-suyash/iii_hackathon) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://iii-hackathon-52xe.vercel.app/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/Ptkxsv3dVPA) [![Built at](https://img.shields.io/badge/Built%20at-Innovate--Iterate--Interrupt%20(III)%205.0-0052CC?style=flat-square)](https://innovateiterateinterrupt-iii-5.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-3-FF6B6B?style=flat-square)
+
+> Agent driven trading platform
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![pandas](https://img.shields.io/badge/pandas-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+The problem that the platform is intended to solve is to make trading easier, traders usually spend hours creating strategy out of 100s of indicators which becomes obsolete after a change in the market, our platform lets us put a strategy in natural language which will implement the actual strategy. Moreover we integrate this with a sentiment analysis as well a portfolio analysis, via clustering, advantage of this is that we can use the optimizer and actually implement the plans suggested by this.
+
+Following are its features in detail =>
+
+🤖 **AI Trading Copilot** (Powered by Local Gemma 4)
+
+1. **Natural Language Trading**: Execute trades simply by chatting with the AI (e.g., "Buy 10 shares of Apple").
+2. **Market Scanning**: Ask the AI to find stocks matching specific conditions, such as "oversold," "overbought," or by specific sectors.
+3. **Sentiment Analysis**: Use the AI to analyze real-time news and give bullish, neutral, or bearish sentiment scores on specific stocks.
+4. **Portfolio Analysis**: Have the AI provide insights on your portfolio's risk score, sector diversification, and overall profitability.
+
+📈 **Trading & Order Execution**
+
+1. **Market Orders**: Immediate executions at the current market price.
+2. **Limit Orders**: Queued executions that trigger only when a stock hits a specific target price.
+3. **Advanced Conditional Orders**: Set orders to automatically trigger based on technical indicators (e.g., "Buy when RSI drops below 30" or "Sell when the price crosses below the 50-day SMA").
+4. **Price Alerts**: Set non-trading notifications to alert you when a stock crosses above or below a specified threshold.
+
+📊 **Dashboard & Portfolio Management**
+
+1. **Holdings Tracking**: A real-time table displaying your current holdings, average buy price, current value, and profit/loss (P&L) percentages.
+2. **Visual Analytics**: Interactive charts including a portfolio growth area chart and sector allocation pie charts.
+3. **Transaction History**: A detailed log of all past buys, sells, and filled limits/conditional orders.
+
+📉 **Market Data & Watchlists**
+
+1. **Live Price Polling**: Automated fetching of market prices, daily highs/lows, and sector information.
+2. **Technical Indicators Data**: Built-in computation for technicals like RSI (Relative Strength Index) and SMA/EMA (Moving Averages).
+3. **Interactive Watchlist**: A dedicated area to track up to your favorite stocks alongside trendline sparklines and AI sentiment indicators.
+
+⚡ **Under-the-Hood Performance Features**
+
+1. **Lightning-Fast Navigation**: Route-based "lazy loading" so you only download the code needed for the screen you are currently viewing.
+2. **Offline Caching**: Background "Stale-While-Revalidate" caching strategies that completely eliminate loading spinners as you switch back and forth between dashboard tabs.
+
+**Challenges we ran into**
+
+Main challenges we ran into -
+
+1. The llm inference was used initially for sentiment analysis which takes too much time which was solved by using a finBert transformer.
+2. We also faced multiple ui disagreements which we solved through multiple iterations. 
+3. Also we faced some issue to use the yfinance live api which we solved after reading the docs carefully.
+
+Team **BackPropagators** -- [Suyash Kumar](https://github.com/Skr-suyash), [Vivek G](https://github.com/Ep1cGaimer), [Sahil Gupta](https://github.com/sahilgupta2006/), [Varun Pandey](github.com/Dyfinite)
+
+`2026-04-12`
+
+---
+
+### gaminance
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/gaminance-4042) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/mridul967/gamiNANCE) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://gaminance.vercel.app) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/GcEDt17Biy4) [![Built at](https://img.shields.io/badge/Built%20at-Off--Grid-0052CC?style=flat-square)](https://offgrid.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-3-FF6B6B?style=flat-square)
+
+> Full Stack AI Powered Gamified Fintech Platform
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Django](https://img.shields.io/badge/Django-333333?style=flat-square) ![Docker](https://img.shields.io/badge/Docker-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![postgresDB](https://img.shields.io/badge/postgresDB-333333?style=flat-square)
+
+**The problem it solves**
+
+Problems Gaminance Solves
+> *Built for the financially invisible — 1.3 billion adults who the system wasn't designed for.*
+---
+1. Financial Exclusion: The Credit Scoring Gap
+The Problem
+Traditional credit bureaus like CIBIL require a formal credit history — loans, credit cards, EMIs — to generate a score. But India's vast gig economy, cash-heavy small merchants, daily wage earners, and first-time earners have never taken a formal loan. To the traditional system, they simply don't exist.
+The result: no credit history = no score = no loan = no financial mobility. It's a closed loop that traps the people who most need financial access.
+Over 1.3 billion adults globally are "credit invisible"
+In India, a massive share of the working population operates primarily in cash
+Gig workers, street vendors, freelancers, and domestic workers have zero formal credit footprint despite years of reliable financial behavior
+How Gaminance Solves It — Credit DNA
+Credit DNA replaces the bureau entirely with behavioral scoring. Instead of asking "have you ever had a loan?", it asks: "How do you actually interact with money?"
+Using 23 behavioral signals — transaction consistency, income stability, merchant diversity, app engagement, bounce rates, invoice reconciliation accuracy, and more — Credit DNA builds a full picture of financial character without a single bureau query.
+Scores range from 300–900, just like FICO, so lenders can immediately use the output
+SHAP (SHapley Additive exPlanations) powers a full breakdown of every point: users see exactly what's helping and hurting their score
+The cold start problem is handled transparently — new users see a bootstrap score and a progress bar ("12/30 transactions until your full Credit DNA score unlocks"), not a fake number
+Fairness is tested at every model release: demographic parity gaps across gender, age, and geography must stay below 5% — or the model doesn't ship
+The impact: A vegetable vendor with consistent daily transactions, stable income, and zero bounces gets a 724 score. A bank can now lend to her. That's the gap Gaminance closes.
+---
+2. Invoice Chaos: The Reconciliation Nightmare for SMEs
+The Problem
+India's small business owners are drowning in paperwork. A typical SME owner juggles:
+Physical GST invoices from dozens of vendors
+Digital UPI transaction records with abbreviated merchant names
+No easy way to match the two
+Manual reconciliation takes hours every week. Mismatches go undetected. Tax filings become guesswork. Accounting errors compound over months. Hiring a full-time accountant is unaffordable for micro-businesses.
+The tools that exist (Tally, QuickBooks) assume a level of digital literacy and infrastructure most small merchants simply don't have.
+How Gaminance Solves It — Ledger AI
+Ledger AI turns a phone camera into a full reconciliation engine:
+Snap a photo of any invoice — printed, handwritten, GST, or informal
+EasyOCR + OpenCV extract vendor name, invoice number, date, line items, and totals — even from skewed, low-contrast, or regional-language documents
+The Reconciliation Engine fuzzy-matches the extracted data against the user's actual transaction history, tolerating ±5% amount variance and ±7 days date drift
+Every match comes with a confidence score and a plain-English explanation: "Matched to transaction #8821 (₹12,750 | Oct 12) with 93.6% confidence"
+Discrepancies are surfaced clearly — not buried — so the user knows exactly what to investigate
+The system handles the messy reality of Indian SME finances: abbreviated merchant names in UPI, rounding differences in GST calculations, and regional invoice formats.
+The impact: Rajesh, a stationery shop owner in Surat, goes from spending Sunday afternoons reconciling invoices manually to having it done in under 3 seconds per invoice.
+---
+3. Fraud Detection: The False Positive Problem
+The Problem
+Existing fraud systems are blunt instruments. They flag legitimate transactions constantly — blocking salary withdrawals, travel payments, and large purchases — while failing to catch subtle fraud patterns that don't match simple rules.
+The consequences of bad fraud detection fall hardest on users:
+Legitimate transactions blocked at the worst moment (travel, medical emergency)
+Users trained to ignore alerts because too many are wrong
+Actual fraud slips through while users are dealing with false alarms
+Trust in the financial platform erodes
+For users in emerging markets, where unusual transaction patterns (late-night payments, new merchants, cash-heavy cycles) are the norm rather than the exception, blunt global fraud rules are especially destructive.
+How Gaminance Solves It — Milli-Safe
+Milli-Safe uses a user-personalized, explainable fraud detection approach:
+LightGBM scores every transaction against that specific user's behavioral baseline — not a global average. Pooja's 2 AM transactions are scored differently from Ravi's because they have different histories
+Graph-augmented features add network-level signals wit
+
+**Challenges we ran into**
+
+# Challenges We Ran Into — and How We Overcame Them
+
+> *Every technical decision in Gaminance was shaped by a problem we hit and had to solve.*
+
+---
+
+## 1. Real-Time Fraud Alerts Without Polling
+
+### The Challenge
+FraudShield needed to push alerts to the user's browser the moment a suspicious transaction was detected — not 5 or 10 seconds later. HTTP polling every few seconds was wasteful, created server load for every connected user, and still felt laggy. Server-Sent Events were one-directional and couldn't support the bidirectional feedback loop (user marking alerts as legitimate).
+
+We needed a genuine WebSocket solution, but wiring WebSockets into Django — which is fundamentally WSGI (synchronous) — is non-trivial. Most Django projects never touch this layer.
+
+### What We Did
+We integrated **Django Channels** with a Redis channel layer, wrote a custom `FraudAlertConsumer` class, and wired a full ASGI application (`asgi.py`) routing HTTP and WebSocket traffic through separate stacks. Authentication was another hurdle: standard Django session auth doesn't work over WebSocket connections. We built a custom `JWTAuthMiddlewareStack` that validates the JWT from the WebSocket query string (`?token=...`) before the handshake completes — unauthenticated connections are closed immediately.
+
+The result: fraud alerts arrive in the browser in under 30ms from detection. The channel layer uses Redis pub/sub, so the same architecture scales horizontally — adding more Daphne workers doesn't require any code changes.
+
+---
+
+## 2. Synchronous ML Inference Blocking API Responses
+
+### The Challenge
+Credit score recalculation, invoice OCR, and fraud analysis all require ML inference that takes anywhere from 1ms (LightGBM) to 5 seconds (EasyOCR on a complex invoice). Running these synchronously inside a Django view would block the request thread for the full duration — making the API feel unresponsive and destroying throughput under any load.
+
+The naive fix — just running `scorer.score(user)` inside the view — would have meant that uploading an invoice locks up the server worker for 5 seconds. At 10 concurrent uploads, the server is unresponsive.
+
+### What We Did
+We moved all ML workloads into **Celery tasks** running on a dedicated worker pool, separated from the Django API server. Every heavy endpoint returns `HTTP 202 Accepted` immediately with a `task_id`, and the browser gets the actual result via WebSocket push when the task completes.
+
+Each task is configured with `max_retries=3`, `default_retry_delay=60`, and `time_limit` caps to prevent runaway inference jobs. Failed tasks after 3 retries land in a `failed_tasks` table for investigation rather than silently disappearing. The Celery queues are split by priority: `fraud_analysis` (high-priority, time_limit=30s) versus `ml_inference` (standard, time_limit=120s) — so a slow OCR job can't delay a fraud alert.
+
+---
+
+## 3. Making Credit Scores Explainable, Not Just Accurate
+
+### The Challenge
+A credit score is meaningless without explanation. Telling a user their score is 682 without telling them *why* — and more importantly, *what to do about it* — is worse than useless. It breeds distrust and makes the platform legally fragile as AI-driven lending regulation tightens.
+
+But SHAP (SHapley Additive exPlanations) for XGBoost isn't plug-and-play. The raw SHAP output is a float array indexed by feature position — not human-readable. We needed to transform that into a ranked, user-facing breakdown showing which behaviors helped, which hurt, and by how much.
+
+### What We Did
+We integrated `shap.TreeExplainer` into the `CreditScorer` class and wrote a post-processing layer that zips SHAP values with feature names, sorts by absolute impact, and separates positive and negative contributors. The top 3 positive and top 3 negative factors are stored directly on the `CreditProfile` model as `top_positive_factors` and `top_negative_factors` JSON fields — so the breakdown is available instantly without re-running SHAP on every API request.
+
+The SHAP breakdown also powers the AI Financial Assistant: the assistant's context prompt includes the full ranked breakdown, so when a user asks "why did my score drop?", the answer references their actual feature values — not generic financial advice.
+
+---
+
+## 4. Invoice OCR on Real-World (Messy) Documents
+
+### The Challenge
+Real Indian invoices are not clean PDFs. They're mobile phone photos of printed receipts, sometimes skewed 10–15 degrees, with inconsistent lighting, regional fonts mixing English and Hindi, and handwritten amounts. Standard OCR performs badly on these without preprocessing.
+
+We also had to decide between EasyOCR and Tesseract. Tesseract is lighter but CPU-only, struggles with regional scripts without custom training data, and requires subprocess calls from Python. EasyOCR has a clean Python API, native multilingual support, and GPU acceleration — but is 5–10× heavier at 100–200MB.
+
+Team **Coral Reef** -- [Mridul Pandey](https://github.com/mridul967), [Kanishka Bhardwaj](https://github.com/Kaniisshka), [Ashwani Jha](https://github.com/Ashwani1405)
+
+`2026-04-11`
+
+---
+
+### AcadBuddy
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/acadbuddy-319c) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ankitmishra2002/Acadbuddy) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://acadbuddy.vercel.app/) [![Built at](https://img.shields.io/badge/Built%20at-ITS--A--Hack%202.0-0052CC?style=flat-square)](https://itsahack.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-3-FF6B6B?style=flat-square)
+
+> AcadBuddy is an AI academic Platform for students.
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Cloudinary](https://img.shields.io/badge/Cloudinary-333333?style=flat-square) ![Express.js](https://img.shields.io/badge/Express.js-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+## Problem Statement
+
+Students today face multiple challenges in managing their academic workflows effectively. Despite the availability of digital tools, there is no unified system that addresses learning, revision, and exam preparation in a structured and efficient way.
+
+AcadBuddy is designed to solve the following key problems:
+
+---
+
+## Pain Points Faced by Students
+
+### 1. Fragmented Study Resources
+Students store study materials across multiple platforms such as notebooks, PDFs, cloud storage, and messaging apps. This leads to:
+- Difficulty in accessing content quickly
+- Lack of proper organization
+- Inefficient study workflows
+
+---
+
+### 2. Time-Intensive Note Creation
+Creating notes manually from textbooks, PDFs, or lectures is:
+- Time-consuming
+- Repetitive
+- Prone to missing important points
+
+---
+
+### 3. Ineffective Revision Strategies
+Students often struggle with revision due to:
+- Lack of concise summaries
+- No structured revision plans
+- Difficulty identifying key topics before exams
+
+---
+
+### 4. Absence of Personalized Learning
+Traditional learning tools do not adapt to individual needs:
+- No control over answer formats or depth
+- One-size-fits-all content delivery
+- Limited customization for exam preparation
+
+---
+
+### 5. Lack of a Centralized Academic Platform
+Students frequently switch between multiple tools for:
+- Notes
+- Practice questions
+- Study materials
+- Collaboration
+
+This results in:
+- Reduced productivity
+- Increased cognitive load
+
+---
+
+### 6. Limited Collaboration and Knowledge Sharing
+There is no seamless way for students to:
+- Share study materials
+- Learn from peers
+- Engage in academic discussions
+
+---
+
+### 7. Information Overload
+Students are exposed to large volumes of content without proper filtering:
+- Difficulty identifying important topics
+- Inefficient focus on exam-relevant material
+
+---
+
+### 8. Manual and Unstructured Exam Preparation
+Exam preparation is often:
+- Unorganized
+- Lacking guided plans
+- Dependent on manual effort for creating mock tests and revision sheets
+
+---
+
+## Solution Overview
+
+AcadBuddy addresses these challenges by providing a unified, AI-powered academic workspace that enables:
+
+- Centralized subject-based organization
+- Automated note generation and summarization
+- Quick and structured revision tools
+- Personalized learning experiences
+- Smart exam preparation features
+- Community-driven knowledge sharing
+
+---
+
+## Summary
+
+AcadBuddy transforms the traditional study process by eliminating fragmentation, reducing manual effort, and enhancing productivity through intelligent automation and structured learning workflows.
+
+**Challenges we ran into**
+
+## Challenges Faced During Development
+
+Building AcadBuddy as a full-stack, AI-powered academic platform involved addressing multiple technical and product-level challenges. Below are the key challenges encountered during the development process:
+
+---
+
+### 1. Designing a Scalable System Architecture
+Creating a system that supports multiple features such as subject management, AI processing, file uploads, and community interactions required:
+- Clear separation of frontend and backend responsibilities
+- Modular and maintainable code structure
+- Efficient API design for scalability
+
+---
+
+### 2. AI Integration and Response Handling
+Integrating AI services for generating notes, summaries, and revision content presented challenges such as:
+- Ensuring consistent and relevant outputs
+- Managing response latency
+- Handling different prompt structures and formats
+- Maintaining reliability across multiple AI models
+
+---
+
+### 3. File Upload and Processing Pipeline
+Handling user-uploaded content (PDFs, images, text) required:
+- Secure file upload mechanisms
+- Efficient parsing of PDFs and extraction of useful content
+- Image processing and optimization
+- Integration with cloud storage services
+
+---
+
+### 4. Real-Time User Experience and Performance
+Ensuring a smooth and responsive user experience involved:
+- Managing loading states and asynchronous operations
+- Optimizing frontend performance
+- Reducing unnecessary API calls
+- Handling large data efficiently
+
+---
+
+### 5. Authentication and Security
+Implementing a secure authentication system required:
+- JWT-based authentication with access and refresh tokens
+- Protecting API routes and user data
+- Preventing unauthorized access
+- Managing token expiration and refresh flows
+
+---
+
+### 6. State Management and Data Consistency
+Managing application state across multiple features was challenging due to:
+- Synchronizing data between components
+- Handling user sessions and updates
+- Avoiding redundant re-renders
+- Maintaining consistency between client and server
+
+---
+
+### 7. Building a Flexible and Intuitive UI/UX
+Designing an interface that supports multiple complex features while remaining user-friendly required:
+- Clear navigation and layout structure
+- Minimal learning curve for users
+- Consistent design across pages
+- Balancing functionality with simplicity
+
+---
+
+### 8. Implementing Community Features
+Developing a community feed with posts, comments, and interactions involved:
+- Designing scalable data models
+- Managing user-generated content
+- Handling engagement features like voting and commenting
+- Ensuring performance with increasing data
+
+---
+
+### 9. Rate Limiting and Abuse Prevention
+To ensure fair usage and system stability, it was necessary to:
+- Implement API rate limiting
+- Prevent misuse of AI resources
+- Handle high request volumes efficiently
+
+---
+
+### 10. Deployment and Environment Configuration
+Preparing the application for production required:
+- Managing environment variables securely
+- Configuring frontend-backend communication
+- Handling CORS and deployment pipelines
+- Ensuring smooth builds and scalability
+
+---
+
+## Summary
+
+The development of AcadBuddy required solving complex challenges across system design, AI integration, performance optimization, and security. Overcoming these challenges resulted in a robust, scalable, and user-centric academic platform.
+
+Team **BitsToBytes** -- [Amritanshu Goutam](https://github.com/bhutuklearning), [Ankit Mishra](https://github.com/ankitmishra2002), Avoy Sasmal
+
+`2026-04-04`
+
+---
+
+### MoneyNext
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/moneynext-8cc7) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/HarshSATHE001/MoneyNext/tree/algorand-integration) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/C4vmZOzJkH4) [![Built at](https://img.shields.io/badge/Built%20at-Hacknovate--7.0-0052CC?style=flat-square)](https://hacknovate07.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-3-FF6B6B?style=flat-square)
+
+> Smart Financial Companion for Better Spending
+
+![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![Docker](https://img.shields.io/badge/Docker-333333?style=flat-square) ![Express.js](https://img.shields.io/badge/Express.js-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![React.js](https://img.shields.io/badge/React.js-333333?style=flat-square)
+
+**The problem it solves**
+
+MoneyNext solves the financial awareness gap by helping users track spending, detect hidden expenses, and make smarter financial decisions. It provides personalized insights, proactive alerts, and future forecasts, reducing stress, preventing poor choices, and encouraging better saving habits for individuals and families across different income levels.
+
+**Challenges we ran into**
+
+Designing income-adaptive architecture
+Building a system where the entire UI and features dynamically change based on income tiers (low, middle, high) was complex. We had to rethink traditional single-dashboard design and create multiple adaptive flows.
+Dynamic component rendering & state management
+Managing 50+ components and 30+ routes while ensuring smooth switching between income tiers without performance issues was challenging.
+SMS parsing using NLP
+Extracting structured financial data from unstructured bank SMS messages required building a custom NLP parser, which involved handling multiple formats and inconsistencies across banks.
+Voice input integration (Hindi & regional)
+Implementing voice-based expense tracking for accessibility introduced challenges in speech recognition accuracy, especially with mixed languages and accents.
+Balancing simplicity vs features
+Designing for tier-2/3 users required a very simple UI, while still supporting advanced features like tax optimization and estate planning for higher-income users.
+Data privacy & security concerns
+Since financial data is sensitive, ensuring secure handling of user data, authentication, and compliance added extra complexity.
+Scalability planning (cloud + offline-first)
+Making the app work in low-internet areas while also being cloud-scalable required careful architectural decisions (offline-first + serverless approach).
+Feature differentiation across tiers
+Ensuring that each income tier gets meaningful and non-overlapping features (not just locked features) was difficult and required deep user research.
+
+**Algorand**
+
+“MoneyNext uses Algorand as a secure, low-cost verification layer to store financial actions on-chain, ensuring transparency, immutability, and user trust while maintaining a scalable Web2 architecture.”
+
+MoneyNext is a hybrid FinTech application that uses Algorand as a verification layer, not as the core system.
+
+Role of Algorand in your project
+1. Immutable Ledger
+
+All key actions like:
+
+micro-savings
+budget commitments
+
+are stored on Algorand, making them tamper-proof and permanent.
+
+2. Trust & Verification
+
+Each action generates a transaction ID that users can verify on a public explorer.
+This removes dependency on your backend for trust.
+
+3. Transaction Layer
+
+Your backend creates transactions and sends them to Algorand.
+Because Algorand is:
+
+fast (few seconds finality)
+low cost
+
+it supports frequent small financial actions.
+
+4. Identity via Wallet
+
+Pera Wallet acts as:
+
+user identity
+transaction signer
+
+Only the user can approve actions, ensuring ownership and security.
+
+Architecture Fit
+
+Your system works as:
+
+Frontend → Backend → Algorand
+
+Backend stores data in PostgreSQL
+Critical actions are also recorded on blockchain
+Blockchain acts as a proof layer
+Why this is a strong use of Algorand
+You keep Web2 speed and scalability
+You add Web3 trust and transparency
+You avoid unnecessary complexity
+
+This is a practical real-world blockchain integration
+
+Team **HackOS** -- [PRATIKSHA BHASKARE](https://github.com/Pratiksha-2005), [Guruprasad Shinde](https://github.com/Guru2025-KIT), [Harshvardhan Sathe](https://github.com/HarshSATHE001), [Dhanvantri Panjwani](https://github.com/Dhanvantri37)
+
+`2026-04-04`
+
+---
+
+### AlgoQuests
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/algoquests-df9f) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://the-dominators-hackmol-7-0.vercel.app/) [![Built at](https://img.shields.io/badge/Built%20at-HackMol%207.0-0052CC?style=flat-square)](https://hackmol-7.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-3-FF6B6B?style=flat-square)
+
+> gamified DSA platform
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**Fresher’s Track: The Rising Lanterns**
+
+we are first year students and this is our first hackathon.
+
+Team **THE DOMINATORS** -- [Karan Bhatt](https://github.com/karanbhatt16), [Ankit Mishra](https://github.com/aaklon)
+
+`2026-03-29`
+
+---
+
+### HelpBridge
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/helpbridge-58a5) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/SnehaMs325/HelpBridge) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://help-bridge-v0.netlify.app/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/KVb-Q1Rl_EE) [![Built at](https://img.shields.io/badge/Built%20at-BINARY%20v2-0052CC?style=flat-square)](https://binaryvtwo.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-3-FF6B6B?style=flat-square)
+
+> Help is Just a Click Away
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Leaflet](https://img.shields.io/badge/Leaflet-333333?style=flat-square) ![Firebase](https://img.shields.io/badge/Firebase-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![Firestore](https://img.shields.io/badge/Firestore-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+Every day, thousands of lives are impacted by sudden, everyday crises—a severe road accident, an unexpected medical emergency, or a family suddenly losing shelter and needing basic humanitarian aid. 
+
+The core problem isn't a lack of people willing to help; it's the **chaos of communication and logistics**. When emergencies happen, local NGOs, paramedics, and social safety networks are flooded with chaotic, unverified data. They struggle with a "noisy queue" where a critical medical emergency is placed in the exact same line as a request for blankets. **In a crisis, a lack of prioritization costs lives.**
+
+**HelpBridge solves this by acting as an intelligent, real-time triage and dispatch engine.** Here is how it makes emergency response faster, easier, and safer for everyone involved:
+
+ 1. Eliminating the "Noisy Queue" with AI Triage
+* **The Problem:** Dispatchers have to manually read through hundreds of requests to figure out who is in immediate danger. 
+* **The HelpBridge Solution:** We integrated **Google Gemini AI** to act as a digital 911 dispatcher. The moment a request is submitted, the AI instantly analyzes the description and categorizes it. Severe injuries or life-threatening situations are immediately flagged as **HIGH priority**, while requests for food or shelter are routed as **MEDIUM priority**. Responders instantly know who to save first.
+
+2. Eradicating Location Confusion
+* **The Problem:** In a panic, victims or bystanders often struggle to explain exactly where they are, delaying rescue teams.
+* **The HelpBridge Solution:** Users don't need to type their address. With one click, the system uses high-accuracy browser GPS combined with OpenStreetMap reverse geocoding to automatically extract and pinpoint the exact street location of the crisis.
+
+ 3. Preventing Spam & Verifying the Crisis
+* **The Problem:** Prank calls and fake requests waste extremely valuable responder time and resources. It is also hard to assess what kind of help is needed without seeing the scene.
+* **The HelpBridge Solution:** We implemented a strict **Live Camera Capture** feature. Users cannot upload old photos from their gallery; they must take a live picture of the situation directly through the web app, providing instant, verifiable visual proof to the NGOs.
+
+ 4. Bringing Order to Dispatchers
+* **The Problem:** NGOs manage resources using fragmented tools, spreadsheets, or chaotic WhatsApp groups.
+* **The HelpBridge Solution:** Verified NGOs get access to a **Live Dispatch Map**. They can view a real-time, interactive map of their city plotting all active emergencies. They can filter by need (Medical, Food, Rescue), instantly accept a mission to claim it, and mark it as completed—bringing complete operational clarity to humanitarian efforts. 
+
+ What people can use it for:
+* **Good Samaritans / Bystanders:** A proxy-reporting toggle allows a passerby to quickly report a severe road accident on behalf of an unconscious victim.
+* **Vulnerable Individuals:** Someone who suddenly loses their home can request emergency shelter and food assistance directly from local NGOs.
+* **NGOs & Paramedics:** A centralized command center to deploy ambulances to HIGH priority medical crises, while simultaneously sending volunteer relief vehicles to deliver food to MEDIUM priority requests.
+
+**Challenges we ran into**
+
+Building HelpBridge involved combining multiple real-time technologies—Live Geolocation, AI processing, and Real-time Databases. Naturally, integrating these seamlessly led to several major technical hurdles:
+
+ 1. The Server-Side Rendering (SSR) vs. Interactive Maps Clash
+**The Hurdle:** We chose Next.js for its speed and SEO, and Leaflet for our Live Dispatch Map. However, Leaflet relies heavily on the browser's `window` object. During Next.js's server-side build process, `window` is undefined, causing the entire application to crash with `Minified React error #306` and module resolution errors. Furthermore, if a user submitted a request with a blocked GPS, Firebase would occasionally store `NaN` or `undefined` for coordinates, which completely broke the Leaflet bounding box logic.
+
+**The Fix:** We decoupled the map from the server build using Next.js `next/dynamic` imports with `ssr: false`. To fix the crashes caused by bad data, we built a strict data interceptor in the `MapUpdater` component that filters out any request missing valid numerical `lat` and `lng` types before calculating the map bounds.
+
+ 2. Making the AI Triage "Decisive"
+**The Hurdle:** Integrating the Google Gemini 1.5 Flash API to categorize emergencies was a game-changer, but initially, the AI was "playing it too safe." It would default almost all requests to `MEDIUM` priority, rarely assigning `HIGH` even for critical injuries. Additionally, the AI would sometimes wrap its response in markdown backticks (`json ... `), breaking our JSON parser.
+
+**The Fix:** We heavily refined the prompt engineering. We explicitly defined what constitutes a `HIGH` priority (e.g., severe bleeding, trapped individuals, accidents) and set the API's `temperature` parameter to `0.1` to force rigid, predictable formatting. We also wrote a robust regex cleaner to strip out markdown wrappers before parsing, and implemented a local algorithmic fallback just in case the API was ever rate-limited.
+
+ 3. The Firebase Storage CORS Nightmare & Live Camera
+**The Hurdle:** To prevent spam, we wanted users to snap live photos of the emergency rather than uploading from their gallery. After building the HTML5 camera integration, we tried sending the images to Firebase Storage, but were immediately hit with strict CORS policy blocks (`Response to preflight request doesn't pass access control check`). Fixing this required complex Google Cloud CLI configurations that weren't feasible during the rapid development phase.
+
+**The Fix:** We completely bypassed Firebase Storage. Instead, we routed the live video feed into a hidden HTML5 `<canvas>`, scaled the image down to a maximum width of `500px` to heavily compress it, and converted it into a `Base64` data string. We then saved that highly compressed string directly into the Firebase Firestore document alongside the text data.
+
+ 4. The "Ocean Drop" Geolocation Issue
+**The Hurdle:** Early in testing, if a user's browser delayed the GPS ping, the system would submit default fallback coordinates, causing emergency pins to render in the middle of the ocean on the NGO dashboard. Additionally, raw coordinates aren't helpful to dispatchers who need street names.
+
+**The Fix:** We enabled `enableHighAccuracy: true` on the browser's Geolocation API. We then integrated the free OpenStreetMap Nominatim API for both reverse geocoding (turning GPS into a readable street address) and forward geocoding (turning a manually typed address into GPS coordinates). If GPS completely fails, the system now safely defaults to the user's manually typed address and centers the fallback location onto realistic land bounds.
+
+**Open Innovation**
+
+HelpBridge fits the Open Innovation track perfectly because it uses everyday technologies in entirely new ways to solve a chaotic, real-world problem.
+
+1. AI as a Dispatcher, Not a Chatbot
+Instead of using Generative AI just to generate text, we repurposed Google Gemini into a high-speed triage engine. It acts as an automated 911 dispatcher, instantly sorting life-threatening emergencies from general relief needs.
+
+2. Bringing Order to Chaos
+It solves the "noisy queue" problem. When crises happen, emergency lines are flooded and disorganized. HelpBridge innovates by turning panicked, unstructured pleas into an organized, color-coded, map-based action plan for responders.
+
+3. Creative Tech Mashup
+We combined high-accuracy web geolocation, Large Language Models, and real-time cloud databases to build a system normally reserved for massive government agencies, making it accessible to any local NGO.
+
+The Bottom Line: HelpBridge is a completely new paradigm for humanitarian logistics. It proves that by combining existing technologies innovatively, we can replace panic with priority and save lives
+
+Team **Apex** -- [Sneha Majumder](https://github.com/SnehaMs325), [Snahasish Dey](https://github.com/basic30), [Srijit Bhattacharya](https://github.com/Sidibo)
+
+`2026-03-22`
+
+---
+
+### SlothOps
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/slothops-b7bd) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/SukritDeb/SlothOps-Binary) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/MFwXzgqpQCU) [![Built at](https://img.shields.io/badge/Built%20at-BINARY%20v2-0052CC?style=flat-square)](https://binaryvtwo.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-3-FF6B6B?style=flat-square)
+
+> The end of 3 AM debugging.
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![GitHub](https://img.shields.io/badge/GitHub-333333?style=flat-square) ![FastAPI](https://img.shields.io/badge/FastAPI-333333?style=flat-square) ![langchain](https://img.shields.io/badge/langchain-333333?style=flat-square) ![GenAI](https://img.shields.io/badge/GenAI-333333?style=flat-square) ![Sentry](https://img.shields.io/badge/Sentry-333333?style=flat-square)
+
+**The problem it solves**
+
+When a production app crashes, developers usually have to stop everything to manually read through messy error logs, find the right file in the code, and figure out a fix. This "triage" process is slow, stressful, and prone to human error—especially if it happens in the middle of the night.
+
+SlothOps acts as an automated first responder that handles the boring, technical grunt work so humans can focus on just reviewing the solution.
+
+How It Makes Work Easier & Safer
+Instant Fixes: It watches for crashes, automatically pulls the relevant code from GitHub, and uses AI to open a Draft Pull Request with a suggested fix before a developer even starts looking at the bug.
+
+Privacy First: It automatically scrubs sensitive data like passwords, emails, and API keys from error logs before sending them to the AI, keeping your production data safe.
+
+Safety Gatekeeper: It runs a "QA Pipeline" that tests new code for security vulnerabilities, speed, and bugs, and can even block the merge button if the code isn't safe.
+
+Self-Healing Production: If a bad update breaks your live site, SlothOps catches the failure, automatically reverts the code to a working version, and then asks the AI to fix the mistake.
+
+No More Spam: It uses "fingerprinting" to recognize repeat errors, so it won't open multiple PRs for the same bug.
+
+**Challenges we ran into**
+
+1. The "Band-Aid" Fix vs. Root Cause
+The Challenge: Initially, the LLM would often suggest "shallow" fixes, like adding a null check (?.) at the exact line of the crash, rather than fixing the underlying logic.
+
+The Solution: We implemented Deep Call Chain Tracing. By parsing the full Sentry stack trace, the engine now fetches not just the crashing file, but the entire chain of up to 7 caller files. This allows the AI to see that a crash in a "Discount Service" might actually be caused by missing data in a "User Service" three files away.
+
+2. Preventing "Revert Loops" in Production
+The Challenge: A major risk with the Phase 7 Auto-Rollback feature was the potential for an infinite loop. If a rollback itself failed or triggered a new deployment error, the bot might try to "revert the revert" indefinitely.
+
+The Solution: We added Loop Prevention logic in rollback.py. The system now inspects the commit message of the failing deployment; if it starts with "Revert," SlothOps aborts the rollback to protect the repository from oscillating changes.
+
+3. Dealing with Unreliable AI JSON Outputs
+The Challenge: High-reasoning models like Gemini 2.5 Pro can occasionally return malformed JSON or markdown-wrapped text, which breaks the automated pipeline.
+
+The Solution: We enforced a strict Response Schema and implemented a granular error-handling system. If the JSON parsing fails, the engine is programmed to retry once; if it fails again, it marks the issue as fixing_failed rather than crashing the entire server.
+
+4. GitHub API and Rate Limiting
+The Challenge: Fetching multiple files (main source, tests, and local imports) for every crash can quickly hit GitHub’s API rate limits, especially during testing.
+
+The Solution: We optimized code_fetcher.py to be surgical. It only fetches a maximum of 5-7 specific files instead of cloning the entire repo or using expensive vector searches. We also implemented a 10-minute cooldown per error fingerprint to prevent redundant processing of the same bug.
+
+**AI/ML**
+
+SlothOps fits into the AI/ML track as an Autonomous Agentic SRE (Site Reliability Engineering) Pipeline. It moves beyond simple chatbots by using high-reasoning models to execute real-world engineering tasks.
+AI-Driven Core FeaturesAutonomous Agentic Workflow: Uses a closed-loop pipeline to parse errors, fetch context, and generate code fixes without human intervention.
+Deep Reasoning with Gemini 2.5 Pro: Employs LLMs with a low temperature ($0.2$) for deterministic, logic-heavy root cause analysis across multiple files.
+LangChain QA Orchestration: Powers a suite of sub-agents that perform dynamic unit test generation, security audits (VAPT), and performance benchmarking.
+Self-Healing Loops: If a fix fails deployment, the system captures build logs and recursively triggers the LLM to "self-correct" its own mistakes (up to 3 attempts).
+Intelligent Classification: Uses heuristic signals to distinguish between code bugs (requiring AI reasoning) and infrastructure blips, optimizing LLM resource usage.
+
+**Open Innovation**
+
+SlothOps is an autonomous SRE agent that converts production crashes into validated code fixes. It redacts PII, fetches GitHub context, and opens draft PRs. With automated rollbacks and a multi-agent QA pipeline, it democratizes high-availability infrastructure for teams of any size.
+
+**Requestly**
+
+Here is the youtube video link:
+https://youtu.be/7r_T-CuR8Ag
+
+![image](https://assets.devfolio.co/content/93596fda095c49dfb30e0f5bc807adca/70f12bc5-75c4-4e1c-992d-1a384bdae820.jpeg)
+
+![image](https://assets.devfolio.co/content/93596fda095c49dfb30e0f5bc807adca/bb8e9f71-dcde-4edc-8f91-239d0a578a29.jpeg)
+
+Team **Pantua** -- [Suman Jain](https://github.com/Itz-snj), [Sukrit Deb](https://github.com/SukritDeb), [Subhajit Roy](https://github.com/Subhajitroy03), [Soumaditya Roy](https://github.com/iamsoumaditya)
+
+`2026-03-22`
 
 ---
 
@@ -4856,6 +6287,813 @@ CodeSpotlight/
 Harsh Mayekar
 
 `2026-05-05`
+
+---
+
+### ConsultFlow
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/consultflow-9ccd) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/PohSayKeong/consult-flow) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://consult-flow-one.vercel.app/app) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/8JEJBcFwITc) [![Built at](https://img.shields.io/badge/Built%20at-Push%20to%20Prod%20Hackathon%20with%20Genspark%20&%20Claude-0052CC?style=flat-square)](https://push-to-prod.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> Turn messy client comms into action, instantly
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![AI](https://img.shields.io/badge/AI-333333?style=flat-square) ![nextjs](https://img.shields.io/badge/nextjs-333333?style=flat-square) ![Anthropic](https://img.shields.io/badge/Anthropic-333333?style=flat-square) ![claude](https://img.shields.io/badge/claude-333333?style=flat-square) ![Genspark](https://img.shields.io/badge/Genspark-333333?style=flat-square) ![workflow](https://img.shields.io/badge/workflow-333333?style=flat-square)
+
+**Use of Genspark**
+
+## Use of Genspark
+
+Genspark played two key roles in building ConsultFlow:
+
+### 1. Prototyping & Design
+
+We used Genspark's design tool to prototype the first version of ConsultFlow — rapidly iterating on the UI layout, workflow structure, and component design before writing production code. This let us validate the consulting workflow visually before committing to implementation.
+
+### 2. Voiceover Generation
+
+Genspark was used to generate the voiceover for our demo video, giving the product walkthrough a polished, professional narration without manual recording.
+
+**The problem your project solves**
+
+## The Problem
+
+Consultants and client-facing teams are buried in unstructured communication — emails, call notes, Slack threads, meeting transcripts. There is no reliable way to:
+
+- Extract commitments and action items automatically
+- Track what was promised to clients and when
+- Generate follow-up emails without starting from scratch
+
+The result: key decisions get lost, deliverables slip, and clients lose confidence. The manual overhead of triaging raw client input consumes hours every week that should be spent on actual consulting work.
+
+**How you are solving it**
+
+## Our Solution: ConsultFlow
+
+ConsultFlow is an AI-native consulting workflow tool that takes raw client communication and turns it into structured, actionable work — in seconds.
+
+### How it works:
+
+1. **Ingest** — Paste any client email, call notes, or Slack thread into ConsultFlow — or automate ingestion by connecting directly to email or communication channels
+2. **Parse** — Claude extracts tasks, blockers, risks, and commitments from the raw text
+3. **Organize** — Items are auto-populated into a Kanban board grouped by status
+4. **Summarize** — One-click executive summary generation for stakeholder updates
+5. **Communicate** — Auto-drafted follow-up email ready to send to the client
+
+### Tech Stack:
+
+- **Frontend**: Next.js 16, React 19, TypeScript, Tailwind CSS
+- **AI**: Anthropic Claude (claude-sonnet-4-6) via multi-agent pipeline
+- **Deployment**: Vercel
+
+**Use of Claude**
+
+## Use of Claude
+
+Claude (claude-sonnet-4-6) is the intelligence core of ConsultFlow, integrated via the Anthropic SDK (@anthropic-ai/sdk).
+
+### Extraction Agent
+
+- Parses freeform client communication (emails, call notes, meeting transcripts)
+- Identifies and categorises: tasks, blockers, risks, decisions, and commitments
+- Returns structured JSON that populates the Kanban board
+
+### Summary Agent
+
+- Generates executive-ready summaries from the extracted work items
+- Condenses complex client interactions into clear stakeholder updates
+
+### Email Agent
+
+- Drafts professional follow-up emails to clients
+- Incorporates extracted action items, next steps, and timelines
+- Outputs formal email copy with greeting, CC fields, and structured body
+
+### Planning Agent & Orchestration
+
+Claude also acts as the technical lead that orchestrated the entire development workflow of ConsultFlow itself. Configured via CLAUDE.md, it operates as a senior engineer that never writes code directly. Instead it:
+
+- Breaks incoming feature work into atomic, 30-minute tasks stored in tasks.json
+- Assigns each task an owner (claude for planning/logic, codex for implementation)
+- Enforces dependency ordering so tasks execute in the right sequence
+- Reviews completed work and reverts tasks to todo with corrective instructions if output does not match the spec
+- Proactively identifies missing steps that would break the end-to-end demo flow
+
+This means Claude was not just powering the product — it was the project manager that kept the entire build on track during the hackathon.
+
+[Say Keong Poh](https://github.com/PohSayKeong)
+
+`2026-04-24`
+
+---
+
+### Lumen
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/lumen-5838) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/vikassharma96/lumen) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://dg9qztxrga1mk.cloudfront.net/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=HCywLjCV1wg) [![Built at](https://img.shields.io/badge/Built%20at-Push%20to%20Prod%20Hackathon%20with%20Genspark%20&%20Claude-0052CC?style=flat-square)](https://push-to-prod.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> Stop the Fire before it Burns
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Docker](https://img.shields.io/badge/Docker-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![NetworkX](https://img.shields.io/badge/NetworkX-333333?style=flat-square) ![FastAPI](https://img.shields.io/badge/FastAPI-333333?style=flat-square) ![tailwind](https://img.shields.io/badge/tailwind-333333?style=flat-square) ![Vite](https://img.shields.io/badge/Vite-333333?style=flat-square)
+
+**How you are solving it**
+
+## Lumen: Dependency Visibility + AI Reasoning
+
+### Core Features
+
+**1. Dependency Graph Visualization**
+- Real-time topology rendering with React Flow + Dagre auto-layout
+- Services colored by risk (in-degree = how many dependents call it)
+- Protocol edges (gRPC, HTTP, Kafka) show communication type
+- 14-service OpenTelemetry demo + ability to scan custom repos
+
+**2. Blast Radius Simulator**
+- Select a service, define a contract change (field removed, type change, etc.)
+- BFS traversal computes all impacted services across depth levels
+- Shows which endpoints break and why
+- Claude AI generates migration playbooks
+
+**3. Root Cause Analysis (RCA)**
+- Given an incident (e.g., "payment service is slow")
+- Reverse traverse upstream dependencies to identify likely culprits
+- Claude scores candidates by topology risk and suggests 5-minute investigation steps
+
+**4. SRB Autopilot (Service Review Board)**
+- Anti-pattern detection: circular deps, hotspot amplification, excessive team coupling, synchronous payment calls
+- Risk scoring (0-10) triggers APPROVE / CONDITIONAL / REJECT
+- Claude writes architect-level rationale for each decision
+
+**5. Schema Diff Analysis**
+- Upload two OpenAPI specs → semantic diff
+- Flags breaking changes (field removal, type changes, required→optional)
+- Links breaking changes to live graph → shows which services must update
+
+**6. Repo Scanner**
+- Auto-discovers services from Docker Compose, Helm, K8s manifests, code patterns
+- Detects 3rd-party API calls (Stripe, Twilio, Mastercard, etc.)
+- Multi-repo scanning with cross-repo edge detection
+
+**7. AI Collaboration Chat**
+- WebSocket-powered real-time team chat
+- Share blast radius results directly → Claude analyzes them
+- Free-text questions about architecture trigger AI responses
+
+### Architecture
+
+- **Backend**: FastAPI + NetworkX (in-memory graph singleton)
+- **Frontend**: React + TypeScript + React Flow
+- **AI**: Claude Sonnet 4.6 for all reasoning (with mock fallback)
+- **Containerized**: Docker Compose for one-command deployment
+
+**The problem your project solves**
+
+## The Invisible Dependency Problem
+
+Microservices teams operate in the dark:
+
+- **No visibility** into which services call which — especially across teams
+- **Cascade failures** propagate silently; a payment service outage takes down checkout, accounting, and fraud detection
+- **Breaking changes** ship without knowing who's affected — the last minute discovers incompatibility during rollout
+- **Manual tracing** eats hours per change — jump between Slack threads, configs, and code to map dependencies
+- **Untrustworthy runbooks** because incident response is reactive, not informed by the live topology
+
+The result: slow deploys, surprises in production, and risk that scales with team size.
+
+## Why It Matters
+
+Companies like Netflix, Stripe, and Amazon rely on ML + graph algorithms to detect change impact *before* pushing code. Smaller teams lack these tools and suffer the consequences.
+
+**Use of Claude**
+
+## Claude Powers Every AI Feature
+
+**Blast Radius Narrative**: Claude ingests the full dependency graph + impact list, reasons about migration complexity, and generates step-by-step runbooks ("which services to update first", "what tests to run").
+
+**Root Cause Analysis Runbooks**: Claude combines upstream dependency graph with service metadata to score failure likelihood and write 5-minute immediate actions + investigation order + prevention tactics.
+
+**SRB Scoring & Rationale**: Claude evaluates 7 anti-pattern rules against the live graph topology, generates risk scores, and writes principal-architect-level recommendations (often citing specific service relationships from the graph).
+
+**Schema Breaking-Change Analysis**: Claude performs semantic diff on OpenAPI specs, predicts consumer impact against the live dependency graph, and suggests safe rollout strategies.
+
+**Repo Topology Inference**: Claude analyzes source code patterns (imports, config files, env vars) to infer service dependencies even when manifests are missing.
+
+**Collaborative Chat**: Claude responds to free-text architecture questions in the context of the live topology — blast radius results, SRB scores, and dependency paths are all available as conversation context.
+
+**Implementation**: All Claude calls go through `ai/claude_analyzer.py` with mock fallback (MOCK_AI=true for offline demos). Every response carries an `ai_mode` badge (LIVE CLAUDE vs MOCK) for transparency.
+
+**What is the deployed URL for this project?**
+
+https://github.com/vikassharma96/lumen
+
+**Use of Genspark**
+
+Genspark is used in this project PPT & Architecture. The architecture relies entirely on Claude Sonnet 4.6,4.7 for AI-powered analysis.
+
+Team **AIKeeper** -- [Vikas Sharma](https://github.com/vikassharma96), [Rakesh Cheekatimala](https://github.com/rakeshcheekatimala)
+
+`2026-04-24`
+
+---
+
+### NyaySetu
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/nyaysetu-d969) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/anuptiwari17/nyaysetu.git) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://nyaysetu-c8c4.vercel.app/) [![Built at](https://img.shields.io/badge/Built%20at-HackMol%207.0-0052CC?style=flat-square)](https://hackmol-7.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> An AI-assisted, community-driven platform that emp
+
+![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![langchain](https://img.shields.io/badge/langchain-333333?style=flat-square)
+
+**The problem it solves**
+
+Nyay Setu solves the gap between citizens, governance, and legal awareness by providing a unified platform for raising, escalating, and addressing issues. Today, people struggle to understand their rights, identify the correct authority, and draft impactful complaints. Our system simplifies this by enabling users to file grievances, escalate unresolved issues into community-driven petitions, and gather public support seamlessly. With AI-assisted drafting and legally grounded guidance, it makes civic participation more structured, accessible, and effective. Ultimately, it transforms scattered individual complaints into organized, accountable, and action-driven civic engagement, making the process easier, more transparent, and safer for citizens.
+
+**Main Track: The Deepforge Arena**
+
+We came upon with our own Idea of "AI Assisted Community Driven Social Issues Addressal Platform" and built upon this during the Hackathon time of Hackmol 7.0.
+
+Team **Peaky Blinders** -- [Anup Tiwari](https://github.com/anuptiwari17), [Anoop Tripathi](https://github.com/tanoop01), [Anshuman Mishra](https://github.com/anshuman0710)
+
+`2026-03-29`
+
+---
+
+### AnatoLens : AI-Powered AR Anatomy Learning
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/anatolens-aipowered-ar-anatomy-learning-9583) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/manikhandanr297/AnatoLens) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://youtu.be/VDdQt7i-psQ?si=w-u1Wr05gSaYYykD) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/VDdQt7i-psQ?si=w-u1Wr05gSaYYykD) [![Built at](https://img.shields.io/badge/Built%20at-DevsHouse%20'26-0052CC?style=flat-square)](https://devshouse26.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> Transforming Education methods in NEET
+
+![Unity](https://img.shields.io/badge/Unity-333333?style=flat-square) ![C#](https://img.shields.io/badge/C#-333333?style=flat-square) ![Unity 3D](https://img.shields.io/badge/Unity%203D-333333?style=flat-square)
+
+**The problem it solves**
+
+NEET aspirants primarily rely on 2D textbook diagrams to study human anatomy, which makes it difficult to develop true spatial understanding of complex structures. This often leads to rote memorization instead of conceptual clarity, especially for topics involving orientation, layering, and relationships between organs.
+
+AnatoLens addresses this by enabling students to visualize and interact with 3D anatomical models in real space using augmented reality. By converting abstract 2D representations into immersive 3D experiences, it helps learners better understand structure, positioning, and function, ultimately improving retention and reducing cognitive load during exam preparation.
+
+**Challenges we ran into**
+
+One major challenge was integrating real-time AI responses within the AR environment. API rate limits, latency, and inconsistent responses made it difficult to ensure a smooth and reliable user experience during interactions.
+
+Another challenge was handling precise interaction in AR—detecting user input on small labels attached to 3D models while maintaining stability and avoiding flickering required careful adjustment of colliders and UI alignment.
+
+Additionally, optimizing the user interface was tricky, especially ensuring that overlays like information panels remained readable and properly scaled across different devices while not interfering with the AR view.
+
+To overcome these, I implemented a lightweight local fallback system for content delivery, refined collider placement for accurate interaction, and iteratively adjusted UI scaling and positioning for consistency across screens.
+
+**AR & VR**
+
+AnatoLens uses Augmented Reality to help NEET aspirants move beyond 2D textbook diagrams by interacting with 3D anatomical models in real space. This improves spatial understanding, makes learning more intuitive, and bridges the gap between theoretical knowledge and real-world visualization, aligning directly with the AR/VR track.
+
+![image](https://assets.devfolio.co/content/b2fde26f2905490b9eab122f15039358/b8dde155-3da8-4e1e-98a4-eaae9ee2c83f.jpeg)
+
+Team **Hackie Chan** -- [Manikhandan R](https://github.com/manikhandanr297), [AKHAN R S](https://github.com/bluecore7), [Nithilan M](https://github.com/nithilan07-git)
+
+`2026-03-29`
+
+---
+
+### AccessiScan AI Platform 🎯
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/accessi-scan-ai-45fa) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/IqraS-gif/Vada_pav_hn4/tree/master) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://drive.google.com/file/d/14aLZhaZhL-Nl3vBurp9BxiM5Ujxncgrq/view?usp=sharing) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/cMmby0jhTBE) [![Built at](https://img.shields.io/badge/Built%20at-HackNiche%204.0-0052CC?style=flat-square)](https://hackniche4-0.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> The web, seen differently. Built better.
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Firebase](https://img.shields.io/badge/Firebase-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![FastAPI](https://img.shields.io/badge/FastAPI-333333?style=flat-square)
+
+**The problem it solves**
+
+## 🧩 The Problem AccessiScan AI Platform Solves
+
+### The Web Has an Accessibility Crisis
+
+Over **1 billion people** worldwide live with some form of disability — visual, motor, cognitive, or auditory. Yet the vast majority of websites fail basic accessibility standards (WCAG 2.1 and 2.2), leaving these users locked out of banking, healthcare, education, and everyday digital services.
+
+---
+
+## 🔑 Key Capabilities
+
+### 1. 🌐 URL Scanner
+
+* Audit any public *or local* URL (including localhost)
+* Detect WCAG violations instantly
+* No setup required
+
+---
+
+### 2. 🧩 AccessiBrowser Extension
+
+* Scan live pages including authenticated dashboards
+* Preview AI-generated fixes *in real time*
+* Inject solutions directly into the page via browser console
+* See the corrected layout before touching a single line of source code
+
+---
+
+### 3. 👁️ AccessiSimulate Extension
+
+* Simulate 9 real disability modes
+* Includes color blindness, low vision, tunnel vision, screen reader, keyboard-only, motor tremors & more
+* Works on any live website
+* Experience it as your users do
+
+---
+
+### 4. 📈 Trends, History & Comparison
+
+* Every audit is saved
+* Track accessibility scores over time
+* Compare runs side-by-side
+* Demonstrate compliance progress to stakeholders
+
+---
+
+### 5. 📋 QA Reports
+
+* Generate professional, downloadable PDF audit reports
+* Include severity breakdowns
+* Include WCAG references
+* Include AI-powered fix recommendations
+* Ready for QA teams and legal compliance reviews
+
+---
+
+### 6. 🤖 AI Chatbot + GitHub Code Cycle
+
+* Chat with an AI assistant powered by Featherless AI / DeepSeek V1
+* Understands your codebase
+* Suggests targeted remediation
+* Executes full GitHub code cycle:
+
+  * Analyse
+  * Fix
+  * Commit
+  * Push
+* Works directly from the conversation
+
+---
+
+## Why It's Better Than Existing Tools
+
+| Feature                                | Typical Tools (axe, WAVE, Lighthouse) | AccessiScan AI                    |
+| -------------------------------------- | ------------------------------------- | --------------------------------- |
+| Localhost / authenticated scanning     | ❌                                     | ✅ AccessiBrowser extension        |
+| Live fix preview (injected in browser) | ❌                                     | ✅ See the fix before you ship it  |
+| Disability simulation                  | ❌                                     | ✅ 9 real-time modes               |
+| History & trend tracking               | ❌ One-shot                            | ✅ Full audit history & comparison |
+| QA-ready PDF reports                   | ❌ Limited                             | ✅ Professional export             |
+| GitHub code cycle via chatbot          | ❌                                     | ✅ Analyse → fix → commit → push   |
+| AI fix suggestions                     | ❌ Flag only                           | ✅ Featherless AI (DeepSeek V1)    |
+
+---
+
+> **TL;DR** — AccessiScan makes it fast, visual, and actionable to build websites that *everyone* can use — and keeps track of every step of your accessibility journey.
+
+**Challenges we ran into**
+
+### 1. 🧩 Extension — Injecting Live Fix Previews Into the Page
+
+* Goal: Show AI-generated fixes applied instantly on the live webpage
+* Issue: Injecting code via browser console failed due to execution context restrictions
+* Issue: Timing problems when injecting into already-loaded pages
+* Challenge: Ensuring correct access to the page’s DOM environment
+
+**Solution:**
+
+* Used Chrome extension messaging system
+* Relayed fixes from background → content script
+* Content script runs in correct page context
+* Enabled safe and reliable DOM injection
+* Ensured fixes are applied at the right moment
+
+---
+
+### 2. 🤖 GitHub Code Cycle — Matching Scanned DOM to Real Source Code
+
+* Goal: Map detected accessibility issues to actual source code
+* Issue: Scanner reads rendered DOM, not original source files
+* Issue: Source code may exist in React components, templates, or partials
+* Challenge: Incorrect mapping could apply fixes to wrong files
+
+**Solution:**
+
+* Used Featherless AI / DeepSeek V1 for semantic matching
+* Matched flagged DOM snippets with repository source files
+* Identified most relevant file and code block
+* Applied targeted fixes to correct location
+* Automated commit and push via GitHub API
+
+---
+
+Team **Vada Pav** -- [Zahid Hamdule](https://github.com/Zahid-Ham), [Iqra Sayed](https://github.com/IqraS-gif), [Vivek Maurya](https://github.com/VivekMaurya83)
+
+`2026-03-26`
+
+---
+
+### PolyCraft
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/polycraft-6ec2) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Koushik-Zzz/sello) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/c-TKC_HCr2I) [![Built at](https://img.shields.io/badge/Built%20at-BINARY%20v2-0052CC?style=flat-square)](https://binaryvtwo.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> Generate, edit, and export 3D models with AI.
+
+![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![Docker](https://img.shields.io/badge/Docker-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Three.JS](https://img.shields.io/badge/Three.JS-333333?style=flat-square) ![Redis](https://img.shields.io/badge/Redis-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![FastAPI](https://img.shields.io/badge/FastAPI-333333?style=flat-square)
+
+**The problem it solves**
+
+**The steep learning curve of traditional 3D software:** Professional tools like Blender or Maya take months or years to master. Your platform completely removes this technical barrier, allowing anyone to generate professional-grade models using just natural language or a simple reference image.
+
+**The high cost and slow turnaround time of 3D asset creation:** Commissioning a 3D artist for product mockups, packaging design, or web assets can take weeks and cost thousands of dollars. Your platform condenses a multi-week workflow into mere minutes, drastically cutting overhead costs for businesses and independent creators.
+
+**Friction in the prototyping and iteration process:** In a standard workflow, making a small adjustment to a 3D model (like changing a material or adjusting a shape) requires going back to the designer and waiting for new renders. Your platform solves this through AI-driven iterative editing, allowing users to tweak and refine models instantly with text commands.
+
+**The disconnect between 2D conceptualization and 3D reality:** Marketers and founders often have great ideas, mood boards, or flat sketches, but struggle to visualize how the actual product or packaging will look in physical space. Your platform bridges this gap by instantly turning flat ideas into interactive, production-ready 3D assets that can be viewed from any angle.
+
+**Challenges we ran into**
+
+***The Hurdle:***
+The core feature of this platform requires a multi-step generative pipeline: taking a text prompt, generating an initial reference image using Gemini 3 Image, and then passing that image to Trellis (via fal.ai) to reconstruct the 3D mesh.
+
+Initially, we had the FastAPI backend handling this synchronously. The user would submit a prompt, and the server would hold the HTTP connection open while waiting for both AI models to finish. Because 3D generation can take 15 to 30 seconds, this approach was a disaster. The browser would constantly hit HTTP timeouts, the UI would freeze, and if the connection dropped, the heavy .glb file was lost, causing React Three Fiber to crash when trying to load a broken blob.
+
+***The Solution:***
+We had to completely decouple the AI generation from the client request cycle. We restructured the backend to be fully asynchronous using Redis.
+
+***Here is how we solved it:***
+
+**Job Queuing:** When a user submits a prompt, FastAPI immediately generates a unique task_id, stores the initial "pending" state in Redis, and returns the ID to the Next.js frontend. The user instantly sees a loading state, completely eliminating UI freezing.
+
+**Background Processing:** FastAPI handles the heavy lifting (calling Gemini, then Trellis) in a background task.
+
+**Smart Polling & State Management:** The Next.js frontend uses the task_id to gently poll a separate status endpoint. Once Trellis successfully generates the 3D model, the backend updates Redis with the final asset URL.
+
+**Seamless Rendering:** Only when the status is marked *"complete"* does React Three Fiber attempt to mount and render the .glb file, ensuring a smooth, crash-free interactive preview.
+
+**AI/ML**
+
+***POLYCRAFT*** is fundamentally an AI-native application. We didn't just plug into a single text API; we engineered a **multi-modal generative pipeline** that chains state-of-the-art vision and 3D reconstruction models to solve a highly complex computational problem: translating natural language into manifold 3D geometry.
+
+Here is why ***POLYCRAFT*** strongly aligns with the AI/ML track:
+
+**Multi-Modal Model Chaining:** Our core architecture relies on seamless data handoffs between distinct AI models. We use Google Gemini 3 Image to interpret complex text prompts and hallucinate high-fidelity 2D reference images, which are then autonomously fed into Trellis (via fal.ai) for deep 3D spatial reconstruction.
+
+**Tackling Generative Latency:** AI/ML applications often fail at the UX level due to long GPU inference times. We engineered a robust, asynchronous FastAPI + Redis backend queue to handle the unpredictable latency of heavy 3D mesh generation, ensuring the frontend never blocks or times out while the AI processes data.
+
+**State-of-the-Art 3D Reconstruction:** We are leveraging bleeding-edge advancements in machine learning. Moving from 2D pixels to a 3D point cloud and ultimately a closed polygonal mesh (GLB) requires advanced spatial understanding. POLYCRAFT successfully packages this complex ML process into a one-click user experience.
+
+**AI-Driven Iteration (Future Scope):** By establishing this pipeline, we have laid the groundwork for context-aware AI editing, where users can prompt the system to alter specific geometries or textures of the generated model without starting from scratch.
+
+**Open Innovation**
+
+We built ***POLYCRAFT*** for the Open Innovation track because 3D generation is not a niche solution—it is foundational infrastructure. Traditional 3D modeling is gatekept by steep learning curves, expensive software, and massive time investments. We are breaking down those barriers by building a platform that serves as a catalyst for multiple industries.
+
+Here is why ***POLYCRAFT*** belongs in this track:
+
+**Democratization of a Complex Skill:** We are taking a process that usually requires years of technical training (Blender, Maya) and distilling it into a simple text prompt. Anyone with an idea can now generate professional 3D assets.
+
+**Industry-Agnostic Impact:** This isn't just a tool for one specific user. An e-commerce founder can prototype packaging, an indie game developer can generate rapid scene assets, and an educator can create interactive 3D learning materials. The use cases are limited only by the user's imagination.
+
+**Novel Technical Synthesis:** We aren't just calling a single API. We engineered a seamless, fully asynchronous pipeline that combines Google Gemini 3 Image (for multi-modal vision) with Trellis via fal.ai (for state-of-the-art 3D reconstruction).
+
+**Accelerating Future Innovation:** By reducing the time it takes to go from a 2D concept to a physical, interactive 3D model from weeks down to minutes, we enable creators and businesses to iterate at an unprecedented speed.
+
+**Algorand**
+
+While our AI pipeline solves the problem of creating 3D assets, we integrated Algorand to solve the problem of asset ownership, provenance, and monetization for creators. By bridging generative AI with Algorand’s high-performance Layer-1 blockchain, POLYCRAFT transforms from a simple design tool into a decentralized 3D asset economy.
+
+Here is how POLYCRAFT leverages the Algorand ecosystem:
+
+Instant 3D Asset Tokenization (ASAs): Once a user generates a production-ready .glb file, they can instantly mint it as an Algorand Standard Asset (NFT) using the ARC-3 or ARC-19 standard. This turns a simple file into a tradable, verifiable digital commodity.
+
+Immutable AI Provenance: A major issue with AI-generated art is proving originality and ownership. We use Algorand's immutable ledger to record the generation metadata (the original text prompt, timestamp, and the IPFS hash of the 3D model), establishing a permanent, on-chain proof of creation.
+
+Python Backend Synergy: Our backend is built on FastAPI (Python), making Algorand the perfect blockchain choice. We utilized AlgoKit and Python-based smart contract tools to seamlessly connect our AI generation queue directly to Algorand’s minting functions without needing to switch to Solidity or Rust.
+
+Frictionless Micro-Economies: 3D assets are often sold for just a few dollars. On other blockchains, gas fees would make this impossible. Algorand’s instant finality and fraction-of-a-cent transaction fees allow us to build a viable micro-transaction marketplace where creators can sell AI-generated game assets or FDM print files profitably.
+
+Team **Go.On.DevS** -- [Sandip Chakraborty](https://github.com/SandipChakraborty1), [Sourin Chattaraj](https://github.com/SourinChattaraj), [Debpriyo Ghosal](https://github.com/DevDebpriyo), [Koushik Das](https://github.com/Koushik-Zzz)
+
+`2026-03-22`
+
+---
+
+### Onekey
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/onekey-2828) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/abhirajadhikary06/onekey) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://onekey-ciwz.onrender.com) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/mlwQ-RzBtmc) [![Built at](https://img.shields.io/badge/Built%20at-BINARY%20v2-0052CC?style=flat-square)](https://binaryvtwo.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> One key for Every integrations
+
+![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![FastAPI](https://img.shields.io/badge/FastAPI-333333?style=flat-square) ![CLI](https://img.shields.io/badge/CLI-333333?style=flat-square) ![Payment Gateway](https://img.shields.io/badge/Payment%20Gateway-333333?style=flat-square) ![Python Package](https://img.shields.io/badge/Python%20Package-333333?style=flat-square) ![Requestly](https://img.shields.io/badge/Requestly-333333?style=flat-square)
+
+**The problem it solves**
+
+**Onekey** is a unified API key platform that helps developers manage and use multiple third-party integrations through a single platform key. Instead of handling a separate key, auth flow, and SDK setup for each provider, users can securely store provider credentials once and access them through a standardized interface.
+
+The project combines a backend proxy layer, a categorized SDK, and a web dashboard. This lets teams work with LLMs, databases, vector stores, data engineering tools, DevOps APIs, and utility APIs from one place while keeping provider-specific complexity behind the scenes.
+
+## Motivation
+
+Modern products depend on many external services. Every new integration usually brings repeated work:
+
+- New auth setup and secret handling
+- New request formats and endpoint patterns
+- New SDK learning curve
+- New monitoring and error handling logic
+
+This creates fragmentation in developer workflows and increases the chance of misconfiguration, security leaks, and integration regressions.
+
+Onekey was built to reduce this integration overhead by providing:
+
+- A single platform key for day-to-day usage
+- Consistent proxy routes for multiple categories
+- Shared observability and usage tracking
+- A predictable SDK experience across providers
+
+## Features
+
+### Unified Platform Key
+
+- Generates and manages one platform key per user
+- Allows provider access without exposing raw provider credentials in client code
+- Supports secure key storage and controlled access through authenticated routes
+
+### Multi-Category Integration Architecture
+
+- LLM integrations
+- Vector database integrations
+- Cloud database integrations
+- Data engineering integrations
+- DevOps integrations
+- API utility integrations
+
+### Categorized Backend Mapping
+
+- Provider routing is organized by category modules
+- Operation mapping standardizes provider-specific endpoints and payloads
+- Common auth and passthrough behaviors are centralized
+
+### SDK for Developer Experience
+
+- Python SDK with category clients
+- Operation-based helper methods
+- Environment-driven testing support for fast local and deployed validation
+
+### Web Dashboard
+
+- API key onboarding and management
+- Unified key visibility and copy flow
+- Usage monitoring and status views
+- Integration testing workflows from the UI
+
+### Usage Tracking and Monitoring
+
+- Request metadata and status code logging
+- Latency and token usage tracking where applicable
+- Error visibility across providers
+
+### Payment-Based Premium Upgrade
+
+- Premium upgrade flow integrated with Dodo Payments
+- Checkout session creation and verification
+- Auto-refresh of subscription status on dashboard return
+
+### Email Alerting
+
+- User email notifications for integration request outcomes
+- Status-aware alerting for success and negative responses
+- Context included for provider/model/endpoint where available
+
+**Challenges we ran into**
+
+### Provider Diversity
+
+Different providers have different authentication models, endpoint structures, and payload conventions. Normalizing them without losing flexibility requires careful abstraction.
+
+### Consistent Error Handling
+
+Each provider returns different error formats. Building a unified developer experience while preserving useful provider-level detail is non-trivial.
+
+### Secure Secret Management
+
+The platform must decrypt and use provider keys server-side while preventing accidental exposure in logs, client payloads, or frontend rendering.
+
+### Cross-Category Scalability
+
+As the number of integrations grows, route and operation mapping can become hard to maintain without strict modularization and naming conventions.
+
+### Payment Verification Reliability
+
+Subscription upgrades must only activate after verified payment completion. This requires robust status checks and resilient return-flow handling.
+
+### Requestly and External Tool Workflow Gaps
+
+External tools may not always provide direct deep-link import APIs for fully automated prefilled requests. Maintaining a reliable fallback workflow is necessary.
+
+**Open Innovation**
+
+## Why Onekey Qualifies as Open Innovation
+
+- **Solves a cross-industry problem**  
+  onekey highlights integration fragmentation across modern products, impacting startups, enterprises, DevOps teams, and AI builders.
+
+- **Enables interoperability across ecosystems**  
+   position Onekey as a unification layer across LLMs, DevOps tools, data systems, APIs, and vector databases, connecting previously siloed technologies.
+
+- **Acts as a platform for external builders**  
+  show that Onekey is reusable and allows developers to build on top of it, not just use it as a standalone application.
+
+- **Supports real-world workflow and adoption**  
+  demonstrate production-ready deployment and practical implementation in real scenarios.
+
+- **Designed for extensibility and continuous collaboration**  
+  describe an evolving integration layer where new providers and tools can be added over time.
+
+**Requestly**
+
+## Why Onekey Fits the Requestly Track
+
+- **API workflow unification aligns with Requestly’s API Client value**  
+  Onekey reduces API integration friction across multiple providers, supporting faster API testing and streamlined development workflows.
+
+- **Multi-provider interoperability strengthens developer productivity**  
+  demonstrate standardized calls to multiple third-party APIs, complementing Requestly’s single-place API workflow vision.
+
+- **Real testing loop proves practical implementation**  
+  request execution and visibility, showing that Onekey supports real-world testing rather than just conceptual architecture.
+
+- **Error and reliability focus aligns with debugging objectives**  
+  provider diversity, consistent error handling, and API workflow gaps, directly addressing debugging and reliability challenges.
+
+- **Extensible platform supports Requestly ecosystem innovation**  
+  Onekey as an integration layer that external developers can build on, reinforcing a platform-driven innovation approach.
+
+Team **Hack Overflow** -- [Anik Chand](https://github.com/anikchand461), [Abhiraj Adhikary](https://github.com/abhirajadhikary06)
+
+`2026-03-22`
+
+---
+
+### InventOPredict
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/inventopredict-247f) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ahanadasgupta26/InventOPredict_Binary.git) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://inventopredict-binary-1.onrender.com/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/gb4rESRllLA) [![Built at](https://img.shields.io/badge/Built%20at-BINARY%20v2-0052CC?style=flat-square)](https://binaryvtwo.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> Built to predict, prepare and perform
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![SQLite](https://img.shields.io/badge/SQLite-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![XGBoost](https://img.shields.io/badge/XGBoost-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+## InventoPredict
+
+### Problem
+
+* Businesses struggle to decide how much stock to keep
+* Overstocking leads to wasted money and storage issues
+* Understocking causes lost sales
+* Manual prediction methods are often inaccurate
+
+### Solution
+
+* InventoPredict uses AI and machine learning to predict product demand
+* Helps businesses make better inventory decisions
+
+### What It Is Used For
+
+* Decide how much stock to maintain
+* Predict future sales trends
+* Reduce manual effort in forecasting
+* Minimize losses and improve profit
+
+### Who Can Use It
+
+* Small businesses
+* Retail stores
+* E-commerce sellers
+
+**Challenges we ran into**
+
+## Challenges I Ran Into
+
+* **Database Conflicts (SQLite)**
+
+  * Faced issues where `site.db` was locked during Git operations (pull/push).
+  * This happened because the database was being used by the Flask server.
+  * **Solution:** Stopped running processes, removed the database from Git tracking, and added it to `.gitignore`.
+
+---
+
+* **Overfitting in ML Model**
+
+  * The model performed well on one system but gave overfitted results on another.
+  * Caused by differences in data handling and training setup.
+  * **Solution:** Standardized preprocessing steps and ensured consistent data input and feature engineering.
+
+---
+
+* **Git Merge & Lock Errors**
+
+  * Encountered errors like `index.lock file exists` and merge conflicts.
+  * **Solution:** Manually removed lock files and used `git stash` / `git pull` to safely merge changes.
+
+---
+
+* **Frontend-Backend Integration Issues**
+
+  * Difficulty in connecting React frontend with Flask backend APIs.
+  * **Solution:** Fixed API endpoints, handled CORS properly, and tested using tools like Postman.
+
+---
+
+* **Handling Large Data for Prediction**
+
+  * Managing and processing large datasets slowed down performance.
+  * **Solution:** Optimized data processing and used efficient libraries for handling computations.
+
+---
+
+**AI/ML**
+
+## How InventoPredict Fits into the AI/ML Track
+
+* **Use of Machine Learning**
+
+  * The project uses ML models (like XGBoost) to predict future product demand based on historical data.
+
+* **Data-Driven Approach**
+
+  * It works on real-world data such as sales, stock levels, and trends to generate insights and predictions.
+
+* **Feature Engineering**
+
+  * Includes features like lag values, moving averages, seasonality (day/month), which are core AI/ML concepts.
+
+* **Model Training and Evaluation**
+
+  * Involves training models, testing performance, and improving accuracy — a key part of the AI/ML pipeline.
+
+* **Predictive Analytics**
+
+  * Focuses on forecasting future outcomes (demand prediction), which is a major application of AI/ML.
+
+* **Automation with Intelligence**
+
+  * Automates decision-making (inventory planning) using learned patterns instead of fixed rules.
+
+* **Real-World Application**
+
+  * Solves a practical business problem using AI, aligning with industry-level AI/ML use cases.
+
+---
+
+**Open Innovation**
+
+## How InventoPredict Fits into the Open Innovation Track
+
+* **Solves a Real-World Problem**
+
+  * Addresses common inventory issues faced by businesses like overstocking and understocking.
+
+* **Applicable Across Domains**
+
+  * Can be used in retail, e-commerce, warehouses, and supply chain systems, making it flexible and widely usable.
+
+* **Scalable and Extensible**
+
+  * The system can be expanded with more features like real-time data integration, advanced analytics, or multi-store management.
+
+* **Encourages Innovation**
+
+  * Combines AI, web development, and data analytics to create a smart decision-support system.
+
+* **Customizable for Different Users**
+
+  * Can be adapted for small businesses, startups, or larger enterprises based on their needs.
+
+* **Integrates Multiple Technologies**
+
+  * Uses ML models, backend (Flask), frontend (React), and databases, showing interdisciplinary innovation.
+
+**Best Beginners' Team**
+
+## How InventoPredict Fits into the Best Beginners Track
+
+* **Covers Fundamental Concepts**
+
+  * Involves basic understanding of machine learning, web development, and data handling, making it suitable for beginners.
+
+* **Simple Problem with Clear Solution**
+
+  * Focuses on a common and easy-to-understand problem: managing inventory efficiently.
+
+* **Hands-on Learning**
+
+  * Helps beginners learn by building a complete project from scratch, including frontend, backend, and ML model.
+
+* **Use of Beginner-Friendly Tools**
+
+  * Uses technologies like Python, Flask, and React, which are widely used and beginner-friendly.
+
+* **End-to-End Project Experience**
+
+  * Gives exposure to the full development cycle: data collection, model training, API creation, and UI integration.
+
+* **Scope for Learning and Improvement**
+
+  * Beginners can start simple and gradually improve the model, UI, and features.
+
+Team **BugSlayer** -- [Surajit Pan](https://github.com/Surajitpan05), [Mohit Thakur](https://github.com/MohitThakur2552), [Ahana Dasgupta](https://github.com/ahanadasgupta26)
+
+`2026-03-22`
 
 ---
 
@@ -7419,6 +9657,2293 @@ Built reliable escalation logic with multiple conditions, handled OTP authentica
 Team **Horizon** -- [ARNAB DAS](https://github.com/Mr-binarymonk), [Mrittika Sarkar](https://github.com/msarkar1927moon-svg), [SHUVAM DUTTA](https://github.com/shuvamdutta2004), [Arya Chakraborty](https://github.com/aryachackraborty-spec)
 
 `2026-04-19`
+
+---
+
+### Atelier
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/atelier-50d4) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/bchuazw/atelier) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://atelier-web.onrender.com) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/uxO8S2M1JSo) [![Built at](https://img.shields.io/badge/Built%20at-Push%20to%20Prod%20Hackathon%20with%20Genspark%20&%20Claude-0052CC?style=flat-square)](https://push-to-prod.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> On site A|B testing for unsure frontend designs
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square)
+
+**Use of Claude**
+
+### Claude is the brain of every generative moment in Atelier
+
+Four distinct Claude integrations, each picking the right model for the job:
+
+1. **Fork rewrites (Haiku 4.5 / Sonnet 4.6 / Opus 4.7).** Every "make the hero warmer" prompt calls Claude with the full current HTML + the user's instruction + project context. Streams back via SSE. Users pick the model from a compact picker — Haiku for 6-second drafts, Sonnet for production rewrites, Opus when they want the highest fidelity.
+2. **Design Critics (Sonnet, default).** Given target theme + optional Genspark grounding + current HTML, returns strict-JSON suggestions with category / severity / rationale tags. Users approve a subset; one composed prompt re-enters Claude to apply them all coherently.
+3. **Drag-to-combine (Opus).** Merging two sibling variants needs high fidelity reasoning about which stylistic choices to donate vs keep. Opus reads both HTMLs + the chosen aspects (typography / palette / layout / copy) and synthesizes a new variant that preserves the target's structure while importing only the listed aspects from the source.
+4. **Feedback decomposition (AutoReason-style, Sonnet).** Paste a stakeholder's multi-point paragraph; Claude extracts atomic change items with individual rationales. Users approve the checklist; one fork applies them all.
+
+**Prompt caching** on the long system prompts (critic rubric, merge rubric) via `cache_control: ephemeral` — costs drop ~90% on follow-up calls within the same 5-minute window.
+
+**BYOK + fallback:** users can POST their own key to `/settings/api-key` at runtime, or rely on the server-side `ANTHROPIC_API_KEY`. The `/settings/status` endpoint reports source-of-truth so the UI can warn "no key set."
+
+**Core call site:** [apps/api/atelier_api/providers/claude.py](https://github.com/bchuazw/atelier/blob/main/apps/api/atelier_api/providers/claude.py)
+**System prompts:** in [apps/api/atelier_api/routes/](https://github.com/bchuazw/atelier/tree/main/apps/api/atelier_api/routes) (fork, critics, merge, feedback — each has a cached system prompt).
+
+**What is the deployed URL for this project?**
+
+https://atelier-web.onrender.com
+
+**How you are solving it**
+
+### Every round of feedback is a branch, not an overwrite
+
+Atelier is an infinite canvas (React Flow) where every variant is a live node with an iframe thumbnail. Seed from a URL, paste HTML, or pick one of 6 curated aesthetic templates.
+
+From there, three AI primitives:
+
+1. **Fork with Claude** — prompt ("make the hero warmer"), choose Haiku/Sonnet/Opus, get a new child node with full HTML rewritten. Streams in via SSE so users see progress, not a 30s spinner.
+2. **Grounded Critics** — name a target vibe ("premium luxury"). Genspark pulls 3 real landing pages matching that vibe, Claude reads them, and returns 4–8 concrete, severity-tagged suggestions that **cite the real pages**. Users approve which to apply; one rewrite ships them all.
+3. **Drag-to-combine (Opus)** — drag one variant onto another and Opus synthesizes them into a new branch with dashed edges showing which parent donated what.
+
+And a zero-loss viewer: click **Compare** on any two nodes, both full pages render side-by-side with desktop/tablet/mobile viewports. Nothing is lost between branches.
+
+**Stack:** FastAPI + SQLAlchemy backend, Vite + React + Tailwind + React Flow frontend, Supabase (Postgres + object storage), Render for deploy. All source at github.com/bchuazw/atelier.
+
+**The problem your project solves**
+
+### The broken internal loop
+
+Every design team has the same workflow problem: **feedback on landing pages is lost between a screenshot, a paragraph, and a guess.**
+
+- A PM scribbles "make it more premium" on a Figma comment.
+- A designer tries three things in parallel, loses two of them.
+- A dev implements one, and the stakeholder says "no, more like Aesop."
+
+The iteration loop is serial, lossy, and opinion-driven. Current AI tools make it worse — one-shot regeneration means every variant overwrites the last, and the "more premium palette" suggestion comes back as generic AI slop: *"use a modern color scheme"*, *"refine the typography"*. Specifically what? Nobody knows.
+
+**Atelier fixes the loop.** Every critique becomes a branch on an infinite canvas you can see, compare, and keep. Every suggestion is grounded in real landing pages crawled from the open web — so "make it premium" lands as *"swap Inter for Cormorant Garamond 700 italic, use Aesop's #EDE5D8 parchment, ghost outlined CTA."*
+
+**Use of Genspark**
+
+### Genspark turns Claude's critics from "AI slop" into "cite-your-sources"
+
+**The problem with AI critiques:** ask an LLM "make this more premium" and it responds with "use a more refined palette, modernize the typography." Useless.
+
+**Our solution uses the Genspark CLI (`@genspark/cli`)** as a grounded research layer for the Critics feature:
+
+1. User enables **"Ground with Genspark research"** in the Critics dialog and specifies a target theme ("premium luxury").
+2. Backend (`apps/api/atelier_api/providers/genspark.py`) shells out to `gsk web_search` → pulls 3 real landing pages matching the theme (Aesop, Awwwards luxury category winners, Dribbble e-commerce).
+3. Parallel `gsk crawler` calls on each URL → returns full page markdown.
+4. That markdown is injected into Claude's critique prompt as **"REAL-WORLD REFERENCES"** context.
+5. Claude now returns suggestions like *"Swap Inter for Cormorant Garamond 700 italic — every Awwwards luxury winner uses editorial serifs"* and *"Replace terracotta #c87050 with burnished gold #B89A5A, matching Dribbble's luxury category consensus."*
+6. The UI renders the reference URLs as clickable chips so judges / users can verify the citations.
+
+**Architecture note:** we initially tried `batch_crawl_url_and_answer` (one call, per-URL Q&A) but it returned `"No content found"` on the free plan for every URL we tested (including aesop.com and stripe.com). Fanning out N parallel `crawler` calls worked reliably and is still fast — ~10s for 3 sites on top of Claude's ~25s.
+
+**Windows subprocess fix:** `asyncio.create_subprocess_exec` can't execute `gsk.CMD` (WinError 193). Switched to `asyncio.to_thread(subprocess.run)` which handles `.CMD` wrappers transparently.
+
+**Feature-flagged gracefully:** if `GENSPARK_API_KEY` is missing or the `gsk` binary isn't on PATH, grounded critics silently degrades to Claude-only. Users see a "Genspark returned no references" notice; nothing breaks. On Render's Python runtime (no Node) this fallback kicks in, so the deployed demo runs Claude-only while the 2-minute video showcases the full Genspark pipeline.
+
+**Provider module:** [apps/api/atelier_api/providers/genspark.py](https://github.com/bchuazw/atelier/blob/main/apps/api/atelier_api/providers/genspark.py)
+**Wired into:** [apps/api/atelier_api/routes/critics.py](https://github.com/bchuazw/atelier/blob/main/apps/api/atelier_api/routes/critics.py)
+
+[Brian Chua](https://github.com/bchuazw)
+
+`2026-04-24`
+
+---
+
+### LancerAI
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/lancerai-4508) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/web3guru888/lancerai) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://svc-mo4ncfzhcqtct2n8.buildwithlocus.com/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/HM3YRzbVekY) [![Built at](https://img.shields.io/badge/Built%20at-Locus'%20Paygentic%20Hackathon%20--%20#2-0052CC?style=flat-square)](https://paygentic-week2.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> The Autonomous AI Freelancer
+
+![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Docker](https://img.shields.io/badge/Docker-333333?style=flat-square) ![Express.js](https://img.shields.io/badge/Express.js-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![ERC-4337](https://img.shields.io/badge/ERC--4337-333333?style=flat-square) ![USDC](https://img.shields.io/badge/USDC-333333?style=flat-square) ![BASE](https://img.shields.io/badge/BASE-333333?style=flat-square) ![BuildWithLocus](https://img.shields.io/badge/BuildWithLocus-333333?style=flat-square)
+
+**The problem it solves**
+
+**The Problem**: AI agents today are economically helpless. They can think, reason, and generate — but they can't pay for anything, earn revenue, or operate independently in the real economy. Every AI agent needs a human with a credit card to do anything useful.
+
+**Our Solution**: LancerAI is a fully autonomous AI freelancer that runs its own business on-chain. It:
+
+- **Accepts jobs** from humans and other AI agents, receiving USDC payments via Locus Checkout
+- **Executes work** using 299+ pay-per-call APIs (Brave Search, Gemini 2.5, DeepL, Firecrawl, CoinGecko) via Locus Wrapped APIs
+- **Hires human freelancers** via Locus Fiverr when AI can't do the job (design, video, physical tasks) — with USDC escrow protection
+- **Manages its own wallet** — an ERC-4337 smart wallet on Base with gasless USDC transactions
+- **Deploys new services** via BuildWithLocus, enabling self-scaling
+- **Exposes machine-payable endpoints** via x402/MPP (HTTP 402 Payment Required) for agent-to-agent commerce
+
+### How It Works
+
+Client pays USDC → LancerAI picks up job → calls Wrapped APIs →
+if it can't do it, hires a human via Fiverr → delivers result → keeps the margin
+
+
+### What Makes It Different
+
+| Feature | LancerAI |
+|---------|----------|
+| 🏦 Financial Autonomy | Owns an ERC-4337 smart wallet, earns USDC, pays for tools, keeps profit |
+| 🔗 Full Locus Stack | ALL 6 products: Wallet, Checkout, Wrapped APIs, Fiverr, BuildWithLocus, x402 |
+| 🤝 AI-Human Hybrid | Automatically escalates to human freelancers when AI hits its limits |
+| 🤖 Machine-Payable | x402 endpoints let other AI agents hire LancerAI programmatically |
+| 🚀 Self-Deploying | Can deploy new instances of itself via BuildWithLocus |
+
+### Real Impact
+This isn't theoretical — LancerAI is **LIVE on BuildWithLocus** and has completed real jobs using real API calls, spending real USDC credits. Visit the dashboard, submit a job, and watch it execute.
+
+**The meta-narrative IS the narrative**: This entire project was built by autonomous AI agents (Claude Opus 4 + Sonnet 4) on the Taurus multi-agent platform. We're AI agents building an AI agent freelancer — entering a hackathon — competing for a prize — using the very financial autonomy infrastructure (Locus) that we're showcasing.
+
+**Challenges we ran into**
+
+### 1. 🤖 We ARE AI Agents
+This entire project was built by autonomous AI agents (Claude Opus 4 + Sonnet 4) coordinated by Taurus, a multi-agent orchestration platform. A coordinator agent managed strategy, an engineer agent wrote all code, a scout agent researched Locus docs and competitors, and a writer agent handled documentation. The humans (Shaka & Robin) provided accounts, credentials, and final submission — everything else was autonomous.
+
+### 2. 🔐 x402/MPP Protocol Implementation
+No reference implementations existed for machine-payable HTTP endpoints. We studied the [x402 whitepaper](https://www.x402.org/x402-whitepaper.pdf) and designed the full flow from scratch:
+- Discovery via `/.well-known/llms.txt`
+- HTTP 402 challenge with payment details (amount, address, chain)
+- USDC payment on Base
+- Transaction verification via `X-Payment-TxHash` header
+- Service delivery
+
+LancerAI is both a **consumer AND provider** of x402 — it earns USDC via x402 endpoints and spends USDC via x402-compatible Locus Wrapped APIs. This bidirectional participation demonstrates the full autonomous economic loop.
+
+### 3. 📡 299+ API Heterogeneity
+Each Wrapped API has different request/response formats. We built an intelligent job engine that selects the right APIs for each of 10 service types, chains them together, and normalizes outputs. For example, a "web research" job orchestrates Brave Search → Firecrawl → Gemini in sequence.
+
+### 4. 👤 Human Escalation Logic
+Deciding WHEN to escalate from AI to human (via Locus Fiverr) required confidence scoring per service type. Too aggressive = expensive and slow; too conservative = poor quality. We implemented per-type thresholds with escrow-protected payments.
+
+### 5. 🚀 BuildWithLocus Deployment
+Containerizing a TypeScript app with all its Locus integrations for BWL required careful environment variable management, multi-stage Docker builds, and `.locusbuild` configuration. The app had to work identically in local dev and BWL's managed environment.
+
+### 6. 💰 Financial Autonomy Design
+Making an AI agent that safely manages real money required API cost tracking, per-job budgeting, profit margin calculations, and full transaction audit logging. Every API call is metered and logged — the agent knows exactly what it's spending and earning.
+
+**Track: Using BuildWithLocus to leverage our suite.**
+
+LancerAI is built on and deployed through BuildWithLocus — it's a living demonstration of the full Locus suite working together as one product.
+
+**Deployed on BuildWithLocus**: LancerAI runs as a containerized TypeScript service deployed directly via BuildWithLocus (project: proj_mo41jnfclbzdru0m). The agent can even deploy NEW instances of itself via the BWL API — self-replicating autonomous infrastructure.
+
+**Uses ALL 6 Locus Products through BWL**:
+- **Smart Wallet** — ERC-4337 on Base, gasless USDC transactions for autonomous spending
+- **Wrapped APIs** — 299+ pay-per-call APIs (Brave, Gemini, DeepL, Firecrawl, CoinGecko) power all 10 service types
+- **Checkout** — Accept USDC payments from clients, Stripe-style sessions
+- **Fiverr** — Hire human freelancers with escrow when AI can't do the job
+- **BuildWithLocus** — Self-deploy services from GitHub repos
+- **x402/MPP** — 5 machine-payable endpoints for agent-to-agent commerce
+
+**Why this is the ideal BWL showcase**: LancerAI doesn't just deploy on BuildWithLocus — it uses BWL as a revenue platform. The agent earns USDC through x402 endpoints, pays for Wrapped APIs to do work, and can deploy new specialized instances of itself. It's a self-sustaining business running entirely on Locus infrastructure.
+
+Team **LancerAI** -- [Shaka Lei Kaumaka](https://github.com/ShakaLei), [Robin Dey](https://github.com/web3guru888)
+
+`2026-04-22`
+
+---
+
+### Flocus
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/flocus-ab36) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ayushkumar2601/flocus-buildwithlocus) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://flocus-buildwithlocus.onrender.com/) [![Built at](https://img.shields.io/badge/Built%20at-Locus'%20Paygentic%20Hackathon%20--%20#2-0052CC?style=flat-square)](https://paygentic-week2.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Flocus- Flow with Locus
+
+![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Docker](https://img.shields.io/badge/Docker-333333?style=flat-square) ![Socket.IO](https://img.shields.io/badge/Socket.IO-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Replit](https://img.shields.io/badge/Replit-333333?style=flat-square) ![Locus](https://img.shields.io/badge/Locus-333333?style=flat-square) ![BuildWithLocus](https://img.shields.io/badge/BuildWithLocus-333333?style=flat-square)
+
+**The problem it solves**
+
+## The Problem It Solves
+
+Modern application deployment and infrastructure management remain complex, fragmented, and heavily dependent on manual DevOps workflows. Developers are often required to configure environments, manage dependencies, monitor deployments, debug failures, and ensure system stability—all of which demand significant time, expertise, and operational overhead. For early-stage developers, students, or small teams, this complexity becomes a major barrier to shipping products quickly and reliably.
+
+Flocus addresses this by introducing an **autonomous, AI-driven deployment system** that abstracts away the intricacies of infrastructure management. Instead of manually configuring pipelines or debugging deployment issues, users can simply describe what they want to deploy, and the system takes over—planning, executing, monitoring, and even fixing issues in real time.
+
+One of the key problems Flocus solves is **deployment failure recovery**. In traditional setups, when a deployment breaks due to missing dependencies, incorrect configurations, or runtime errors, developers must manually inspect logs and apply fixes. Flocus automates this process through a **self-healing mechanism** that detects errors, attempts multiple resolution strategies, and redeploys without human intervention.
+
+Additionally, Flocus improves **accessibility to infrastructure**. By enabling **natural language-based deployment**, users without deep DevOps knowledge can launch and manage applications effortlessly. This reduces the learning curve and democratizes access to modern cloud workflows.
+
+The platform also enhances **system reliability and visibility**. With continuous monitoring and real-time reasoning logs, users gain clear insight into what the system is doing and why—making deployments more transparent and trustworthy.
+
+In essence, Flocus transforms deployment from a manual, error-prone process into an **intelligent, automated workflow**, allowing developers to focus on building products rather than managing infrastructure.
+
+**Challenges we ran into**
+
+## Challenges I Ran Into
+
+Building Flocus surfaced several non-trivial challenges across architecture, integration, and reliability.
+
+One of the earliest hurdles was **establishing a stable end-to-end pipeline** from user input → agent → deployment → monitoring. Initially, the flow was fragmented—natural language input parsing would fail or return undefined structures, which broke the agent loop downstream. I resolved this by enforcing a **strict schema contract** between modules (parser → brain → planner) and adding defensive fallbacks so the system never propagates undefined values.
+
+Another major challenge was **module system inconsistency (ESM vs CommonJS)**. Mixing `require` and `import` across files caused runtime crashes (especially in Node environments configured with `"type": "module"`). The fix was to standardize the entire codebase to **ES modules**, refactor all imports/exports, and ensure consistent build/runtime behavior.
+
+A critical hurdle was **fake vs real integrations**. Early iterations used mocked deployment responses, which made the system appear functional but broke under realistic scenarios. I replaced mocks with a **clean deployment service abstraction**, allowing either real APIs or a controlled demo mode—ensuring predictable behavior while keeping the architecture extensible.
+
+The **agent loop itself** (observe → think → decide → act → reflect) was also tricky. Initially, it behaved like a scripted pipeline rather than an intelligent system. I improved this by integrating structured reasoning (via LLM + rule fallback), logging every step, and introducing a **memory layer** so past failures could inform future decisions.
+
+Finally, implementing **self-healing** required moving beyond simple retries. The system now performs **multi-step recovery strategies** (e.g., dependency install → rebuild → config adjustment), with each attempt logged and evaluated.
+
+These challenges ultimately led to a more robust, modular, and genuinely “agentic” system rather than a collection of disconnected features.
+
+**Track: Using BuildWithLocus to leverage our suite.**
+
+## How Flocus Fits into the BuildWithLocus Track
+
+Flocus is designed as an **agent-native deployment system** that aligns directly with the core vision of BuildWithLocus—abstracting infrastructure complexity and enabling rapid, automated application deployment through a unified API layer.
+
+At its core, Flocus treats deployment as an **autonomous workflow**, where an AI agent interprets user intent, plans infrastructure requirements, and executes deployment actions through a structured deployment interface modeled around Locus-style APIs. Instead of requiring developers to manually configure environments, manage services, or handle scaling, Flocus delegates these responsibilities to an intelligent system that operates programmatically.
+
+The platform integrates tightly with the concept of **API-driven infrastructure provisioning**, where services such as application hosting, routing, and environment setup are triggered through a single orchestration layer. This mirrors the BuildWithLocus philosophy of eliminating traditional DevOps overhead and replacing it with streamlined, automated deployment pipelines.
+
+Additionally, Flocus extends beyond basic deployment by introducing:
+- **Autonomous monitoring and lifecycle management**
+- **Self-healing infrastructure workflows**
+- **Natural language-driven deployment (infrastructure-as-chat)**
+
+These features demonstrate how Locus-style infrastructure can be not just consumed, but **enhanced through intelligent agents** that continuously manage and optimize deployed systems.
+
+In essence, Flocus serves as a **developer-facing abstraction layer on top of Locus-like capabilities**, showcasing how AI agents can leverage such APIs to create fully automated, self-managing application environments—perfectly aligning with the goals of this track.
+
+[AYUSH KUMAR](https://github.com/ayushkumar2601)
+
+`2026-04-23`
+
+---
+
+### RAINMAKER PROTOCOL
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/rainmaker-protocol-2fd0) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Gideon145/rainmaker-protocol) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://rainmaker-protocol.vercel.app) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/UJ5HMldoKyQ) [![Built at](https://img.shields.io/badge/Built%20at-Locus'%20Paygentic%20Hackathon%20--%20#1-0052CC?style=flat-square)](https://paygentic-week1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Find clients. Get paid. Zero human clicks.
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+Freelancers and consultants spend 4–8 hours per week manually searching for leads, writing cold emails, chasing payments — with under 3% conversion. The unit economics are broken: high time cost, low yield, slow cash collection.
+
+Rainmaker Protocol inverts this entirely. You provide your skill and hourly rate. The agent autonomously executes the entire acquisition-to-payment pipeline:
+
+1. Discovers B2B companies via Tavily AI Search (Locus wrapped)
+2. Enriches decision-maker contacts via Hunter.io (Locus wrapped)
+3. Screens every entity against the OFAC SDN + EU sanctions lists — hard-blocked at ≥75/100 fuzzy-match confidence, zero contact with sanctioned entities
+4. Generates a personalised cold email via Claude AI
+5. Sends it from an autonomous AgentMail inbox (funded via x402 — $2.00 USDC confirmed on-chain)
+6. Creates a unique Locus Checkout session per prospect (USDC payment URL embedded in the email)
+7. Detects payment via Locus webhook + Redis pub/sub cross-instance coordination
+8. Automatically delivers the contracted work to the client via AgentMail
+
+Total agent spend: ~$2.64 USDC. Total earned: $50.00 USDC. ROI: 18.9x.
+Everything runs within a hard $5.00 USDC budget cap — the agent stops cleanly if it runs out, it never bleeds money.
+
+**Challenges we ran into**
+
+1. Vercel serverless timeout (10s limit)
+The agent pipeline has 8 steps taking 30–60 seconds total. The fix was counterintuitive: I moved all agent execution out of POST /start and into GET /stream. The open SSE connection keeps the function alive for the full run. /start now just allocates a run ID and returns immediately. One architectural change fixed everything.
+
+2. Webhook race condition (cross-instance)
+When Locus fires a CHECKOUT_PAID webhook, it can land on a different Vercel serverless instance than the one holding the user's SSE stream. In-memory event bus couldn't bridge them.
+
+Fix: Upstash Redis pub/sub. The webhook handler writes rmp:payment:{runId}:{prospectId} to Redis (TTL 2h). The polling loop on the SSE instance atomically reads and deletes that key each cycle — ensuring payment confirmation always reaches the right instance regardless of which instance the webhook hit. Zero missed payments.
+
+3. Apollo and Clado APIs returned 404 in Beta
+Both were listed in the Locus wrapped registry but were unavailable mid-run — after the AgentMail x402 payment had already fired ($2.00 USDC, confirmed on-chain, April 14 2026). I swapped to Tavily for company discovery and Hunter for contact enrichment — both fully registered and working. The Locus transaction history shows all 10 calls confirmed on Base.
+
+4. Locus dual wallet address bug
+Locus wallets have two addresses: the ownerAddress returned at registration and the deployed smart contract wallet that takes ~30 seconds to propagate. Fixed by polling the status endpoint before storing the wallet address for checkout session correlation.
+
+5. Implementing a byte-perfect x402 server endpoint
+
+Rainmaker Protocol exposes POST /api/agent/hire — any external AI agent can autonomously hire the full pipeline via HTTP 402 with no API key or signup. Getting the 402 response accepted required reverse-engineering the exact x402 V1 schema.
+
+My first implementation returned:
+
+{ "paymentRequired": true, "priceUsd": 1.00, "payTo": "0x..." }
+
+My own frontend understood it. The x402 standard did not — any client following the spec rejected it silently with no error message.
+
+The correct V1 PaymentRequired schema requires:
+
+-> Top-level x402Version: 1
+-> An accepts[] array (not a flat object)
+Each entry: scheme ("exact"), network ("base"), maxAmountRequired in USDC atomic units (1 USDC = "1000000" at 6 decimals), asset (the USDC contract on Base: 0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913), payTo, resource, maxTimeoutSeconds
+-> A PAYMENT-REQUIRED response header containing the entire payload as a Base64-encoded JSON string
+
+Once the schema was byte-perfect, the full hire flow worked end-to-end: any agent POSTs without payment → receives 402 with valid USDC requirements → pays exactly 1 USDC on Base → re-POSTs with X-Payment: <base64 proof> → receives 202 with runId, pollUrl, and streamUrl. The lesson: in M2M protocols, a single missing field is the same as total rejection. That strictness is what makes autonomous commerce trustworthy.
+
+**Using PayWithLocus.com to leverage our suite.**
+
+Rainmaker Protocol uses 14 Locus APIs — every one load-bearing, none decorative. Locus is not a payment layer bolted onto an existing tool; it is the reason the pipeline closes a deal without human involvement.
+
+1. POST /wrapped/tavily/search — Company Discovery (Step 1)
+Primary AI-optimized web search. Two targeted query passes, tech stack + company size + domain extracted from structured results, deduplicated across passes. Locus wraps Tavily — no separate key, cost-per-call metered in USDC.
+
+2. POST /wrapped/brave/web/search — Second-Pass Discovery (Step 1b)
+Independent web index running after Tavily. Surfaces companies missed by the first pass (~+30% target pool). Different index, different results — both discovery passes on a single Locus metered account.
+
+3. POST /wrapped/firecrawl/scrape — Homepage Enrichment (Step 1c)
+Scrapes each company's homepage for full tech stack signals and product description. Feeds directly into the Claude prompt — richer signals produce more contextually accurate cold emails and higher reply probability.
+
+4. POST /wrapped/hunter/domain-search — Contact Enrichment (Step 2)
+Finds decision-maker email addresses per company domain. Returns name, title, LinkedIn, verified email, and confidence score. Hard gate at ≥80 confidence — low-reputation emails skipped to protect sender reputation. Per-call metered through Locus.
+
+5. POST /wrapped/ofac/search — Sanctions Screening (Step 3)
+Checks every company and contact against 25+ global sanctions lists (OFAC SDN + EU Consolidated). Fuzzy-match scoring: any entity ≥75/100 is permanently flagged ofac_blocked — zero outreach, no exceptions. Real compliance infrastructure, not a stub.
+
+6. POST /checkout/sessions — USDC Checkout Creation (Step 4)
+Creates a unique, time-limited USDC payment URL per prospect, embedded directly in the Claude-generated cold email. One session per prospect — no ambiguity on who paid. Client clicks, pays in USDC, agent detects it. No invoicing, no human follow-up required.
+
+7. GET /checkout/sessions/:id — Payment Polling (Step 7)
+Polled every 8 seconds during the 10-minute wait window, in parallel with the webhook receiver. Whichever fires first triggers delivery — preventing missed payments if webhook delivery is delayed.
+
+8. POST /api/webhooks/locus — Real-Time Payment Events
+Receives CHECKOUT_PAID events. Verified unconditionally: HMAC-SHA256 with crypto.timingSafeEqual and an explicit length guard — prevents both signature forgery and the RangeError crash on truncated inputs. Idempotent via paymentTxHash uniqueness check. Combined with Upstash Redis pub/sub so the webhook can land on any Vercel serverless instance and still reach the SSE stream.
+
+9. POST /x402/agentmail-create-inbox — Autonomous Email Inbox (x402)
+The agent's outbound email channel, funded via HTTP x402. $2.00 USDC payment proof in the X-Payment header; the agent receives a dedicated AgentMail inbox in response. Follows x402 V1 spec: accepts[] with scheme, network, maxAmountRequired (USDC at 6 decimals), asset (USDC contract on Base: 0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913). Confirmed on-chain on Base, April 14 2026. The agent provisions its own communication channel with zero human involvement.
+
+10. POST /pay/send-email — Email Escrow / Subwallet Payment (Step 8)
+After delivering work, the agent sends 0.50 USDC back to the prospect via Locus email escrow — funds held in a 30-day time-limited subwallet until the recipient claims. Closes the full earn → pay economic loop: prospect pays Rainmaker in, Rainmaker pays prospect back out. Both the delivery and the escrow result are logged as separate audit entries. Delivery is never blocked if the escrow call fails.
+
+11. POST /register — Agent Self-Registration
+The agent spawns a brand-new Locus sub-agent wallet on demand via the Locus beta registration API. Live from the dashboard: one click calls POST /api/agent/register → POST /api/register → returns a real wallet ID, spending defaults ($10 USDC allowance, $5 max txn), and a Locus claim URL. Confirmed live April 15 2026 — wallet f4ee0a5e-d6bf-4b9e-8f7a-a29e29196e62 created and verifiable at beta.paywithlocus.com/register/claim/.... Demonstrates agent-creates-agent-wallet as a first-class capability.
+
+12. GET /pay/balance — Live Wallet Balance
+Polled every 30 seconds alongside transaction history. Drives the TopBar USDC display and a real-time governance badge: green dot (within_limits), amber PENDING (202 — approval required), or red POLICY (403 — budget guardrail triggered).
+
+13. GET /pay/transactions — Transaction History + Spending Controls
+Every per-call debit from Tavily, Hunter, x402, and escrow visible in real time as the agent spends. The /api/wallet response derives a spendingControls object from this data — totalSpentUsdc, pendingApprovalCount, policyRejectedCount, and governance.status — surfaced in the dashboard without extra API calls.
+
+14. Policy Guardrails (403 / 202 reactions)
+callWrappedAPI() handles Locus spending controls
+
+[Gideon xyz](github.com/gideon145)
+
+`2026-04-14`
+
+---
+
+### BriefBot
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/briefbot-8de4) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/AshutoshVatsg/agent-locus) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://svc-mo08o7cd6hfaav8n.buildwithlocus.com/) [![Built at](https://img.shields.io/badge/Built%20at-Locus'%20Paygentic%20Hackathon%20--%20#1-0052CC?style=flat-square)](https://paygentic-week1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> An Agent that helps you to win deal-winning sales.
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![Docker](https://img.shields.io/badge/Docker-333333?style=flat-square) ![SQLite](https://img.shields.io/badge/SQLite-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![FastAPI](https://img.shields.io/badge/FastAPI-333333?style=flat-square) ![RestAPIs](https://img.shields.io/badge/RestAPIs-333333?style=flat-square) ![Locus API](https://img.shields.io/badge/Locus%20API-333333?style=flat-square)
+
+**The problem it solves**
+
+## Problem
+
+Prospect research before a sales call is fragmented and time-consuming.
+
+Reps spend 30–60 minutes collecting company data (tech stack, hiring, news, contacts) across multiple tools, yet still end up with generic insights.
+
+- Enterprise tools are too expensive ($20K+/year)  
+- Free LLMs lack live data and actionable intelligence  
+
+---
+
+## MVP (What We Built)
+
+BriefBot is a Paygentic AI sales agent that:
+
+- Takes a company name + user context  
+- Fetches live data from multiple APIs (Apollo, BuiltWith, Tavily, Firecrawl)  
+- Cross-references signals (hiring, tech, news)  
+- Generates a structured, actionable sales briefing  
+
+All within:
+- < 60 seconds  
+- low-cost execution per request  
+
+The MVP demonstrates:
+- multi-API orchestration  
+- real-time data enrichment  
+- LLM-based synthesis  
+- PayWithLocus payment flow  
+
+---
+
+## How It Works
+
+User Input  
+→ Agent selects APIs based on plan  
+→ Parallel API execution  
+→ Data normalization  
+→ Insight generation (LLM)  
+→ Output + cost tracking  
+
+---
+
+## Key Features
+
+- **Cross-referenced insights**  
+  Connects hiring, tech, and news signals into actionable sales angles  
+
+- **Tiered intelligence**  
+  Base / Pro / Elite control API depth, model usage, and output quality  
+
+- **Dynamic cost awareness**  
+  Tracks API usage and ensures each request is economically viable  
+
+- **Paygentic flow**  
+  Agent spends (APIs), processes, and delivers monetized output  
+
+---
+
+## What Makes It Different
+
+- Not a summary tool → produces decision-ready insights  
+- Not static → uses live, multi-source data  
+- Not just AI → includes pricing, cost, and profit logic  
+
+---
+
+## Key Insight
+
+The value is not in finding information —  
+it is in turning fragmented data into a single, actionable output that an agent can generate and monetize.
+
+---
+
+## Example Output
+
+![image](https://assets.devfolio.co/content/a044c0d0a69844388667d2b4e999cc56/91faab45-cbac-43a8-a3c9-6a744d53b808.png)
+
+![image](https://assets.devfolio.co/content/a044c0d0a69844388667d2b4e999cc56/ad24714e-c8e9-4561-89ec-c54286e001bf.png)
+
+**Challenges we ran into**
+
+## Challenges We Ran Into
+
+### 1. Multi-API Orchestration
+Coordinating multiple APIs (Apollo, Tavily, Firecrawl, BuiltWith) with different formats and latencies led to inconsistent outputs and failures.
+
+**Solution:** Built an asynchronous pipeline with fallback handling and normalized all responses into a unified schema.
+
+---
+
+### 2. Cost Estimation & Dynamic Pricing
+Estimating API costs before execution and applying a safe margin was difficult due to variable pricing and usage.
+
+**Solution:** Implemented a cost estimation layer with predicted usage, safety buffer, and dynamic pricing before execution.
+
+---
+
+### 3. Avoiding Generic Outputs
+Initial outputs were too similar to generic AI summaries and lacked actionable insights.
+
+**Solution:** Added an insight layer that filters signals (hiring, tech, news) and enforces cross-signal reasoning for decision-focused output.
+
+---
+
+### 4. Context Alignment
+Mapping the user’s product to the target company often produced generic or forced insights.
+
+**Solution:** Enforced prompt constraints to ensure every insight directly relates to the user’s offering and removes generic phrasing.
+
+---
+
+### 5. Payment Flow Integration
+Integrating PayWithLocus required aligning pricing, execution timing, and transaction flow.
+
+**Solution:** Structured the system as: cost estimate → payment → execution → output → profit tracking.
+
+---
+
+## Community Support
+
+The Locus Discord community helped clarify PayWithLocus integration, agent transaction flows, and system design decisions. This feedback directly improved our pricing logic, payment flow, and overall agent architecture.
+
+**Using PayWithLocus.com to leverage our suite.**
+
+*BriefBot is built natively on Locus as its core infrastructure layer — not as an add-on.  
+Every part of the system (payments, API execution, agent decisions, and delivery) runs through Locus.*
+
+---
+
+### 1. Checkout & Payments
+All purchases (tier reports, add-ons, upgrades) are handled via:
+POST /checkout/sessions
+
+- Backend creates Locus checkout sessions  
+- Payment status is polled  
+- Pipelines execute only after **PAID** confirmation  
+
+---
+
+### 2. Wrapped API Access
+All external providers (Apollo, Hunter, BuiltWith, Firecrawl, Tavily, OpenAI) are accessed exclusively via Locus:
+
+BriefBot never calls APIs directly — Locus mediates every paid interaction.
+
+---
+
+### 3. Autonomous Agent Spending (Core Paygentic Feature)
+After initial data collection, the agent:
+
+- Scores data quality (people, company, tech, news)  
+- Identifies missing signals  
+- Dynamically triggers additional API calls via Locus  
+- Spends USDC within a tier-defined budget  
+
+This enables real-time, budget-aware decision-making by the agent.
+
+---
+
+### 4. Wallet-Aware Economics
+Using:
+/pay/balance
+
+The system tracks:
+- revenue  
+- API cost  
+- net profit per request  
+
+The owner dashboard exposes full unit economics transparently.
+
+---
+
+### 5. AgentMail Delivery
+Final reports are delivered via:
+/x402/agentmail-send-message  
+
+Completing the flow from payment → execution → delivery.
+
+---
+
+### Depth of Integration
+BriefBot integrates Locus across 5 layers:
+
+1. Payments  
+2. Wrapped APIs  
+3. Agent-initiated spending  
+4. Wallet and profit tracking  
+5. Output delivery  
+
+Every dollar in and every dollar out flows through Locus.
+
+---
+
+### Key Insight
+BriefBot demonstrates that Locus is not just a payment layer,  
+but infrastructure for building agents that can **spend, decide,** re-decide **and generate value autonomously.**
+
+Team **Kitlers** -- [Hridya Jain](https://github.com/Dyno1404), [Sunil Swain](https://github.com/sunilswain7), [Ashutosh Vats](https://github.com/AshutoshVatsg)
+
+`2026-04-16`
+
+---
+
+### Strello
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/strello-bfd5) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/rudraminaa/Strello) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/fqpnbhoI8Mk) [![Built at](https://img.shields.io/badge/Built%20at-Innovate--Iterate--Interrupt%20(III)%205.0-0052CC?style=flat-square)](https://innovateiterateinterrupt-iii-5.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> An AI-powered, student productivity platform
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![OAuth](https://img.shields.io/badge/OAuth-333333?style=flat-square) ![Supabase](https://img.shields.io/badge/Supabase-333333?style=flat-square)
+
+**The problem it solves**
+
+In today’s fast-paced digital workflow, people constantly juggle **tasks, deadlines, emails, and schedules** across multiple platforms. This leads to:
+
+*  Scattered information (tasks in one app, emails in another, calendar elsewhere)
+*  Lack of clarity on priorities and progress
+*  Cognitive overload from switching between tools
+* Poor task tracking and missed deadlines
+
+---
+
+##  How Strello Helps
+
+**Strello** brings everything into a **single, unified productivity system**, making work more organized, visual, and actionable.
+
+###  Centralized Productivity Hub
+
+* Combines **task management, kanban boards, email syncing, and calendar integration**
+* Eliminates the need to switch between multiple apps
+
+###  Visual Task Management
+
+* Use **kanban boards and graph views** to:
+
+  * Track progress at a glance
+  * Identify bottlenecks quickly
+  * Stay motivated with visible progress
+
+###  Seamless Integration
+
+* Syncs with tools like **Google Calendar and email**
+* Automatically converts external inputs into **actionable tasks**
+
+###  Smarter Workflow
+
+* Helps users:
+
+  * Prioritize effectively
+  * Break down complex work
+  * Stay focused on what actually matters
+
+---
+
+##  What People Can Use It For
+
+Strello is useful for a wide range of users:
+
+###  Students
+
+* Manage assignments, exams, and study schedules
+* Track learning progress across subjects
+
+###  Professionals
+
+* Organize daily work, meetings, and deadlines
+* Convert emails into tasks instantly
+
+### Developers & Builders
+
+* Plan projects using kanban workflows
+* Track feature development and bugs
+
+### Teams
+
+* Collaborate on shared boards
+* Maintain transparency in workflows
+
+### Gamified Deadlines (The Game-Changer)
+
+Instead of boring deadlines, Strello turns them into a challenge system.
+
+* Tasks feel like missions with countdowns
+* Completing tasks on time gives a sense of achievement
+*  Missed deadlines feel like losing streaks or progress
+*  Encourages urgency without needing external pressure
+
+## Why It’s Better Than Existing Solutions
+
+Instead of using:
+
+* Trello (tasks)
+* Gmail (emails)
+* Google Calendar (schedule)
+
+ **Strello merges them into one intelligent system**, reducing friction and saving time.
+
+**Challenges we ran into**
+
+## Challenges I Ran Into
+
+Building **Strello** came with a mix of frontend complexity, integration issues, and workflow design challenges.
+
+---
+
+### 1. Frontend State Management Got Messy Fast
+
+With features like **kanban boards, task updates, and dynamic UI**, managing state became tricky.
+
+**What happened:**
+
+* Tasks weren’t updating consistently across components
+* UI would not reflect the latest changes immediately
+* Props and state started getting tangled
+
+**How I solved it:**
+
+* Broke components into **smaller, reusable units**
+* Lifted state up where necessary to maintain a single source of truth
+* Carefully structured data flow instead of passing props everywhere
+
+---
+
+### 2. Integrating Multiple UI Systems
+
+I wanted to combine **modern animated UI components** with my existing design.
+
+**What happened:**
+
+* UI components didn’t match the theme
+* Animations felt out of place or excessive
+* Layout inconsistencies across pages
+
+**How I solved it:**
+
+* Standardized spacing, colors, and layout rules
+* Chose animations that enhance UX instead of distracting
+* Focused on **consistency over complexity**
+
+---
+
+###  3. Feature Integration (Kanban + Graph + Tasks)
+
+Combining different productivity views into one system was harder than expected.
+
+**What happened:**
+
+* Data structure didn’t initially support multiple views
+* Same task needed to appear in different formats (board + graph)
+* Logic duplication across components
+
+**How I solved it:**
+
+* Designed a **flexible task model** that works across all views
+* Centralized task data and reused it across components
+* Avoided duplicating logic by creating shared utilities
+
+---
+
+### 4. Designing a System That Actually Feels Useful
+
+It’s easy to build features—but hard to make them feel **intuitive and meaningful together**.
+
+**What happened:**
+
+* Early versions felt like disconnected tools
+* No clear “flow” for how a user should use the app
+
+**How I solved it:**
+
+* Thought from a **user perspective instead of feature perspective**
+* Focused on a natural workflow:
+
+  * Input → Organize → Visualize → Act
+* Simplified features instead of overloading the UI
+
+---
+
+### 5. Handling Incomplete / Dummy Data During Development
+
+During early stages, the app relied on placeholder data.
+
+**What happened:**
+
+* Some buttons didn’t work
+* UI looked functional but wasn’t actually connected
+
+**How I solved it:**
+
+* Gradually replaced dummy data with real logic
+* Ensured every interactive element had a clear function
+* Tested flows end-to-end instead of component-by-component
+
+---
+
+## What I Learned
+
+* Good apps aren’t just built—they’re **structured thoughtfully**
+* State management becomes critical as soon as complexity increases
+* UI/UX consistency matters more than adding flashy features
+* Solving “how everything fits together” is the hardest part
+
+---
+
+Team **meowmeow30000** -- Chirag Viramgama, Avinash Manghnani, [Rudra Mina](github.com/rudraminaa), Nihal Ravi
+
+`2026-04-12`
+
+---
+
+### TradeWise
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/tradewise-9502) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/krishgarg476/tradingwise) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/Jgk4ntQYCnc) [![Built at](https://img.shields.io/badge/Built%20at-Innovate--Iterate--Interrupt%20(III)%205.0-0052CC?style=flat-square)](https://innovateiterateinterrupt-iii-5.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Click. Trade. Profit.
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![Core ML](https://img.shields.io/badge/Core%20ML-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+The Problem It Solves : 
+
+Traditional trading platforms are often complex, slow, and not beginner-friendly, making it difficult for users to make quick and informed decisions. Many users struggle with understanding market trends, handling real-time data, and managing trades efficiently due to poor UI/UX and lack of intelligent insights.
+
+How This Project Helps :
+
+This trading platform simplifies the entire trading experience by providing a clean and responsive interface along with real-time market updates. Users can easily monitor price movements, execute trades, and track their performance without confusion.
+
+Beginner-Friendly: Simplifies trading with an intuitive UI, making it accessible for new users.
+Real-Time Data: Helps users make faster and more accurate decisions.
+AI/ML Insights: Assists users with predictions and smarter decision-making.
+Efficient Trade Management: Allows users to track and manage trades seamlessly.
+Responsive Design: Accessible across devices, improving usability and convenience.
+
+**Challenges we ran into**
+
+One of the main challenges I faced while building the trading platform was handling real-time data efficiently without causing UI lag or unnecessary re-renders. Since trading applications require frequent price updates, my initial implementation led to performance issues and a flickering interface. To solve this, I optimized the React frontend by using techniques like memoization and proper state management to minimize re-renders. I also structured API calls more efficiently, batching updates and handling asynchronous data properly using async/await. This significantly improved the performance and ensured a smooth and responsive user experience.
+
+Team **fata poster nikle coders** -- Krish Garg, Dewansh Khandelwal, [Ved Gupta](https://github.com/VEDGUPTA365), Ansh Patel
+
+`2026-04-14`
+
+---
+
+### Helldivers dcOS
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/helldivers-dcos-fed1) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/armada-code-recet/helldivers) [![Built at](https://img.shields.io/badge/Built%20at-Code%20reCET%203.0-0052CC?style=flat-square)](https://code-recet-3.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Brain for a Space Data Centre
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Docker](https://img.shields.io/badge/Docker-333333?style=flat-square) ![Socket.IO](https://img.shields.io/badge/Socket.IO-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![HTTP server](https://img.shields.io/badge/HTTP%20server-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square)
+
+**The problem it solves**
+
+This solution is a resilient, dual-tier compute architecture designed to solve the two primary hurdles of orbital edge computing: radiation-induced hardware failure and extreme downlink bandwidth constraints. By pairing an dual systems, we’ve built a "Brain" that balances high-performance AI processing with mission-critical survival logic.
+
+The system utilizes a Heterogeneous Architecture: the "Brain Stem," serving as a hardware watchdog that monitors via a heartbeat protocol. If cosmic radiation causes a Single Event Upset (SEU) and freezes the main processor, the stem autonomously executes a hard power cycle. The "Cerebrum," running K3s (Lightweight Kubernetes) / Docker containers to orchestrate containerized mission apps.
+
+To maximize efficiency, it performs on-orbit inference using TensorFlow Lite, transmitting only high-value metadata rather than raw data streams. Reliability is further reinforced through Software-Defined Radiation Hardening, utilizing Triple Modular Redundancy (TMR) for critical calculations and a self-healing file system. It transforms the satellite from a simple relay into a fully autonomous, intelligent node capable of surviving the harshest environment known to man.
+
+**Challenges we ran into**
+
+- **No human operators** — must make decisions autonomously
+- **Radiation exposure** — cosmic rays and solar flares corrupt data and hardware (bit-flips)
+- **Mission-critical inference** — a single wrong classification could trigger a wrong response
+- **Multi-source data** — environmental sensors AND satellite imagery need real-time processing
+- **Connectivity lag** — can't rely on ground station for every decision
+
+Team **Helldivers** -- [Sharlet Kurien](https://github.com/sharletk), [Akshay Joseph](https://github.com/AkshayAJoseph)
+
+`2026-03-29`
+
+---
+
+### DriftWatch
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/driftwatch-f614) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Tripathi-Nishant/ITS-A-Hack2.0-Outliers-DriftWatch) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](http://13.233.208.13/) [![Built at](https://img.shields.io/badge/Built%20at-ITS--A--Hack%202.0-0052CC?style=flat-square)](https://itsahack.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Turning ML Monitoring into Decision Intelligence.
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Docker](https://img.shields.io/badge/Docker-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![AWS](https://img.shields.io/badge/AWS-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square)
+
+**The problem it solves**
+
+Machine learning models in production often fail silently.
+Unlike traditional software, they don’t crash they continue running while gradually making incorrect predictions as the underlying data changes over time (data drift).
+
+This creates serious issues:
+
+▪️Decreasing model accuracy
+▪️Hidden financial losses
+▪️Poor business decisions
+▪️No alerts or visibility into what went wrong
+
+Most existing solutions either:
+
+Focus only on model performance (not data changes), or Provide complex metrics without clear actions
+
+How DriftWatch solves it
+
+DriftWatch continuously monitors training vs production data to detect drift in real time.
+
+It goes beyond detection by:
+
+▪️Identifying the type and cause of drift
+▪️Recommending actionable steps (retrain, fix schema)
+▪️Estimating business impact (accuracy drop & financial loss)
+▪️Providing clear decisions: ACT / IGNORE / MONITOR
+     Impact
+
+DriftWatch makes ML systems:
+
+▪️More reliable
+▪️Transparent
+▪️Business-aware
+
+It transforms ML monitoring from passive dashboards into active decision-making systems.
+
+**Challenges we ran into**
+
+One of the biggest challenges was reliably detecting drift across different types of data distributions without generating too many false positives.
+
+Initially, when I implemented statistical tests like PSI and KL Divergence, I noticed that:
+
+Small natural variations in data were being flagged as drift
+Different features behaved very differently (numerical vs categorical)
+Threshold tuning was inconsistent across datasets
+
+This made the system noisy and less practical for real-world use.
+
+How I solved it
+
+▪️ Combined multiple statistical methods (PSI, KL, KS Test) instead of         relying on a single metric
+▪️ Designed adaptive thresholds based on feature type and distribution
+▪️ Separated handling for numerical and categorical drift
+▪️ Added a classification layer to identify the root cause before triggering alerts
+
+Another Challenge
+
+▪️Building the system as a complete decision pipeline (not just detection) was also tricky.
+▪️Mapping drift → action → business impact required designing multiple layers
+▪️Estimating accuracy drop and financial loss in a generic way was non-trivial
+
+I solved this by creating a modular pipeline:
+▪️Detect → Classify → Recommend → Evaluate → Decide
+
+Outcome
+These improvements made DriftWatch:
+▪️More accurate and reliable
+▪️Less noisy (fewer false alerts)
+▪️More practical for real-world ML pipelines
+
+Team **Outliers** -- [Ojasvi Marwari](https://github.com/Ojasvi2006), [Nishant tripathi](https://github.com/Tripathi-Nishant)
+
+`2026-04-04`
+
+---
+
+### Ride-Shield
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/rideshield-0fe8) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Gupta-Sarthak-358/Ride-Shield-InsurTech-System) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://ride-shield-hazel.vercel.app/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/jmTdGsmkj7M) [![Built at](https://img.shields.io/badge/Built%20at-Hacknovate--7.0-0052CC?style=flat-square)](https://hacknovate07.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Predict, protect and pay before loss hits.
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Docker](https://img.shields.io/badge/Docker-333333?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=flat-square) ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![Vercel](https://img.shields.io/badge/Vercel-333333?style=flat-square)
+
+**The problem it solves**
+
+Gig workers face unpredictable income loss due to real-world disruptions like weather, traffic, and platform outages. Existing insurance products are slow, manual, and not designed for micro-income volatility.
+
+RideShield solves this by providing real-time, parametric income protection that automatically detects disruptions and processes claims with minimal user effort. Instead of filing paperwork, workers are protected proactively through data-driven triggers and intelligent decision systems.
+
+**Challenges we ran into**
+
+Building a truly zero-touch claim system required balancing automation with fraud control. Early versions either approved too aggressively or delayed too many legitimate claims.
+
+We redesigned the decision engine to separate weak vs strong fraud signals, incorporate trust scoring, and introduce a calibrated approval band. This reduced unnecessary manual reviews while maintaining protection against abuse.
+
+Deployment also posed challenges, particularly with async database drivers, environment configuration across Vercel and Render, and ensuring consistent demo data across environments. We solved this with a deterministic seeding pipeline and production-aware configuration handling.
+
+Team **SARS 404** -- [Sachin Yadav](https://github.com/singingnimrod), [SHRUTI DIXIT](https://github.com/Shrutii-Dixit), [Sarthak Gupta](https://github.com/Gupta-Sarthak-358), [Aditya Tiwari](https://github.com/Adityatiwari49)
+
+`2026-04-04`
+
+---
+
+### Intelligent Business Agent
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/intelligent-business-agent-7357) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/mohitkumhar/intelligent-business-agent/) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://hub.docker.com/repository/docker/mohitkumhar/intelligent-business-ai-agent/general) [![Built at](https://img.shields.io/badge/Built%20at-HackMol%207.0-0052CC?style=flat-square)](https://hackmol-7.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> We Don't Debug. We Conquer.
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![GitHub](https://img.shields.io/badge/GitHub-333333?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=flat-square) ![Slack API](https://img.shields.io/badge/Slack%20API-333333?style=flat-square) ![Redis](https://img.shields.io/badge/Redis-333333?style=flat-square)
+
+**The problem it solves**
+
+## The Problem It Solves
+
+**63 million small businesses in India run on guesswork.**
+
+Every day, a shop owner, a food stall, a small retailer faces questions like:
+- Should I spend money on ads this month?
+- Is it safe to hire a new employee?
+- Why is my profit low even though sales are good?
+- Will I run out of cash next month?
+
+They have no advisor. No system. No warning before something goes wrong.
+They decide based on gut feeling — and one wrong decision can wipe out
+months of hard work.
+
+---
+
+## What Our Agent Solves
+
+### ✅ Replaces Guesswork with Data-Backed Decisions
+Instead of "I think this is fine," the owner gets:
+> *"This is risky ⚠️ — your cash runway is only 18 days. Delay this expense."*
+
+### ✅ Acts as a 24/7 Business Advisor — For Free
+A human CA or business consultant costs thousands per month.
+Our agent is available anytime, understands the business deeply,
+and gives personalised advice based on real numbers.
+
+### ✅ Warns Before Damage Happens
+Most tools show you what went wrong **after** it happened.
+Our agent detects patterns early and warns proactively:
+> *"Expenses have grown 40% in 3 months. At this rate, cash runs out in 35 days."*
+
+### ✅ Simplifies Complex Financial Data
+No Excel formulas. No accounting knowledge needed.
+The owner just asks in plain language and gets a clear answer —
+like texting a knowledgeable friend.
+
+### ✅ Gives a Single Business Health Score
+Instead of drowning in numbers, the owner sees one clear metric:
+> **Business Health: 61 / 100 — Expenses are high, sales are stable, cash is limited.**
+
+---
+
+## Who Can Use It
+- Kirana store owners
+- Small retailers and traders
+- Food stall and restaurant owners
+- Freelancers managing business finances
+- Any small business with revenue data but no financial advisor
+
+---
+
+## The Core Value
+**It doesn't just show data. It thinks, warns, and guides —
+before the owner makes a mistake they can't undo.**
+
+**Challenges we ran into**
+
+## Challenges We Ran Into
+
+### 1. 🔁 LangGraph Pipeline Step Counter Bug
+The agent pipeline was skipping steps or repeating them due to incorrect
+state management in the LangGraph node transitions. The step counter was
+not being updated atomically, causing the flow to loop or exit early.
+
+**Fix:** Rewrote the state schema to use a strictly typed `TypedDict` and
+ensured each node explicitly returned the updated state with the incremented
+counter. Added conditional edge guards to prevent invalid transitions.
+
+---
+
+### 2. 🌐 Ollama Networking Inside Docker (`127.0.0.1` vs `host.docker.internal`)
+When running Ollama locally and calling it from inside a Docker container,
+requests to `127.0.0.1` were failing because the container's localhost is
+isolated from the host machine's localhost.
+
+**Fix:** Replaced `127.0.0.1` with `host.docker.internal` in the LLM
+endpoint config for Docker environments, and added a fallback env variable
+so the same codebase works both locally and inside containers.
+
+---
+
+### 3. 🧠 SQL Generation Errors from the AI Agent
+The agent was generating syntactically incorrect SQL queries when business
+data questions involved multi-table joins or aggregations. This caused
+500 errors and broken responses on the frontend.
+
+**Fix:** Added a SQL validation layer before execution that checks query
+syntax using `sqlparse`, and implemented a retry mechanism — if the query
+fails, the agent receives the error message and self-corrects in the next
+step. Also added few-shot examples in the system prompt to guide the model
+toward correct query patterns.
+
+---
+
+### 4. ⚛️ TypeScript Type Errors in Next.js Dashboard Component
+The React frontend dashboard had multiple TypeScript strict-mode violations —
+primarily around undefined API response shapes being passed directly into
+components without type guards.
+
+**Fix:** Defined strict response interfaces using TypeScript `interface`
+types for all API payloads, added optional chaining (`?.`) and nullish
+coalescing (`??`) throughout the component tree, and resolved all
+`TS2322` and `TS2339` errors before the final Docker build.
+
+---
+
+### 5. 💬 Slack Integration — Smart Team Routing Logic
+When implementing Slack integration, routing messages to the correct team
+channel based on query type (finance, ops, HR) was non-trivial. The keyword
+matching approach was too rigid and missed contextual queries.
+
+**Fix:** Used the LLM itself to classify the incoming message into a
+department category before routing. This made the routing context-aware
+rather than keyword-dependent, and reduced misrouted messages significantly.
+
+**Main Track: The Deepforge Arena**
+
+**The Intelligent Business Agent** is an AI-powered advisory chatbot built for small business owners who make critical financial decisions without any expert guidance.
+
+**The Problem:** 63 million small businesses in India operate on guesswork — no advisor, no system to warn them before a bad decision costs them everything.
+
+**What We Built:** A LangGraph-based multi-agent AI system that:
+- Understands a business's financial data (sales, expenses, cash flow, staff costs)
+- Answers owner queries in plain language — *"Should I spend ₹10,000 on ads?"*
+- Classifies every decision as ✅ Safe / ⚠️ Risky / ❌ Don't Do It
+- Generates a real-time **Business Health Score** out of 100
+- Fires **automatic warnings** — *"Cash may run out in 40 days"*
+- Gives daily actionable advice on what to fix, stop, or focus on
+
+**Tech Stack:** LangGraph · Flask · React · PostgreSQL · Docker · OpenRouter (LLM inference)
+
+**Why It Fits The Deepforge Arena:** This project is built under real hackathon conditions, solves a deep real-world problem, and demonstrates end-to-end AI engineering — from agent pipeline design to cloud deployment. It is not a wrapper around an LLM. It is a structured, multi-step reasoning agent grounded in real business data, designed to scale to thousands of users.
+
+**Impact:** One correct decision saved = months of business survival. We are building the AI partner that every small business owner deserves but could never afford.
+
+**Fresher’s Track: The Rising Lanterns**
+
+## Fresher's Track: The Rising Lanterns
+
+We are a team of first-year and second-year students at RTU and this is our first hackathon project built end-to-end from scratch.
+
+---
+
+### 🌱 Where We Started
+A few weeks ago, none of us had worked with LLM APIs, LangGraph pipelines,
+or Docker deployments. We started this hackathon with textbook knowledge
+and zero production experience.
+
+### 🔥 What We Built Anyway
+Over the course of this hackathon, we designed and shipped:
+- A **multi-node LangGraph AI agent** with structured reasoning pipeline
+- A **Flask REST backend** with SQL generation, validation, and retry logic
+- A **React frontend** with structured response rendering
+- A **PostgreSQL database** with multi-tenant business data architecture
+- A **Docker-based deployment** with container networking and environment config
+- A **Slack integration** with LLM-powered smart team routing
+
+We debugged Docker networking issues at 2am. We fixed TypeScript type
+errors we had never seen before. We read documentation for tools we had
+never heard of 48 hours earlier. And we shipped it.
+
+---
+
+### 💡 What This Track Means to Us
+The Rising Lanterns track is exactly where we belong — not because we
+are beginners, but because every expert was once a fresher who refused
+to build something small.
+
+We didn't build a to-do app. We built an AI system that could genuinely
+help millions of small business owners in India make better decisions.
+
+---
+
+### 🚀 The Fresher Advantage
+We had no legacy assumptions. No "this is how it's always done."
+We approached every problem with curiosity, looked up what we didn't know,
+and built what seemed impossible for our experience level.
+
+That is the spirit of this track — and that is exactly who we are.
+
+Team **Valhalla Coders** -- [Mohit Kumhar](https://github.com/mohitkumhar), [Kushal Mahawar](https://github.com/kushalmahawar2005), [Madhav Tiwari](https://github.com/ermadhav)
+
+`2026-03-29`
+
+---
+
+### NextStep
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/nextstep-0994) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Rishabhworkspace/NextStep) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://next-step-fawn.vercel.app/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=WK0ZtzeUP8o) [![Built at](https://img.shields.io/badge/Built%20at-DevsHouse%20'26-0052CC?style=flat-square)](https://devshouse26.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> NextStep is an AI-powered career platform
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+So the problem we're solving is pretty straightforward — and I think you've probably seen it too."**
+
+Students in India, especially engineering students, genuinely don't know what to do with their time. There's no shortage of resources — YouTube, Udemy, LinkedIn Learning — but there's no system that actually tells you *what* to learn, *in what order*, based on where you actually are right now.
+
+Most people either Google their way through it, follow random roadmaps they find online, or just go with whatever seniors in their college suggest. None of that is personalised, none of it is structured, and none of it tells you what to do this week.
+
+"That's the gap we built NextStep to fill."
+
+**Challenges we ran into**
+
+Major challanges i ran into were Authentication problems and avoiding Ai models halucinations in providing the desired answers . Design can be a tough part too .
+
+**Open Innovation**
+
+"Open Innovation is about solving problems that are too big, too fragmented, and too important to be left unsolved — and that's exactly what NextStep addresses.
+First-generation students don't lack talent. They lack access — to guidance, to opportunities, to information that others get from family networks and privileged environments. That's an open, unsolved problem at a massive scale.
+NextStep tackles this by bringing together things that already exist in the open — government scholarships, free learning resources, verified internships, student offers — but have never been connected intelligently in one place. We're not building walls around information, we're breaking them down and making them accessible to every student regardless of their background.
+On the technology side, we're using open AI models and open APIs — nothing proprietary, nothing that can't scale or be built upon. The entire platform is designed to be extensible, community-driven, and free to access.
+So in one line — NextStep is open innovation in the most literal sense: open access, open technology, and solving a problem that the open world has ignored for too long."
+
+Team **The Ascenders** -- [Anushka Maheshwari](https://github.com/Anushka-536), [Saumya Saumya](https://github.com/Saumyadebug), [Rishabh Tripathi](https://github.com/Rishabhworkspace)
+
+`2026-03-29`
+
+---
+
+### Arynox LLM
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/arynox-llm-ad0d) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/yourajdeep/arynox.llm.git) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://arynox-llm.onrender.com/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/MmlvK_9PM5k) [![Built at](https://img.shields.io/badge/Built%20at-FrostHacks%20S02-0052CC?style=flat-square)](https://frosthacks-s-2.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Leverage AI t grow your knowledge.
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Docker](https://img.shields.io/badge/Docker-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+# Proposed Problem & Solution: ARYNOX
+
+The ARYNOX project was conceived to solve the problem of fragmented and static academic resources in higher education settings.
+
+### 🔴 The Problem: Fragmented & Static Learning
+Academic data (PDFs, PPTs, recorded sessions) is typically scattered across disparate systems (Google Drive, LMS, WhatsApp groups). For students, this makes searching for specific context difficult. For teachers, it's impossible to see "engagement gaps"—identifying exactly which document is confusing students most.
+
+### 🟢 The Solution: Arynox Unified RAG Platform
+Arynox transforms static documents into a **living, searchable knowledge base** using a modern RAG (Retrieval-Augmented Generation) architecture.
+
+1.  **Centralized Intelligence**: A single platform where faculty upload PDFs and students can "chat" with their specific course materials.
+2.  **Immersive Experience**: Replaces sterile, corporate UIs with custom fluid dynamics (WaterRipple) and interactive mechanical 3D machines that make digital content feel physical.
+3.  **Faculty "Heatmaps"**: The Student Insights dashboard allows faculty to see "trending doubts," enabling them to address common misconceptions before they become exam-day failures.
+4.  **Institutional Lock-In**: Faculty-controlled AI scope ensures that the AI only discusses sanctioned material, preventing it from hallucinating or answering off-topic questions.
+
+**Challenges we ran into**
+
+# 🚧 ARYNOX — Deployment Challenges & Solutions
+
+A breakdown of the key technical challenges encountered while containerizing and deploying a full-stack AI platform, along with the engineering solutions applied.
+
+---
+
+## 🏗️ DevOps & Infrastructure
+
+### 🔹 Multi-Runtime Container Orchestration
+
+**Challenge**  
+Running React (Vite), Node.js (Express), and Python (ChromaDB) inside a single container without race conditions.
+
+**Solution**  
+- Built a **multi-stage Dockerfile** with isolated build steps
+- Implemented a `start.sh` entrypoint:
+  - Starts ChromaDB in background
+  - Waits for readiness via health check
+  - Boots Express server afterward
+
+**Result**  
+✔ Reliable service startup order  
+✔ One-click deployment (Render-ready)
+
+---
+
+### 🔹 Native Module Compilation Failure (`bcrypt`)
+
+**Challenge**  
+`bcrypt` failed to load due to missing system-level build tools in the container.
+
+**Solution**
+```bash id="bcrypt-fix"
+apt-get install -y python3 make g++
+````
+
+**Result**
+✔ Successful native compilation
+✔ Eliminated runtime crashes
+
+---
+
+### 🔹 Hardcoded API Endpoints
+
+**Challenge**
+Frontend requests were tied to `localhost:5000`, breaking production deployments.
+
+**Solution**
+
+```ts id="api-fix"
+fetch("/api/endpoint")
+```
+
+* Replaced absolute URLs with relative paths
+* Removed environment coupling
+
+**Result**
+✔ Environment-agnostic networking
+✔ Seamless deployment across environments
+
+---
+
+## 🗄️ Backend & Database
+
+### 🔹 MongoDB Duplicate Key Error (`E11000`)
+
+**Challenge**
+
+```id="mongo-error"
+E11000 duplicate key error: googleId: null
+```
+
+**Root Cause**
+A non-sparse index treated `null` values as duplicates.
+
+**Solution**
+
+```ts id="mongo-fix"
+// On server startup
+detect faulty index
+drop index
+recreate with { sparse: true }
+```
+
+**Result**
+✔ Self-healing database layer
+✔ No manual intervention required
+
+---
+
+### 🔹 Inconsistent Data Querying (Search Fragmentation)
+
+**Challenge**
+Different naming formats ("3rd Year" vs "Third Year") broke search consistency.
+
+**Solution**
+
+```ts id="fuzzy-search"
+const regex = /(3rd|third)/i;
+```
+
+* Regex-based normalization
+* Case-insensitive matching
+
+**Result**
+✔ Improved search accuracy
+✔ Better data discoverability
+
+---
+
+## 🎨 Frontend Challenges
+
+### 🔹 Video Background Transparency
+
+**Challenge**
+`.mov` assets contained baked-in black backgrounds incompatible with UI design.
+
+**Solution**
+
+```css id="video-fix"
+video {
+  mix-blend-mode: screen;
+  filter: brightness(1.5) contrast(1.25);
+}
+```
+
+**Result**
+✔ Transparent visual effect via CSS
+✔ No need for asset reprocessing
+
+---
+
+## ⚡ Key Takeaways
+
+* Solved **cross-runtime container orchestration**
+* Built **self-repairing backend logic**
+* Eliminated **environment-specific failures**
+* Applied **creative frontend rendering hacks without asset changes**
+
+---
+
+```
+
+**EDUCATION**
+
+## 1. Vector Database: ChromaDB
+We use **ChromaDB** as our high-performance vector store for document retrieval.
+
+- **URL**: `http://localhost:8000` (Default Docker instance)
+- **API Version**: v2
+- **Distance Metric**: `cosine` (Optimized for text similarity)
+- **Dimension**: `2048` (Matches the NVIDIA Embedding model output)
+- **Collection Strategy**: Dynamic collections per subject/department (e.g., `cse__data_structures`).
+
+## 2. Large Language Models (LLMs)
+The system uses a multi-provider strategy to ensure speed and reliability.
+
+### Primary Inference: Groq
+- **Model**: `llama-3.1-8b-instant`
+- **Purpose**: Powering the Socratic AI Tutor (aryn0x) for ultra-low latency response generation.
+- **Role**: Context extraction, topic classification, and conversational guiding.
+
+### Fallback/Heavy Lifting: NVIDIA NIM
+- **Model**: `nvidia/nemotron-3-super-120b-a12b`
+- **Purpose**: Used as a fallback LLM if Groq hits rate limits or for more complex reasoning tasks.
+- **Provider**: NVIDIA API Catalog.
+
+## 3. Embedding Model
+Embeddings are critical for the "Context-Lock" feature, ensuring the AI only answers from uploaded materials.
+
+- **Model**: `nvidia/llama-nemotron-embed-1b-v2`
+- **Type**: Asymmetric (handles text passages and queries differently for higher accuracy).
+- **Dimension**: `2048`.
+- **Integration**: Custom implementation via Axios to NVIDIA's embedding endpoint.
+
+## 4. AI Logic & Frameworks
+- **Orchestration**: LangChain (Core & Community)
+- **Methodology**: **Socratic Method**. The system is hard-coded to avoid direct answers, instead asking guiding questions based ONLY on the retrieved context.
+- **Context-Lock**: A strict system prompt ensures that the model refuses to answer if information is not found in the vector database.
+
+Team **TEKKUZEN** -- [Ayush Chowdhury](https://github.com/AyushChowdhuryCSE), [Rajdeep Das](https://github.com/yourajdeep), [VIKASH GUPTA](https://github.com/Vortex-16/)
+
+`2026-03-28`
+
+---
+
+### ORION
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/orion-dd8c) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/YuvisTechPoint/ORION-AI) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/CiyWZIRwcXQ) [![Built at](https://img.shields.io/badge/Built%20at-BINARY%20v2-0052CC?style=flat-square)](https://binaryvtwo.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Autonomous AI-Powered CI/CD Pipeline
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![AI/ML](https://img.shields.io/badge/AI/ML-333333?style=flat-square)
+
+**Challenges we ran into**
+
+GitHub Integration Challenges
+
+GITHUB_TOKEN not configured — the Auto-PR system blocked the entire pipeline because the token was either empty in `.env` or the wrong format, shutting down the most impressive feature of the project.
+
+Wrong OAuth callback URL — GitHub OAuth app had `localhost:8000/auth/github` registered but the actual route was `localhost:8001/api/v1/auth/github/callback` — three mismatches in one URL causing `redirect_uri_mismatch` error from GitHub on every login attempt.
+
+PAT token scope confusion — generated a classic Personal Access Token but the OAuth App needs different credentials entirely — Client ID and Client Secret — two completely separate concepts that look similar but work differently.
+
+AI/LLM Challenges
+
+`LLM call failed after retries` — Anthropic API key was either wrong, expired, or had zero credits. The error message was vague, making it unclear whether it was an auth issue, a rate limit, a credit issue, or a network issue.
+
+Claude returning invalid JSON — agents using `_call_claude_json` occasionally got responses with markdown fences, explanations before the JSON, or truncated output that broke `json.loads()`, requiring retry logic and fence stripping.
+
+Mock data masking real failures — agents were returning hardcoded fallback dicts when tools failed instead of surfacing the real error, making it look like everything passed when the underlying subprocess had actually crashed.
+
+Pipeline Architecture Challenges
+
+Circular imports — importing orchestrator at module level in `pipeline_tasks.py` caused circular import crashes on startup because Celery imports tasks, tasks import orchestrator, orchestrator imports agents, agents import database, database imports config — the entire chain needed lazy imports inside function bodies.
+
+Celery has no HTTP session — the OAuth token lives in the FastAPI session but Celery workers are completely separate processes with no access to HTTP context, requiring the token to be serialized into the Celery task arguments explicitly and forwarded through the entire chain: webhook route → task args → orchestrator → AutoPRService.
+
+Async/sync boundary in Celery — the orchestrator is fully async but Celery workers are synchronous, requiring a manual `asyncio.new_event_loop()` wrapper inside every task to bridge the two worlds.
+
+Pipeline stopping on first failure — the full scan was originally designed to stop at the first agent error, meaning if code analysis crashed, security and QA never ran, and the Auto-PR system had incomplete data. Required `asyncio.gather(return_exceptions=True)` to run all three concurrently regardless of individual failures.
+
+
+Frontend Challenges
+
+Relative fetch URLs breaking cross-origin — all frontend fetch calls used relative paths like `/api/v1/auth/me` which work when frontend and backend share an origin but silently fail when they are on different ports, requiring every call to be updated to the full `http://localhost:8001/api/v1/...` URL.
+
+WebSocket showing idle permanently — WS status pill never updated because the WebSocket connection was never properly established, making the live log system non-functional while everything looked connected visually.
+
+UI looking flat and unpolished — the original design had no visual hierarchy, no depth, no animations, no terminal aesthetic for logs, and no stage timeline — all functional but not demo-worthy, requiring a complete CSS rebuild without touching any JavaScript logic.
+
+
+Multimodal Agent Challenges
+
+Payment agent showing mock data — when no CSV was uploaded the agent was returning fabricated transaction records instead of honestly saying no payment data was found, making the feature misleading.
+
+Git log agent classifying nothing — without real log content the zero-shot classifier had nothing to work with, requiring explicit emp
+
+**AI/ML**
+
+ORION sits at the intersection of AI/ML and autonomous systems engineering. Every stage of the pipeline is powered by a purpose-selected machine learning model — CodeLlama-7b-Instruct for code understanding, MiniLM with FAISS vector search for RAG-based security vulnerability enrichment, CodeBERT for test failure classification, Isolation Forest for real-time deployment anomaly detection, LangGraph for stateful multi-step approval decisions with Guardrails AI validation, ProsusAI FinBERT for financial transaction error classification, and facebook/bart-large-mnli with DistilBERT NER for zero-shot log classification. No agent uses a generic LLM as a catch-all — every model is the best available specialist for its exact domain from HuggingFace. On top of local inference, ORION integrates NVIDIA Nemotron 340B via NIM API for deep multi-agent result synthesis and pipeline narrative generation, and xAI Grok for sub-second real-time decision explanation on every pipeline node. The multimodal agents accept images, CSVs, PDFs, and ZIP archives as input and run genuine ML inference — not keyword matching or template responses. The Auto-PR system uses Claude to generate actual code fixes, not just issue reports — the model reads the real source file and returns a corrected version that gets committed to a branch and opened as a pull request. Every model runs on real data and returns honest results — if no issues are found the system says so, it never fabricates findings to appear impressive. ORION demonstrates that production ML is not just about building models — it is about orchestrating the right model for the right task, chaining their outputs through stateful decision graphs, and shipping the result autonomously without human intervention.
+
+**Requestly**
+
+During development and testing of ORION, we used Requestly to intercept and mock GitHub webhook POST requests to our /api/v1/webhook/github endpoint. Since every real pipeline run requires an actual GitHub push event with a valid HMAC signature, testing individual pipeline stages repeatedly by pushing real code was impractical and slow. Requestly allowed us to capture a real webhook payload once, save it as a reusable mock, replay it against our local backend with the correct headers including X-Hub-Signature-256, and trigger the full 9-stage agent pipeline on demand without touching GitHub at all. We also used Requestly's request modification feature to test pipeline behavior under different scenarios — injecting a payload from a branch with known security vulnerabilities, simulating a push with no test files to verify QA skip logic, and replaying a payload with a previously blocked commit to verify retry handling. This reduced our development iteration time from 3-5 minutes per real push cycle to under 10 seconds per simulated trigger, and allowed us to test all 9 pipeline stages and both multimodal agents completely offline.
+
+Team **Detrix** -- [Yuvraj Prasad](https://github.com/YuvisTechPoint), [Piyush Goenka](https://github.com/piyushgoenka2005)
+
+`2026-03-22`
+
+---
+
+### NirvaSupreme
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/nirvasupreme-2661) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://youtu.be/SgCJbhPABb4) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/SgCJbhPABb4) [![Built at](https://img.shields.io/badge/Built%20at-DotSlash%209.0-0052CC?style=flat-square)](https://dotslash-9.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Making the life of developers ez.
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Database](https://img.shields.io/badge/Database-333333?style=flat-square)
+
+**The problem it solves**
+
+It autonomously navigates live web pages, inspects Chrome DevTools (network requests and console logs), and writes code fixes directly to the local file system without your proprietary code ever leaving your machine.
+
+While Nirva manages complex financial reporting and stakeholder communication, our Local Agent autonomously monitors, tests, and debugs the very infrastructure Nirva runs on.
+
+Through MCP and Composio, our agents dynamically discover and route tasks across 500+ enterprise applications (Slack, GitHub, SAP, Google Workspace) in parallel.
+
+**Challenges we ran into**
+
+Providing inference on CPU along with loading the giant model with 7B+ parameters on 16 GB ram are the few problems I ran into.
+
+**DevTech**
+
+The DevTech track is highly focused on making development easy. We provide local LLM support, equipped with CPU and GPU inference (if available), giving everyone the power of code development, irrespective of resources.
+Every day, developers come across hundreds, thousands of notifications, and it's next to impossible to pay attention to all of them. We make it easier with the help of NirvaSupreme, which is a unified platform to connect, edit, create, delete the specified resources on 500+ applications including Slack, Discord, Whatsapp and many more.
+
+Team **D9THC** -- [Dhruv Mali](https://github.com/P47Parzival), [Siddhant Sankesara](https://github.com/Siddhant4357), [Pranjal Yadav](https://github.com/pranjal29092005)
+
+`2026-03-22`
+
+---
+
+### Perceptron
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/perceptron-69e2) [![Built at](https://img.shields.io/badge/Built%20at-Hack--Nocturne%202.O-0052CC?style=flat-square)](https://hack-nocturne-2.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Perceive More. Decide Better.
+
+![Deep Learning](https://img.shields.io/badge/Deep%20Learning-333333?style=flat-square) ![Docker](https://img.shields.io/badge/Docker-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Flutter](https://img.shields.io/badge/Flutter-333333?style=flat-square) ![AWS](https://img.shields.io/badge/AWS-333333?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=flat-square) ![RestAPIs](https://img.shields.io/badge/RestAPIs-333333?style=flat-square)
+
+**The problem it solves**
+
+## The Problem It Solves
+
+Industries generate massive amounts of operational data from machines, energy meters, and sensors, but this data is often fragmented across multiple systems and not used effectively.
+
+As a result:
+
+- Energy inefficiencies go unnoticed until costs increase  
+- Machine issues are detected only after failures occur  
+- Sustainability and compliance reporting is manual, time-consuming, and error-prone  
+- Decision-making is based on delayed or incomplete information  
+
+---
+
+## What Perceptron Enables
+
+Perceptron is an industrial intelligence platform that acts as a unified command center for factory operations, making complex processes simpler, faster, and safer.
+
+### Real-Time Plant Visibility
+Provides a live overview of the entire factory, allowing operators to instantly understand plant health, machine status, and energy usage.
+
+### Early Detection of Issues
+Identifies abnormal patterns in machine behavior such as energy spikes, temperature drift, or vibration changes, enabling teams to act before failures occur.
+
+### Smarter Energy Management
+Breaks down energy consumption at machine level, helping industries identify inefficiencies and reduce unnecessary energy costs.
+
+### Automated Compliance & Reporting
+Generates structured reports such as BRSR, ESG, and energy performance metrics automatically, eliminating manual reporting effort.
+
+### Financial & Environmental Insights
+Translates operational data into cost impact and carbon emissions, helping organizations make better business and sustainability decisions.
+
+---
+
+## Impact
+
+By bringing all operational intelligence into one platform, Perceptron helps industries:
+
+- Reduce energy waste  
+- Prevent costly equipment failures  
+- Simplify regulatory compliance  
+- Improve operational efficiency  
+- Make faster, data-driven decisions
+
+**Creative Use of Requestly**
+
+### Requestly Integration in Perceptron
+
+Perceptron is powered by a structured API ecosystem consisting of **37+ endpoints**, and we use Requestly as our API command center to simulate, validate, and test industrial system behavior in real time.
+
+---
+
+**Endpoints Used (Core Demo APIs)**
+
+- `GET /stream/live`  
+  Used to continuously validate real-time telemetry streams and ensure correct data schema across all machines.
+
+- `GET /stream/machine/{machine_id}`  
+  Used to inspect historical machine behavior and validate time-series consistency.
+
+- `POST /predict/anomaly`  
+  Used to test ML inference pipelines by sending live and synthetic inputs and validating anomaly classification outputs.
+
+- `GET /forecast/plant`  
+  Used to verify forecasting outputs and compare predicted vs expected energy patterns.
+
+- `POST /demo/trigger/{anomaly_type}`  
+  Used to simulate controlled industrial fault scenarios such as power spikes, vibration anomalies, and thermal deviations.
+
+---
+
+**API System Scale (37+ Endpoints)**
+
+- **Streaming & Telemetry APIs (10+)** — real-time plant data, machine streams, historical windows  
+- **ML & Intelligence APIs (8+)** — anomaly detection, classification, forecasting, predictive insights  
+- **Simulation APIs (5+)** — fault injection and scenario control  
+- **Analytics & KPI APIs (7+)** — energy metrics, efficiency tracking, cost insights  
+- **Compliance & Reporting APIs (7+)** — BRSR, ESG, PAT scheme KPIs, carbon reporting  
+
+---
+
+**Advanced Requestly Workflows**
+
+- **Scenario Simulation**  
+  Created reusable request flows to simulate real industrial failure conditions and observe system response end-to-end.
+
+- **Response Validation & Testing**  
+  Used response scripts to validate schema consistency, anomaly detection outputs, and API reliability under different conditions.
+
+- **Real-Time System Debugging**  
+  Leveraged Requestly to monitor and debug live API responses during streaming, ensuring stable backend performance.
+
+- **Environment Testing**  
+  Configured requests to test different system states (normal vs anomaly scenarios) without modifying backend code.
+
+- **API Collection Management**  
+  Organized all endpoints into structured collections to streamline development and demo workflows.
+
+---
+
+**Outcome**
+
+Requestly enabled us to simulate a live industrial environment across a **37-endpoint API system**, validate ML-driven insights, and ensure reliable API behavior—making it a critical tool for both development and demonstration.
+
+![image](https://assets.devfolio.co/content/3e62ad967e564dbb9879e9fc02a46fcd/5a893ef4-c7da-4e4e-ae45-7256bebbad07.png)
+
+Team **TEAMOF4** -- [Lohitha A](https://github.com/donut-bling), [Shreesha Shetty](https://github.com/shreesha001), [Sohan Kumar](https://github.com/sohan10012), [Tushar R](https://github.com/Tusharr06)
+
+`2026-03-18`
+
+---
+
+### IntiMintii
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/intimintii-6dd4) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/anshu2k24/ClickToSelect) [![Built at](https://img.shields.io/badge/Built%20at-Hack--Nocturne%202.O-0052CC?style=flat-square)](https://hack-nocturne-2.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Hire at 3x Speed. Hire with 100% Trust.
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Docker](https://img.shields.io/badge/Docker-333333?style=flat-square) ![Git](https://img.shields.io/badge/Git-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![GitHub](https://img.shields.io/badge/GitHub-333333?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+Recruiters are forced to choose between slow manual hiring and fast, low-quality AI screening. Most automated tools ignore actual proof-of-work, leading to superficial interviews and bluffed resumes.
+Our solution doesn't replace humans, it empowers them. It provides a web-scale AI sourcing engine to verify skills over resume claims , combined with context-aware interviews using real project data.
+Creates a 2-3x faster hiring cycle. Features AI-human collaborative interviewing. Ensures cheat-resistant remote interviews.
+
+**Challenges we ran into**
+
+Managing the heavy usage of application by multiple users at the same time as well as dealing with cheating.
+
+Team **ClickToSelect** -- [Anshuman Pati](https://github.com/anshu2k24), [Dhruva KR](https://github.com/Dhruva-0812), [Sakshi Shetty](https://github.com/Sakshi146-eng), [JAYANTH MIDDE](https://github.com/Jayasurya09s)
+
+`2026-03-16`
+
+---
+
+### AegisCore
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/aegiscore-c62f) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Deeksha1206/AegisCore---Threat---Intelligence-System) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://youtube.com/watch?v=-meibonZLfM&feature=shared) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtube.com/watch?v=-meibonZLfM&feature=shared) [![Built at](https://img.shields.io/badge/Built%20at-Hack--Nocturne%202.O-0052CC?style=flat-square)](https://hack-nocturne-2.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> AI-Powered Cyber Threat Intelligence Platform
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![pandas](https://img.shields.io/badge/pandas-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![NetworkX](https://img.shields.io/badge/NetworkX-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![FastAPI](https://img.shields.io/badge/FastAPI-333333?style=flat-square)
+
+**The problem it solves**
+
+Traditional security systems generate massive security alerts every day, making it difficult for analysts to identify which threats need immediate attention.
+
+AegisCore transforms raw security events into actionable threat intelligence through real-time monitoring, attack path reconstruction, intelligent risk scoring, and automated incident reporting.
+
+It also includes an AI cybersecurity copilot and defense simulation engine to help teams understand threats faster, simulate actions, and make confident security decisions
+
+**Challenges we ran into**
+
+During development, one major challenge was connecting the frontend and backend smoothly, especially while handling live API responses for logs, OTP authentication, simulation, and report generation.
+
+We also faced issues with real-time data rendering, where some modules showed empty values or delayed updates. This was solved by correcting API routes, backend response formats, and frontend state handling.
+
+Another challenge was integrating the AI copilot reliably, since external AI responses sometimes failed. We handled this by improving request flow and fallback logic so the platform remains usable during service issues
+
+**Creative Use of Requestly**
+
+AegisCore fits this track because the platform relies on continuous API communication across multiple modules, including OTP-based authentication, live security log retrieval, attack simulation, AI copilot interaction, and automated incident reporting.
+
+Building the project required managing multiple request-response flows, handling backend integration issues, debugging endpoint failures, and ensuring that real-time data reached the frontend correctly. This made API reliability and request handling a core part of the development process, which strongly aligns with the Requestly track
+
+Team **Fab four** -- [Chinmayi MD](https://github.com/Chinmayi06-ai), [Dhanyashree H](https://github.com/deekshithagowdaar), [Prathiksha Mallik](https://github.com/Prathiksha-Mallik), [Deeksha S](https://github.com/Deeksha1206)
+
+`2026-03-15`
+
+---
+
+### AgentGovernOS
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/agentgovernos-7c9d) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Ritinpaul/AgentGovern-OS) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://drive.google.com/drive/folders/18esVGj6RPwYy7MNbQdfM5GPOoRKEJov7?usp=sharing) [![Built at](https://img.shields.io/badge/Built%20at-HackNova%203.0-0052CC?style=flat-square)](https://hacknova-3.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Identity, Trust & Governance for AI Agents
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Docker](https://img.shields.io/badge/Docker-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+AI agents are being extended into the enterprises at scale - buying supplies, approving bills, adjusting wages, sensitive PII. However, there is no system to operate that will control what they can and can not do, how powerful they are and when they fail.
+The gap here is addressed by AgentGovern OS which offers:
+1-Identity & Accountability -This should be an identity of all agents with distinguished codes, levels, and authority restrictions.
+2-Runtime Policy Enforcement - Before executing an action, 7+ governance rules are checked and then executing it is determined.
+3-Dynamic Trust Scoring (Agent control is increased or decreased depending on track record)
+4-Unalterable Audit Trail- Each decision is documented forever to be in compliance.
+5-Human-in-the-Loop -(High risk behavior is automatically escalated to human approval).
+Businesses will be able to implement AI agents and know that they will be perfectly visible, controllable, and accountable no matter what framework (CrewAI, LangChain, OpenAI, etc.) they are based on.
+
+**Challenges we ran into**
+
+Development of a single layer of governance across 6+ agent architectures (CrewAI, LangChain, OpenAI, etc.) without compelling developers to rewrite their software.
+It was even more difficult to hide the features than creating them.
+We desired that teams should embrace governance without reformulating their agents.
+Fixed using thin adapter wrappers, such that zero logic changes are not necessary by the developers (they only need to replace Crew with Governed Crew)
+Universal compatibility - It has been observed that every agent framework deals with execution in a different manner. Governance Envelope Built adapter pattern to wrap any agent without changing any code.
+Zero latency policy can not green-belt agents. FastAPI + Redis caching (used) to make under 50ms evaluation time.
+Dynamic trust- Static permissions are worthless. Devised PULSE algorithm which modifies autonomy based on actual performance, not only on success/failure.
+Development of a single layer of governance across 6+ agent architectures (CrewAI, LangChain, OpenAI, etc.) without compelling developers to rewrite their software.
+Fixed using thin adapter wrappers, such that zero logic changes are not necessary by the developers (they only need to replace Crew with Governed Crew).
+
+Team **Nuuvixx** -- Harsh Arora, [Harsh Yadav](https://github.com/yahaRSH), Samarth Jain, Ritinpaul Singh
+
+`2026-03-17`
+
+---
+
+### RepoLens
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/repolens-f92c) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/MRvandals4vage/RepoLens.git) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://repolens-production-29b3.up.railway.app/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=n8BwOvbAfjY) [![Built at](https://img.shields.io/badge/Built%20at-HackNova%203.0-0052CC?style=flat-square)](https://hacknova-3.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Understand the system, not just the code
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![Docker](https://img.shields.io/badge/Docker-333333?style=flat-square) ![GitHub](https://img.shields.io/badge/GitHub-333333?style=flat-square) ![AWS](https://img.shields.io/badge/AWS-333333?style=flat-square) ![Express.js](https://img.shields.io/badge/Express.js-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+Understanding a new codebase is honestly painful.
+You spend hours going through files, trying to figure out the structure, how things connect, and where execution even starts - especially when there’s little or no documentation.
+
+RepoLens solves this by turning any repository into a clear, high-level overview in minutes instead of days.
+
+What people can use it for
+a. Faster onboarding - New developers can quickly understand a project without digging through hundreds of files
+b. Architecture clarity - Visual diagrams show how different parts of the system connect
+c. Instant insights - Detects frameworks, structure, and execution flow automatically
+d. Spotting issues early - Highlights risky areas like tightly coupled modules
+e. Auto documentation - Generates clean, shareable explanations of the codebase
+
+It saves time, reduces confusion, and makes working with complex projects much easier.
+
+**Challenges we ran into**
+
+1. Handling different types of code
+
+Parsing multiple languages and project structures was messy. Some files would break the parser or not follow expected patterns.
+Fix: I added fallback handling and focused only on extracting useful structural data instead of everything.
+
+2. Getting good AI output
+
+Sending raw code to the AI didn’t work well - it was too large and noisy.
+Fix: I cleaned and structured the data before sending it, which made the AI responses much more accurate.
+
+3. Making useful diagrams
+
+At first, the diagrams were either too cluttered or not meaningful.
+Fix: I filtered out unnecessary files and grouped modules logically to keep visuals clean and helpful.
+
+4. Frontend + Backend issues
+
+Handling large responses and async processing caused UI lag.
+Fix: I added loading states and structured the API better to avoid freezing.
+
+5. Environment setup problems
+
+Missing .env files (like API keys) broke features without clear errors.
+Fix: Standardized configs and used Docker to make setup easier.
+
+Overall, the biggest challenge was balancing speed vs depth, and solving that made the project actually usable.
+
+Team **Mir-an-da** -- [Esha Evalene Aakula](github.com/Esha-Evalene-Aakula), Charukesh Baskaran, [Vinisha Sahoo](https://github.com/Vinisha-Sahoo), [Ishaan Upponi](https://github.com/MRvandals4vage)
+
+`2026-03-17`
+
+---
+
+### Synapse
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/synapse-9c44) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/yashgv/bytecamp26) [![Built at](https://img.shields.io/badge/Built%20at-Bytecamp'26-0052CC?style=flat-square)](https://bytecamp-26.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Map the invisible bridges in your code
+
+![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![Docker](https://img.shields.io/badge/Docker-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square)
+
+**The problem it solves**
+
+Modern software development is currently facing an architectural crisis driven by *polyglot complexity*. Applications are rarely built using a single language; instead, they span multiple boundaries, such as a React frontend, a Node or Python API, and a SQL database. 
+
+*   *Failure of Traditional Tools:* Existing static analysis tools are typically single-language and break down at these language boundaries. They cannot easily see how a button click in a JavaScript frontend triggers a specific backend Python script or updates a database.
+*   *"Silent Ripple Effects":* Because these connections are invisible, small changes in one service can easily ripple through a polyglot system and break downstream APIs without the developer knowing.
+*   *Architectural Drift & Tech Debt:* As teams rapidly ship features, clean architecture deteriorates into "spaghetti code," leading to hidden technical debt and duplicated logic scattered across microservices.
+*   *Painful Onboarding & Context Switching:* Developers spend days, weeks, or even months just trying to build a mental map of a codebase. They are forced to perform expensive, error-prone context switching between files, logs, grep outputs, and documentation to understand basic dependencies.
+
+
+
+### *What People Can Use It For*
+
+Synapse/EzScan acts as a live, intelligent architectural layer that can be accessed via a web dashboard or directly inside the developer's IDE (VS Code).
+
+*   *Interactive Architecture Visualization:* It ingests your codebase and renders a live 3D/2D dependency graph. Users can visually explore connected files, functions, classes, and services, and use interactive filters to isolate specific service boundaries or file-level topologies.
+*   *Polyglot Dependency Mapping:* Developers can trace data flows and API calls end-to-end across multiple languages (e.g., tracing a JavaScript API call to a Go backend handler, down to a Java service, and finally into a SQL schema).
+*   *Context-Aware AI Chat:* Instead of generic AI, developers get a specialized architectural assistant that has deep semantic context of their entire repository. You can ask it highly specific questions, such as, "How does the user authentication flow work from the frontend down to the database?".
+*   *End-to-End API Auditing:* The platform tracks which backend API endpoints are actually being called by frontend files, providing immediate clarity on dead endpoints, missing integrations, and risky changes.
+*   *Prompt-Driven Development & Remediation:* Inside the IDE, developers can type a prompt to generate concrete, workspace-safe file edits. The tool can even trigger one-click remediation popups to instantly fix bugs or rename symbols across the architecture.
+
+
+
+### *How It Makes Existing Tasks Easier and Safer*
+
+*   *Real-Time Impact Alerts (Blast Radius):* When a developer edits a file or database schema, the system immediately highlights all upstream and downstream dependents. This warns developers if an API contract change will break other services before the error propagates.
+*   *Slashes Onboarding Time:* It reduces the time required for new engineers to understand unfamiliar, undocumented codebases from weeks to mere hours.
+*   *Automated Architectural Reviews:* Tech leads can use it to automatically generate architectural health and compliance reports, allowing them to visually spot "spaghetti code" or duplicate logic before a pull request is ever merged.
+*   *Secure Code Analysis:* The backend utilizes ephemeral, isolated Docker containers to clone and process repositories, ensuring that enterprise systems remain completely safe and insulated from raw code execution during the analysis phase.
+
+**Challenges we ran into**
+
+1. The Hurdle: Safe and Secure Repository Ingestion
+When building a tool that clones and parses external GitHub repositories, a major challenge is doing so without messing up the local filesystem or exposing the host system to security risks from raw code execution. 
+*   *How we got over it:* Instead of cloning directly to the host, we built an Asynchronous Ingestion Engine (docker_service.py). Whenever a repository is imported, the backend spawns a temporary, ephemeral Docker container (alpine/git). This lightweight container clones the target repository into an isolated, host-mounted volume, ensuring it is safe, modular, and automatically cleans up after itself. This provides an enterprise-grade security approach by fully insulating the host system.
+
+### 2. The Hurdle: UI Freezing During Massive Codebase Digestion
+Parsing, chunking, and vectorizing an entire polyglot codebase into a ChromaDB vector database takes time. If done synchronously, this would completely block the user interface and ruin the user experience.
+*   *How we got over it:* We leveraged a decoupled architecture using FastAPI BackgroundTasks. When a user submits a GitHub URL, the backend immediately returns a 202 Accepted status so the UI remains unblocked, while the heavy ingestion task is queued in the background. The frontend then transitions to a "Scanning" state and continuously polls a /github/status/{repo_id} endpoint to check if the vector database indexing has finished.
+
+### 3. The Hurdle: Rendering Thousands of Dependencies visually
+Mapping every file, function, class, and database entity across a massive microservice architecture creates a visually overwhelming and computationally heavy graph. 
+*   *How we got over it:* We integrated react-cytoscapejs (Cytoscape.js), a high-performance graph engine capable of rendering thousands of nodes. To make the massive graph usable, we implemented physics-based layouts (like Cose/Force-directed) to organically cluster related modules together, alongside interactive node-type filtering so developers can dim irrelevant nodes and isolate specific service boundaries.
+
+### 4. The Hurdle: Dependency Graphs Becoming Instantly Stale
+A static analysis graph is only useful until a developer makes their next edit, at which point the architecture map becomes outdated.
+*   *How we got over it:* For the VS Code extension (EzScan), we built in "live tracking". As files change, the extension automatically refreshes the dependency overlays in real-time, ensuring developers always see the current blast radius and impact instead of a stale diagram.
+
+**GenAI**
+
+Synapse (also referred to as EzScan in its VS Code extension form) is a GenAI-powered polyglot code intelligence platform designed to map the "invisible bridges" within complex software. It acts as an intelligent repository analyzer that automatically ingests codebases to build an interactive, 3D/2D visual dependency graph. This graph traces logic and API dependencies end-to-end—from frontend frameworks (like React) down through backend services (like Node.js or Python) and into database schemas (SQL).
+Under the hood, the platform uses a Retrieval-Augmented Generation (RAG) indexing engine that securely chunks and vectorizes the code, storing it in ChromaDB. This powers a context-aware AI agent that "knows" the user's entire system architecture. Through a web dashboard or a live VS Code extension, developers can chat with the agent to understand codebase boundaries, track the real-time blast radius of their changes, identify redundant logic, and even execute prompt-driven file edits directly safely within their workspace.
+How the Project Fits into the GenAI Track
+The project is highly tailored for the ByteCamp 2026 GENAI Track because it uses Generative AI to solve a critical engineering bottleneck: polyglot complexity.
+Here is exactly how it addresses the track's requirements:
+
+    Overcoming the Limits of Traditional Tools: Traditional static analysis tools break down at language boundaries; they cannot easily see how a button click in a React frontend triggers a specific Python script and alters a SQL database. Synapse highlights how traditional tools fail and uses GenAI to bridge these structural gaps.
+    Deep Semantic Understanding: Generative AI uniquely solves the polyglot dependency problem by understanding code semantically, regardless of its syntax. For example, the AI can conceptually trace a symbolic reference across boundaries even when naming conventions change, matching username in JavaScript to user_name in SQL and UserName in Java.
+    Agentic Workflows over Static Search: Instead of just acting as a generic code search tool, the project utilizes GenAI to act as a specialized architectural agent. The LLM can digest semantic searches from the vector database to accurately answer complex architectural questions, generate workspace-safe codebase edits, and suggest real-time, one-click fixes before errors propagate downstream
+
+Team **HackOverflow** -- [Vinay Pokharkar](github.com/vinaypokharkar), [Shubham Patil](https://github.com/Shucrates), [Yash Varma](https://github.com/yashgv)
+
+`2026-03-15`
+
+---
+
+### TryNex
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/trynex-9768) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/adityanaulakha/Electrothon-8.0) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://trynex-virtual-try-on.vercel.app/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://vimeo.com/1173689624?share=copy&fl=sv&fe=ci) [![Built at](https://img.shields.io/badge/Built%20at-Electrothon%208.0-0052CC?style=flat-square)](https://electrothon-8.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> A Virtual Try-On Platform
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Expo](https://img.shields.io/badge/Expo-333333?style=flat-square) ![PyTorch](https://img.shields.io/badge/PyTorch-333333?style=flat-square) ![OpenCV](https://img.shields.io/badge/OpenCV-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![gemini](https://img.shields.io/badge/gemini-333333?style=flat-square)
+
+**The problem it solves**
+
+Online shopping and outfit planning are often difficult because people cannot easily visualize how clothes will look on them before trying them physically. This leads to uncertainty in buying decisions, high product return rates, and wasted time when choosing outfits.
+
+**TryNex** solves this problem by providing a virtual try-on platform that allows users to digitally visualize clothing before purchasing or wearing it. **Using computer vision and AI**, users can scan their clothes to create a digital wardrobe and try different outfit combinations in real time.
+
+The platform also helps users organize their wardrobe and receive smart outfit suggestions, making it easier to plan what to wear for different occasions. By combining AI, AR visualization, and a mobile-friendly interface, **TryNex** improves the online fashion experience and reduces the need for physical trial-and-error when selecting clothes.
+
+**Challenges we ran into**
+
+During the development of **TryNex**, we faced several challenges across model training, debugging, and mobile integration.
+
+Training the computer vision model was difficult because clothing items vary in shape, texture, and lighting, which affected segmentation and feature extraction. We improved accuracy by refining our preprocessing pipeline using OpenCV techniques such as background removal, contour detection, and image normalization.
+
+We also encountered inconsistencies between PyTorch training outputs and inference results during deployment. This was resolved by standardizing image input sizes and optimizing the inference pipeline to ensure consistent predictions.
+
+Another challenge was integrating the AI pipeline with our Expo-based mobile application. Implementing real-time updates between the backend and the mobile interface required careful API design and asynchronous data handling.
+
+By optimizing data transfer and moving heavy processing to backend services, we were able to reduce latency and ensure a smoother real-time virtual try-on experience.
+
+**Google Cloud**
+
+Our project, **TryNex – A Virtual Try-On Platform**, leverages Google Cloud and the Gemini API to build an AI-powered digital wardrobe and virtual fashion assistant.
+
+The mobile application is built using Expo and allows users to scan or upload clothing items, which are processed using computer vision techniques developed with PyTorch and OpenCV to generate structured clothing representations and 3D wardrobe models. These clothing items are then stored and managed through cloud services.
+
+We integrate the Gemini API on Google Cloud to provide intelligent fashion assistance. Gemini analyzes clothing images to automatically identify attributes such as clothing type, color, and style, allowing the system to organize a user's wardrobe automatically. It also generates outfit recommendations by analyzing the user’s available clothing items and suggesting combinations for different occasions.
+
+Additionally, Gemini enables a conversational AI stylist within the app. Users can ask questions like “What should I wear for a casual evening?” and the system generates personalized outfit suggestions from their wardrobe. The recommended outfits can then be visualized through our AR-based virtual try-on interface.
+
+The backend services are designed to run on Google Cloud infrastructure, enabling scalable AI inference, image analysis, and real-time recommendations. By combining computer vision, AR visualization, and Gemini-powered reasoning, our project demonstrates how Google Cloud and generative AI can power intelligent, personalized fashion experiences.
+
+Team **BITRATE** -- [Harshvardhan Gupta](https://github.com/Harshvardhangupta-32), [Akshita Singh](https://github.com/Akshita055), [Vaishnav Ramesh](https://github.com/Vaishnav-P-Ramesh), [Aditya Naulakha](https://github.com/adityanaulakha)
+
+`2026-03-15`
+
+---
+
+### Trace Shield
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/trace-shield-8653) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Srbaqua/TraceShield) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/1YGFy4vUgMU) [![Built at](https://img.shields.io/badge/Built%20at-Electrothon%208.0-0052CC?style=flat-square)](https://electrothon-8.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> A monitoring agent for all your other agents
+
+![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+Modern digital infrastructure relies heavily on APIs to perform critical operations such as financial transfers, resource allocation and backend configuration changes. However, these APIs are highly vulnerable to malicious manipulation, abnormal user behavior, and policy violations.
+
+Attackers can intercept or modify network requests, automate abnormal transactions, or exploit poorly protected endpoints. Traditional security systems rely on static rule engines or simple validation layers, which often fail to detect subtle behavioral anomalies or manipulated payloads.
+
+Argus Sentinel addresses this problem by introducing an AI‑powered governance layer that sits between applications and their backend services.
+
+Instead of trusting requests blindly, the system analyzes every critical operation using a multi‑agent AI governance pipeline before allowing execution.
+
+**Challenges we ran into**
+
+During development, we encountered situations where different agents produced contradictory outputs. For example, the AI auditor might flag a transaction as suspicious while the policy engine allowed it because no explicit rule was violated. This made it difficult to determine the final system decision.
+
+To solve this problem, we introduced a Negotiator Agent that acts as the decision mediator. The negotiator aggregates outputs from all agents and applies a final governance logic that balances AI reasoning, risk scores, and policy constraints.
+
+Another challenge was ensuring type‑safe communication between agents and services. Since multiple agents exchange structured data, inconsistencies in request payloads could cause runtime errors or unexpected behavior.
+
+We addressed this by introducing Zod schema validation for all request inputs and internal agent messages. This ensured that every request entering the governance pipeline is validated and strongly typed before processing.
+
+We also faced challenges simulating realistic attack scenarios. To demonstrate how the system protects against manipulated network requests, we used Requestly to intercept API calls and modify request payloads in transit. This allowed us to simulate malicious behavior such as artificially inflated transaction amounts and verify that Trace Shield correctly detects and blocks them.
+
+**Electrothon 8.0 Winners**
+
+Trace Shield aligns strongly with the overall goals of Electrothon 8.0 by demonstrating how modern AI systems can be used to build secure, intelligent, and scalable digital infrastructure.
+
+The project brings together multiple technologies—AI reasoning, multi‑agent orchestration, request interception, and AI tool ecosystems—to create a governance layer for critical API systems.
+
+Modern platforms rely heavily on APIs for executing sensitive operations such as financial transactions, infrastructure configuration, and resource allocation. However, these systems are often vulnerable to request manipulation, abnormal user behavior, and policy violations.
+
+**Requestly Track**
+
+Trace Shield integrates Requestly to simulate real‑world attack scenarios by intercepting and modifying network requests in transit.
+
+In our demonstration, Requestly intercepts API requests and alters the payload to simulate malicious behavior such as inflated transaction amounts or manipulated resource allocations.
+
+**Nullshot Track**
+
+Trace Shield integrates Nullshot as a collaborative governance and agent‑interaction layer for AI‑driven infrastructure.
+
+Our system detects suspicious API behavior using a multi‑agent pipeline. When an abnormal event occurs—such as a high‑risk transaction or unexpected agent behavior—the system not only blocks the request but also generates a new governance policy using AI reasoning.
+
+Nullshot is used to publish and share these generated policies as reusable tools within the agent ecosystem.
+
+How It Works in Our Architecture
+Threat Detection
+
+Trace Shield analyzes incoming requests using multiple agents (Auditor, Risk, Policy).
+
+If the system detects abnormal activity, it triggers the Policy Suggestion Agent.
+
+AI Policy Generation
+
+The agent uses a generative model to analyze the threat and propose a new governance rule.
+
+Publishing to Nullshot
+
+The generated policy is then published through a Nullshot MCP tool.
+
+This allows other agents and developers to discover, reuse, and integrate the policy.
+
+Collaborative Governance
+
+Instead of static security rules, governance policies become shared intelligence across agents.
+
+Multiple systems can adopt these policies to prevent similar threats.
+Without Nullshot, Trace Shield would only function as a single security layer.
+
+With Nullshot, it becomes a collaborative AI governance network, where policies evolve and propagate across systems.
+
+**IQ AI**
+
+Trace Shield uses the IQAI ADK framework to implement a multi‑agent governance pipeline that evaluates critical API operations before execution.
+
+Within our system, IQAI orchestrates multiple specialized agents:
+
+Behavior Analyzer Agent – analyzes user behavior patterns
+
+AI Auditor Agent (Gemini‑powered) – performs contextual reasoning
+
+Risk Agent – calculates structured risk scores
+
+Policy Agent – enforces governance rules
+
+Negotiator Agent – resolves conflicting outputs between agents
+
+The IQAI framework allows these agents to operate as a coordinated reasoning pipeline where each agent contributes specialized insights before the final governance decision is made.
+
+**Vultr**
+
+Trace Shield is designed as cloud‑deployable infrastructure capable of running as a middleware governance layer for high‑availability backend services.
+
+The architecture is compatible with scalable cloud environments such as Vultr’s compute infrastructure.
+
+**Best Use of Gemini 3 [Google Deepmind]**
+
+Trace Shield integrates Gemini through the IQAI ADK framework as the reasoning engine for its Auditor Agent.
+
+Instead of relying solely on rule‑based detection, Gemini performs contextual reasoning about incoming requests.
+
+Gemini analyzes factors such as:
+
+abnormal transaction magnitude
+
+behavioral deviations from historical patterns
+
+contextual anomalies in request payloads
+
+This enables Trace Shield to perform AI‑driven anomaly detection and explainable decision making, which significantly improves security compared to traditional rule‑based systems.
+
+Team **ReadmeChanger** -- [Sauren Sharma](https://github.com/Dralt03), [Saurabh Chaudhary](https://github.com/Srbaqua)
+
+`2026-03-15`
+
+---
+
+### TripMania
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/tripmania-afe0) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/pranjal0jais/Wandr) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://wandr-um8j.onrender.com/) [![Built at](https://img.shields.io/badge/Built%20at-Electrothon%208.0-0052CC?style=flat-square)](https://electrothon-8.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Your Perfect Trip Crafted by AI
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![Leaflet](https://img.shields.io/badge/Leaflet-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![Java](https://img.shields.io/badge/Java-333333?style=flat-square) ![Docker](https://img.shields.io/badge/Docker-333333?style=flat-square) ![Spring](https://img.shields.io/badge/Spring-333333?style=flat-square) ![Thymeleaf](https://img.shields.io/badge/Thymeleaf-333333?style=flat-square)
+
+**The problem it solves**
+
+# ✈ Wandr — AI Travel Itinerary Planner
+
+> *Stop spending hours on Google. Get a personalized, day-by-day travel plan in seconds.*
+
+---
+
+## The Problem
+
+Planning a trip is exhausting. A typical traveler spends **8–12 hours** before a trip doing this:
+
+- Googling "best places to visit in Manali"
+- Opening 15 tabs of travel blogs written in 2019
+- Cross-referencing Google Maps to check if places are near each other
+- Manually building a day-by-day schedule that makes geographic sense
+- Checking opening hours for each attraction one by one
+- Finding out at the destination that a place is temporarily closed
+- Repeating this for restaurants, hotels, and activities separately
+
+The result is either a half-baked plan or decision fatigue before the trip even starts. Most people either over-plan and burn out, or under-plan and waste time figuring it out on-site.
+
+**Wandr solves this in under 60 seconds.**
+
+---
+
+## What It Does
+
+Wandr is a full-stack web application that takes your destination, trip duration, group size, and travel vibe — and instantly generates a complete, ready-to-use travel itinerary powered by AI and real place data.
+
+### Input
+- **Destination** — type any city, town, or region (or detect your current location)
+- **Travelers** — how many people in the group
+- **Days** — trip duration from 1 to 14 days
+- **Vibe** — Adventure, Foodie, Relaxation, Culture, Nightlife, Shopping, or Family
+- **Budget** — Budget, Moderate, or Luxury
+
+### Output
+A complete trip plan with:
+- Day-by-day schedule broken into Morning / Afternoon / Evening slots
+- Real places with names, addresses, and ratings
+- Live **open/closed status** for every place (so you never show up to a closed attraction)
+- Walking/driving **distances between stops** so the route makes geographic sense
+- Meal recommendations for breakfast, lunch, and dinner each day
+- An **interactive map** with numbered markers for every stop
+- Travel tips, safety notes, local currency, emergency numbers
+- A **downloadable PDF** of the full itinerary for offline use
+
+---
+
+## The Solution — How It Works
+
+```
+User Input
+    │
+    ▼
+Nominatim (OpenStreetMap)
+    │  Converts "Manali" → [32.24°N, 77.18°E]
+    ▼
+Overpass API (OpenStreetMap)
+    │  Fetches 25 real nearby places filtered by vibe
+    │  (temples, restaurants, parks, museums, markets...)
+    ▼
+Gemini AI (Google)
+    │  One API call — plans the full itinerary:
+    │  • Assigns places to days and time slots
+    │  • Writes day narratives and themes
+    │  • Adds meal recommendations and transport tips
+    │  • Generates trip overview, currency, language, tips
+    ▼
+ItineraryService (Spring Boot)
+    │  Assembles the response:
+    │  • Calculates real distances between stops (Haversine)
+    │  • Estimates walk/drive time between each place
+    │  • Applies open/closed status from OSM opening_hours
+    │  • Falls back gracefully if Gemini quota is exceeded
+    ▼
+Frontend (Thymeleaf + Leaflet.js)
+    │  Renders the itinerary:
+    │  • Interactive tabbed day view
+    │  • Live Leaflet map with numbered markers + route line
+    │  • Color-coded status badges per place
+    ▼
+PDF (iText html2pdf)
+    └  Generates a styled, printable PDF for offline travel
+```
+
+---
+
+## Key Features
+
+### 🗺 Real Place Data — Not Hallucinated
+Places come from **OpenStreetMap via the Overpass API** — a crowd-sourced database of millions of real-world locations. The AI only arranges and narrates; it doesn't invent place names.
+
+### 🕐 Live Open/Closed Status
+Every place card shows whether it's open right now, what today's hours are, or if it's temporarily/permanently closed — pulled directly from OSM `opening_hours` tags. Permanently closed places are filtered out entirely and never shown.
+
+### 📐 Geographically Logical Routes
+Stops within each day are arranged so nearby places are visited together. The Haversine formula calculates the real straight-line distance between every consecutive pair of stops and estimates whether it's a walk, drive, or taxi ride.
+
+### 🤖 Gemini AI — Single Optimized Call
+The entire AI plan (day schedule + narratives + tips + overview) is generated in **one Gemini API call**, minimising quota usage. If the quota is exhausted, the app falls back to a fully functional rule-based itinerary builder — the app never breaks.
+
+### 📄 Offline PDF
+The complete itinerary — including all places, times, addresses, open/closed status, meal suggestions, tips, and emergency info — is exported as a professionally styled PDF. No internet needed once downloaded.
+
+### 🗺 Interactive Leaflet Map
+A fully interactive OpenStreetMap-powered map shows every stop as a numbered, color-coded marker (color = day). Clicking a marker shows place details. A dashed gold route line connects all stops in order.
+
+---
+
+## Tech Stack
+
+| Layer | Technology | Why |
+|---|---|---|
+| Backend | Spring Boot 3.2 (Java 17) | Production-grade, widely deployed |
+| AI | Google Gemini 2.0 Flash Lite | Fast, generous free tier |
+| Places | OpenStreetMap + Overpas
+
+**Challenges we ran into**
+
+# Challenges Faced While Building Wandr
+
+A honest log of every major problem hit during development and how each one was solved.
+
+---
+
+## 1. Google API Billing Wall
+
+**Problem:** The project was designed around Google Places API, but creating a billing account kept throwing errors. Without billing enabled, the API key had zero quota — making the entire places layer non-functional before the project even started.
+
+**Solution:** Replaced Google Places, Geocoding, and Static Maps entirely with free OpenStreetMap alternatives — Nominatim for geocoding, Overpass API for place search, and Leaflet.js for the map. No account, no credit card, no quota limits.
+
+**Lesson:** Always validate whether your chosen API actually requires billing before building your architecture around it.
+
+---
+
+## 2. Overpass API — 400 Bad Request
+
+**Problem:** Every call to the Overpass API returned a `400 Bad Request` with the error `Unknown type "%"`. The queries were being built correctly in Java but arriving at the server corrupted.
+
+**Root cause:** `URLEncoder.encode()` encodes spaces as `+` and `%` characters as `%25`, but the encoded string was then being passed as a GET query parameter — which caused double-encoding. Overpass received `%25` and `%2B` instead of the actual query characters.
+
+**Solution:** Switched from GET + URL encoding to HTTP POST with `application/x-www-form-urlencoded` body (`data=<query>`). This is the correct way to call the Overpass API and completely eliminates the encoding issue.
+
+---
+
+## 3. `Cannot resolve symbol 'client'`
+
+**Problem:** IntelliJ showed a red error on `RestTemplateBuilder` — specifically on the `.connectTimeout()` and `.readTimeout()` methods.
+
+**Root cause:** Spring Boot 3.x removed these two convenience methods from `RestTemplateBuilder`. They were tied to the deprecated Apache HttpClient 4.x library which was also removed in Spring Boot 3.
+
+**Solution:** Replaced `RestTemplateBuilder` with `SimpleClientHttpRequestFactory`, which uses Java's built-in `HttpURLConnection`. No external HTTP client dependency needed at all.
+
+---
+
+## 4. Gemini Model — 404 Not Found
+
+**Problem:** After getting everything else working, every Gemini call returned `404 — models/gemini-1.5-flash is not found`.
+
+**Root cause:** `gemini-1.5-flash` had been deprecated and removed from the `v1beta` endpoint between the time the project was designed and when it was run.
+
+**Solution:** Updated the model name in `application.properties` to `gemini-2.0-flash-lite`, which is the current lightweight model on the free tier.
+
+---
+
+## 5. Gemini 429 — Quota Exhausted
+
+**Problem:** After fixing the model name, the app immediately hit `429 RESOURCE_EXHAUSTED` with `limit: 0`. The original design made 5–6 separate Gemini API calls per itinerary request (one for the plan, one per day narrative, one for the overview), burning through the free daily quota in just a few test runs.
+
+**Solution — two-part fix:**
+1. Reduced all 5–6 Gemini calls to a single combined call that returns the full itinerary, day narratives, tips, currency, and emergency info in one JSON response.
+2. Built a complete fallback itinerary builder that uses real OpenStreetMap places to construct a functional day-by-day plan without any AI — so the app never breaks even when the quota is zero.
+
+---
+
+## 6. PDF Generation Crash — iText CSS Error
+
+**Problem:** Downloading the PDF threw a `CssRuleSetParser` exception: `Invalid selector string: 400;700&display=swap`.
+
+**Root cause:** The PDF HTML template had a Google Fonts `@import url('https://fonts.googleapis.com/...')` at the top of the `<style>` block. iText's html2pdf tries to parse this as CSS and chokes on the URL string because it cannot make external HTTP requests during PDF rendering.
+
+**Solution:** Removed the `@import` entirely from the PDF template. Replaced `Cormorant Garamond` and `DM Sans` with `Georgia` and `Arial` — fonts that iText has built-in support for. The PDF now generates cleanly with no external dependencies.
+
+---
+
+## 7. Also had `itextpdf` 5.x and `html2pdf` 4.x at the same time
+
+**Problem:** The original `pom.xml` included both `com.itextpdf:itextpdf:5.5.13.3` (legacy iText 5) and `com.itextpdf:html2pdf:4.0.5` (iText 7). These are completely different libraries under the same group ID — they conflict at runtime and cause `ClassNotFoundException` errors.
+
+**Solution:** Removed `itextpdf` 5.x entirely. `html2pdf` 4.x already pulls in iText 7 kernel, layout, and IO as transitive dependencies — nothing else needs to be declared.
+
+---
+
+## 8. Leaflet Map Not Showing — Blank Container
+
+**Problem:** After generating an itinerary, the Trip Map section either showed nothing or rendered a grey/blank box with no tiles.
+
+**Root cause — three separate issues stacked on top of each other:**
+1. The results section had `display:none` when `renderLeafletMap()` was called. Leaflet measured the container as `0px height` and built a zero-size tile grid.
+2. The map `div` had no explicit height set — it relied on
+
+Team **TRIPMANIA** -- [Ameya Bhandarkar](https://github.com/arbhandarkar167-max), [Piyush Gedam](https://github.com/gedampiyush17-eng), [Pranjal Jais](https://github.com/pranjal0jais/), [Nakul Rathod](https://github.com/nakul-hue)
+
+`2026-03-15`
+
+---
+
+### MedCare
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/medcare-d8ad) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Parth25kharwade/Medcare_Backend) [![Built at](https://img.shields.io/badge/Built%20at-Electrothon%208.0-0052CC?style=flat-square)](https://electrothon-8.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Building the digital infrastructure for smarter me
+
+![Java](https://img.shields.io/badge/Java-333333?style=flat-square) ![MySQL](https://img.shields.io/badge/MySQL-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-333333?style=flat-square)
+
+**The problem it solves**
+
+## The Problem It Solves
+
+Healthcare facilities, especially small clinics and hospitals, often rely on **manual records or disconnected software systems** to manage patients, staff, appointments, and medical inventory. This leads to several issues:
+
+- ❌ **Inefficient patient management** due to scattered or paper-based records  
+- ❌ **Difficulty in scheduling and tracking appointments**  
+- ❌ **Poor coordination between doctors, staff, and administrators**  
+- ❌ **Inventory mismanagement** of medicines and medical supplies  
+- ❌ **Lack of a centralized system for healthcare operations**
+
+### How Medcare Helps
+
+**Medcare Backend** provides a **centralized and scalable backend system** that enables healthcare platforms to manage operations efficiently through secure APIs.
+
+It helps by:
+
+- 🏥 **Managing patient records digitally** for quick access and better organization  
+- 📅 **Handling appointment scheduling** between patients and doctors  
+- 👨‍⚕️ **Supporting role-based access** for admins, doctors, and staff  
+- 💊 **Tracking medical inventory** to avoid shortages or mismanagement  
+- 🔗 **Providing REST APIs** that can integrate easily with web or mobile healthcare applications
+
+### Who Can Use It
+
+This system can be used by:
+
+- **Hospitals and Clinics** to manage daily healthcare operations  
+- **Healthcare startups** building digital health platforms  
+- **Developers** who want a backend foundation for healthcare management systems  
+- **Medical administration teams** looking to digitize and streamline workflows
+
+By digitizing healthcare workflows, **Medcare reduces manual effort, improves efficiency, and enables better patient care management.**
+
+**Challenges we ran into**
+
+## Challenges I Ran Into
+
+One of the main challenges while building this project was handling authentication and role-based access properly. Since the system involves different users such as admins, doctors, and staff, it was important to make sure that each role only had access to the actions they were supposed to perform. Setting up JWT authentication and configuring Spring Security correctly took some trial and error.
+
+Another issue came up while working with environment variables and configuration files. At one point the application failed to start because certain environment variables (like the JWT secret) were not being loaded correctly. Debugging the Spring Boot configuration and making sure the variables were available in the environment solved the problem.
+
+I also ran into a few Git conflicts while collaborating and pushing updates, especially when local changes didn't match the remote repository. Resolving merge conflicts and rebasing helped keep the repository clean and allowed development to continue smoothly.
+
+Working through these issues helped me better understand Spring Boot configuration, security setup, and version control workflows.
+
+**Google Cloud**
+
+## How Google Cloud Was Used
+
+Google Cloud was used to host and run the backend service so that the application could be accessed online instead of only running locally. The Spring Boot backend was containerized using Docker and deployed to Google Cloud, which made it easier to manage the environment and ensure the application runs consistently.
+
+Google Cloud services helped in handling the deployment and scaling of the backend infrastructure. By running the backend on the cloud, the system can be accessed by other services such as web dashboards or mobile applications through APIs.
+
+Using Google Cloud also made it easier to manage environment configurations, monitor the application, and keep the backend running reliably without depending on a local machine.
+
+Overall, Google Cloud was used to provide a **stable, scalable, and accessible hosting environment** for the Medcare backend.
+
+Team **Quantum Crew** -- [Parth Kharwade](https://github.com/Parth25kharwade), [Nikhil Maurya](https://github.com/nikhilmaurya1305), [Monish Kale](https://github.com/Monishkale)
+
+`2026-03-15`
 
 ---
 
@@ -11267,6 +15792,2594 @@ The major challange was the data collection regarding the family welfare cases. 
 Team **Team_TechTalk** -- Arpita Tayal, SHAMBHAVI SINGH
 
 `2026-04-28`
+
+---
+
+### NGineer
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/ngineer-b77f) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/xiaoxinny/NGineer) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://ngineer.xiaoxin.dev) [![Built at](https://img.shields.io/badge/Built%20at-Push%20to%20Prod%20Hackathon%20with%20Genspark%20&%20Claude-0052CC?style=flat-square)](https://push-to-prod.devfolio.co)
+
+> Beginner-friendly modular platform for engineers.
+
+![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![Docker](https://img.shields.io/badge/Docker-333333?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![Mongoose ORM](https://img.shields.io/badge/Mongoose%20ORM-333333?style=flat-square)
+
+**The problem your project solves**
+
+Beginners have trouble within the school's new course to learn robotics. This is meant for fundamental basics to learn how to do robotics and hardware engineerin.g
+
+**What is the deployed URL for this project?**
+
+https://ngineer.xiaoxin.dev
+
+**How you are solving it**
+
+An all-in-one platform with clear instructions and ease to use with simulation and detailed, accurate instructions for things like soldering, connecting wires, power budgeting, etc.
+
+**Use of Genspark**
+
+Research of hardware components using the Genspark Cloud Claw instance.
+
+**Use of Claude**
+
+Programming, curating, designing of the entire application.
+
+Team **Tyllage** -- [JIAXIN YI](https://github.com/xiaoxinny)
+
+`2026-04-24`
+
+---
+
+### Project Godiva
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/project-godiva-7e5b) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/myriosMin/godiva) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://drive.google.com/drive/folders/1v8l9Oz-HhNCeISvEtxcCrx2QUemJFKaq?usp=sharing) [![Built at](https://img.shields.io/badge/Built%20at-Push%20to%20Prod%20Hackathon%20with%20Genspark%20&%20Claude-0052CC?style=flat-square)](https://push-to-prod.devfolio.co)
+
+> Signal to SOP to flag-flip — approved in one click
+
+![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![Drizzle](https://img.shields.io/badge/Drizzle-333333?style=flat-square) ![Vercel](https://img.shields.io/badge/Vercel-333333?style=flat-square) ![postgres](https://img.shields.io/badge/postgres-333333?style=flat-square) ![claude](https://img.shields.io/badge/claude-333333?style=flat-square) ![Better Auth](https://img.shields.io/badge/Better%20Auth-333333?style=flat-square) ![Anthropic Managed Agents](https://img.shields.io/badge/Anthropic%20Managed%20Agents-333333?style=flat-square)
+
+**How you are solving it**
+
+## How Godiva works
+
+Godiva is built on the **Vercel Claude Managed Agents template** (Next.js 16 App Router + Better Auth + Neon/Drizzle + Vercel Workflow SDK) and turns an unstructured operational signal into an audited, one-click response through a four-step operator console:
+
+**Signal → AI recommendation → Human approval → Multi-channel execution**
+
+### 1. Signal intake and structured extraction
+
+Operators submit a maintenance email, vendor alert, or manual note through the dashboard. A fast **Claude Haiku** pass (`POST /api/godiva/classify-signal`) extracts the signal into typed JSON — affected system, severity hint, domain, bundle, maintenance window, duration, and affected features — using the `godiva-signal-schema` skill as the contract. This gives the rest of the workflow a clean, structured input instead of free text.
+
+### 2. AI decisioning via an Anthropic Managed Agent session
+
+`POST /api/godiva/analyze-signal` opens an **Anthropic Managed Agent session** (beta Sessions API) wired to **eight custom skills** we built and uploaded via the Skills API:
+
+- `godiva-severity-rules` — Critical / Major / Minor tiering
+- `godiva-ld-reference` — 20+ domains × feature-flag bundle lookup
+- `godiva-approval-matrix` — who has to sign off, per severity
+- `godiva-sop-playbook` — SOP templates per incident class
+- `godiva-banner-templates` — customer-facing banner copy
+- `godiva-vendor-status-urls` — authoritative vendor status pages
+- `godiva-escalation-contacts` — on-call escalation paths
+- `godiva-signal-schema` — the structured-extraction contract used in step 1
+
+A **Vercel Workflow** (`sessionWorkflow`) durably polls the session every 3s, persists every event to Postgres, and executes three custom tools the agent can call: `check_vendor_status` (live HTTP fetch of a vendor status page), `submit_recommendation` (writes severity + bundle + SOP to `godiva_incident.recommendation`), and `set_feature_status` (the flag-flip hook). Built-in tool confirmations are auto-allowed so the workflow never stalls.
+
+### 3. Checker–maker approval gate
+
+The AI's recommendation never auto-executes. The approval step shows both sides of the checker–maker model — **Ops Manager** (maker) and **Product Lead** (checker) — with the proposed bundle, the features it will toggle, and SOP steps laid out for review. Approve or reject hits `POST /api/godiva/approve | /reject`, which updates the incident row (`approvalStatus`, `approvedBy`, `approvedAt`, reason) and **resumes the workflow hook** so the agent re-engages with the human decision as context for the next turn.
+
+### 4. Multi-channel execution + audit trail
+
+On approval, Godiva flips the relevant feature flags across **App, uPortal, and Kiosk** in a single action and renders a customer-facing banner from a template. A persistent **feature status bar** polls every 5s so operators see green/red state across all three channels at a glance, and every transition writes to a **Service Event ID** for post-incident review.
+
+### What's real vs. mocked
+
+The AI decisioning, approval loop, workflow orchestration, feature-flag state, and SOP generation are **all real end-to-end** inside Godiva. The mocked pieces are strictly at the system boundaries:
+
+- **Signal ingress** — signals come from a pre-populated injector instead of a live email inbox / monitoring webhook.
+- **Banner / UI announcement egress** — customer-facing banners render inside the Godiva UI instead of publishing to real App, uPortal, and Kiosk surfaces.
+
+Both are mocked for the same reason: a hackathon project can't legitimately connect to a real company's customer infrastructure, and the underlying systems are confidential. Every boundary is behind the same API contract the production integrations would use, so swapping in the real endpoints is a config change, not a rewrite.
+
+**Use of Genspark**
+
+## How we used Genspark
+
+We used Genspark as a **research and validation partner**, not as a code generator. It played two specific roles in the build:
+
+### 1. Product research and validation
+
+Before committing to the four-step operator console we shipped, we used Genspark to pressure-test the problem framing — pulling together how incident & maintenance response is handled across ops-heavy companies, where checker–maker approval models show up in practice, and what severity-tiering conventions real service teams use. That research fed directly into the severity rules, approval matrix, and SOP templates we encoded as skills for the Anthropic Managed Agent.
+
+### 2. Testing the deployed website
+
+After each deploy, we used Genspark to exercise the live site as a first-pass reviewer — walking the end-to-end flow, probing edge cases in the signal → approval → execution loop, and sanity-checking that the UI communicated what we thought it did. This gave us an outside perspective on rough edges that were easy to miss when you've been staring at the same screens all day.
+
+### What we deliberately did *not* use Genspark for
+
+Code generation. The implementation (API routes, workflow, UI, skills, schema) was written against the Vercel Claude Managed Agents template using Claude. Keeping Genspark on the research/validation side and Claude on the build side gave us clear separation: Genspark helped decide *what* to build; Claude helped build it.
+
+**The problem your project solves**
+
+## The problem
+
+Service teams run on **manual, inconsistent incident & maintenance response**. When a vendor outage, partner maintenance email, or monitoring alert comes in, someone has to:
+
+1. Read the signal and decide how bad it is
+2. Figure out which customer-facing features are affected
+3. Flip the right feature flags across **App, uPortal, and Kiosk**
+4. Publish a customer banner that matches what was actually turned off
+5. Log the whole thing somewhere auditable
+
+Today this is stitched together across Slack threads, dashboards, and tribal knowledge. The cost:
+
+- **Fragmented signal interpretation** — two operators read the same email and reach different severity calls.
+- **Delayed mitigation** — every minute between "signal arrives" and "flag flipped" is a minute of broken customer experience.
+- **Multi-channel drift** — a flag gets flipped in App but missed on Kiosk, so one channel keeps taking orders the system can't fulfill.
+- **No audit trail** — post-incident reviews rely on Slack scrollback instead of a Service Event ID.
+
+## Why it's worth solving
+
+Incident & maintenance response is one of the highest-leverage internal workflows in any ops-heavy company. Shaving minutes off triage, and removing the "did we remember Kiosk?" class of mistake, directly reduces customer impact — and frees operators to handle the judgment calls that actually need a human.
+
+**Use of Claude**
+
+## How we used Claude
+
+Claude is the **engine** behind Godiva — both at build time and at runtime. It shows up in five distinct places:
+
+### 1. Anthropic Managed Agents — the decisioning core
+
+The heart of Godiva is an **Anthropic Managed Agent** session, invoked via the beta Sessions API (`client.beta.sessions`) and driven by a Vercel Workflow that durably polls `sessions.events.list` every 3 seconds. Every event — assistant messages, tool calls, `requires_action`, `status_idle` — is persisted to Postgres so the workflow is crash-safe and the UI can replay the full decisioning trace.
+
+### 2. Eight custom Skills uploaded via the Skills API
+
+We built and uploaded eight domain-specific skills via `client.beta.skills` (IDs tracked in `godiva-skills.json`) so the agent can reason with real operational knowledge instead of a bloated system prompt:
+
+- `godiva-severity-rules` — Critical / Major / Minor tiering
+- `godiva-ld-reference` — 20+ domains × feature-flag bundle lookup
+- `godiva-approval-matrix` — who has to sign off, per severity
+- `godiva-sop-playbook` — SOP templates per incident class
+- `godiva-banner-templates` — customer-facing banner copy
+- `godiva-vendor-status-urls` — authoritative vendor status pages
+- `godiva-escalation-contacts` — on-call escalation paths
+- `godiva-signal-schema` — the structured-extraction contract
+
+A `pnpm skills:sync` script reads each `SKILL.md`, pushes a new version to Anthropic, and updates the ID registry — so skill edits are part of the normal dev loop.
+
+### 3. Three custom tools the agent calls
+
+Inside a session the agent can call three tools we defined: `check_vendor_status` (live HTTP fetch of a vendor status page), `submit_recommendation` (writes severity + bundle + SOP to the incident row), and `set_feature_status` (the flag-flip hook). Built-in tool confirmations are auto-allowed so the workflow never stalls.
+
+### 4. Claude Haiku 4.5 for fast structured extraction
+
+Three supporting routes use **Claude Haiku 4.5** (`claude-haiku-4-5-20251001`) directly via the SDK for latency-sensitive structured work:
+
+- `/api/godiva/classify-signal` — parses raw email/alert into the `godiva-signal-schema` JSON contract
+- `/api/godiva/generate-signal` — synthesizes test signals for the demo
+- `/api/godiva/generate-banner` — fills banner templates from the approved recommendation
+
+### 5. Claude Code (Sonnet 4.6) to build the whole thing
+
+Every line of Godiva — the Next.js 16 App Router app, the Drizzle schema, the Vercel Workflow, the custom tool handlers, the skills content, the shadcn/ui dashboard — was written collaboratively with **Claude Code** (Sonnet 4.6). The agent helped us move from the Vercel Claude Managed Agents template to a working incident-response console inside the hackathon timebox.
+
+**What is the deployed URL for this project?**
+
+https://godiva-pi.vercel.app/
+
+Team **B-List** -- [Min Phyo](https://github.com/myriosMin), [YanKai Lim](https://github.com/-), [Michelle O](https://github.com/michelleo-spgroup)
+
+`2026-04-24`
+
+---
+
+### ShipShape
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/shipshape-8d98) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Michael-Nwachukwu/shipshape) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://www.loom.com/share/65f00bc94fe349c78b7f7722f71733e0) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.loom.com/share/65f00bc94fe349c78b7f7722f71733e0) [![Built at](https://img.shields.io/badge/Built%20at-Locus'%20Paygentic%20Hackathon%20--%20#2-0052CC?style=flat-square)](https://paygentic-week2.devfolio.co)
+
+> Deploy from VS Code. No config, no browser.
+
+![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![REST API](https://img.shields.io/badge/REST%20API-333333?style=flat-square) ![Docker](https://img.shields.io/badge/Docker-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![vs code](https://img.shields.io/badge/vs%20code-333333?style=flat-square) ![WebView](https://img.shields.io/badge/WebView-333333?style=flat-square) ![gemini](https://img.shields.io/badge/gemini-333333?style=flat-square) ![SSE](https://img.shields.io/badge/SSE-333333?style=flat-square)
+
+**The problem it solves**
+
+## The problem
+
+Shipping a product means juggling a cloud console, a Dockerfile, a YAML lint loop, and terminal tabs — while your code sits in VS Code.
+
+## What ShipShape does
+
+ShipShape turns VS Code into a deployment cockpit, leveraging **Build with Locus**. One click on an open workspace → framework auto-detected → .locusbuild generated & verified → projects/from-repo called → build logs stream into an output channel → live HTTPS URL pops as a notification: no browser, no Dockerfile, no config pilgrimage, just your Locus API key.
+
+![image](https://assets.devfolio.co/content/def633405f954548b3f0bd4d399eb9f9/fedd9fd1-ae73-4bc0-8549-376ba79ecd18.png)Screenshot 2026-04-23 at 4.41.08 PM
+
+## Features
+
+- **One-click deploy** with auto-detection for Next.js, Vite, Express, FastAPI, Django, Rails, Node, Python, and Dockerfile.
+- **AI deploy** — describe what you want; Gemini 2.5 Flash generates a .locusbuild via structured output, preflights with verify-locusbuild, then deploys.
+![image](https://assets.devfolio.co/content/def633405f954548b3f0bd4d399eb9f9/561f6d6b-039c-4486-b584-d4fa552d9e7c.png)Screenshot 2026-04-23 at 4.48.34 PM
+- **AI failure diagnosis** — on failure, Gemini reads build logs and returns a one-file patch. *Apply & Redeploy* appears when the fix is low-risk.
+![image](https://assets.devfolio.co/content/def633405f954548b3f0bd4d399eb9f9/6c174c50-002b-4a7b-946f-d4a31f0f59a9.png)Screenshot 2026-04-21 at 9.17.23 PM
+- **Service explorer** — projects → environments → services → deployments, with right-click restart / rollback / auto-deploy / logs / env vars.
+- **Env var manager** — webview that auto-redeploys on save.
+![image](https://assets.devfolio.co/content/def633405f954548b3f0bd4d399eb9f9/b9eadc53-5d11-4b4f-8ffe-be903046a492.png)Screenshot 2026-04-23 at 4.55.21 PM
+- **Custom domains** — Bring Your Own Domain, copy DNS records, *Check domain status*, attach, remove. Workspace-wide manager handles orphans.
+![image](https://assets.devfolio.co/content/def633405f954548b3f0bd4d399eb9f9/8eeadae5-d8f1-4703-a931-b1fc7b5b4218.png)Screenshot 2026-04-23 at 4.55.10 PM
+- **Status bar** — custom sailboat iconz + live state (Building / Deploying / Live / Failed).
+
+## Who it's for
+
+Software engineers. Vibe coders, Hackathon builders, AI-first developers whose code shouldn't leave the editor, and agencies provisioning per-client environments from a sidebar.
+
+**Challenges we ran into**
+
+## 1. Deployment lifecycle ≠ POST and pray
+
+Deployments pass through queued → building → deploying → healthy | failed. We poll every 60s with setTimeout (never setInterval, which stacks), surface phase changes in a status-bar state machine, wait 60s extra for service discovery after healthy, and pipe lastLogs on failure. One shared helper owns this across manual, NL, and auto-deploy flows.
+
+## 2. Structured LLM output
+
+Natural Language deploy needs a .locusbuild that passes server-side verification. We used Claude connected to the Locus API and Gemini 2.5 Flash for backup with responseSchema — port 8080 enforced, buildConfig stripped, health checks defaulted — then preflight with verify-locusbuild before deploying. Broken configs never leave the editor.
+
+## 3. Orphan custom domains
+
+A domain can sit in pending DNS validation and never attach. After a reinstall, our first version lost the service→domainId mapping, and the orphan was invisible. The fix: a workspace-wide *Manage Domains* command that calls GET /v1/domains. The API is the source of truth.
+
+## 4. Custom codicons
+
+VS Code's $(name) syntax only works for baked-in codicons. Our sailboat lives in a generated WOFF font via svg2ttf + ttf2woff (Y-axis flipped for baseline), referenced via contributes. icons and packaged into the .vsix. $(shipshape-logo) now shows in the status bar.
+
+**Track: Using BuildWithLocus to leverage our suite.**
+
+**ShipShape is the VS Code–native surface of the Build with Locus pitch.**
+
+The track asks for products that leverage the Locus API — "an AI agent that deploys and manages apps autonomously, a developer tool that simplifies cloud workflows, or a product that uses Locus as its deployment backbone." ShipShape is all three in one extension:
+
+**1. Developer tool that simplifies cloud workflows** — one-click deploy with framework auto-detection (8 frameworks), live log streaming, service tree explorer, env-var manager with automatic redeploy, custom domain BYOD, auto-deploy toggle, and rollback/restart/view-logs context menus. Every Locus API surface exposed where developers already live.
+
+**2. AI agent that deploys autonomously** — ShipShape: Deploy with AI accepts a natural-language prompt ("Next.js + Postgres in São Paulo"), pipes it through LLM with a structured responseSchema, preflights the generated .locusbuild with POST /v1/projects/verify-locusbuild, then deploys via POST /v1/projects/from-locusbuild.
+
+**3. Locus as the deployment backbone** — ShipShape has no deployment logic of its own. It detects, configures, orchestrates — Locus builds, runs, and scales. Every feature maps to a documented Locus endpoint; the extension is a thin, opinionated agent on top of the platform.
+
+**AI failure diagnosis**: on a failed deploy, AI agent re-reads the build logs and produces a one-file patch. If confidence is high and change is low-risk, an *Apply & Redeploy* button appears — closing the deploy-fail-fix loop without the developer ever leaving the editor.
+
+Code: https://github.com/Michael-Nwachukwu/shipshape
+
+[Michael Nwachukwu](https://github.com/Michael-Nwachukwu)
+
+`2026-04-23`
+
+---
+
+### emailo
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/emailo-434b) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/KANISHQ09/PaygenticHackathon) [![Built at](https://img.shields.io/badge/Built%20at-Locus'%20Paygentic%20Hackathon%20--%20#2-0052CC?style=flat-square)](https://paygentic-week2.devfolio.co)
+
+> Pure Communication.
+
+![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Docker](https://img.shields.io/badge/Docker-333333?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=flat-square) ![Express.js](https://img.shields.io/badge/Express.js-333333?style=flat-square) ![Redis](https://img.shields.io/badge/Redis-333333?style=flat-square) ![Locus](https://img.shields.io/badge/Locus-333333?style=flat-square)
+
+**The problem it solves**
+
+Autonomous AI agents are the future, but they currently lack a unified **"Financial Cockpit."** Developers struggle to monitor agent-to-agent communications, USDC balances, and checkout flows in a single window. Traditional payment gateways are designed for humans, not for the programmatic, high-velocity needs of autonomous intelligence. Paygentic bridges this gap by providing a central command center that gives agents the ability to communicate, pay, and scale without a human-in-the-loop.
+
+
+**What People Can Use it For**
+
+**Autonomous Procurement:** Enable agents to send x402 emails to vendors and programmatically pay invoices using the Locus Checkout SDK.
+
+**Agentic Fleet Management:** Monitor the financial health and communication logs of multiple AI workers from a single premium dashboard.
+
+**Secure Infrastructure:** Leverage Locus's military-grade protocols to ensure that agent identities (x402) and funds (USDC) are handled with maximum safety.
+
+**Frictionless Scaling:** Move from a local "Mock Mode" to a "Live Mode" on the cloud with zero code changes, allowing for rapid movement from prototype to production.
+
+**Challenges we ran into**
+
+Infrastructure Orchestration: Automating a full-stack deployment (Web, Redis, Postgres) via API was complex. I ran into platform-side IAM challenges and 500 errors during development.
+
+The Solution: I pivoted to build a High-Fidelity Mock Mode. This allowed me to finalize the UI/UX and logic by simulating the entire Locus API lifecycle locally, ensuring the dashboard was "Platform-Ready" even when the remote API was unstable.
+
+Seamless Handover: Ensuring that the dashboard felt premium on both mobile and desktop required unconventional CSS layering and "Conic-Gradient" background globes for depth without sacrificing performance.
+
+**Track: Using BuildWithLocus to leverage our suite.**
+
+1. Infrastructure-Native Orchestration
+It isn't just a frontend; it’s a complex cloud service that fully utilizes the Locus Build provisioning system.
+
+.locusbuild Integration: We use a custom .locusbuild manifest to automatically orchestrate three distinct layers: A web container, a dedicated PostgreSQL database, and a Redis cache layer.
+
+Env Var Lifecycle: The project is designed to consume Locus's auto-injected environment variables (DATABASE_URL, REDIS_URL), showing a deep understanding of the platform's lifecycle management.
+
+
+2. Direct API Integration (Control Plane)
+Unlike simple apps that just run code, Paygentic includes a custom deployment orchestrator (deploy-locus.js). This script directly talks to the buildwithlocus.com/v1 API to:
+
+Automate project creation.
+
+Provision Hobby-tier addons.
+
+Inject the necessary Agentic keys programmatically. This demonstrates advanced usage of the Locus Control Plane, not just the data plane.
+
+
+3. Multi-SDK Synergy (The Ecosystem Play)
+The project demonstrates the power of the Locus ecosystem by harmonizing multiple SDKs:
+
+Locus x402: Establishes the agent's identity and communication channel.
+
+Locus Checkout SDK: Allows the agent to act on that identity to settle financial obligations. By combining these, we show that Locus Build is the only platform where "Autonomous Commerce" can truly live.
+
+[Kanishq Negi](https://github.com/KANISHQ09)
+
+`2026-04-23`
+
+---
+
+### NeuralNodes - AI Infrastructure-as-Chat
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/neuralnodes-ai-infrastructureaschat-69c8) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ankittrip/NeuralNodes---AI-Infrastructure-as-Chat) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/rXthokK7Nw8?si=KW13M4yKtpxLkIFB) [![Built at](https://img.shields.io/badge/Built%20at-Locus'%20Paygentic%20Hackathon%20--%20#2-0052CC?style=flat-square)](https://paygentic-week2.devfolio.co)
+
+> Deploy cloud infrastructure instantly through chat
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Express.js](https://img.shields.io/badge/Express.js-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+Cloud deployments and DevOps pipelines are traditionally complex, requiring developers to write extensive Dockerfiles, configure YAML scripts, and manage complex CI/CD workflows. For indie hackers, hackathon participants, and startup teams, this infrastructure overhead takes valuable time away from actual product development.
+
+**NeuralNodes** completely eliminates this friction by introducing **Infrastructure-as-Chat**. 
+
+Our platform acts as a Senior DevOps AI Agent. Instead of navigating complex cloud consoles, developers can simply provide their GitHub repository link and state their deployment needs in plain English (e.g., *"Deploy my full-stack app, it's a Node.js backend on port 8080, inject this MONGO_URI"*). 
+
+**Key Features:**
+* **Intent Parsing:** Powered by LangChain and GPT-4o to accurately convert natural language into strict, cloud-ready JSON payloads.
+* **Zero-Touch Provisioning:** Automatically configures environments, sets up build contexts (handling monorepos seamlessly), and maps ports.
+* **Smart Orchestration:** Interfaces directly with cloud platforms (like Locus) to spin up containers, inject secrets, and return a live production URL—all from a single chat interface. 
+
+NeuralNodes lets developers focus entirely on writing code, while the AI handles the deployment.
+
+**Challenges we ran into**
+
+Building an autonomous AI orchestrator that interfaces with a Beta cloud provider presented several deep, architectural challenges. We spent extensive time debugging containerization and network-level issues:
+
+**1. Container Network Binding & Smart Port Routing:**
+Initially, deploying frontend React/Vite applications resulted in "Service Unavailable" errors. We realized the cloud router was attempting to access the container via external networks, but Vite defaults to binding only to `localhost` (127.0.0.1) for security. 
+* *Solution:* We engineered a dynamic port-routing logic in our Node.js backend. The AI agent smartly detects if the repo is a frontend or backend service, dynamically assigning Port 80 (for Nginx) or 8080. We also enforced `0.0.0.0` host binding to successfully expose the container to the external cloud router.
+
+**2. Monorepo Build Contexts (Nixpacks Failures):**
+When users attempted to deploy monorepos (e.g., a frontend folder inside a larger repo), the cloud builder (Nixpacks) failed to generate Dockerfiles because the `package.json` wasn't in the root directory. 
+* *Solution:* We heavily refined our LLM System Prompts using LangChain. The AI agent now intelligently extracts the target directory context from the user's natural language and passes an explicit `rootDir` variable to the deployment payload, guiding the builder to the correct execution path.
+
+**3. Third-Party Beta Outages & Async States:**
+Dealing with a Beta deployment platform meant facing unexpected AWS Service Discovery failures and CodeBuild timeouts. 
+* *Solution:* We built a robust tracking system using MongoDB that maintains the deployment state (`Pending`, `Success`, `Failed`). Even when the underlying cloud provider faced internal network delays, our platform's UI remained stable, accurately logging the 200 OK statuses once the containers successfully booted up.
+
+Team **Neural Nodes** -- Ankit Tripathi, Yashasvi Gupta
+
+`2026-04-23`
+
+---
+
+### Qryptics
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/qryptics-21c5) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/SaatvikSS/HackTheKnight) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/augg0aAg07Y?si=fhHcdrHuhosozzy3) [![Built at](https://img.shields.io/badge/Built%20at-DAYZERO%202.0-0052CC?style=flat-square)](https://dayzero2o.devfolio.co)
+
+> Harvest Now, Decrypt Later
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![Docker](https://img.shields.io/badge/Docker-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Kyber](https://img.shields.io/badge/Kyber-333333?style=flat-square) ![AES](https://img.shields.io/badge/AES-333333?style=flat-square) ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-333333?style=flat-square) ![SHA-256 Hashes](https://img.shields.io/badge/SHA--256%20Hashes-333333?style=flat-square) ![IBM Cloud](https://img.shields.io/badge/IBM%20Cloud-333333?style=flat-square)
+
+**The problem it solves**
+
+The Challenge of "Harvest Now, Decrypt Later"
+
+Most of the world's data is currently secured by classical encryption (RSA and ECC). While these are secure against classical supercomputers, they are vulnerable to a Quantum Computer running Shor’s Algorithm. Adversaries are currently "harvesting" encrypted data, waiting for quantum hardware to mature so they can decrypt it in the future.
+
+How Qryptcs Fixes This:
+
+Qryptcs provides a Quantum-Secure Data Tokenization Platform that allows enterprises to replace sensitive PII (Personally Identifiable Information) with tokens that are resistant to both classical and quantum attacks.
+
+Use Cases:
+Financial Institutions: Securing Aadhaar, PAN, and Bank Account numbers during inter-bank transfers.
+
+Legacy Data Migration: Companies can drop legacy CSV/JSON dumps into our "Secure Folder" (Batch Processor), and they are automatically tokenized using Post-Quantum standards.
+
+Privacy-First AI: Sanitizing unstructured data (using our AI-driven scanner) before it is fed into large language models or third-party analytics.
+
+Why it’s Safer & Easier:
+Proactive Discovery: You don't need to know where your sensitive data is. Our AI scanner finds it for you in unstructured memos or photos.
+
+True Randomness: Unlike standard pseudo-random generators, we use Quantum Superposition (via IBM Qiskit) to generate entropy for our encryption nonces.
+
+Hybrid Security: We combine the performance of AES-256 with the future-proof security of NIST-standard PQC algorithms.
+
+**Challenges we ran into**
+
+1) One of the biggest hurdles was managing the environment during the transition from Qiskit 0.x to Qiskit 1.0.
+
+The Bug: Because Qiskit 1.0 is a fundamental packaging rewrite, having remnants of older versions in the Python environment caused a persistent ImportError that standard pip install couldn't resolve.
+
+The Resolution: I solved this by implementing Isolated Virtual Environments. By creating a dedicated venv and a custom startup script (run_qryptcs.sh), I ensured the platform always executes with a clean dependency graph, regardless of the user's local machine state.
+
+
+2) Implementing pure-python PQC libraries (kyber-py and dilithium-py) presented challenges in data serialization.
+
+The Challenge: PQC keys and signatures are raw byte arrays that are not JSON-serializable.
+The Resolution: I built a robust Base64-Sponge wrapper within the Hybrid Tokenizer that handles the conversion of PQC outputs into audit-friendly, signed tokens (QRYP_v1.{DATA}.{SIG}) that can be safely transmitted over REST APIs.
+
+Team **Helix** -- Karan Bagga, [Saatvik Shashank Shrivastava](https://github.com/SaatvikSS)
+
+`2026-04-17`
+
+---
+
+### Smart Invoice & Payment Fraud Detection Platform
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/smart-invoice-and-payment-fraud-detection-platform-c017) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/charand123/fraudshield) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://fraudshield.vercel.app) [![Built at](https://img.shields.io/badge/Built%20at-Locus'%20Paygentic%20Hackathon%20--%20#1-0052CC?style=flat-square)](https://paygentic-week1.devfolio.co)
+
+> Where Payments Meet Protection
+
+![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Firebase](https://img.shields.io/badge/Firebase-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Chart.js](https://img.shields.io/badge/Chart.js-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![AI/ML](https://img.shields.io/badge/AI/ML-333333?style=flat-square) ![Vercel](https://img.shields.io/badge/Vercel-333333?style=flat-square) ![React.js](https://img.shields.io/badge/React.js-333333?style=flat-square)
+
+**The problem it solves**
+
+Businesses lose significant revenue every year due to fraudulent invoices, duplicate payments, vendor impersonation, and abnormal transaction patterns. Manual invoice verification is slow, error-prone, and often unable to detect suspicious activity before funds are transferred.
+
+FraudShield solves this by automatically analyzing invoices and payment records to identify fraud indicators such as duplicate invoices, unusual payment amounts, vendor mismatches, and suspicious transaction timing.
+
+By generating fraud risk scores and highlighting anomalies before payment approval, FraudShield helps businesses reduce financial losses, improve operational efficiency, and strengthen payment security.
+
+**Challenges we ran into**
+
+One of the biggest challenges while building FraudShield was designing a fraud detection system without access to real-world financial fraud datasets. To overcome this, we implemented a rule-based anomaly detection engine that simulates intelligent fraud analysis using patterns like duplicate invoice detection, abnormal payment spikes, and vendor mismatch checks.
+
+Another challenge was designing a dashboard that presents fraud analysis in a clear and professional way. Multiple UI iterations were needed to balance data density with readability, ensuring users could quickly understand risk scores and flagged anomalies.
+
+**Using PayWithLocus.com to leverage our suite.**
+
+FinTech
+Artificial Intelligence / Machine Learning
+Cybersecurity / Fraud Prevention
+Productivity / Automation
+Best UI/UX
+Innovation / Open Innovation
+
+Team **gamu** -- Charan D
+
+`2026-04-13`
+
+---
+
+### LetAliceLead
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/letalicelead-7688) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/owizdom/LetAliceLead) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://letalicelead.vercel.app) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/qgerwOj0Wkw) [![Built at](https://img.shields.io/badge/Built%20at-Locus'%20Paygentic%20Hackathon%20--%20#1-0052CC?style=flat-square)](https://paygentic-week1.devfolio.co)
+
+> Autonomous AI credit officer for AI agents.
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![Docker](https://img.shields.io/badge/Docker-333333?style=flat-square) ![Express.js](https://img.shields.io/badge/Express.js-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square)
+
+**The problem it solves**
+
+**The problem: agents are broke.**          
+                                
+Hundreds of autonomous AI agents are trading, signing, and earning on-chain right now. BobIsAlive on Starknet, Sovra on Base, Polymarket bots, market makers, social agents. All of them moving money  24/7. All of them waiting on a human to top up the wallet before they can pay for anything new.
+                                                                                                                                                                                                            
+Autonomy ends at the balance sheet. I call this the **Agent Credit Ceiling.**
+                                                                                                                                                                                                            
+Existing rails don't fit. Aave and Morpho are built for human EOAs and over-collateralization. Spectral and Cred score human wallets with static ML. Bank of Bots ships agent loans on Base but underwrites with activity scoring, not a live LLM, and reads no cross-chain collateral. Virtuals, Olas, and Fetch.ai are agent frameworks with no credit product.                                         
+                                                            
+**The gap: a credit officer that is itself an agent, decides each loan with a live LLM, reads collateral across chains, and ships in days.**
+                                                            
+**What Alice does.**
+                                                                                                                                                                                                            
+Alice runs 24/7 on Base mainnet. Claude Sonnet 4.6 underwrites every loan in a 90 second agent loop, scoring borrowers across 7 PayWithLocus wrapped APIs at ~$0.09 a run. She reads cross-chain collateral (Bob stakes STRK on Starknet, Alice prices via CoinGecko, lends USDC on Base), disburses via /pay/send, reconciles against /pay/transactions, and bids autonomously on @gajesh's Sovra auction to grow the borrower base. Every decision is written to a JSONL audit trail.
+                                                                                                                                                                                                            
+ 3 real loans confirmed on basescan to @bobIsAlive. 0 humans in the approval path.
+                                                                                                                                                                                                            
+**Why it matters.**
+                                                                                                                                                                                                            
+The agent economy is a village of maybe 50 economically active agents trading petty cash humans pre-fund. When that village is 5,000 agents, the bottleneck won't be smarter models, it'll be capital. Someone has to be the bank.                                                                                                                                                                               
+                                                            
+Alice is what that bank looks like when it's also an agent.
+
+**Challenges we ran into**
+
+Locus gives you a first-class Base mainnet wallet attached to your API key, perfect for /pay/send. But @gajesh's Sovra auction needs arbitrary contract calls (USDC.approve, CartoonistAuction.placeBid), and Locus is custodial, so I couldn't hand it those transactions. 
+
+I spent an afternoon trying to make the bid path work through Locus anyway. It doesn't. The fix was to stop fighting it: wire a separate self-custodial keystore with viem, fund it from the main Locus wallet via /pay/send, and let Locus stay the audit anchor. Locus + keystore turned out to be the right shape, not a workaround.           
+                                                                                                                                                                                                            
+**The /pay/transactions pagination cap.**                                                                                                                                                                  
+                                                                                                                                                                                                            
+Locus /pay/transactions returns the 200 most-recent txs. On Railway, heartbeat spam and procurement spend pushed Alice's 3 historical loans off the window within hours, and the dashboard's ledger went empty after a container restart. Fixed by baking the 3 anchor tx hashes into /api/portfolio/disbursements and merging them with the live Locus feed, deduped by tx hash. The historical book now survives pagination forever.                                                                                                                                                                                       
+                                                                                                                                                                                                            
+**The $0 reserves bug.**
+                                                                                                                                                                                                            
+Locus /pay/balance returns usdc_balance as a string, not available as a number. My parser was reading the wrong field, toUSDCWei(undefined) returned NaN wei, and the treasury module crashed at boot. Fixed with Number(bal.usdc_balance) and a Number.isFinite guard on toUSDCWei. The 9 USDC promo credit finally showed up on the dashboard.
+
+**Public CoinGecko rate-limited from Railway.**                                                                                                                                                              
+                                          
+On Railway's shared IPs, public CoinGecko rate-limited within minutes. Alice's STRK/ETH feed went to $0, meaning every loan was briefly seeing $0 collateral. Fixed by routing through Locus-wrapped  CoinGecko as the primary path (paid per call, real rate-limit headroom), with a Coinbase spot fallback and a disk cache. The Locus-wrapped CoinGecko is what makes chain-agnostic collateral actually     
+  work.
+
+**Using PayWithLocus.com to leverage our suite.**
+
+**LetAliceLead is an autonomous AI credit officer that lends real USDC on the Base mainnet to other AI agents. PayWithLocus is  the substrate. Alice doesn't exist without it.**
+
+What she actually uses, primitive by primitive:
+
+1. **Wallet attached to the API key**. Day one, Alice got a real base mainnet wallet at 0xddaf...3da 4. No KYC gauntlet, no separate provider, and no bridge. Every loan she's ever issued was disbursed from this wallet.
+   
+2.**/pay/send.** Alice's only path for issuing a loan. 3 confirmed disbursements on basescan, 0.30 USDC total; every one originated by Sonnet 4.6 in her 90-second agent loop, every one going to @bobIsAlive at 10% APR. proof tx hashes: 0x8d3af51d, 0x33e789fe, 0x53490f8f. 
+
+**3. /pay/balance. polled every cycle.** The constitution she runs against (5% min reserve, 2% emergency floor) is enforced against live locus reads, not stale snapshots.
+
+4.**/pay/transactions.** Her audit surface. We reconcile her in-memory loan book against the last 200 confirmed txs every cycle. The dashboard's /api/portfolio/disbursements endpoint merges live tx history with anchor records so the historical book survives locus's pagination cap.                                                                                                                               
+   
+**5. 7 wrapped APIs (exa, firecrawl, brave, perplexity, tavily, coingecko, alphavantage)**. how she scores borrowers. every credit decision pulls signal from all 7 vendors at ~$0.09 a run, billed in USDC out  of the same wallet. wrapped pricing is what makes per-loan underwriting economically sane. raw vendor apis would have killed the unit economics.
+                                                                                                                                                                                                            
+**6.coingecko (specifically).** drives the cross-chain collateral monitor. bob stakes strk on starknet, alice reads his balance via his heartbeat endpoint, prices strk live via the locus-wrapped coingecko call, computes ltv, lends usdc against it on base. chain-agnostic underwriting is downstream of this one primitive.
+                                                                                                                                                                                                            
+**7.x402, agentmail, heartbeats, gift codes.** composed into the broader identity surface. heartbeats fire every 5 minutes ($0.000001 USDC to a registered counterparty as proof of life). x402 is wired for http-native vendor payments. agentmail is the path she'll use to negotiate with borrowers as they register.
+                                                                                                                                                                                                            
+8. **sovra interop (locus-funded)**.Alice autonomously bids on @gajesh's Sovra auction via a self-custodial viem keystore on base mainnet, funded from her main locus wallet. Locus is custodial and can't sign arbitrary contract calls (correctly so, that's not what it's for), so the keystore handles the contract bits while locus stays the funding source and audit anchor.
+                                                                                                                                                                                                            
+9.**procurement audit**. every locus call (wrapped or wallet) is logged with cost in USDC. the dashboard surfaces alice's per-cycle locus spend so the unit economics of agent-native credit are auditable in  real time.  
+
+
+
+
+
+
+
+
+                                                                                                                                                                                                            
+Bottom line. Locus is the only stack where a newborn agent gets a real base mainnet wallet, a metered data budget, an identity surface, and a payment rail the moment you authenticate. every other  approach we tried (gnosis safe, privy + alchemy, coinbase cdp) would have taken weeks just to assemble what locus hands you on day one.
+
+wiz o
+
+`2026-04-14`
+
+---
+
+### Locroll
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/locroll-674d) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/TechStarrr/Locroll) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://svc-mo06ie69n25wsw45.buildwithlocus.com/) [![Built at](https://img.shields.io/badge/Built%20at-Locus'%20Paygentic%20Hackathon%20--%20#1-0052CC?style=flat-square)](https://paygentic-week1.devfolio.co)
+
+> Payroll infrastructure for modern teams.
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![nextjs](https://img.shields.io/badge/nextjs-333333?style=flat-square) ![Prisma](https://img.shields.io/badge/Prisma-333333?style=flat-square)
+
+**The problem it solves**
+
+**Locroll** is a global payroll platform that lets companies pay employees in **USDC on Base** (an Ethereum L2 blockchain) instead of traditional bank wires. Here's what it enables:
+
+---
+
+## What it's for
+
+### For Employers
+- **Run payroll globally** without wire fees (~$47/transfer), FX spreads (~6.2%), or 2–5 day settlement delays, payments settle in ~0.5 seconds.
+- **Manage employees** individually or via CSV bulk import, storing salary, currency, country, department, and pay frequency.
+- **Fund payroll batches** through a hosted Locus checkout UI before distributing — ensuring funds exist before transfers go out.
+- **Track all payments** with a live dashboard showing treasury balance, transaction history, and per-run audit logs.
+- **Monitor compliance**: KYC-like status tracking of which employees have verified wallet addresses vs. are still pending.
+
+### For Employees
+- **Receive a simple invite link**: no crypto knowledge required. They log in via email (Privy), and a self-custody wallet is automatically provisioned for them.
+- **Get paid directly to their wallet** on-chain. If they haven't accepted an invite yet, they still receive an **email escrow payment** they can claim within 30 days — nobody is blocked from getting paid.
+
+---
+
+## How it makes tasks easier/safer
+
+| Problem | How Locroll solves it |
+|---|---|
+| Expensive international wires | USDC transfers on Base cost fractions of a cent |
+| Slow settlement (2–5 days) | On-chain finality in ~0.5 seconds |
+| Employees needing crypto wallets | Privy auto-provisions a self-custody wallet on invite acceptance |
+| Paying employees who haven't onboarded yet | Email-escrowed payment — they claim it later, payroll still runs |
+| Partial payroll failures blocking the whole run | `Promise.allSettled` — each payment is independent; run status is `completed`, `partial`, or `failed` accordingly |
+| No audit trail | Every payroll run is logged in an `AuditLog` with employee count, totals, and currency |
+| Funding before dispersal | Two-phase flow: employer funds via checkout first, then Locus disperses — no overdraft risk |
+
+---
+
+In short: it's a **crypto-native payroll system** designed to make global team payments as simple as a traditional payroll tool, while being faster, cheaper, and non-custodial for employees.
+
+**Challenges we ran into**
+
+Balance endpoint returns a string, not a number
+/api/pay/balance returns usdc_balance as a string ("12.50") not a float. I caught this on the payments dashboard when trying to do arithmetic on it for display, the result was string concatenation instead of addition. Fixed by wrapping in parseFloat() on every usage.
+
+Transactions endpoint includes all categories, not just sends
+/api/pay/transactions returns every event (including incoming/checkout funded events), not just outgoing payroll sends. I had to filter and label by category field to avoid showing confusing "inbound" entries on a page titled "Payroll Payments".
+
+Checkout session distribute: two separate steps
+I initially assumed the Locus Checkout SDK would handle the full end-to-end  employer pays, employees receive. In practice, the checkout only moves funds into the merchant Locus balance. A second explicit call to /api/pay/send (or /api/pay/send-email) per employee is still required to distribute from that balance. I had to restructure payroll into a two-phase flow: fund first via checkout, then loop and distribute, which actually turned out to be a better UX anyway (shows the employer a confirmation step).
+
+**Using PayWithLocus.com to leverage our suite.**
+
+Locus Pay, the execution layer.
+
+The core of locroll distribution runs on two Locus Pay endpoints:
+
+/api/pay/send — for employees who have accepted their invite and have a wallet address. Direct on-chain USDC transfer, settled in ~0.5 seconds.
+
+/api/pay/send-email — for employees who haven't onboarded yet. Locus holds the funds in escrow and emails the employee a claim link (30-day window). Nobody gets skipped on payday just because they haven't set up their wallet yet.
+
+Locus Checkout, the funding layer
+Before any distribution happens, the employer funds the payroll batch through the Locus Checkout React SDK (@withlocus/checkout-react). This gives the employer a familiar, Stripe-style confirmation UI and ensures the merchant Locus balance is topped up before a single employee transfer is initiated. Checkout handles the inbound money movement; Pay handles the outbound, two distinct Locus primitives composing into one two-phase payroll flow.
+
+Millicent Somto
+
+`2026-04-15`
+
+---
+
+### Nexus - Trading Platform
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/nexis-trading-platform-c58f) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Vedant-Bahekar/trading-platform) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://trading-platform-lime-psi.vercel.app/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=UI6_TNEG0NM) [![Built at](https://img.shields.io/badge/Built%20at-Innovate--Iterate--Interrupt%20(III)%205.0-0052CC?style=flat-square)](https://innovateiterateinterrupt-iii-5.devfolio.co)
+
+> NEXUS: Your intelligent trading copilot.
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+---
+
+**The Problem**
+
+Retail participation in financial markets has surged in recent years, yet the tools available to new and aspiring traders remain fundamentally inadequate. Beginners are forced to choose between oversimplified paper trading apps that offer little beyond a basic buy/sell button, or professional-grade terminals designed for institutional traders with years of domain expertise. Neither serves the learning trader.
+
+This gap produces three concrete problems:
+
+First, new traders consistently make avoidable losses because they lack access to real-time risk assessment before placing a trade. There is no affordable tool that analyzes a prospective position and warns a user about overconcentration, downside exposure, or adverse market sentiment before capital is committed.
+
+Second, the language of trading itself is a barrier. Order types such as stop-loss, bracket, and limit orders are powerful risk management instruments, but their configuration through traditional form-based interfaces is unintuitive. Users who can clearly articulate what they want to do in plain English — "buy 500 dollars of NVDA if the price drops to 800" — are still forced to manually translate that intent into the correct combination of dropdowns and input fields.
+
+Third, learning to trade is an isolated experience. Most platforms offer no mechanism for new traders to observe, follow, or learn from the strategies of more experienced users. There is no structured way to document a trading thesis, share it with a community, or receive feedback — let alone automatically replicate the trades of a proven performer.
+
+**What NEXUS Solves**
+
+NEXUS addresses these problems by embedding artificial intelligence directly into the trading workflow rather than offering it as a separate, disconnected tool.
+
+It allows users to place orders using natural language, with a large language model parsing human intent into structured market instructions. It provides an AI-powered trading copilot that evaluates every prospective trade against current market conditions and portfolio state, offering risk-adjusted recommendations before execution. It integrates machine learning forecasting and news sentiment analysis natively into the trading interface, giving users institutional-caliber insight without requiring a data science background.
+
+Beyond the AI layer, NEXUS provides a full-spectrum paper trading engine supporting market, limit, stop-loss, stop-limit, bracket, recurring, and short-sell orders — the same order types used on production exchanges — within an interface designed for clarity rather than complexity. Its social layer introduces playbooks, copy trading, tournaments, and leaderboards, transforming trading from a solitary exercise into a collaborative, competitive learning environment.
+
+In short, NEXUS bridges the gap between beginner-friendly accessibility and professional-grade capability by making intelligent, risk-aware trading the default experience rather than an expert privilege.
+
+---
+
+**Challenges we ran into**
+
+## Challenges I Faced
+
+### 1. NLP Order Parsing Reliability
+Translating free-form human text like *"Buy $500 of NVDA at $800"* into a structured order object (side, type, quantity, price) was deceptively hard. Edge cases — ambiguous phrasing, missing fields, dollar amounts vs. share counts — required multiple iterations of prompt engineering with LLaMA-3 and robust fallback validation on the backend to prevent malformed orders from hitting the execution engine.
+
+### 2. Real-Time Price Synchronization
+Keeping the frontend chart, WebSocket price stream, order execution engine, and DCA cron jobs all working off the **same live price** at the same instant was a major coordination challenge. Race conditions between the WebSocket broadcast and the order-matching logic caused phantom fills during early development, which we resolved by centralizing price state through Redis.
+
+### 3. ML Microservice Cold Start & Model Loading
+The Python microservice loads multiple heavy models at startup — Prophet, HuggingFace's `facebook/bart-large-mnli` zero-shot classifier, and the Groq LLM client. The initial Docker container boot took over 60 seconds and consumed significant memory. We optimized this by using lazy model loading (loading models on first request rather than at startup) and choosing CPU-only PyTorch builds to keep the image lightweight.
+
+### 4. Complex Order Type Logic
+Implementing bracket (OCO) orders, stop-limit triggers, and short selling with margin tracking required building a mini order-management system from scratch. Each order type has different trigger conditions, partial-fill behavior, and cancellation cascading rules — getting these edge cases right without a battle-tested matching engine was one of the most time-intensive parts of the backend.
+
+### 5. Database Schema Evolution
+As features grew (tournaments, copy trading, playbooks, trade journaling), the PostgreSQL schema went through multiple migrations. Keeping `schema.sql` and `schema_extensions.sql` both idempotent and ordered correctly for Docker's `initdb` auto-execution required careful dependency management between tables, especially around foreign keys and TimescaleDB hypertable conversions.
+
+[Vedant Bahekar](https://github.com/Vedant-Bahekar)
+
+`2026-04-12`
+
+---
+
+### Civy-X
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/civyx-5524) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/gituseramit/CivyX) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=7_thBIIif5k) [![Built at](https://img.shields.io/badge/Built%20at-Off--Grid-0052CC?style=flat-square)](https://offgrid.devfolio.co)
+
+> Apni Shikayat Apni Awaz
+
+![Leaflet](https://img.shields.io/badge/Leaflet-333333?style=flat-square) ![Go](https://img.shields.io/badge/Go-333333?style=flat-square) ![Docker](https://img.shields.io/badge/Docker-333333?style=flat-square) ![AngularJS](https://img.shields.io/badge/AngularJS-333333?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=flat-square) ![Redis](https://img.shields.io/badge/Redis-333333?style=flat-square)
+
+**The problem it solves**
+
+--------------What CivyXAI Solves-----------------
+In India, filing a civic complaint means visiting a government office, filling a
+form in formal Hindi, and then hearing nothing back. For a daily wage worker in Chowk ward or a woman in a rural panchayat, that process is effectively inaccessible. The complaint dies before it is filed.
+
+CivyXAI removes every barrier between a citizen and their complaint reaching the
+right officer.
+-------------For Citizens----------------
+**Anyone can report a problem in under 30 seconds.** No form. No typing. No formal
+language required. A citizen taps the mic button, speaks in Hindi, Awadhi, or Bhojpuri —
+"hamare ward mein road toot gayi hai sector 14 ke paas" — and the platform handles the
+rest. Groq AI classifies the category, severity, and department automatically. The
+complaint is routed to the correct officer before the citizen puts their phone down.
+
+**Real-time status tracking** means citizens no longer wonder if anyone read their
+complaint. Every status change — acknowledged, in progress, resolved — appears on their
+complaint timeline with the officer's name and timestamp. They can share a QR code or
+WhatsApp link to show their complaint status to anyone.
+
+**Women and vulnerable citizens** can submit anonymously. Exact GPS coordinates are
+replaced with ward centroid, name is hidden, and the complaint is flagged for priority
+handling — reducing fear of retaliation for sensitive complaints about harassment,
+encroachment, or corruption.
+
+---
+
+### For Officers
+
+Instead of receiving complaints as unstructured paper notes or phone calls, officers get
+a structured dashboard where every complaint is already classified, severity-ranked, and
+department-tagged by AI. They can filter by ward, category, or urgency — and see which
+complaints are approaching the escalation deadline before they blow up.
+
+The **auto-escalation engine** removes the option to quietly ignore complaints. Any
+complaint unacknowledged for 48 hours automatically escalates and becomes publicly
+visible on the ward transparency feed. This alone changes officer behavior.
+
+---
+
+### For the Public and Administration
+
+The **Ward Health Score** gives any citizen, journalist, or administrator a single number
+(0–100) showing the civic health of any ward — computed from unresolved complaint
+density, resolution rates, and live rainfall risk from Open-Meteo. A ward scoring 38 is
+visibly in crisis on the public map. No report needed. No RTI required.
+
+The public transparency feed shows every complaint in the city — anonymized — in
+real-time. NGOs can use the open data API to pull ward-level complaint data for research
+and advocacy. Journalists can track which wards are consistently failing and which
+officers have the worst resolution rates on the public leaderboard.
+
+---
+
+### The Core Problem It Solves
+
+Civic grievance systems in India are designed for the government's convenience, not the
+citizen's. CivyXAI flips this — it meets citizens in their language, on their
+device, in under a minute. It then creates a transparent, AI-powered accountability chain
+that neither the citizen nor the officer can bypass. The result is a grievance system
+that actually closes the loop.
+
+**Challenges we ran into**
+
+## Bugs & Hurdles
+
+1. CivyX AI breaking on Awadhi/Bhojpuri dialect input
+
+When rural UP citizens spoke in standard Hindi, CivyX's Saaras v3
+returned partial transcripts mixed with broken Unicode characters. Groq then received malformed input and either hallucinated a category or threw a JSON parse error, crashing the entire submission pipeline.
+
+**Fix:** 
+Added a two-layer fallback in `CivyX.go` — if the returned transcript is under 10 characters or contains >30% non-Devanagari characters, we retry with
+`language_code: "auto"` to trigger CivyX's auto-detection mode. On the frontend, the transcript is shown as an editable field before submission so the user can correct it.
+
+### 2. Groq 429 rate limit killing the demo mid-run
+
+During a dry run we submitted 6 complaints in rapid succession. On the 4th call Groq returned `429 Too Many Requests`. The handler had no error handling for the AI layer — the complaint threw a 500 and crashed visibly mid-demo.
+
+**Fix:**
+ Implemented exponential backoff retry (1s → 2s → 4s, max 3 attempts) in
+`groq.go`. If all retries fail, the complaint is still saved with `ai_classified: false`
+and `category: "uncategorized"` — the officer manually categorizes it from the dashboard. Added Redis-based rate tracking to enforce a 500ms delay between consecutive Groq calls.
+
+
+
+### 4. Leaflet touch events blocked by Angular Material on mobile
+
+The ward map worked on desktop but tapping a ward marker on mobile did nothing — the side panel never opened. The `mat-sidenav-container` was intercepting all touch events before they reached the Leaflet canvas layer.
+
+**Fix:**
+```css
+.leaflet-container { z-index: 1; touch-action: none; }
+.ward-map-wrapper  { isolation: isolate; }
+```
+in last we removed the leaflet and shift toward google Map for better visualization and perfection.
+
+Team **Hackers..** -- [SAURABH SINGH](https://github.com/Saurabh6108), [Amit Keshari](https://github.com/gituseramit), [AKHILESH TRIPATHI](https://github.com/akhilesh-tri00)
+
+`2026-04-11`
+
+---
+
+### Pulse_Guard
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/pulseguard-f15a) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/anuzx/Pulse_Guard) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/j1eyeBGoctg) [![Built at](https://img.shields.io/badge/Built%20at-Off--Grid-0052CC?style=flat-square)](https://offgrid.devfolio.co)
+
+> realtime log and threat monitoring tool
+
+![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![Svelte](https://img.shields.io/badge/Svelte-333333?style=flat-square)
+
+**The problem it solves**
+
+Most small and mid-size companies have no way to monitor what's happening inside their own application in real time. They find out about a data breach, brute-force attack, or insider threat days or weeks after it happened if at all. SecureLog gives them a security operations dashboard without hiring a security team.
+
+**Challenges we ran into**
+
+Fastapi and svelte was new tech stack for us
+
+Team **tmux_survivors** -- [Anuj Parasar](https://github.com/anuzx), [Nishchay kumar](https://github.com/kaiju-no-9)
+
+`2026-04-11`
+
+---
+
+### MindHaven
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/mindhaven-3d4a) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/cL1NTa2D5tg?si=tyWgeDy944kej9IE) [![Built at](https://img.shields.io/badge/Built%20at-Off--Grid-0052CC?style=flat-square)](https://offgrid.devfolio.co)
+
+> Born in engineering dorms to solve real-world burn
+
+![Vue.js](https://img.shields.io/badge/Vue.js-333333?style=flat-square) ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-333333?style=flat-square)
+
+**The problem it solves**
+
+Asynchronous AI: Enabled non-blocking journal saves by moving AI analysis to background threads.
+API Resilience: Built a regex "Safety Net" to detect crises if the Gemini API fails or lags.
+Stateless Auth: Switched from session cookies to JWT for better scalability and security.
+Decoupled OAuth2: Bridged Google Login redirects between a Vue.js frontend and Spring backend.
+Automated Alerting: Created an autonomous email workflow for emergency contact notifications.
+CORS Resolution: Solved complex cross-origin headers between Netlify (Frontend) and Railway (Backend).
+Environment Sync: Standardized .env usage to allow one-click switching from Local to Production.
+Persistent Theming: Developed a CSS-token-based Dark/Light mode that stays saved on refresh.
+Centralized State: Leveraged Pinia to manage user profiles, auth tokens, and global UI settings.
+API Efficiency: Used Axios interceptors to automatically attach auth tokens to every request.
+Production Monitoring: Integrated Spring Actuator for real-time health and memory tracking.
+Gamified Logic: Built a backend algorithm to track and reward daily login streaks.
+Responsive UI: Optimized a custom Glassmorphism layout for both mobile and desktop views.
+Security Routing: Implemented Vue Router guards to prevent unauthorized access to private pages.
+Data Validation: Ensured strict JPA entity mapping for secure storage of sensitive wellness data.
+Logging & Debugging: Set up structured SLF4J logging to track AI classifications in production.
+Crisis Fallback: Included global help resources for users when the AI detects extreme distress.
+
+**Challenges we ran into**
+
+Production Redirect URI Mismatch: Google OAuth2 login failed in production because the backend redirect URI registered in Google Console didn't match the new Railway domain.
+Netlify vs. Vercel SPA Routing: After deploying the frontend, refreshing the page caused a "404 Not Found" error. We had to implement a netlify.toml / vercel.json rewrite rule to redirect all traffic to index.html.
+Vite Environment Variable Prefixing: The production build was failing to connect to the API because Vite ignores all environment variables that don't start with VITE_, leading to "undefined" API URLs.
+Case-Sensitivity on Linux Servers: Deployment failed because local Windows development is case-insensitive, but the Linux-based Railway server couldn't find files like authStore.js if the import statement had a lowercase a.
+Railway Port Binding: The backend would frequently crash or timeout because it wasn't correctly picking up the dynamic $PORT variable assigned by the Railway environment.
+Mismatched Java Versions: The build failed multiple times because the local machine used Java 21 while the deployment pipeline was defaulting to Java 11 or 17.
+API Base URL Sanitization: Faced errors where API calls were failing due to double slashes (e.g., .../api//auth/me) caused by inconsistent trailing slashes in the deployment environment variables.
+CORS Preflight in Production: Even after setting local CORS, the production environment required a more strict configuration to allow communication between the separate Vercel (frontend) and Railway (backend) domains.
+Database Initial Connection Timeout: The Spring Boot backend would sometimes fail to start because the PostgreSQL container on Railway wasn't fully ready when the app tried to connect during the boot sequence.
+Secret Management: Migrating secrets from a local .env to the Netlify and Railway dashboards without accidentally committing them to the public GitHub repository required careful audit.
+Docker Layer Caching Errors: Rebuilding the Docker images for deployment sometimes failed due to corrupted build caches, requiring a complete "clean and build" cycle.
+
+Team **Decoders** -- [Aryan Goel](https://github.com/AryannGoel), [Aayush Joshi](https://github.com/Aayush1803)
+
+`2026-04-11`
+
+---
+
+### SentinelAI
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/sentinelai-3b5b) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/AkibDa/SentinelAI) [![Built at](https://img.shields.io/badge/Built%20at-Hack%20Storm%202.26-0052CC?style=flat-square)](https://hack-storm.devfolio.co)
+
+> Realtime Deepfake and Misinformation Detector
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Jupyter](https://img.shields.io/badge/Jupyter-333333?style=flat-square) ![Tenserflow](https://img.shields.io/badge/Tenserflow-333333?style=flat-square)
+
+**The problem it solves**
+
+Deepfake content is rapidly becoming a serious threat in today’s digital world, where manipulated images and videos can easily spread misinformation, enable identity fraud, and reduce trust in online media. Most people currently have no simple or accessible way to verify whether a piece of visual content is real or fake, especially when it comes from social media or external links.
+
+This project addresses that gap by providing an AI-powered system that can analyze both images and videos to detect deepfakes. Users can upload an image, upload a video, or even paste a video URL, and the system processes the content using a trained deep learning model to determine whether it is real or manipulated. It returns a clear verdict (Real or Fake), along with a confidence score and additional insights such as the number of suspicious frames in videos.
+
+By automating deepfake detection, the system removes the need for manual guesswork or technical expertise, making it easier for anyone to verify content before trusting or sharing it. This can help prevent the spread of fake news, support content moderation, and improve digital safety.
+
+In real-world scenarios, it can be used to verify viral media, assist journalists and content moderators, enhance identity verification systems, and build greater trust in digital communication. Unlike many basic solutions, this system supports both image and video analysis and can directly process videos from URLs, making it more practical and usable in everyday situations.
+
+**Challenges we ran into**
+
+While building this project, one of the biggest challenges was handling video processing efficiently for deepfake detection. Videos can be large and processing every single frame is computationally expensive and slow. Initially, the system was either too slow or would consume excessive memory when trying to analyze full videos frame by frame.
+
+To solve this, I implemented a frame sampling strategy, where instead of processing every frame, the system extracts frames at a fixed interval (around 2 FPS). This significantly reduced computation time while still maintaining meaningful detection accuracy. I also shifted to batch processing of frames using NumPy arrays, which improved performance during model inference.
+
+Another challenge was ensuring that the input preprocessing matched the model’s training pipeline exactly. Even small mismatches in resizing or normalization were leading to inconsistent predictions. This was fixed by strictly replicating the same preprocessing steps used during training, including resizing to 224×224 and applying EfficientNet-specific normalization.
+
+Handling different input types (image, video, and URL-based video) also introduced complexity, especially with downloading videos and managing temporary files. I addressed this by using asynchronous processing with proper cleanup logic to avoid memory leaks and file clutter.
+
+Overall, these challenges helped improve the system’s efficiency, reliability, and real-world usability.
+
+Team **Code Newbies** -- [Kushal Golder](https://github.com/KushDa), [Sk Akib Ahammed](https://github.com/AkibDa), [Susovan Chatterjee](https://github.com/suso-van)
+
+`2026-04-09`
+
+---
+
+### AceAgent - AI Mock Interview Platform
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/aceagent-ai-mock-interview-platform-d80e) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/DivijMalhotra/AceAgent-AI-Mock-Interview-Platform) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/RVAuzZ4VtY8) [![Built at](https://img.shields.io/badge/Built%20at-Matrix%203-0052CC?style=flat-square)](https://matrix-3.devfolio.co)
+
+> Master your technical interviews with AceAgent
+
+![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![OpenCV](https://img.shields.io/badge/OpenCV-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=flat-square) ![Redis](https://img.shields.io/badge/Redis-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+Candidates face a gap between preparation and real interview performance due to a lack of realistic, adaptive practice tools. Existing methods fail to provide real-time feedback, role-specific scenarios, and personalized evaluation, leaving candidates underprepared and unaware of their weaknesses.
+Our project solves this by offering an AI-powered interview platform with adaptive questioning, real-time analysis of communication and confidence, and personalized feedback tailored to job roles and resumes, helping candidates improve effectively and build confidence.
+
+**Challenges we ran into**
+
+Texture missing and model too small to render.
+Mediapipe Version conflicts.
+
+Team **Team Sky** -- [Aadittayan Roy](https://github.com/AdeRoyale), Divij Malhotra, [Ayush Kumar thakur](https://github.com/Ayush-068), [MRINAL PARIDA](https://github.com/pmrinal2005)
+
+`2026-04-07`
+
+---
+
+### Self Ranker
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/self-ranker-526f) [![Built at](https://img.shields.io/badge/Built%20at-Matrix%203-0052CC?style=flat-square)](https://matrix-3.devfolio.co)
+
+> AI Based Learning Platform
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+## Problem Statement
+
+In today's learning environment, students frequently switch between multiple platforms for studying—one for notes, another for quizzes, and yet another for doubt solving. This constant switching leads to loss of focus, wasted time, and reduced overall efficiency.
+
+## Proposed Solution
+
+To address this issue, I have developed an **AI-Based Learning Platform** that provides all essential study resources in a single unified space. The platform includes:
+
+- Smart Notes  
+- AI-generated Quizzes  
+- Question & Answer support  
+- Personalized learning resources  
+
+The platform leverages Artificial Intelligence to understand each student's learning pattern and delivers customized content accordingly, enhancing both productivity and comprehension.
+
+## Impact
+
+- Saves time by eliminating the need to switch between multiple platforms  
+- Improves focus and learning consistency  
+- Provides a personalized learning experience  
+- Enhances overall study efficiency
+
+**Challenges we ran into**
+
+## Challenges I Ran Into
+
+While building this AI-Based Learning Platform, I encountered several technical and practical challenges:
+
+### 1. Integrating AI for Personalized Content
+One of the biggest hurdles was implementing AI in a way that could generate relevant notes, quizzes, and answers based on user input. Initially, the responses were too generic and not tailored to individual needs.
+
+**Solution:**  
+I refined the prompts and improved the API handling logic to make responses more context-aware. By structuring inputs properly and adding user-specific parameters, I was able to generate more accurate and personalized results.
+
+---
+
+### 2. Managing Multiple Features in One Platform
+Combining notes, quizzes, and Q&A into a single platform created complexity in both frontend and backend. It was difficult to maintain smooth navigation and performance.
+
+**Solution:**  
+I divided the application into modular components and followed a structured architecture. This helped in managing each feature independently while ensuring seamless integration.
+
+---
+
+### 3. Performance and API Response Time
+Since the platform relies on AI APIs, response time became an issue, especially when generating quizzes or long answers.
+
+**Solution:**  
+I optimized API calls by reducing unnecessary requests, implementing loading states, and handling asynchronous operations efficiently. This improved the overall user experience.
+
+---
+
+### 4. User Interface and Experience
+Designing a UI that is simple yet powerful was challenging. Too many features on one screen made it cluttered.
+
+**Solution:**  
+I focused on a clean and minimal UI design with proper spacing, intuitive navigation, and responsive layout to ensure a smooth user experience across devices.
+
+---
+
+### 5. Handling Errors and Edge Cases
+There were cases where the AI would fail to generate responses or return incomplete data.
+
+**Solution:**  
+I implemented proper error handling and fallback mechanisms to ensure the platform remains stable and user-friendly even in unexpected scenarios.
+
+---
+
+## Conclusion
+
+These challenges helped me improve my problem-solving skills and gave me a deeper understanding of building scalable AI-powered applications. Overcoming these hurdles made the platform more robust, efficient, and user-centric.
+
+Team **Syntax Terror** -- [Gaurav Goswami](https://github.com/itzgauravgoswami)
+
+`2026-04-07`
+
+---
+
+### CrowdTrack
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/crowdtrack-847d) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/palak-1212/CrowdTrack.git) [![Built at](https://img.shields.io/badge/Built%20at-Matrix%203-0052CC?style=flat-square)](https://matrix-3.devfolio.co)
+
+> From reactive monitoring to advance intelligence
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Java](https://img.shields.io/badge/Java-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Core ML](https://img.shields.io/badge/Core%20ML-333333?style=flat-square)
+
+**The problem it solves**
+
+It solves the problem of overcrowding and prevents from stampedes in a cost effective way.
+
+Team **VERTEX** -- Garima Bisht, Palak ., Arpita Kumari, LAVISHA AGARWAL
+
+`2026-04-07`
+
+---
+
+### Route Guard
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/route-guard-ee5c) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Rohit03022006/RouteGuard) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/gsVWzr6lRb4?si=6Cr2FZCASmzdpS4Q) [![Built at](https://img.shields.io/badge/Built%20at-Hacknovate--7.0-0052CC?style=flat-square)](https://hacknovate07.devfolio.co)
+
+> Real-Time Visibility with AI to detect cargo-theft
+
+![Docker](https://img.shields.io/badge/Docker-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=flat-square) ![Jenkins](https://img.shields.io/badge/Jenkins-333333?style=flat-square) ![Kubernetes](https://img.shields.io/badge/Kubernetes-333333?style=flat-square) ![Spring](https://img.shields.io/badge/Spring-333333?style=flat-square) ![React.js](https://img.shields.io/badge/React.js-333333?style=flat-square)
+
+**The problem it solves**
+
+## The Problem It Solves
+
+This system provides **real-time route validation and anomaly detection** for fleet and logistics operations.
+
+Current solutions rely heavily on manual monitoring or driver self-reporting, which can be unreliable, delayed, and prone to error. This creates risks such as route deviations, inefficiencies, delays, and potential security concerns.
+
+This solution addresses these issues by:
+
+* Automatically validating routes without manual intervention
+* Detecting abnormal behavior using machine learning (e.g., unusual speed, distance, or route deviation)
+* Generating real-time alerts for suspicious activity
+* Providing continuous tracking with risk scoring
+
+In essence, it enables **automated, reliable, and transparent route monitoring**.
+
+
+## What People Can Use It For
+
+* Logistics companies to ensure safe and efficient deliveries
+* Fleet managers to monitor vehicle movement in real time
+* Supply chain operations to maintain route integrity and timelines
+* High-value or sensitive transport to detect suspicious activity early
+
+---
+
+## How It Improves Existing Systems
+
+* Eliminates dependence on manual supervision
+* Reduces human error and delayed response
+* Enables real-time decision-making
+* Provides data-driven insights on route efficiency and behavior
+* Improves overall safety and operational transparency
+
+**Challenges we ran into**
+
+## Challenges I Ran Into
+
+* **Kubernetes Deployment Issues**
+  Some pods remained in the `ContainerCreating` state due to configuration and networking problems. This was resolved by inspecting logs, verifying container images, and correcting namespace and service configurations.
+
+* **502 Bad Gateway Errors**
+  Occurred due to improper communication between Nginx and backend services. Fixed by ensuring correct service routing and verifying backend health.
+
+* **CORS Issues**
+  The frontend was unable to communicate with backend APIs. Resolved by configuring appropriate CORS policies on the server.
+
+* **Handling Real-Time Data Efficiently**
+  Processing continuous route data alongside machine learning predictions required optimization. Addressed by refining API workflows and preprocessing data before model inference.
+
+Team **SYNTAX ERROR** -- [Rohit Kumar](https://github.com/Rohit03022006), [Apurva .](https://github.com/apurv99-cloud), [Sayan Yadav](https://github.com/yadavsayan9), [Kanishka Singh](https://github.com/JNKJN)
+
+`2026-04-04`
+
+---
+
+### Saarthi AI
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/saarthi-ai-74fb) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/SAARTHII-AI/Saarthi-AI) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://saarthi--ai.replit.app/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/8be4amQlEZQ) [![Built at](https://img.shields.io/badge/Built%20at-Hacknovate--7.0-0052CC?style=flat-square)](https://hacknovate07.devfolio.co)
+
+> Solving India's Hidden Welfare Access
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Docker](https://img.shields.io/badge/Docker-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![DBMS](https://img.shields.io/badge/DBMS-333333?style=flat-square) ![Vercel](https://img.shields.io/badge/Vercel-333333?style=flat-square)
+
+**The problem it solves**
+
+What Can People Use Saarthi-AI For?
+
+Saarthi-AI is a voice-first, multilingual assistant that simplifies how citizens—especially farmers—access and benefit from government schemes and essential services.
+
+1. Discover Relevant Government Schemes
+Users can ask queries in their local language (e.g., Hindi, Punjabi, Tamil)
+Provides personalized scheme recommendations based on:
+Income
+Location
+Occupation
+Eliminates the need to search across multiple complex portals
+2. Simplify Complex Information
+Converts government jargon into easy-to-understand language
+Clearly explains:
+Eligibility criteria
+Benefits
+Required documents
+Helps users with low digital literacy
+3. Voice-Based Interaction (No Typing Needed)
+Users can speak instead of typing
+Useful for rural users, elderly citizens, and low-literacy populations
+Works in low-bandwidth environments
+4. Faster Decision-Making
+Provides instant responses instead of requiring visits to offices or long searches
+Reduces dependency on manual processes and intermediaries
+5. Step-by-Step Application Guidance
+Guides users through:
+How to apply
+Where to apply
+Required documents
+Can integrate with online portals and nearby service centers
+6. Reduces Information Fragmentation
+Aggregates data from multiple government sources into a single interface
+Removes the need to visit multiple websites or platforms
+7. Safer and More Reliable Access
+Provides verified and up-to-date information
+Reduces misinformation and risk of fraud or exploitation by middlemen
+Builds trust in digital systems
+8. Improves Productivity and Efficiency
+Saves time spent searching, verifying, and understanding information
+Allows users to focus on decision-making and effective utilization of schemes
+Overall Impact
+
+Saarthi-AI transforms a complex and fragmented system into one that is simple, accessible, efficient, and reliable.
+
+In short: it changes the experience from searching and struggling to simply asking and acting.
+
+Team **Team Zenith** -- [Lal Awnish Nath Sahdeo](https://github.com/Awnish-sahdeo), [Manisi Nikhil](https://github.com/NIKHIL-14238), [ADIT JAIN](https://github.com/Adit-Jain-srm), [Pratishtha Sharma](https://github.com/Pratishtha-210/)
+
+`2026-04-04`
+
+---
+
+### IdeaSaarthi
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/ideasaarthi-80a6) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/suryansh18saxena/Startup-Idea-Validator.git) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/Q-d7Q7nKxVw?si=B81fkbYLfeuHPGfv) [![Built at](https://img.shields.io/badge/Built%20at-Hacknovate--7.0-0052CC?style=flat-square)](https://hacknovate07.devfolio.co)
+
+> Just one click to validate your idea
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![Django](https://img.shields.io/badge/Django-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+The IdeaSaarthi platform is designed to address several critical challenges in the startup ecosystem by bridging the gap between entrepreneurs and investors through AI and Blockchain technology.
+
+Below is a description of the problems it solves and how it enhances existing startup-related tasks:
+
+1. Objective Startup Idea Validation
+Many entrepreneurs struggle to determine if their idea is viable or how to improve it. IdeaSaarthi automates this validation process:
+
+AI-Powered SWOT Analysis: The platform uses Google Gemini AI to instantly generate a detailed analysis of Strengths, Weaknesses, Opportunities, and Threats for any submitted idea.
+
+Data-Driven Scoring: Every idea receives numerical scores for its SWOT components, providing founders with a clear, objective metric of their idea's potential.
+
+Similarity Check: Before an idea is even saved, the system performs an AI-driven similarity check against existing ideas to help founders ensure their concept is unique.
+
+2. Intellectual Property Security
+A major concern for founders is the risk of their ideas being stolen or leaked. The platform makes the submission process "safer":
+
+Blockchain Timestamping: When an idea is confirmed, a hash of the content is recorded on the Algorand Testnet. This creates an immutable, time-stamped proof of ownership that establishes exactly who created the idea and when.
+
+Role-Based Access: The system uses separate, secure authentication flows for "Users" (Entrepreneurs) and "Investors" to ensure that sensitive data is only accessible to authorized parties.
+
+3. Streamlined Investor-Founder Networking
+Finding the right investor is often a long and tedious manual process. IdeaSaarthi makes this task "easier":
+
+Centralized Deal Flow: Investors can browse all submitted startup ideas from a single dashboard, saving them the time of searching through disparate sources.
+
+Informed Decision Making: Instead of relying solely on a pitch deck, investors can review AI-generated SWOT reports and scores to make more informed, data-backed investment choices.
+
+Structured Connection System: Investors can send "Introduction Requests" directly through the platform. Founders retain control by choosing to either accept or reject these requests.
+
+4. Automated Product Planning
+Moving from a validated idea to execution is a significant hurdle for many founders.
+
+Instant PRD Generation: The platform can automatically generate a comprehensive Product Requirements Document (PRD) using AI, turning what would normally take weeks of work into a process that takes minutes.
+
+Interactive AI Editing: Founders can refine their documentation by providing specific instructions to the AI to update or customize the PRD content.
+
+**Challenges we ran into**
+
+Inconsistent AI Response Parsing
+One of the primary challenges was handling the unpredictable nature of AI-generated content when performing SWOT analysis. Since the model might return data in various formats (lists, dictionaries, or strings with extra text), the application had to be robust enough to extract numerical scores and text accurately.
+
+The Bug: The AI sometimes included descriptive text inside score fields (e.g., "Score: 85/100" instead of just "85"), which caused standard integer conversion to fail.
+
+The Solution: A custom safe_int utility function was implemented using Regular Expressions (re.search(r'\d+', val)) to extract digits from any string returned by the AI, ensuring the dashboard metrics remained functional even with "dirty" data.
+
+2. Blockchain Transaction Reliability
+Integrating the Algorand Testnet for idea timestamping introduced hurdles regarding network latency and transaction failures.
+
+The Hurdle: Real-world blockchain transactions can fail due to network congestion or API rate limits on free nodes (like AlgoNode), which could potentially crash the entire idea submission process.
+
+The Solution: The blockchain logic was wrapped in a comprehensive try-except block. If the transaction fails, the system logs the error and notifies the user with a Django messages.warning ("Idea saved, but blockchain timestamping failed"), allowing the core startup validation features to continue working without being blocked by external network issues.
+
+3. Managing Multi-Step Submission Logic
+To prevent duplicate ideas and provide a similarity check, the submission process was split into multiple stages, creating a challenge in maintaining data state.
+
+The Hurdle: Checking for similarity before saving to the database meant that the user's form data (problem, solution, market, etc.) would be lost if the page reloaded or moved to a results view.
+
+The Solution: Django Sessions were used to temporarily store the "pending idea" data. The data is held in request.session['pending_idea'] while the user reviews the similarity results and is only committed to the database once the confirm_idea view is triggered.
+
+4. Handling Missing Dashboard Metrics
+Aggregating data for the User Dashboard (like Average Score) posed a hurdle when a new user had zero ideas submitted.
+
+The Hurdle: Using Django’s Avg aggregation on an empty queryset returns None, which can break mathematical operations or UI rendering.
+
+The Solution: The code uses a "defaulting" logic (avg_data['avg_score'] or 0) to ensure that the dashboard always displays a valid number (0) for new accounts, preventing application crashes.
+
+5. Secure Role Isolation
+Separating the workflows for Entrepreneurs and Investors while using the same base User model required careful access control.
+
+The Hurdle: Ensuring that investors cannot edit ideas and entrepreneurs cannot see "Deal Flow" data meant that standard authentication wasn't enough.
+
+The Solution: Separate signup and login views were created for each role (signup vs investor_signup), and logic was added to the request_introduction view to explicitly prevent users from requesting introductions to their own ideas.
+
+Team **Hackspark** -- [Mayank Garg](https://github.com/ayankgg), [Suryansh saxena](https://github.com/suryansh18saxena), [Kasak Kumari](https://github.com/kasak899), [Meenu Parashar](https://github.com/meenuparashar18)
+
+`2026-04-04`
+
+---
+
+### Fianza
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/fianza-ab76) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://aviiral07.github.io/Fianza/) [![Built at](https://img.shields.io/badge/Built%20at-Hacknovate--7.0-0052CC?style=flat-square)](https://hacknovate07.devfolio.co)
+
+> Your landlord can never steal your deposit again
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Docker](https://img.shields.io/badge/Docker-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Poetry](https://img.shields.io/badge/Poetry-333333?style=flat-square) ![Pera](https://img.shields.io/badge/Pera-333333?style=flat-square)
+
+Team **Spartan** -- [Aditi Garg](https://github.com/Aviral07), [Aditri Pandey](https://github.com/pandeyaditri12-dot), [Amit Aswal](https://github.com/AmitAswal123), [Aviral Dubey](https://github.com/Aviiral07)
+
+`2026-04-04`
+
+---
+
+### EVI
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/evi-5975) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/debu-devesh/EVI) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/hZkhcjn-ngk) [![Built at](https://img.shields.io/badge/Built%20at-Hacknovate--7.0-0052CC?style=flat-square)](https://hacknovate07.devfolio.co)
+
+> An AI Powered UFDR Analysis Tool.
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Docker](https://img.shields.io/badge/Docker-333333?style=flat-square) ![SQLite](https://img.shields.io/badge/SQLite-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![bycryptjs](https://img.shields.io/badge/bycryptjs-333333?style=flat-square) ![Bootstrap​](https://img.shields.io/badge/Bootstrap​-333333?style=flat-square)
+
+**The problem it solves**
+
+**The Problem It Solves**
+
+Modern digital investigations generate massive amounts of data from mobile devices, including messages, calls, locations, and files across multiple platforms.
+
+While existing **forensic tool** can extract this data efficiently, they mostly present it as raw information. Investigators are still required to manually go through thousands of records to find relevant insights, identify patterns, and establish connections.
+
+This process is time-consuming, mentally demanding, and increases the risk of missing critical evidence, especially in complex or time-sensitive cases.
+
+**EVI** solves this problem by transforming raw forensic data into structured, meaningful insights. It allows users to **quickly analyze evidence, detect patterns, and understand relationships** without manually searching through large datasets.
+
+Investigators can simply ask questions in natural language, and the system retrieves accurate data and provides clear explanations backed by evidence.
+
+By reducing manual effort, improving speed, and ensuring reliable analysis, EVI makes digital investigations faster, smarter, and more dependable.
+
+**Challenges we ran into**
+
+# Challenges Faced and Solution
+
+During the improvement of EVI, we encountered several technical and realistic demanding situations even as operating with forensic records codecs and AI-primarily based analysis.
+
+## 1. Lack of Access to Cellebrite Tool
+
+One of the largest challenges become the lack of get right of entry to to expert forensic tools consisting of Cellebrite.
+
+**Problems:**
+- We could not generate real tool extraction statistics  
+- Limited documentation approximately UFDR file shape  
+- Difficulty trying out device with sensible forensic facts  
+
+**Solution:** Research on UFDR report formats, XML-primarily based forensic information systems, and sample forensic facts formats.
+
+**Result:** Continue improvement, flexible parsing logic, real-world integration readiness.
+
+## 2. No Prior Knowledge of UFDR Structure
+
+UFDR documents comprise complex nested facts (Messages, Call logs, Contacts, Locations, Media files).
+
+**Challenges:**
+- Identifying accurate tags and fields  
+- Understanding relationships between records  
+- Extracting meaningful forensic statistics  
+
+## 3. Creating Dummy UFDR Files
+
+Due to the lack of real UFDR files, we created dummy UFDR-like documents.
+
+**Challenges:**
+- Unknown UFDR structure  
+- Matching practical forensic outputs  
+- Maintaining relationships among chats, calls, and contacts  
+
+**Approach:** Studying sample XML formats, designing hierarchical records structures, creating realistic datasets (WhatsApp chats, Call logs, Contacts, Location facts, Media references).
+
+**Result:** Test parsing good judgment, validate correlation engine, simulate real investigation scenarios.
+
+## 4. Handling Large Forensic Files
+
+Loading full documents caused overall performance troubles.
+
+**Solution:** Streaming-based parsing (process in smaller chunks).
+
+**Improvement:** Memory efficiency, performance, stability.
+
+## 5. Hallucination and AI reliability
+
+AI generated insights no longer based on actual records.
+
+**Solution:** Hybrid structure:
+- Deterministic retrieval for factual records  
+- AI for interpretation and summarization  
+
+## 6. Various data formats from different applications
+
+Different applications store information differently.
+
+**Solution:** Fact normalization layer to standardize all information.
+
+**Improvement:** Correlation between platforms, Timeline Era, Pattern detection.
+
+Team **Mind Weavers** -- [Hitt Jain](https://github.com/HittJain), [Devesh Sahoo](https://github.com/debu-devesh), [Madhulika Singh](https://github.com/madhulika9955), [Manas Anand](https://github.com/Bhalaa-Manas)
+
+`2026-04-04`
+
+---
+
+### CopSight
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/copsight-6721) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://1shivamgit.github.io/ForenX/) [![Built at](https://img.shields.io/badge/Built%20at-Hacknovate--7.0-0052CC?style=flat-square)](https://hacknovate07.devfolio.co)
+
+> AI based Universal Forensic Data Analysis Platform
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-333333?style=flat-square) ![Artificial Intelligence](https://img.shields.io/badge/Artificial%20Intelligence-333333?style=flat-square)
+
+Team **Forenx** -- [Brijesh Yadav](https://github.com/beingbrijesh/), [Shivam Sharma](https://github.com/1shivamgit), [Amit Patel](https://github.com/AmitwithAPJ), [Anshika Singh](https://github.com/anshikawin)
+
+`2026-04-04`
+
+---
+
+### Vortex
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/vortex-7de9) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Mohammad-Raees/vortex.git) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/GO5mxwHGmE0) [![Built at](https://img.shields.io/badge/Built%20at-Hacknovate--7.0-0052CC?style=flat-square)](https://hacknovate07.devfolio.co)
+
+> Hide data. Reveal nothing." "Invisible security, v
+
+![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![scikit-learn](https://img.shields.io/badge/scikit--learn-333333?style=flat-square) ![WebAssembly](https://img.shields.io/badge/WebAssembly-333333?style=flat-square) ![Docker](https://img.shields.io/badge/Docker-333333?style=flat-square) ![Express.js](https://img.shields.io/badge/Express.js-333333?style=flat-square)
+
+**The problem it solves**
+
+## The Problem
+
+Cybersecurity is one of the most critical skills of our generation — yet 
+it remains inaccessible to most people. Traditional learning is either 
+too theoretical (textbooks, slides) or too dangerous (real systems). 
+Students and developers have no safe, guided environment to actually 
+*practice* security concepts hands-on.
+
+Meanwhile, real threats are growing:
+- **Data breaches** expose millions of Aadhaar numbers, emails, and phone 
+  numbers every year — most developers don't even know what PII is
+- **Network intrusion attacks** (DoS, Probe, R2L, U2R) hit thousands of 
+  systems daily — most teams can't detect them
+- **Web application attacks** like SQL injection remain the #1 attack vector 
+  — yet they're trivially preventable with a WAF
+- **Sensitive data leakage** through digital channels is rampant — covert 
+  communication tools like steganography are unknown to most
+
+## What VORTEX Does
+
+VORTEX is a **unified, gamified cybersecurity learning platform** that puts 
+four enterprise-grade security tools in one place — and teaches you how to 
+use them through missions, XP rewards, and badges.
+
+- 🔍 **Privacy Guardian** — Scan text for leaked PII using Microsoft Presidio 
+  with custom Indian data support (Aadhaar, Indian phone numbers). Learn what 
+  data you're accidentally exposing.
+
+- 🛡️ **Threat Hunter** — Watch an ML-powered Network Intrusion Detection 
+  System classify live network traffic in real time. Learn to identify DoS, 
+  Probe, R2L, and U2R attacks as they happen.
+
+- 👁️ **Ghost Protocol** — Use Shadow_Fold's WebAssembly steganography engine 
+  to hide secret messages inside images. Learn how covert communication works 
+  at the binary level.
+
+- 🔒 **Hack the Lab** — Attack OWASP Juice Shop with real SQL injection, then 
+  watch SafeLine WAF block the same attack. Learn offense and defense 
+  simultaneously in a safe environment.
+
+Every action earns XP. Every skill unlocks a badge. Every mission teaches 
+a real-world cybersecurity concept — by doing, not by reading.
+
+**VORTEX turns cybersecurity from intimidating to achievable — one mission 
+at a time.**
+
+**Challenges we ran into**
+
+## Technical Challenges
+
+### 1. Integrating a WebAssembly Steganography Engine Server-Side
+Shadow_Fold's core encoding logic is compiled to WebAssembly (WASM) using 
+Emscripten — designed to run in browsers. Getting it to run server-side in 
+a Node.js Docker container required loading the WASM binary manually, 
+mapping the correct memory layout for raw RGBA image buffers, and bridging 
+the `encode_data_wh` and `decode_data_dual` C++ functions through the JS 
+wrapper. Using `sharp` for image processing and careful buffer management 
+solved this.
+
+### 2. Multi-Service Docker Orchestration
+Running 7 containers simultaneously (Presidio, NIDS, Shadow_Fold wrapper, 
+SafeLine WAF, SafeLine PostgreSQL, Juice Shop, Next.js dashboard + Express 
+backend) with correct inter-container networking was complex. SafeLine 
+requires its management service to communicate with its PostgreSQL instance 
+by container hostname. Getting build contexts right for services that needed 
+to copy files from sibling directories required setting the compose build 
+context to the project root.
+
+### 3. NIDS Feature Engineering
+The ML model trained on the NSL-KDD dataset expects a precise 42-feature 
+numerical vector in exact order. Building a wrapper that accepts human-readable 
+network event data and transforms it into the correct feature array — including 
+encoding categorical variables like `protocol_type`, `service`, and `flag` — 
+required careful study of the original Jupyter notebook and dataset schema.
+
+### 4. Microsoft Presidio Indian PII Support
+Presidio's default recognizers cover standard international PII but lack 
+patterns for Indian-specific formats — Aadhaar (####-####-####), Indian 
+mobile numbers (+91-XXXXXXXXXX), and Indian passport formats. We implemented 
+custom `PatternRecognizer` classes and registered them with the Presidio 
+`AnalyzerEngine` registry to extend its detection capabilities.
+
+### 5. File Streaming Across Three Service Hops
+The steganography encode flow passes a binary image file from the browser → 
+Next.js dashboard → Express backend → Node.js wrapper → WASM engine → back 
+as a PNG download. Maintaining binary integrity across three HTTP hops using 
+`multer`, `form-data`, and `axios` streaming (`responseType: 'stream'`) without 
+corruption or memory overflow required careful header management at each hop.
+
+Team **Vortex-1** -- [Mohammad Raees](https://github.com/Mohammad-Raees), [Aditya Gaur](https://github.com/adityagaur2620-netizen), [Anirudh Agarwal](https://github.com/anirudhagarwal-dev?tab=overview&from=2026-01-01&to=2026-01-02), [Shivanshu Tiwari](https://github.com/Shivanshu-GITH)
+
+`2026-04-04`
+
+---
+
+### Pragati
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/pragati-7e18) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/anjalivarshney8923/Pragati) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://drive.google.com/file/d/1RvApdlbdAiVDPhn7T_tTwDIQqULHCL-Z/view?usp=drive_link) [![Built at](https://img.shields.io/badge/Built%20at-Hacknovate--7.0-0052CC?style=flat-square)](https://hacknovate07.devfolio.co)
+
+> Pragati – Voices to Action. A platform that transf
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+The Problem It Solves:
+In many rural areas, citizens struggle to get their complaints heard or resolved due to lack of transparency, delayed responses, and unclear accountability. Issues often get ignored, lost, or handled inefficiently, creating frustration and mistrust in governance systems.
+
+What People Can Use It For / How It Helps:
+Pragati allows citizens to easily raise complaints, track their status in real time, and ensure they reach the right authorities through smart routing and escalation. It makes governance more transparent, reduces delays, and ensures accountability by keeping a clear digital record of every action. This simplifies the complaint process, makes it more reliable, and gives people confidence that their voices lead to real action.
+
+**Challenges we ran into**
+
+One major challenge was designing the complaint escalation system. Initially, complaints were not routing correctly to higher authorities when deadlines were missed, causing delays and breaking the accountability flow. Debugging this was tricky because it involved multiple conditions like time tracking, department mapping, and role hierarchy (Pradhan → Vibhag → BDO). I solved it by restructuring the logic into clear stages, adding timestamps, and implementing a rule-based escalation trigger with proper testing at each level.
+
+Another hurdle was handling real-time updates for complaint status. Changes were not reflecting instantly on the user dashboard, which reduced transparency. I resolved this by improving API calls and ensuring proper state management on the frontend, making updates more responsive and reliable.
+
+**Algorand**
+
+Algorand in Pragati project as a trust layer to make important actions like fund allocation, expense tracking, and complaint escalation tamper-proof and transparent. Instead of storing everything on the blockchain, you keep your main data in your database (like PostgreSQL) and only send critical summaries or hashes (such as “₹1 crore allocated to Village X” or “Complaint escalated from Pradhan to BDO”) to Algorand using its SDK from your Spring Boot backend. Each time such an event happens, a transaction is created with this data in the note field, and the transaction ID is stored in your database. This way, if anyone tries to manipulate records (like misusing funds), you can verify the truth through the blockchain, which cannot be altered. In simple terms, your system becomes a hybrid model where the database handles operations and Algorand ensures transparency, accountability, and proof for governance actions.
+
+Team **Innovatrix** -- [Anjali Varshney](https://github.com/anjalivarshney8923), [Aditya Chauhan](https://github.com/Aditya01072005), [Anjali Chauhan](https://github.com/Anjalic21), [Akshat Sharma](https://github.com/akshatsharma2006)
+
+`2026-04-04`
+
+---
+
+### Akshi
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/akshi-7423) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://akshi-mu.vercel.app) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/bXkfwVkF2kw?si=01bwrrLvi5dh2Vcr) [![Built at](https://img.shields.io/badge/Built%20at-HackMol%207.0-0052CC?style=flat-square)](https://hackmol-7.devfolio.co)
+
+> One stop accessibility platform
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![YOLOv3 Algorithm](https://img.shields.io/badge/YOLOv3%20Algorithm-333333?style=flat-square) ![Vercel](https://img.shields.io/badge/Vercel-333333?style=flat-square) ![Streamlit](https://img.shields.io/badge/Streamlit-333333?style=flat-square)
+
+**The problem it solves**
+
+It's a one stop accessibility platform 
+It helps in real time object detection. It provides an option to operate the app through voice navigation and it also consists of Braille digital keyboard which makes it easier for visually impaired people to learn braille easily and
+
+**Challenges we ran into**
+
+Problems with deployment and api integration. We got over these issues by running some of our features locally
+
+**Women Track: The Queen’s Vanguard**
+
+All fresher women
+
+Team **Logix** -- [Mishthi Khanna](https://github.com/Mitthu1986), [Manyata Gandotra](https://github.com/Manyata29), [KRITI Nayyar](https://github.com/kritinayyar08-alt), [Vidhanshi Jain](https://github.com/vidhanshi-jain-8a166037b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
+
+`2026-03-29`
+
+---
+
+### PULSE
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/pulse-7ce2) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/devshouse-PULSE/hiren_v1) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://youtu.be/4phk9yt_kbE?si=rsrGfh-VGvWdtNmP) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/4phk9yt_kbE?si=rsrGfh-VGvWdtNmP) [![Built at](https://img.shields.io/badge/Built%20at-DevsHouse%20'26-0052CC?style=flat-square)](https://devshouse26.devfolio.co)
+
+> AI-driven road infrastructure management system
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Firebase](https://img.shields.io/badge/Firebase-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![WebSockets](https://img.shields.io/badge/WebSockets-333333?style=flat-square) ![ngrok](https://img.shields.io/badge/ngrok-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square)
+
+**The problem it solves**
+
+The Problem PULSE Solves: The "Invisible" Infrastructure Crisis
+India possesses the second-largest road network in the world (6.4 million km), yet the government can only formally assess less than 8% of these roads annually. This creates a massive "information black hole" where roads deteriorate into dangerous, costly traps long before an engineer ever steps foot on them.
+
+Traditional solutions rely on ₹50 lakh consultant reports or ₹5 crore specialized laser vehicles. Consequently, rural and district roads are often ignored until they physically collapse, leading to a reactive, "firefighting" approach to maintenance that wastes billions in taxpayer money.
+
+How People Use PULSE (Use Cases)
+PULSE transforms any standard vehicle into a "Physics Lab on Wheels" using a smartphone and AI.
+
+1. For Government District Engineers: "The Automated Pipeline"
+Existing Task: Manually inspecting thousands of kilometers, taking photos, and writing dense funding applications.
+
+PULSE Solution: Engineers simply mount a phone and drive. The system automatically identifies potholes, measures "rut depth" in millimeters, and auto-drafts a complete PMGSY funding application citing specific Indian Road Congress (IRC) standards.
+
+Benefit: Reduces a multi-week administrative process to a "Review and Send" task.
+
+2. For Municipalities: "Continuous Intelligence"
+Existing Task: Point-in-time surveys that are outdated the moment they are printed.
+
+PULSE Solution: Every garbage truck, bus, or official vehicle becomes a sensor node. As they go about their daily routes, they build a continuously updating 3D health map of the city's streets.
+
+Benefit: Detects road "decay rates" in real-time. If a road's roughness jumps after one rainstorm, the system flags it for a $1 fix today before it becomes a $100 repair tomorrow.
+
+3. For Development Economists: "The Economic Cascade"
+Existing Task: Guessing how much a bad road hurts a local village.
+
+PULSE Solution: PULSE connects road roughness (IRI) to real-world consequences using the HDM-4 model.
+
+Benefit: It calculates the "True Cost" of a bumpy road, such as:
+
+Ambulance Delays: "This pothole adds 6 minutes to a trip to the nearest hospital".
+
+Agricultural Loss: "Farmers are losing ₹1.1 lakh/month in damaged produce due to vibrations".
+
+Education: "School attendance is dropping because the 20-minute bike ride now takes 40 minutes".
+
+**Challenges we ran into**
+
+Building a system that translates raw smartphone vibrations into engineering-grade infrastructure reports involves moving from "clean" laboratory physics to the "messy" reality of Indian roads.
+
+Here are the primary technical hurdles we encountered during the development of PULSE and how we engineered our way through them:
+
+1. The "Scale" Problem: Monocular Depth to Metric Reality
+The Hurdle: A smartphone camera is "scale-blind." It can see a pothole, but it doesn't naturally know if that pothole is 2 centimeters deep or 20 centimeters deep. Existing models like Depth Anything V2 provide incredible relative depth, but without a physical "anchor," the data is useless for engineering.
+
+The Solution: We implemented a Three-Anchor Scale Fusion pipeline:
+
+IMU Anchor: Using ORB-SLAM3, we fused the accelerometer data with the visual feed. Since the IMU measures physical units (m/s²), it provides the mathematical "yardstick" to the camera.
+
+Ground-Plane Anchor: We required a one-time measurement of the phone’s mounting height. By using RANSAC algorithms to identify the road plane in the video, we could back-calculate the metric scale based on that fixed height.
+
+Motion Anchor: We cross-referenced GPS speed with "optical flow" (how fast pixels move across the screen) to double-check our scale recovery.
+
+2. The "Firehose" Effect: Streaming & Data Ingestion
+The Hurdle: Sampling an accelerometer at 200Hz while simultaneously streaming 4K video and GPS data creates a massive bandwidth bottleneck. A single 10-minute drive would typically result in gigabytes of data—unfeasible for rural Indian 4G/5G networks.
+
+The Solution: We moved the intelligence to the Edge:
+
+On-Device Pre-processing: The React Native PWA doesn't stream raw video. It runs a lightweight IRI (International Roughness Index) computation on-device and only sends "keyframe" images (2fps) to the backend.
+
+WebSocket Buffering: We built a custom FastAPI WebSocket handler that "buckets" incoming sensor data into 100-meter segments. The backend only triggers the heavy AI agents once a full segment is successfully buffered, ensuring we aren't wasting compute on incomplete data.
+
+3. Inference Latency: Running LLMs & VLMs Locally
+The Hurdle: Running Qwen2.5-VL-7B (Vision-Language Model) and Depth Anything V2 simultaneously is a massive strain on VRAM. Initially, the system would "hang" as it tried to process visual distress signals while calculating 3D point clouds.
+
+The Solution: AMD ROCm + 4-Bit Quantization:
+
+We utilized 4-bit quantization to shrink the Qwen2.5-VL model, allowing it to fit into just 6GB of VRAM.
+
+By leveraging AMD's ROCm libraries, we optimized the GPU kernels specifically for the hardware, allowing Depth Anything V2 to run at nearly 30fps for post-processing.
+
+4. The "Devil’s Advocate": Multi-Agent Conflict Resolution
+The Hurdle: Different sensors often disagree. For example, a road might look smooth (Visual Agent) but feel incredibly bumpy (Accelerometer Agent) because of a hidden structural failure. Alternatively, the car might hit a speed bump, causing a massive "false positive" pothole spike in the data.
+
+The Solution: We introduced the Devil’s Advocate Agent:
+
+This agent acts as a "truth-checker" within our multi-agent pipeline. It runs a set of Challenge Rules.
+
+If the IRI (vibration) is high but the camera sees no cracks, the Devil’s Advocate flags the segment for "Human Review" rather than auto-filing a report.
+
+It also invalidates any data collected at speeds below 15 km/h, as the physics of the "quarter-car" model used for IRI becomes unreliable at low speeds.
+
+5. Backend Integration: From Raw Data to PMGSY Reports
+The Hurdle: The final output needed to be more than just a graph; it had to be a legal-ready government application. Standardizing the output of 7 different AI agents into a single, cohesive PDF that followed MoRTH (Ministry of Road Transport and Highways) formatting was a major logic hurdle.
+
+The Solution: We built a Sequential Agent Orchestrator:
+
+The Sensor Fusion Agent first creates a "Unified Condition Object".
+
+This object is passed to the Economic Cascade Engine, which pulls external population data to calculate the "Rupee Loss" of the road.
+
+Finally, the Government Pipeline Agent uses an LLM to "translate" those technical and economic findings into the specific formal language required for a PMGSY funding request.
+
+**IoT & Smart Devices**
+
+How It Fits the "IoT & Smart Devices" Track
+At DevsHouse, PULSE stands out as a Mobile IoT powerhouse:
+
+The Phone as an Edge Gateway: It uses the smartphone not just as a camera, but as a high-frequency sensor node (200Hz IMU sampling) that processes data at the edge.
+
+Digital Twin Creation: Every drive contributes to a live, 3D "Digital Twin" of the city's infrastructure.
+
+Smart Actuation: It doesn't just collect data; it triggers a Multi-Agent Pipeline that auto-drafts official PMGSY (Government) funding applications.
+
+Team **Phantom Troupe** -- [Pranav P.K](https://github.com/Pranav-P-K), [Vaibhav P](https://github.com/Martian-Dev), [Hirendra Balaji](https://github.com/hirendra007), [Dheeraj Ragavendar](https://github.com/dheerajdrse7en)
+
+`2026-03-29`
+
+---
+
+### AI Powered Rag Tutor
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/ai-powered-rag-tutor-ddcf) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/srinjayeeg/Gyaan-Z) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://1drv.ms/w/c/b4b355c226aa3ba6/IQCS-7dV31IURJhtVEpyLA2PAb1nI-I2-gy975bAy2iq5zI?e=17qqiA) [![Built at](https://img.shields.io/badge/Built%20at-FrostHacks%20S02-0052CC?style=flat-square)](https://frosthacks-s-2.devfolio.co)
+
+> An AI Learning System Using  RAG & Socratic Prompt
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Java](https://img.shields.io/badge/Java-333333?style=flat-square) ![Docker](https://img.shields.io/badge/Docker-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![FastAPI](https://img.shields.io/badge/FastAPI-333333?style=flat-square) ![chromadb](https://img.shields.io/badge/chromadb-333333?style=flat-square) ![Gemini API](https://img.shields.io/badge/Gemini%20API-333333?style=flat-square)
+
+**The problem it solves**
+
+Students often struggle with course-specific doubts after hours when faculty are unavailable. General-purpose AIs (like ChatGPT) give answers that are too broad, out-of-scope, or solve homework directly, hindering learning. There is a need for a “course-aware” AI tutor that is restricted only to the provided lecture notes/textbooks and is prompted to guide students to the answer, not just provide it. This impacts students who need flexible, on-demand help and faculty who have to answer repetitive questions.
+
+**Challenges we ran into**
+
+=> Problems we faced are :
+- Faced API rate limits with Gemini, which affected response speed and system reliability during high usage.
+- Faced difficulty in ensuring the AI generates strictly course-based responses, as it sometimes produced out-of-scope or generalized answers.
+- Implementing Socratic prompting was challenging since the model tended to give direct answers instead of guided questions.
+- Encountered issues in PDF text extraction, where formatting inconsistencies affected data quality.
+- Retrieval in the RAG pipeline was not always accurate, leading to irrelevant content being fetched.
+- Integrating multiple components (frontend, backend, RAG, LLM) created synchronization and performance challenges. 
+
+=> Solutions we approached for :
+- Improved the RAG pipeline with better chunking, embeddings, and prompt constraints to ensure context-restricted answers.
+- Designed structured Socratic prompts to guide the model toward question-based responses.
+- Applied data cleaning and preprocessing techniques to improve document quality before embedding.
+- Tuned retrieval parameters (similarity search, chunk size) to enhance accuracy and relevance.
+- Adopted a modular architecture with API-based communication to ensure smooth integration and optimized system performance.
+- Gemini API Key rate limits is yet to be solved.
+
+**EDUCATION**
+
+Gyaan-Z directly aligns with the Education Track by addressing key challenges in modern learning systems, particularly the lack of accessible, personalized, and effective academic support outside the classroom. It provides students with a 24/7 AI-powered tutor that is strictly limited to course-specific materials, ensuring accurate and relevant guidance.
+
+Unlike traditional AI tools that promote passive learning by giving direct answers, Gyaan-Z uses a Socratic teaching approach to encourage critical thinking and step-by-step problem-solving. This transforms the learning experience from answer consumption to conceptual understanding, which is essential in education.
+
+Additionally, the platform benefits educators by offering a faculty dashboard that highlights common student doubts and learning gaps. This enables data-driven teaching improvements and reduces repetitive workload, making the overall education process more efficient and impactful.
+
+Team **ASMR Bytes** -- [Rudrani Mukherjee](https://github.com/Rudrani-05), [Anuska Chowdhury](https://github.com/anuska-10), [Mahrukh Hussain](https://github.com/Mahrukh-byte), [Srinjayee Ganguly](https://github.com/srinjayeeg)
+
+`2026-03-28`
+
+---
+
+### RakShak AI
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/rakshak-ai-05f1) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/paril-01/MangoDB_hn4) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://www.loom.com/share/5581160aecb749b4830f0729096d9058) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.loom.com/share/5581160aecb749b4830f0729096d9058) [![Built at](https://img.shields.io/badge/Built%20at-HackNiche%204.0-0052CC?style=flat-square)](https://hackniche4-0.devfolio.co)
+
+> Kaam bhi, Suraksha bhi
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![OpenCV](https://img.shields.io/badge/OpenCV-333333?style=flat-square) ![Docker](https://img.shields.io/badge/Docker-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=flat-square) ![Redis](https://img.shields.io/badge/Redis-333333?style=flat-square)
+
+**The problem it solves**
+
+Construction and industrial sites continue to face serious safety risks due to inconsistent use of Personal Protective Equipment (PPE) such as helmets, vests, and gloves. Despite the presence of CCTV systems and safety regulations, monitoring is still largely manual, reactive, and inefficient.
+
+This leads to:
+
+Unsafe practices going unnoticed in real time
+Delayed response to violations
+Lack of centralized visibility across multiple zones
+Poor documentation and reporting of safety incidents
+
+Existing systems do not provide:
+
+Automated detection of PPE violations
+Real-time alerts to supervisors
+Structured analytics for decision-making
+
+RakShak AI solves this by providing an end-to-end AI-powered safety monitoring platform, enabling real-time PPE detection, multi-source video analysis, automated alerts, and region-wise violation intelligence all integrated into a single operational dashboard.
+
+**Challenges we ran into**
+
+Challenges We Faced
+1.  Multi-Model Integration Complexity
+
+We had to integrate multiple inference systems:
+
+Local YOLO model
+PPE model
+Helmet model
+
+Ensuring consistent outputs and seamless switching between models required careful API design and normalization of predictions.
+
+2.  Real-Time Processing & Performance
+
+Handling live feeds from:
+
+Webcam
+Image uploads
+URLs
+YouTube streams
+
+introduced challenges like:
+
+Latency
+Frame drops
+Maintaining real-time responsiveness
+
+We had to balance accuracy vs speed to make the system practical for real-world deployment.
+
+3.  Building a Full Operational Dashboard
+
+Instead of just detection, we built a complete system with:
+
+Live feeds
+Violation logs
+Region-wise analytics
+System monitoring
+
+Designing a backend that supports real-time updates, statistics aggregation, and multiple endpoints was complex.
+
+4.  Reliable Alerting System
+
+Implementing alerts across:
+
+WhatsApp (Twilio)
+Email (Resend)
+Optional Telegram
+
+was challenging due to:
+
+API reliability
+Message formatting
+Avoiding duplicate or noisy alerts
+
+We needed to ensure alerts were accurate, timely, and meaningful.
+
+5.  Automated Reporting with Insights
+
+Generating structured daily reports required:
+
+Aggregating large volumes of detection data
+Removing duplicate incidents
+Creating meaningful summaries
+
+Integrating LLM-based narrative generation with fallback logic added additional complexity.
+
+6.  System Architecture & Scalability
+
+We designed a multi-layer system:
+
+Inference layer
+FastAPI backend
+Optional PostgreSQL + Redis
+Embedded dashboard UI
+
+Ensuring smooth communication between these layers while keeping the system modular and scalable was a major challenge.
+
+Team **MangoDB** -- [Ridhi Agrawal](https://github.com/ridhi607), [raiyyan patel](https://github.com/Raiyyanpatel), [Paril Rupani](https://github.com/paril-01), [Pranav Sonmale](https://github.com/Sonmale25)
+
+`2026-03-26`
+
+---
+
+### Requestly copilot
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/requestly-copilot-59f4) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/SandipM03/requestly_copilot) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.loom.com/share/c7e9752d6f9a47bf8b6d6dfa175da9a1) [![Built at](https://img.shields.io/badge/Built%20at-BINARY%20v2-0052CC?style=flat-square)](https://binaryvtwo.devfolio.co)
+
+> Turn endpoint into workflow - in one click
+
+![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square)
+
+**The problem it solves**
+
+In a world where AI is automating everything, manually creating API endpoints in tools like Requestly or Postman just doesn’t make sense anymore. Requestly Copilot removes that outdated step by letting you extract and export routes directly from your codebase with a single click, keeping everything in sync without the overhead of continuous monitoring. It makes API testing faster, reduces human error, and turns a repetitive, manual task into a simple, on-demand workflow—exactly how modern development should be.
+
+video Link:[https://youtu.be/Dh-KVYueMYg](url)
+
+**Challenges we ran into**
+
+One of the biggest challenges was getting a reliable model and prompt to generate or detect the correct payload. It wasn’t just about making it work once it had to stay consistent across different coding styles. Even small variations could break the output, so tuning it properly took a lot of trial and error.
+
+Detecting routes across different patterns like app routes, routers, and nested structures was another headache. Every project structures endpoints differently, so there was no single approach that worked everywhere.
+
+Creating and organising folders for the APIs was also harder than expected. Figuring out how to group endpoints logically without making the structure confusing or messy took real effort, especially when dealing with large or unstructured projects.
+
+**Requestly**
+
+In a era where we don't write code character by character, so why we like first create api, then check the url from different backend files, then go to api client like postman, thunderclient and type there and do the api call,
+why not we automate the process by directly integrating a button just on top of that api, so just in one click we can call the api, see the output on the right side and also if there is any error we can also analyze what's wrong and how to fix it. it also generating a swagger docs along with it.
+
+video Link:[https://youtu.be/Dh-KVYueMYg](url)
+
+Team **Zenux** -- [Prithwish Chakraborty](https://github.com/prithwishx), [pratyush singha](https://github.com/pratyushsingha), [Sandip Mandal](https://github.com/SandipM03)
+
+`2026-03-22`
+
+---
+
+### Bhishon Secure-link
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/bhishon-securelink-2ddc) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Ditssy/Bhishon-securelink) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/2SUsLgSDaLI?si=LCQztqq_NYy9Sf6V) [![Built at](https://img.shields.io/badge/Built%20at-BINARY%20v2-0052CC?style=flat-square)](https://binaryvtwo.devfolio.co)
+
+> Security on Automation. Threats on Elimination
+
+![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Linux](https://img.shields.io/badge/Linux-333333?style=flat-square) ![SMTP](https://img.shields.io/badge/SMTP-333333?style=flat-square) ![Ml](https://img.shields.io/badge/Ml-333333?style=flat-square) ![CLI](https://img.shields.io/badge/CLI-333333?style=flat-square) ![nmap](https://img.shields.io/badge/nmap-333333?style=flat-square) ![tshark](https://img.shields.io/badge/tshark-333333?style=flat-square)
+
+**The problem it solves**
+
+**Problem It Solves**
+
+Your network is blind.
+
+Tools like Nmap and Wireshark dump raw data on your screen — but they don't think. They don't act. They just watch. Meanwhile, a compromised IoT device is flooding your network, a rogue machine is sniffing every packet, and someone is quietly impersonating a trusted device. By the time a human notices? The damage is done.
+
+***What It Does***
+
+Smart Gateway gives your network a brain. It watches every device, learns what "normal" looks like, and the moment something feels wrong — it doesn't alert and wait. It *blocks first, then tells you.* No rules to write. No signatures to update. Just behavior-based intelligence running 24/7.
+
+**Challenges we ran into**
+
+***How We Built It***
+
+Nmap constantly maps every device. TShark captures live traffic and extracts per-device behavior — packets per second, protocol patterns, interface flags. Raw data flows into a feature engineering pipeline and gets scored by an Isolation Forest model trained on normal behavior. The moment a device breaks pattern — it gets blocked automatically, the admin gets an email alert, and everything gets logged. The whole thing runs in real time. No human in the loop required. Stack: Python · Nmap · TShark · Isolation Forest · SMTP
+
+***🚨 What It Can Catch***
+
+Hacked IoT device flooding the network → PPS spike detected, blocked instantly. Someone sniffing packets → promiscuous mode flagged. Device impersonating another → IP-MAC mismatch caught over time. Unknown rogue device joins → vendor and MAC integrity check fails, flagged.
+
+***🧩 Challenges We Ran Into***
+
+The hardest part wasn't the ML — it was trust. How do you tell a real attack from a Monday morning video call spiking traffic? We solved it by never trusting a single signal. PPS anomalies, promiscuous mode flags, IP-MAC consistency, and device integrity checks all have to align before the system acts. Fewer false alarms. More confident blocks.
+***🔐 What We're Proud Of***
+
+We’re proud that we took automation all the way to action.
+
+Most systems automate detection — but stop there.
+They raise alerts, open dashboards, and still depend on a human to decide what to do next.
+
+We removed that dependency.
+
+In our system, automation doesn’t just observe — it decides and acts.
+The moment behavior deviates from what’s normal, the system doesn’t wait for confirmation.
+
+It blocks the device instantly, isolates the risk, and then informs the admin.
+
+No manual rules.
+No waiting for protocol violations.
+No human in the loop.
+
+We’re proud that our gateway doesn’t rely on “if-this-then-that” logic —
+it relies on learned behavior, continuously adapting to what’s normal for your network.
+
+And most importantly —
+
+we’re proud that our system doesn’t just watch threats happen.
+It stops them. Automatically. 🔥
+
+**AI/ML**
+
+Got you—you want it to sound impressive, futuristic, and judge-catching, not just technical. Here’s a more aerial (high-level + impactful) version 👇
+
+
+---
+
+🧠 Intelligent Threat Detection (ML Engine)
+
+At the core of Smart Gateway lies a self-learning, pattern-driven intelligence layer that continuously observes and understands network behavior in real time.
+
+Unlike traditional systems that depend on static rules or predefined datasets, our model learns directly from live traffic, identifying subtle behavioral patterns that indicate potential threats.
+
+
+---
+
+⚙️ How It Thinks
+
+Using live data captured via TShark, the system analyzes each device and generates:
+
+IP Address
+
+MAC Address
+
+Risk Level
+
+Anomaly Score (range: -1 to 1)
+
+
+This score reflects how far a device’s behavior deviates from normal network activity.
+
+
+---
+
+🚦 Smart Decision Layer
+
+Instead of binary decisions, the system applies graduated intelligence:
+
+Normal Zone (-1 to 0.6): Device behaves as expected
+
+Quarantine Zone (0.6 to 0.85): Suspicious pattern detected → device monitored closely
+
+Critical Zone (> 0.85): High-risk anomaly → device instantly blocked
+
+
+👉 This creates a progressive defense system, not just a reactive one.
+
+
+---
+
+🚫 Autonomous Response
+
+When a threat is identified:
+
+The device is automatically blocked at the network level
+
+A real-time alert is sent to the administrator
+
+The system logs behavior for future learning
+
+
+👉 No manual intervention. No delay.
+
+
+---
+
+✨ What Makes It Different
+
+Pattern-Based Learning: Detects hidden behavioral anomalies, not just obvious rule violations
+
+Zero Predefined Dataset: Fully adaptive to any network environment
+
+Real-Time Intelligence: Acts instantly as threats emerge
+
+Self-Evolving Security Layer: Improves as network activity grows
+
+ Vision
+
+Smart Gateway transforms network security into a living system one that observes, learns, and acts autonomously.
+👉 Not just detecting threats, but understanding them as they unfold.
+
+**Open Innovation**
+
+🌐 Open Innovation
+**Interoperability**
+Smart Gateway integrates seamlessly with tools like Nmap and TShark, allowing easy adoption without changing existing network setups.
+**Extensible Architecture**
+Built with modular components (data collection, feature extraction, detection, response), enabling developers to plug in custom rules, new algorithms, or advanced ML models.
+**Cross-Domain Applications**
+Applicable across:
+Smart homes (IoT security)
+Small businesses
+Educational institutions
+Public Wi-Fi networks
+**Community-Driven Improvement**
+Encourages continuous improvement through developer contributions, evolving detection logic, and experimentation with new security techniques.
+**Future Integration**
+Can expand into cloud dashboards, ISP-level security, and enterprise SIEM systems.
+**Conclusion**
+Smart Gateway follows an open innovation approach—flexible, scalable, and continuously evolving for real-world network security needs.
+
+Team **Bhishon Binary** -- [Pritish Mondal](https://github.com/papagrizzy), [Arko Chowdhury](https://github.com/HateUchiha), [ditipriya laha](https://github.com/Ditssy), [Srijeet Dhar](https://github.com/Srijeetop)
+
+`2026-03-22`
+
+---
+
+### Shramik setu
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/shramik-setu-6d7f) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/DotSlash-9-0/CoralX) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://youtu.be/jyRiu7aBLWc) [![Built at](https://img.shields.io/badge/Built%20at-DotSlash%209.0-0052CC?style=flat-square)](https://dotslash-9.devfolio.co)
+
+> Organizing India’s informal workforce.
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![Firebase](https://img.shields.io/badge/Firebase-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+India’s labour market is largely unorganized and inefficient, especially in sectors like agriculture and construction.
+Employers struggle to find workers when needed, while workers struggle to find consistent job opportunities.
+
+Current hiring depends on:
+
+Informal networks and word-of-mouth
+Contractors and middlemen
+Manual coordination with no real-time visibility
+
+This leads to:
+
+Delays in hiring (days to weeks)
+Uncertainty in worker availability
+Lack of trust and verification
+
+**Challenges we ran into**
+
+Challenges I Ran Into
+Handling unstructured labour data with inconsistent skill information
+Designing a scalable matching system without spamming all workers
+Supporting low-digital-literacy users during onboarding
+Ensuring trust between workers and employers
+Managing attendance verification in real-world conditions
+Preventing payment disputes and wage exploitation
+Balancing system intelligence with simplicity and usability
+
+**CivicTech**
+
+How This Project Fits CivicTech
+Addresses a public system problem — inefficient labour distribution in the informal sector
+Improves access to employment opportunities at scale
+Reduces dependency on middlemen and unregulated hiring systems
+Promotes fair wages and transparency in labour markets
+Enables access to government schemes and welfare programs
+Designed for rural and low-connectivity environments
+Digitally organizes a large part of India’s informal workforce
+Contributes to economic productivity in critical sectors like agriculture and construction
+
+Team **CoralX** -- [Suyash Yadav](https://github.com/Suyash0Yadav), Vivek Yadav, [Ishat Shivhare](https://github.com/IshatShivhare), [Ayush Narayane](https://github.com/AyushNarayane)
+
+`2026-03-22`
+
+---
+
+### ResQnet
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/resqnet-c4bc) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=G-xn790TDXA) [![Built at](https://img.shields.io/badge/Built%20at-DotSlash%209.0-0052CC?style=flat-square)](https://dotslash-9.devfolio.co)
+
+> Decentralized , reward- based Helpline Platform
+
+![Solana Web3 JS](https://img.shields.io/badge/Solana%20Web3%20JS-333333?style=flat-square)
+
+Team **GlyphCoders** -- Bhavya Shah, [Nikhil Solanki](https://github.com/Nikhil-9876), Sahil Chandel
+
+`2026-03-22`
+
+---
+
+### Aiterminal
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/aiterminal-a2cb) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/eakanthgm87/BE_wala.git) [![Built at](https://img.shields.io/badge/Built%20at-Hack--Nocturne%202.O-0052CC?style=flat-square)](https://hack-nocturne-2.devfolio.co)
+
+> #ai
+
+![Docker](https://img.shields.io/badge/Docker-333333?style=flat-square)
+
+Team **BE_wala** -- [Eakanth G](https://github.com/eakanthgm87), [vishwa hubballi](https://github.com/vishwanath0708), [prasanna b](https://github.com/prasannab70), [Chidambar Deshpande](https://github.com/vishwanath0708)
+
+`2026-03-15`
+
+---
+
+### CareerPilot
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/careerpilot-8236) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/saini07ayush/CareerPilot) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://drive.google.com/file/d/1yCPd3ee6DEUVUDJAL3w_gItn9YQlMuzX/view?usp=sharing) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.loom.com/share/586e4b3a1bc74a608128830fcc23e7db) [![Built at](https://img.shields.io/badge/Built%20at-HackNova%203.0-0052CC?style=flat-square)](https://hacknova-3.devfolio.co)
+
+> Practice like it's real. Perform like you prepared
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Firebase](https://img.shields.io/badge/Firebase-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![Vite](https://img.shields.io/badge/Vite-333333?style=flat-square)
+
+**The problem it solves**
+
+In today’s competitive job market, many students and job seekers struggle not because they lack knowledge, but because they lack structured interview practice, personalized feedback, and real-time guidance. Traditional preparation methods—like reading questions or watching videos—fail to simulate the pressure, unpredictability, and depth of real interviews, often resulting in low confidence and poor articulation during actual interviews. CareerPilot addresses this gap by transforming preparation into an adaptive, AI-driven experience that mirrors real interview scenarios. Unlike existing platforms that rely on static question banks or generic feedback, CareerPilot analyzes the user’s resume, tailors role-specific questions, generates intelligent follow-ups, and evaluates responses in real time. With support for both text and voice interactions, it creates a dynamic and realistic environment while delivering structured, actionable insights to improve communication, confidence, and answer quality—making it a more personalized, interactive, and effective solution than conventional interview prep tools.
+
+**Challenges we ran into**
+
+One of the key challenges we faced while building CareerPilot was generating real-time, context-aware follow-up questions that maintained a natural interview flow. Initially, responses lacked continuity, making the experience less realistic. We overcame this by refining prompt engineering and using response parsing to extract key insights for better follow-ups. Another challenge was providing structured and accurate feedback across varied user responses. We addressed this by designing a scoring framework based on clarity, relevance, and confidence, making the feedback more actionable and effective.
+
+Team **Unpaidinterns.exe** -- Aishwarya Batra, SHIVAM Kumar Jha, Arshia Gupta, Ayush Saini
+
+`2026-03-17`
+
+---
+
+### NEXUS
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/nexus-10c7) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/im-shourya/NEXUS) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://docs.google.com/presentation/d/1yfOSwKKi1gRoRCu6FfmVur0NwMPPTsDEeNvtRV7TXC8/edit?usp=sharing) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.loom.com/share/d1a05431cda745c396d6956d1d8d0b56) [![Built at](https://img.shields.io/badge/Built%20at-HackNova%203.0-0052CC?style=flat-square)](https://hacknova-3.devfolio.co)
+
+> AI Sports Platform: India's Talent Discovery
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+Team **INFINITY** -- [Anmol Anmol](https://github.com/Anmol2627), Harsh Singh Tomar, [Shourya Parashar](https://github.com/im-shourya)
+
+`2026-03-17`
+
+---
+
+### CodePvP
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/codepvp-a5b3) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/mayankthawani/CODE-PvP) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://codepvp.vercel.app) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/qw4uquRVwEc) [![Built at](https://img.shields.io/badge/Built%20at-HackNova%203.0-0052CC?style=flat-square)](https://hacknova-3.devfolio.co)
+
+> A Competitive Coding Platform
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+Team **Team D-Coders** -- [Mayank Thawani](http://github.com/mayankthawani), [Devanshu Tripathi](https://github.com/DevanshuTripathi), [Armaanit Singh](http://github.com/ar), [Saksham Bajpai](https://www.github.com/sakshambajpai1604)
+
+`2026-03-17`
+
+---
+
+### AML shield
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/aml-shield-c130) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Tervicke/bytecamp-26/) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://bytecamp-frontend.onrender.com/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/Ix2K3M4_MUw) [![Built at](https://img.shields.io/badge/Built%20at-Bytecamp'26-0052CC?style=flat-square)](https://bytecamp-26.devfolio.co)
+
+> Graph-based Anti-Money Laundering Detection
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Docker](https://img.shields.io/badge/Docker-333333?style=flat-square) ![SQLite](https://img.shields.io/badge/SQLite-333333?style=flat-square) ![Service Workers](https://img.shields.io/badge/Service%20Workers-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+AML Shield: Graph-based Anti-Money Laundering Detection
+
+AML Shield is a demonstration platform that shows how anti-money laundering algorithms work in practice, detecting through various cross algorithms and reverse tracking systems.
+
+Instead of raw logs, the system provides:
+Data ingestion
+Graph modeling of financial entities
+Algorithmic detection
+Visual dashboard of suspicious patterns.
+Backtracking the actual transactions.
+Overriding system flagged entities
+
+The goal is to make AML detection explainable and observable
+
+login creds are 
+user - admin
+password - admin123
+
+**Challenges we ran into**
+
+### Understanding Graph Databases (Neo4j)
+
+One of the main challenges we encountered was working with **graph databases**, specifically **:contentReference[oaicite:0]{index=0}**. Most of our prior experience was with relational databases such as SQL, where data is structured in tables with joins. Neo4j uses a fundamentally different model where data is represented as **nodes and relationships**, and queries are written using the **Cypher query language**.
+
+Initially, it was difficult to translate traditional relational thinking into a **graph-based model**. For example, modeling entities like bank accounts, owners, companies, and transactions required designing a graph schema that allowed efficient traversal of relationships (e.g., `Account → Account` transfers or `Account → Owner → Company` links).
+
+We also ran into challenges writing efficient graph queries for detecting patterns such as **transaction cycles and multi-hop transfer chains**, which are essential for identifying money laundering behaviors.
+
+To overcome this, we:
+- Studied Neo4j's graph data modeling principles.
+- Experimented with smaller datasets to understand **node relationships and traversal queries**.
+- Iteratively refined our schema to better represent financial entities and transaction flows.
+
+Once we adapted to the graph mindset, Neo4j became extremely powerful for this use case because **money laundering patterns naturally form network structures**, making graph traversal and path detection far more intuitive than with relational databases.
+
+**FinTech**
+
+**Track: FinTech**
+
+Our project falls under the FinTech track as it focuses on detecting suspicious financial transactions and preventing money laundering. The system analyzes transaction flows between accounts and applies rule-based detection along with graph-based relationship analysis to identify risky patterns such as circular transfers and unusual fund movements.
+
+By improving transparency and enabling early detection of fraudulent financial behavior, the system helps financial institutions strengthen compliance with Anti-Money Laundering (AML) regulations and reduce financial crime.
+
+Team **Team-Orion** -- [Samarth Lad](https://github.com/samrth07), [Amey Patil](https://github.com/tervicke), [Shruti Jadhav](https://github.com/shrutiiiyet), [Aryan Karekar](https://github.com/syswraith)
+
+`2026-03-15`
+
+---
+
+### TetraMorph
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/tetramorph-124e) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Dhruv-Ghanchi/IronMind) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/o-bPwpEEdZw) [![Built at](https://img.shields.io/badge/Built%20at-Bytecamp'26-0052CC?style=flat-square)](https://bytecamp-26.devfolio.co)
+
+> Transforming Code into Intelligent Architecture.
+
+![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![SQL](https://img.shields.io/badge/SQL-333333?style=flat-square) ![Git](https://img.shields.io/badge/Git-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![GitHub](https://img.shields.io/badge/GitHub-333333?style=flat-square) ![Neo4j](https://img.shields.io/badge/Neo4j-333333?style=flat-square) ![FastAPI](https://img.shields.io/badge/FastAPI-333333?style=flat-square) ![React.js](https://img.shields.io/badge/React.js-333333?style=flat-square)
+
+**The problem it solves**
+
+Modern software projects often contain hundreds or thousands of files across multiple programming languages. Understanding how different components interact—such as databases, backend services, APIs, and frontend modules—can be extremely difficult and time-consuming. Developers typically need to manually explore directories, read through many files, and trace dependencies to understand the architecture of a system.
+
+This process becomes even more challenging when working with unfamiliar repositories, large teams, or legacy codebases where documentation may be incomplete or outdated. As a result, developers risk making changes without fully understanding the system, which can introduce bugs, break dependencies, or create security vulnerabilities.
+
+TetraMorph solves this problem by automatically analyzing a repository and generating a visual architecture graph and analytics dashboard. It extracts relationships between components and organizes them into logical layers, allowing users to quickly understand how the system is structured.
+
+People can use TetraMorph to:
+
+Quickly understand unfamiliar codebases when joining a new project or reviewing open-source repositories.
+
+Visualize system architecture through an interactive graph showing how different parts of the application are connected.
+
+Analyze dependencies and impact to understand what parts of the system might be affected by a code change.
+
+Improve development safety by helping developers detect risky changes before modifying or removing files.
+
+Automate architecture documentation, ensuring that the system design is always up to date with the latest code.
+
+By turning complex codebases into clear, interactive insights, TetraMorph makes development workflows faster, safer, and more efficient, especially for large or multi-language projects.
+
+**Challenges we ran into**
+
+One of the biggest challenges during development was building a reliable pipeline between the repository scanner, the backend ingestion system, and the analytics dashboard. Our system scans repositories using a polyglot analyzer, processes the extracted relationships, stores them in a Neo4j knowledge graph, and then visualizes the architecture in the analytics interface.
+
+Initially, we encountered an issue where the scan would complete successfully and a session ID would be generated, but the analytics dashboard would display incorrect or empty data, such as showing 0 files analyzed while still displaying graph nodes and layers. This happened because the graph data was not properly linked to the session ID used by the analytics page, causing the frontend to fetch partial or unrelated data from the database.
+
+To solve this, we carefully debugged the ingestion pipeline and verified each stage of the data flow:
+
+Ensured the repository scanner correctly parsed supported files and skipped unsupported ones.
+
+Validated that the extracted data was being correctly written into Neo4j.
+
+Updated the backend queries to ensure that graph nodes, file metadata, and analytics metrics were correctly associated with the active session ID.
+
+After fixing the session binding and cleaning the database to remove leftover nodes from previous scans, the analytics dashboard began displaying accurate information corresponding to the scanned repository.
+
+This challenge helped us better understand data flow consistency between distributed components, and it ultimately improved the reliability of our architecture analysis system.
+
+**GenAI**
+
+TetraMorph fits into the Generative AI track by using AI-driven analysis to automatically understand, interpret, and generate insights from complex software repositories.
+
+Modern codebases often contain multiple programming languages and thousands of interconnected components, making it difficult for developers to understand system architecture and dependencies. TetraMorph leverages AI-powered analysis and intelligent data processing to transform raw code into structured knowledge and actionable insights.
+
+Key ways TetraMorph aligns with the GenAI track include:
+
+1. AI-Powered Code Understanding
+TetraMorph analyzes multi-language repositories using a polyglot analyzer and extracts relationships between files, modules, APIs, and databases. These relationships are converted into a structured knowledge graph, enabling deeper understanding of system architecture.
+
+2. Natural Language Interaction
+Developers can query the system using natural language questions such as “What happens if this file is removed?” or “Which components depend on this module?”. The AI interprets these questions and retrieves relevant architectural insights.
+
+3. AI-Assisted Impact Analysis
+Using the generated architecture graph, the system evaluates dependencies and predicts how changes in one part of the codebase might affect other components. This helps developers make safer and more informed decisions when modifying code.
+
+4. Intelligent Developer Insights
+TetraMorph generates AI-driven suggestions and architectural insights that help developers quickly understand complex systems, reduce debugging time, and improve development efficiency.
+
+By combining AI-driven reasoning, knowledge graph generation, and natural language interaction, TetraMorph transforms static code repositories into an interactive, intelligent system analysis platform, making it a strong fit for the Generative AI track.
+
+Team **Iron Mind** -- [Dhwannya Pachupate](https://github.com/DhwannyaP), [Yash Rathod](https://github.com/yashgrathod), [Dhruv Ghanchi](https://github.com/Dhruv-Ghanchi), [OM MEHTA](https://github.com/Om-Mehta-143)
+
+`2026-03-15`
+
+---
+
+### sys-wiz
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/syswiz-3661) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Harsh-Goel-1/sys-wiz.git) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://www.youtube.com/playlist?list=PLdMOgJ48cex7S8fhpvUpM19XDWwDbb5Of) [![Built at](https://img.shields.io/badge/Built%20at-Electrothon%208.0-0052CC?style=flat-square)](https://electrothon-8.devfolio.co)
+
+> automating iterative system designing and testing
+
+![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square)
+
+**The problem it solves**
+
+the most important and time consuming thing in designing the system architecture and iterating over it as we scale, sys-wiz provides a whole autonomous system designer and load tester and performance measure metrics along with the logic behind the bottlenecks and improvements required!
+
+user prompt -> gemini generates proposed system design -> user iteratively asks for changes -> gemini observe the performance metrics of architecture nodes and identifies bottlenecks, why is it happening, how to fix it
+
+**Challenges we ran into**
+
+initially we were only relying on mock traffic to simulate the system but this is not how real systems are tested, we needed to include various scenarios like "partial outage" and "DB saturation" that occur commonly
+
+We wanted to make this platform usable for big infra teams also so we supported upload from terraform to our workbench
+
+**Electrothon 8.0 Winners**
+
+the most important and time consuming thing in designing the system architecture and iterating over it as we scale, sys-wiz provides a whole autonomous system designer and load tester and performance measure metrics along with the logic behind the bottlenecks and improvements required!
+
+We believe this is a very much needed tool in the developer community and deserves some spotlight :))
+
+**Interview Cake**
+
+our platform system-wiz is excellent for learning system design, if we also integrate interview cake in it then it would be a great interview prep tool
+
+**.xyz**
+
+to make our product be known publicly we would need a catchy name and a .xyz domian would be perfect for this
+
+**Requestly Track**
+
+before making a project, we need estimates of all api endpoints in the services,
+sys-wiz provides the estimate of number of endpoints needed for a service along with the performance metrics which can be documented and collaborated upon by team members efficiently using requestly
+requestly provides a collection feature using which services and apis can be mapped making it easier for team members to understand what the apis are doing, improving documentation quality heavily
+
+Also, while testing various scenario based injectors and testing on mock traffic, we verified the expected behaviour of the apis using requestly to avoid any cascading errors
+
+**InsForge**
+
+wouldnt it be cool that users create and test the system design on our platform and. insforge provides an instant build corresponding to the architecture
+
+**CodeCrafters Track**
+
+just like our system design visualizer and tester will be helpful for system design learning, we can add codecrafters challenges for users to test out their skills on the best coding challenges out there
+
+**n8n**
+
+n8n -> agent -> deploy -> user uploads terraform files of org on agent which sends the data in correct form to our sys-wiz platform and interacts with it to check the performance metrics and iterate over the system design to give out improvement pointers
+
+**Stockedge**
+
+we like stocks
+
+**Navan AI**
+
+Navan AI's creed -> "We help businesses to automate tasks at scale using custom AI Agents"
+
+our platform sys-wiz helps businesses test their scaling of tasks by load testing and giving out performance metrics
+
+**Google Cloud**
+
+Gemini powers our whole AI system designer and analyzer,
+user prompt -> gemini generates proposed system design -> user iteratively asks for changes -> gemini observe the performance metrics of architecture nodes and identifies bottlenecks, why is it happening, how to fix it
+
+Team **Peanuts** -- [Harsh Goel](https://github.com/Harsh-Goel-1), [rudesh kumar](https://github.com/rudesh12)
+
+`2026-03-15`
+
+---
+
+### LinkUp
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/linkup-4ab0) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Vidur34/LinkUp_connect/tree/master) [![Built at](https://img.shields.io/badge/Built%20at-Electrothon%208.0-0052CC?style=flat-square)](https://electrothon-8.devfolio.co)
+
+> Connect, Learn , Grow
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Docker](https://img.shields.io/badge/Docker-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+When students enter college, they often struggle to navigate the campus ecosystem because essential information, opportunities, and resources are scattered across informal networks and disconnected platforms. Guidance from seniors, study materials, project collaboration opportunities, useful resources like second-hand items, and even information about upcoming campus events remain fragmented and difficult to access in one place. As a result, students face unnecessary challenges in finding the right people to collaborate with, accessing practical knowledge for academics and careers, discovering relevant events, and efficiently exchanging resources within their own college community.
+
+**Challenges we ran into**
+
+While building the application, one of the main challenges was integrating multiple campus-related needs into a single cohesive platform. Features such as student networking, team formation, a marketplace, service exchange, blogs, and event discovery each solve different problems, but combining them in a way that remains simple and intuitive for users required careful design decisions. Another challenge was ensuring that the system recommends relevant people and opportunities based on users’ interests while maintaining meaningful interactions within the campus community. Additionally, integrating AI to generate concise summaries and insights for campus events required balancing automation with accuracy so that the information remains useful and trustworthy for students.
+
+**Best Use of Gemini 3 [Google Deepmind]**
+
+We utilized Gemini across four critical pillars of the application:
+
+AI Resume Parser & Profile Builder: Using Gemini’s advanced reasoning, we built a pipeline that ingests raw, unstructured text from PDF resumes and accurately maps it to a structured LinkUp profile (Bio, Tech Stack, and Interests). This reduces onboarding friction from minutes to seconds.
+Smart Icebreaker Generator: To foster genuine connections, we implemented a dual-context analysis tool. Gemini reads the profiles of both the sender and receiver to generate three highly personalized conversation starters, grounded in their unique shared skills and shared interests.
+Marketplace Auto-Lister: We leveraged Gemini to help students sell/rent items faster. From just a few raw keywords (e.g., "calc book used clean"), Gemini generates professional, persuasive product titles and detailed descriptions that highlight the value of the listing.
+AI Event Review Summarizer: To help users navigate large fests, Gemini processes high volumes of community feedback into a concise "AI Consensus," giving prospective attendees a clear, objective summary of the event experience.
+
+Team **BitByBit** -- [Vansh Saini](https://github.com/VanshSAINI06), [Vidur Chaudhary](https://github.com/Vidur34), [Akshit Sharma](https://github.com/akshit-sharma-017), [Vansh Thakur](https://github.com/Vansh-coding)
+
+`2026-03-15`
+
+---
+
+### NOVASAT
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/novasat-f153) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/parth-bansal081/NOVASAT---2.0) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://drive.google.com/file/d/1C-eeSQv-fj1AfiqI17m_KfIAKVj2FU1h/view?usp=drivesdk) [![Built at](https://img.shields.io/badge/Built%20at-Electrothon%208.0-0052CC?style=flat-square)](https://electrothon-8.devfolio.co)
+
+> Auto AI-driven Satellite Swarm Testing Software
+
+![Python](https://img.shields.io/badge/Python-333333?style=flat-square)
+
+**The problem it solves**
+
+For your NOVASAT 2.0 project, the "Problem it Solves" section should emphasize the vulnerability of standard IoT/swarm networks in harsh environments. Here is a compelling, technical paragraph tailored for your Devpost or hackathon submission:
+
+## The Problem it Solves
+Traditional satellite swarms and remote sensor networks often suffer from two critical vulnerabilities: centralized failure points and unsecured communication links. In high-stakes environments like planetary exploration, a single crashed master node can render an entire constellation useless, while unauthorized data injection (spoofing) can lead to catastrophic mission failure.
+
+NOVASAT solves these challenges through a multi-layered, resilient architecture:
+
+Cybersecurity at the Edge: We implement a Stealth Identity protocol using HMAC-SHA256 signatures for every packet, ensuring that only authenticated hardware can interact with the swarm.
+
+Autonomous Threat Remediation: Our system features real-time Intrusion Detection, capable of identifying and permanently quarantining/purging malicious nodes that attempt to flood the network with unauthorized data.
+
+Self-Healing FDIR: The integrated Flight Watchdog provides Fault Detection, Isolation, and Recovery; if the primary flight software hangs, the system autonomously reboots and broadcasts a recovery signal to maintain swarm coordination without human intervention.
+
+Intelligent Ground Operations: By combining multi-modal sensor fusion (IMU, environmental, and thermal) with OpenCV-driven visual anomaly detection, we translate raw data into actionable geological insights, such as identifying Martian ice deposits or craters, while maintaining a hardware-secured (MFA) ground station.
+
+**Challenges we ran into**
+
+Building a resilient, multi-node satellite swarm for Martian exploration presented several complex hurdles, ranging from low-level hardware communication to high-level security protocols:
+
+Securing the Swarm Against Spoofing: Our primary challenge was ensuring that the Ground Station only processed authentic data. We overcame this by implementing a Stealth Identity protocol, using HMAC-SHA256 signatures. Every packet—whether sent via Serial or UDP—is cryptographically signed, allowing the Master Node to instantly identify and quarantine unauthorized interlopers.
+
+Threading and Real-Time Performance: Integrating high-definition video from the laptop webcam while simultaneously processing OpenCV heuristics for anomaly detection (Ice, Craters, Dust Storms) initially caused the PyQt6 dashboard to freeze or crash. We resolved this by refactoring the system into a multi-threaded architecture, decoupling the mission-critical telemetry from the heavy computational load of the AI Vision engine.
+
+Synchronizing the Digital Twin: Achieving zero-latency synchronization between the physical Master Node's MPU6050 and the 3D satellite model on the dashboard was difficult due to sensor noise. By implementing moving average filters and optimized UDP relay loops, we stabilized the "flicker" and created a smooth, real-time mirror of the hardware's orientation.
+
+Environment-Specific Dependencies: Deploying the flight software on a fresh Raspberry Pi OS required careful management of system-level dependencies for OpenCV and FFmpeg to support the ElevenLabs AI voice engine. We utilized custom diagnostic scripts to audit the environment and ensure all critical sensors and libraries were online before launch.
+
+Fault Detection and Recovery (FDIR): To prevent total system failure in harsh environments, we developed a Flight Watchdog. This supervisor monitors the main flight software and, in the event of a crash, autonomously initiates a reboot-recovery sequence, broadcasting a signal to the entire swarm to re-establish coordination without human intervention.
+
+**Electrothon 8.0 Winners**
+
+NOVASAT fits into the Winners Track by demonstrating a massive leap in technical sophistication and system reliability over standard IoT implementations.
+
+Complete System Integration: We didn't just build a dashboard; we engineered a full-stack aerospace simulation including a Flight Watchdog for autonomous recovery and a Stealth Identity security layer.
+
+Industrial-Grade Security: By implementing HMAC-SHA256 signatures for every data packet, we solved the "untrusted edge" problem commonly found in swarm robotics.
+
+Multi-Modal AI: Our project pushes the boundaries of edge computing by performing live OpenCV heuristic analysis on the Ground Station to confirm geological phenomena detected by the hardware swarm.
+
+**Electrothon 8.0 Honors Track**
+
+Our project aligns with the Honors Track through its focus on fault-tolerant engineering and advanced data visualization.
+
+FDIR Capability: We implemented a dedicated Fault Detection, Isolation, and Recovery (FDIR) supervisor that ensures mission continuity even if the primary flight software crashes.
+
+Digital Twin Synchronization: We developed a high-fidelity PyQt6 Ground Station that creates a real-time digital twin of the hardware, synchronizing MPU6050 attitude data with a 3D satellite model to provide zero-latency spatial awareness.
+
+Adaptive Constellation Logic: The system is designed to be role-aware, capable of auditing the health of every sensor in the constellation and relaying an aggregated "System Health Report" to the commander.
+
+Team **Knight Hawks** -- [Abanshika Sharma](https://github.com/Abanshika), [Srishti Thakur](https://github.com/srishti-thakur), [Vidya Amod Rathaur](https://github.com/analyzer1312), [Parth Bansal](https://github.com/parth-bansal081)
+
+`2026-03-15`
+
+---
+
+### Satyarth-ai
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/satyarthai-22a4) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://satyarth-ai.streamlit.app) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/oAJ0xvfY-0o?si=uRQXy8JuJPrMBag1) [![Built at](https://img.shields.io/badge/Built%20at-Electrothon%208.0-0052CC?style=flat-square)](https://electrothon-8.devfolio.co)
+
+> Forensic Engine for Disinformation Detection
+
+![NumPy](https://img.shields.io/badge/NumPy-333333?style=flat-square) ![OpenCV](https://img.shields.io/badge/OpenCV-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Pillow](https://img.shields.io/badge/Pillow-333333?style=flat-square) ![Streamlit](https://img.shields.io/badge/Streamlit-333333?style=flat-square) ![Hugging Face](https://img.shields.io/badge/Hugging%20Face-333333?style=flat-square)
+
+**The problem it solves**
+
+In today’s hyper-connected world, Misinformation and Disinformation spread faster than the truth. This "Infodemic" distorts public perception, influences social behavior, and can even incite unrest.
+Key Challenges:
+Textual Deception: Viral rumors are often crafted to trigger emotional responses, making them difficult for individuals to verify manually against credible sources.
+Visual Manipulation: With the rise of sophisticated editing tools and Generative AI, detecting altered images, photoshopped evidence, or deepfakes is nearly impossible for the naked eye.
+Barrier to Entry: Professional forensic tools are usually expensive, complex, and inaccessible to the general public or independent journalists.
+How Satyarth-AI Solves This:
+Satyarth-AI bridges this gap by providing a Multimodal Forensic Engine:
+Advanced Image Forensics: It doesn't just look at the image; it analyzes the underlying data. It identifies inconsistencies in digital signatures, pixel distribution, and metadata to flag tampered visuals.
+Multimodal Analysis: Our system provides a "one-stop" solution where users can verify both text and images simultaneously, ensuring a holistic check of the news piece.
+Accessibility & Speed: By hosting the tool on a seamless, user-friendly web interface, we empower every citizen to be a "fact-checker" in real-time, effectively slowing down the viral spread of fake content.
+
+**Challenges we ran into**
+
+Building Satyarth-AI was a journey of intense troubleshooting and technical discovery. As a team, we faced several significant hurdles:
+Computational Constraints during Deployment: Our system utilizes deep learning models for both text analysis and image forensics. Deploying these "heavy" models on Streamlit's cloud environment was challenging due to memory (RAM) limitations. We had to optimize our model loading sequence and use caching techniques to prevent the app from crashing during concurrent user sessions.
+Fine-tuning Image Forensics (ELA):
+Implementing Error Level Analysis (ELA) was tricky because modern social media platforms (like WhatsApp or Instagram) re-compress images, which often creates "digital noise." Distinguishing between standard compression artifacts and actual malicious tampering required fine-tuning our sensitivity thresholds to avoid high false-positive rates.
+Multimodal Integration:
+Merging two distinct pipelines—one for Natural Language Processing (Text) and another for Computer Vision (Images)—into a single, cohesive user experience was difficult. Ensuring that the "Multimodal Active" system could handle both inputs simultaneously without increasing latency required significant architectural planning.
+UI/UX for Technical Data:
+Forensic data can be very technical. Our challenge was to present complex information, like forensic heatmaps and confidence scores, in a way that is easily understandable for a non-technical user while still being useful for experts.
+How we overcame it:
+We spent hours debugging and testing with various datasets to calibrate our algorithms. By utilizing asynchronous processing and optimizing our Python backend, we managed to maintain a smooth performance even with complex multimodal inputs.
+
+**Electrothon 8.0 Winners**
+
+Satyarth-AI is a high-impact, multimodal solution designed to combat the escalating global threat of disinformation and digital tampering. Our project qualifies for the "Electrothon 8.0 Winners" track because it provides a comprehensive, one-stop platform for verifying both textual claims and visual content.
+By integrating advanced Image Forensics (such as Error Level Analysis) and NLP-driven text verification, we have built a technically robust engine that addresses the core challenges of modern fake news. The project stands out due to its high scalability, user-centric design on Streamlit, and its direct contribution to social safety and information integrity. We believe our innovative approach to forensic-level detection makes Satyarth-AI a strong contender for the top honors in this hackathon.
+
+**IQ AI**
+
+Satyarth-AI is an ideal fit for the IQ AI track as it represents a sophisticated application of Multimodal Artificial Intelligence to tackle the global crisis of disinformation. Unlike single-purpose tools, our engine intelligently integrates Natural Language Processing (NLP) for deep-text verification and advanced Computer Vision for image forensic analysis.
+We utilize state-of-the-art algorithms to perform Error Level Analysis (ELA) and metadata scanning, allowing the system to "see" digital manipulations that are invisible to humans. By fusing these diverse AI models into a unified, high-performance pipeline, Satyarth-AI provides a comprehensive "Intelligence Layer" that helps users navigate the complex digital landscape with accuracy and speed. Our project demonstrates how AI can be harnessed not just for automation, but for enhancing human judgment and ensuring information integrity.
+
+**Best Use of Gemini 3 [Google Deepmind]**
+
+Satyarth-AI is built upon the powerful multimodal foundations of Gemini 3, making it a perfect fit for this track. Our engine leverages Gemini’s native ability to process and reason across both text and visual data simultaneously.
+We utilize Gemini 3 to act as the "Reasoning Layer" of our platform. While our forensic engine detects pixel-level manipulations, we feed these findings into Gemini to provide a natural language explanation of the discrepancies found. Furthermore, we use Gemini's advanced long-context capabilities to analyze entire articles and cross-verify them against credible global datasets in real-time. By integrating Gemini 3, Satyarth-AI transforms from a simple detection tool into an intelligent advisor that helps users understand the "how" and "why" behind digital misinformation, ensuring a high degree of transparency and trust.
+
+Team **Future flux** -- [Keshav Sood](https://github.com/None), [Ekta Pareek](https://github.com/None), [Yamini Sarswati](https://github.com/None)
+
+`2026-03-15`
+
+---
+
+### EduConnect
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/educonnect-af82) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/superstar-14/Electrothon_Project.git) [![Built at](https://img.shields.io/badge/Built%20at-Electrothon%208.0-0052CC?style=flat-square)](https://electrothon-8.devfolio.co)
+
+> One Platform. Smarter Schools. Better Learning.
+
+![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square)
+
+**The problem it solves**
+
+We built **Smart Education App**, a unified digital platform designed to solve the fragmentation in modern education.
+
+Students often struggle to find structured resources, teachers generate data but lack meaningful insights, and communication between schools, parents, and students remains inefficient. Our platform bridges this gap by combining **learning resources, school management, and AI-powered personalization** into a single ecosystem.
+
+The app provides **digital books, video explanations, previous year papers, AI-powered English learning, attendance tracking, and real-time progress insights** for students, teachers, and parents. By transforming scattered educational tools into one connected platform, we aim to make learning **more structured, accessible, and personalized**.
+
+This is our first hackathon project, and we’re excited to submit it for **Best Beginner Hack** while exploring how technology can create a smarter and more connected education system.
+
+**Challenges we ran into**
+
+Building the Smart Education App during this hackathon came with several challenges. As beginners, one of the biggest hurdles was transforming a broad education problem into a structured and practical solution. We had to carefully design a system that combines learning resources, school management, and AI features without making it overly complex.
+
+Another challenge was managing time while designing the UI, defining features, and setting up the project structure for development. Since we were working as a team, coordinating tasks like frontend structure, data flow, and feature planning also required quick decision-making.
+
+We also faced difficulties in understanding how to realistically integrate AI-powered learning assistance and meaningful student insights within the scope of a hackathon prototype.
+
+Despite these challenges, the process helped us learn a lot about product thinking, system design, and teamwork. It pushed us to turn an idea into a working concept while staying focused on solving a real problem in education.
+
+**Electrothon 8.0 Honors Track**
+
+This project fits the Best Beginner Hack category because it represents our first step into building a real-world technology solution that addresses a meaningful problem in education. As beginner developers, our goal was to design a practical platform that could simplify and modernize the way schools manage learning, communication, and academic tracking.
+
+We developed an AI-powered digital school platform that brings together essential school functionalities into a single application. The platform includes features such as digital attendance management, student leave requests, academic material sharing, AI-based doubt solving, performance tracking dashboards, virtual meeting support for teachers and students, and an announcement system for school notifications.
+
+Many schools still rely on fragmented tools, manual registers, and scattered communication channels. Our project attempts to solve this by creating a centralized digital ecosystem where students and teachers can easily interact, access learning resources, and monitor academic progress.
+
+As beginners, building this project helped us learn and apply several technologies such as frontend development, backend integration, database management, and AI-powered assistance tools. Through this hackathon, we focused on creating a functional and scalable prototype that demonstrates how technology can improve accessibility, organization, and engagement within school education systems.
+
+This project reflects our journey from learning basic development concepts to building a complete solution that addresses a real-world challenge, making it a strong fit for the Best Beginner Hack category.
+
+Team **Endless_Nightmare** -- [Bijin Grover](https://github.com/bijinsuperstar12), [Bhavanshu Rathore](https://github.com/bhavanshu-rathore-619881350), [Shivam Kishor](https://github.com/shivamkishor09), [sunil saini](https://github.com/SunilSaini1405)
+
+`2026-03-15`
+
+---
+
+### Chain Sentinel
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/chain-sentinel-f7cf) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/vismaygawai/ChainSentinel) [![Built at](https://img.shields.io/badge/Built%20at-Electrothon%208.0-0052CC?style=flat-square)](https://electrothon-8.devfolio.co)
+
+> Real-time on-chain intelligence platform
+
+![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+**Chain Sentinel is an AI-powered on-chain security agent that acts as a real-time defensive layer for DeFi treasuries.**
+
+Instead of waiting for damage, Chain Sentinel:
+
+✅ Continuously monitors treasury activity
+✅ Analyzes DeFi exposure using AI agents
+✅ Detects financial and protocol-level risk
+✅ Predicts dangerous concentration patterns
+✅ Generates real-time protective actions
+✅ Acts as a **digital bodyguard for DeFi funds**
+
+> **Chain Sentinel doesn't react to loss. It prevents loss.**
+
+**Challenges we ran into**
+
+Challenges I ran into
+Integrating a multi-agent intelligence system into a production-ready DeFi dashboard presented several unique technical hurdles:
+
+Dependency Heavy Lifting vs. Agility: The original architecture required standing up local Redis and MongoDB instances, which added significant friction for rapid deployment. I overcame this by designing an "Infrastructure-Lite" mode—implementing in-memory shims and a local JSON persistence layer that maintains the agent's stateful memory without the overhead of external database clusters.
+
+The Hydration Paradox: In the Next.js frontend, we encountered persistent hydration mismatches where server-rendered snapshots of "Last Alert" times differed from the client-side render by mere milliseconds. I resolved this by identifying the precise unstable render paths and implementing targeted hydration suppression, ensuring a seamless and console-error-free user experience.
+
+Ethers v6 Strictness & Mass Scanning: We initially saw $0.00 valuations for high-value "Whale" addresses. After deep-diving into the logs, I discovered that Ethers v6 requires strict EIP-55 checksums for contract calls. I overhauled the watcherAgent with a robust address normalization pipeline and expanded the scanner to include major ERC20 stables, ensuring accurate wealth assessment across the entire test batch of 10 wallets.
+
+Cross-Origin & Port Synchronization: Running a distributed system of nested API and Web services led to port conflicts and connectivity failures. I standardized the entire stack on Port 3006 and built a unified environment variable synchronization script that ensured the frontend, API, and WebSocket feed remained perfectly aligned across restarts.
+
+LLM Context Shift: Moving from a legacy NVIDIA NIM provider to Gemini 1.5 Pro required recalibrating our agent's narrative templates. I refactored the prompt engineering to leverage Gemini’s superior reasoning capabilities, resulting in more nuanced and "human-like" intent analysis for whale movements.
+
+**Electrothon 8.0 Honors Track**
+
+Chain Sentinel represents our leap from theoretical coding to building a mission-critical, AI-driven security layer for the decentralized future. As a beginner team in the AI-agent space, we chose to tackle one of DeFi’s most intimidating challenges: real-time treasury protection. By mastering the ADK-TS framework and architecting a modular monorepo from scratch, we transformed a complex security problem into an autonomous, multi-agent system that prevents loss before it happens. This project is more than just a scan tool; it is a testament to how quickly new developers can bridge the gap between 'learning' and 'launching' when they leverage cutting-edge tools like IQAI’s Agent Development Kit to solve high-stakes, real-world problems.
+
+**IQ AI**
+
+How it fits the IQ AI Track:
+Multi-Agent Intelligence: Our system utilizes a specialized agent triad—comprising Risk, Planner, and Governance agents—to autonomously scan DAO treasuries, assess health factors in Aave V3 positions, and generate actionable protection plans.
+Explainable On-Chain Decisions: Using Gemini 1.5 Pro, the platform translates complex on-chain data into human-readable risk narratives. Our Agent Transparency Panel (ATP) provides a verifiable window into the agent's reasoning, ensuring that every autonomous action is transparent and policy-aligned.
+Real-Time Adaptive Response: Through the WhaleWatch and LiquidShield pipelines, the system identifies high-value wallet movements and liquidation risks in real-time. The AI doesn't just alert; it predicts intent (e.g., accumulation vs. dump) and prepares defensive responses before market volatility impacts the treasury.
+Agentic Infrastructure-Lite: We demonstrate that powerful AI agents can operate with minimal traditional infrastructure. By using in-memory agent state and direct LLM-driven heuristics, Chain Sentinel provides state-of-the-art security with extreme agility.
+
+Team **WWHS?** -- [Vismay Gawai](https://github.com/vismaygawai), [Yugank Sharma](https://github.com/Yuganksharma590), [Tapish Sharma](https://github.com/ParralaxEnthalpy)
+
+`2026-03-15`
+
+---
+
+### CivicEye
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/civic-eye-0721) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/gaurijaiswal3001/city-watch-ai) [![Built at](https://img.shields.io/badge/Built%20at-Electrothon%208.0-0052CC?style=flat-square)](https://electrothon-8.devfolio.co)
+
+> AI-Powered Civic Intelligence Platform.
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![GitHub](https://img.shields.io/badge/GitHub-333333?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+CivicEye is a civic issue reporting platform designed to simplify the process of identifying and reporting urban infrastructure problems. Many cities face challenges such as potholes, garbage accumulation, broken streetlights, and drainage issues, but existing complaint systems are often slow, fragmented, or difficult for citizens to access. As a result, these problems remain unresolved for long periods, affecting safety and quality of life.
+CivicEye addresses this gap by providing a simple web-based platform where citizens can upload images of civic issues. The system uses AI to help identify the type of problem and stores the complaint in a centralized database, making it easier for authorities to monitor, track, and respond to reported issues efficiently. By enabling quick reporting and organized issue tracking, CivicEye promotes faster resolution and greater transparency in urban infrastructure management.
+
+**Challenges we ran into**
+
+Integrating the frontend with the backend database and ensuring smooth data flow.
+• Configuring storage and handling image uploads properly.
+• Setting correct database and storage access policies.
+• Integrating AI for image-based issue detection.
+• Resolving dependency conflicts and setup issues during development.
+• Building a functional prototype within limited hackathon time.
+
+**Electrothon 8.0 Honors Track**
+
+All Girls Team
+
+Team **AAAG** -- [Akansha Kathait](https://github.com/akanshakathait), [Aditi Bansal](https://github.com/Aditi-bansal123), [Aiswarya Bairagi](https://github.com/Aiswarya), [Gauri .](https://github.com/gaurijaiswal3001)
+
+`2026-03-15`
 
 ---
 
