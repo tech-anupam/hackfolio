@@ -1,6 +1,6 @@
 # Finance and Fintech
 
-![Projects](https://img.shields.io/badge/Projects-183-4B32C3?style=flat-square) [![GitHub](https://img.shields.io/badge/GitHub-tech--anupam-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/tech-anupam) [![Instagram](https://img.shields.io/badge/Instagram-tech.anupam-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/tech.anupam)
+![Projects](https://img.shields.io/badge/Projects-203-4B32C3?style=flat-square) [![GitHub](https://img.shields.io/badge/GitHub-tech--anupam-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/tech-anupam) [![Instagram](https://img.shields.io/badge/Instagram-tech.anupam-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/tech.anupam)
 
 [← Back to all themes](https://github.com/tech-anupam/hackfolio#readme)
 
@@ -102,6 +102,41 @@ Locus is the co-founder that handles everything the solo builder can't: design, 
 Team **kitlers** -- [Sathvik Pasuvula](https://github.com/sathvik9105), [Sunil Swain](https://github.com/sunilswain7), [Ashutosh Vats](https://github.com/AshutoshVatsg)
 
 `2026-05-26`
+
+---
+
+### Invoice Now
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/invoice-matchmaking-5333) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/vatsalm30/ETHDenverProject) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.loom.com/share/047c445c0a394716abbfa0f1a5ded12f) [![Built at](https://img.shields.io/badge/Built%20at-ETHDenver%202026-0052CC?style=flat-square)](https://ethdenver2026.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-11-FF6B6B?style=flat-square)
+
+> Don't Settle for Less
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![Java](https://img.shields.io/badge/Java-333333?style=flat-square) ![DAML](https://img.shields.io/badge/DAML-333333?style=flat-square)
+
+**The problem it solves**
+
+Invoice financing represents a $3+ trillion global market built on a fundamental structural inefficiency: suppliers who have completed legitimate work and hold confirmed invoices are forced to wait 30, 60, or even 90 days for payment while their capital sits frozen in receivables. This liquidity gap creates cascading operational risk;  suppliers cannot pay their own vendors, fund new production, or invest in growth while waiting on buyers to fulfill payment terms. The existing solutions to this problem are fragmented and opaque: traditional factoring companies offer take-it-or-leave-it rates with no competitive transparency, and suppliers have no mechanism to verify whether the terms they receive reflect fair market pricing. Invoice Now addresses this directly by creating a competitive auction marketplace where invoicees can sell confirmed invoices immediately, financiers bid in real time for the right to fund those invoices, and the resulting market dynamics produce rates anchored to genuine supply and demand rather than a single intermediary's margin requirements.
+
+**Challenges we ran into**
+
+One of the biggest hurdles our team faced was verifying the legitimacy of financiers and invoicees without compromising user privacy. Because our platform handles financial transactions, trust is essential, but traditional verification methods like KYC require collecting and storing sensitive data, which conflicted with our goal of building a privacy-preserving system. After researching alternative approaches, we determined that Zero-Knowledge (ZK) proofs offered the best solution, allowing users to prove they meet verification requirements without revealing their underlying information. Although integrating ZK proofs required us to rethink our validation logic and overcome a technical learning curve, it ultimately enabled us to strengthen platform security, preserve user privacy, and enhance overall trust in the system.
+
+**Use of AI tools and agents**
+
+In Invoice Now, we use AI to streamline the invoice submission process and reduce friction for users. Specifically, we implemented an AI-powered invoice parser that automatically extracts structured data from uploaded documents. Instead of requiring users to enter every field manually, the system processes PDFs or images using document-understanding models that identify key text regions, classify fields, and normalize the data into a standardized format for our platform.
+
+**New France Village**
+
+Our project, Invoice Now, directly aligns with the Future of Finance focus of the New France Village track by bridging real-world financial infrastructure with blockchain-native systems. At its core, we are bringing Real-World Assets (RWA) on-chain by tokenizing invoices, enabling them to be financed in a more transparent, efficient, and accessible way. From a DeFi and RealFi perspective, we transform traditionally illiquid receivables into digitally verifiable financial instruments that can integrate with decentralized liquidity. At the same time, we incorporate compliance-aware architecture to align with AML, regulatory, and institutional standards, making the system viable not just for crypto-native users but also for traditional financial participants. This positions Invoice Now at the intersection of TradFi and DeFi, creating infrastructure that could support treasury companies, institutional capital, and eventually broader Main Street adoption. By modernizing invoice financing through blockchain rails while preserving privacy and compliance, our project reflects the evolution of finance that New France Village aims to highlight.
+
+**Best Privacy-Focused dApp Using Daml**
+
+Invoice Now is a privacy-first invoice financing dApp built natively on Canton L1 using Daml, directly aligning with the Best Privacy-Focused dApp track. Invoice financing involves highly sensitive commercial data — supplier identities, pricing terms, payment schedules, and credit exposure — making confidentiality essential. Our smart contracts are written entirely in Daml and model invoices as agreements between clearly defined parties: Supplier, Debtor, and Financier. Leveraging Canton’s granular party-based data visibility, only relevant stakeholders can view specific contract details. For example, financiers can evaluate financing terms without seeing unrelated supplier information, debtors see only their obligations, and competing financiers cannot access each other’s bids. This demonstrates meaningful use of Daml’s native privacy model rather than relying on external chains or superficial implementations.
+
+Beyond technical correctness, Invoice Now showcases real-world utility in confidential DeFi and RealFi infrastructure. The application’s UI clearly indicates which party the user is acting as and visibly demonstrates how contract visibility changes across roles, making Canton’s privacy guarantees tangible in a live deployment. By combining programmable invoice tokenization, role-based confidentiality, and controlled data disclosure, the project highlights how enterprise-grade supply chain finance can operate on-chain without exposing sensitive business information. This makes Invoice Now a strong demonstration of Canton Network’s privacy-first architecture and its potential for institutional adoption.
+
+Team **Boiler Blockchain** -- [Jacob Gutwein](https://github.com/jgutw), [Manasvi Meka](https://github.com/mmeka24), [Alzahraa Ahmed](https://github.com/Zara-commits), [Vatsal Maheshwari](https://github.com/vatsalm30)
+
+`2026-02-21`
 
 ---
 
@@ -1687,6 +1722,29 @@ Team **BOTSQUAD** -- Simon Paul, [Mayank Bansal](https://github.com/mayankbansal
 
 ---
 
+### RoomMate
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/roommate-89a1) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/sparshagarwal0411/roommate) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://roommate-lemon.vercel.app/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=qLGNigZR2bI) [![Built at](https://img.shields.io/badge/Built%20at-PayLoad'26-0052CC?style=flat-square)](https://pay-load.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-4-FF6B6B?style=flat-square)
+
+> Split expenses, Not friendships!
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![Vercel](https://img.shields.io/badge/Vercel-333333?style=flat-square)
+
+**The problem it solves**
+
+RoomMate **simplifies hostel expense management** by providing a single platform to budget, split shared bills, track payments, and view balances in real time. It **replaces manual calculations** and alert-based coordination with **automated splitting, clear payer assignments, and polite reminders**, reducing confusion and conflicts among roommates. Designed for students, it makes daily financial tasks **faster, transparent, and stress-free.**
+
+**Challenges we ran into**
+
+One major challenge was **maintaining accurate expense splits and balances** when multiple users get added or updation of expenses at the same time, which initially caused **inconsistencies in dues calculation**. I resolved this by **restructuring the Supabase database tables** and enforcing the server-side validations in the backend to ensure reliable calculations.
+
+Another challenge was **integrating authentication smoothly** with the React frontend. This was addressed using **Supabase Auth** along with proper session and state management. Overcoming these challenges improved the **stability, reliability, and scalability** of the application.
+
+Team **Broken Table** -- [Sparsh Agarwal](https://github.com/sparshagarwal0411), [Siya Yadav](https://github.com/skylover02), [Harsh Bhardwaj](https://github.com/Harshb7406), [Akash Niranjan](https://github.com/shenmok)
+
+`2026-02-02`
+
+---
+
 ### AntiDeepfake
 [![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/antideepfake-e1ee) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/rohit-ghosh-01/Noisify) [![Built at](https://img.shields.io/badge/Built%20at-HyperFusion-0052CC?style=flat-square)](https://hyperfusion.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-3-FF6B6B?style=flat-square)
 
@@ -2712,6 +2770,419 @@ That makes PayWithLocus fundamental to the experience.
 Cosmas Mandikonza
 
 `2026-04-16`
+
+---
+
+### Taxmate
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/taxmate-ab9a) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/CodeLander07/codelanders) [![Built at](https://img.shields.io/badge/Built%20at-GHRhack%202.0-0052CC?style=flat-square)](https://ghrhack2.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-3-FF6B6B?style=flat-square)
+
+> Simplify Your Taxes with Intelligence
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![RestAPIs](https://img.shields.io/badge/RestAPIs-333333?style=flat-square)
+
+**The problem it solves**
+
+Managing personal taxes is confusing, error-prone, and stressful for most people.
+
+Users struggle with:
+
+Scattered financial documents (bank statements, salary slips, investments, rent receipts)
+
+Lack of clarity on what data is actually required
+
+Manual tax calculations that are easy to get wrong
+
+Difficulty understanding Old vs New tax regime
+
+Missing deductions due to poor awareness
+
+Blind trust in tools that show numbers without explaining where they came from
+
+Most existing platforms:
+
+Show pre-filled numbers without transparency
+
+Require users to manually enter complex financial data
+
+Provide generic advice not based on real documents
+
+Fail to adapt cleanly when tax policies change
+
+This creates low trust, low confidence, and high risk for users.
+
+🚀 What People Can Use It For
+1️⃣ Document-First Tax Analysis
+
+Users upload their real financial documents:
+
+Bank statements
+
+Salary slips
+
+Rent receipts
+
+Investment proofs
+
+EMI details
+
+Capital gains statements
+
+The system:
+
+Extracts data automatically using OCR
+
+Converts it into structured, verifiable financial data
+
+Ensures no insights appear until documents exist
+
+👉 This eliminates guesswork and fake data.
+
+2️⃣ Safer & More Accurate Tax Insights
+
+Instead of manual entry:
+
+Calculations are done deterministically (rule-based, policy-controlled)
+
+AI is used only for reasoning and explanation, not math
+
+Every insight is tied back to uploaded documents
+
+👉 Users know why a number exists, not just what the number is.
+
+3️⃣ Clear Old vs New Regime Decisions
+
+The platform:
+
+Compares tax regimes based on actual user data
+
+Explains why one regime is better
+
+Updates automatically when tax policies change (admin-controlled)
+
+👉 No blind recommendations, only explainable decisions.
+
+4️⃣ Zero-Data = Zero Insights (Trust by Design)
+
+If a user hasn’t uploaded documents:
+
+No dashboard data is shown
+
+No AI insights are generated
+
+All sections remain locked
+
+👉 This prevents misinformation and builds long-term trust.
+
+5️⃣ Policy-Resilient & Future-Proof
+
+When tax rules change:
+
+Admin updates the policy once
+
+Calculations and AI reasoning automatically use the new policy
+
+Old results remain preserved for audit and comparison
+
+👉 Users never lose historical accuracy.
+
+🔐 How It Makes Existing Tasks Easier & Safer
+Task	Traditional Tools	This Platform
+Data entry	Manual & error-prone	Automatic via documents
+Trust in numbers	Low	High (document-backed)
+Tax calculations	Hidden logic	Transparent & policy-bound
+AI advice	Generic	Personalized & explainable
+Policy updates	Risky & silent	Controlled & auditable
+Compliance	Confusing	Guided & structured
+🧠 In Simple Terms
+
+Upload documents → System extracts facts → Rules calculate → AI explains → User understands.
+
+No documents = no data
+No data = no insights
+No insights = no false confidence
+
+🎯 Who It’s For
+
+Salaried professionals
+
+Freelancers & consultants
+
+Investors
+
+First-time taxpayers
+
+Anyone who wants clarity, trust, and control over their taxes
+
+**Challenges we ran into**
+
+Building a document-first, AI-assisted tax platform came with several non-trivial challenges—both technical and conceptual. Below are the key hurdles I faced and how I addressed them.
+
+1️⃣ Documents Uploading Successfully, but Nothing Happening After
+
+The problem:
+Files were uploading correctly (API returning 200 OK), but users saw no data, insights, or dashboard updates. The system treated upload as a “finished” action.
+
+Why this was hard:
+Uploading a file doesn’t mean the data is usable. OCR, parsing, validation, and analysis are separate steps—and none were automatically triggered.
+
+How I fixed it:
+I redesigned the flow so that upload became a trigger, not an endpoint.
+After upload, the system now automatically runs:
+
+OCR and document parsing
+
+Structured financial data generation
+
+Deterministic calculations
+
+AI (Ollama) reasoning
+
+The dashboard only unlocks after this pipeline completes, ensuring users never see incomplete or misleading data.
+
+2️⃣ Inconsistent Data Appearing Before Any Documents Were Uploaded
+
+The problem:
+Some dashboard sections showed default or placeholder values even when users hadn’t uploaded any documents.
+
+Why this was dangerous:
+Showing numbers without data breaks trust—especially in financial applications.
+
+How I fixed it:
+I implemented a document-first access control rule:
+
+No documents → no data
+
+No data → no insights
+
+All sections remain locked until at least one document is parsed
+
+This ensured that every number and insight shown is backed by real user data.
+
+3️⃣ Preventing AI from Hallucinating Financial Information
+
+The problem:
+Using AI directly for financial analysis risks hallucinated values, incorrect assumptions, or policy misunderstandings.
+
+Why this mattered:
+Tax systems must be deterministic and auditable—AI can explain, but it must not calculate or invent.
+
+How I fixed it:
+I strictly separated responsibilities:
+
+Backend code handles all calculations using tax rules
+
+AI (Ollama) is used only for reasoning, classification, and explanation
+
+I enforced JSON-only AI outputs and blocked AI execution unless structured data and an active policy were present.
+
+4️⃣ Handling Tax Policy Changes Without Breaking Existing Data
+
+The problem:
+Tax rules change every year, and hardcoding them would cause old data to become incorrect or overwritten.
+
+How I solved it:
+I introduced policy versioning, managed via an Admin Panel:
+
+Each financial year has its own policy version
+
+Only one policy can be active at a time
+
+Old calculations remain tied to old policies
+
+Users must explicitly recalculate when policies change
+
+This made the system future-proof and audit-safe.
+
+5️⃣ Making the System Feel Responsive Despite Heavy Processing
+
+The problem:
+OCR and AI analysis can take time, which risks poor user experience.
+
+How I handled it:
+I designed the UI to:
+
+Show clear processing states (uploading → parsing → analyzing)
+
+Keep the dashboard locked until completion
+
+Avoid showing partial or speculative results
+
+This trade-off favored clarity and trust over speed, which is critical in finance.
+
+Team **Codelanders** -- [Mayur Nikumbh](https://github.com/unstopablesid), Tejas Patil, [Shreyas Ghadigaonkar](https://github.com/Shreyas1904)
+
+`2026-03-01`
+
+---
+
+### Broke No More
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/expense-hub-e9db) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/chhavimittal09/hostel-expense-tracker) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://chhavimittal09.github.io/hostel-expense-tracker/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/zzN6kjjBTv0?si=7nq3GdiTTpbx2-vc) [![Built at](https://img.shields.io/badge/Built%20at-PayLoad'26-0052CC?style=flat-square)](https://pay-load.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-3-FF6B6B?style=flat-square)
+
+> Hostel Expense Manager
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square)
+
+**The problem it solves**
+
+What Can People Use It For?
+
+- Managing shared hostel expenses such as food, groceries, utilities, and outings without manual tracking.
+- Splitting costs fairly and automatically among roommates, removing the need for calculations or reminders.
+- Tracking monthly budgets and understanding where money is being spent at a glance.
+- Settling dues transparently, clearly showing who owes whom and how much.
+- Sending polite, system-driven reminders instead of uncomfortable personal follow-ups.
+- Keeping a shared financial record that everyone can view, reducing misunderstandings and disputes.
+
+How It Makes Existing Tasks Easier and Safer
+
+- Eliminates manual effort by automating calculations, splits, and balance updates.
+- Reduces emotional stress by removing guilt, awkwardness, and confrontation from money-related conversations.
+- Prevents errors and confusion by maintaining a single, consistent source of financial truth.
+- Encourages financial discipline through clear budget tracking and spending insights.
+- Protects friendships by keeping money management neutral, factual, and transparent.
+- Improves accountability without pressure by making dues visible and reminders system-driven.
+
+**Challenges we ran into**
+
+Challenges I Ran Into
+
+One of the major challenges during development was managing layout and sizing issues caused by inconsistent CSS box models. Elements such as cards, input fields, and progress bars were overflowing or misaligning due to padding being added outside defined widths. This was resolved by standardizing the use of box-sizing: border-box and cleaning up duplicate CSS rules to ensure predictable layouts.
+
+Another hurdle was ensuring that JavaScript logic executed correctly across multiple pages. Since the application relied on shared data, some pages failed silently when scripts were loaded in the wrong order. This was fixed by introducing a shared data file and enforcing a strict script-loading order, ensuring shared state was always available before page-specific logic ran.
+
+A further challenge was connecting interdependent calculations across different screens. Updates in expenses needed to reflect immediately in the dashboard and settlements. This was addressed by centralizing all expense data and deriving calculations dynamically, rather than hardcoding values in individual pages.
+
+Finally, balancing UI polish with usability required iteration. Early designs looked visually appealing but felt heavy for a finance tool. By reducing visual noise, simplifying interactions, and prioritizing clarity over decoration, the final interface became more intuitive and trustworthy for daily use.
+
+**Hostel Life Utility Manager - UI/UX Beginner Track (Freshers Only)**
+
+This project addresses a real, everyday problem faced by students in shared living spaces by simplifying expense tracking and settlements. It promotes transparency, fairness, and better financial coordination using a clean, accessible web-based solution.
+
+By combining thoughtful UX with practical automation, the project reduces manual effort and social discomfort around money. Its focus on human-centered design and real-world usability aligns strongly with the track’s goal of creating impactful, problem-driven technology.
+
+Team **TheHackWiz** -- [Avni Arora](https://github.com/avni-arora)
+
+`2026-02-02`
+
+---
+
+### Hostel Expense Manager
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/hostel-expense-manager-01ae) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Harsh4584/hostel-expense-manager) [![Built at](https://img.shields.io/badge/Built%20at-PayLoad'26-0052CC?style=flat-square)](https://pay-load.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-3-FF6B6B?style=flat-square)
+
+> A simple Python tool for hostel expense tracking.
+
+![Python](https://img.shields.io/badge/Python-333333?style=flat-square)
+
+**The problem it solves**
+
+## What can people use this for?
+
+Hostel Expense Manager can be used by hostel students to track their daily expenses easily.
+Instead of remembering or writing expenses manually, users can record each expense with a description and amount.
+
+This makes it easier to:
+- Keep track of small daily expenses
+- View all expenses in one place
+- Calculate total spending 
+
+## How it makes tasks easier
+
+- No need to remember or write expenses manually
+- Saves time by automatically calculating totals
+- Provides a simple and beginner-friendly way to manage expenses
+- Works completely offline and does not require internet access
+
+This project is designed as a simple and practical solution for everyday expense tracking.
+
+**Challenges we ran into**
+
+## Bug / Hurdle Faced During Development
+
+One hurdle I faced while building this project was handling user input correctly.
+If the user enters non-numeric values for the expense amount, the program can raise an error.
+
+## How I Handled It
+
+For this beginner-level prototype, I focused mainly on implementing the core functionality
+such as adding expenses, displaying them, and calculating the total.
+I noted input validation as an improvement area for future versions of the project.
+
+**Hostel Life Utility Manager - UI/UX Beginner Track (Freshers Only)**
+
+# How My Project Fits the Hostel Life Utility Manager – UI/UX Beginner Track
+
+- This project fits the Hostel Life Utility Manager track because it focuses on a real problem faced by hostel students.
+- Managing daily expenses in a hostel is difficult because small expenses are often forgotten.
+- This project helps hostel students record their daily expenses and calculate the total easily.
+
+# Why It Fits the UI/UX Beginner Track
+
+- The project is simple and beginner-friendly.
+- It focuses on ease of use rather than complex technology.
+
+[Harsh Jangid](https://github.com/Harsh4584)
+
+`2026-01-24`
+
+---
+
+### TAXicity
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/xxx-447b) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/maybedivyansh/Taxicity) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://taxicity-nine.vercel.app) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/HjGdTTR84VE) [![Built at](https://img.shields.io/badge/Built%20at-MERGE--CONFLICT-0052CC?style=flat-square)](https://mergeconflict.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-3-FF6B6B?style=flat-square)
+
+> Tax Planning, Minus the Wait.
+
+![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![Vercel](https://img.shields.io/badge/Vercel-333333?style=flat-square) ![Supabase](https://img.shields.io/badge/Supabase-333333?style=flat-square)
+
+**The problem it solves**
+
+Tax-Loss Shadow: The Financial OS for Modern India
+Tax-Loss Shadow is the first real-time tax optimization engine designed for India’s evolving workforce—from salaried professionals with side hustles to small business owners (SMEs) and consultants.
+
+1. Why It’s Not Just for Freelancers
+For the Salaried Moonlighter: Millions of Indians now have a salary plus freelance income. Our app handles this complex "dual-income" scenario, optimizing Section 37 expenses against their business income while tracking 80C investments for their salary.
+
+For Small Business Owners (MSMEs): A shop owner or consultant can upload their ledger. The system identifies missed expenses—like utility bills or vehicle depreciation—that directly lower their taxable profit.
+
+For Every Taxpayer (Regime Wars): The choice between the Old vs. New Regime confuses everyone. Our "Shadow Engine" runs a mathematically precise simulation for any income profile, proving exactly which regime saves more money based on actual spending.
+
+2. Universal Features
+Instant "What-If" Simulations: Whether you are buying office supplies or a family car, our dashboard validates the tax impact instantly. “Does this purchase lower my tax slab?” — We answer that in milliseconds.
+
+Zero-Entry Intelligence: We parse raw CSV bank statements from any major Indian bank. No manual data entry is required, making tax planning effortless for busy professionals who hate spreadsheets.
+
+Proactive "Loss Prevention": We don't just file taxes; we save them. The system nudges users before March 31st (e.g., “You have ₹50k unused 80C limit—invest now to save ₹10k”), preventing the loss of hard-earned money for everyone.
+
+3. The "Financial Iron Dome"
+By moving tax compliance from a reactive yearly chore to a proactive, gamified daily habit, Tax-Loss Shadow acts as a protective shield for anyone who pays taxes in India, ensuring no deduction is ever left behind.
+
+**Challenges we ran into**
+
+During the course of this hackathon , few unique bugs and challenges were encountered :
+1. The "Dirty Data" Problem (Non-Standard Bank Statements)
+
+Challenge: Real-world bank statements are inconsistent. Headers vary wildly (e.g., "Narration" vs. "Description"), and parsers often fail to distinguish Income from Expense when both share a column.
+
+Solution: We built a heuristic parsing engine with "Fuzzy Header Mapping." Our code intelligently scans for keywords (like DrCr, Credit) to map data correctly and merges fields like Mode and Description so no transaction is ever left undefined.
+
+2. Real-Time Tax Logic Complexity
+
+Challenge: Instantly calculating tax liability for FY 2026-27 under two different regimes (Old vs. New) without lagging the UI was computationally heavy.
+
+Solution: We decoupled the math into a pure function module (taxUtils.ts) and utilized React’s useMemo hook. This ensures that even with thousands of transactions, the "Liability Meter" recalculates instantly without dropping a single frame.
+
+3. Handling "Ambiguous" Transactions
+
+Challenge: A generic "Amazon" transaction could be a personal gift or a deductible office expense. A rigid rule-based system would often misclassify these.
+
+Solution: We implemented a "Confidence-Based" Tagging System. High-confidence items (like Insurance) are auto-tagged, while ambiguous vendors (like Flipkart) are tentatively marked as "Business Expenses" to highlight potential savings, but visually flagged for user confirmation—striking a balance between automation and control.
+
+**Open Track**
+
+Tax-Loss Shadow is an Open Innovation in Fintech that transforms tax compliance from a reactive yearly chore into a proactive, real-time optimization game. By automating bank statement analysis and visualizing liability, we democratize elite financial planning for the Indian gig economy
+
+Team **Team Baguette** -- [Utkarsh Singh](https://github.com/UTKI20), [Srish Bansal](https://github.com/SrishBansal), [divyansh nagpal](https://github.com/maybedivyansh), [Kanishk Kulshrestha](https://github.com/Kanishk-Kulshrestha)
+
+`2026-02-01`
 
 ---
 
@@ -4413,6 +4884,152 @@ The Solution: We implemented a "Trigger & Rule" system. Instead of the AI creati
 Team **FinCortex** -- [Bhuvan kumar shetty h](https://github.com/bkshetty), [Yuvaraj Khot](https://github.com/Yuvaraj108-khot), [Yashwanth Shetty](https://github.com/YashwanthShetty15), [Vaishakh Bangera](https://github.com/VAISHAKHBANGERA)
 
 `2026-03-15`
+
+---
+
+### slinky
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/lolsss-e669) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/hamzaskewl/slinky) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://slinky-production.up.railway.app/#) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=n0PHqvcUyos) [![Built at](https://img.shields.io/badge/Built%20at-ETHDenver%202026-0052CC?style=flat-square)](https://ethdenver2026.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> Private Payment Links on Canton
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+The problem slinky solves is that it makes claiming/redeeming and using tokens easier for people while allowing them to remain fully anonymous using the Daml contracts that we wrote and are able to be used on the site currently. The combination of making payments easier with just a link that leaks nothing, does not save to a database of any sort and keeps trust in the sender, it positions us to be in a great position for making payments easier, and more private.
+
+**Challenges we ran into**
+
+We ran into challenges during the implementation of canton's daml contracts and we made sure to adhere to the guidelines. We used the hackathon guidelines and had to go and talk to the devs at the canton booth about the issues, we got it fixed and were able to work on it later, although we were not able to fully deploy it to devnet, we got really close and I managed to make it still work on a live demo link with the sandbox canton ledger on the website, running just as similarly to how a devnet would on the Canton Network.
+
+**Use of AI tools and agents**
+
+We used Claude Code for helping with the codebase, but there are no agents or any integration of that sort to the actual project.
+
+**Prosperia**
+
+slinky is a product that aligns itself with making payments easier by using claim links as leverage and canton networks designed privacy and contract design in Daml, this track is about privacy, and we fit most into it overall compared to other tracks. Most privacy solutions in crypto are add-ons layered onto public ledgers. Slinky takes the opposite approach: Canton was built for privacy from day one, and we built a product that leans into that entirely. The result is a payment flow that is both simpler and more private than anything possible on a public chain.
+
+**Best Privacy-Focused dApp Using Daml**
+
+We implemented privacy using canton by enforcing it structurally by the Daml contract templates and Canton's sub transaction privacy. There are 4 Daml templates, for the ClaimLink, ClaimReceipt, ClaimNotification, RevokedLink, these privacy sensitive fields are absent from contracts visible to the other party. Canton's synchronization protocol ensures each participant only sees sub-views of transactions where they are a stakeholder. Our claim link once creator has the Daml contract ID attached to its end as an opaque bearer token with zero metadata about the sender, amount, or any party. The way this is built is only able to be built on canton using its infrastructure.
+
+Team **UTHack** -- [Aaron Solanki](https://github.com/aaroncoder1), [Hamza Dag](https://github.com/hamzaskewl), [Braeden Gradwell](https://github.com/braedengradwell-ui)
+
+`2026-02-21`
+
+---
+
+### FinanceQuest
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/financequest-0087) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/mohatamegha/FinanceQuest) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://finance-quest-sandy.vercel.app) [![Built at](https://img.shields.io/badge/Built%20at-Lean%20In%20Hacks%207.0-0052CC?style=flat-square)](https://leanin-hacks-7.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> Don't let your money sit idle, get it rolling!
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![SQL](https://img.shields.io/badge/SQL-333333?style=flat-square) ![Git](https://img.shields.io/badge/Git-333333?style=flat-square) ![GitHub](https://img.shields.io/badge/GitHub-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![AI/ML](https://img.shields.io/badge/AI/ML-333333?style=flat-square)
+
+**The problem it solves**
+
+I would like to tell you the reason why we chose this project. We conducted a study in our class, through which we understood that only 7% of the people were investing, which was a really striking figure for us.
+Now, we all know that engineers start earning at around the ages of 21–22, as compared to a CA, who starts earning at around 24, or a doctor, who starts earning at around 26–27. This helped us understand that there is a huge gap between the people who are earning and the people who are investing.
+The current inflation rate in India hovers at around 6.33%, so basically, if we are not investing our money, we are practically losing money instead of gaining it. This is exactly the gap that our app is trying to bridge.
+And as Warren Buffet says "The way to become wealthier is not by working for more money, but making your money work for you".
+So, we present Finance Quest to you. It is a centralised, gamified learning platform targeted at engineering students, particularly women, to encourage them to start investing at a very young age by explaining financial jargon in layman’s terms.
+It is a platform designed not only to explain the fundamentals of finance but also budgeting and saving, thereby providing a holistic understanding of various financial domains.
+
+**Challenges we ran into**
+
+1. Breaking down complex financial jargon into layman terms
+Problem:
+Financial concepts are often intimidating for beginners due to heavy jargon and abstract terminology, which can discourage first-time learners.
+
+Solution:
+We simplified complex terms by:
+Replacing technical language with everyday analogies (e.g., SIP as “monthly saving like a subscription”)
+
+Using short explanations instead of definitions
+
+Presenting concepts through gameplay, choices, and examples rather than long text blocks
+
+Impact:
+Users can understand financial concepts intuitively without feeling overwhelmed, making learning more approachable and confidence-building.
+
+2. Managing conflicting dependencies (Tailwind v4 vs shadcn)
+Problem:
+Tailwind v4 introduced breaking changes that conflicted with shadcn UI components, causing styling inconsistencies and build errors.
+
+Solution:
+We resolved this by:
+Standardizing the setup to a stable Tailwind configuration
+Cleaning up conflicting PostCSS and Tailwind directives
+Rebuilding the styling layer from scratch again in 5 long hours!
+
+3. Designing an engaging, clean, and beginner-friendly UI
+Problem:
+Finance apps often overwhelm users with dense dashboards and too much information at once.
+
+Solution:
+We designed the UI with:
+a) Clear visual hierarchy and focused screens
+b) Minimalist layouts with progressive disclosure of information
+c) Gamified elements like XP, progress bars, and rewards to keep users engaged
+
+4. Identifying the most important features and information
+Problem:
+It was challenging to decide what information is essential for beginners versus what could distract or confuse them.
+
+Solution:
+1. Core financial fundamentals first (budgeting, saving, investing basics)
+2. Learning-by-doing through simulations and challenges
+
+5. Time Constraint 
+Problem: It was difficult to make ends meet in the limited amount of time when everything kept breaking. 
+Solution: Late nights and sleep deprived days powered by caffeine (hehe)
+
+Team **404 Chill Not Found** -- [Megha Mohata](https://github.com/mohatamegha), [Simran Dureja](https://github.com/simrandureja03-source), [Tanya Gupta](https://github.com/Tanya-Gupta23)
+
+`2026-02-08`
+
+---
+
+### Budgetly
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/budgetly-4c29) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://drive.google.com/drive/folders/1H28mv0azoZaRRyS-Vr1egptGyhvqXJGK?usp=sharing) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/JnzN9Yd2aJE?si=YfDZRcDsv8k2TBZb) [![Built at](https://img.shields.io/badge/Built%20at-PayLoad'26-0052CC?style=flat-square)](https://pay-load.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> Hostel Life Finance Manager
+
+![Figma](https://img.shields.io/badge/Figma-333333?style=flat-square)
+
+**The problem it solves**
+
+Centralizes all financial activities : budgeting, expense tracking, subscriptions, and shared expenses, into one platform
+
+Provides visual insights that help students instantly understand spending patterns
+
+Automates recurring expenses for more realistic and stress-free budgeting
+
+Simplifies expense splitting, reducing misunderstandings among peers
+
+Integrates college & hostel information, saving time and reducing dependency on multiple apps
+
+Educates students through Money Buddy, empowering smarter financial decisions
+
+**Challenges we ran into**
+
+One major challenge was balancing multiple features, budgeting, expense tracking, shared expenses, subscriptions, and college utilities,without overwhelming the user.
+
+How we solved it:
+We restructured the app into clear tabs and dashboards, prioritizing the most-used features upfront and pushing secondary utilities into dedicated sections. This ensured usability without sacrificing functionality.
+
+**Hostel Life Utility Manager - UI/UX Beginner Track (Freshers Only)**
+
+Our project focuses on solving everyday hostel-life problems through a simple and intuitive user experience, making it well-suited for the UI/UX Beginner Track.
+
+The app is designed with freshers in mind, using clear navigation, minimal input flows, and visual dashboards that make budgeting and expense tracking easy to understand. Key hostel utilities and college information are placed in one accessible space, reducing the need to switch between multiple apps.
+
+By prioritizing clarity, usability, and real student needs, the project demonstrates how thoughtful UI/UX design can simplify hostel life.
+
+Team **ThinkSync** -- [Bhumika Soam](https://github.com/bhumika-soam), [Mahi Garg](https://github.com/mahigarg0403-blip), [Khushi Hirawat](https://github.com/Khushi_hirawat)
+
+`2026-01-26`
 
 ---
 
@@ -7336,6 +7953,154 @@ The FinTech track targets financial infrastructure, inclusion, and compliance te
 Team **€∆$¥¥** -- [Nikhilesh Ravi](https://github.com/Tronik87), [Ivan George](https://github.com/ivan-george710), [Sachithan Chandru](https://github.com/Sachithan3), [Harleen .](https://github.com/Neelraah)
 
 `2026-03-29`
+
+---
+
+### DukaanIQ
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/dukaaniq-a707) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Khushi-Dhir/Hackathon-App-DukaanIQ/) [![Built at](https://img.shields.io/badge/Built%20at-Hack--N--Win%203.0-0052CC?style=flat-square)](https://hacknwin-3.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Know Your Stock, Grow Your Store
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square)
+
+**The problem it solves**
+
+Running a small shop or retail store can be overwhelming, with products constantly coming in and going out, some nearing expiry, and stock levels changing every day. Keeping track manually or on spreadsheets is stressful, time-consuming, and prone to mistakes. DukaanIQ solves this by giving store owners a smart, easy-to-use system to see exactly what’s in stock, track perishable items, prevent overstocking or running out of products, and make informed decisions quickly. It turns inventory chaos into a clear, manageable process, freeing owners to focus on growing their business instead of worrying about what’s on the shelves.
+
+**Challenges we ran into**
+
+While building DukaanIQ, I ran into several challenges. Designing a system that tracks both products and individual batches was tricky, especially handling perishable items with expiry dates. Keeping the frontend and backend in sync so stock updates in real time without errors required careful API design and state management. I also faced challenges with user experience, making sure selecting batches, adjusting quantities, and completing sales felt intuitive and fast. Finally, ensuring data integrity - so sales never accidentally oversell stock -and implementing secure token-based access were critical hurdles that required thoughtful solutions.
+
+Team **Tech4Tomorrow** -- Ruchika ., [Khushi Dhir](https://github.com/Khushi-Dhir), Bhavya sharma
+
+`2026-03-08`
+
+---
+
+### Meridian
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/meridian-5495) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/shriya-upadhyay/meridian) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/0lNDOqFMeoM) [![Built at](https://img.shields.io/badge/Built%20at-ETHDenver%202026-0052CC?style=flat-square)](https://ethdenver2026.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Private Cross-Border Payments
+
+![Express.js](https://img.shields.io/badge/Express.js-333333?style=flat-square) ![React.js](https://img.shields.io/badge/React.js-333333?style=flat-square) ![DAML](https://img.shields.io/badge/DAML-333333?style=flat-square)
+
+**The problem it solves**
+
+Meridian helps solve the UI/UX friction in cross-border FX payments by providing a compliance-first, efficient, and easily accessible framework for stablecoin settlement on the Canton Network. Selective disclosure ensures each party (sender, recipient, regulator) sees only the data relevant to their role, while automated AML/KYC screening runs inline at acceptance time, not as a separate manual process. This enables compliance and privacy to be a priority in on-chain FX transactions.
+
+**Challenges we ran into**
+
+One issue I ran into was figuring out how to prevent different users from accessing sensitive information on a shared smart contract. I was able to overcome this by creating separate smart contract payments for each of them.
+
+**New France Village**
+
+Meridian helps enable seamless cross-border FX payments on-chain without compromising on privacy.
+
+**Best Privacy-Focused dApp Using Daml**
+
+Meridian leverages Canton network's privacy engine to allow for selective disclosure of transaction information to each involved party.
+
+[Shriya Upadhyay](https://github.com/shriya-upadhyay)
+
+`2026-02-21`
+
+---
+
+### Canton Invoice
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/canton-invoice-a262) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](http://github.com/derek2403/ethdenver) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://drive.google.com/drive/folders/10NKhhXzPsWj1MhAvTNckXsnMjFPrwj6o?usp=drive_link) [![Built at](https://img.shields.io/badge/Built%20at-ETHDenver%202026-0052CC?style=flat-square)](https://ethdenver2026.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> One Invoice, Four Views
+
+![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square)
+
+**The problem it solves**
+
+In traditional invoicing, every party in the supply chain — the seller, buyer, logistics carrier, and bookkeeper — typically sees the exact same document. This creates a serious privacy problem: your shipping carrier knows your profit margins, your accountant sees customer delivery addresses, and your buyer sees your internal cost structure. Businesses either accept this data leakage or resort to manually creating separate documents for each party — an error-prone, time-consuming process.
+
+Canton Invoice solves this with structurally enforced privacy. When a seller creates a single invoice, the system automatically generates four distinct, role-appropriate views:
+
+🏷️ Seller — Full invoice with line items, pricing, payment controls, and the ability to share views
+💳 Buyer — Payment-focused view with amounts due, payment status, and wallet integration
+🚚 Carrier — Logistics-only view with shipping addresses, item names, quantities, and delivery terms — no prices, discounts, or tax data exist in this view at all
+📊 Bookkeeper — Financial summary with totals, tax breakdowns, and invoice status — no addresses, contacts, or line item details
+This isn't just app-level filtering where sensitive data is hidden by the UI. Each view is a separate Daml contract on the Canton Network where restricted fields are structurally absent from the template. Even if a carrier's node is compromised, price data cannot be recovered — because it was never there.
+
+Real-world use cases:
+
+A manufacturer shares logistics details with a 3PL provider without exposing wholesale pricing
+A CFO shares financial records with an external auditor without leaking customer PII or shipping details
+A buyer sees only what they owe and pays directly through Canton wallet integration
+Canton Invoice also integrates with the Splice Token Standard for native on-ledger payments using Canton Coin, with AllocationRequest-based settlement that creates immutable PaymentReceipt contracts as proof of payment.
+
+**Challenges we ran into**
+
+1. DevNet Connectivity Issues
+Our biggest operational hurdle was connecting our validator node to the Canton Global Synchronizer. After deploying on DevNet3, we found that multiple sequencer nodes (Tradeweb-Markets-1, Cumberland-1, Cumberland-2) were either unreachable or returning TLS certificate mismatches (ingress.local instead of the expected domain). This produced persistent SYNC_SERVICE_BAD_CONNECTIVITY errors for hours. Since these were infrastructure issues outside our control, we had to migrate to DevNet5 — which required understanding the full 
+start.sh
+ bootstrapping flow, debugging port conflicts with other teams on the shared machine, and re-onboarding with fresh credentials.
+
+2. Designing Structural Privacy in Daml
+Getting the disclosure model right was non-trivial. The key insight was that privacy should not be enforced at the API or UI layer — it needs to be baked into the Daml template structure itself. We created separate LogisticsView and BookkeeperView templates that are deliberately missing sensitive fields (e.g., LogisticsItem has no unitPrice, discount, or taxRate fields, unlike LineItem). The Invoice_ShareWithCarrier choice maps LineItem → LogisticsItem, stripping price data during the transformation. This required careful type design to ensure each view was self-contained and correct.
+
+3. Multi-Role Authentication on LocalNet
+Supporting five distinct roles (seller, buyer, carrier, bookkeeper, app-provider) with proper party isolation on a single LocalNet instance required wiring up the participant node's ledger user system carefully. Each role maps to a different Daml party, and the 
+DashboardRouter
+ dynamically renders the correct dashboard based on the logged-in user's identity. Getting the splice-onboarding module to allocate and wire up the logistics and finance parties with correct ReadAs/ActAs rights took significant iteration.
+
+4. Real-Time Dashboard Updates
+Each dashboard polls its respective contracts (invoices, logistics views, bookkeeper views) at 5-second intervals, but ensuring the frontend correctly reflected the state transitions — especially when a seller marks an invoice as paid and it auto-shares views with carrier and bookkeeper before archiving — required careful sequencing of nonconsuming and consuming Daml choices.
+
+**Use of AI tools and agents**
+
+We used AI coding assistants (Claude/Antigravity) heavily as a pair-programming and debugging partner, especially during implementation and DevOps
+Debugging & Execution Acceleration (AI):
+AI was most valuable for unblocking us during development by:
+	•	Diagnosing infra failures: reading Docker + Canton logs line-by-line, isolating TLS/cert and synchronizer connectivity failures, and helping confirm whether issues were on the sequencer side vs. our local configuration.
+	•	Guiding fixes with runnable steps: generating exact commands and configs (e.g., updating startup scripts, fetching migration identifiers, adjusting environment variables), and iterating quickly when errors changed.
+	•	Rapid code execution + iteration: proposing small, testable patches, then helping us validate behavior through repeated run → observe → fix cycles (especially for node connectivity, port conflicts, and Ledger API integration).
+
+[Liew QiJian](https://github.com/derek2403)
+
+`2026-02-21`
+
+---
+
+### BudgetUp
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/budgetup-b8f7) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://www.figma.com/proto/Ufiw8mXLEDdeNWEN8Y5QuZ/Untitled?page-id=0%3A1&node-id=1-9&viewport=-814%2C204%2C0.64&t=dkLnbX3a6vDMyTHc-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A3) [![Built at](https://img.shields.io/badge/Built%20at-Lean%20In%20Hacks%207.0-0052CC?style=flat-square)](https://leanin-hacks-7.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Your financial buddy
+
+![Figma](https://img.shields.io/badge/Figma-333333?style=flat-square)
+
+Team **BlitzKoders** -- [Gitanshi Verma](https://github.com/gitanshiverma), [Garima Singh](https://github.com/garimasingh2005), [Khushi Bidhuri](https://github.com/khushibidhuri122), [Ankita Kashyap](https://github.com/student-Ankita-ai)
+
+`2026-02-08`
+
+---
+
+### Vibe Check
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/vibe-check-178a) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/nikhiljha3050/Hostel-expense-tracker) [![Built at](https://img.shields.io/badge/Built%20at-PayLoad'26-0052CC?style=flat-square)](https://pay-load.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Keeping your hostel finances and life in check
+
+![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Streamlit](https://img.shields.io/badge/Streamlit-333333?style=flat-square)
+
+**The problem it solves**
+
+The Problems We Are Solving
+Living in a hostel for the first time, I realized that the biggest headaches aren't the classes, but the daily "unorganized chaos." Here is exactly what our project solves:
+
+The "Awkward" Money Talk: Let’s be real—asking a friend or your roommate for ₹50 back for chai or an auto ride is just plain awkward. Usually, these small costs get forgotten, but they add up to a huge loss by the end of the month. Our app handles the "reminding" part automatically. By logging it, it becomes a simple data point rather than a personal confrontation between friends.
+
+The End-of-Month "Maggi" Phase: We’ve all been there—starting the month like a king and ending it broke, wondering where all the money went. The app gives us back that visibility. By categorizing spends into things like "Canteen," "Travel," and "Laundry," students can see exactly which "leak" is draining their budget before they run out of cash.
+
+**Hostel Life Utility Manager - UI/UX Beginner Track (Freshers Only)**
+
+This project fits the track because it’s not just another 'tracker'—it’s a centralized digital hub. We focused on making the UI extremely high-speed; we know a student won't use an app if it takes 10 clicks just to log a ₹20 chai expense. By bringing expense tracking, maintenance requests, and utility management into one sleek interface, we’re proving that good design can solve the 'mental load' of living away from home. We’ve prioritized a 'mobile-first' experience because that’s where student life happens,
+
+[Nikhil Jha](https://github.com/nikhiljha3050)
+
+`2026-01-26`
 
 ---
 
@@ -11614,6 +12379,317 @@ Overall, NetSure combines telecom protocols, computer vision, and intelligent pa
 Team **Powerbank** -- [RAVICHANDRAN JAGANATHAN](https://github.com/darthved4), [Tanish Mudgal](https://github.com/tanishmudgal150807/), [Aavishkar Singh](https://github.com/Aavishkar12), [Prince Jain](https://github.com/pjkorba1256-cmd)
 
 `2026-03-17`
+
+---
+
+### Tradigoo
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/tradigoo-6762) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Simarjot846/Tradigoo_Live) [![Built at](https://img.shields.io/badge/Built%20at-Hack--N--Win%203.0-0052CC?style=flat-square)](https://hacknwin-3.devfolio.co)
+
+> AI-powered wholesale trading.
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![Supabase](https://img.shields.io/badge/Supabase-333333?style=flat-square) ![Pathway](https://img.shields.io/badge/Pathway-333333?style=flat-square)
+
+**The problem it solves**
+
+Problems Tradigoo Solves
+
+1. Blind Inventory Decisions by Retailers
+Small retailers often purchase products without real demand data. Because of this, they frequently buy products that do not sell, resulting in dead stock and wasted shelf space.
+
+Tradigoo Solution:
+Tradigoo provides AI-powered demand insights that help retailers understand which products are likely to sell in their area, enabling smarter purchasing decisions.
+
+2. Dead Stock and Financial Loss
+Retailers usually rely on guesswork or distributor recommendations when purchasing inventory. This often leads to unsold products and capital being locked in inventory.
+
+Tradigoo Solution:
+Tradigoo offers AI-based product recommendations based on market trends and retailer behavior, helping retailers reduce dead stock and increase profitability.
+
+3. Fraud and Trust Issues with Suppliers
+Retailers often face problems such as fake suppliers, incorrect deliveries, poor product quality, and payment fraud when dealing with unknown wholesalers.
+
+Tradigoo Solution:
+Tradigoo introduces supplier trust scores, OTP-based delivery verification, escrow-based payments, and a dispute resolution system to build trust and ensure secure transactions.
+
+4. Lack of Secure Payment Systems
+In traditional B2B trade, retailers often pay in advance without any transaction protection, increasing the risk of financial loss.
+
+Tradigoo Solution:
+Tradigoo uses an escrow payment system where funds are held securely during the transaction and released only after successful delivery confirmation.
+
+5. Lack of Technology for Small Retailers
+Most small retailers lack access to digital tools, demand analytics, and modern sourcing platforms, forcing them to rely on local distributors.
+
+Tradigoo Solution:
+Tradigoo provides an easy-to-use digital platform with AI-powered product suggestions and smart sourcing tools, making advanced technology accessible to small retailers.
+
+6. Delivery and Verification Issues
+Retailers sometimes receive incorrect quantities, wrong products, or damaged goods, and there is often no clear process for resolving such issues.
+
+Tradigoo Solution:
+Tradigoo includes OTP delivery verification, a 24-hour inspection window, and a structured dispute resolution system to ensure fair and transparent transactions.
+
+One-Line Problem Statement
+
+Tradigoo addresses the trust, sourcing, and demand intelligence gaps in India’s fragmented B2B retail supply chain by providing a secure and AI-powered sourcing platform for small and medium retailers.
+
+**Challenges we ran into**
+
+While building Tradigoo, I faced several technical and product challenges.
+
+One major challenge was designing a secure transaction flow between retailers and wholesalers, since trust is a major issue in traditional B2B trade. To address this, I designed an escrow-based payment system where payments are held temporarily and released only after delivery confirmation through OTP verification.
+
+Another challenge was building the AI recommendation logic to help retailers avoid dead stock. Since real retail demand data was not available during development, I simulated product demand trends to demonstrate how AI could recommend products likely to sell.
+
+I also introduced a trend insight feature that analyzes product search frequency on the platform. This helps wholesalers understand what retailers are actively searching for, allowing them to adjust their inventory and reduce dead stock.
+
+Finally, integrating multiple components like supplier listings, trust scores, delivery verification, and dispute resolution into a simple workflow was challenging. I solved this by breaking the system into modular parts and designing a clear and simple user flow for retailers.
+
+Team **Rudra Titans** -- [Sandeep Kaur](https://github.com/sandeepkaur1305), [Simarjot Kaur](https://github.com/Simarjot846), [Shreyasi Sharma](https://github.com/ShreyasiSharma)
+
+`2026-03-08`
+
+---
+
+### Campus Pay
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/campus-pay-119b) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/aman24-cpu/ace-hack-algo) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://ace-hack-algo-ten.vercel.app/) [![Built at](https://img.shields.io/badge/Built%20at-AceHack%205.0-0052CC?style=flat-square)](https://acehack5.devfolio.co)
+
+> Campus payment
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![SQLite](https://img.shields.io/badge/SQLite-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![Nodejs](https://img.shields.io/badge/Nodejs-333333?style=flat-square) ![React.js](https://img.shields.io/badge/React.js-333333?style=flat-square)
+
+**The problem it solves**
+
+# Decentralized Campus Financial Ecosystem for Secure Peer-to-Peer Transactions
+
+## Problem Statement
+
+College students frequently engage in financial transactions such as splitting bills, buying and selling used items, and sending money to friends. However, existing solutions rely on centralized payment platforms that may involve transaction delays, privacy concerns, platform fees, and limited transparency.
+
+Additionally, campus communities often lack a **dedicated financial platform** that integrates peer-to-peer payments, expense sharing, and marketplace transactions within a single ecosystem.
+
+There is a need for a **secure, low-cost, and transparent decentralized solution** that enables students to seamlessly manage payments, split expenses, and conduct peer-to-peer commerce within their campus community.
+
+## Proposed Solution
+
+This project proposes a **blockchain-powered campus financial platform** built on **Algorand**, enabling students to:
+
+- Send and receive digital payments using **ALGO** or **Algorand Standard Assets (ASAs)**
+- Split group expenses and settle debts efficiently
+- Buy and sell items within a **campus marketplace**
+- Maintain transparent and immutable **transaction records**
+
+## Key Features
+
+- 💸 **Peer-to-Peer Payments** – Send and receive crypto instantly within the campus community  
+- 🧾 **Split-the-Bill System** – Automatically calculate and settle shared expenses  
+- 🛒 **Campus Marketplace** – Buy and sell items with integrated crypto payments  
+- 🔐 **Secure Wallet Integration** – Connect using **Pera Wallet**  
+- 📜 **Transparent Transactions** – All payments recorded on the blockchain
+
+## Technology Stack
+
+- **Blockchain:** Algorand  
+- **Wallet Integration:** Pera Wallet  
+- **Frontend:** React / JavaScript  
+- **Backend:** Node.js / Firebase  
+- **Algorand SDK:** AlgoSDK (JavaScript)
+
+## Impact
+
+By leveraging blockchain technology and wallet integrations such as **Pera Wallet**, the platform ensures **secure, instant, and low-fee financial interactions** while eliminating the need for intermediaries.
+
+The solution aims to create a **trusted decentralized financial ecosystem for campus communities**, improving convenience, transparency, and financial accessibility for students.
+
+**Challenges we ran into**
+
+## Initial Challenges Faced During Development
+
+One of the initial challenges I faced during the development of this project was **deploying the smart contract on the Algorand network**. I was previously more familiar with developing and deploying smart contracts on Ethereum using **Remix IDE**, which provides a graphical user interface (GUI) that makes the deployment process straightforward and beginner-friendly.
+
+In contrast, deploying smart contracts in the Algorand ecosystem required using **command-line interface (CLI) tools**, which was a different workflow than what I was accustomed to. Initially, understanding the deployment process, configuring the environment, and executing the correct CLI commands took some time.
+
+However, overcoming this challenge helped me gain a deeper understanding of how smart contracts are deployed using the CLI and how the underlying deployment process works in the Algorand ecosystem. This experience also improved my familiarity with developer tools and strengthened my ability to work with blockchain infrastructure beyond GUI-based platforms.
+
+**Algorand Bharat**
+
+## How Algorand Was Used in This Project
+
+This project leverages the **Algorand blockchain** to enable secure, fast, and low-cost financial transactions within a campus ecosystem. Algorand was used as the underlying blockchain infrastructure to handle payments, record transactions, and ensure transparency.
+
+### Key Integrations with Algorand
+
+**1. Wallet Integration**
+- Users can connect their crypto wallet using **Pera Wallet**.
+- This allows students to authenticate themselves and authorize transactions directly from their wallets.
+
+**2. Peer-to-Peer Payments**
+- The application enables students to send and receive **ALGO** or **Algorand Standard Assets (ASAs)**.
+- Transactions are created and submitted using the **Algorand JavaScript SDK (AlgoSDK)**.
+
+**3. Smart Contract Deployment**
+- A smart contract was deployed on the Algorand network to support decentralized functionality.
+- The deployment was performed using **Algorand CLI tools**, allowing interaction with the blockchain directly from the terminal.
+
+**4. Transaction Handling**
+- The platform creates, signs, and submits transactions through the connected wallet.
+- After submission, the application retrieves transaction confirmation data from the Algorand blockchain.
+
+**5. Transparent Transaction Records**
+- Every payment and financial interaction is recorded on the blockchain.
+- This ensures transparency, immutability, and trust within the campus community.
+
+### Benefits of Using Algorand
+
+- **Low Transaction Fees** – Suitable for frequent small payments among students  
+- **Fast Finality** – Transactions are confirmed in seconds  
+- **Security and Transparency** – All transactions are verifiable on-chain  
+- **Scalability** – Supports a large number of users and transactions without congestion  
+
+By integrating Algorand into the platform, the project provides a **decentralized financial ecosystem** where students can securely manage payments, split expenses, and conduct peer-to-peer transactions without relying on traditional intermediaries.
+
+Team **BAGGING BIMBOWs** -- [Siddhant Yadav](https://github.com/yadavsidd), [Aman Sharma](https://github.com/aman24-cpu)
+
+`2026-03-08`
+
+---
+
+### TAXLAYER NETWORK
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/taxlayer-network-0a62) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Rohitjana9098/lingo-dev-hackathon_project) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://cool-pixie-3ac485.netlify.app/dashboard) [![Built at](https://img.shields.io/badge/Built%20at-Kaggle%20Royale-0052CC?style=flat-square)](https://kaggle-royale.devfolio.co)
+
+> AUDIT CONSOLE
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![Framer](https://img.shields.io/badge/Framer-333333?style=flat-square) ![Charts.js](https://img.shields.io/badge/Charts.js-333333?style=flat-square)
+
+**The problem it solves**
+
+The Problem: Crypto Tax Chaos
+For retail traders and Web3 natives, navigating crypto taxes is a fragmented, high-stress nightmare. Users are currently forced to manually juggle spreadsheets across dozens of exchanges, decode complex localized laws—such as India's 30% flat tax or US Wash Sale rules—and pay exorbitant CPA fees just to avoid legal complications.
+
+The Solution: TaxLayer
+TaxLayer dismantles these barriers with a unified, intelligent, and highly visual Web3 Tax Audit Console. We turn a multi-week accounting crisis into a seamless, automated experience.
+
+Key Features and Benefits:
+Real-Time Liability Tracking: Eliminate year-end surprises. TaxLayer dynamically tracks your BTC, ETH, and BNB trades as they happen, calculating estimated short-term and long-term capital gains alongside exact withholding requirements in real-time.
+
+Nexus: Integrated AI Tax Advisor: Web3 tax law is notoriously confusing. Nexus is an embedded, context-aware AI assistant that provides instant, personalized guidance on complex questions, such as how wash sales affect specific Ethereum losses.
+
+Automated Zero-Knowledge Compliance: Using a secure, multi-step flow, the platform instantly maps your financial bracket to localized tax laws, TDS deductions, and specific ceses—ensuring your data remains private while your filings remain precise.
+
+Interactive Visual Strategy: Move beyond reactive filing. Our dynamic charting allows you to visualize your Gross Profit versus Withholding Tax trajectory, helping you identify tax-loss harvesting opportunities before you execute your next trade.
+
+Seamless Audit Exporting: Transform your entire trading history into an audit-ready PDF or CSV in seconds. This allows you to generate a professional report ready for your CPA or for direct filing without the manual headache.
+
+**Challenges we ran into**
+
+Technical Challenges and Solutions
+Building a real-time financial dashboard across a Next.js frontend and a Python Fast API backend required solving several architectural and styling hurdles.
+
+1. Solving Hydration and State Errors
+The Problem: Because the app checks a user’s verification status (via local  Storage), the server and the browser often disagreed on what to display. Next.js would try to render a "logged out" state while the browser tried to show a "logged in" state, causing the application to crash or glitch.
+
+The Solution: We implemented a mounting check using React hooks. By ensuring the app waits until it is fully loaded in the browser before reading user data, we stabilized the rendering process and eliminated these "hydration" mismatches.
+
+2. Designing a "Morphing" Mobile Layout
+The Problem: On small screens, the dense navigation sidebar would crush the data tables, making the portfolio information unreadable or pushing it entirely off-screen.
+
+The Solution: We engineered a responsive navigation system that physically changes shape based on screen size. On desktops, it remains a fixed sidebar. On mobile, it automatically transforms into a sleek bottom navigation bar, ensuring the main data remains clear and unobstructed.
+
+3. Connecting the Frontend and Backend
+The Problem: Connecting the Next.js app to the Python API caused "CORS" errors, where the browser blocked data requests for security reasons. Additionally, hardcoded links worked on local computers but broke immediately when we tried to put the app online.
+
+The Solution: We configured the backend to securely accept requests from our frontend and replaced all hardcoded links with dynamic environment variables. We also created an "Infrastructure as Code" blueprint to automatically connect the two systems during cloud deployment, ensuring a seamless transition from development to a live website.
+
+[Rohit Jana](https://github.com/rohit9098/)
+
+`2026-02-21`
+
+---
+
+### SpendScape
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/spendscape-d363) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://amairakapoor.github.io/spendscape/) [![Built at](https://img.shields.io/badge/Built%20at-Lean%20In%20Hacks%207.0-0052CC?style=flat-square)](https://leanin-hacks-7.devfolio.co)
+
+> “Your finances, brought to life.”
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+People often find it hard to understand where their money actually goes because financial data is shown only in numbers and charts. This makes budgeting feel confusing and unengaging, especially for students. SpendScape solves this by turning spending data into something visual and easy to understand.
+
+**Challenges we ran into**
+
+As a beginner, working with augmented reality on the web was challenging due to limited browser support and strict security requirements like HTTPS. Managing camera permissions and ensuring the application worked across devices required careful testing and learning. Integrating AR while keeping the project simple was another key challenge.
+
+**Beginner's track - Your first hack starts here!**
+
+SpendScape fits the Beginner’s Track because it focuses on learning and using basic web technologies in a simple way. It uses beginner-friendly frontend tools and libraries to explore augmented reality without complex backend systems. SpendScape combines finance awareness with augmented reality to help users better understand their spending habits. Instead of improving an existing app, it introduces a new and engaging way to visualize money, encouraging better financial decisions.
+
+Team **SyncSouls** -- [Amaira Kapoor](https://github.com/amairakapoor), [Divishi Chaudhary](https://github.com/divishi7)
+
+`2026-02-08`
+
+---
+
+### Debt-stress stimulator
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/debtstress-stimulator-a278) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/KaurMansa/finivestagame) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://www.canva.com/design/DAG_c97JaQI/N5QAC4hhvjjx2oskDkCjWg/edit?utm_content=DAG_c97JaQI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/w-BQ1-T-9p0?feature=shared) [![Built at](https://img.shields.io/badge/Built%20at-PayLoad'26-0052CC?style=flat-square)](https://pay-load.devfolio.co)
+
+> “Simplifying Finance Through Gamification.”
+
+![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![Embedded Javascript (EJS)](https://img.shields.io/badge/Embedded%20Javascript%20(EJS)-333333?style=flat-square) ![npm](https://img.shields.io/badge/npm-333333?style=flat-square) ![Git](https://img.shields.io/badge/Git-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![Mongoose ORM](https://img.shields.io/badge/Mongoose%20ORM-333333?style=flat-square) ![HTML5​](https://img.shields.io/badge/HTML5​-333333?style=flat-square)
+
+**The problem it solves**
+
+Financial literacy is low because finance is usually taught through theory, not practice.
+Beginners don’t have a safe environment to experiment with financial decisions without real monetary risk.
+My project solves this by introducing a gamified, risk-free simulation where users learn finance by playing.
+Instead of reading concepts, players make decisions, see outcomes instantly, and learn through experience.
+This makes financial education engaging, practical, and safe — turning financial mistakes into learning opportunities.
+
+**Challenges we ran into**
+
+Mathematical Precision
+Avoiding floating-point errors to ensure debt balances and interest calculations remain accurate to the cent.
+Balance & Pacing
+Fine-tuning the "Random Event" frequency so the game feels challenging for students without being demotivating.
+Data Hierarchy 
+Designing a dashboard that displays complex financial metrics and graphs without overwhelming the user's focus.
+Input Validation
+Building robust logic to prevent "illegal" moves, such as spending non-existent cash or overpaying a loan.
+
+**Financial Games & Finopoly - Game Development**
+
+Cyclical Progression
+Like Finopoly’s board loops, our game uses a monthly "Audit Loop" to simulate the passage of time and recurring financial obligations.
+Asset vs. Liability Management
+Both games teach players to balance liquid cash against long-term financial health, whether it's buying property or paying down debt.
+Stochastic Risk Assessment
+Both utilize "Random Events" (like Finopoly’s "Chance" cards) to demonstrate how unexpected life expenses can derail a financial plan.
+Goal-Oriented Win Conditions
+Both projects define success through specific milestones, shifting the focus from simply "playing" to achieving a state of financial independence.
+
+Team **Panda** -- [Lakshita .](https://github.com/LakshitaOps), [chirag chetiwal](https://github.com/chiragchetiwal2007-blip), [Mansa Kaur](https://github.com/KaurMansa)
+
+`2026-02-03`
+
+---
+
+### CineSense
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/cinesense-cb21) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/SakshiMaji07/Text-Classification) [![Built at](https://img.shields.io/badge/Built%20at-MERGE--CONFLICT-0052CC?style=flat-square)](https://mergeconflict.devfolio.co)
+
+> Knowing the verdict before the credits roll
+
+![Python](https://img.shields.io/badge/Python-333333?style=flat-square)
+
+**The problem it solves**
+
+Problem: In the digital age, movies receive thousands (sometimes millions) of user reviews. It is impossible for a human production team, streaming service, or cinema chain to read every single one to gauge audience reaction. 
+
+Solution: This model automates the process. It acts as an "always-on" critic that can instantly process infinite amounts of text and classify it as positive or negative, allowing for real-time sentiment tracking without human labor.
+
+Team **Adaptive Minds** -- [Sakshi Maji](https://github.com/SakshiMaji07), Moksha Sana
+
+`2026-02-01`
 
 ---
 

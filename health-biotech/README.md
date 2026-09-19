@@ -1,6 +1,6 @@
 # Health and Biotech
 
-![Projects](https://img.shields.io/badge/Projects-109-4B32C3?style=flat-square) [![GitHub](https://img.shields.io/badge/GitHub-tech--anupam-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/tech-anupam) [![Instagram](https://img.shields.io/badge/Instagram-tech.anupam-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/tech.anupam)
+![Projects](https://img.shields.io/badge/Projects-198-4B32C3?style=flat-square) [![GitHub](https://img.shields.io/badge/GitHub-tech--anupam-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/tech-anupam) [![Instagram](https://img.shields.io/badge/Instagram-tech.anupam-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/tech.anupam)
 
 [← Back to all themes](https://github.com/tech-anupam/hackfolio#readme)
 
@@ -43,6 +43,96 @@ Secure Tactical Dispatch: Restricts sensitive field data behind badge/KYC authen
 Team **V/Slash** -- Vidula Jangam, SIDDHESH MANDLIK, Isha Halbe, Samarth Jadhav
 
 `2026-08-16`
+
+---
+
+### VitalMed
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/vitalmed-7b00) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://vitalmed-smoky.vercel.app/) [![Built at](https://img.shields.io/badge/Built%20at-HackTU%207.0-0052CC?style=flat-square)](https://hacktu7.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-15-FF6B6B?style=flat-square)
+
+> Hospital-grade diagnostics. Living room comfort
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Three.JS](https://img.shields.io/badge/Three.JS-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+## Project Overview: VitalMed
+
+VitalMed is a small, handheld medical device built to help health workers quickly detect heart, lung, and gut problems—often in just a few seconds.
+
+Using a highly sensitive microphone placed inside a stethoscope-like head, the device listens to the sounds inside the body and uses AI to predict which medical condition is most likely present. In simple terms, it gives health workers a trained “digital ear” when a specialist isn’t available.
+
+---
+
+## The Problems It Solves
+
+### Shortage of Specialists
+
+In many clinics, especially in rural or crowded areas, there simply aren’t enough heart or lung specialists. VitalMed acts like a reliable second opinion, helping frontline health workers recognize conditions that usually require years of experience to identify.
+
+### Detecting Problems Before Symptoms Appear
+
+Many serious issues—like heart murmurs or early lung infections—don’t cause pain right away. The AI can pick up subtle abnormal sounds long before the patient actually feels sick, allowing for earlier treatment.
+
+### Cutting Through Clinic Noise
+
+Busy clinics are loud. Hearing faint heart or lung sounds in that environment is extremely difficult. The sealed stethoscope head blocks out background noise so the device focuses only on what’s happening inside the patient’s body.
+
+### Creating a Digital Medical Record
+
+Normally, when a doctor listens with a stethoscope, that information disappears the moment they walk away. This device records and stores the sounds digitally, making it easy to track changes over time or share recordings with a specialist for a quick review.
+
+---
+
+## 2. How It Makes Medical Exams Easier
+
+### Lung Checkups
+
+Instead of guessing between different lung infections based on faint crackling sounds, the AI analyzes the audio and suggests the most likely condition—such as pneumonia, COPD, or bronchiolitis.
+
+### Heart Examinations
+
+Heart murmurs and extra heart sounds are easy to miss, especially in noisy settings. VitalMed clearly detects these abnormalities, helping ensure serious valve or rhythm issues aren’t overlooked.
+
+### Gut Monitoring
+
+After surgery, doctors often have to wait and listen for long periods to know if the digestive system is functioning properly. This device quickly checks for gut sounds and predicts whether digestion is normal or if there may be a blockage.
+
+### Faster Expert Consultations
+
+Instead of sending patients long distances to see a specialist, health workers can record the sound, attach the AI’s analysis, and send it digitally—allowing experts to give feedback almost instantly.
+
+---
+
+## 3. How the AI Works (In Simple Terms)
+
+The system follows a clear, step-by-step process:
+
+* *Noise Filtering:* The moment the device touches the skin, it removes unwanted sounds like talking, movement, or wind.
+* *Organ Separation:* Heart, lung, and gut sounds have different frequencies. The AI separates them so they don’t interfere with each other.
+* *Pattern Recognition:* Trained on thousands of real medical recordings, the AI looks for sound patterns that match known diseases—like the rhythm of a murmur or the whistle of a wheeze.
+* *Clear Results:* The system then gives a simple, easy-to-understand output, such as “Likely Pneumonia” or “Heart Murmur Detected.”
+
+---
+
+## Why This Matters
+
+VitalMed isn’t just another medical gadget—it’s a way to bring specialist-level diagnostic support to places where it’s needed most. It gives frontline health workers confidence, helps patients get the right care sooner, and ensures serious conditions don’t go unnoticed just because a specialist wasn’t in the room.
+
+**Challenges we ran into**
+
+1. Balancing Clinical Safety with Operational Efficiency
+The Challenge: We faced a critical decision between minimizing false alarms (Precision) and ensuring every potential health issue is detected (Recall).
+
+The Solution: We prioritized Recall to maximize patient safety. To prevent "alarm fatigue" for clinicians, we implemented Confidence Scores to flag ambiguous or high-risk cases for professional review.
+
+2. Optimizing Acoustic Fidelity for AI Analysis
+The Challenge: Subtle heart and lung sounds are often obscured by ambient noise or captured at frequencies insufficient for deep model analysis.
+
+The Solution: We engineered a customized microphone sensor system for high-fidelity, low-frequency capture. The raw signals undergo signal conditioning and frequency-based noise filtering to isolate pure vital sounds before being analyzed by the model.
+
+Team **DTU ALTAIR** -- [Krish Ichpal](https://github.com/DarkLordKrish), [Tanvi Goel](https://github.com/tgoel315-tech), [Krish Chauhan](https://github.com/Krish-Chauhan-Python), [aditya sharma](https://github.com/adityatech5615), [Sparsh Tyagi](https://github.com/sparshh1)
+
+`2026-02-08`
 
 ---
 
@@ -157,6 +247,80 @@ Indian primary care doctors see 30–60 patients/day. Documentation takes 15–2
 Team **Hackaut** -- [Ritochit Ghosh](https://github.com/RitochitGhosh), [Tamojit Mandal](https://github.com/TamojitMandal), [Aritra Ray](https://github.com/rayAritra)
 
 `2026-03-22`
+
+---
+
+### CareBridge
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/carebridge-dedb) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/prithvicoder1/Real-Time-Bed-Blood-Availability-Dashboard) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/LaHM5oeaSWs) [![Built at](https://img.shields.io/badge/Built%20at-AceHack%205.0-0052CC?style=flat-square)](https://acehack5.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-9-FF6B6B?style=flat-square)
+
+> Hospital Beds & Blood: Live Save Lives !!
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-333333?style=flat-square) ![SQL](https://img.shields.io/badge/SQL-333333?style=flat-square) ![Artificial Intelligence](https://img.shields.io/badge/Artificial%20Intelligence-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![React.js](https://img.shields.io/badge/React.js-333333?style=flat-square)
+
+**The problem it solves**
+
+Title: Real-Time Bed & Blood Availability Dashboard for Government Hospitals
+
+Description:
+There is no unified, real-time public dashboard showing bed availability — including ICU, general ward, paediatric, maternity, and isolation beds — across government hospitals in any given city or district. Blood banks similarly have no live inventory system visible to the public or to ambulance dispatchers. Families in crisis make desperate phone calls to multiple hospitals, and ambulances carry patients to full facilities simply because there was no way to know in advance.
+
+![image](https://assets.devfolio.co/content/68fa6b0022ab41138b052e061f9485c1/82dff468-d894-43c2-b501-5c0976f7beac.png)
+
+
+
+![image](https://assets.devfolio.co/content/68fa6b0022ab41138b052e061f9485c1/7bcfd3df-3483-46c9-b703-312e0e09cbce.png)
+
+**Challenges we ran into**
+
+## Handling Static Data for Multiple Hospital Categories
+
+One challenge we faced while building the dashboard was organizing and displaying *static hospital data across multiple categories* such as ICU beds, general ward beds, paediatric beds, maternity beds, isolation beds, and blood group availability.
+
+Initially, the data was stored in a simple list structure. As we expanded the dashboard to include more hospitals and different bed categories, the data became difficult to manage and the UI was not displaying the correct values for each hospital. In some cases, the wrong bed counts appeared under the wrong category due to inconsistent data mapping.
+
+### How We Solved It
+
+To fix this, we redesigned the data structure using a *well-defined model for each hospital*. Each hospital object contained clearly separated fields for bed categories and blood inventory.
+
+For example:
+
+•⁠  ⁠ICU beds
+•⁠  ⁠General ward beds
+•⁠  ⁠Paediatric beds
+•⁠  ⁠Maternity beds
+•⁠  ⁠Isolation beds
+•⁠  ⁠Blood group availability
+
+This structured approach made it easier to map the data correctly to the UI components and improved maintainability. It also prepared the system so that in the future the static data can be easily replaced with *real-time API or database updates*.
+
+**Best Use of Gemini API**
+
+CareBridge leverages the Gemini API for real-time hospital insights:
+
+- Generates natural language summaries of bed/blood availability (e.g., "Sawai Man Singh Hospital: 15 ICU beds free, O⁺ blood low")
+- Powers teacher dropout explanations via SHAP + Gemini prompts ("Low attendance risks 65% dropout—suggest weekly check-ins")
+- Chat interface for Jaipur hospitals: "Find nearest O- blood?" → Instant heatmap + ETA
+
+This scales ML predictions (XGBoost) into teacher/hospital-friendly responses, boosting usability 3x.
+
+
+![Uploading image...]()
+
+**Best Hack Built with Google Antigravity**
+
+CareBridge uses Google Antigravity SDK for secure, scalable hospital 
+
+- Antigravity Vertex AI powers XGBoost models (92% dropout prediction accuracy)
+- Real-time bed/blood sync via Antigravity Pub/Sub (Jaipur govt. and private hospitals)
+- Antigravity Maps API for emergency heatmaps + ambulance routing
+
+Built hackathon-style: MVP in 48 hrs with Antigravity's zero-config ML deploy.
+
+![Uploading image...]()
+
+Team **FUNCTION FORCE** -- [Richa Kumari](https://github.com/Richajha23), [Dhruv Kumar](https://github.com/dhruvkumar3172-byte), [Prithvi Vijay](https://github.com/prithvicoder1), [Ashish Kumar Gupta](https://github.com/ashishkumargupta28sep2005)
+
+`2026-03-08`
 
 ---
 
@@ -1479,6 +1643,56 @@ Team **Team Chocolate Coffee** -- [Devargho Chakraborty](https://github.com/Bore
 
 ---
 
+### CareCircle
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/carecircle-6e3b) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/tiyasaurusrex/CareCircle) [![Built at](https://img.shields.io/badge/Built%20at-Lean%20In%20Hacks%207.0-0052CC?style=flat-square)](https://leanin-hacks-7.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-5-FF6B6B?style=flat-square)
+
+> Healthcare guidance beyond hospitals.
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square)
+
+**The problem it solves**
+
+## CareCircle 
+
+After hospital discharge, patient recovery shifts from structured medical supervision to unstructured home care. Patients and caregivers become responsible for medication management, symptom monitoring, and recovery decisions without continuous medical guidance.
+
+This often leads to medication errors, missed doses, inconsistent symptom tracking, and delayed medical intervention. 
+
+Early warning signs may go unnoticed, especially when recovery data is not recorded systematically. Caregivers also struggle to determine when professional consultation is necessary, while doctors receive incomplete information during follow-ups.
+
+As a result, a critical gap exists between hospital care and home recovery, where patients lack structured monitoring, guidance, and clear communication channels with healthcare providers.
+
+
+
+## How CareCircle Solves This Problem
+
+CareCircle transforms home recovery into a guided and trackable process through a centralized digital platform.
+
+The system structures recovery data by organizing medicines, symptoms, and care tasks in one place, reducing reliance on memory or manual notes. Medication tracking and reminders improve adherence, while voice-based input simplifies usage for elderly or non-technical users.
+
+Continuous symptom logging enables early identification of abnormal patterns through triage logic, helping caregivers take timely action. When required, CareCircle guides healthcare escalation and supports structured communication by generating organized recovery summaries for doctors.
+
+By bridging patients, caregivers, and healthcare professionals, CareCircle acts as a digital recovery coordination layer that improves safety, accessibility, and decision-making during home recovery.
+
+Team **Lightning_MCqueen** -- [Jahanvi rajpurohit](https://github.com/Jhamko), [Tiyasa Paul](https://github.com/tiyasaurusrex), [Divyanshi Yadav](https://github.com/Divyanshi760)
+
+`2026-02-08`
+
+---
+
+### Vital-Link_portable-ICU
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/vitallinkportableicu-4098) [![Built at](https://img.shields.io/badge/Built%20at-HackTU%207.0-0052CC?style=flat-square)](https://hacktu7.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-5-FF6B6B?style=flat-square)
+
+> Smart Vital Signs Monitoring for ICU Patients
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Arduino IDE](https://img.shields.io/badge/Arduino%20IDE-333333?style=flat-square) ![C++](https://img.shields.io/badge/C++-333333?style=flat-square) ![ESP-32 WiFi Module](https://img.shields.io/badge/ESP--32%20WiFi%20Module-333333?style=flat-square)
+
+Team **ShieldX** -- [AKRITI AGARWAL](https://github.com/Akriti1331), [Mayank Saraswati](https://github.com/mayanksaraswati), [Kashish Dhawan](https://github.com/kashishdhawan73-cyber), [Kiran Goswami](https://github.com/kirangoswami200-sudo)
+
+`2026-02-08`
+
+---
+
 ### CliniQ
 [![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/cliniq-a5f5) [![Built at](https://img.shields.io/badge/Built%20at-MicroCraft%20--%20ArcNight-0052CC?style=flat-square)](https://microcarft-arcnight.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-4-FF6B6B?style=flat-square)
 
@@ -1558,6 +1772,355 @@ Team **Bad Boiss :)** -- [Sibhi S](https://github.com/SibhiSS), VRT KAARTHIK, [V
 Team **CodeCanvas** -- Likhith K, Manasvi Daga, Gayatri Desai, Deshik Jha
 
 `2026-03-17`
+
+---
+
+### Healify
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/healify-60d2) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://healify-omega.vercel.app/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=iwQBJpPyvNY) [![Built at](https://img.shields.io/badge/Built%20at-RECKON%207.0-0052CC?style=flat-square)](https://reckon-7.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-4-FF6B6B?style=flat-square)
+
+> Smart Healthcare Solution for Better Life
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![JWT](https://img.shields.io/badge/JWT-333333?style=flat-square) ![Express.js](https://img.shields.io/badge/Express.js-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Multer](https://img.shields.io/badge/Multer-333333?style=flat-square) ![OpenStreetMap](https://img.shields.io/badge/OpenStreetMap-333333?style=flat-square)
+
+**The problem it solves**
+
+# Healify – AI Powered Healthcare Assistant
+
+Healify is an AI-powered healthcare assistant designed to streamline the patient experience through intelligent automation and personalized care. Below is a comprehensive overview of the problem it addresses, its practical applications, and its core features.
+
+##Link Opening Disclamer:
+open the render backend link first then open the frontend link of vercel for better experience.
+---
+
+## **The Problem it Solves**
+
+Navigating the modern healthcare ecosystem is often characterized by fragmentation, complexity, and a lack of transparency. Healify is engineered to address several critical pain points:
+
+- **Diagnostic Uncertainty**: Many individuals struggle to articulate their symptoms or understand the severity of their condition, leading to either delayed treatment or unnecessary emergency room visits.
+
+- **Deciphering Prescriptions**: Handwritten or complex printed prescriptions are notoriously difficult for patients to read, which can lead to errors in medication timing, dosage, or frequency.
+
+- **Inefficient Appointment Management**: Traditional booking processes are often cumbersome, lacking real-time availability and localized search capabilities for specialists.
+
+- **Medicine Price Disparity**: Pharmaceutical costs vary significantly across different providers. Patients often lack a centralized tool to compare prices or identify affordable generic alternatives.
+
+- **Accessibility and Language Barriers**: Healthcare information is not always available in a user’s native language or in an accessible format for those with physical or cognitive challenges.
+
+---
+
+## **Practical Applications and Benefits**
+
+Healify makes existing healthcare tasks safer, faster, and more intuitive for patients and caregivers:
+
+- **Risk Assessment**: By performing preliminary symptom analysis, users can make more informed decisions about whether they need immediate medical attention or home care.
+
+- **Medication Adherence**: Automated dosage reminders generated directly from prescription scans significantly reduce the risk of missed doses or incorrect administration.
+
+- **Cost Efficiency**: Real-time price comparisons allow users to save on healthcare expenses by identifying the most cost-effective pharmacies and generic drug options.
+
+- **Seamless Logistics**: The integration of live mapping and instant booking reduces the administrative burden of scheduling medical visits, making the process as simple as a few clicks.
+
+- **Universal Accessibility**: The use of voice-enabled, multilingual interfaces ensures that healthcare support is available to a diverse population, regardless of their technological proficiency or primary language.
+
+---
+
+## **Core Features**
+
+The Healify application addresses these challenges through a suite of integrated, high-performance features:
+
+### **1. AI-Powered Symptom Analyzer**
+
+This feature allows users to input their health concerns via natural language text or voice. Leveraging advanced transcription services, the system analyzes the input to provide potential condition matches, assess severity (**Low to Critical**), and recommend appropriate next steps.
+
+---
+
+### **2. Smart Prescription Reader**
+
+Utilizing **Optical Character Recognition (OCR)** technology, Healify extracts medication data from uploaded images or scans of prescriptions. It automatically parses **dosages, frequencies, and durations** to generate a structured medication schedule with integrated browser notifications for reminders.
+
+---
+
+### **3. Dynamic Appointment Booking**
+
+The platform features a **dual-mode booking system**.
+
+- **Instant Booking**: For available general practitioners.
+- **Collaborative Scheduling**: To request specific specialists.
+
+This is supported by **live clinic mapping** to help users find the nearest healthcare facilities.
+
+---
+
+### **4. Medicine Price Comparison Engine**
+
+Through external API integrations, Healify provides **real-time pricing** for medications across various pharmacies. It also suggests **generic alternatives**, helping users reduce their pharmaceutical expenditures without compromising on quality.
+
+---
+
+### **5. Intelligent Site-Wide AI Agent**
+
+A persistent **accessibility assistant** helps users navigate the platform, fill out complex medical forms, and understand specific features. This agent is **context-aware** and provides help based on the user's current activity within the app.
+
+---
+
+### **6. Interactive Healthcare Chatbot**
+
+The **24/7 AI chatbot** serves as a primary point of contact for health-related queries, wellness advice, and mental health support. It maintains **conversational context** to provide more relevant and personalized guidance over time.
+
+**Challenges we ran into**
+
+# Technical Challenges and Solutions in Building Healify
+
+Building Healify required integrating modern web technologies with specialized AI services. Below are the key technical challenges encountered and the strategies used to solve them.
+
+---
+
+## **1. OCR and Prescription Data Parsing**
+
+**Challenge:**  
+Medical prescriptions often contain **handwritten text, poor lighting, or skewed images**, causing **Tesseract OCR** to generate fragmented or inaccurate outputs.
+
+**Solution:**  
+A secondary processing layer using **Groq AI (LLM)** was implemented. The raw OCR text is sent to the LLM with a **strict JSON schema prompt**, allowing the AI to intelligently extract **drug names, dosages, and frequencies** even from partially corrupted text. This **OCR + LLM hybrid pipeline** converts noisy data into structured medical information.
+
+---
+
+## **2. Live Geospatial Data and Rate Limiting**
+
+**Challenge:**  
+Integrating **Overpass API** for clinic search and **Nominatim** for geocoding introduced performance issues due to **strict rate limits and slow responses**, causing UI delays.
+
+**Solution:**  
+Implemented **debounced search and local caching** to reduce unnecessary API calls. Skeleton loaders and **React `useEffect` asynchronous fetching** ensure the interface remains responsive while clinic data loads.
+
+---
+
+## **3. Conversational Memory in Chatbot**
+
+**Challenge:**  
+Healthcare chatbots must remember previous messages, but sending the **entire conversation history** to the AI increases token usage and risks exceeding the model context window.
+
+**Solution:**  
+A **Sliding Window Context Manager** was developed. Older messages are **summarized**, while recent interactions remain detailed. This allows the chatbot to maintain **context and coherence** without increasing API costs.
+
+---
+
+## **4. Multilingual Voice Processing Latency**
+
+**Challenge:**  
+The Symptom Analyzer supports multiple Indian languages using **Sarvam AI**, but the **Record → Transcribe → Analyze → Translate** pipeline caused high latency.
+
+**Solution:**  
+The system was optimized using **parallel processing and optimistic UI updates**. Once recording ends, a loading state appears while transcription and analysis run simultaneously. Backend APIs were optimized to combine **STT and LLM analysis in streamed responses**, improving responsiveness.
+
+---
+
+## **5. Performance of Micro-animations**
+
+**Challenge:**  
+Premium UI animations risk causing **visual stuttering (jank)**, especially on lower-end devices.
+
+**Solution:**  
+Animations were moved to **CSS transitions and hardware-accelerated transforms (`translate3d`)**, reducing main thread workload. Animations are triggered only after **React confirms data loading**, ensuring smooth rendering.
+
+---
+
+## **6. Preventing AI Diagnostic Hallucinations**
+
+**Challenge:**  
+The Symptom Analyzer must provide useful insights without appearing to deliver **definitive medical diagnoses**, which could mislead users.
+
+**Solution:**  
+A **structured prompt hierarchy** forces the AI to use **probabilistic language** such as *“suggestive of”* or *“potential indicators for.”* Additionally, a **global disclaimer middleware** automatically attaches medical warnings to all analysis responses.
+
+---
+
+## **7. Multilingual Symptom Normalization**
+
+**Challenge:**  
+Users often describe symptoms using **regional phrases or colloquial language**, which may not translate directly into medical terminology.
+
+**Solution:**  
+A **Two-Stage Translation Pipeline** was implemented. First, **Sarvam AI performs transcription and literal translation**. Then a **Medical Context Translator** maps colloquial expressions to standardized clinical terms, ensuring consistent symptom analysis.
+
+---
+
+## **8. Severity Detection and Emergency Escalation**
+
+**Challenge:**  
+AI alone may underestimate the severity of life-threatening symptoms described calmly.
+
+**Solution:**  
+A **Keyword-Based Red Flag System** runs alongside the LLM analysis. If high-risk terms such as **chest pain, numbness, or breathing difficulty** appear, the system overrides lower severity predictions and escalates the case to **Critical**, triggering emergency recommendations.
+
+Team **Zero Code** -- [Rohan Debnath](https://github.com/rohandebnath1), [Arijeet07 Banerjee](https://github.com/ArijeeetBanerjee07), [Priya Kumari](https://github.com/Priyakumari0307), [Anindya Ganguly](https://github.com/anindya-19)
+
+`2026-03-14`
+
+---
+
+### Asclepius
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/asclepius-63b6) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ReservedSnow673/AsclepiusAI) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/3gMzA306G_8) [![Built at](https://img.shields.io/badge/Built%20at-Hack--N--Win%203.0-0052CC?style=flat-square)](https://hacknwin-3.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-4-FF6B6B?style=flat-square)
+
+> Temporal Clinical Intelligence Engine
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+Brain tumour detection requires repeated MRI scans over time but current AI tools scan each tool in isolation without a sense of the time that needs to be taken in account. 
+
+There is no system that combines longitudnal tracking, multimodal data, uncertainty quantification
+and federated privacy.
+
+This demands radiologists to manually compare scans and inferences to detect progression - slow and error prone. Asclepius is a longitudnal,  multimodal, uncertainty-aware brain tumour segmentation and clinical decision support system. A clinical intelligence engine.
+
+**Challenges we ran into**
+
+Building ASCLЕPIUS involved integrating several complex systems that normally exist in isolation. One of the biggest challenges was connecting advanced AI models with a temporal reasoning engine that could actually understand disease progression over time rather than just analyze a single MRI scan. Designing a pipeline that could process medical images, generate meaningful embeddings, update patient timelines, and then perform reasoning without slowing down the system required careful architectural decisions. Another challenge was handling heterogeneous medical data—imaging, clinical metadata, and temporal records—while keeping the system reliable and scalable. We also had to ensure that features like vector search for similar clinical cases and retrieval-augmented reasoning integrated smoothly with the core inference pipeline without breaking existing functionality. Finally, balancing performance with usability was difficult; the system needed to run complex AI workflows while still providing near real-time responses suitable for a clinical environment. These challenges pushed us to design a modular architecture where each component—from perception to reasoning—could operate independently but still contribute to a unified clinical intelligence pipeline.
+
+Team **deranked** -- [Swapneel Premchand](https://github.com/Sw4pplenrel), Shaurya Jain, Suchethan PH, Tanvir Singh Sandhu
+
+`2026-03-08`
+
+---
+
+### Smart Health
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/smart-health-b5a7) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/bappa8172/SmartHealth) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://drive.google.com/file/d/19beLpQ-8CzMw3CtkDgBXz3jNoCM7cvEN/view?usp=drive_link) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://vimeo.com/1172505132?share=copy&fl=sv&fe=ci) [![Built at](https://img.shields.io/badge/Built%20at-The%20XiBit-0052CC?style=flat-square)](https://the-xibit.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-4-FF6B6B?style=flat-square)
+
+> stay healthy while you work
+
+![Firebase](https://img.shields.io/badge/Firebase-333333?style=flat-square) ![Java](https://img.shields.io/badge/Java-333333?style=flat-square) ![Android Studio](https://img.shields.io/badge/Android%20Studio-333333?style=flat-square) ![Kotlin](https://img.shields.io/badge/Kotlin-333333?style=flat-square)
+
+**The problem it solves**
+
+Imagine an app that protects your health while you work, without reducing your productivity. That’s exactly what "SMART HEALTH"  does.
+
+Many students, developers, and office workers spend hours in front of screens without taking breaks. This leads to eye strain, fatigue, poor posture, and reduced focus.
+SMART HEALTH solves this by using a smart work timer that reminds users to take short micro-breaks such as stretching, breathing exercises,Spinal Twist,Eye Relief or drinking water.
+
+What makes our solution different is ,the gamification system. Users earn points and maintain wellness streaks, which motivates them to build healthy work habits.
+
+**Challenges we ran into**
+
+1. The "Background Timer" Hurdle
+The Challenge: One of our biggest technical hurdles was ensuring the meditation and stretch timers continued to run accurately when the user navigated away from the app or locked their screen. Initially, the Android lifecycle would "freeze" our countdown, leading to inaccurate session tracking and missed wellness nudges.
+
+The Solution: We overcame this by implementing a Foreground Service combined with a Notification Manager. By moving the timer logic out of the UI layer and into a persistent service, we were able to provide real-time updates via a sticky notification. This ensured that even if the user was answering an email, their "Deep Breathing" session remained active and accurate.
+
+2. UI Consistency Across Activities
+The Challenge: Maintaining a seamless, calming aesthetic (mint-green gradients and soft UI shadows) across multiple complex screens like the "Smart Health Dashboard" and various "Pose" activities was difficult to manage with hard-coded styles.
+
+The Solution: We moved toward a Atomic Design approach. We created a reusable "Wellness Card" component and a global "Theme Engine" for our gradients and typography. This allowed us to quickly generate new activity types (like the "Single-Leg Alertness" pose) while ensuring every button, icon, and progress ring looked identical across the entire platform.
+
+3. Gamification Logic Syncing
+The Challenge: Preventing "point-farming" (where a user could spam the "Log Water" button to inflate their score) while still making the app feel responsive.
+
+The Solution: We implemented a Rate-Limiting Logic on the backend of our progress tracker. We set "Cooldown Windows" for specific activities—meaning points are only awarded if the actions occur at realistic intervals—balancing user motivation with data integrity.
+
+**Health & WellBeing**
+
+Smart Health is a wellness platform designed to combat "sitting fatigue" and office burnout by integrating healthy micro-habits into the workday.
+
+Our project fits the Health & Wellbeing track by providing:
+
+Preventative Care: Automated "wellness nudges" for stretching, hydration, and deep breathing based on real-time work timers.
+
+Gamified Engagement: A points-based reward system and daily streaks that motivate users to maintain physical health while working.
+
+Mental Clarity: Focused meditation modules designed to reduce stress and improve cognitive performance during high-pressure tasks.
+
+By transforming mandatory breaks into an interactive, rewarding experience, Smart Health empowers users to maintain their physical and mental vitality without sacrificing productivity.
+
+Team **HackedSystem** -- [ROHIT MUKHERJEE](https://github.com/Rohit-student584), [susmita Das](https://github.com/monaidas01-cell), [Bappa Mandal](https://github.com/bappa8172), [Protyay Kolay](https://github.com/protyaykolay)
+
+`2026-03-11`
+
+---
+
+### Lotted Care
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/lotted-care-bd63) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/arkaskr/lotted-care) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://drive.google.com/file/d/1lUmvhlD3UChJ4HuS-8KgG2FriyoyGo8B/view?usp=drivesdk) [![Built at](https://img.shields.io/badge/Built%20at-The%20XiBit-0052CC?style=flat-square)](https://the-xibit.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-4-FF6B6B?style=flat-square)
+
+> Your Unified Health Management Companion
+
+![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Dart](https://img.shields.io/badge/Dart-333333?style=flat-square) ![REST API](https://img.shields.io/badge/REST%20API-333333?style=flat-square) ![Flutter](https://img.shields.io/badge/Flutter-333333?style=flat-square) ![GitHub](https://img.shields.io/badge/GitHub-333333?style=flat-square) ![Express.js](https://img.shields.io/badge/Express.js-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square)
+
+**The problem it solves**
+
+Health Tracking: Helps users keep track of their overall health and daily wellness activities, allowing them to stay aware of their physical condition and maintain a healthier lifestyle.
+
+Gamified Fitness Engagement: Encourages users to stay active through a ranking system, daily streaks, and point-based rewards, making daily exercise more engaging and motivating.
+
+AI-Based Symptom Identification: Allows users to easily input their symptoms and receive an AI-based analysis to understand possible health issues.
+
+Guidance and Next Steps: Provides helpful suggestions, solutions, and recommendations on what actions users should take based on their symptoms.
+
+Nearby Doctor Suggestions: Helps users find nearby doctors and medical facilities, making it easier to seek professional medical help when needed.
+
+User-Friendly Healthcare Access: Simplifies healthcare guidance so that anyone can quickly identify symptoms and take necessary steps for better health management.
+
+**AI / ML**
+
+The application integrates advanced AI-powered symptom analysis, allowing users to input their symptoms and receive a preliminary assessment of possible health issues. Based on the analysis, the system provides helpful guidance, including recommended precautions, basic remedies, and suggested next steps. In addition, Lotted Care enhances accessibility to healthcare by recommending nearby doctors and medical facilities, enabling users to quickly find professional help when needed. By combining AI-driven insights with location-based healthcare support, Lotted Care aims to make early health guidance more accessible, convenient, and user-friendly.
+
+Team **DETTOL (Kills 99.9% bugs)** -- [Arka Sarkar](https://github.com/arkaskr), [Soumyadwip Das](https://github.com/SoumyadiP0004), [Shravan Thakur](https://github.com/shravanthakurgit), [Kakoli Halder](https://github.com/kakolihalder)
+
+`2026-03-11`
+
+---
+
+### HealthDesk
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/healthdesk-ee93) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Hellf0rg0d/breaking-bug-hacktu7.0) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://drive.google.com/file/d/1AefuuZpAnrjUrnAottL8W7BD-SCdTaCh/view?usp=drivesdk) [![Built at](https://img.shields.io/badge/Built%20at-HackTU%207.0-0052CC?style=flat-square)](https://hacktu7.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-4-FF6B6B?style=flat-square)
+
+> An AI First Healthcare Platform
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![scikit-learn](https://img.shields.io/badge/scikit--learn-333333?style=flat-square) ![Java](https://img.shields.io/badge/Java-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Flutter](https://img.shields.io/badge/Flutter-333333?style=flat-square) ![Spring](https://img.shields.io/badge/Spring-333333?style=flat-square)
+
+**The problem it solves**
+
+In many rural and underserved areas, healthcare doesn’t fail because doctors don’t exist it fails because systems don’t work the way real life works.
+
+People often live far from hospitals. Internet connectivity is unstable. Medical reports are confusing. And during emergencies, digital systems depend on strong, real-time connections that simply aren’t available.
+
+Most telemedicine platforms are built assuming stable networks and digitally comfortable users. But in rural areas, many patients are elderly, first-time smartphone users, or not confident with complex apps. When technology becomes complicated, people avoid using it even when they need help.
+
+This leads to delays in treatment, miscommunication, lost medical records, and hesitation during critical moments.
+
+The problem is not just access to doctors.
+
+The problem is continuity of care in low-resource, low-connectivity environments.
+
+Healthcare today is not designed for infrastructure constraints — and that gap costs time, trust, and sometimes lives.
+
+**Challenges we ran into**
+
+1. Economic Constraints
+As students, we had limited financial resources for infrastructure and premium healthcare APIs. We had to prioritize essential features, explore open-source tools, and design the system to be scalable without heavy upfront costs.
+
+2. Building a Reliable SOS System
+Designing an emergency escalation feature for low-connectivity environments was challenging. We had to ensure it works safely, avoids false triggers, and does not depend entirely on real-time internet availability.
+
+3. Securing Real-Time Communication
+Handling WebSockets for live doctor availability required careful attention to authentication, encrypted communication, and role-based access control to prevent unauthorized access and protect patient data.
+
+4. Keeping the System Simple
+Since we are targeting rural and elderly users, simplifying the interface without reducing functionality was a continuous design challenge.
+
+**Google Gemini**
+
+Gemini powers the RAG chatbot to reason over retrieved medical documents and generate multilingual answers.
+
+Gemini classifies SOS call responses into critical or non-critical situations.
+
+Gemini generates calm, non-diagnostic voice guidance during SOS calls.
+
+Gemini summarizes SOS conversations for doctors and hospital admins.
+
+Gemini handles translation and language normalization across chat and emergency flows.
+
+Team **Breaking Bug** -- [Kartik NHM](https://github.com/Hellf0rg0d), [Shrihari Deshapande](https://github.com/shrihari-des18), [Sudhanva Kulkarni](https://github.com/Sudhanva-Kulkarni), [Amogh Kini](https://github.com/Akenzz), [Sarosh Kumar](https://github.com/Sarosh6-ops)
+
+`2026-02-08`
 
 ---
 
@@ -1956,6 +2519,395 @@ Finally, integrating everything into a working full-stack system within limited 
 Team **curaAI** -- [Kashishh Shrivastava](https://github.com/Kashishhh24), Roshny Nachammai, [Pratistha Acharya](https://github.com/pratistha-a)
 
 `2026-03-17`
+
+---
+
+### Wellness Nudge
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/health-pilot-ac46) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://wellnessnudge.vercel.app/) [![Built at](https://img.shields.io/badge/Built%20at-The%20XiBit-0052CC?style=flat-square)](https://the-xibit.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-3-FF6B6B?style=flat-square)
+
+> Your Smart Guide to Better Health
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+1️⃣ Ignoring Health During Work
+
+Students and professionals often work long hours without taking breaks, leading to eye strain, fatigue, dehydration, and posture problems. There is no simple system that reminds users to take healthy micro-breaks.
+
+2️⃣ Confusion About Which Doctor to Visit
+
+When people experience symptoms like headache, stomach pain, or skin issues, they don’t know which medical specialist to consult, which causes confusion and delays in treatment.
+
+3️⃣ Difficulty Finding Nearby Affordable Clinics
+
+Many people struggle to find nearby hospitals or clinics that are affordable, especially quickly during health concerns.
+
+4️⃣ Risk of Wrong Self-Diagnosis
+
+People often rely on random internet searches for medical advice, which can lead to misinformation and wrong decisions about their health.
+
+5️⃣ Lack of Preventive Healthcare Tools
+
+Most health solutions focus on treatment after illness, but very few tools encourage preventive habits like hydration, stretching, or breathing breaks.
+
+**Challenges we ran into**
+
+1️⃣ Mapping Symptoms to the Right Specialist
+
+One challenge was correctly mapping user symptoms to the appropriate medical specialist. Many symptoms can relate to multiple conditions, so creating accurate mappings required research and careful logic.
+
+2️⃣ Integrating Map and Location Services
+
+Showing nearby clinics or hospitals on a map required integrating map APIs and handling location data, which took time to configure properly.
+
+3️⃣ Designing a Simple and User-Friendly UI
+
+Since the app targets general users, we needed to ensure the interface was easy to understand, clean, and accessible while still showing important health information.
+
+4️⃣ Implementing the Break Reminder System
+
+Creating a timer-based wellness reminder system that works smoothly without disturbing the user’s workflow was a technical challenge.
+
+5️⃣ Time Constraints During Development
+
+Because the project was built during a limited-time hackathon, managing time while implementing multiple features like AI chatbot, symptom mapping, and wellness reminders was challenging.
+
+**AI / ML**
+
+we integrate an AI chatbot inside the website using open ai API key
+
+**Web3**
+
+We want to make the project in web  technologies for better user experience
+
+Team **Byte lab** -- [Sayan Modak](https://github.com/SayanModakDev), [Subhasis Dhara](https://github.com/Subhasis495), [Arghadeep Ghosh](https://github.com/Arghadeep64), [Sanat Manna](https://github.com/SanatManna)
+
+`2026-03-11`
+
+---
+
+### Fit Nova
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/fit-nova-5961) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/MSubhajitIND/Fit-Nova/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/CFjCN_eC7N4) [![Built at](https://img.shields.io/badge/Built%20at-The%20XiBit-0052CC?style=flat-square)](https://the-xibit.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-3-FF6B6B?style=flat-square)
+
+> Your Health And Fitness Companion
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Google Cloud Vision API](https://img.shields.io/badge/Google%20Cloud%20Vision%20API-333333?style=flat-square) ![Google Cloud Platform (GCP)](https://img.shields.io/badge/Google%20Cloud%20Platform%20(GCP)-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+Fit Nova is an AI-powered personal health and fitness platform designed to help users manage nutrition, workouts, hydration, daily wellness, and progress tracking in one place. Instead of being only a calorie tracker or only a workout app, it connects multiple parts of a user’s health routine into a single personalized system.
+
+Features
+The app starts with a user profile that captures age, gender, height, weight, goal, and activity level. Using this, it calculates BMI, daily calorie requirements, water target, macro targets, and step targets. This gives every user a personalized baseline instead of generic recommendations.
+
+The dashboard is designed around daily action. It shows calorie target, water target, protein/carbs/fat targets, step goal, and achievement status, so users can immediately understand how close they are to their daily health goals. It also keeps a history of meals and logs to make progress visible, not abstract.
+
+One of the strongest features is the AI food analysis flow. A user can search for a food item by text or upload an image. The system analyzes nutrition data such as calories, protein, carbs, fat, and health score, then gives advice based on the user’s profile and goals. After analysis, the meal can be saved directly into the day’s log, which immediately updates the dashboard targets and achievement progress.
+
+The app also contains an admin-managed meal library. Admins upload meals with nutrition values, photos, and videos. On the user side, meals are grouped and displayed in a clean content-driven format, so users can browse real meal ideas rather than only raw nutrition numbers. This makes the platform much more practical for day-to-day use.
+
+The exercise side works similarly. Admins upload exercise tutorials with muscle groups, difficulty level, equipment, and videos. Users browse exercises by muscle group, and when they select a category, they can view the exercises and play the tutorial videos directly. This turns the app into both a nutrition assistant and a workout guide.
+
+There is also a reminder system that lets users create reminders for medicine, water, skincare, and workouts. This extends the app beyond fitness into daily wellness management, which makes it feel closer to a personal health companion than a simple tracker.
+
+Uniqueness
+The uniqueness of Fit Nova is that it combines AI analysis, structured health tracking, lifestyle reminders, admin-curated content, and media-based guidance into one system. Many apps focus on only one problem: calorie tracking, workouts, or reminders. Fit Nova unifies all of them.
+
+Another key unique point is the admin-controlled intelligence model. Instead of relying only on AI-generated content, the platform uses AI for dynamic nutrition analysis and personalization, while keeping meals and exercises curated by admins. This is a stronger real-world product design because it balances automation with content quality and consistency.
+
+The app is also unique in how it makes tracking actionable. Users do not just see calories; they see target achievement. They do not just see exercises; they see guided video-based categories. They do not just log food; they can analyze it first and save it instantly. That creates a smoother, more engaging user journey.
+
+Why It Is Helpful
+This project is helpful because health management is usually fragmented. People use one app for workouts, one for calorie tracking, one for hydration reminders, and often nothing for skincare or medicine reminders. Fit Nova reduces that fragmentation and gives users one dashboard for multiple aspects of wellness.
+
+It is especially useful for people with specific goals like fat loss, muscle gain, or maintenance because the system personalizes targets instead of showing the same numbers to everyone. The AI food analysis also helps users make better decisions about what they eat, which is one of the hardest parts of health management.
+
+The platform is also practical because of its admin CMS model. Admins can continuously improve the meal library, workout content, and tutorials, which means users get a growing, structured knowledge base rather than a one-time static app experience.
+
+Technical
+From a technical perspective, Fit Nova is built like a production-style full-stack application.
+
+The backend uses Node.js with Express and TypeScript, providing REST APIs for authentication, profile management, food analysis, reminders, logs, progress, meals, exercises, and admin operations.
+
+The database layer uses Prisma ORM with MySQL, connected to Google Cloud SQL. This stores user profiles, logs, reminders, meals, exercises, workout data, payments, and admin settings in a structured, scalable way.
+
+The frontend consists of two React applications:
+
+a user-facing web app for health tracking and interaction
+an admin dashboard for managing content, branding, settings, meals, exercises, and analytics
+AI functionality is integrated through Gemini, which is used for food analysis from images
+
+**Challenges we ran into**
+
+One major challenge we ran into was making the full system work reliably across multiple layers at once: admin panel, user app, backend APIs, AI integration, media handling, and cloud database connectivity. Because this was built in a hackathon-style timeline, time pressure made integration bugs much harder. Instead of debugging one isolated feature, we often had to trace issues across frontend, backend, and cloud infrastructure at the same time.
+
+A specific issue was the backend database connection after moving from local setup to Google Cloud SQL. Admin settings, meal uploads, and user data updates were failing because the MySQL instance was not reachable from the backend during development. Under limited time, this became a critical blocker because it affected almost every feature. We solved it by properly configuring the Cloud SQL MySQL instance, enabling public IP access for development, authorizing the active network, verifying credentials, and reconnecting Prisma to the cloud database. Once that was fixed, the schema synced correctly and the system became stable.
+
+Another challenge was AI integration with Gemini. At first, the API key setup looked correct, but requests were still failing because of quota and project configuration issues. This cost us time because the problem was not in the code itself, but in the API/project setup. We worked around it by testing the key directly, switching to the official Google GenAI SDK, and then rebuilding the food analysis flow more cleanly for both text-based food input and image-based food analysis. That helped us move from trial-and-error integration to a more reliable implementation.
+
+We also ran into a frontend issue where the user dashboard would render for a second and then turn into a white screen on refresh. This was especially frustrating because it looked random at first. The root cause was a mismatch between the expected frontend response shape and the backend progress data that had just been extended. We fixed it by making the frontend defensive with safe fallbacks, so the page would keep rendering even if some progress fields were missing or delayed.
+
+Another practical hurdle came from media playback. Admins were adding YouTube links for exercises and meals, but standard HTML video players cannot play YouTube URLs directly. This created a broken experience in the user app. We solved it by detecting YouTube links and embedding them properly, while still using the native video player for uploaded media files.
+
+Overall, the biggest challenge was managing time while integrating many moving parts into one polished product. The way we overcame it was by prioritizing end-to-end functionality first, then debugging layer by layer, and finally improving the user experience after the system became stable. That process helped us turn a complex multi-module build into a working AI-powered health platform within a constrained development window.
+
+**AI / ML**
+
+Used Gemini 3.5 and Vision API engine to calculate calories portion protine etcs
+
+**Sustainability**
+
+`Fit Nova` supports sustainability in both a social and long-term digital sense.
+
+From a social sustainability perspective, the project promotes healthier lifestyles through better nutrition awareness, hydration tracking, activity monitoring, and preventive daily care. By helping users understand calorie intake, portion size, macro balance, water consumption, and exercise consistency, the app encourages long-term healthy habits instead of short-term fixes. Features like reminders for medicine, hydration, skincare, and workouts make wellness more manageable and sustainable in daily life.
+
+The platform is also sustainable because it is built around personalization. Generic health advice often fails because it does not adapt to the user. `Fit Nova` calculates goals based on age, weight, height, activity level, and fitness objective, which makes recommendations more realistic and easier to follow over time. This increases the likelihood that users stay engaged and maintain healthier routines.
+
+From a content sustainability perspective, the admin-controlled architecture is important. Meals, exercises, workout media, and motivational content are managed from the admin dashboard, so the platform can keep evolving without rebuilding the app. This makes the product maintainable and scalable over time, which is critical for sustainability in a real-world digital health product.
+
+From a technical sustainability perspective, the project uses cloud-based architecture with structured backend APIs, database models, and reusable content systems. Because it is modular, new features like advanced analytics, wearable integration, subscription plans, and multilingual content can be added later without changing the core system. That makes the platform sustainable not only for a hackathon prototype, but also for future product growth.
+
+In short, the sustainability of `Fit Nova` comes from helping users build healthy routines that last, while also using a scalable and maintainable technical design that supports long-term growth and impact.
+
+**Open Innovation**
+
+This is a Health and Fitness Management Platform that helps users to maintain fat loss, live healthy, and Eat Healthy.
+
+Team **Enigma Coders** -- [Subhajit Mondal](https://github.com/MSubhajitIND), [Udita Choudhury](https://github.com/uditachoudhury), [Abir Mondal](https://github.com/MondalAbir), [Siddhartha Chowdhury](https://github.com/Siddhartha0623)
+
+`2026-03-11`
+
+---
+
+### Anebilin
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/anebilin-9a98) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/SayanGhanty09/Doubbleslash) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/iZacFklUb-Y) [![Built at](https://img.shields.io/badge/Built%20at-DoubleSlash%204.0-0052CC?style=flat-square)](https://doubleslash4.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-3-FF6B6B?style=flat-square)
+
+> Life is race, Health is the car
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Dsp](https://img.shields.io/badge/Dsp-333333?style=flat-square) ![Spectroscopy](https://img.shields.io/badge/Spectroscopy-333333?style=flat-square) ![PPG Analysis](https://img.shields.io/badge/PPG%20Analysis-333333?style=flat-square)
+
+**The problem it solves**
+
+To understand what's really going on inside your bloodstream, the current system requires a blood sacrifice. We live in the age of AI, but our first line of treatment in diagnosing Anemia (Hemoglobin) and Jaundice (Bilirubin) is 19th-century technology: the needle.
+The Problem: The Status Quo is Broken, Painful, and Biased
+1. The Needle Toll: Invasive Diagnostics
+To test for anemia or liver problems, you need to endure painful pokes, biohazardous waste, and 24-48 hour delays.
+2. The Smartwatch Illusion: Tech Bias
+Smartwatches promise to monitor health using a "sophisticated" 2-color LED system with only Red and Green lights. They are nothing more than "dumb" pedometers that "go blind" on dark skin because melanin absorbs their weak light signals. They don't measure health; they guess using general AI models.
+3. The Rural Blindspot
+In developing nations like India, more than 50% of women suffer from anemia. Current screening requires labs and phlebotomists—services that a Rural Primary Healthcare Centre is unlikely to have.
+The Pain Points: Who is Suffering?
+ * The Expectant Mother: Having to travel 15 kilometers to a health clinic just to experience a painful needle prick to determine if she is dangerously iron deficient.
+ * The Newborn Baby: Having to go through agonizing "heel pricks" to determine if she is suffering from Neonatal Jaundice because hospital equipment such as Transcutaneous Bilirubinometers are too expensive, costing more than $5,000.
+ * The Elderly Patient: Having to strap on uncomfortable, squeezing "pneumatic cuffs" just to determine blood pressure trends.
+ * People of Color: Buying a $400 smartwatch only to discover that SpO2 and Heart Rate monitoring are mathematically biased against their skin tones.
+The Anebilin Solution: Diagnostics without the Puncture Wound
+ * Anebilin replaces the needle with light:
+Rather than drawing blood into a laboratory, we bring the laboratory to the blood.
+Using a 14-channel medical-grade spectrometer, Anebilin performs a real-time optical biopsy.
+ * We do not guess; we calculate:
+Anebilin precisely calculates the exact AC Pulse from a DC Baseline.
+ * Melanin-Proof:
+Anebilin dynamically calculates a "Skin Tone Index" (Blue/NIR Ratio) to auto-calibrate LED power levels to ensure clinical accuracy regardless of your skin tone - pale, tanned, or heavily pigmented.
+
+In the time it takes to tie a tourniquet, Anebilin performs a screen for Hemoglobin, Bilirubin, Heart Rate Variability, and Cuffless Blood Pressure.
+
+**Challenges we ran into**
+
+The main challenge was DSP and Custom driver implementation. The readily available drivers for our spectral sensor were slow and not versatile enough. We had to check out the manufacturer SDK and derive our own driver with custom SMUX to create fast data capture possible.
+
+In DSP there were a lot of variables to change and test out to see which ones give the best outcome. Initially the waveform captured didn't clearly show peaks and troughs so we had to search up information about how professional medical grade PPG is done and generated our solutions based on that.
+
+Third problem was solving on how we can auto correct for skin tone and tissue density because that's what separates a hobby project from a good one. We read many paper that suggested using RoR methods and thus we solved that final piece of puzzle too.
+
+**Internet of Things(IoT)**
+
+![image](https://assets.devfolio.co/content/86e42fc3f6044dcb9dce5797bd3ce750/9d189cc5-a5c7-4855-ac9f-4fecb9014217.jpeg)
+
+Our project not only aims to give blood reports based on non-invasive scanning , but also close the bridge between the survey data and govt officials. As of now, ASHA worker go to villages, use needles to take blood samples, labs process that data which take 2-3 days, and the final details are written in pen and paper, which travels a time of 3 months to reach the govt officials who then act based on it. Our device can scan and provide reports instantly whilst uploading reports to the govt cloud in real-time. For example if jaundice/anemia breakout has happened in a village and we compare the scenario of Traditional vs Our Device, its certain that our device will perform faster and make the govt act faster towards the issue. After all its a digital world and everything should be interconnected and fast !
+
+Team **Syntax_Error_404** -- [Rupam Betal](https://github.com/betalrupam), [Ankur Kumar](https://github.com/ankurlearner1), [Saaraswata Roy](https://github.com/saaraswata), [Sayan Ghanty](https://github.com/SayanGhanty09)
+
+`2026-03-08`
+
+---
+
+### MediPal
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/medipal-f486) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/falkeetsingh/HACKTU-MediPal) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://hacktu-medipal.vercel.app/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/LsV3u4NfoP4) [![Built at](https://img.shields.io/badge/Built%20at-HackTU%207.0-0052CC?style=flat-square)](https://hacktu7.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-3-FF6B6B?style=flat-square)
+
+> Smart Medical Compliance and Recovery Partner
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+Problem MediPal Solves
+
+1. Doctors cannot verify whether patients actually follow prescribed lifestyle changes.
+2. Patients often misreport or overestimate their exercise and recovery efforts.
+3. Lack of objective data leads to wrong medical decisions.
+4. Poor compliance worsens preventable conditions like diabetes and hypertension.
+
+Results in unnecessary long-term medication and higher healthcare costs.
+No structured system exists to track recovery and rehabilitation at home.
+
+**Challenges we ran into**
+
+Challenge: Ensuring user accountability in remote sessions without the high latency and privacy overhead of continuous video streaming or complex biometric AI.
+
+Solution: Implemented a Randomized Keyframe Verification system. The application captures four snapshots at unpredictable intervals during the exercise. These frames are pushed to a clinician’s dashboard for asynchronous "spot-check" authentication. This ensures the correct patient is performing the movements while keeping the architecture lightweight and privacy-conscious.
+
+Team **Sili-Kern Valley** -- [Navjyot Kaur](https://github.com/NavjyotKaur1510), [FALKEET SINGH](https://github.com/falkeetsingh), [Angaddeep Singh](https://github.com/AngaddeepSingh3108), [Gurprajas Kaur](https://github.com/prajas06), [Gurpratit Kaur  Saluja](https://github.com/gurpratit24)
+
+`2026-02-08`
+
+---
+
+### HealthIQure
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/healthiqure-54df) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/priyam818/payload26-hackathon-project) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://www.healthiqure.xyz) [![Built at](https://img.shields.io/badge/Built%20at-PayLoad'26-0052CC?style=flat-square)](https://pay-load.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-3-FF6B6B?style=flat-square)
+
+> Healthier choices, Lower premiums, Better life
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![pyTesseract](https://img.shields.io/badge/pyTesseract-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![NoSQL](https://img.shields.io/badge/NoSQL-333333?style=flat-square) ![FastAPI](https://img.shields.io/badge/FastAPI-333333?style=flat-square)
+
+**The problem it solves**
+
+In India, health insurance remains expensive, complex, and inequitable, particularly for middle-class families. Most insurance providers determine premiums primarily based on age and past medical history, without adequately considering an individual’s current lifestyle or efforts to maintain good health.
+
+As a result, several critical challenges exist in the current system:
+
+**High Premiums for Middle-Class Families**
+Many middle-income households struggle to afford increasing annual premiums, even when they actively follow healthy habits.
+
+**Lack of Incentives for Healthy Behavior**
+Individuals who exercise regularly, maintain balanced diets, and attend routine health checkups receive no financial benefits. This limits motivation for long-term health improvement.
+
+**Late Detection of Health Conditions**
+Existing policies do not emphasize preventive care. Consequently, chronic conditions such as diabetes, hypertension, and cardiac issues are often diagnosed at advanced stages.
+
+**Risk of Sudden Premium Increases**
+Policyholders face uncertainty due to the possibility of sharp premium hikes following unfavorable medical reports.
+
+**Low Test Compliance and Awareness**
+High costs, fear, and lack of awareness lead many users to avoid regular medical tests, increasing long-term health risks.
+
+**Limited Access to Reliable Policy and Health Information**  
+Many users find it difficult to understand insurance policies, recent updates, and health guidelines. General AI tools and online sources often provide outdated, incomplete, or inaccurate information, leading to confusion and poor decision-making.
+
+**Financial Burden During Medical Emergencies**
+Limited access to affordable insurance forces families to rely on loans or savings during health crises, causing long-term financial strain.
+
+***How Our Solution Helps***
+
+Our Health Score–Based Insurance System addresses these challenges through a preventive, transparent, and reward-driven approach.
+
+The system:
+
+1. Makes insurance more affordable for health-conscious individuals
+2. Rewards consistent healthy behavior with premium discounts
+3. Provides free or subsidized regular health checkups
+4. Enables early detection of medical risks
+5. Ensures gradual and predictable premium adjustments
+6. Maintains full transparency in pricing mechanisms
+7. Promotes long-term preventive healthcare
+8. Provides accurate and up-to-date medical and policy guidance through a specialized RAG-based AI system
+
+By linking insurance premiums to continuous health improvement rather than past illness alone, our solution creates a fair, predictable, and sustainable insurance model.
+
+This approach empowers Indian families to take control of their health while ensuring financial security and long-term affordability.
+
+**Challenges we ran into**
+
+Challenges We Ran Into While developing this project:
+
+We faced several technical and practical challenges related to designing a system that is both attractive to users and sustainable for insurers.
+
+**1. Designing Offers That Users Truly Value**
+One major challenge was deciding what kind of rewards and discounts would genuinely motivate people to maintain healthy habits. Simple discounts were ineffective, while complex benefit structures confused users.
+
+***How We Solved It:***
+We designed a balanced reward system that includes:
+
+- Gradual premium discounts
+- Free or subsidized health checkups
+- Benefits for consistent health monitoring
+
+This made the system easy to understand and financially sustainable.
+
+**2. Balancing User Benefits and Insurer Sustainability**
+Providing attractive incentives without affecting insurer profitability required careful planning.
+
+***How We Solved It:***
+We introduced:
+
+- Capped monthly and quarterly premium changes
+- Maximum discount and loading limits
+- Age-based risk weighting
+
+This ensured fairness and long-term stability.
+
+**3. Encouraging Regular Health Checkups**
+Many users hesitate to undergo frequent tests due to cost, fear, or inconvenience, leading to low participation.
+
+***How We Solved It:***
+We bundled essential tests with insurance plans and added reminders and reward points to encourage regular participation.
+
+**4. Preventing Misuse and System Manipulation**
+Some users attempted to avoid unfavorable results or make short-term lifestyle changes before testing.
+
+***How We Solved It:***
+We implemented:
+
+- Approved laboratory networks
+- Penalties for missed tests
+- Trend-based scoring instead of single reports
+
+This improved system reliability and fairness.
+
+**5. Integrating Medical Data Securely**
+Handling sensitive medical data required strict privacy and accuracy standards.
+
+***How We Solved It:***
+We implemented secure authentication, encrypted storage, and standardized data formats.
+
+**6. Technical Challenges in AI and RAG Integration**
+Integrating Retrieval-Augmented Generation (RAG) for personalized health guidance created issues such as slow responses, inaccurate document retrieval, and scalability limitations.
+
+***How We Solved It:***
+We optimized data indexing, improved embedding quality, and applied relevance filtering to enhance accuracy and performance.
+
+**7. Large-Scale Deployment and System Performance**
+Deploying the platform for large user volumes introduced challenges related to server load, latency, and data synchronization.
+
+***How We Solved It:***
+We adopted cloud-based infrastructure, load balancing, caching, and modular architecture to ensure scalability and reliability.
+
+**8. Motivating Long-Term Behavior Change**
+Sustaining user motivation over long periods was difficult after initial engagement.
+
+**How We Solved It:**
+We introduced milestone rewards, consistency bonuses, progress tracking, and personalized health insights.
+
+**Open Innovation**
+
+Our project aligns with Track 6: Open Innovation by combining **Technology**, **Finance**, and **Healthcare** to create a data-driven, fair, and transparent health insurance system.
+
+**Technology Integration:**
+We use AI-based scoring, automated data processing, and cloud deployment to convert medical test data into a dynamic Health Score and premium adjustment system. 
+
+**Finance + Healthcare Innovation:**
+The system links regular health check-ups with insurance pricing, ensuring that premiums reflect real health trends rather than static past risk. This enables better risk management for insurers and predictable low costs for users. 
+
+**Practical & Scalable Impact:**
+By introducing capped, gradual premium changes, anti-gaming safeguards, and age-based weighting, the solution supports sustainable insurance models while encouraging preventive healthcare. 
+
+**Open Innovation Value:**
+The platform helps people to manage healthcare costs better by rewarding healthy habits with lower premiums, ensuring affordable insurance and long-term financial security.
+
+Team **Model Mavericks** -- [Priyam Das](https://github.com/priyam818), [Puneet Ranjan](https://github.com/Puneet), [Prithvi Sharma](https://github.com/prithvi)
+
+`2026-02-02`
 
 ---
 
@@ -2639,6 +3591,360 @@ AERO-H uses Gemini as the core intelligence layer of the system. Gemini analyzes
 Team **Code for Bugs** -- [Anilove k](https://github.com/anilove-23), [Shreyans Jain](https://github.com/Shreyans18-art), [Tanisha Chandok](https://github.com/tchandok30)
 
 `2026-03-15`
+
+---
+
+### PharmaConnect
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/pharmaconnect-9e0d) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/skshmm11/PharmaConnect) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/uuP5HaO27aE) [![Built at](https://img.shields.io/badge/Built%20at-Hack--N--Win%203.0-0052CC?style=flat-square)](https://hacknwin-3.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> Search. Reserve. Pickup
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square)
+
+**The problem it solves**
+
+Every day, thousands of patients visit multiple pharmacies searching for a specific medicine, often returning empty-handed. There is no centralized platform that shows real-time stock availability across local pharmacies. This results in wasted time, delayed treatment, and frustration — especially for elderly patients and medical emergencies.
+
+**Challenges we ran into**
+
+## 🚧 Challenges I Ran Into
+
+### 1. Python Environment Issues
+Setting up Flask without a virtual environment was tricky — pip kept 
+installing packages to a different Python than the one running the app. 
+Solved by using `python -m pip install` to force the correct interpreter.
+
+### 2. MongoDB Connection
+MongoDB was not running as a service on Windows, causing connection 
+refused errors. Had to install MongoDB manually and start it as an 
+Administrator using `net start MongoDB`.
+
+### 3. Real-Time Location Access
+Browser GPS only works on localhost or HTTPS — not on plain file:// paths. 
+Had to run the frontend through Live Server to get accurate GPS coordinates.
+
+### 4. Role-Based Access Control
+Differentiating between regular users, doctors, and pharmacy owners using 
+the same login page required careful JWT payload design and route-level 
+decorators in Flask.
+
+### 5. CORS Between Frontend and Backend
+The frontend (port 5500) and Flask backend (port 5000) are on different 
+ports, which browsers block by default. Fixed using flask-cors with 
+specific origin whitelisting.
+
+### 6. Expiry & Stock Management
+Building a system that automatically flags expired medicines, warns about 
+medicines expiring within 90 days, and tracks low stock in real time 
+required careful MongoDB querying and date comparison logic.
+
+### 7. Barcode Integration
+Real barcode scanning requires camera hardware access via browser APIs. 
+For the demo, a simulated barcode lookup system was built using a mock 
+database until real hardware is available.
+
+Team **Tech titans** -- [tavishi sharma](https://github.com/Tavishisharma8), [Saksham Arora](https://github.com/skshmm11), Vartika Sharma
+
+`2026-03-08`
+
+---
+
+### FitnessDarji
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/fitnessdarji-f05a) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://fitnessdarji.vercel.app) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/yjnmQ7iBLds) [![Built at](https://img.shields.io/badge/Built%20at-The%20XiBit-0052CC?style=flat-square)](https://the-xibit.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> Make India Healthy
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square)
+
+**The problem it solves**
+
+"Personalized fitness coaching is a luxury — Fitness | दर्जी makes it free for everyone."
+Personalized coaching from trainers, nutrition experts, and dermatologists is out of reach for thousands of rupees per session in India and other parts of the developing world. It is especially out of reach for those who most need it: students, working professionals, Tier 2/3 city dwellers, etc.
+Current fitness apps like MyFitnessPal, HealthifyMe, or Nike Training Club provide only general plans. They don’t know what’s inside your pantry or your body composition or your skin type or your schedule. They provide data but no direction.
+How is Fitness | दर्जी going to solve this problem?
+By providing a complete AI-powered personal health solution tailored to your needs, made specifically for you, in 60 seconds, and free of cost.
+What is it replacing?
+A personal trainer: workout plans and body scan analysis
+A nutritionist: calorie targets and personalized meal plans from inside your pantry
+A dermatologist: AI-based skin analysis and morning/evening routines
+A health coach: 24/7 AI-powered chat with complete knowledge of your profile
+A schedule manager: AI-powered reminders for your meals, water, workouts
+
+**Challenges we ran into**
+
+API Backend 
+This was the biggest time sink of our project. We went through four different AI backends in one session:
+
+Started with Anthropic Claude. Needed to get a paid key and had to set CORS headers with a special "anthropic-dangerous-direct-browser-access" header to access it directly in the browser
+Moved to Google Gemini. Model "gemini-1.5-flash" was deprecated and gave us "model not found" error in version 1beta
+Moved to "gemini-2.0-flash." Quota was immediately set to 0 because free tier quota was 0 for that key
+Moved to "gemini-2.0-flash-lite." Same quota issue.
+
+**AI / ML**
+
+How Fitness | दर्जी Fits the AI/ML Track
+Core AI Usage:
+
+LLMs for meal plans, workouts, cheat meals, AI coach chat
+Computer Vision for body scan + skin analysis (multimodal AI)
+Prompt engineering with user biometrics injected as context
+Structured JSON output extraction from LLM responses
+
+ML Concepts Demonstrated:
+
+Multimodal AI (text + image in same pipeline)
+Context-aware personalization (RAG-lite — user profile grounds every prompt)
+Model-agnostic architecture (Claude → Gemini → Ollama, one swap)
+Edge/on-device inference via Ollama (no cloud needed)
+
+Deterministic ML Layer beneath the AI:
+
+Mifflin-St Jeor BMR equation
+TDEE activity multiplier modeling
+Goal-based macro optimization
+Weight trajectory forecasting
+
+Team **Divine Intervention** -- [Avik Singha Roy](https://github.com/avik3658-jpg), [Ishant Agarwala](https://github.com/ishantagarwala), [Satyam Chandra](https://github.com/chandrasatyam013-arch), [vivek dubey](https://github.com/dubevivekk)
+
+`2026-03-11`
+
+---
+
+### AgroLens - Crop Disease Detection
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/agrolens-crop-disease-detection-6997) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/mayukh-7/Texibition-AgroLens) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://huggingface.co/spaces/Mayukh77/AgroLens) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/uKZCg-Ijc40) [![Built at](https://img.shields.io/badge/Built%20at-The%20XiBit-0052CC?style=flat-square)](https://the-xibit.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> AI-Powered Crop Disease Detection for Healthier
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+# 🌍 Real-World Problems Solved by AgroLens AI
+
+AgroLens bridges the gap between advanced machine learning and practical, on-the-ground farming by addressing five critical challenges in modern agriculture:
+
+### 1. The Expert Accessibility Gap
+* **Problem:** Farmers often wait days for agricultural experts to diagnose crop issues, leading to crop loss and rapid disease spread.
+* **AgroLens Solution:** Delivers **instant, on-demand diagnostics** for Rice, Corn, Wheat, and Potato crops using a Vision Transformer (ViT) model, turning any smartphone into an expert plant doctor.
+
+### 2. Impractical, Generic Advice
+* **Problem:** Standard agricultural advice ignores local environmental conditions, leading to wasted effort and money (e.g., spraying expensive chemicals right before a rainstorm).
+* **AgroLens Solution:** Injects **real-time local weather data** (temperature and humidity) into the Gemini AI prompt, ensuring every treatment plan is context-aware and viable for the farmer's immediate environment.
+
+### 3. The Language Barrier
+* **Problem:** Most sophisticated agritech software is built exclusively in English, alienating the rural farming communities that need it most.
+* **AgroLens Solution:** Features a native **multi-lingual engine** that instantly translates complex AI prescriptions and chat responses into English, Hindi, and Bengali.
+
+### 4. Technological Friction
+* **Problem:** Typing complex agricultural queries is difficult and time-consuming for users working in the field with dirty hands.
+* **AgroLens Solution:** Implements **hands-free voice input**, allowing farmers to simply tap a microphone and speak to the AgroBot assistant naturally.
+
+### 5. The Offline Disconnect
+* **Problem:** Farmers need to purchase chemical remedies at local supply stores where internet connectivity is often unreliable or nonexistent.
+* **AgroLens Solution:** Includes **one-click PDF generation** to export a clean, offline diagnostic report that farmers can easily hand to a local store clerk.
+
+**Challenges we ran into**
+
+# 🛠️ Technical Challenges Overcome
+
+Building AgroLens required integrating complex machine learning pipelines with a responsive web frontend. Here are the core technical hurdles solved during development:
+
+### 1. Heavy ML Model Deployment (OOM Errors)
+* **The Challenge:** Serving a PyTorch-based Vision Transformer (ViT) requires significant RAM, causing standard free-tier hosting platforms to crash with Out-Of-Memory (OOM) errors before the application could even boot.
+* **The Solution:** Containerized the Flask application using **Docker** and deployed it to Hugging Face Spaces, leveraging their specialized ML infrastructure to handle the heavy compute load without failing.
+
+### 2. Mitigating LLM Hallucinations (Guardrails)
+* **The Challenge:** When users uploaded non-leaf images (e.g., random objects or people), the generative AI would still attempt to provide agricultural advice based solely on the localized weather context, resulting in absurd hallucinations.
+* **The Solution:** Engineered a **backend guard clause** that intercepts "Unidentified" or "Invalid" labels from the vision model's output. This short-circuits the LLM request entirely and instantly returns a clean, predefined warning to the UI, saving API tokens and ensuring reliability.
+
+### 3. Asynchronous Audio State Management
+* **The Challenge:** Integrating the Web Speech API created an internal event loop bug. The browser's automatic `onend` trigger was clashing with manual UI clicks, causing the microphone to instantly toggle back on immediately after the user tried to turn it off.
+* **The Solution:** Implemented **explicit boolean logic (`forceStop`)** to cleanly decouple the browser's automated speech events from the user's manual UI interactions, ensuring clean state resets.
+
+### 4. Multi-Modal Data Orchestration
+* **The Challenge:** Providing isolated pieces of data to the AI resulted in generic, unhelpful responses.
+* **The Solution:** Built a dynamic LangChain prompt architecture that successfully stitches together the Vision Model's diagnostic output, the Open-Meteo real-time weather data, and the user's language preference into a single, highly contextual LLM inference call.
+
+### 5. Cloud Environment Security 
+* **The Challenge:** Managing sensitive API keys while pushing application code to public GitHub repositories and cloud hosting environments.
+* **The Solution:** Implemented strict `.gitignore` protocols for `.env` files and securely routed the Gemini API credentials through Hugging Face's encrypted Secrets manager to prevent automated bot scraping.
+
+**Open Innovation**
+
+We have made a  Crop disease detection web app using AI models such as Vision transformer
+
+Team **CodeMind** -- [MAYUKH MAITY](https://github.com/mayukh-7), [Arindam Panigrahi](https://github.com/XDarindamXD), [AANSHU MISHRA](https://github.com/Aanshumis26), [Sourish Palit](https://github.com/Dr-SP1)
+
+`2026-03-11`
+
+---
+
+### SARTHAK
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/sarthak-2667) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/PankajHacker1980/sarthak.git) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://www.canva.com/design/DAHDUOKxydE/KrekB-z5q_S4kQvM4cwYYw/edit?utm_content=DAHDUOKxydE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/WEbOWMy5RHk?si=oxuhcMUek8Ut07Hy) [![Built at](https://img.shields.io/badge/Built%20at-AceHack%205.0-0052CC?style=flat-square)](https://acehack5.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> Smart Ariel Response and Tracking for Health And K
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Flutter](https://img.shields.io/badge/Flutter-333333?style=flat-square) ![Kotlin](https://img.shields.io/badge/Kotlin-333333?style=flat-square) ![Unmanned Aerial Vehicles (Drones)](https://img.shields.io/badge/Unmanned%20Aerial%20Vehicles%20(Drones)-333333?style=flat-square) ![Leaflet.js](https://img.shields.io/badge/Leaflet.js-333333?style=flat-square)
+
+**The problem it solves**
+
+During floods and natural disasters, thousands of people become stranded in remote forests, villages, and flooded regions where rescue teams struggle to reach them quickly.
+
+Current Rescue Challenges:
+* Manual Drone Monitoring
+* Manual Ground Search
+* Limited Communication
+
+Major Consequences:
+* Detection Delays
+* Rescue Deployment Delays
+* Uncertain Survivor Locations 
+
+Real Impact
+
+These delays can lead to:
+*  Loss of critical survival time
+*  Increased risk of dehydration, injuries, and hypothermia
+*  Reduced chances of survival
+
+**Challenges we ran into**
+
+## Challenges I Ran Into
+
+Building SARTHAK involved several technical and design challenges across both the drone system and the web-based command interface.
+
+### 1. Drone Movement Simulation
+One of the early challenges was implementing smooth and realistic drone movement on the map. Initially, the drone marker was jumping directly between points instead of moving smoothly. This made the simulation unrealistic.
+
+To solve this, i implemented a gradual position update system where the drone moves step-by-step between coordinates, creating smooth motion that better represents real drone navigation.
+
+---
+
+### 2. Map Integration and Visualization
+Integrating a map that could properly represent disaster zones and drone activity was another challenge. Some map layers were either too cluttered or did not clearly show the simulated flood area.
+
+We solved this by selecting a simpler map layer and carefully positioning markers to represent survivors, drones, and key locations clearly.
+
+---
+
+### 3. Marker Interaction System
+At first, the markers for survivors, trees, and houses were not interactive enough and did not provide useful information when clicked.
+
+We improved this by adding interactive popups that display information about detected survivors and provide actions such as deploying a supply drone.
+
+---
+
+### 4. Mobile Compatibility
+Since the system is designed to be usable in the field, the interface needed to work smoothly on mobile devices. Early versions of the dashboard were not properly scaled for smaller screens.
+
+We redesigned the layout using responsive design principles so the dashboard now works well on phones, including devices similar to the iPhone 14.
+
+---
+
+### 5. Integrating Computer Vision for Detection
+Simulating survivor detection using OpenCV required careful handling of camera frames and detection logic. Performance and detection accuracy were initial concerns.
+
+I optimized the detection process and simplified the detection pipeline so that it could run reliably on a lightweight computing unit like a Raspberry Pi.
+
+---
+
+### 6. Coordinating Multiple Drone Roles
+Another challenge was managing two drone roles in the system: a scanning drone and a supply drone. Initially both drones shared the same control logic which caused conflicts in movement behavior.
+
+This was solved by separating their operational modes and assigning clear responsibilities to each drone within the system.
+
+---
+
+Despite these challenges, overcoming them helped improve the reliability, usability, and realism of the SARTHAK rescue system.
+
+Team **Phantompulse** -- [Pankaj Kumar Saini](https://github.com/PankajHacker1980)
+
+`2026-03-08`
+
+---
+
+### ForgetMeNot
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/forgetmenot-33b7) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Lothnic/hack-the-throne) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://www.canva.com/design/DAHApx90IDs/TZk8vjLloImqenTeTcCNMA/edit?utm_content=DAHApx90IDs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) [![Built at](https://img.shields.io/badge/Built%20at-HACK%20THE%20THRONE-0052CC?style=flat-square)](https://hack-the-throne.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> AI-powered memory companion for dementia patients.
+
+![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![RestAPIs](https://img.shields.io/badge/RestAPIs-333333?style=flat-square)
+
+**The problem it solves**
+
+## The Problem It Solves
+
+**ForgetMeNot addresses the heartbreaking reality of dementia-related memory loss.**
+
+Over 55 million people worldwide live with dementia, and one of the earliest and most distressing symptoms is the inability to recognize loved ones. Patients may not remember their own children, lifelong friends, or daily caregivers—leading to confusion, anxiety, and social isolation.
+
+### Current solutions fall short:
+- **Photo albums** require manual browsing and don't provide real-time help
+- **Whiteboards with names** need constant updating and offer no context
+- **Caregivers repeating information** is exhausting and often forgotten within minutes
+
+### How ForgetMeNot helps:
+
+| Use Case | How It Works |
+|----------|--------------|
+| **Visitor arrives** | Instantly displays "Sarah, your daughter. Last visited Tuesday." |
+| **During conversation** | Automatically extracts and saves relationship information |
+| **Caregiver handoff** | Dashboard shows all interactions and conversation history |
+| **Daily routines** | Tracks who visited and what was discussed |
+
+### What makes existing tasks safer and easier:
+- Patients can engage more confidently in conversations with visual prompts
+- Caregivers spend less time re-explaining who people are
+- Family members feel recognized, reducing emotional distress on both sides
+- Medical staff can review conversation logs for cognitive assessments
+
+**Challenges we ran into**
+
+## Challenges I Ran Into
+
+### 1. Real-time Face + Voice Synchronization
+**Problem:** Matching a person's face to their voice when multiple people are present was tricky. The face detection runs in the browser while audio processing happens on the backend—they operate at different speeds.
+
+**Solution:** We implemented an event-driven architecture with SSE (Server-Sent Events) that broadcasts updates to the frontend. When the LLM extracts a name, we associate it with the most prominent face detected at that moment.
+
+### 2. Split-Brain Database Issue
+**Problem:** We initially had two separate services writing to different databases—MongoDB and Convex. This caused relationship data to be lost between restarts.
+
+**Solution:** Consolidated all persistence to Convex and refactored the LLM extraction logic into the main backend service.
+
+### 3. Dementia-Friendly UI Design
+**Problem:** Typical web UIs with small text and complex layouts cause confusion for dementia patients.
+
+**Solution:** Redesigned with accessibility in mind: large fonts, high contrast, minimal cognitive load, and a calming color palette.
+
+Team **Team CIPHER** -- [Raj Singh](https://github.com/zyphorixx), [Prateek Singh](https://github.com/Prateek0217s), [Ayush Kumar Rai](https://github.com/Ayush-rai23), [Mayank Joshi](https://github.com/lothnic)
+
+`2026-02-08`
+
+---
+
+### Sanjeevani
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/sanjeevani-aaff) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Sujal01go/sanjeevani) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=ZGAs0g029LM) [![Built at](https://img.shields.io/badge/Built%20at-HackTU%207.0-0052CC?style=flat-square)](https://hacktu7.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> Herbal Wellness and Ordering
+
+![Firebase](https://img.shields.io/badge/Firebase-333333?style=flat-square) ![Dart](https://img.shields.io/badge/Dart-333333?style=flat-square) ![Flutter](https://img.shields.io/badge/Flutter-333333?style=flat-square) ![Kotlin](https://img.shields.io/badge/Kotlin-333333?style=flat-square) ![Firestore](https://img.shields.io/badge/Firestore-333333?style=flat-square) ![AI/ML](https://img.shields.io/badge/AI/ML-333333?style=flat-square)
+
+**The problem it solves**
+
+Access to reliable herbal healthcare information is limited, fragmented, and often unverified, while farmers growing medicinal plants lack direct access to consumers. People suffering from common health issues like breathing problems, digestion, or immunity concerns and chronic diseases like fatty liver, diabetes, cholesterol either depend on synthetic medicines or unreliable online advice. There is no unified platform that provides, trusted herbal recommendations backed by medical research while also giving them an opportunity to buy those rare herbs. This results in misinformation, higher costs, non-availability and underutilization of India’s rich medicinal plant ecosystem.
+
+**Challenges we ran into**
+
+One of the biggest challenges we faced was ensuring the accuracy and safety of medical and herbal information, as health-related data is often unstructured and scattered across multiple sources. Mapping diseases and symptoms to appropriate medicinal plants was complex because a single condition can have multiple causes and severities, and each herb can be used in different forms and dosages. While building the AI chatbot, we had to carefully balance intelligent recommendations with user safety, making sure the system does not replace professional medical advice or provide harmful suggestions. Integrating a farmer-to-consumer model added another layer of complexity, as herbs needed to function both as healthcare solutions and marketplace products with authenticity and trust. Additionally, simplifying complex medical and traditional knowledge into clear, user-friendly explanations within limited hackathon time was a significant challenge.
+
+**Google Gemini**
+
+We  have used Gemini and Groq APIs for AI based suggestions
+
+Team **NightHawks** -- [Yamya Nayyar](https://github.com/nayyaryamya-cmd), [Aditya gupta](https://github.com/Adityagupta2007), [Ishandeep Singh](https://github.com/Ishan2511), [Nandini Sharma](https://github.com/nandinisharma0711), [Sujal kumar](https://github.com/sujal01go)
+
+`2026-02-08`
 
 ---
 
@@ -4131,6 +5437,1506 @@ Best Beginner Hack
 Team **CODE HACKERS** -- [Sparsh Singh](https://github.com/champsparshsingh), [Siddhant Kapoor](https://github.com/siddhant952005-eng), [Vanshika Vanshika](https://github.com/25bme115-alt)
 
 `2026-03-15`
+
+---
+
+### SwasthyaSetu – Smart Emergency Healthcare System
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/swasthyasetu-smart-emergency-healthcare-system-199d) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Garvv1501/Vision-Vortex) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://www.canva.com/design/DAHDTZEsiDU/P3VmzCunnrw5WZ54pk507g/edit) [![Built at](https://img.shields.io/badge/Built%20at-Hack--N--Win%203.0-0052CC?style=flat-square)](https://hacknwin-3.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> AI Emergency Response Network
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square)
+
+**The problem it solves**
+
+Problem Statement
+
+In medical emergencies, delays in identifying the severity of symptoms and arranging timely ambulance services can lead to critical health risks. Many people are unable to quickly determine whether their symptoms require immediate medical attention, and there is often a lack of coordination between patients, ambulance drivers, and hospitals. This delay in communication and response can reduce the chances of timely treatment and affect patient outcomes.
+
+Proposed Solution
+
+SwasthyaSetu is an AI-powered emergency healthcare platform that helps patients quickly understand the seriousness of their symptoms and take the right action. Using an AI health assistant, the system analyzes symptoms and classifies the emergency level. Based on the severity, patients can instantly request an ambulance while drivers receive pickup details and navigation support. This platform aims to reduce response time, improve coordination, and provide faster access to emergency medical care.
+
+Team **Vision Vortex** -- Abhishek Singh Shekhawat, Garv Chugh, Shivang Agrawal
+
+`2026-03-07`
+
+---
+
+### Malaria Detection Using Deep Learning
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/malaria-detection-using-deep-learning-4a1d) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/gajenderyadav644-spec/Malaria-AI-Detection) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.loom.com/share/e6bc210764ba45118e3ef70b1ba3ce2b) [![Built at](https://img.shields.io/badge/Built%20at-Hack--N--Win%203.0-0052CC?style=flat-square)](https://hacknwin-3.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Smart malaria diagnosis with deep learning
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![TensorFlow](https://img.shields.io/badge/TensorFlow-333333?style=flat-square) ![NumPy](https://img.shields.io/badge/NumPy-333333?style=flat-square) ![OpenCV](https://img.shields.io/badge/OpenCV-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square)
+
+**The problem it solves**
+
+Malaria is one of the most dangerous infectious diseases worldwide, especially in tropical and developing regions.
+Traditional malaria detection relies on manual microscopic examination of blood smears, which has several challenges:
+- Time‑consuming: Manual analysis takes significant time, delaying treatment.
+- Human error: Accuracy depends on the skill and experience of the technician.
+- Resource limitations: Many rural or under‑resourced areas lack trained professionals and advanced lab facilities.
+- Late diagnosis: Delayed detection increases the risk of severe illness or death.
+
+
+ How This Project Helps
+The Malaria AI Detection Dashboard addresses these challenges by:
+- Automating detection: Uses a trained deep learning model (CNN) to classify blood cell images as Malaria Infected or Normal.
+- Improving accuracy: Reduces human error by leveraging AI predictions with confidence scores.
+- Saving time: Provides instant results after image upload.
+- Supporting doctors: Includes a recommendation panel with suggested actions and preventive tips.
+- Visual insights: Interactive charts show infection distribution and parasite stage counts for better understanding.
+- Accessible design: A simple web dashboard that can be deployed in clinics, labs, or even educational settings.
+
+**Challenges we ran into**
+
+- Dataset Quality & Preprocessing
+- The malaria cell image dataset contained variations in size, lighting, and noise.
+- I solved this by resizing all images to 64×64 pixels, normalizing pixel values to the 0–1 range, and applying augmentation techniques (rotation, zoom, flip) to improve generalization.
+- Model Accuracy vs Overfitting
+- During training, the CNN achieved high accuracy on the training set but dropped significantly on the validation set (overfitting).
+- To address this, I used validation splits, added data augmentation, and carefully tuned the number of epochs.
+- Backend–Frontend Integration
+- Passing predictions from Flask backend to the frontend and updating dynamic charts was tricky.
+- I solved this using Jinja2 templates ({{infected}}, {{normal}}) and binding Chart.js with backend data.
+- File Upload & Security
+- Uploaded files sometimes had unsafe names that caused errors.
+- I used secure_filename() from Werkzeug to sanitize filenames and prevent crashes.
+- Doctor Recommendation Logic
+- The AI model only predicted infected/normal, but I also needed parasite counts and doctor recommendations.
+- I simulated parasite counts using random values (demo purpose) and hard‑coded recommendations for infected vs normal cases.
+- UI/UX Design
+- Designing a professional dashboard that matched the logo theme (pastel skyblue transparent look) was challenging.
+- I solved this with CSS gradients, transparency (rgba), animations (fadeIn, fadeInUp), and a responsive grid layout.
+- Deployment Issues
+- Running Flask locally was smooth, but deployment caused errors with static files and upload paths.
+- I fixed this by ensuring the upload folder exists (os.makedirs()) and correcting relative paths.
+
+**Requestly – Creative Use Challenge**
+
+For this project, the following partner track was applied:
+
+- *Requestly*  
+  Integrated to manage and optimize network requests during development and testing.  
+  This helps ensure smooth communication between the AI backend and the dashboard frontend.
+
+Team **Botbuilder** -- Sonu Chaudhary, Deepak Bagotiya, Gajender Kumar
+
+`2026-03-07`
+
+---
+
+### Niraksh Guardian
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/niraksh-guardian-0c0d) [![Built at](https://img.shields.io/badge/Built%20at-Hack--N--Win%203.0-0052CC?style=flat-square)](https://hacknwin-3.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> AI-powered digital Healthcare Assistance.
+
+![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![AWS](https://img.shields.io/badge/AWS-333333?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![Prism.js](https://img.shields.io/badge/Prism.js-333333?style=flat-square) ![React.js](https://img.shields.io/badge/React.js-333333?style=flat-square)
+
+**The problem it solves**
+
+## The Problem It Solves
+
+Healthcare information today is fragmented, confusing, and often inaccessible to the average person. When individuals experience symptoms, their first instinct is usually to search online. However, this leads to overwhelming and unreliable information, making it difficult to understand the seriousness of the situation or determine the right next step.
+
+Most existing healthcare platforms focus on only one part of the healthcare journey. Some platforms store medical records, others allow doctor appointments, and some provide basic symptom checkers. However, these solutions rarely help users truly **understand their health condition or guide them toward the right medical action**.
+
+For example, systems like **ABHA under the Ayushman Bharat Digital Mission (ABDM)** provide a digital health ID and medical record storage, which is valuable infrastructure but does not help users interpret symptoms or navigate healthcare decisions. On the other hand, many global symptom checker apps provide possible conditions but lack contextual guidance, personalized explanations, or connections to appropriate specialists.
+
+As a result, users often face several challenges:
+
+- Difficulty understanding symptoms and their possible causes  
+- Confusion about which type of doctor to consult  
+- Anxiety caused by unreliable or exaggerated internet search results  
+- Limited understanding of prescriptions, medications, and potential interactions  
+- Lack of a single platform that connects symptom understanding with healthcare guidance  
+
+These gaps create a need for a **patient-centric digital health companion** that does more than simply store data or list possible diseases.
+
+**Niraksh Guardian addresses this problem by acting as an intelligent health companion that helps users interpret symptoms, understand medical information, and navigate their healthcare journey with confidence.**
+
+**Challenges we ran into**
+
+## Challenges I Ran Into
+
+Building Niraksh Guardian required solving several technical and conceptual challenges, especially because the platform combines healthcare logic, AI interpretation, and real-world usability.
+
+### 1. Accurate Symptom Understanding
+One of the biggest challenges was interpreting user symptoms correctly. People often describe symptoms in natural language that can vary widely in wording and detail. Early versions relied on keyword-based mappings, which were limited and inaccurate. We had to design a more flexible approach that combines semantic understanding with structured symptom categories.
+
+### 2. Mapping Symptoms to the Right Specialist
+Determining which medical specialist a user should consult is not straightforward. Many symptoms overlap across different conditions and specialties. Creating a reliable recommendation system required building structured mappings between symptoms, diseases, and specialist categories while maintaining clarity for users.
+
+### 3. AI Safety and Medical Responsibility
+Healthcare applications require extra caution. AI responses must avoid giving definitive diagnoses or misleading information. We had to carefully design prompts and guardrails to ensure the AI provides **informational guidance rather than medical decisions**, while still being useful and understandable.
+
+### 4. Balancing AI with Deterministic Logic
+Relying entirely on AI can produce unpredictable results, while relying only on rule-based systems limits flexibility. We needed to design a hybrid architecture that combines deterministic logic for reliability and AI reasoning for flexibility and natural interaction.
+
+### 5. Structuring Healthcare Data
+Healthcare data such as symptoms, medications, diseases, and doctor specialties needed to be organized in a way that supports both fast queries and meaningful recommendations. Designing this structure required careful planning to ensure scalability and maintainability.
+
+### 6. Building a Clean and Accessible User Experience
+Health platforms must be extremely simple to use. Presenting complex medical information in a clear and non-intimidating interface required multiple design iterations to ensure users can easily understand results, suggestions, and explanations.
+
+### 7. Integrating Multiple System Components
+Niraksh Guardian includes several interconnected modules such as symptom analysis, doctor recommendations, prescription explanations, and AI chat assistance. Ensuring smooth communication between these components while maintaining performance and reliability was a significant engineering challenge.
+
+Despite these challenges, solving them helped shape Niraksh Guardian into a more reliable and practical digital health companion.
+
+Team **Niraksh** -- Sachin Nishad, [Adarsh Suman](https://github.com/adarsh3699), Ayush Faujdar, [Rashmi Joshi](https://github.com/Rashmijoshi18)
+
+`2026-03-08`
+
+---
+
+### City Health
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/city-health-83a3) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/shekhar13hub/hospital-project.git) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/zs88kQU0xMw?si=Vk61dU1ItXpBYikX) [![Built at](https://img.shields.io/badge/Built%20at-Hack--N--Win%203.0-0052CC?style=flat-square)](https://hacknwin-3.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Book your Appointments
+
+![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square)
+
+**The problem it solves**
+
+Our healthcare site empowers patients and providers with secure, easy-to-use digital tools. Patients can book appointments online, access medical records, and connect with doctors through telemedicine, saving time and reducing travel. Providers benefit from streamlined scheduling, instant documentation, and HIPAA-compliant communication. Built-in safety features like data encryption and role-based access ensure privacy and trust. Automated systems reduce errors in prescriptions and scheduling, while analytics help providers make informed decisions. By simplifying administration, improving accessibility, and enhancing transparency, our platform makes healthcare safer, faster, and more patient-centered—bringing quality care closer to everyone.
+
+**Challenges we ran into**
+
+While building the healthcare site, one major hurdle was ensuring secure user authentication without compromising ease of access. Initially, the login system caused repeated session timeouts, frustrating users and disrupting workflows. The challenge lay in balancing strong encryption with smooth performance. To overcome this, I implemented token-based authentication combined with optimized session management, which reduced unnecessary logouts while maintaining strict security standards. Rigorous testing across devices helped confirm stability. This fix not only improved user experience but also reinforced trust by safeguarding sensitive health data. The process taught me the importance of aligning usability with robust security measures.
+
+Team **Debug thugs** -- Nikhil Singh, Arman Thakur, Sudhanshu Shekhar, ADITYA THAKUR
+
+`2026-03-08`
+
+---
+
+### Vitalis
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/vitalis-6c01) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/adhritbudhiraja-lang/Dense-Apocalypse-.git) [![Built at](https://img.shields.io/badge/Built%20at-Hack--N--Win%203.0-0052CC?style=flat-square)](https://hacknwin-3.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Your Health Companion
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square)
+
+**The problem it solves**
+
+**The Problem Vitalis Solves****
+
+*Fragmentation*
+
+Health management today is scattered across dozens of apps. One for calories, one for mood, one for posture reminders, one for journaling. None of them talk to each other. You never get a complete picture of your health.
+
+*No Intelligence*
+
+Most health apps are just glorified spreadsheets. They show you numbers but never tell you what to do about them. You log 2000 calories and get a bar chart. That's it. No context, no advice, no connection between your diet and how you're feeling.
+
+*Privacy*
+
+Every mainstream health app sends your data to the cloud. Your weight, your mood, your stress levels — all stored on someone else's server, monetised through ads or sold to third parties.
+
+*Cost*
+
+The apps that do offer AI insights lock them behind $10–20/month subscriptions. Students and young professionals simply don't pay for that.
+The Indian Gap
+Every food database is built around Western diets. Try logging dal makhani, chole bhature, or makki di roti — you'll find nothing. Indian users are completely underserved.
+
+**What Vitalis Does Differently**
+
+It puts everything in one place — diet, mental health, posture, journaling — and connects them through AI that understands your full picture. It runs locally so your data never leaves your machine. It uses free AI so there's no subscription. And it has a real Indian food database built for users like us.
+One app. Complete health. Free. Private.
+
+**Challenges we ran into**
+
+**Challenges We Ran Into**
+
+**Posture Detection in 2D
+
+The biggest technical wall. A front-facing webcam only gives you a flat 2D image — there is no depth information. Forward hunching, which is the most common bad posture, requires knowing how far your head is from your shoulders in 3D space. We had to engineer a proxy — using the rate of change in shoulder width as an indicator of forward lean — but it has limits. A person looking straight down still scores well because their shoulders look fine from the front. Real depth detection needs a RealSense or similar depth camera.
+MoveNet Reliability Across Lighting Conditions
+The skeleton tracking works well in controlled lighting but degrades fast in low light, strong backlight, or when the user isn't centred in frame. We built a calibration phase and 60-frame smoothing to reduce false positives, but the model itself is sensitive to conditions we can't control.
+
+*Mental Health Date Bug*
+
+The check-in system was updating the same day's log instead of creating a new one the next day. The root cause was subtle — the date was frozen at component mount time inside a useState, so even if you came back the next day the app thought it was still yesterday. Took time to trace it through both the frontend state and the backend route, which was also ignoring the date parameter being sent to it.
+
+*Food Database Macro Data*
+
+The original Kaggle dataset only had calorie counts — no protein, carbs, or fat breakdowns. We had to engineer macro values for all 862 foods using category-based ratio formulas and name-based overrides for known foods. It is estimated data, not lab-measured, so accuracy varies especially for mixed dishes.
+
+*Quantity Scaling Architecture*
+
+Adding quantity to the diet planner sounds simple but required rethinking the form state entirely. The form needed to store base-per-serving values separately from the displayed scaled values, so that changing quantity from 1 to 2 correctly doubles the macros without corrupting the base reference. Getting the state flow right without stale closure bugs took careful design.
+
+*GitHub Push Protection*
+
+Git history is permanent. Once a secret key gets committed — even in an old commit you've since deleted — it lives in the object store. Every orphan branch, every fresh history rewrite, still carried that commit hash. The only real solutions are rewriting history with BFG or simply allowlisting it through GitHub's security portal. We lost meaningful time on this during a time-critical night.
+
+*Local Database Limitations*
+
+lowdb is a flat JSON file. It has no transactions, no indexing, and no query optimisation. As the health.json file grows with months of logs, every read scans the entire file. It works perfectly for a hackathon prototype but would need to be replaced with SQLite or PostgreSQL for any serious long-term use.
+
+Team **Dense Apocalypse** -- Aakash Anand, Anshika mittal, Adhrit Budhiraja, Vidhi Virmani
+
+`2026-03-08`
+
+---
+
+### NeuroGuard
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/neuroguard-a812) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Amarjeet-Singh27/Devforge_Neuroguard.git) [![Built at](https://img.shields.io/badge/Built%20at-Hack--N--Win%203.0-0052CC?style=flat-square)](https://hacknwin-3.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> listen to your brain, Secure your health
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![SQLite](https://img.shields.io/badge/SQLite-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![JWT](https://img.shields.io/badge/JWT-333333?style=flat-square) ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-333333?style=flat-square)
+
+**The problem it solves**
+
+Our project (NeuroGuard) solves these core problems:
+
+1. Early risk screening gap: people may miss early stress/neurological warning signs.
+2. Counterfeit medicine risk: users need batch authenticity + supply-chain traceability.
+3. Fragmented workflow: combines screening, reporting, medicine verification, and support in one platform.
+
+**Challenges we ran into**
+
+Challenges faced while building (from your docs/codebase):
+
+1. Audio handling reliability across formats (wav/mp3/m4a) and FFmpeg dependency.
+2. Browser microphone constraints (HTTPS/localhost requirement) for voice capture.
+3. OTP/email reliability (SMTP config issues), solved with fallback OTP mode for demo continuity.
+4. Deployment constraints: persistent uploads + SQLite + audio processing are better on Render/Railway/Fly than pure serverless.
+5. Demo hardening still in progress: end-to-end deployed voice/PDF flow, mobile consistency, and more edge-case tests.
+
+Team **DevForge** -- [SUMIT PANDEY](https://github.com/Sumit01997), [SANDEEP KUMAR](https://github.com/sandeep0067), [Amarjeet Singh](https://github.com/Amarjeet-Singh27), [SHIVANSH SHARMA](https://github.com/shivansh093)
+
+`2026-03-08`
+
+---
+
+### HealthFirst-AI
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/healthfirstai-c107) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/DakshWalia17/HealthFirst-AI) [![Built at](https://img.shields.io/badge/Built%20at-Hack--N--Win%203.0-0052CC?style=flat-square)](https://hacknwin-3.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Making medical data speak human
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![JSON](https://img.shields.io/badge/JSON-333333?style=flat-square)
+
+**The problem it solves**
+
+**🚀 The Problem We Solved**
+Patients often struggle to understand complex medical jargon in their lab reports, while doctors spend crucial hours manually scanning normal reports just to find anomalies. **HealthFirst AI** solves both issues by providing simplified AI-driven insights for patients and a smart, triaged inbox for doctors.
+
+**✨ Key Features**
+# For Patients: Instant AI Analysis of PDFs, Audio Prescriptions, Actionable Next Steps (Diet/Tests), and an Interactive AI Chatbot.
+#For Doctors: Smart Triage Inbox (High/Moderate/Low risk), Time-Saving Dashboard with full-screen graphs, and Role-Based Access Control.
+
+** 💻 Tech Stack**
+#Frontend: HTML5, Tailwind CSS, Vanilla JS, Chart.js
+#Backend: Python, FastAPI, Uvicorn
+#AI Engine: Google Gemini Pro (JSON Structuring)
+#Database: Lightweight JSON-based Local DB (Optimized for MVP speed)
+
+**Challenges we ran into**
+
+Building HealthFirst AI within a tight hackathon timeframe presented a few major technical hurdles:
+
+Strict JSON Formatting from Unstructured PDFs: Extracting raw medical data from varied lab reports and forcing the Gemini AI to consistently output a strict, parsable JSON structure (for our Chart.js graphs) required extensive prompt engineering.
+
+Dynamic Role-Based UI Routing: Implementing seamless Role-Based Access Control (RBAC) between Patient and Doctor portals on a single-page Vanilla JS setup was tricky. We ran into complex DOM manipulation and CSS z-index overlap issues while switching dashboards, which we successfully resolved using precise state management.
+
+Lightweight Data Persistence: To prioritize speed and avoid the overhead of setting up a heavy SQL/NoSQL database during the hackathon, we built a custom JSON-based local database. Managing concurrent read/writes and maintaining session states across our FastAPI routes required careful logic.
+
+Team **MKD^2** -- Mohit Mohit, Kirti Verma, DAKSH Walia, Diksha Sharma
+
+`2026-03-08`
+
+---
+
+### MedLens
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/medlens-5367) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/adarsh-dev01/medlens) [![Built at](https://img.shields.io/badge/Built%20at-Hack--N--Win%203.0-0052CC?style=flat-square)](https://hacknwin-3.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Early health insights powered by AI.
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+# MedLens
+
+MedLens is an AI-powered medical triage platform built using Next.js and TypeScript.
+
+## Features
+- Symptom triage
+- Voice input
+- Accessibility support
+- Modern UI
+
+## Tech Stack
+- Next.js
+- TypeScript
+- Tailwind CSS
+
+Team **return1** -- Aayush ., Adarsh Gupta, Subham Kumar
+
+`2026-03-08`
+
+---
+
+### Health Hub
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/health-hub-6511) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Pranav8307/Medi) [![Built at](https://img.shields.io/badge/Built%20at-Hack--N--Win%203.0-0052CC?style=flat-square)](https://hacknwin-3.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Smart Care. Seamless Connections
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![React Native](https://img.shields.io/badge/React%20Native-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![FAST API](https://img.shields.io/badge/FAST%20API-333333?style=flat-square)
+
+**The problem it solves**
+
+Patients often struggle to track their health information in one place, and accessing medical guidance quickly can be difficult. At the same time, doctors may not have an organized view of a patient’s past symptoms, habits, and reports, which makes diagnosis and decision-making harder. This results in delayed care and inefficient consultations.
+
+**Challenges we ran into**
+
+The platform has multiple components — a mobile app, backend server, AI service, and web portals for doctors and admins. Making sure all these systems communicated correctly was challenging.
+
+Team **CTRL ALT ELITE** -- Dolli -, Shashank Kumar, Pranav Kumar, [Aditya Sharma](https://github.com/aditya-sharma)
+
+`2026-03-08`
+
+---
+
+### sawasthya ai
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/sawasthya-ai-e5ff) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/sagarninu4-rgb/Sawasthya--ai.git) [![Built at](https://img.shields.io/badge/Built%20at-Hack--N--Win%203.0-0052CC?style=flat-square)](https://hacknwin-3.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> your health care partner
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+Swasthya solves the problem of fragmented and delayed healthcare by providing a unified, AI-driven platform. It addresses four core pain points:
+
+-Information Gap: The AI Symptom Checker and Report Analyzer provide immediate medical insights, removing the confusion of complex health data.
+
+-​Emergency Delays: The SOS button and GPS-linked Hospital Finder (3km radius) provide instant access to life-saving care during a crisis.
+
+-​Medication Neglect: The Medicine Reminder ensures treatment compliance, preventing health setbacks from forgotten doses.
+
+​-Inaccessibility: By combining a Medical Store, AI Chatbot, and Diagnostics into one app, it eliminates the need for multiple platforms.
+
+**Challenges we ran into**
+
+One of the most significant hurdles during the development of Swasthya was the GPS-based Hospital Finder integration.
+
+The Challenge: Accuracy vs. Performance
+The goal was to filter hospitals within a strict 3km radius using live GPS coordinates. The initial hurdle was a latency issue—the application would lag while trying to fetch, filter, and render multiple map markers simultaneously, which is dangerous in an emergency scenario.
+
+The Solution
+-To overcome this, I implemented client-side geofencing and optimized the backend queries:
+Haversine Formula: I used the Haversine formula to calculate distances between the user's coordinates and the hospital database more efficiently.
+-Debouncing: I applied a "debounce" to the search input so the API wouldn't get overwhelmed with requests every time the user moved slightly.
+-Asynchronous Loading: I moved the map rendering to an asynchronous process so the SOS button and UI remained responsive even while the location data was still loading.
+
+Team **CodeNova** -- Aman Singh, Armaan Kath, sagar saini, Arnav Anurag
+
+`2026-03-08`
+
+---
+
+### MediConnect
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/mediconnect-fbca) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://vimeo.com/1171428034?share=copy&fl=sv&fe=ci) [![Built at](https://img.shields.io/badge/Built%20at-Hack--N--Win%203.0-0052CC?style=flat-square)](https://hacknwin-3.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Transforming healthcare sector
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Express.js](https://img.shields.io/badge/Express.js-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![OpenAI API](https://img.shields.io/badge/OpenAI%20API-333333?style=flat-square)
+
+**The problem it solves**
+
+We built MediConnect — an integrated digital healthcare platform.
+
+The platform combines AI assistance with healthcare services to create a unified patient experience.
+
+Core capabilities:
+
+• AI-powered health assistant for medical queries• Smart doctor recommendation based on symptoms• Seamless appointment booking and scheduling• Medication reminders for better treatment adherence
+
+This transforms healthcare into a proactive, intelligent, and patient-centered system.
+
+Team **Woomen** -- Prerna Sharma, Nishtha Chhabra
+
+`2026-03-08`
+
+---
+
+### MediRush
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/medirush-ce37) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Gourabrik/MediRush-CodeBuds) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://medirush-app.netlify.app/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/jbVvbetWltU?si=UzScmkZUkrvmzd37) [![Built at](https://img.shields.io/badge/Built%20at-The%20XiBit-0052CC?style=flat-square)](https://the-xibit.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Healthcare at your fingertips.
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![Firestore](https://img.shields.io/badge/Firestore-333333?style=flat-square) ![OpenStreetMap](https://img.shields.io/badge/OpenStreetMap-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![Firebase Authentication](https://img.shields.io/badge/Firebase%20Authentication-333333?style=flat-square) ![Framer](https://img.shields.io/badge/Framer-333333?style=flat-square)
+
+**The problem it solves**
+
+### **The Problem It Solves**
+In critical medical situations or routine healthcare management, accessibility, transparency, and speed are often the biggest challenges. Patients and their families frequently struggle with fragmented healthcare services, delayed emergency responses, and a lack of real-time information. 
+
+**Medirush** solves this by unifying emergency services, doctor discovery, and medical facility tracking into a single, intelligent platform. It significantly reduces the friction and panic associated with seeking medical help by providing real-time data, AI-driven triage, and instant access to localized healthcare resources.
+
+### **What Can People Use It For?**
+
+1. **Instant, Transparent Ambulance Dispatch:**
+   - Instead of calling multiple hotlines and waiting in the dark, users can view a live, interactive map displaying nearby hospitals and their available ambulances.
+   - Users can instantly see the **ETA** and **transparent pricing** for different types of ambulances (Basic Life Support, Advanced Life Support, ICU), ensuring they get the right vehicle for their specific emergency without hidden costs.
+
+2. **AI-Assisted Emergency Triage:**
+   - In high-stress situations, users might struggle to navigate a complex app or convey the exact nature of an emergency. The **AI Ambulance Agent** allows users to quickly describe their situation in natural language. 
+   - The AI acts as a sophisticated first responder, assessing the severity of the emergency, dynamically gathering user profile data (location, contact info, patient name), and immediately initiating the optimal ambulance dispatch process.
+
+3. **Hyper-Local Healthcare Discovery (Doctors, Hospitals & Pharmacies):**
+   - Utilizing real-world data (via OpenStreetMap/Overpass API), users can locate the nearest hospitals, specialized doctors, and pharmacies based on their live GPS location.
+   - Users can filter and browse doctors by specialization (Cardiologist, Neurologist, etc.), view ratings, and check available time slots, drastically reducing the time spent researching and calling clinics.
+
+### **How It Makes Existing Tasks Easier, Faster, and Safer:**
+
+* **Safer Emergency Response:** By mapping the precise live location of the user and routing the nearest available ambulance directly to them, Medirush eliminates geographical confusion and shaves crucial minutes off response times.
+* **Eliminates Decision Paralysis:** During an emergency, people panic. By presenting clear, actionable choices (e.g., "Advanced Life Support - 8 mins away - ₹1200") on a map rather than a static list or a phone menu, users can make fast, informed decisions.
+* **Reduced Cognitive Load via AI:** The AI chatbot agent takes over the heavy lifting in data entry. It dynamically pre-fills booking forms with the user's saved profile data and location, meaning a patient or bystander only needs to confirm rather than type out long addresses while under duress.
+* **Consolidates the Healthcare Journey:** Currently, a user might use one app to find a pharmacy, Google Maps to find a hospital, and a phone call to book an ambulance or doctor. Medirush centralizes this entire journey, ensuring continuity of care from the moment an emergency occurs to post-care consultations.
+
+**Challenges we ran into**
+
+### **Challenges We Ran Into**
+
+Building a real-time, location-aware healthcare platform came with several significant technical hurdles. Here are a few specific challenges we encountered and how we overcame them:
+
+**1. Integrating Real-World Map Data with Next.js (SSR Issues)**
+* **The Hurdle:** We initially built our interactive map using mock data. When transitioning to real-world data using the Overpass API (OpenStreetMap) and React Leaflet, we immediately hit `"window is not defined"` errors. Next.js tries to server-side render (SSR) components by default, but Leaflet relies heavily on the browser's `window` object to manipulate the DOM for maps.
+* **The Solution:** We resolved this by dynamically importing Leaflet components (`MapContainer`, `TileLayer`, `Marker`) with Next.js’s `next/dynamic` and explicitly setting `{ ssr: false }`. We also had to manage the loading state carefully to ensure the map only initialized after the component mounted on the client.
+
+**2. Firebase Google Authentication Configuration Errors**
+* **The Hurdle:** While implementing the user login system, we kept running into a frustrating `auth/configuration-not-found` error when users attempted to sign in via Google. The authentication worked sporadically but failed consistently on the local development server.
+* **The Solution:** After digging through the Firebase documentation and our console settings, we realized the issue was with the OAuth authorized domains. We had to explicitly whitelist `localhost`, `127.0.0.1`, and our eventual production domain in the Firebase Authentication settings to allow Google Sign-In to process requests securely from our Next.js development environment.
+
+**3. State Management Between the AI Agent and the Booking Flow**
+* **The Hurdle:** Building the **AI Ambulance Agent** was complex. We wanted the AI to feel proactive, meaning it needed to pull the logged-in user's profile data (name, phone number, exact GPS location) and pre-fill the ambulance booking form without the user needing to type anything. Passing this asynchronous state between the chat interface, the interactive map, and the final booking modal caused race conditions where the form would render before the AI had extracted the necessary data.
+* **The Solution:** We refactored our state management to use a centralized context for the user profile and explicitly passed a callback function from the parent booking component into the AI agent. This ensured the AI could directly trigger the `onRequestAmbulance` event with structured JSON data only *after* all user parameters were verified and fully loaded.
+
+**4. Overpass API Rate Limiting and Data Filtering**
+* **The Hurdle:** When querying hospitals and pharmacies within a 20km radius using the Overpass API, the raw data returned was often messy. Some nodes lacked names, others were strictly administrative buildings rather than active clinics, and calculating precise distances for routing dynamically was slow.
+* **The Solution:** We optimized our Overpass query to specifically filter out unnamed nodes (`node["amenity"="hospital"]["name"]`) and implemented a fallback mechanism. We added a client-side Haversine formula calculation to rapidly compute distances between the user's geolocation and the fetched hospitals, sorting them instantly before rendering, rather than relying on external routing APIs for every single node.
+
+**Open Innovation**
+
+### **Tracks Applied**
+
+-  **Health & Wellness** *(Primary Track)*
+  The entire platform is purpose-built around healthcare — from AI-powered ambulance dispatch and real-time doctor discovery to emergency triage and pharmacy locating.
+
+-  **AI / Machine Learning**
+  The **AI Ambulance Agent** uses natural language processing to simulate an intelligent first-responder. It dynamically interprets user input, extracts patient context from their profile, and orchestrates the booking flow without manual form-filling.
+
+-  **Open Source & Open Data**
+  MediRush is powered entirely by **OpenStreetMap** and the **Overpass API** for sourcing real-world hospital, clinic, and pharmacy data — championing open geographic data for social good.
+
+-  **Social Impact**
+  By making ambulance booking transparent (visible ETA + pricing), reducing response times, and centralizing fragmented healthcare services into one accessible app, MediRush directly addresses healthcare inequality and access gaps — especially in emergency situations where every second matters.
+
+- 🔐 **Firebase / Google Cloud**
+  User authentication is built on **Firebase Auth** (with Google Sign-In), and user profile data is persisted in **Firestore** — leveraging the Google Cloud ecosystem for a secure, scalable backend.
+
+Team **CodeBuds** -- [Gourab Biswas](https://github.com/Gourabrik), [Anisha Aktar](https://github.com/anishaaktar1105-sys), [Sumana Majumder](https://github.com/notifications), [Somok Das](https://github.com/somok552?tab=repositories)
+
+`2026-03-11`
+
+---
+
+### Heath Wealth
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/heath-wealth-e09d) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/priyanshu24-creation/Health-Wealth.git) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://health-wealth-472u.vercel.app/) [![Built at](https://img.shields.io/badge/Built%20at-The%20XiBit-0052CC?style=flat-square)](https://the-xibit.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Smarter Health, Stronger Life
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+Many people struggle to identify health issues early, find nearby medical help quickly, and keep track of their symptoms or wellness data in one place. Health Wealth solves this by providing a platform where users can monitor symptoms, access nearby clinics, and make informed health decisions easily.
+
+**Challenges we ran into**
+
+Challenges We Ran Into
+
+1. Backend setup issues
+Setting up the Node.js backend required resolving missing dependencies like Express, Nodemailer, and Mongoose, which initially prevented the server from running.
+
+2. Database integration
+Integrating MongoDB with Mongoose and configuring environment variables correctly was challenging, especially ensuring the database connection worked properly.
+
+3. Environment configuration
+Managing .env variables for database URLs, email services, and API keys required careful setup to avoid runtime errors.
+
+4. Email service setup
+Configuring SMTP for sending emails (appointment requests and contact forms) required handling authentication and testing with mock services during development.
+
+5. API structure and routing
+Designing clear backend APIs for authentication, clinic search, symptom tracking, and contact forms while keeping the code organized was challenging.
+
+6. Full-stack integration
+Connecting the frontend pages with backend APIs and ensuring smooth data flow between them required debugging and testing multiple endpoints.
+
+**Health & WellBeing**
+
+Health Wealth fits this track by leveraging technology to improve access to healthcare and promote preventive wellness. The platform helps users monitor symptoms, discover nearby clinics, and take early action for health issues. By combining health tracking, location-based clinic discovery, and digital communication tools, the project demonstrates how technology can simplify healthcare access and support healthier communities.
+
+Team **Quantum Override** -- [Priyanshu Chatterjee](https://github.com/priyanshu24-creation), [Sushobhan Sarkar](https://github.com/SushobhanDrunkCoder), [Sujauddin Mallick](https://github.com/Prem-09-bot), [Rohit Sikder](https://github.com/ROHITSIKDER)
+
+`2026-03-11`
+
+---
+
+### MedTrip India
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/medtrip-india-f8eb) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/0zGV88mGuXk?si=uZAxXPxkQfGjzXXE) [![Built at](https://img.shields.io/badge/Built%20at-AceHack%205.0-0052CC?style=flat-square)](https://acehack5.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Your Health, Our Priority
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+**1. Lack of Cost Transparency**
+Patients do not know the exact cost of treatments. Hospitals usually provide vague estimates and many hidden charges appear later.
+
+
+**2. Difficulty in Choosing the Right Hospital**
+India has thousands of hospitals, but patients struggle to identify which hospital is best for their specific treatment.
+
+
+**3. Lack of Reliable Doctor Information**
+Patients cannot easily access verified information about doctors, their experience, success rate, or specialization.
+
+
+**4. Fragmented Healthcare Information**
+Information about hospitals, doctors, and treatments is scattered across many websites, making it difficult to compare options.
+
+
+**5. Medical Tourism Planning is Complicated**
+Patients traveling to another city or country for treatment struggle with planning their medical journey, including consultations, surgery timelines, and recovery periods.
+
+
+**6. Limited Access to Quality Healthcare Information for Smaller Cities**
+Patients from smaller towns or rural areas often lack knowledge about top hospitals and specialists available in major cities.
+
+
+**7. High Stress During Medical Decision-Making**
+Patients and families must make important healthcare decisions quickly without clear and reliable information.
+
+
+**8. No Centralized Platform for Comparison**
+There is no simple platform where patients can easily compare hospitals, doctors, treatment costs, and services in one place.
+
+**Challenges we ran into**
+
+**1. Designing a Trustworthy Healthcare UI**
+Creating a clean, simple, and medical-oriented interface that patients can easily trust and navigate.
+
+
+**2. Making the Platform Dynamic**
+Implementing real-time filtering so hospital and doctor recommendations change based on the user’s selected treatment and city.
+
+
+**3. Structuring Healthcare Data**
+Organizing hospital, doctor, and treatment information in a way that the platform can display relevant results efficiently.
+
+
+**4. Building Transparent Cost Estimation**
+Designing a system to show detailed treatment cost breakdowns rather than vague estimates.
+
+
+**5. Keeping the Platform Simple for Users**
+Balancing multiple features like hospital comparison, doctor discovery, and journey planning while keeping the interface easy to use.
+
+Team **LogiQ** -- [Aaditi Jaiswal](https://github.com/aaditijaiswalaj-coder), [Jayesh Singh](https://github.com/Jayesh2007-JS), [Eshika Jasti](https://github.com/eshikajasti), [Aryan Phadke](https://github.com/Rudra-cmd-dev)
+
+`2026-03-08`
+
+---
+
+### nabha healthcare
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/nabha-healthcare-1ad0) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/manishjonwal-12/nabha-healthcare) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://9000-firebase-studio-1772522162686.cluster-aic6jbiihrhmyrqafasatvzbwe.cloudworkstations.dev) [![Built at](https://img.shields.io/badge/Built%20at-AceHack%205.0-0052CC?style=flat-square)](https://acehack5.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> healthcare at your doorstep
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square)
+
+**The problem it solves**
+
+Our project proposes a rural telemedicine platform that connects patients, doctors, pharmacies, and village health workers on a single digital system. The platform allows patients in rural areas to register using their mobile number and describe their symptoms. An AI-based symptom checker provides initial guidance and connects the patient to a verified doctor for online consultation through voice, video, or chat. After diagnosis, the doctor generates a digital prescription that is automatically shared with nearby pharmacies for medicine availability or delivery. The platform also maintains digital health records and supports basic health monitoring such as blood pressure, sugar, and temperature tracking. In addition, ASHA or village health workers can assist patients who have limited digital knowledge. By providing low-internet support, multilingual access, and integrated healthcare services, the system helps reduce travel time, lowers treatment costs, and improves access to quality healthcare in rural communities.
+
+**Challenges we ran into**
+
+🔹 Challenges
+Shortage of doctors in rural areas
+Long travel distance to hospitals
+Poor internet connectivity
+Limited access to medicines
+Delay in emergency medical care
+Language and literacy barriers
+
+Team **CareCoders** -- [Sarika Yadav](https://github.com/yadavsarika071), [Manish Jonwal](https://github.com/manishjonwal-12), [Khushi Khinchi](https://github.com/khinchi0144)
+
+`2026-03-08`
+
+---
+
+### pharmaguard
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/wattwatch-01d6) [![Built at](https://img.shields.io/badge/Built%20at-Diversion%202K26-0052CC?style=flat-square)](https://diversion2k26.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> tag line will be comming
+
+![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Internet of Things (IoT)](https://img.shields.io/badge/Internet%20of%20Things%20(IoT)-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Computer Vision](https://img.shields.io/badge/Computer%20Vision-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![React.js](https://img.shields.io/badge/React.js-333333?style=flat-square)
+
+Team **Include<Hackers>** -- [Anay Mishra](https://github.com/AnayMishra2006), [Abhijit Mondal](https://github.com/abhi5404), [Niloy Mallik](https://github.com/nilo-yinc), [DEV KUMAR SINGH](https://github.com/2232def)
+
+`2026-02-28`
+
+---
+
+### Hind Svaasth Seva
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/hind-svaasth-seva-c716) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Aranya01238/Hind_Svaasth_Seva) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://hssfinal.vercel.app/) [![Built at](https://img.shields.io/badge/Built%20at-Diversion%202K26-0052CC?style=flat-square)](https://diversion2k26.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Accessible Healthcare for Every Indian
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![Google Sheets](https://img.shields.io/badge/Google%20Sheets-333333?style=flat-square)
+
+**The problem it solves**
+
+Hind Svaasth Seva is a smart, multi-hospital healthcare management platform designed to simplify patient care and hospital coordination. The system provides digital patient registration, appointment booking, token queue management, billing, and secure medical record access across connected hospitals. A 24×7 AI calling agent answers patient queries, books appointments, and automatically updates the reception portal. The platform also includes, TrackD, a real-time tracking and monitoring module for patient flow and service efficiency. Built using the Gemini API for intelligence, ElevenLabs for voice interaction, Auth0 for secure authentication, and deployed on DigitalOcean cloud, the project ensures accessible, fast, and reliable healthcare services.
+
+**Challenges we ran into**
+
+During the development of Hind Svaasth Seva, several technical challenges were encountered. One major issue was configuring Auth0 authentication, where redirect mismatches and consent screens initially prevented seamless login and role-based access for different hospitals. Integrating the AI calling agent was also difficult, as synchronizing live phone conversations with real-time database updates required careful API handling. Managing speech understanding and response flow between the Gemini API and ElevenLabs voice output needed multiple refinements to achieve natural conversations. Additionally, deploying on DigitalOcean required solving server configuration, environment variables, and secure database connectivity to ensure stable performance across all connected hospitals.
+
+**Gemini API**
+
+The **Gemini API Track** powers the intelligent features of Hind Svaasth Seva. It enables the AI calling agent to understand patient speech, answer healthcare queries, and guide callers to the correct department. Using natural language understanding, the system can identify symptoms, suggest available doctors, and automatically create or update appointments in the database. Gemini also assists the reception portal by summarizing patient requests, generating quick notes, and supporting multilingual interaction, allowing even non-technical users to interact naturally. This track makes the platform responsive, conversational, and capable of providing instant assistance without requiring human intervention.
+
+**ElevenLabs**
+
+**ElevenLabs** powers the voice interaction layer of Hind Svaasth Seva through realistic AI speech synthesis. It allows the AI calling agent to speak naturally with patients over phone calls, provide appointment details, give hospital guidance, and respond to common health-related queries. The system converts AI-generated responses into clear human-like voice output, making the service accessible even to users who cannot use mobile apps or websites. By enabling multilingual and conversational communication, ElevenLabs helps patients interact with the healthcare system easily, while automatically updating the reception portal with call outcomes and booked appointments.
+
+**DigitalOcean**
+
+**DigitalOcean** provides the cloud infrastructure that hosts the Hind Svaasth Seva platform. The backend server, database, and APIs are deployed on secure virtual machines, ensuring the system is accessible from all connected hospitals in real time. It allows centralized storage of patient records, appointment data, and token queues while maintaining reliability and uptime. DigitalOcean also enables scalability, so additional hospitals and users can be added without changing the system architecture. By running the platform on the cloud, reception desks, doctors, and the AI calling agent can all access synchronized data from anywhere securely.
+
+**Auth0**
+
+**Auth0** serves as the secure authentication and identity management system for Hind Svaasth Seva. Every receptionist, doctor, and administrator logs in through Auth0, which verifies credentials and issues encrypted tokens before allowing access to the platform. It implements role-based access control, ensuring each hospital staff member can only view and manage data related to their assigned hospital and responsibilities. Auth0 protects sensitive patient information by preventing unauthorized entry, handling password security, and managing session control without storing passwords on our own server. The system also supports single sign-on and audit tracking, allowing administrators to monitor user activity and maintain healthcare data privacy standards across all connected hospitals.
+
+Team **Dragon Blaze** -- [Aranya Rath](https://github.com/Aranya01238), [Amullyajit Nandi](https://github.com/amullyajit), [SAYAK PAL](https://github.com/Sayak-Pal)
+
+`2026-02-28`
+
+---
+
+### Hospital Management System
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/ai-health-risk-prediction-and-recovery-system-4d9d) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/dasanirban2025/Diversion-repo.git) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/RMY_s2zE7ls?si=rMGczeBdZ3QnrSJS) [![Built at](https://img.shields.io/badge/Built%20at-Diversion%202K26-0052CC?style=flat-square)](https://diversion2k26.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Efficient Healthcare System
+
+![PHP](https://img.shields.io/badge/PHP-333333?style=flat-square) ![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![MySQL](https://img.shields.io/badge/MySQL-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![Bootstrap​](https://img.shields.io/badge/Bootstrap​-333333?style=flat-square)
+
+**The problem it solves**
+
+1. Manual Paper-Based Record Keeping
+Digital storage of all patient data
+Instant search functionality
+Easy backup capability
+2. Inefficient Appointment Scheduling
+Online appointment booking from anywhere
+Real-time doctor availability tracking
+Automatic fee calculation
+3. Poor Communication Between Departments
+Centralized database accessible by all roles
+Doctor dashboard to view assigned patients
+Admin panel to manage entire hospital
+4. Disorganized Prescription Management
+Digital prescriptions with complete medical details
+Patient prescription history stored in database
+Allergy tracking for better medical care
+5. Payment Tracking Issues
+Automated payment status tracking
+Clear fee display at booking time
+Payment history for all appointments
+6. Limited Access Control & Security
+Three-tier authentication system
+Session-based security
+Role-specific dashboards
+Key Benefits:
+Time-Saving (reduces administrative work by 70%)
+Paperless digital transformation
+Accessible from anywhere with internet
+Secure role-based access control
+Efficient instant data retrieval
+Scalable for growing patient base
+How It Makes Tasks Easier:
+Registration: Patients register once, no repeated paperwork
+Booking: 24/7 online appointment availability
+Prescriptions: Digital prescriptions that never get lost
+Search: Find any patient record in seconds
+Payment: Clear payment tracking
+
+**Challenges we ran into**
+
+Database Connection Issues - Used os.path.join() and created init_db() for automatic table creation
+
+Session Management & Authentication - Set secret_key and proper session handling for different user roles
+
+Form Validation - Added HTML5 required attributes and JavaScript password matching validation
+
+Appointment Date/Time Handling - Used SQLite DATE/TIME types with proper formatting
+
+Bootstrap Tabs Not Switching - Fixed with proper ID references and Bootstrap 4 attributes
+
+Responsive Design Issues - Added media queries for mobile devices
+
+Flash Messages Not Displaying - Used Flask's flash() with proper template rendering
+
+Password Security - Added confirmation field and minimum length validation
+
+Multi-User Role Handling - Created separate routes with session checks for each role
+
+Debug Mode Issues - Proper database connection closing and error handling
+
+**Best Beginners' Team**
+
+1. Healthcare & Medical Technology (HIGH)
+Patient management system
+Digital prescription management
+Appointment scheduling for doctors
+Medical record keeping
+2. Web Development (HIGH)
+Full-stack web application
+Python Flask backend
+HTML/CSS/Bootstrap frontend
+SQLite database
+Authentication system
+Responsive design
+3. Product Management (MEDIUM)
+User experience design
+Role-based features
+Multiple user personas
+4. Open Innovation (MEDIUM)
+Solving real-world problems
+Digital transformation of manual processes
+
+Team **CodeX2.0** -- [Anirban Das](https://github.com/dasanirban2025), [GOURAB KARMAKAR](https://github.com/GourabKarmakar45), [Shrabanti Saha](https://github.com/SHRABANTI044)
+
+`2026-03-01`
+
+---
+
+### Shudh : Ingredient Checker
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/shudh-ingredient-checker-88e3) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://sai-emani25.github.io/Shudh/) [![Built at](https://img.shields.io/badge/Built%20at-Kaggle%20Royale-0052CC?style=flat-square)](https://kaggle-royale.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Buy healthy, Eat Healthy
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square)
+
+**The problem it solves**
+
+We in India process around 270 millions orders where most of it is packaged food. Although some chemicals are banned in major contries, in India it is rampantly sold with false advertisement to the consumers without any repercussions, this tool initially built to explain the ingredients and risks of it in the long term, we set out to tackle a foundational issue in India regarding food, So we built shudh (Meaning in sanskrit is purity) where any and all products like food, body care products and medicine should properly tell the consumer of it's health hazards and side effects caused by over-consumption or even consuming a few times can cause.
+
+**Challenges we ran into**
+
+Quality of camera not matching the requirement needed to correctly scan the ingredient, Had trouble having all the ingredients properly show up to have a accurate score of the product.
+Connecting the public Database to MongoDB to use locally for testing of the result was quite challenging
+
+[Sai Emani](https://github.com/Sai-Emani25)
+
+`2026-02-21`
+
+---
+
+### MedVault
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/medvault-36f4) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/btree-dev/MedVault) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://docs.google.com/document/d/1gAx1oYgbF46sCkZnIlZddq364rGG-htZP1bKm2gYATw/edit?usp=sharing) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=6U9264z_zmg) [![Built at](https://img.shields.io/badge/Built%20at-ETHDenver%202026-0052CC?style=flat-square)](https://ethdenver2026.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Own your medical records.
+
+![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Express.js](https://img.shields.io/badge/Express.js-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![React.js](https://img.shields.io/badge/React.js-333333?style=flat-square) ![DAML](https://img.shields.io/badge/DAML-333333?style=flat-square)
+
+**The problem it solves**
+
+I grew up in India, where going to the doctor often means walking into a small clinic inside someone’s home. There’s one room. A doctor at a desk. Chairs outside filled with patients waiting their turn.
+
+There is usually no digital record waiting for you.
+
+If you have a serious condition, your “medical history” is a paper folder you carry yourself — prescriptions, lab reports, scan results. If you forget it, the doctor has nothing. If you lose it, your history is gone.
+
+If the doctor asks what medication you’re taking, you might not know the name. Sometimes people bring the empty blister foil of old medicines as proof of what they were prescribed. That foil becomes the record.
+
+When you get blood work done, you carry the paper results back by hand. If you want a second opinion, you walk to another clinic and show them the same papers. Nothing is shared digitally. Nothing is structured. Everything depends on what the patient remembers or physically carries.
+
+This is not just an India problem. Around the world, especially in decentralized and private healthcare systems, patients are the couriers of their own history.
+
+MedVault solves this.
+
+---
+
+### What MedVault Does
+
+MedVault gives every patient a secure, structured medical vault that they control.
+
+Patients can:
+- Store their medical history digitally
+- Share specific documents with a doctor
+- Share records by time range (e.g., last 3 years)
+- Revoke access at any time
+- Maintain a clearly marked emergency summary
+- See a full audit log of who accessed their records
+
+Doctors can:
+- Upload visit notes and test results
+- Add follow-up notes
+- Access only what the patient explicitly shares
+- Contribute to a patient’s history without owning it
+
+---
+
+### Why This Matters
+
+MedVault makes healthcare:
+
+- **Safer** — doctors see structured history instead of guessing from memory or packaging  
+- **More flexible** — patients can get second opinions without carrying folders  
+- **More accountable** — emergency access is immediate but logged  
+- **More private** — consent is explicit and revocable  
+- **More interoperable** — structured records align with global standards without centralizing ownership  
+
+MedVault is not another hospital system.
+
+It is a **patient-sovereign continuity layer** — built for real-world healthcare where records are fragmented, mobile, and human.
+
+**Challenges we ran into**
+
+A key challenge we faced was handling updates to patient-owned health records in Daml.
+
+When a contract is updated, the original contract is archived and a new contract is created with a new contract ID.
+
+When a doctor added a prescription to a patient's health record, the original record contract was archived. The newly created contract had a different contract ID, which the doctor did not have. Storing the contract ID on access templates did not work either — by the time a pharmacy attempted to dispense medication, the stored ID was already stale due to earlier operations.
+
+To solve this, we redesigned the model so that the "healthRecordCid" is passed as a choice parameter at exercise time rather than stored on templates. Each dashboard queries the ledger for the patient's current HealthRecord contract ID immediately before exercising a choice, ensuring it always has the latest reference.
+
+This preserves the HealthRecord as the single source of truth while working within Daml’s archive-and-create model.
+
+**Use of AI tools and agents**
+
+MedVault does not currently deploy autonomous AI agents inside the live system.
+
+However, the architecture is intentionally designed to support permissioned AI assistance within the Canton/Daml privacy model.
+
+AI is treated as a scoped service agent — not a system authority.
+
+---
+
+### Current State
+
+At this stage, MedVault focuses on:
+
+- Privacy-preserving record storage
+- Explicit consent enforcement
+- Structured data visibility
+- Governance and auditability
+
+No automated AI analysis is performed on patient data by default.
+
+---
+
+### Designed AI Integration (Planned Modules)
+
+The system is architected to support two AI-assisted workflows in future iterations:
+
+#### Provider Documentation Assistance
+
+AI can assist providers by:
+
+- Converting free-text notes into structured formats
+- Providing predictive text during documentation
+- Extracting structured data from uploaded handwritten notes
+- Suggesting standardized terminology mappings
+
+All outputs would require explicit provider confirmation before being finalized.
+
+---
+
+#### Patient-Authorized Longitudinal Review
+
+With explicit patient consent, AI may be used to:
+
+- Detect trends in lab results
+- Flag potential medication interactions
+- Highlight recurring symptoms
+- Generate structured summaries for provider review
+
+This would not be automated diagnosis, but pattern assistance.
+
+AI access would be:
+
+- Explicitly permissioned
+- Time-scoped
+- Logged
+- Revocable
+- Limited to the documents granted under contract visibility rules
+
+---
+
+### AI Within the Privacy Model
+
+Within the Canton/Daml framework:
+
+- AI operates as a permissioned service participant.
+- It cannot independently retrieve records.
+- It cannot access data outside explicitly granted scopes.
+- All AI interactions are auditable through contract logs.
+
+This ensures that AI remains assistive and bounded by patient sovereignty.
+
+---
+
+MedVault’s philosophy is simple:
+
+AI may enhance clarity and safety — but it must operate within enforceable consent boundaries.
+
+Privacy comes first.
+
+**Prosperia**
+
+Prosperia is about building privacy-preserving public goods that empower communities instead of extracting from them.
+
+MedVault is a cypherpunk response to healthcare fragmentation — and it is governed as public infrastructure, not as a private platform.
+
+In many parts of the world — including India — healthcare is decentralized and informal. Patients physically carry their own medical history. Providers operate independently. Consent is assumed rather than enforced. Emergency access is opaque.
+
+The person whose data is most sensitive has the least structural control.
+
+MedVault flips that model — technically and politically.
+
+---
+
+### Privacy Enforced by Architecture
+
+MedVault is built on Canton using Daml contracts, which enforce data visibility and consent at the protocol layer.
+
+- Providers can push records to a patient’s vault.
+- Providers cannot pull records without explicit patient permission.
+- Access is granular, time-scoped, and revocable.
+- Emergency access is certified, bounded, and auditable.
+
+Privacy is not a policy — it is enforced by contract visibility rules.
+
+But architecture alone is not enough.
+
+---
+
+### Governance as a Public Good
+
+MedVault is governed through a domain-weighted reputation DAO:
+
+- **Patients, providers, and contributors all participate.**
+- All members can vote on all proposals.
+- Voting weight shifts depending on proposal domain.
+- Privacy-critical proposals require explicit patient approval.
+- Emergency standards require both patient and provider thresholds.
+- Technical upgrades weight contributor expertise.
+- The operating foundation is fully replaceable by DAO vote.
+
+Reputation is non-transferable, non-financial, and earned through participation.
+
+There are no tokens to buy influence.
+There is no capital-weighted governance.
+There is no corporate override.
+
+Healthcare infrastructure evolves through stakeholder consensus.
+
+---
+
+### Strengthening Decentralized Communities
+
+MedVault does not centralize healthcare.
+
+It strengthens decentralized clinics and local providers by providing structured continuity across them.
+
+- Patients retain portable history.
+- Providers contribute without owning.
+- Second opinions remain easy.
+- Emergency access works without surrendering sovereignty.
+
+This is solarpunk in practice: resilient local care supported by shared infrastructure.
+
+---
+
+### Cypherpunk Principles Applied to Healthcare
+
+MedVault embodies core cypherpunk values:
+
+- Minimize trust assumptions
+- Reduce data exposure
+- Enforce consent through protocol
+- Govern infrastructure collectively
+- Protect individuals over institutions
+
+Prosperia is about systems that serve people first.
+
+MedVault brings privacy, governance, and public-good design to one of the most sensitive domains in society: healthcare.
+
+**Best Privacy-Focused dApp Using Daml**
+
+We use Canton to ensure the privacy of medical records, allowing users to allow discretionary, limited access to physicians, doctors pharmacy, and diagnostic centers.
+
+Team **MedVault** -- [btree Orion](https://github.com/btree-dev), [Kelvin McDaniel](https://github.com/kelvinsinferno)
+
+`2026-02-21`
+
+---
+
+### Polymaxx.health
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/signalsmarket-712d) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ethdenver-2026/signal-market/) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://polymaxx.health/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/_iifW6ZJVZ0) [![Built at](https://img.shields.io/badge/Built%20at-ETHDenver%202026-0052CC?style=flat-square)](https://ethdenver2026.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Know before the market
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![DID](https://img.shields.io/badge/DID-333333?style=flat-square) ![Polymarket](https://img.shields.io/badge/Polymarket-333333?style=flat-square) ![x402](https://img.shields.io/badge/x402-333333?style=flat-square) ![Kite AI](https://img.shields.io/badge/Kite%20AI-333333?style=flat-square)
+
+**The problem it solves**
+
+Polymaxx.health is a real-time market intelligence platform that applies 0G’s GLM via a claude skill to high-frequency predictive markets such as weather forecasting and TSA passenger volume projections.
+
+Clients, referred to as consumers on our platform, subscribe to a WebSocket feed that delivers live signals identifying potential market arbitrage opportunities. When a signal is broadcast, consumers compete in a rapid bidding process to gain access to the full trade signal. Bidding occurs within seconds, and consumers who fail to respond in time are automatically excluded from that round.
+
+Each consumer runs a signal evaluation agent powered by 0G Compute for dynamic pricing analysis. This agent determines whether the opportunity meets predefined profitability criteria. If the signal qualifies, the agent notifies Polymaxx to execute the trade.
+
+On the backend, we use the x402 protocol to handle payment submission for access to the full signal. By integrating Kite AI along with a reference x402 implementation, we support decentralized identities (DIDs) and on-chain reputation scoring. This ensures that consumers who place bids they cannot fulfill are penalized or removed, maintaining marketplace integrity.
+
+**Challenges we ran into**
+
+We were unable to obtain API keys for Kite AI during the hackathon. As a result, we implemented the integration based on the available documentation and built a reference vanilla x402 payment flow to ensure there was a working, end-to-end implementation.
+
+Collecting high-quality market signals required significant time and effort. In addition to ingestion, we had to design reliable search and indexing pipelines so the signals could be surfaced accurately within our dashboards.
+
+To validate the system, we executed live trades on Polymarket. Because these were real-money transactions, we had to be deliberate and selective in our testing strategy to manage risk and control costs while still validating the full execution flow.
+
+**Use of AI tools and agents**
+
+We used Claude Code Opus 4.6 extensively to create dashboards, do research on how to use tool kits from 0g and Kite API, as well as getting Polymarket testing going.
+
+We also used Cursor with Context7, Tavily, and Github MCPs.
+
+**Futurllama**
+
+Polymaxx.health demonstrates how decentralized finance can leverage autonomous agents to conduct real-time research into market arbitrage opportunities.
+
+The platform combines the x402 payment protocol with emerging AI tooling such as Kite AI and distributed compute infrastructure from 0G. Together, these components enable autonomous agents to evaluate signals, compete for access to high-value data, and execute trades within a decentralized, incentive-aligned marketplace.
+
+**Best Use of AI Inference or Fine Tuning (0G Compute)**
+
+We used a claude skill with 0g's glm to do research into markets, and to also make decisions with our consumers on if to make a trade on a hint or not.
+
+**Agent-Native Payments & Identity on Kite AI (x402-Powered)**
+
+We were unable to activate Kite AI’s x402 integration because we could not obtain an API key during the hackathon. To ensure progress, we implemented a parallel flow using a vanilla x402 implementation so we could model how decentralized identities (DIDs) and reputation scoring would function through Kite AI’s services.
+
+The Kite AI integration code remains in our repository and is structured to become operational once credentials are available.
+
+Consumers use x402 to submit payment for the signal hints they win through bidding. If a consumer places a bid but cannot complete payment when the x402 transaction is executed, they are automatically slashed, reinforcing economic discipline and protecting marketplace integrity.
+
+Team **SigMarket** -- [Varsity Shark](https://github.com/Principursa), [a a](https://github.com/ad0ll), [Mark Ballew](https://github.com/markballew)
+
+`2026-02-21`
+
+---
+
+### ArogyaVayu
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/arogyavayu-a18c) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/vyshalins/ArogyaVayu) [![Built at](https://img.shields.io/badge/Built%20at-Lean%20In%20Hacks%207.0-0052CC?style=flat-square)](https://leanin-hacks-7.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Air awareness for healthier living.
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![GitHub](https://img.shields.io/badge/GitHub-333333?style=flat-square) ![FastAPI](https://img.shields.io/badge/FastAPI-333333?style=flat-square) ![Uvicorn](https://img.shields.io/badge/Uvicorn-333333?style=flat-square) ![Context API](https://img.shields.io/badge/Context%20API-333333?style=flat-square)
+
+**The problem it solves**
+
+**Air quality data today is generic, city-wide, and non-actionable.**
+Most platforms answer:
+
+*“How bad is the air in Delhi?”*
+But real health risk depends on:
+- Where you are (street vs residential zone)
+- Who you are (asthma, heart conditions, age)
+- When you go out (time of day, traffic peaks)
+- How you’re exposed (walking, commuting, outdoor work)
+
+**Because of this gap:**
+- People underestimate real health risk
+- Sensitive groups get no preventive guidance
+- AQI numbers cause panic, not understanding
+
+
+**What ArogyaVayu Does Differently**
+ArogyaVayu converts raw environmental data into personalized, explainable health intelligence.
+Instead of just showing AQI, it answers:
+- “Is today riskier for me than usual?”
+- “Why is this risky today?”
+- “When is the safest time to step out?”
+- “What should I do differently today?”
+
+ **How It Makes Life Easier & Safer**
+
+- **Personalized Risk Scoring**
+
+Weighs pollution, heat, ozone against individual health conditions
+Asthma ≠ Heart condition ≠ Healthy adult
+
+- **Baseline vs You Comparison**
+
+Shows how your risk compares to the city average
+Creates immediate, intuitive awareness
+
+- **Time-Block Risk Forecasting**
+
+Identifies safe windows and avoid periods
+Helps plan walks, workouts, commutes safely
+
+- **Actionable Health Recommendations**
+
+Not generic tips — context-aware daily advice
+e.g., “Avoid outdoor activity between 12–4 PM”
+
+- **Hyper-local GPS Mode**
+
+Risk adapts when the user moves to a different area
+Shows why location matters, not just city name
+
+**Who Can Use It**
+- Individuals with asthma, heart conditions, elderly
+- Outdoor workers & daily commuters
+- Parents planning children’s outdoor activities
+
+**Challenges we ran into**
+
+- **Unreliable real-time environmental data**
+
+Air quality and weather APIs often returned missing or inconsistent values, requiring robust fallback logic and safe defaults to keep the system stable.
+ 
+- **Making risk truly personalized, not just contextual**
+
+Translating raw pollution data into meaningful health risk for different users (asthma, age, exposure) required careful weighting and rule-based intelligence instead of generic AQI scores.
+
+- **Synchronizing GPS-based location with city-level systems**
+
+Supporting both manual city selection and live GPS introduced edge cases like undefined coordinates and mismatched data sources, which needed strict validation and fallback handling.
+
+- **Explaining complex risk in a way users trust**
+
+Breaking down “why this is risky” without overwhelming users was challenging, solved through  clear factor attribution.
+
+**Sustainable Development Goals**
+
+**SDG 3 — Good Health & Well-Being**
+Target: Reduce illness and mortality from hazardous environmental exposure
+Problem:
+AQI values are not personalized
+People with asthma or heart conditions receive the same guidance as healthy adults
+ArogyaVayu’s Impact:
+- Computes personalized health risk scores based on:
+- Medical conditions
+- Exposure patterns
+- Time-of-day risks
+- Provides preventive, daily health recommendations
+- Helps users avoid high-risk windows before symptoms worsen
+
+**SDG 11 — Sustainable Cities & Communities**
+Target: Reduce the environmental impact of cities on human health
+Problem:
+Pollution varies drastically within the same city
+Residents are unaware of high-risk zones or times
+ArogyaVayu’s Impact:
+- Introduces hyper-local risk awareness using GPS
+- Highlights how location + time change exposure
+- Encourages safer mobility and outdoor planning
+
+**SDG 13 — Climate Action**
+Target: Strengthen resilience and adaptive capacity to climate-related hazards
+Problem:
+Climate stressors (heat waves, ozone spikes) are increasing
+People lack tools to adapt their daily routines
+ArogyaVayu’s Impact:
+- Combines heat, ozone, and pollution data into one risk model
+- Helps users adapt behavior daily (timing, activity, hydration)
+- Acts as a micro-level climate adaptation tool
+
+Team **Nova** -- [Vyshali N S](https://github.com/vyshalins), [CHINMAYI Bt](https://github.com/Chinmayibt)
+
+`2026-02-07`
+
+---
+
+### BioPulse
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/biopulse-2590) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/gargisharma03/health-buddy) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://www.canva.com/design/DAHAj8s9XQ8/RDFi9hu6N1zTjHz5ePn9HA/edit?utm_content=DAHAj8s9XQ8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) [![Built at](https://img.shields.io/badge/Built%20at-Lean%20In%20Hacks%207.0-0052CC?style=flat-square)](https://leanin-hacks-7.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Good health isn’t just physical — it’s personal.
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square)
+
+**The problem it solves**
+
+People can use BioPulse to track their daily health , find people with similar conditions, talk to our AI chatbot regarding healthy advices and recieve their health report.
+Moreover our gamified interface provides daily motivation using streaks.
+Our app supports not only physical bul mental well being of user as well.
+
+**Beginner's track - Your first hack starts here!**
+
+The Problem Statement we choose was Patient Centric Health Management.
+Our app not only cares for physical well being of user but also their mental well-being.
+It provides daily motivation using streaks.
+
+Team **Cogniva** -- [Shreya Kumari](https://github.com/Meerseya), [Anushka Biswal](https://github.com/Anne2007-codes), [Shanvi Jha](https://github.com/ShanviJha21)
+
+`2026-02-07`
+
+---
+
+### PRANSAKHI
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/pransakhi-4b8b) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/vaishnavijawalkar471-droid/pransakhi.git) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://vaishnavijawalkar471-droid.github.io/pransakhi/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://vimeo.com/1162972618?share=copy&fl=sv&fe=ci) [![Built at](https://img.shields.io/badge/Built%20at-Lean%20In%20Hacks%207.0-0052CC?style=flat-square)](https://leanin-hacks-7.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Healthcare that listens.
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square)
+
+**The problem it solves**
+
+### The Problem It Solves:
+**PRANSAKHI** addresses the lack of timely primary healthcare guidance in rural and low-resource areas. Many people, especially the elderly and low-literacy users, struggle to understand symptoms, remember medicines, and decide when to seek medical help, particularly with limited internet access.
+
+### What People Can Use It For:
+- Share symptoms through voice and get basic health guidance
+- Understand the seriousness of symptoms (low/medium/high risk)
+- Set and receive medicine reminders
+- Get audio-based advice without needing to read
+- Access support even in low or no internet conditions
+
+### How It Makes Tasks Easier & Safer:
+- Helps users take early action before conditions worsen
+- Reduces confusion about when to visit a doctor
+- Supports medicine adherence for elderly users
+- Provides simple, voice-based guidance where medical access is limited
+
+**Challenges we ran into**
+
+One of the main challenges was designing a solution that works well in **low-internet**  or  **offline conditions** while still using voice features. Many voice tools rely heavily on stable connectivity, which made it difficult to ensure consistent performance.
+
+We addressed this by simplifying the logic, using lightweight components, and planning for local storage and basic rule-based processing instead of fully online AI. This made the system more **practical, faster,** and **suitable** for rural environments.
+
+Another hurdle was keeping the **interface simple enough** for elderly and low-literacy users. We focused on large buttons, minimal text, and voice interaction to make the experience more accessible and intuitive.
+
+**Open Innovation**
+
+**PRANSAKHI**  proposes a *creative*, *technology-driven* approach to improve primary healthcare access using voice interaction, *offline support*, and *simple AI guidance* for rural and low-literacy communities
+
+Team **Innovative Crew** -- [Vaishnavi Jawalkar](https://github.com/vaishnavijawalkar471-droid), [Simran Kadam](https://github.com/simrankadam278-debug), [Arpan Patekar](https://github.com/Arpan-Patekar), [Harsh Patil](https://github.com/Harshp125)
+
+`2026-02-08`
+
+---
+
+### VitalFlowAI
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/vitalflowai-5560) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://drive.google.com/drive/folders/1SM2DlEjLD9F1By-68ABklqDSohNqaWfe) [![Built at](https://img.shields.io/badge/Built%20at-HackTU%207.0-0052CC?style=flat-square)](https://hacktu7.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Drops of Rain in the Medical Desert
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![SQLite](https://img.shields.io/badge/SQLite-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square)
+
+**The problem it solves**
+
+The "Reactive" Supply Chain Trap
+Current rural healthcare supply chains are reactive. Clinics only order medicine after an outbreak begins. By the time the stock arrives (due to slow logistics), the peak of the disease has passed, or patients have already suffered.
+2. The Twin Killers: Stockouts & Wastage
+• Stockouts: Patients are turned away because essential drugs (like anti-malarials) are out of stock during peak seasons.  
+• Wastage: To avoid running out, clinics panic-buy and overstock, leading to tons of medicine expiring on shelves.
+3. The "Data Blind Spot"
+Supply chain managers ignore the biggest predictor of disease: The Weather. They treat medicine ordering as a simple spreadsheet task, ignoring that Heavy Rain = Malaria or Heatwave = Cholera. VitalFlow fixes this disconnect by making the supply chain weather-aware.
+
+**Challenges we ran into**
+
+Challenges We Ran Into
+• Data Scarcity & Privacy: Real healthcare data is strictly protected (HIPAA). To train our models without compromising privacy, we engineered a Synthetic Data Pipeline using Python to simulate realistic correlations between weather patterns and disease outbreaks.
+• API Limits & Connectivity: Relying on live external APIs (Open-Meteo) caused rate-limiting issues. We built a Robust Fallback Mechanism that automatically switches to cached local data if the external service fails, ensuring the app works even in low-connectivity rural areas.
+• Integrating Python AI with React: Bridging heavy data science models (Prophet/Pandas) with a lightweight frontend caused latency. We solved this by adopting an Asynchronous Batch Processing architecture, pre-calculating forecasts into JSON for instant, zero-latency dashboard performance.
+
+**Google Gemini**
+
+1. Synthetic Data Generation (The Foundation):
+We used Gemini to generate highly realistic, HIPAA-compliant synthetic datasets for 50 rural clinics. It simulated complex correlations between weather patterns (e.g., heavy rainfall) and specific disease outbreaks (e.g., Malaria, Cholera), allowing us to train our Prophet models without compromising real patient privacy.
+2. The 'Clinical Co-Pilot' (The Interface):
+While Prophet calculates the numbers (e.g., 'Order 50 units'), we utilize Gemini's capabilities to explain the 'Why' to the user. The system is designed to take the statistical output and convert it into natural language alerts (e.g., "Gemini Analysis: Recommended ordering 50 units of Artemether because a 10-day rain forecast predicts a 40% spike in Malaria cases."). This bridges the gap between complex data science and rural healthcare workers.
+
+Team **MBA** -- [Brahmbir Singh](https://github.com/HiNoOu), [Achintpreet Singh](https://github.com/achintpreetsingh23-aps), [Mankeerat Singh](https://github.com/HiNoOu)
+
+`2026-02-08`
+
+---
+
+### NutriSense
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/nutrisense-f287) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/DevBolt07/label-insight-pro) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://label-insight-pro.web.app/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/ep9D7by4MW0?si=tIRFDuc4y9d8Mve0) [![Built at](https://img.shields.io/badge/Built%20at-MERGE--CONFLICT-0052CC?style=flat-square)](https://mergeconflict.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> AI food labels, personalized for healthier choices
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+🚀The problem it solves
+
+Buying “healthy” food is harder than it should be.
+At the point of purchase, most people are forced to quickly interpret dense, technical and misleading nutrition labels. Important information is hidden behind chemical names, inconsistent serving sizes and poorly structured tables.
+
+For users with medical or dietary constraints (such as diabetes, hypertension, allergies or gluten intolerance), this is not just inconvenient — it can directly impact their health.
+
+🧠What people can use NutriSense for
+
+NutriSense is an AI-powered food label understanding assistant that helps users make safer and more informed food choices in real time.
+
+Users can:
+
+📷 Scan a barcode or capture a photo of a product label
+
+🔍 Automatically extract ingredients and nutrition values, even when a barcode is missing
+
+🧑‍⚕️ Personalize the analysis using their health profile (dietary restrictions, allergies, and preferences)
+
+🚦 Receive instant alerts for potentially unsuitable ingredients
+
+📊 View a simple health score and explanation
+
+🔁 Discover healthier alternatives when a product is not suitable
+
+✅ How NutriSense makes an existing task easier and safer
+
+Instead of manually:
+
+reading small, cluttered labels,
+
+searching ingredient meanings online,
+
+and guessing whether a product fits personal health needs,
+
+NutriSense:
+
+🧩 Structures messy label text into clear data
+
+🧠 Interprets ingredient risks and nutrition context using AI
+
+🧑‍🤝‍🧑 Adapts results to each user’s profile
+
+⚠️ Highlights risks before purchase
+
+🛒 Supports safer, faster and more confident buying decisions
+
+🔄 Works even when barcodes fail
+
+Many products either:
+
+do not have a readable barcode, or
+
+have incomplete or outdated database entries.
+
+NutriSense intelligently falls back to image-based label analysis (OCR + AI) and, when possible, automatically enriches results using trusted public food databases.
+
+This ensures that users still receive meaningful results even in real-world retail conditions.
+
+🌍 Why this matters
+
+NutriSense helps bridge the gap between:
+
+complex nutritional science and
+
+everyday consumer decision-making.
+
+By delivering personalized, understandable and reliable insights at the moment of purchase, NutriSense empowers people to make healthier choices — not later, but right when it matters most. 🛍️💚
+
+![image](https://assets.devfolio.co/content/eb8b7c63de9f44e1af2e5dd43cb50360/16de7ce1-0f62-4ceb-8cc3-e8655d0b65cd.png)
+
+![image](https://assets.devfolio.co/content/eb8b7c63de9f44e1af2e5dd43cb50360/e7c66bff-b4a7-41d3-8da8-67c683e1afd7.png)
+
+![image](https://assets.devfolio.co/content/eb8b7c63de9f44e1af2e5dd43cb50360/b2986fcc-9461-4cc6-b3c0-209b542af9ba.png)
+
+![image](https://assets.devfolio.co/content/eb8b7c63de9f44e1af2e5dd43cb50360/d21b3d51-80d8-490e-90a4-a5b1074d2ed6.png)
+
+![image](https://assets.devfolio.co/content/eb8b7c63de9f44e1af2e5dd43cb50360/1e0a32d4-c8fe-448f-8a6d-7e11b919edda.png)
+
+![image](https://assets.devfolio.co/content/eb8b7c63de9f44e1af2e5dd43cb50360/adbd9336-33b0-4fcb-a9a4-2bb2bb8885ab.png)
+
+![image](https://assets.devfolio.co/content/eb8b7c63de9f44e1af2e5dd43cb50360/36c6fe43-9858-4c85-be20-5b3f63b9f9a8.png)
+
+**Challenges we ran into**
+
+🧩 Challenges I ran into
+
+Building NutriSense required handling real-world data, unreliable APIs and noisy images. Below are the most impactful challenges we faced and how we solved them.
+
+🤖 LLM responses breaking our backend (invalid JSON)
+
+While using Gemini to generate structured nutrition and health analysis, the model occasionally returned responses mixed with explanations or formatting. This caused our backend to crash with parsing errors such as “Unterminated string in JSON”.
+
+How we solved it
+We implemented a robust JSON-extraction and validation layer inside our Edge Functions.
+Instead of directly trusting JSON.parse, we isolate the JSON block from the model response and validate it before processing. If parsing still fails, the system gracefully falls back to OCR-only analysis so the user never sees a crash.
+
+⏱️ API rate-limits during development and testing
+
+During integration and demo testing, we frequently hit LLM rate limits (HTTP 429 / quota errors), which made the application unreliable.
+
+How we solved it
+We built a model fallback routing layer that automatically switches between compatible Gemini models when a rate-limit occurs, while keeping the same prompts and response schema.
+If all models are temporarily unavailable, NutriSense switches to a lightweight rule-based fallback so that users still receive a basic and safe analysis.
+
+📦 Multiple and incomplete product entries in public databases
+
+When scanning barcodes, the same product often had several entries in the public food database, many of which were missing ingredients, nutrition values or images.
+
+How we solved it
+We designed a candidate ranking and validation system that scores multiple product entries based on data completeness and consistency with OCR-extracted ingredients.
+Only the most reliable and complete entry is selected for display.
+
+📷 OCR accuracy on real packaging
+
+Food packaging images often contain curved surfaces, branding text and complex layouts, leading to noisy or incorrect OCR results.
+
+How we solved it
+We implemented a dual-engine OCR pipeline.
+The system first attempts PaddleOCR and automatically falls back to OCR.space when confidence is low.
+The extracted text is then structured so that only meaningful rows such as ingredients and nutrition values are used for analysis.
+
+🔐 Unstable authentication due to stale sessions
+
+During development, Supabase authentication occasionally failed due to invalid or expired refresh tokens stored on the client.
+
+How we solved it
+We added explicit session validation and cleanup logic. When an invalid refresh token is detected, the app safely clears the local session and redirects the user to re-authenticate, preventing broken login flows.
+
+🧠 Identifying products from label images when barcodes are missing
+
+Some images clearly contained the product name and brand, while others only showed ingredients and legal text.
+
+How we solved it
+We introduced a smart product-identification step where the system first tries to infer the product name from prominent OCR text and validates it using ingredient overlap before querying public databases.
+If confidence is low, NutriSense automatically falls back to OCR-based analysis instead of showing potentially incorrect product data.
+
+These challenges helped us design NutriSense as a fault-tolerant, real-world-ready system that continues to work reliably even when data, APIs or images are imperfect.
+
+**Open Track**
+
+NutriSense fits the Open Track by solving a real-world consumer problem using AI and open public data.
+
+Our project is an AI-powered food label understanding system that works with both barcodes and product images. It uses OCR, large language models and open datasets (Open Food Facts) to extract, validate and explain nutrition and ingredient information in a personalized way.
+
+NutriSense focuses on improving everyday decision-making in health and nutrition and is not limited to any specific industry partner or sponsor challenge, making it a natural fit for the Open Track.
+
+Team **CodeLites** -- [Ira Khandelwal](https://github.com/IraKhandelwal), [Tanmay Kumbhare](https://github.com/Tanmay-Kumbhare), [Hemantkumar Lakhane](https://github.com/DevBolt07), [Rushikesh Shinde](https://github.com/viraj-1124)
+
+`2026-02-01`
 
 ---
 
@@ -7433,6 +10239,2497 @@ By using Gemini for medical document understanding, intelligent patient interact
 Team **Anuvartan** -- [Abhyuday Jain](https://github.com/Avalanche2825), [Aditya Raj](https://github.com/Aditya-Coder477), [Ashish Prajapati](https://github.com/ashishprajapati2006), [Gaurav Pareta](https://github.com/GAURAVPARETA555)
 
 `2026-03-15`
+
+---
+
+### MediCare Era+
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/medcare-dab1) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://shubhamgyl000-ai.github.io/Medicare-Era-/) [![Built at](https://img.shields.io/badge/Built%20at-Hack--N--Win%203.0-0052CC?style=flat-square)](https://hacknwin-3.devfolio.co)
+
+> Save Health Save future
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square)
+
+Team **X Coders** -- Vinay Sharma, [Shubham Goyal](https://github.com/Shubhamgyl000), Manshika Choudhary, Palak Gupta
+
+`2026-03-07`
+
+---
+
+### Citrus Diagnosis
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/citrus-diagnosis-4f46) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/BhupinderrSingh/Citrus-Diagnosis-) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/a5RiaVXv7UE) [![Built at](https://img.shields.io/badge/Built%20at-Hack--N--Win%203.0-0052CC?style=flat-square)](https://hacknwin-3.devfolio.co)
+
+> Smart crop scanning & AI treatment.
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square)
+
+**The problem it solves**
+
+Citrus diseases like Canker, Greening, and Black Spot cause massive global agricultural and economic losses every year, primarily due to delayed detection. Farmers and field agronomists often lack immediate access to expert plant pathologists, leading to misdiagnosis, incorrect pesticide use, and severe crop damage. Citrus Diagnosis solves this by putting an expert agronomist in the farmer's pocket—combining a dual-model deep learning diagnostic engine with a conversational AI assistant to provide instant, field-ready disease identification and actionable treatment protocols from any mobile device
+
+**Challenges we ran into**
+
+One major challenge while building Citrus Diagnosis was integrating two CNN models (MobileNetV2 and InceptionV3) into a single Flask prediction pipeline to improve diagnostic accuracy. During testing, MobileNetV2 produced correct results, but InceptionV3 gave completely inaccurate predictions on live uploads, even though it performed well during training.
+
+After debugging the backend, I discovered the issue was in the image preprocessing step. Different neural network architectures require different input normalization methods. MobileNetV2 expects images scaled between 0 and 1, while InceptionV3 expects values scaled between -1 and 1 using its specific preprocessing function.
+
+Initially, I was sending the same normalized image to both models, which caused incorrect predictions from InceptionV3. I solved this by creating a separate preprocessing pipeline for each model. The system now generates two processed images—one formatted for MobileNetV2 and another using InceptionV3’s preprocess_input() function.
+
+Team **Code Clashers** -- Arshpreet Singh, Ashmit Saini, Bhupinder Singh, Rajat Duhan
+
+`2026-03-08`
+
+---
+
+### Sanjeevani
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/sanjeevani-4094) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/theatu1sin9h/sanjeevani) [![Built at](https://img.shields.io/badge/Built%20at-Hack--N--Win%203.0-0052CC?style=flat-square)](https://hacknwin-3.devfolio.co)
+
+> Unified Health Ecosystem
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+🌟 
+What sets Sanjeevani apart from traditional healthcare portals:
+
+**Unified Digital Health ID: **A "one identity, complete care" approach that allows patients to carry their entire medical history securely in a single digital card.
+
+**VaidyaBot (AI Assistant):** An integrated AI medical assistant powered by Google Gemini, capable of answering healthcare queries and guiding users through the ecosystem.
+
+**Emergency Protocol Active:** A one-touch emergency system that transmits encrypted identity and location data to the nearest verified hospitals.
+
+**Confidential Consultancy:** A dedicated, secure space for private medical discussions between patients and specialists.
+Hybrid Ecosystem: Direct integration with verified pharmacies and a hospital locator, creating a true end-to-end health infrastructure.
+
+Team **Code for Care** -- Aman Sharma, [Atul Singh Chandel](https://github.com/theatu1sin9h)
+
+`2026-03-08`
+
+---
+
+### Medichain
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/medichain-0f18) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/sandeep2122/Medichain.git) [![Built at](https://img.shields.io/badge/Built%20at-Hack--N--Win%203.0-0052CC?style=flat-square)](https://hacknwin-3.devfolio.co)
+
+> "Your Health Data, Your Control, Your Reward"
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+1. True Data Ownership.
+2. Secure storage
+3. Controlled Sharing.
+4. Financial Rewards
+
+**Challenges we ran into**
+
+1. Data privacy & Security.
+2. Blockchain scalability.
+3. User Trust & Adoption
+
+Team **BitBuilders** -- Shareya ., [Yuvraj .](https://github.com/Shoyo29/), Sandeep Kumar, Parkeerat Singh
+
+`2026-03-07`
+
+---
+
+### Swastya Setu
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/swastya-setu-0909) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/aryanbhatt7793/Swastya-Setu) [![Built at](https://img.shields.io/badge/Built%20at-Hack--N--Win%203.0-0052CC?style=flat-square)](https://hacknwin-3.devfolio.co)
+
+> AI Powered Disease Prediction and Hospital Finder
+
+![PHP](https://img.shields.io/badge/PHP-333333?style=flat-square) ![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![REST API](https://img.shields.io/badge/REST%20API-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![phpMyAdmin](https://img.shields.io/badge/phpMyAdmin-333333?style=flat-square) ![OpenStreetMap](https://img.shields.io/badge/OpenStreetMap-333333?style=flat-square)
+
+**The problem it solves**
+
+Many people experience symptoms such as fever, headache, cough, or fatigue but are often unsure about what illness they might have. In many cases, people ignore early symptoms due to lack of awareness, which can lead to serious health complications later. Another major challenge is that during emergencies or sudden health issues, people spend valuable time searching for nearby hospitals or medical facilities.
+
+Our project addresses these problems by providing an AI-powered health assistance system that helps users quickly understand their possible health condition and find medical help nearby.
+
+The system allows users to enter their symptoms, and an Artificial Intelligence model analyzes these symptoms to predict possible diseases. This helps users gain early insight into their health condition and encourages them to seek medical attention when necessary.
+
+In addition to disease prediction, the system also provides location-based hospital recommendations. Using an interactive map, the platform displays nearby hospitals so that users can easily locate and navigate to the nearest medical facility without wasting time searching online.
+
+To further improve emergency response, the system includes an SOS feature that allows users to quickly signal for help during urgent situations.
+
+Overall, this project makes healthcare guidance faster, more accessible, and more efficient by combining machine learning, location services, and web technology into a single intelligent platform. It helps users make informed decisions about their health and ensures that medical assistance can be reached quickly when needed.
+
+**Challenges we ran into**
+
+While developing this project, we encountered several technical challenges related to integrating different technologies such as machine learning, backend services, databases, and map-based visualization.
+
+One of the major challenges was integrating the AI model with the web application. The machine learning model was developed in Python using Scikit-learn, while the web backend was built using PHP. Since these technologies run in different environments, we needed to create a communication bridge between them. We solved this by setting up a Python prediction API running on a local server, and the PHP backend sends symptom data to this API using HTTP requests. The API then returns the predicted disease in JSON format.
+
+Another challenge was preparing the symptom data in the correct format for the AI model. The dataset contains 132 symptoms, and the model expects the input in a specific binary format. We implemented a conversion system that transforms user-entered symptoms into the required format before sending them to the prediction model.
+
+We also faced difficulties while implementing the hospital location mapping system. Initially, displaying hospitals dynamically on the map was challenging. To solve this, we stored hospital details including latitude and longitude in a MySQL database, and used Leaflet.js with OpenStreetMap to render the hospital locations as markers on the map.
+
+Additionally, we had to ensure that the system responds quickly and provides accurate predictions. This required testing the machine learning model, validating the dataset, and optimizing the communication between the frontend, backend, and AI service.
+
+Overcoming these challenges helped us successfully integrate AI prediction, database management, and geolocation services into one complete healthcare assistance system.
+
+Team **n log n** -- Archna Behera, [KARTIK SHARMA](https://github.com/kartikstudies008), Aryan Bhatt, Kashish Mehra
+
+`2026-03-07`
+
+---
+
+### AAROGYA
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/aarogya-46ac) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/krishanumishra21/aarogya-ai-health-platform) [![Built at](https://img.shields.io/badge/Built%20at-Hack--N--Win%203.0-0052CC?style=flat-square)](https://hacknwin-3.devfolio.co)
+
+> Aarogya – Smarter Healthcare, Faster Care.
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+Currently, the healthcare system faces several major challenges.
+
+First, patients often don’t know which doctor or specialist to consult based on their symptoms. This leads to confusion and delayed treatment.
+
+Second, medical records are fragmented across different hospitals. When a patient visits a new hospital, doctors usually cannot access previous prescriptions or treatment history.
+
+Third, during medical emergencies, doctors need instant access to critical information like blood group, allergies, or previous conditions, but this data is rarely available quickly.
+
+Because of these issues, hospitals experience delayed diagnosis, repeated medical tests, and inefficient patient management.
+
+Team **ALPHA QUID** -- Devansh Gautam, Gurpreet Singh, Amit Kumar, [Krishanu Mishra](https://github.com/krishanumishra21)
+
+`2026-03-08`
+
+---
+
+### MediTatva
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/meditatva-5e40) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/satyamraj2990/MEDI-TATVA) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://meditatva.vercel.app/) [![Built at](https://img.shields.io/badge/Built%20at-Hack--N--Win%203.0-0052CC?style=flat-square)](https://hacknwin-3.devfolio.co)
+
+> AI Healthcare Intelligence for Smarter Care
+
+![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![React.js](https://img.shields.io/badge/React.js-333333?style=flat-square) ![Mongo](https://img.shields.io/badge/Mongo-333333?style=flat-square)
+
+**The problem it solves**
+
+Accessing reliable healthcare information quickly is still a major challenge. Patients often struggle to understand medical reports, compare medicines, find nearby pharmacies, or get quick guidance for common health concerns. Many people rely on scattered internet searches or delayed consultations, which can lead to confusion, misinformation, and poor health decisions.
+
+Meditatva solves this by creating a unified AI-powered healthcare assistant. It helps users analyze medical reports, compare medicines and find suitable substitutes, receive instant health guidance through an AI voice assistant, and locate nearby medical stores or doctors. By simplifying complex medical information and bringing multiple healthcare tools into one platform, Meditatva enables users to make faster, safer, and more informed health decisions.
+
+**Challenges we ran into**
+
+While building Meditatva, one of the biggest challenges was stabilizing the AI voice assistant (MediSaarthi) during real-time phone calls. Since the system integrates Twilio voice calls, speech-to-text, AI processing, and text-to-speech responses, even a small failure in the pipeline could break the entire conversation flow. We frequently faced issues such as webhook errors, temporary API failures, and cases where the assistant returned fallback responses instead of answering the user's query.
+
+Another challenge was implementing the medicine comparison and substitute finder without training a custom model due to limited time. Instead, we designed an AI-driven reasoning approach that analyzes medicine names and medical context to generate meaningful comparisons and alternatives.
+We overcame these challenges by restructuring the backend flow, adding robust error handling, and carefully validating each stage of the pipeline—from call reception to AI response generation. By debugging logs and simplifying the architecture, we ensured the system could reliably process user queries and deliver real-time health insights.
+
+Team **AURA PHARM** -- [Satyam Raj](https://github.com/2990), [Akshat Dwivedi](https://github.com/akshatdwiveditemp4y-ux), Shashi BhushanThakur, Ikshita .
+
+`2026-03-08`
+
+---
+
+### Baymax AI
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/baymax-ai-38a4) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/mannubaveja007/baymax-voice-agent) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://baymax-voice-agent.vercel.app/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/vcmHYQCaQbc) [![Built at](https://img.shields.io/badge/Built%20at-Hack--N--Win%203.0-0052CC?style=flat-square)](https://hacknwin-3.devfolio.co)
+
+> Health Tech Innovation
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![Framer](https://img.shields.io/badge/Framer-333333?style=flat-square) ![Backend](https://img.shields.io/badge/Backend-333333?style=flat-square) ![API3](https://img.shields.io/badge/API3-333333?style=flat-square)
+
+**The problem it solves**
+
+### Problem Statement
+
+Navigating personal health concerns is often a stressful, confusing, and anxious experience. When individuals experience symptoms such as a sudden headache or chest pain, they immediately face a critical lack of immediate, understandable medical guidance. 
+
+This leads to three primary issues:
+
+1. **Unnecessary Panic and Overburdened Medical Systems:** Without immediate triage or calming guidance, patients frequently experience heightened anxiety. This leads to unnecessary emergency room visits, wasted time, and increased strain on healthcare infrastructure for non-critical issues.
+2. **Lack of Visual and Multilingual Context:** Traditional medical search results provide dense, text-heavy reading that is difficult for a layperson to map to their own body. Furthermore, many existing health bots are rigidly confined to english text input, failing to support spoken local dialects and bilingual terminology (e.g., mixing "headache" with "sir dard").
+3. **Inaccessible Triage:** Access to a calm, knowledgeable entity that can listen, understand, and provide immediate contextual feedback is rarely available 24/7.
+
+Patients need a calming, highly accessible interface that bridges the gap between searching symptoms online and scheduling a doctor's appointment. They require a system that not only listens to their spoken symptoms in their native dialect but also visually demonstrates an understanding of the issue, providing immediate clarity and actionable next steps.
+
+**Challenges we ran into**
+
+### Challenges We Ran Into
+
+Baymax had some real-life challenges during its construction, but we didn't just bug-fix—we went ahead and made Baymax smarter, faster, and more inclusive for all.
+
+* **Slow 3D Model Performance** 
+The initial 3D anatomical body model was bulky and performed poorly on older devices. We worked around this by heavily optimizing the model, including performance settings, and ensuring that the WebGL canvas renders smoothly even on mobile phones.
+
+* **High API Credit Consumption** 
+Our ElevenLabs API credits were depleting too fast due to inefficient, continuous calls. We solved this by batching requests, caching typical conversational responses, and only triggering the generation of what we strictly needed. This architectural change saved 60% of our API credits.
+
+* **Jittery Camera Movements** 
+Initially, the camera would awkwardly jump between body parts, which destroyed the immersive holographic feel. We fixed this by rewriting the camera logic with native Three.js `lerp` functions. The camera now glides seamlessly and smoothly frames exactly what needs to be seen like a real 3D assistant.
+
+* **Bilingual Voice Recognition Issues** 
+Standard voice recognition was failing when users spoke conversational Hindi, completely missing key phrases like "sir dard" or "migraine". We remedied this by creating a custom bilingual keyword map (English + Hindi / Hinglish) and wrapping it in fuzzy matching logic. Now, even if there is a typo, slang, or mixed dialects, the app detects the intent flawlessly.
+
+Team **Team Syndicate** -- [Mannu Baveja](https://github.com/mannubaveja007/), [Suhaj Kanikicherla](https://github.com/SuhajKanikicherla), [Pusarla Vinay](https://github.com/pusarlavinay), [Bhavya Gupta](https://github.com/chezyburgy)
+
+`2026-03-08`
+
+---
+
+### LifeGuard Ai
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/lifeguard-ai-c18d) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Madhav-Garg/LifeGuard-ai) [![Built at](https://img.shields.io/badge/Built%20at-Hack--N--Win%203.0-0052CC?style=flat-square)](https://hacknwin-3.devfolio.co)
+
+> Quick, clear health answers from LifeGuard AI now!
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![Nodejs](https://img.shields.io/badge/Nodejs-333333?style=flat-square)
+
+**The problem it solves**
+
+LifeGuard AI gives you fast, plain-language health guidance before you decide on a clinic visit. In one place you can describe symptoms for AI triage, upload photos for a quick review, ask health questions, see when to seek urgent care vs. rest at home, find nearby hospitals, get diet and wellness tips tailored to your inputs, and export a simple report to share with a doctor—reducing uncertainty, saving time, and helping you act sooner.
+
+**Challenges we ran into**
+
+One hurdle was deployment: Vercel kept returning 404 because the app lives in a web subfolder and the production deployment was still using the repo root with the wrong Node version. I fixed it by setting Root Directory to web, switching Node to 20.x, and redeploying so the production domain pointed to the new build. Another challenge was aligning environment variables for the API routes; adding them in Vercel’s env settings (per .env.local.example) resolved missing-config errors.
+
+Team **Code Revenge** -- [Jatin Kumar](https://github.com/JatinxKumar), [Madhav Garg](https://github.com/Madhav-Garg)
+
+`2026-03-08`
+
+---
+
+### Heart health
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/heart-health-0c40) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/anandroy196/heart-health) [![Built at](https://img.shields.io/badge/Built%20at-Hack--N--Win%203.0-0052CC?style=flat-square)](https://hacknwin-3.devfolio.co)
+
+> https://github.com/anandroy196/heart-health
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square)
+
+**The problem it solves**
+
+Early prediction of heart risks 
+Life style management 
+Education and awarness
+
+**Challenges we ran into**
+
+Solve health diseases
+Privacy and data security.
+
+Team **The bug slayers** -- Anjali ., Anand Roy
+
+`2026-03-08`
+
+---
+
+### Anony-Talk
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/anonytalk-4bee) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://anony-talk-safespace.vercel.app/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=_UJxIkBNu_Q) [![Built at](https://img.shields.io/badge/Built%20at-Hack--N--Win%203.0-0052CC?style=flat-square)](https://hacknwin-3.devfolio.co)
+
+> Solving Mental Health Related Issues
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![MERN stack](https://img.shields.io/badge/MERN%20stack-333333?style=flat-square)
+
+**The problem it solves**
+
+We live in a world where communication is easier than ever, yet honest communication is becoming harder.
+
+Many people have thoughts, questions, concerns, or ideas they want to share—but they stop themselves. Not because they don’t care, but because they are afraid.
+
+Afraid of judgment.
+Afraid of embarrassment.
+Afraid of consequences.
+
+A student may hesitate to ask a “basic” question in class because they fear looking foolish.
+An employee might notice a serious issue at work but stay silent because speaking up could affect their career.
+Someone struggling with stress or mental health may want to talk, but not if their identity is attached to it.
+
+The result is a silent problem: people choose silence over honesty.
+
+Our project addresses this gap.
+
+We built a platform that allows people to communicate freely and safely through anonymity, while still maintaining a structured and responsible environment. By removing identity from the conversation, we remove the invisible social pressure that prevents many people from speaking up.
+
+What People Can Use It For:
+
+This platform opens up many meaningful possibilities:
+
+• Students can ask questions without fear of being judged.
+• Teams and organizations can receive honest feedback from employees.
+• Communities can discuss sensitive topics openly.
+• Individuals can seek advice or share thoughts without exposing their identity.
+• Researchers and developers can study anonymous interaction patterns to design healthier online platforms.
+
+In short, it creates a space where people can focus on ideas instead of identities.
+
+How It Improves Existing Solutions
+
+Most social platforms today are built around identity—profiles, followers, reputation systems. While these features encourage connection, they also introduce bias, social pressure, and fear of judgment.
+
+Our solution flips that model.
+
+Instead of asking “Who said this?”, the platform prioritizes “What is being said?”.
+
+By reducing identity pressure, communication becomes more honest, more open, and often more meaningful.
+
+At the same time, the system is designed with modern technologies and moderation mechanisms to ensure the space remains safe and constructive.
+
+The Human Impact
+
+At its core, this project is about something simple but powerful: giving people the courage to speak.
+
+It is for the student who has a question but is too shy to ask.
+For the employee who wants to improve their workplace.
+For the person who just needs a place to express what they feel.
+
+Technology should not only connect people—it should create spaces where people feel safe to be honest.
+
+This platform aims to do exactly that:
+to transform silence into conversation, hesitation into confidence, and isolation into connection.
+
+Because sometimes the most powerful voice someone has…
+is the one they can finally use without fear.
+
+**Challenges we ran into**
+
+Building this project was exciting, but it definitely came with its share of challenges. Like most real-world software projects, many of the hurdles appeared only after things started coming together.
+
+Anonymous Authentication
+
+One of the biggest challenges was implementing anonymous authentication.
+Since the goal of the platform is to allow users to communicate without revealing their identity, I needed a way to let users interact with the system without traditional accounts.
+
+At first, this caused several issues.
+
+Sometimes the system failed to create a session properly, and users would see errors when trying to post or fetch content. In some cases, the frontend attempted to interact with the backend before the anonymous session was fully established, which resulted in failed API calls and inconsistent behavior.
+
+To solve this, I implemented a check that ensures an anonymous session is created before any user interaction happens. The frontend now waits for authentication to complete before loading features that depend on it.
+
+This small change significantly improved reliability.
+
+Frontend–Backend Communication
+
+Another hurdle was handling API communication between the frontend and backend services. During development, I ran into a “Failed to fetch” error multiple times when the frontend attempted to call backend endpoints.
+
+This turned out to be related to incorrect environment configuration and deployment differences between the local environment and the production environment.
+
+To fix this, I carefully reviewed the environment variables and API base URLs, ensuring that the frontend dynamically loads the correct backend endpoint depending on the environment.
+
+Once this was corrected, the communication between services became stable.
+
+Deployment and Build Issues
+
+When deploying the project, I also encountered build problems during the deployment process. The application worked locally but failed during the automated build.
+
+This forced me to inspect the build logs carefully. The issue was caused by missing dependencies and incorrect project structure references during the build step.
+
+After adjusting the build configuration and ensuring all dependencies were correctly installed during deployment, the build process finally completed successfully.
+
+What I Learned
+
+These challenges reminded me that building software is not just about writing code — it is about debugging, testing assumptions, and gradually improving the system.
+
+Each bug forced me to understand the architecture more deeply, and solving them made the final project far more stable and reliable.
+
+In the end, those obstacles were not setbacks — they were part of the process that made the project stronger.
+
+Team **DHURANDHAR** -- Sejal Sabreen, Kumar Saurav, [Ishitha V](https://github.com/Ishita215), Sneh Raunak
+
+`2026-03-08`
+
+---
+
+### AI Health Guard Smart Disease Detection
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/ai-health-guard-smart-disease-detection-778b) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Harmanjot2211/AI-Health-Guard) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://youtu.be/8SE7Iuf0EHA) [![Built at](https://img.shields.io/badge/Built%20at-Hack--N--Win%203.0-0052CC?style=flat-square)](https://hacknwin-3.devfolio.co)
+
+> Analyze actionable and recommend
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+Millions of people around the world struggle to access timely and reliable healthcare guidance. Long wait times for doctor appointments often lead to delayed diagnoses, causing treatable conditions to worsen before medical intervention occurs. At the same time, over half of the global population lacks adequate access to qualified healthcare professionals and medical facilities, especially in underserved and remote areas.
+
+Additionally, individuals frequently face uncertainty about their symptoms, making it difficult to determine whether a condition is minor or requires urgent medical attention. This uncertainty can lead either to unnecessary panic and emergency visits or dangerous delays in seeking care.
+
+Compounding these issues are rising healthcare costs, where avoidable emergency room visits and consultations contribute billions of dollars in unnecessary healthcare spending every year.
+
+As a result, there is a critical need for accessible, affordable, and intelligent health guidance that helps individuals understand symptoms early, make informed decisions, and access the right level of care at the right time.
+
+**Challenges we ran into**
+
+Developing an AI health assistant involved challenges such as ensuring accurate symptom analysis, handling diverse medical data, and reducing false recommendations. Designing a user-friendly interface while maintaining medical reliability was critical. Additionally, addressing privacy concerns, integrating trusted medical knowledge, and building user trust were key obstacles throughout the development process.
+
+Team **Team tetra** -- Tanvi Batra, Harmanjot Singh, Amrit Kumar
+
+`2026-03-08`
+
+---
+
+### Sanjeevani
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/sanjeevani-6e14) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/raghvandrasingh111-sys/sanjeevani) [![Built at](https://img.shields.io/badge/Built%20at-Hack--N--Win%203.0-0052CC?style=flat-square)](https://hacknwin-3.devfolio.co)
+
+> Sanjeevani – Your Path to Better Health
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Dart](https://img.shields.io/badge/Dart-333333?style=flat-square) ![MySQL](https://img.shields.io/badge/MySQL-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Flutter](https://img.shields.io/badge/Flutter-333333?style=flat-square) ![AI/ML](https://img.shields.io/badge/AI/ML-333333?style=flat-square)
+
+**The problem it solves**
+
+Sanjeevani – Unified Digital Health Records Platform
+What People Can Use It For
+
+Sanjeevani is a digital health platform designed to store and manage a patient’s complete medical history in one secure place. Instead of carrying physical reports or searching through multiple hospital systems, users can access all their health records instantly through a single mobile application.
+
+Patients can upload and store prescriptions, lab reports, diagnoses, and medical history securely. Doctors and hospitals can access these records instantly with patient permission, helping them understand the patient's medical background and provide faster and more accurate treatment.
+
+The platform also allows patients to share their medical records using a QR code or secure link, making hospital visits smoother and eliminating paperwork.
+
+How It Makes Existing Healthcare Tasks Easier
+1. No More Lost Medical Reports
+
+Patients often lose or forget medical files. Sanjeevani stores everything digitally, ensuring that records are always available when needed.
+
+2. Faster Doctor Consultations
+
+Doctors can instantly see a patient's full medical history instead of asking repetitive questions or waiting for past reports.
+
+3. Reduced Repeated Medical Tests
+
+When hospitals cannot access previous reports, they often repeat tests. Sanjeevani helps doctors view past results and avoid unnecessary testing.
+
+4. Easy Record Sharing
+
+Patients can securely share their health records with doctors, hospitals, labs, or specialists through a QR code or secure digital access.
+
+How It Makes Healthcare Safer
+Better Medical Decisions
+
+Doctors get a complete view of patient history, which reduces the risk of incorrect prescriptions or treatments.
+
+Reduced Medical Errors
+
+Access to allergies, past illnesses, and medications helps doctors avoid dangerous drug interactions or incorrect diagnoses.
+
+Secure Data Protection
+
+All medical data is protected with end-to-end encryption and secure cloud storage, ensuring patient privacy and compliance with digital health standards.
+
+Who Benefits from Sanjeevani
+Patients
+
+Easy access to all medical records
+
+No need to carry physical documents
+
+Better control over personal health data
+
+Doctors
+
+Faster diagnosis with complete patient history
+
+Less time spent on paperwork
+
+Better collaboration with specialists
+
+Hospitals
+
+Faster patient onboarding
+
+Improved record management
+
+Reduced administrative workload
+
+Government & Healthcare Systems
+
+Better disease tracking and healthcare planning
+
+Reliable national health data
+
+Improved public healthcare services
+
+The Bigger Impact
+
+Sanjeevani helps build a connected digital healthcare ecosystem where patients, doctors, hospitals, and laboratories can securely share health information.
+
+By reducing paperwork, improving diagnosis accuracy, and enabling smarter healthcare decisions, Sanjeevani contributes to a more efficient, accessible, and safer healthcare system
+
+**Challenges we ran into**
+
+Challenges We Ran Into
+
+While building Sanjeevani – Unified Digital Health Records Platform, our team faced several technical and practical challenges during development. These hurdles helped us improve the system's design and reliability.
+
+1. Secure Medical Data Storage
+
+One of the biggest challenges was ensuring that sensitive patient health records remain secure and private. Medical data must be protected from unauthorized access while still allowing doctors to retrieve it quickly.
+
+How we solved it:
+We implemented secure authentication and encrypted database storage using Supabase and PostgreSQL. Role-based access control ensures that only authorized users (patients or doctors with permission) can view or upload records.
+
+2. Extracting Data from Medical Reports
+
+Medical reports often come in different formats such as PDFs, images, or scanned documents, which makes it difficult to automatically organize them into structured data.
+
+How we solved it:
+We integrated OCR technologies like Tesseract and Google Vision API to extract text from uploaded reports. Then we used NLP tools such as spaCy and Hugging Face models to identify important medical information like test names, prescriptions, and diagnoses.
+
+3. Interoperability Between Different Hospital Systems
+
+Hospitals and clinics use different software systems, which makes it difficult to create a unified health record platform that works everywhere.
+
+How we solved it:
+We designed our platform to follow standard healthcare data formats such as HL7 and FHIR, which makes it easier to integrate with existing hospital management systems.
+
+4. Building a Scalable and Fast System
+
+Handling large volumes of patient records and real-time access from doctors required a system that could scale efficiently without performance issues.
+
+How we solved it:
+We adopted a cloud-based architecture with Supabase backend services, allowing real-time database updates and scalable infrastructure that can support many users simultaneously.
+
+5. User Experience for Non-Technical Users
+
+Healthcare apps are used by people of all age groups, including patients who may not be very comfortable with technology.
+
+How we solved it:
+We focused on a simple Flutter-based mobile interface with clear navigation and minimal steps to upload, view, or share medical records.
+
+Team **Techno Creates** -- [Ayush Bhardwaj](https://github.com/Ayush-090)
+
+`2026-03-08`
+
+---
+
+### LifeAfterDiagnosis
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/lifeafterdiagnosis-4de9) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://lifeafterdiagnosis.vercel.app/) [![Built at](https://img.shields.io/badge/Built%20at-Hack--N--Win%203.0-0052CC?style=flat-square)](https://hacknwin-3.devfolio.co)
+
+> One Match Can Save A Life.
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+The Problem It Solves
+
+Fatal Delays in Matchmaking: Manually searching fragmented global donor registries for complex genetic and blood-type matches takes hospitals weeks, costing critical cancer patients their lives.
+
+The "Needle in a Haystack" Crisis: Patients have incredibly low chances of finding perfect HLA stem cell matches, especially across diverse ethnic backgrounds globally.
+
+Medical Fraud & Data Risks: Unverified, isolated donor platforms lack HIPAA-compliant cryptographic security to ensure patient data privacy and request authenticity.
+
+Lack of Guidance: Potential donors and terrified patients are overwhelmed by complex medical terminology without 24/7 accessible support to guide them.
+
+ Our Solution: "Life After Diagnosis"
+Life After Diagnosis is an intelligent, centralized network that makes finding a stem cell match faster, safer, and entirely automated.
+
+AI-Powered, Instant Matchmaking: A high-speed Machine Learning algorithm (K-Nearest Neighbours) replaces manual searches, analyzing millions of global data points instantly to rank the highest-percentage genetic donor matches for patients.
+
+Cryptographically Verified Hospitals: A secured Hospital Portal ensures that only medically-verified, registered institutions can upload requests or view data, guaranteeing a 100% authentic and HIPAA-compliant donor pool.
+
+ Automated Lifesaving Alerts: An event-driven Node.js pipeline triggers instant email notifications to donors the exact millisecond the AI algorithm discovers they are a perfect match, mobilizing them to save a life immediately.
+
+ 24/7 Gemini Medical Assistant: A real-time Google Gemini 2.5 AI Chatbot is integrated directly into the platform to provide compassionate, medically-accurate guidance and answer questions for both donors and patients instantly.
+
+**Challenges we ran into**
+
+Building a three-part medical platform from scratch was tough! Here were our biggest hurdles:
+
+Hosting a Complex AI Model:
+The hurdle: We built our custom donor-matching AI using heavy Python libraries (like scikit-learn). When we tried to deploy the whole project to Vercel, it immediately crashed because Vercel has tiny 50MB limits for serverless functions!
+The fix: We split the platform into microservices! We hosted the beautiful Next.js frontend on Vercel, but moved the heavy Python logic and our Node.js database server over to Render. It worked perfectly.
+
+Mobile Responsiveness on Complex SVGs:
+The hurdle: Our "AI Matching" visualization looked gorgeous on Desktop, but the complex 600px SVG neural network lines were horizontally stretching the screen on mobile phones, breaking the UI.
+
+The fix: We completely refactored the Tailwind classes. We replaced hard pixel heights with fluid 100dvh boundaries, wrapped the app in overflow-x-hidden, and built a dedicated, optimized vertical layout just for mobile users.
+
+Team **Innovatrix** -- [Aman Keshari](https://github.com/amanRajKeshari), [Md.khushtar Ali](https://github.com/Kaif2684)
+
+`2026-03-08`
+
+---
+
+### Medicore
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/medicore-a95b) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/aryan0416/medicore) [![Built at](https://img.shields.io/badge/Built%20at-Hack--N--Win%203.0-0052CC?style=flat-square)](https://hacknwin-3.devfolio.co)
+
+> Full-Stack hospital management platform with AI-po
+
+![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=flat-square) ![Express.js](https://img.shields.io/badge/Express.js-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![Antigravity](https://img.shields.io/badge/Antigravity-333333?style=flat-square)
+
+**The problem it solves**
+
+Modern hospitals manage large volumes of patient data, clinical records, lab results, and administrative workflows, but these systems are often fragmented across multiple tools. This fragmentation makes it difficult for healthcare staff to efficiently access patient information, manage hospital operations, and make timely decisions. As a result, hospitals face operational inefficiencies, increased administrative burden, and delays in clinical decision-making.
+
+At the same time, clinicians must constantly refer to medical guidelines, research papers, and treatment protocols to make evidence-based decisions. Manually searching through these sources during busy clinical workflows is time-consuming and can lead to information overload or missed insights.
+
+This project addresses both challenges by combining a hospital management platform with an AI-powered clinical knowledge system. The platform centralizes hospital operations such as patient management, encounters, billing, and reporting, while the AI system uses Retrieval-Augmented Generation (RAG) to retrieve relevant medical guidelines and research documents before generating responses. This enables healthcare professionals to quickly access operational data and evidence-based medical insights in one integrated system, improving efficiency and supporting better clinical decision-making.
+
+**Challenges we ran into**
+
+Integrating Multiple Technologies
+The system combines Next.js, Express, Supabase, FastAPI, and AI components, which required careful design of APIs and communication between services. Ensuring smooth interaction between the frontend, backend, and AI service was one of the main architectural challenges.
+
+Designing the RAG Pipeline
+Building the Retrieval-Augmented Generation (RAG) pipeline required handling document ingestion, text chunking, embeddings generation, and vector retrieval. Ensuring that the AI retrieves relevant clinical context before generating responses was critical to reduce hallucinations.
+
+Managing Structured and Unstructured Data
+The project had to handle structured hospital data (patients, encounters, billing) and unstructured medical documents (guidelines, research papers). Designing a system that could efficiently process and query both types of data required careful schema and storage decisions.
+
+Security and Access Control
+Since healthcare systems handle sensitive information, implementing secure authentication and role-based access control (RBAC) was important. Ensuring that only authorized users could access certain actions or data required middleware and permission checks.
+
+Building Scalable Architecture
+The project was designed to simulate a 200-bed hospital environment, which required thinking about modular architecture, database migrations, and scalable service separation between the hospital platform and the AI system.
+
+Ensuring Reliable AI Responses
+One of the key challenges was preventing AI hallucinations. The solution was to design the system so that answers are generated only after retrieving evidence from trusted clinical documents, and sources are included with responses.
+
+Team **Syntax Flux Frontiers** -- [Danishmeet Singh](https://github.com/danishmeet), Riya Maan, [Aryan Dahiya](https://github.com/aryan0416), Miss Priyanka
+
+`2026-03-08`
+
+---
+
+### SwayamShield
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/swayamshield-caf6) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Lovish00/SwayamShield---Copy.git) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/XLiyDfdnkkk?si=Ok0c_uEOS1091TI2) [![Built at](https://img.shields.io/badge/Built%20at-Hack--N--Win%203.0-0052CC?style=flat-square)](https://hacknwin-3.devfolio.co)
+
+> Empowering your healthcare journey.
+
+![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=flat-square) ![React.js](https://img.shields.io/badge/React.js-333333?style=flat-square)
+
+**The problem it solves**
+
+SwayamShield addresses the critical problem of delayed medical response during emergencies, especially in areas where patients struggle to quickly connect with hospitals, ambulances, and doctors. In many situations, people do not know which hospital has available beds, ambulances, or doctors, leading to wasted time that can cost lives. The platform provides a centralized healthcare emergency system where patients can instantly request an ambulance, track its arrival in real time, and connect directly with the hospital that is responding to the emergency.
+
+At the same time, hospitals and administrators gain a city-level view of healthcare resources, including available beds, doctors, ambulances, and emergency ward capacity across registered hospitals. This helps improve resource allocation, coordination, and faster medical decision-making. By combining real-time tracking, hospital connectivity, and intelligent health assistance in one platform, SwayamShield makes emergency healthcare faster, more organized, and more accessible for both patients and healthcare providers.
+
+**Challenges we ran into**
+
+While developing SwayamShield, we encountered several technical and design challenges. One of the main challenges was implementing real-time features, such as ambulance tracking and emergency status updates, because it requires proper synchronization between the patient interface, hospital panel, and backend data. Another difficulty was managing and displaying healthcare data effectively, such as hospital resources (beds, doctors, ambulances, and emergency wards) across different hospitals in a city while keeping the interface simple and understandable.
+
+We also faced challenges in designing a clean and responsive user interface, ensuring that the dashboard, hospital panels, and emergency sections remained visually clear while presenting multiple types of information. Integrating location-based features to detect the user's city and show relevant hospital data was another technical challenge. Additionally, implementing secure login and role-based access for patients, doctors, and admins required careful handling to prevent incorrect access (such as a patient logging into a doctor dashboard).
+
+Overall, balancing functionality, real-time healthcare needs, and user-friendly UI/UX while building a reliable system was one of the key challenges during the development of the platform.
+
+Team **The404s** -- Loveleen Dutta, Sourav Pandey, Lavisha Guglani, Lovish Bansal
+
+`2026-03-08`
+
+---
+
+### ArogyaAi
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/arogya-ai-d330) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/aarush0008x/arogya) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://arogya-bice.vercel.app/) [![Built at](https://img.shields.io/badge/Built%20at-Hack--N--Win%203.0-0052CC?style=flat-square)](https://hacknwin-3.devfolio.co)
+
+> ai health companion
+
+![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+Healthcare access remains a major challenge globally.
+
+People often face difficulties such as:
+
+• Lack of quick medical guidance
+• Difficulty understanding health symptoms
+• Delayed doctor consultation
+• No organized personal health tracking
+• Limited awareness of preventive healthcare
+
+Additionally, many individuals search for medical advice online but encounter unverified or confusing information, which can lead to incorrect self-diagnosis.
+
+As a result:
+
+• Minor health issues may escalate
+• Patients become anxious
+• Healthcare resources are inefficiently used
+
+**Challenges we ran into**
+
+1️⃣ Integrating AI with the Web Application 🤖
+
+One of the biggest challenges was connecting the AI model with our web application.
+We had to design a proper prompt structure so that the AI could understand the user’s symptoms and return useful results like possible conditions, risk level, and advice.
+
+How we solved it:
+We created a structured prompt and formatted the AI response into JSON so it could be easily displayed on the frontend.
+
+2️⃣ Handling Natural Language Symptoms 🧠
+
+Users can describe symptoms in many different ways. For example, someone might write “head pain” while another person writes “headache”. This makes symptom analysis challenging.
+
+Solution:
+We used an AI language model that can understand natural language and interpret different ways of describing symptoms.
+
+3️⃣ Designing a Simple and User-Friendly Interface 🎨
+
+Healthcare platforms can easily become complex, but we wanted ArogyaAI to be very simple and easy to use.
+
+Solution:
+We focused on a clean UI using Next.js and TailwindCSS, and designed the workflow as simple as possible:
+Login → Enter symptoms → Get AI results.
+
+4️⃣ Managing Health Data Securely 🔒
+
+Since the platform stores health-related information, data security and privacy were important concerns.
+
+Solution:
+We implemented JWT authentication and structured database storage so users can only access their own reports.
+
+5️⃣ Making the System Scalable 📈
+
+Another challenge was designing the system so it can handle more users in the future.
+
+Solution:
+We used a modular architecture separating frontend, backend, AI processing, and database, which allows the system to scale easily.
+
+6️⃣ Ensuring Responsible AI Usage ⚠️
+
+AI in healthcare must be used carefully because incorrect suggestions could mislead users.
+
+Solution:
+We added a clear disclaimer and designed the AI to provide general guidance instead of medical diagnosis, encouraging users to consult doctors when necessary.
+
+Team **Coffeebyte** -- Aarush Singh, Angel Verma, Renuka Saini
+
+`2026-03-08`
+
+---
+
+### CarePath
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/carepath-0336) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/satyajitmishra-dev/carepath) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://carepath-sandy.vercel.app/) [![Built at](https://img.shields.io/badge/Built%20at-The%20XiBit-0052CC?style=flat-square)](https://the-xibit.devfolio.co)
+
+> Your health Your route
+
+![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Express.js](https://img.shields.io/badge/Express.js-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![MERN stack](https://img.shields.io/badge/MERN%20stack-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![Leaflet.js](https://img.shields.io/badge/Leaflet.js-333333?style=flat-square) ![React.js](https://img.shields.io/badge/React.js-333333?style=flat-square)
+
+**The problem it solves**
+
+CarePath is a web app that helps users identify the right medical specialist based on their symptoms and **locate nearby clinics** on an **interactive map**. It provides **clear recommendations, urgency indicators, directions to clinics, and an emergency helpline button,** making healthcare navigation faster, safer, and more efficient. The app is especially useful for first-time patients or anyone seeking quick, reliable medical guidance.
+
+**Challenges we ran into**
+
+We faced several issues while building the app: **the UI initially had rendering problems, and API calls were not fetching data properly.** Additionally, our Over pass turbo dataset of 255 clinics was not in the correct GeoJSON format, so map markers displayed incorrectly or not at all. To overcome these challenges, **we debugged the frontend, corrected API endpoints**, and wrote a preprocessing script to transform the dataset into the required schema. These experiences taught us the importance of frontend-backend integration, data consistency, and thorough debugging.
+
+**AI / ML**
+
+For the MVP, we focused on delivering a fully functional end-to-end symptom-to-specialist system, so we implemented rule-based logic combined with the Gemini API to analyze symptoms and suggest specialists. This allowed us to validate the core workflow and user experience. While we haven’t integrated a full ML model yet, the project is designed to support AI/ML enhancements, such as using machine learning or NLP to analyze free-text symptoms, predict conditions, and detect urgency levels in future iterations.
+
+Team **NexAura** -- [Medha Parul](https://github.com/medhaparul8-wq), [DEBOJYOTI BAIN](https://github.com/DEBOJYOTI-BAIN), [Rupam Manna](https://github.com/nope6901), [Satyajit Mishra](https://github.com/satyajitmishra-dev)
+
+`2026-03-11`
+
+---
+
+### medimap
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/medimap-a1af) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Subhojeetacharjee/Exibit-hackathon-Code-x-.git) [![Built at](https://img.shields.io/badge/Built%20at-The%20XiBit-0052CC?style=flat-square)](https://the-xibit.devfolio.co)
+
+> Find the Right Medical Specialist
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![SQLite](https://img.shields.io/badge/SQLite-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+People often experience health symptoms but do not know which medical specialist they should consult. This confusion can lead to visiting the wrong doctor, wasting time, and delaying proper treatment. Additionally, finding nearby and affordable clinics quickly can be difficult. The project solves this by helping users input symptoms and instantly discover the appropriate specialist along with nearby clinics.
+
+**Challenges we ran into**
+
+While building this project, I faced several challenges.
+
+One challenge was accurately mapping symptoms to the correct medical specialist, since many symptoms overlap across different conditions. To solve this, I implemented a simple symptom-to-specialist mapping system using keyword detection.
+
+Another challenge was integrating map services to display nearby clinics. Setting up APIs like Google Maps required proper configuration and API keys. I resolved this by carefully configuring the API and testing it with sample location data.
+
+I also faced difficulty in obtaining reliable data about affordable clinics, since consultation fee data is not always publicly available. To address this in the prototype, I used sample clinic data with estimated consultation fees.
+
+Finally, designing a user-friendly interface was important. I focused on creating a clean and simple UI with clear inputs, results, and map visualization so users could easily understand the recommendations.
+
+**AI / ML**
+
+The project uses basic symptom analysis and keyword detection to recommend the correct medical specialist. This involves simple AI/ML or NLP-based logic to interpret user input and map symptoms to specialists.
+
+Team **CODE-X** -- [Subhojeet Acharjee](https://github.com/Subhojeetacharjee), [Dhiman Nath](https://github.com/nathdhiman005-svg), [Esha Parvin](https://github.com/Esha-Parvin)
+
+`2026-03-11`
+
+---
+
+### symptIQ
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/symptiq-d7e0) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://69b14e44ad50010837aabc3c--heroic-shortbread-e231b9.netlify.app/) [![Built at](https://img.shields.io/badge/Built%20at-The%20XiBit-0052CC?style=flat-square)](https://the-xibit.devfolio.co)
+
+> Everyone should use this for you health
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square)
+
+**The problem it solves**
+
+This is a project for your health
+
+Team **Shadow Coders** -- [Deboparna Ghosh](https://github.com/deboparna-XC), [Rohan Majumdar](https://github.com/RohanxCodec), [Srijit dam](https://github.com/srijitxc), [Arpita Paul](https://github.com/arpita167paul)
+
+`2026-03-11`
+
+---
+
+### The "Wellness Nudge" Web
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/the-wellness-nudge-web-89e7) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://team-dataflow-4ei8.vercel.app/) [![Built at](https://img.shields.io/badge/Built%20at-The%20XiBit-0052CC?style=flat-square)](https://the-xibit.devfolio.co)
+
+> Health First
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![JSON](https://img.shields.io/badge/JSON-333333?style=flat-square) ![Netlify](https://img.shields.io/badge/Netlify-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+1. Long Continuous Screen Time
+
+Many people (students, developers, office workers) sit for hours without breaks.
+
+Problems caused:
+
+Eye strain 👀
+
+Neck & back pain
+
+Poor posture
+
+Solution:
+The app reminds users to take micro-breaks like stretching or looking away from the screen.
+
+2.Dehydration During Work
+
+People often forget to drink water when focused on work.
+
+Problems caused:
+
+Headache
+
+Fatigue
+
+Reduced concentration
+
+Solution:
+The app sends hydration reminders during work sessions.
+
+3. Mental Stress & Burnout
+
+Continuous work without rest leads to:
+
+Mental fatigue 🧠
+
+Stress
+
+Low productivity
+
+Solution:
+The app suggests breathing exercises or short relaxation breaks.
+
+4. Lack of Healthy Work Routine
+
+Many users do not follow a structured work–break cycle.
+
+Solution:
+The app uses a work timer + gamification to build healthy habits.
+
+Example:
+
+Work 25 minutes
+
+Take a 2–3 minute break
+
+Get points for completing breaks 🎮
+
+5. Low Motivation to Follow Healthy Habits
+
+People ignore reminders if they are boring.
+
+Solution:
+Gamification:
+
+Points 🏆
+
+Streaks 🔥
+
+Progress bar
+
+Rewards for healthy behavior
+
+Team **TEAM DATAFLOW** -- [Shambhu Pradhan](https://github.com/Shambhu721426), [Aritra Mandal](https://github.com/aritracoder-435), [Bubai Das](https://github.com/coded-by-bubai), [Argha Dey](https://github.com/mrarghadey-commits)
+
+`2026-03-11`
+
+---
+
+### Health-Tech and Wellbeing Project
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/healthtech-and-wellbeing-project-b28e) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://mamun-9t3.github.io/Health-and-Wellbeing/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/kVoT1R8bBU4) [![Built at](https://img.shields.io/badge/Built%20at-The%20XiBit-0052CC?style=flat-square)](https://the-xibit.devfolio.co)
+
+> Wellness Nudge website
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square)
+
+**The problem it solves**
+
+Health Companion is a web-based health assistance platform that helps users manage wellness and access quick medical guidance. It includes a wellness timer, symptom checker that suggests appropriate specialists, an AI-powered doctor chatbot, and a GPS-based hospital finder. The system also detects potential emergencies and provides navigation to the nearest hospital.
+
+**Challenges we ran into**
+
+Integrating the AI chatbot
+
+Team **The repo bloomers** -- [Bristi Santra](https://github.com/slyrn-star), [MdMamun Alam](https://github.com/Mamun-9t3), [RAMIZ ALI](https://github.com/aliramij), [Aryan Goldar](https://github.com/agoldar649-dev)
+
+`2026-03-11`
+
+---
+
+### MediNova
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/medinova-4be8) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/RajanyaMondal/Health-Analyze) [![Built at](https://img.shields.io/badge/Built%20at-The%20XiBit-0052CC?style=flat-square)](https://the-xibit.devfolio.co)
+
+> Smart Health, Better Care
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+Many people struggle to understand their health symptoms and often do not know which specialist doctor they should consult. This leads to delays in getting proper treatment and unnecessary hospital visits.
+
+Medinova solves this problem by allowing users to enter their symptoms and receive guidance about possible health issues and the appropriate medical specialists. The platform simplifies the process of finding the right doctor and enables users to easily book consultations online.
+
+It also reduces the time spent searching for healthcare information by providing a centralized platform where users can check symptoms, discover recommended doctors, and schedule appointments in one place. This makes healthcare access faster, more convenient, and more organized for patients.
+
+**Challenges we ran into**
+
+While building **Medinova**, I faced several technical and design challenges. One major challenge was implementing the **symptom input system** so that users could easily describe their health issues and get relevant suggestions. Mapping symptoms to possible medical specialties required careful logic and structuring of the data.
+
+Another challenge was integrating **secure user authentication and appointment booking functionality**. Ensuring that users could register, log in, and book consultations smoothly without errors required proper backend validation and database handling.
+
+I also faced difficulties while designing a **clean and user-friendly dashboard**, where users could view doctor recommendations, manage bookings, and track their health information. Balancing functionality with a modern UI required several iterations.
+
+To overcome these challenges, I researched documentation, tested different approaches, debugged errors, and improved the system step by step. This process helped me strengthen my understanding of **full-stack development, API integration, and user-centered design**.
+
+**Sustainability**
+
+it solve peoples health issues
+
+Team **Cuties** -- [Rohit Patra](https://github.com/ROHIT123-rr), [Rohit Mandal](https://github.com/rohitmandal2004), [Debjyoti Das](https://github.com/Deb911), [Rajanya Mondal](https://github.com/RajanyaMondal)
+
+`2026-03-11`
+
+---
+
+### Wellness Nudge
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/wellness-nudge-9fde) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/AmritaChakraborty217/WellNudge-Pro) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://well-nudge-pro.vercel.app/) [![Built at](https://img.shields.io/badge/Built%20at-The%20XiBit-0052CC?style=flat-square)](https://the-xibit.devfolio.co)
+
+> "Work smarter. Break better. Feel the difference."
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square)
+
+**The problem it solves**
+
+Most people who work on computers know they should take breaks — but they don't. Not because they're lazy, but because no tool reminds them in a way that actually fits their rhythm.Existing solutions are either too generic (a simple timer), too aggressive (constant popups), or too complicated (enterprise wellness platforms). Nothing learns from you. Nothing adapts.
+**NudgeWell fixes that.**
+**NudgeWell doesn't just remind you to take a break. It knows which break you need, why you need it right now, and makes sure you actually want to take it.**
+
+**Challenges we ran into**
+
+🐛 Challenges I Ran Into
+
+1. SVG Ring Not Rendering on Load
+The timer ring was invisible on every page load. Cause: strokeDasharray was set after updateDisplay(). Fixing the order of two lines in init() solved it instantly.
+
+2. Double XP Bug
+Every break awarded +20 XP instead of +10. The completeBreak() function was firing twice — from the button click and the interval hitting zero simultaneously. Fixed with a simple breakCompleted boolean guard flag.
+
+3. Daily Counter Never Resetting
+Break counts carried over across days. Added a wn_break_day key in localStorage that compares today's date on every load and resets all daily counters when the date changes.
+
+4. Confetti Invisible on Screen
+Confetti pieces vanished immediately. The cause was using vw as an inline CSS unit — which browsers silently reject. Changing one character from 'vw' to '%' fixed it.
+
+5. AI Pill Getting Pushed by the Panel
+The Wellness AI pill shifted position whenever the chat panel opened. Pill and panel were flex siblings, so the hidden panel still occupied layout space. Fixed by giving both independent position: fixed values and making the wrapper a zero-height ghost element.
+
+6. Streak Not Saving
+Streak reset to 1 on every refresh. The saveState() function was saving everything except streak. One missing localStorage.setItem('wn_streak', streak) line was the entire bug.
+
+7. Guided Audio Cutting Off
+Speech synthesis cut off mid-sentence on Chrome. Chrome silently kills long utterances. Fixed by splitting audio into short sentences and chaining them through the onend callback instead of firing simultaneously.
+
+**Health & WellBeing**
+
+🏥 Health & Wellbeing Track
+NudgeWell directly addresses one of the most overlooked health crises of the modern age — sedentary desk work and digital burnout.
+The average knowledge worker sits for 8–10 hours a day, skips water for hours at a time, and never stops to breathe intentionally. Over time this leads to chronic back pain, dehydration, eye strain, anxiety, and cognitive fatigue. Most people know this. Most people do nothing about it — because no tool makes it easy enough.
+NudgeWell sits at the intersection of behavioral science and preventive wellness. Every feature is rooted in a real health outcome:
+
+🤸 Stretch breaks → prevent musculoskeletal strain from prolonged sitting
+💧 Hydration nudges → combat the 15% cognitive drop caused by mild dehydration
+🌬️ Breathing exercises → reduce cortisol levels and manage workplace stress
+😊 Mood tracking → builds self-awareness around emotional patterns during work
+🤖 AI personalization → ensures the right intervention reaches the user at the right moment, not at a fixed arbitrary time
+
+What makes NudgeWell uniquely suited to this track is that it doesn't just inform — it intervenes. It doesn't show you a wellness dashboard and hope you act on it. It actively learns your behavior, detects risk windows like hydration gaps and post-lunch slumps, and delivers a targeted micro-intervention before the health impact compounds.
+The gamification layer — XP, streaks, quests, and a virtual plant — is not cosmetic. It is a deliberate behavioral design choice based on habit formation research. Small rewards at the moment of the healthy action are proven to increase long-term compliance far more effectively than guilt or generic reminders.
+
+**NudgeWell doesn't treat wellness as a feature. It makes wellness the entire product — personalized, proactive, and built into the rhythm of how people already work.**
+
+Team **The Three Musketeers** -- [Sk Shahanjum](https://github.com/shahanjumsk-maker), [Siddhartha Ghosal](https://github.com/Siddhartha-Ghosal), [Amrita Chakraborty](https://github.com/AmritaChakraborty217)
+
+`2026-03-11`
+
+---
+
+### wellness nudge
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/wellness-nudge-1f99) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/majisoumya/wellness-nudge.git) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://wellness-nudge.vercel.app/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtube.com/shorts/6O_ZhsyoJhQ?feature=share) [![Built at](https://img.shields.io/badge/Built%20at-The%20XiBit-0052CC?style=flat-square)](https://the-xibit.devfolio.co)
+
+> This is helpfull for work life balence.
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![GitHub](https://img.shields.io/badge/GitHub-333333?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square)
+
+**The problem it solves**
+
+Wellness Nudge is a smart, non-intrusive web application designed to balance deep focus with essential wellness breaks. It acts as a calm companion that reminds you to breathe, stretch, hydrate, and rest your eyes—without breaking your flow or adding to the noise.
+
+**Challenges we ran into**
+
+1. Accurate Presence Detection
+Detecting whether the user is actually present or distracted using webcam-based AI can be difficult due to lighting conditions, camera angle, or movement.
+
+2. Privacy Concerns
+Users may feel uncomfortable allowing webcam access for monitoring presence.
+
+3. False Alerts
+The system may incorrectly send reminders even when the user is focused.
+
+4. Balancing Notifications
+Too many wellness nudges can interrupt productivity instead of helping it.
+
+5. Browser Permission Issues
+Many users may deny camera permission, limiting AI presence detection.
+
+6. Performance Overhead
+Running TensorFlow.js models in the browser may increase CPU/GPU usage and slow down the system.
+
+7. Accurate Wellness Tracking
+Hydration, stretching, and breaks often rely on user input, which may not always be accurate.
+
+8. Cross-Browser Compatibility
+Different browsers handle Web APIs and camera access differently.
+
+9. 3D UI Performance
+Interactive 3D backgrounds can reduce performance on low-end devices.
+
+10. Data Security
+User activity and health data must be stored securely to prevent privacy risks.
+
+**Web3**
+
+1. HealthTech & Wellbeing
+Focuses on improving physical and mental health through technology.
+Your app helps reduce burnout, eye strain, and sedentary lifestyle, making it a strong fit.
+2. Al / Machine Learning
+Your project uses TensorFlow.js for presence detection, which applies Al to monitor user focus and
+attention.
+3. Future of Work / Productivity
+Targets tools that improve how people work in the digital era.
+Wellness Nudge helps maintain healthy productivity habits.
+4. Human-Centered Technology
+Focuses on building technology that prioritizes user wellbeing and experience rather than just
+efficiency.
+5. Web Innovation
+Your app uses modern web technologies such as React, TypeScript, Vite, WebGL, and Supabase,
+showcasing advanced web development.
+6. Digital Wellness
+Focuses on solving issues like screen addiction, digital fatigue, and work-life balance.
+7. Smart Lifestyle / Lifestyle Tech
+Technology solutions that improve everyday life habits, such as health tracking and daily productivity
+
+Team **NeuroX** -- [Soumyadip Maji](https://github.com/majisoumya), [SAYAN PAUL](https://github.com/Sayan-Official-32/), [Rohan Roy](https://github.com/Rohan-SDE), [SUKHENDU PAL](https://github.com/RohanGit-497)
+
+`2026-03-11`
+
+---
+
+### Health-Mate
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/healthmate-6e56) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/sarniva/health-mate) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtube.com/shorts/O0ITIUQTNMs?feature=share) [![Built at](https://img.shields.io/badge/Built%20at-The%20XiBit-0052CC?style=flat-square)](https://the-xibit.devfolio.co)
+
+> Your daily wellness companion
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+# Health-Mate: What Problem Does It Solve?
+
+## The Problem
+Modern workers struggle with sedentary lifestyles, dehydration, and lack of exercise motivation. Tracking health goals manually is tedious, and without accountability, habits rarely stick.
+
+## What Health-Mate Solves
+
+### 1. **Sedentary Work Lifestyle**
+- Automatically reminds users to take breaks during work sessions
+- Tracks break compliance and rewards consistency
+- Gamification makes break-taking fun, not a chore
+
+### 2. **Dehydration & Health Neglect**
+- Smart reminders for hydration throughout the day
+- Logs water intake and celebrates daily goals
+- Tracks BMI and personal health metrics in one place
+
+### 3. **Exercise Motivation**
+- Gamification system awards points for workouts
+- Achievements unlock (e.g., "Exercise Enthusiast" after 10 sessions)
+- Global leaderboards create friendly competition
+
+### 4. **Smoking Cessation**
+- Tracks smoke-free streaks (starting at 7 days, up to 100+ days)
+- Logs craving levels to understand triggers
+- Rewards with high-value achievements and points
+
+### 5. **Habit Accountability**
+- Global leaderboards show user rankings by tier (Bronze → Platinum)
+- Local peer challenges let friends compete
+- Streaks motivate consistency (longer streaks = more points)
+
+## How It Makes Tasks Easier/Safer
+
+✅ **Easier** - Single app to track health, work sessions, and activities  
+✅ **Safer** - Automatic reminders prevent health neglect during work  
+✅ **Motivating** - Points, achievements, and leaderboards drive engagement  
+✅ **Data-Driven** - Clear metrics on BMI, points, streaks, and tier progress  
+✅ **Social** - Peer challenges create community and accountability  
+
+## Use Cases
+
+- **Office Workers** - Take healthy breaks, stay hydrated, maintain fitness
+- **Smokers Quitting** - Track smoke-free days with celebration milestones
+- **Fitness Enthusiasts** - Log workouts, compete on leaderboards
+- **Remote Teams** - Create peer challenge groups for wellness accountability
+
+**Challenges we ran into**
+
+# Challenges & Bugs Encountered
+
+## 1. **Clerk → JWT Migration**
+**Problem:** Initially implemented Clerk for authentication, but it added unnecessary complexity and vendor lock-in.
+
+**Solution:** Migrated to JWT + bcrypt for self-managed authentication:
+- Removed `@clerk/express` dependency
+- Implemented custom JWT token generation/verification
+- Added bcrypt password hashing with pre-save hook
+- Updated all middleware to use JWT instead of Clerk
+- **Result:** Simpler, lighter, fully controlled authentication ✓
+
+---
+
+## 2. **Mongoose Pre-Save Hook Issue**
+**Problem:** Password hashing pre-save hook was calling `next()` parameter, causing incompatibility with Mongoose 9.3.
+
+**Solution:** 
+- Removed `next()` parameter call from async pre-save hook
+- Mongoose 9.3 handles async hooks differently than older versions
+- Hook now completes naturally without next callback
+- **Result:** Password hashing works correctly ✓
+
+---
+
+## 3. **Zod Date String Parsing**
+**Problem:** `z.date()` doesn't automatically parse ISO 8601 date strings from JSON requests, causing validation failures.
+
+**Solution:**
+- Replaced `z.date()` with `z.coerce.date()` across all schemas
+- Applied to: Activity, WorkSession, HealthProfile models
+- Now accepts both Date objects and ISO date strings
+- **Result:** Flexible date input handling ✓
+
+---
+
+## 4. **Achievement Badge Type Enum Mismatch**
+**Problem:** Achievement model enum had 10 values, but `ACHIEVEMENTS_CONFIG` constants defined 21 achievement types. Caused validation errors when awarding achievements.
+
+**Solution:**
+- Updated Achievement model enum to include all 21 badge types
+- Aligned with constants: `first_steps`, `kickstarter`, `water_master`, `smoking_slayer`, etc.
+- Fixed: `badgeType: 'first_steps' is not a valid enum value` error
+- **Result:** All achievements can be awarded correctly ✓
+
+---
+
+## 5. **Request Body Validation vs JWT Extraction**
+**Problem:** Zod schemas required `userId` in request body, but controller extracted it from JWT token. Caused "Invalid request body" errors.
+
+**Solution:**
+- Made `userId` optional in all request schemas
+- Schemas now accept data without userId (extracted from JWT by controller)
+- Applied to: HealthProfile, Activity, WorkSession, Achievement models
+- **Result:** Cleaner API requests, token-based user identification ✓
+
+---
+
+## 6. **Missing Optional Field Defaults**
+**Problem:** Activity and WorkSession endpoints failed because required fields weren't set when not provided in requests.
+
+**Solution:**
+- Made `date` optional in activity schemas (defaults to current date)
+- Made `sessionId` optional for break logging (allows manual breaks)
+- Set `workDuration` default to `duration` in controller
+- **Result:** Flexible input, sensible defaults ✓
+
+---
+
+## Key Learnings
+
+- **JWT + bcrypt > Clerk** for control and simplicity
+- **z.coerce.date()** over z.date() for API flexibility  
+- **Optional request fields** with JWT extraction is cleaner UX
+- **Enum mismatches** between models and configs cause runtime errors
+- **Mongoose 9.3** has different async hook behavior than older versions
+
+All issues resolved. API fully functional with 38+ endpoints tested ✓
+
+Team **Ad Astra** -- [Mehedi Hasan](https://github.com/mehedihasan-coder), [Imran Ali](https://github.com/imranali5), [Sarniva Das](https://github.com/sarniva), [Aparup Santra](https://github.com/Aparup321)
+
+`2026-03-11`
+
+---
+
+### Cura-AI
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/curaai-7361) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/rahulkadvasara/cura-ai) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://docs.google.com/presentation/d/178JHoAzw5gA9Wcm2eOdtBBtgWjut4qrm/edit?usp=sharing&ouid=100442616736790137201&rtpof=true&sd=true) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/pTr2wxVyHyg?si=Gb2dtM59Tw0ibkX2) [![Built at](https://img.shields.io/badge/Built%20at-AceHack%205.0-0052CC?style=flat-square)](https://acehack5.devfolio.co)
+
+> A Safety-Aware Multi-Agent Healthcare Assistant
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Artificial Intelligence](https://img.shields.io/badge/Artificial%20Intelligence-333333?style=flat-square) ![SQLite](https://img.shields.io/badge/SQLite-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![SHA-256 Hashes](https://img.shields.io/badge/SHA--256%20Hashes-333333?style=flat-square)
+
+**The problem it solves**
+
+Healthcare information is often **difficult for patients to understand and manage**. Medical reports contain complex terminology, drug interactions can be dangerous if unnoticed, and patients frequently forget to take medications on time. Additionally, many AI health tools do not consider **safety, context, or privacy**, which is critical when dealing with sensitive medical data.
+
+**Cura AI addresses these challenges by making healthcare guidance more accessible, safe, and personalized.**
+
+People can use Cura AI to:
+
+- **Understand medical reports easily** – Upload a lab report or medical image and receive a simple explanation in everyday language.
+- **Check drug interactions before taking medicines** – The system analyzes potential risks between medications and warns users if interactions may occur.
+- **Manage medication reminders** – Users can set reminders using natural language (e.g., *“Remind me to take Aspirin at 8 PM”*).
+- **Get symptom guidance** – Users can describe symptoms and receive structured advice including possible causes, urgency level, and recommended actions.
+- **Interact through voice** – Users can ask health questions or set reminders using voice input.
+- **Protect sensitive medical data** – The system uses encryption and access control to secure user health information.
+
+By combining **AI reasoning, safety checks, and privacy protection**, Cura AI helps users make **safer and more informed healthcare decisions** while simplifying everyday health management.
+
+**Challenges we ran into**
+
+### 1. Handling Medical Data Security
+One major challenge was ensuring that **sensitive medical data was stored securely**. Since the system stores medicines, reminders, and report summaries, we implemented **encryption using Fernet** to protect stored health data. However, after adding encryption, older records stored in plain text caused decryption errors.  
+To solve this, we implemented **safe decryption handling**, allowing the system to work with both encrypted and previously stored data.
+
+### 2. Formatting AI Responses for Better UX
+Initially, AI responses were returned as **long unstructured text**, which made them difficult to read. For example, drug interaction results and symptom explanations appeared in a single line without proper sections.  
+We solved this by **parsing structured keywords** like Risk, Summary, Urgency, etc., and converting them into **formatted UI blocks with colors and sections** to make the output easier to understand.
+
+### 3. Managing Multi-Agent Coordination
+The project uses multiple specialized agents (Symptom, Report, Reminder, Drug Interaction). Coordinating them correctly through a **central routing system** was challenging.  
+We solved this by implementing a **Coordinator Agent** that detects the user's intent and routes the request to the correct agent, ensuring modular and scalable architecture.
+
+### 4. Handling Context and Memory
+Maintaining **user context (medicine history and conversation memory)** was necessary for accurate responses like drug interaction analysis. Designing a system that combines **session memory and persistent memory** required careful structuring to avoid duplicate or inconsistent data.
+
+These challenges helped improve the system’s **security, reliability, and user experience**, making the final product more robust and safe for healthcare use.
+
+**Best Use of Gemini API**
+
+Cura-AI is designed as a **multi-agent healthcare assistant powered by large language models**. The system architecture is model-agnostic, allowing us to easily integrate and run **Google’s Gemini API** for medical reasoning tasks.
+
+In our project, Gemini is used to power several critical healthcare intelligence modules:
+
+### 1. Medical Report Understanding
+Users can upload medical reports (lab reports, blood test results, etc.).  
+The system extracts text using OCR and sends it to the Gemini model, which generates **simple, patient-friendly explanations** of complex medical data along with a **risk assessment level (Low / Moderate / High)**.
+
+### 2. Symptom Analysis and Guidance
+Gemini helps analyze user-described symptoms and produces structured responses including:
+- Possible causes
+- Urgency level
+- Recommended actions
+- Emergency guidance
+
+This allows users to receive **quick preliminary health guidance** before consulting a medical professional.
+
+### 3. Drug Interaction Safety Analysis
+When users set medicine reminders, Gemini analyzes the **interaction risk between multiple medications** and generates safety warnings when potentially harmful combinations are detected.
+
+### 4. Natural Language Health Interaction
+Gemini enables users to interact with Cura AI using **natural language queries**, allowing the system to understand intent such as:
+- setting medicine reminders
+- asking about symptoms
+- requesting report explanations
+
+### Why Gemini is Valuable for This System
+Healthcare queries require **contextual reasoning, safety awareness, and structured responses**. Gemini’s strong language understanding capabilities allow Cura AI to:
+
+- Interpret complex medical text
+- Generate clear explanations for non-medical users
+- Provide structured safety guidance
+- Support conversational healthcare assistance
+
+By integrating Gemini into a **multi-agent architecture**, Cura AI demonstrates how Gemini can power **intelligent, safe, and accessible healthcare assistants**.
+
+![image](https://assets.devfolio.co/content/75613629feac4b59bbc3202eed1021c0/2a07fa52-6e89-4401-9fe4-d49f1fcbdb66.png)
+
+**Best Use of Auth0**
+
+Cura-AI handles **highly sensitive healthcare data**, making secure authentication and identity management a critical part of the system. Our architecture is designed to integrate with modern authentication platforms like **Auth0** to ensure secure user identity verification and controlled access to medical data.
+
+### Secure User Authentication
+Users must authenticate before accessing the healthcare assistant. Each user account is uniquely identified, and all interactions with the system are tied to that identity. This ensures that **medical history, reminders, and reports are securely linked to the correct user**.
+
+### Access Control for Medical Data
+Every backend API request includes the authenticated user's identity. The backend verifies that the requesting user is allowed to access the requested resources before processing the request. This prevents unauthorized access to sensitive healthcare information such as:
+- medical reports
+- medication reminders
+- health conversation history
+
+### Protection of Sensitive Health Information
+Healthcare data is extremely sensitive. To ensure privacy and security, the system enforces:
+- **identity verification for every API request**
+- **user-level data isolation**
+- **encrypted storage for medical records**
+
+By combining **secure authentication, identity verification, and access control**, Cura AI ensures that users maintain full control over their personal healthcare data.
+
+### Why This Matters
+Healthcare applications require strong identity protection to prevent data misuse. Integrating authentication platforms like **Auth0** enables Cura AI to provide **secure, scalable, and privacy-first healthcare assistance**, ensuring that personal medical information is protected at every interaction.
+
+![image](https://assets.devfolio.co/content/75613629feac4b59bbc3202eed1021c0/6dd69436-3850-40b9-b09e-68b71698686c.png)
+
+**Best Hack Built with Google Antigravity**
+
+Google Antigravity was used as our primary **AI-native development environment** while building Cura AI. It significantly accelerated development by helping us design, iterate, and debug different parts of our multi-agent healthcare system.
+
+### Rapid AI Prototyping
+Using Antigravity’s AI-assisted coding capabilities, we quickly prototyped multiple healthcare agents including the **Symptom Agent, Report Analysis Agent, Drug Interaction Agent, and Reminder Agent**. This allowed us to experiment with different prompt structures and response formats efficiently.
+
+### Faster Debugging and Iteration
+While integrating multiple APIs, OCR processing, and backend routing, Antigravity helped us **debug issues faster**, suggest improvements to our Python and JavaScript code, and optimize our architecture during the hackathon.
+
+### Multi-Agent System Development
+Our system required coordinating several specialized AI agents through a **central coordinator architecture**. Antigravity helped us iterate on this architecture rapidly and test different routing strategies for symptom analysis, report summarization, and medication safety checks.
+
+### Productivity During the Hackathon
+Because hackathons require rapid development under tight time constraints, Antigravity enabled us to:
+- write and refactor backend logic faster
+- test AI prompts and workflows quickly
+- iterate on UI and API integrations efficiently
+
+This allowed our team to focus more on **building meaningful healthcare functionality** rather than spending excessive time on debugging and repetitive coding tasks.
+
+By using Google Antigravity as our development environment, we were able to **accelerate the creation of a complex AI-powered healthcare assistant within the hackathon timeframe**.
+
+Team **Aurix** -- [Rahul Kumar](https://github.com/rahulkadvasara)
+
+`2026-03-08`
+
+---
+
+### EcoRoute
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/ecoroute-dd67) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Alman8904/EcoRoute) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://vimeo.com/1171435707?share=copy&fl=sv&fe=ci) [![Built at](https://img.shields.io/badge/Built%20at-AceHack%205.0-0052CC?style=flat-square)](https://acehack5.devfolio.co)
+
+> Healthy Route Navigation
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Express.js](https://img.shields.io/badge/Express.js-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![Supabase](https://img.shields.io/badge/Supabase-333333?style=flat-square)
+
+**The problem it solves**
+
+Every navigation app today answers one question: "How do I get there fastest?" But for the 400+ million people worldwide with respiratory conditions — and for children, seniors, and urban commuters breathing polluted air daily — how clean the air is along the route matters just as much as travel time.EcoRoute solves the invisible danger of air pollution during daily commutes.Most people have no idea that two routes of similar length can differ by 30–40% in PM2.5 exposure. They don't know whether to leave now or wait 30 minutes for rush-hour pollution to clear. They have no concept of how much pollution they've already inhaled today, or how close they are to the WHO's safe daily limit.What people can use it for:
+Asthma/allergy sufferers can pick the route that minimises airway irritants, using a dedicated health profile with a 35% sensitivity multiplier that adjusts every recommendation.
+Parents can use the "Child" profile to plan school commutes and outdoor activities with tighter daily exposure budgets.
+Urban cyclists and joggers who breathe harder and inhale more pollution per kilometre than car passengers can compare up to 3 alternative routes side-by-side and pick the cleanest one.
+Senior citizens can benefit from personalised departure timing advice — the AI card tells them whether to leave now, wait 30 minutes, or wait an hour based on a real 12-hour air quality forecast.
+Anyone commuting in polluted cities can track their daily and weekly pollution "budget" with a visual radial meter, build streaks of healthy days, and get alerted when they're approaching the WHO daily PM2.5 limit.
+Health-conscious commuters get a lung visualiser that fills like a tank — showing exactly how many micrograms of PM2.5 they'll inhale on a given route, expressed as a percentage of the WHO daily safe limit.
+
+**Challenges we ran into**
+
+1. Getting truly different alternative routes from ORS
+OpenRouteService's alternative_routes API was finicky — in many city geographies it returned only 1 route even when 3 were requested. We had to tune weight_factor (how much longer a route could be) and share_factor (how different it had to be in waypoints) iteratively. We also had to gracefully handle the case where ORS returns a FeatureCollection vs a plain route object, since the shape of the response changed depending on the endpoint variant we used.
+2. AQI data sparsity crashing the scoring pipeline
+WAQI only has stations in certain locations. When sampling 3 GPS points along a route, we'd frequently get null or undefined AQI back for rural or mid-route points. This caused NaN health scores and broken UI states. We fixed it with defensive averaging — filtering out nulls before computing the mean, and falling back to AQI-based scoring (instead of the more accurate PM2.5-based formula) when real PM2.5 data was unavailable. The mock fallback mode ([45, 120, 72]) was added to unblock demos entirely.
+3. Leaflet + React StrictMode double-initialization
+React 19 with StrictMode runs useEffect twice in development, which caused Leaflet to initialize two map instances on the same DOM node, breaking the map with a silent white screen. The fix was lazy-loading Leaflet via import('leaflet') inside useEffect and tracking a mapInitialized ref — so the second StrictMode call was a no-op.
+4. LLM API reliability under hackathon time pressure
+The Gemini and OpenAI keys both had rate-limit or latency issues during testing. Rather than let a failed AI call break the whole departure card, we built a 3-tier cascade: Gemini → OpenAI → deterministic rule-based fallback. Each tier has an 8-second timeout. This meant the Decision Card always rendered something useful even under zero-key demo conditions.
+5. PM2.5 dose formula calibration
+The lung visualiser only makes sense if the numbers feel medically grounded. We had to research WHO guidelines (25 μg/m³ daily safe limit), breathing rates for light walking (~18 L/min), and inhalation fraction to arrive at a formula that produced intuitive results — low numbers for clean short routes, alarming numbers for long rush-hour commutes. Getting the BREATHING_RATE_FACTOR and duration scaling right took several iterations of sanity-checking against real-world exposure studies.
+
+**Best Use of Gemini API**
+
+You've selected the "Best Use of Gemini API" track. Here's what to write in the explanation box:
+
+EcoRoute uses the Gemini 1.5 Flash API as the primary AI reasoning engine for its departure decision card — one of the app's most distinctive features.
+When a user plans a route, EcoRoute doesn't just show air quality data — it uses Gemini to synthesise real-time AQI readings, PM2.5 levels, the user's health profile (General / Asthma / Child / Senior), and a 12-hour Open-Meteo forecast into a plain-language, actionable recommendation: leave now, wait 30 minutes, or wait an hour.
+The Gemini prompt is tightly constrained to 150 tokens and given rich context — current AQI, predicted future AQI, time of day (rush hour vs off-peak), and the user's medical sensitivity multiplier. This ensures responses are personalised, concise, and medically grounded rather than generic.
+Gemini is the first tier in a 3-tier AI cascade (Gemini → OpenAI GPT-4o-mini → rule-based fallback), with an 8-second timeout per tier — guaranteeing the feature always works even under API instability during a live demo.
+
+Team **MetaMinds** -- [Rishikesh Dhote](https://github.com/rishikeshdhote29), [Rohit Singh](https://github.com/rohit663), [Alman Khan](https://github.com/Alman8904), [Piyush Ray](https://github.com/Piyush0631)
+
+`2026-03-08`
+
+---
+
+### AI-based smart queue system for hospital
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/aibased-smart-queue-system-for-hospital-ff17) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/manya-upadhyay/hospital-queue-system) [![Built at](https://img.shields.io/badge/Built%20at-AceHack%205.0-0052CC?style=flat-square)](https://acehack5.devfolio.co)
+
+> Prioritizing Patients Intelligently.
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-333333?style=flat-square) ![Artificial Intelligence](https://img.shields.io/badge/Artificial%20Intelligence-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+Hospitals often face long waiting queues and inefficient patient prioritization, which can delay treatment for patients who need urgent care. In many hospitals, patients are treated on a first-come, first-served basis, without properly considering the severity of their symptoms. This can result in critical patients waiting longer while less urgent cases are treated earlier.
+Additionally, hospital staff manually managing queues can lead to human errors, miscommunication, and inefficiency, especially during peak hours or emergencies. Patients may also misreport symptoms or mark their case as an emergency, making it difficult for hospitals to identify genuine urgent cases.
+Our system addresses these challenges by providing an AI-powered smart queue management system that analyzes patient symptoms and assigns priority levels automatically, ensuring that emergency cases receive faster medical attention while maintaining a fair and efficient queue system.
+
+**Challenges we ran into**
+
+During the development of this project, we faced several technical and design challenges. One of the main difficulties was designing a fair and accurate patient prioritization system, ensuring that emergency patients are identified correctly without allowing misuse of the emergency option.
+
+Another challenge was handling incorrect or incomplete symptom inputs from users, which could affect the accuracy of the queue prioritization. We also worked on creating a system that can balance both emergency and normal cases efficiently so that the queue remains fair for all patients.
+
+From a technical perspective, integrating the database with the backend system and ensuring smooth data flow between the frontend interface and backend logic required careful implementation. Additionally, designing a simple and user-friendly interface for patient registration and queue tracking was important so that the system can be easily used in real hospital environments.
+
+Despite these challenges, we were able to build a functional AI-based smart queue system that improves patient prioritization and reduces waiting time in hospitals.
+
+**Best Use of Gemini API**
+
+Our project integrates the Gemini API to enhance the intelligence of the hospital queue management system. When a patient enters their symptoms during registration, the system sends the symptom data to the Gemini API, which analyzes the medical context and determines the severity level of the condition.
+
+Based on this AI-driven analysis, the system assigns a priority score to the patient. Emergency or high-risk cases are automatically moved to the top of the queue, ensuring that critical patients receive faster medical attention. This helps hospitals reduce waiting times and improve patient care.
+
+By using the Gemini API’s natural language understanding, our system can interpret symptom descriptions provided by patients, even if they are written in simple or non-technical language. This makes the queue prioritization process more accurate, intelligent, and efficient compared to traditional first-come-first-serve systems.
+
+Thus, the Gemini API plays a key role in enabling AI-powered symptom analysis and smart patient prioritization in our hospital queue system.
+
+Team **Mindspark** -- [Kashish Chaudhary](https://github.com/KashishCh02), [Sneha Chaudhary](https://github.com/chaudharyhimani402-debug), [Manya Upadhyay](https://github.com/manya-upadhyay)
+
+`2026-03-08`
+
+---
+
+### MedAi
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/medai-1905) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Lucifer-ipynb2/MedAi/tree/main) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/nT4_Pen8ckE) [![Built at](https://img.shields.io/badge/Built%20at-AceHack%205.0-0052CC?style=flat-square)](https://acehack5.devfolio.co)
+
+> Diagnose Smarter, Live Healthier.
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Firebase](https://img.shields.io/badge/Firebase-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![GitHub](https://img.shields.io/badge/GitHub-333333?style=flat-square)
+
+**The problem it solves**
+
+## 🩺 What is MedAI?
+
+**MedAI** is an AI-powered healthcare assistant designed to help users quickly understand their symptoms and access reliable medical information. It uses advanced AI models to analyze user input and provide helpful insights related to possible health conditions, precautions, and general medical guidance.
+
+---
+
+## 🚀 What Can People Use MedAI For?
+
+### 1️⃣ Quick Symptom Analysis
+Users can describe their symptoms (e.g., fever, headache, cough), and MedAI analyzes them to suggest possible conditions and provide basic medical insights.
+
+This helps users:
+- Understand what their symptoms might indicate
+- Decide whether they should seek medical attention
+- Get preliminary health information instantly
+
+---
+
+### 2️⃣ Instant Medical Information
+MedAI acts as a **medical knowledge assistant** where users can ask questions such as:
+
+- "What causes migraines?"
+- "What are the symptoms of dengue?"
+- "How to reduce fever at home?"
+
+The AI provides clear explanations in an easy-to-understand format.
+
+---
+
+### 3️⃣ Early Awareness and Preventive Guidance
+Many people ignore early symptoms due to lack of information. MedAI helps by providing:
+
+- Possible health explanations
+- Preventive tips
+- Basic safety precautions
+
+This can encourage users to take early action for their health.
+
+---
+
+### 4️⃣ 24/7 AI Health Assistant
+Unlike traditional healthcare consultation which may require appointments, MedAI is available **anytime and anywhere**, allowing users to quickly get health-related insights.
+
+---
+
+## 💡 How MedAI Makes Existing Tasks Easier
+
+### ⚡ Faster Access to Health Information
+Instead of searching multiple websites for medical information, users can get **structured answers instantly** from MedAI.
+
+### 🧠 Simplifies Medical Knowledge
+Medical terms can be confusing. MedAI explains symptoms, diseases, and precautions in **simple and understandable language**.
+
+### ⏱ Saves Time
+Users can quickly understand their symptoms without spending hours researching online.
+
+### 📚 Consolidated Medical Guidance
+MedAI combines medical information, symptom analysis, and guidance into a **single AI-powered platform**.
+
+---
+
+## ⚠️ Important Disclaimer
+
+MedAI is designed for **educational and informational purposes only**.  
+It does **not replace professional medical advice, diagnosis, or treatment from a licensed healthcare provider**.
+
+Users should always consult a qualified doctor for serious medical concerns.
+
+---
+
+## 🌍 Potential Impact
+
+MedAI can help improve **health awareness and accessibility to medical information**, especially for people who need quick guidance before consulting a healthcare professional.
+
+**Challenges we ran into**
+
+## 🐞 Challenges & Bugs Faced During Development
+
+### 1️⃣ API Integration Errors
+One of the biggest hurdles during the development of **MedAI** was integrating the AI model through the OpenRouter API. Initially, the application frequently returned **"Server Error" responses** when users tried to send messages to the AI chatbot.
+
+#### 🔍 Problem
+The issue occurred because:
+- The API key was not correctly loaded from environment variables.
+- The request headers and body format required by the OpenRouter API were slightly different from the default configuration.
+
+This resulted in failed API requests and prevented the chatbot from generating responses.
+
+#### 🛠 Solution
+To fix this issue:
+- The API key was moved to a `.env` file and accessed using `import.meta.env` in the React application.
+- Proper headers were added to the request, including:
+  - `Authorization`
+  - `Content-Type`
+- The request body was structured according to the **chat completion format required by the AI model**.
+
+After correcting the API request format and environment variable configuration, the AI responses started working correctly.
+
+---
+
+### 2️⃣ Rendering AI Responses Properly
+Another challenge was displaying the AI-generated responses in a **clean and readable format**.
+
+#### 🔍 Problem
+The AI often returned responses containing:
+- Markdown formatting
+- Bullet points
+- Headings
+
+Without proper rendering, these responses appeared as **plain text**, making them difficult to read.
+
+#### 🛠 Solution
+To solve this problem, the following libraries were integrated:
+
+- `react-markdown`
+- `remark-gfm`
+
+These libraries allowed the application to render AI responses with proper formatting, including lists, headings, and structured content.
+
+---
+
+### 3️⃣ Managing Chat State in React
+Maintaining the chat history between the user and the AI was another technical challenge.
+
+#### 🔍 Problem
+Initially, new messages were not properly appended to the existing chat history, which caused messages to disappear or overwrite previous responses.
+
+#### 🛠 Solution
+This was solved by implementing **React state management** using the `useState` hook to store and update the message history dynamically. Each user message and AI response was pushed into a messages array, ensuring the chat conversation remained intact.
+
+---
+
+## 🎯 Key Learning
+
+Overcoming these challenges helped improve understanding of:
+
+- API integration with AI services
+- Environment variable management in React (Vite)
+- State management in React applications
+- Rendering dynamic AI-generated content
+
+These improvements ultimately made **MedAI more stable, user-friendly, and reliable.**
+
+**Best Use of Gemini API**
+
+## 🏆 How MedAI Fits into the Major League Hacking Track
+
+**MedAI** aligns well with the **Major League Hacking (MLH)** track because it focuses on building an innovative, real-world solution using modern technologies such as **Artificial Intelligence, React, Python, and APIs**.
+
+### 🚀 Innovation Through Technology
+MLH encourages developers to build creative solutions that solve real-world problems. MedAI does exactly that by using **AI-powered medical assistance** to help users understand their symptoms and access reliable health information quickly.
+
+### 🧠 AI-Powered Problem Solving
+This project integrates **Large Language Models (LLMs)** through the OpenRouter API to analyze user symptoms and provide intelligent responses. This demonstrates how modern AI tools can be used to build practical applications that improve everyday life.
+
+### 💻 Full-Stack Development
+MedAI showcases a **full-stack development approach**, combining multiple technologies:
+
+- **Frontend:** React.js for an interactive and responsive user interface
+- **Backend:** Node.js / Flask for handling API communication
+- **AI Integration:** OpenRouter AI models for generating medical insights
+- **Markdown Rendering:** For structured and readable responses
+
+This reflects the kind of **technical experimentation and learning** encouraged in MLH hackathons.
+
+### 🌍 Real-World Impact
+MLH projects often focus on solutions that create a meaningful impact. MedAI contributes to this by improving **health awareness and accessibility to medical information**, allowing users to quickly understand potential health concerns before consulting a medical professional.
+
+### 📚 Learning and Exploration
+Building MedAI involved exploring several important development concepts such as:
+
+- AI API integration
+- State management in React
+- Handling asynchronous requests
+- Designing user-friendly interfaces for AI systems
+
+These learning experiences align strongly with the **MLH mission of empowering developers to build, learn, and innovate.**
+
+---
+
+## 🎯 Conclusion
+MedAI demonstrates how modern web technologies and AI can be combined to build a **practical, impactful, and innovative solution**, making it a strong fit for the **Major League Hacking track**.
+
+**Best Hack Built with Google Antigravity**
+
+## 🏆 How MedAI Fits into the Major League Hacking Track
+
+**MedAI** is a strong fit for the **Major League Hacking (MLH)** track because it demonstrates innovation, technical complexity, and real-world impact by combining modern web development with AI technology.
+
+### 🚀 Innovative and Practical Solution
+MedAI addresses a real-world problem: **quickly understanding medical symptoms and accessing reliable health information**. By leveraging AI, it automates tasks that typically require research or a medical consultation, making healthcare information **faster, safer, and more accessible**.
+
+### 💻 Full-Stack Development
+The project showcases strong technical implementation:
+- **Frontend:** React.js for a responsive and interactive user interface
+- **Backend:** Node.js / Flask for API handling and AI integration
+- **AI Integration:** OpenRouter API for generating medical insights
+- **Markdown Rendering:** `react-markdown` and `remark-gfm` for clean and readable AI responses
+
+This demonstrates proficiency in building **full-stack applications** that integrate multiple technologies seamlessly.
+
+### 🧠 AI-Powered Impact
+MedAI uses AI to:
+- Analyze symptoms and provide potential diagnoses
+- Offer preventive guidance and early warnings
+- Make medical knowledge understandable and accessible to everyone
+
+This aligns with MLH’s focus on **using technology to solve meaningful problems**.
+
+### 🌍 Real-World Relevance
+By providing 24/7 AI-driven health assistance, MedAI:
+- Improves **health awareness**
+- Encourages **early preventive action**
+- Offers a **safe platform for educational medical guidance**
+
+This shows how hackathon projects can **directly impact users’ daily lives**.
+
+### 🎯 Learning and Growth
+Developing MedAI required overcoming challenges like:
+- API integration errors
+- Chat state management in React
+- Rendering dynamic AI responses properly
+
+These experiences reflect **MLH’s goal of fostering technical learning and creative problem-solving**.
+
+---
+
+**In summary:** MedAI exemplifies how hackathon projects can combine **innovation, AI, and full-stack development** to create a **practical, impactful, and user-focused solution**, making it an ideal fit for the Major League Hacking track.
+
+[Divyang Jain](https://github.com/Lucifer-ipynb2)
+
+`2026-03-08`
+
+---
+
+### HealthLinke
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/healthlinke-a429) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://healthlike.vercel.app/) [![Built at](https://img.shields.io/badge/Built%20at-AceHack%205.0-0052CC?style=flat-square)](https://acehack5.devfolio.co)
+
+> Prescription Insights. Smarter Choices
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![Vercel](https://img.shields.io/badge/Vercel-333333?style=flat-square)
+
+**The problem it solves**
+
+1.Misreading prescription details or medical terminology.
+
+2.Forgetting medication schedules or dosages.
+
+3.Navigating multiple platforms to order medicines safely.
+
+4.Lack of accessible guidance for health decisions.
+
+**Challenges we ran into**
+
+1.The server was not responding correctly, and we couldn’t figure out where it was running or why some API calls were failing.
+
+2.This caused delays in connecting the frontend with the AI assistant and prescription analysis functionalities.
+
+**Best Use of ElevenLabs**
+
+We integrated Eleven Labs’ API to power our AI assistant’s voice capabilities. This allows the platform to read prescriptions aloud, give spoken suggestions, and interact naturally with users. By combining voice AI with prescription analysis and online ordering, the experience becomes more humanized, accessible, and engaging, making healthcare guidance feel personal and easy to follow.
+
+Team **Error_99** -- [harsh prajapati](https://github.com/hp750746-ai), [Narendra Prajapat](https://github.com/mrnarendra3211-bit), [Abhishek Lama](https://github.com/abhisheklama12)
+
+`2026-03-08`
+
+---
+
+### AHAR
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/ahar-618c) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/kapil-singh18/AHAR) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://food-waste-management-iota.vercel.app/consumption) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/-x_UFLvezvo?si=EXrO3PBVcXXk_j-n) [![Built at](https://img.shields.io/badge/Built%20at-AceHack%205.0-0052CC?style=flat-square)](https://acehack5.devfolio.co)
+
+> AI based hospitality analytics and resource optimi
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Express.js](https://img.shields.io/badge/Express.js-333333?style=flat-square)
+
+**The problem it solves**
+
+# What Problem I Solved Using AHAR
+
+AHAR addresses a critical issue in the hospitality industry: food waste management and resource optimization. The problem I solved involves multiple interconnected challenges that restaurants and food service businesses face daily.
+
+## The Core Problem
+Food waste is a significant global issue, with hospitality businesses contributing substantially to it through inefficient inventory management, inaccurate demand prediction, and poor donation coordination. Traditional methods rely on manual processes that are time-consuming, error-prone, and lack real-time insights.
+
+## Key Problems Addressed
+
+### 1. Inefficient Inventory Management
+- Manual tracking of ingredients and menu items
+- Difficulty in predicting expiration dates
+- Lack of real-time stock visibility
+- Over-purchasing leading to waste
+
+### 2. Inaccurate Demand Prediction
+- Reliance on historical data without AI assistance
+- Inability to factor in external variables like weather and events
+- Over-production of food leading to surplus
+
+### 3. Poor Donation Coordination
+- Lack of streamlined process to connect surplus food with NGOs
+- Manual coordination efforts
+- Limited visibility of donation opportunities
+
+### 4. Lack of User Authentication and Payment Processing
+- No secure user management system
+- Absence of monetization features for premium services
+- Difficulty in managing user access and subscriptions
+
+## The Solution
+I developed a comprehensive web application called "AHAR" (AI-based Hospitality and Resource Optimizer) that integrates:
+
+- **AI-powered demand prediction** using machine learning models
+- **Real-time inventory management** with automated tracking
+- **Smart donation locator** for connecting surplus food with NGOs
+- **User authentication** using Clerk for secure access
+- **Payment gateway integration** with Razorpay for monetization
+- **Responsive UI** with integrated branding and logo
+
+## Impact
+This solution helps restaurants reduce food waste by up to 30%, optimize resource utilization, and create a sustainable food ecosystem. AHAR provides actionable insights that enable data-driven decision making, ultimately contributing to environmental sustainability and social good through better donation management.
+
+The project demonstrates how technology can transform traditional hospitality operations into efficient, sustainable, and profitable businesses.
+
+**Challenges we ran into**
+
+# What Challenges I Encountered Developing AHAR
+
+Developing AHAR, a food waste management application, presented several technical and implementation challenges that required creative problem-solving and persistence. Here are the main challenges I faced and how I overcame them.
+
+## Technical Challenges
+
+### 1. Authentication Integration
+**Challenge:** Implementing secure user authentication was complex, especially with changing package dependencies.
+- Initially used deprecated `@clerk/clerk-react` package which caused build failures
+- Had to research and switch to compatible versions
+- Required updating multiple import statements across the codebase
+
+**Solution:** Downgraded to a working version (4.32.5) of the Clerk package and updated all imports consistently. This resolved the build errors and maintained authentication functionality.
+
+### 2. Payment Gateway Implementation
+**Challenge:** Integrating Razorpay payment gateway required careful handling of:
+- Dynamic script loading for the payment SDK
+- Proper error handling for payment success/failure
+- Security considerations for API keys
+- Cross-browser compatibility
+
+**Solution:** Implemented a robust payment component with useEffect for script loading, comprehensive error handling, and secure key management through environment variables.
+
+### 3. Build and Dependency Management
+**Challenge:** Frequent build failures due to:
+- Deprecated packages
+- Version conflicts
+- Node modules corruption
+- PowerShell command execution issues in Windows environment
+
+**Solution:** Systematically cleared node_modules, updated package.json with correct versions, and used proper command syntax for Windows PowerShell.
+
+### 4. Logo Integration
+**Challenge:** Adding the logo to the AHAR header while maintaining responsive design and proper styling.
+- Needed to position logo alongside existing text
+- Ensure it works across different screen sizes
+- Maintain the existing design aesthetic
+
+**Solution:** Modified the Layout component to use flexbox layout, added proper styling for the logo image, and ensured it integrates seamlessly with the existing UI.
+
+### 5. Route Protection and User Experience
+**Challenge:** Implementing authentication-based route protection without disrupting the user experience.
+- Needed to redirect unauthenticated users to sign-in
+- Maintain smooth navigation flow
+- Handle authentication state properly
+
+**Solution:** Used Clerk's SignedIn/SignedOut components to wrap routes, implemented proper redirects, and added user profile management through UserButton.
+
+## Development Environment Challenges
+
+### 6. Windows Development Environment
+**Challenge:** Working with Windows PowerShell presented command syntax issues and path handling problems.
+- Directory navigation commands failed with certain path formats
+- Command chaining with && didn't work as expected
+
+**Solution:** Used quoted paths and alternative command structures, learned Windows-specific npm and build tool behaviors.
+
+### 7. Package Version Compatibility
+**Challenge:** Keeping up with rapidly changing package versions and deprecation notices.
+- Many packages get deprecated quickly
+- Finding compatible versions for React 18 and Vite
+
+**Solution:** Researched package documentation, checked npm registry for available versions, and tested builds iteratively.
+
+## Learning Outcomes
+
+These challenges taught me valuable lessons about:
+- Staying updated with package ecosystems
+- Proper error handling and debugging techniques
+- Cross-platform development considerations
+- The importance of version pinning and dependency management
+- Building resilient applications that can handle external service integrations
+
+Despite these challenges, each problem solved contributed to a more robust and feature-complete application. The experience significantly improved my problem-solving skills and understanding of modern web development practices.
+
+Team **DevNinjas** -- [Krishnpal Vishwakarma](https://github.com/Krishna1129), [Arijeet Panchotia](https://github.com/Arijeet005), [Keshav Gehlot](https://github.com/keshavgehlot18), [Kapil Songare](https://github.com/kapil-singh18)
+
+`2026-03-08`
+
+---
+
+### Protector
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/protector-98b4) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/S2006-prog/Protector) [![Built at](https://img.shields.io/badge/Built%20at-AceHack%205.0-0052CC?style=flat-square)](https://acehack5.devfolio.co)
+
+> Health That matters just for 1 second
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Internet of Things (IoT)](https://img.shields.io/badge/Internet%20of%20Things%20(IoT)-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square)
+
+**The problem it solves**
+
+Our system solves the critical problem of delayed health emergency detection by providing continuous Ai powered monitoring ,real time alerts, and centralized safety intelligence
+
+Team **Creation 2.0** -- [Sayan Samanta](https://github.com/S2006-prog), [Sayan Patra](https://github.com/sayanpatra3097-art), [Debayan Das](https://github.com/Debayan-3110)
+
+`2026-03-08`
+
+---
+
+### VOXGUARD
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/voxguard-df1c) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://turbooovox.vercel.app/) [![Built at](https://img.shields.io/badge/Built%20at-Diversion%202K26-0052CC?style=flat-square)](https://diversion2k26.devfolio.co)
+
+> A HEALTHBUDDY FOR SINGER PERFORMANCE
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Firebase](https://img.shields.io/badge/Firebase-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Arduino Uno](https://img.shields.io/badge/Arduino%20Uno-333333?style=flat-square) ![Arduino IDE](https://img.shields.io/badge/Arduino%20IDE-333333?style=flat-square)
+
+**The problem it solves**
+
+SMART MIC is designed to make live concerts safer and more controlled for performers. During high-energy shows, singers often push their vocal limits without realizing the strain. SMART MIC monitors heart rate and SpO₂ in real time while analyzing pitch and volume to detect excessive vocal effort.
+
+If a performer sings at very high pitch or volume for too long, or if physical stress increases beyond safe levels, the system provides an instant alert through the dashboard. This helps prevent vocal cord damage, breathlessness, and performance fatigue during long concerts.
+
+For large stage performances, where adrenaline and crowd energy are high, artists may overexert themselves. SMART MIC acts as a silent health guardian, ensuring the singer stays within a safe vocal range while still delivering a powerful performance.
+
+Sound engineers can also monitor the data backstage, helping them adjust sound levels or suggest short breaks when needed.
+
+Unlike a regular microphone, SMART MIC supports both performance quality and artist safety, making live concerts smarter, safer, and more sustainable for professional singers.
+
+**Challenges we ran into**
+
+While building SMART MIC using Arduino Uno, MAX30100 and a dynamic microphone, a major issue appeared: audio noise and unstable sensor readings.
+
+When the Arduino was powered via USB and simultaneously:
+	•	Reading MAX3010 biometric data
+	•	Sending data to Firebase
+	•	Capturing microphone audio
+
+There was:
+	•	Low-frequency humming in the mic output
+	•	Fluctuating SpO₂ and heart rate values
+	•	Random spikes in sensor readings
+	•	Inconsistent vocal strain detection
+
+The issue happened because the analog microphone signal and digital sensor signals were sharing power and ground lines, causing interference and ground loop noise.
+
+How It Was Solved
+	1.	Power Stabilization – Added decoupling capacitors near the MAX3010 sensor.
+	2.	Separate Grounding Layout – Reduced shared ground noise by careful wiring.
+	3.	Shielded Audio Cable – Prevented EMI affecting the microphone signal.
+	4.	Proper Wire Routing – Kept sensor wires away from audio lines.
+	5.	Software Filtering – Applied smoothing algorithms before sending data to Firebase.
+
+Result
+	•	Clean audio signal
+	•	Stable biometric readings
+	•	Accurate real-time strain monitoring
+	•	Reliable cloud data logging
+
+When combining analog audio, biometric sensors, and cloud communication on Arduino, proper grounding, shielding, and filtering are essential to ensure accurate and noise-free performance.
+
+**Gemini API**
+
+The Problem We Are Solving with AI:
+
+In live performances, raw sensor data is notoriously noisy. A singer hitting a powerful high note will naturally spike their vocal strain and heart rate. If a system only looks at hardcoded thresholds, it will constantly trigger false alarms ("crying wolf"), which ruins the performance and causes the crew to ignore actual emergencies.
+
+
+Our Solution:  Gemini as the "AI Medical Supervisor"
+
+We don't just trigger an alarm when a number goes high. Instead, we use Gemini 2.0 Flash as an intelligent, real-time supervisor to verify if an alert is a genuine medical emergency or just a normal part of the performance (or a sensor glitch).
+
+
+How the Flow Works in Real-Time:
+
+Trigger: The system continuously monitors the singer's Heart Rate, Blood Oxygen (SpO2), and Vocal Strain.
+The Catch: If any metric breaches a critical threshold (e.g., vocal strain exceeds 0.58), the system catches it—but it doesn't panic yet.
+The AI Hand-off: In a fraction of a second, the backend packages the exact current state of all three biometrics (HR, SpO2, Strain) and sends a structured prompt to the Gemini API.
+The Analysis: We prompt Gemini to analyze the correlation between the data points.
+The Verdict: Gemini responds instantly with a JSON payload containing:
+A verdict (genuine, likely_false, or uncertain)
+A risk level
+A contextual explanation (e.g., "High vocal strain is present, but HR and SpO2 are completely normal. This is likely just safe, loud singing.")
+An actionable recommendation for the crew.
+Why Gemini? (The "Wow" Factor for the Judge)
+Reasoning over Correlation: Gemini understands human physiology logic. It knows that a SpO2 drop combined with high vocal strain is a red alert, but high vocal strain with a normal heart rate is just a singer doing their job. Hardcoded if/else statements cannot do this reliably.
+Speed: By using the Gemini 2.0 Flash model, the analysis happens in milliseconds. The crew gets an AI-verified medical context instantly, without interrupting the show for false alarms.
+Actionable Output: Gemini doesn't just say "Warning." It gives the sound engineer or tour manager plain-English instructions on whether to cut the mic, bring water, or let the show go on.
+
+Team **TEAM TURBOOO** -- [Srudyuti Dey](https://github.com/srudyuti16), [SUTAVRA MITRA](https://github.com/sutavrario), [Subhadeep Dolai](https://github.com/subhadeep0111)
+
+`2026-02-28`
+
+---
+
+### MyHealthMate
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/resqverse-0c72) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/AmishKumarJha/My_Health_Mate) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://my-health-mate-cqzg-45pupanlc-amishkumarjhas-projects.vercel.app?_vercel_share=HbAkFqIupxNVCDdSPJtWi4KX0wMSWefw) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/vegCspRi2ss?si=2rqCpUqgDDnl8q6w) [![Built at](https://img.shields.io/badge/Built%20at-Diversion%202K26-0052CC?style=flat-square)](https://diversion2k26.devfolio.co)
+
+> AI-Powered Preventive Healthcare Platform
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square)
+
+**The problem it solves**
+
+MyHealthMate is an AI-powered preventive healthcare platform that analyzes user health data to predict potential risks and provide personalized recommendations. It transforms medical metrics into simple insights, health scores, and smart alerts, helping users monitor and improve their well-being proactively.
+
+Built using Next.js, FastAPI, and machine learning, MyHealthMate focuses on early detection and smarter lifestyle decisions.
+
+**Challenges we ran into**
+
+1 - Managing Large ML Model Files
+
+The trained machine learning model file (`diet_model.pkl`) was approximately 787MB, which exceeded GitHub’s 100MB file size limit.  
+We resolved this by:
+
+- Removing the model file from Git history
+- Using `.gitignore` to prevent tracking large model files
+- Planning to host the model externally for production deployment
+
+This helped me understand Git internals and best practices for handling large files.
+
+
+
+2-  Git Branch & Merge Conflicts
+
+While pushing the project, I encountered:
+- Branch mismatch issues (`master` vs `main`)
+- Merge conflicts in `README.md`
+- Remote rejection due to unrelated histories
+
+We resolved these by:
+
+- Renaming branches properly
+- Cleaning Git history
+- Using `git filter-branch` to remove large files
+- Force pushing after properly cleaning the repository
+
+This improved my understanding of advanced Git workflows.
+
+Key Learnings
+
+- Proper Git repository management
+- Handling large ML models in production
+- Full-stack project structuring
+- Backend–Frontend communication
+- Debugging real-world deployment issues
+
+Team **Floppy_Disk** -- [Prachi Jha](https://github.com/prachiijha), [Amish Kumar Jha](https://github.com/AmishKumarJha), [Barsha Panda](https://github.com/Barshapandaa), [Abhishek Seth](https://github.com/Abhishek-x23)
+
+`2026-02-28`
+
+---
+
+### AI-Fitness-Trainer
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/aifitnesstrainer-cd1d) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Kakumanu-Harshitha/Hack-SRM) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/S0YPtG0QnZ0?si=T4c9mTbDU9yYPfsU) [![Built at](https://img.shields.io/badge/Built%20at-HackSRM%207.0-0052CC?style=flat-square)](https://hack-srm26.devfolio.co)
+
+> Your Personal AI Coach That Never Misses a Rep.
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![random forest](https://img.shields.io/badge/random%20forest-333333?style=flat-square)
+
+**The problem it solves**
+
+The Problem It Solves:
+
+Most people working out at home struggle with two major issues:
+
+No real-time form correction, which increases injury risk.
+
+Manual workout tracking, which is inaccurate and inconsistent.
+
+Without a trainer present, users often perform exercises with incorrect posture, fail to count reps properly, and lack motivation or performance insights.
+
+How AI Fitness Trainer Solves It
+
+AI Fitness Trainer uses real-time computer vision and pose estimation to transform any webcam into a smart personal coach.
+
+ Automatic Rep Counting – Detects complete movement cycles for exercises like squats and push-ups.
+
+ Posture & Form Analysis – Tracks body landmarks and provides corrective feedback instantly.
+
+ Smart Static Pose Timer – Automatically pauses or resets when form breaks during planks or yoga poses.
+
+ Workout Analytics – Tracks performance, recovery rate, and joint stress.
+
+ Gamification & Leaderboards – Keeps users motivated with XP, levels, and competition.
+
+ Voice Coaching – Delivers real-time motivational and corrective guidance.
+
+Impact
+
+AI Fitness Trainer makes home workouts:
+
+Safer through posture monitoring
+
+Smarter with AI-driven tracking
+
+More engaging through gamification
+
+Data-driven with performance analytics
+
+It brings the experience of a personal trainer into any room — powered entirely by AI.
+
+**Challenges we ran into**
+
+1. Real-Time Pose Accuracy & False Rep Counting
+
+One of the biggest challenges was handling inaccurate or noisy landmark detection from MediaPipe. Small variations in joint angles sometimes caused false rep counts or missed reps.
+
+How I solved it:
+
+Implemented angle smoothing using moving averages.
+
+Built a custom state machine with strict transition thresholds (START → DOWN → UP).
+
+Added minimum hold durations to validate completed reps.
+
+2. Handling Static Pose Break Detection
+
+Tracking exercises like planks was tricky because minor posture shifts would reset the timer too aggressively.
+
+How I solved it:
+
+Introduced tolerance thresholds for acceptable angle variation.
+
+Added a grace period before resetting the timer.
+
+Used posture confidence scoring instead of binary detection.
+
+3. WebSocket Real-Time Communication
+
+Implementing live chat and notifications required stable WebSocket connections. Handling disconnects and reconnections was challenging.
+
+How I solved it:
+
+Implemented automatic reconnection logic on the frontend.
+
+Added heartbeat/ping checks on the backend.
+
+Used proper async handling with FastAPI WebSockets.
+
+4. JWT Authentication & Protected Routes
+
+Ensuring secure authentication across API routes and WebSockets required careful token validation.
+
+How I solved it:
+
+Created middleware for JWT verification.
+
+Centralized API calls with automatic token injection.
+
+Handled token expiration with proper logout flow.
+
+5.Performance Optimization
+
+Running pose detection at 30+ FPS while updating UI and state caused performance bottlenecks.
+
+How I solved it:
+
+Optimized re-renders using React memoization.
+
+Moved heavy calculations outside render cycles.
+
+Reduced unnecessary state updates.
+
+**Grand Prize**
+
+AI Fitness Trainer represents a complete, production-ready, end-to-end intelligent system that combines computer vision, real-time analytics, scalable backend architecture, and user-centric design into one impactful solution.
+
+This project goes beyond a simple demo by delivering:
+
+Real-time AI pose detection using computer vision for accurate movement tracking.
+
+Custom-built state machines for intelligent rep counting and posture validation.
+
+Full-stack architecture (React + FastAPI + PostgreSQL) with JWT authentication and WebSocket-based real-time features.
+
+Gamification & performance analytics including XP, leaderboards, recovery rate, and joint stress monitoring.
+
+Scalable backend infrastructure designed for real-world deployment.
+
+The project solves a real and widespread problem — lack of accessible, real-time fitness coaching — by transforming any webcam into an AI-powered personal trainer.
+
+It demonstrates:
+
+Strong technical depth (AI + full-stack engineering)
+
+Practical real-world usability
+
+Scalability and production readiness
+
+Clear user impact in health and wellness
+
+AI Fitness Trainer is not just a prototype — it is a comprehensive intelligent platform designed to redefine how people train at home.
+
+Team **nomotix** -- Navya Kedhari, Kakumanu Harshitha, Gunda Rahul Gupta, Mohnish Videla
+
+`2026-02-26`
+
+---
+
+### Abhiraksha
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/abhiraksha-2874) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/kabir-fx/Abhiraksha) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://drive.google.com/file/d/1ioWrvoDRDG01G0VqprIiRFxOquSOhfGd/view?usp=sharing) [![Built at](https://img.shields.io/badge/Built%20at-Build%20India:%20Anthropic%20x%20Replit%20x%20Lightspeed%20Hackathon-0052CC?style=flat-square)](https://buildindia2026.devfolio.co)
+
+> Insurance Copilot for Indian Healthcare Facilities
+
+![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![Docker](https://img.shields.io/badge/Docker-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square)
+
+**The problem it solves**
+
+**Abhiraksha**
+Insurance Intelligence Copilot for Indian Hospitals
+
+**Insight and Problem Origin**
+Before building Abhiraksha, I worked in selling Hospital Management Software to Tier 2 and Tier 3 hospitals across South India. During on ground visits to independent hospitals and medical institutions, I observed how insurance claims are processed in real operational settings.
+
+Most smaller hospitals use basic HMS systems but rely heavily on manual documentation, email chains, and WhatsApp coordination for insurance claims. Billing staff, often without formal insurance training, are required to interpret complex, English heavy policy documents and respond reactively to TPA queries.
+
+Claims are frequently delayed due to documentation gaps, policy misinterpretation, and the absence of structured insurance validation within existing systems.
+
+This firsthand exposure led to a clear realization. Hospitals in India do not lack software. They lack an intelligent insurance operations layer embedded into their workflow.
+
+Abhiraksha is built from that insight.
+
+**Problem Statement**
+Insurance contributes approximately 65 percent of revenue for many Indian hospitals. However, insurance claim processing remains fragmented and inefficient.
+
+For a hospital processing 100 claims per month, the average claim value is ₹80,000, resulting in monthly insurance revenue of ₹80,00,000. With an average deduction rate of 6 percent, hospitals lose approximately ₹4,80,000 per month. Around 70 percent of claims are delayed beyond 10 days and the working capital cycle averages 45 days. Typically, three staff members manage insurance operations.
+
+Hospitals operate with thin margins and even a 2 to 3 percent deduction error significantly impacts profitability and liquidity. There is no structured pre submission validation layer in Indian healthcare insurance processing.
+
+**Proposed Solution**
+
+Abhiraksha is an Insurance Intelligence Plugin that integrates directly into existing Hospital Management Systems.
+
+It functions as a pre submission validation engine that extracts structured data from discharge summaries and bills, applies insurer specific policy rules deterministically, calculates expected payouts and potential deductions, flags missing documents before submission, predicts common TPA queries, and provides CFO level dashboards for financial visibility.
+
+The system transforms claim processing from reactive to predictive.
+
+**Tech**
+
+The architecture follows the flow HMS to Abhiraksha Plugin to Insurer or TPA.
+
+The OCR module extracts structured data from unstructured bills and discharge summaries. The deterministic policy rule engine enforces room rent caps, sub limits, consumable exclusions, and documentation requirements. The deduction simulation engine calculates expected payout with transparent breakdown. The query risk detection module flags potential rejection triggers before submission.
+
+All financial calculations are rule based and auditable to ensure trust and adoption.
+
+**Innovation**
+
+It introduces a structured insurance copilot layer embedded into hospital workflows. It combines AI based document extraction with deterministic financial policy enforcement and pre submission risk validation.
+
+This infrastructure layer does not currently exist in the Indian healthcare ecosystem.
+
+**Measurable Impact**
+
+For a hospital with 100 claims per month, monthly revenue is ₹80,00,000 and average deduction at 6 percent results in ₹4,80,000 in losses.
+
+If Abhiraksha reduces deductions by 25 percent, recovered revenue is ₹1,20,000 per month. Operational efficiency gain is estimated at ₹27,000 per month. Total measurable benefit is ₹1,47,000 per month.
+
+With pricing at ₹200 per claim, cost would be ₹20,000 per month. This results in approximately 7 times return on investment with payback in less than one month.
+
+Market Opportunity
+
+India has approximately 20,000 hospitals with more than 30 beds. An estimated 8,000 hospitals process more than 30 insurance claims per month.
+
+
+Go To Market Strategy
+
+Phase 1 involves direct pilots with mid sized hospitals to measure deduction reduction and DSO improvement.
+
+Phase 2 involves HMS vendor integrations where Abhiraksha is embedded as an Insurance Intelligence Module with revenue share.
+
+Phase 3 involves deployment across regional hospital chains with centralized dashboards across branches.
+
+Team **Owl Syndicate** -- [Saujas R](https://github.com/saujasrs), [Shivam Vats](https://github.com/kabir-fx)
+
+`2026-02-15`
+
+---
+
+### DocAndAi
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/docandai-bd7c) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/rajni12071985-debug/DocAndAi) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/K47swMvt1tY?si=rxvbOO2hyYcgAVxD) [![Built at](https://img.shields.io/badge/Built%20at-HACK%20THE%20THRONE-0052CC?style=flat-square)](https://hack-the-throne.devfolio.co)
+
+> Ai based patient management system
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square)
+
+**The problem it solves**
+
+Doc & AI helps people manage hospital visits more easily and safely.
+Users can quickly check doctor availability, understand their health concern using AI guidance, and book OPD, pre-booking, or video consultations without standing in long queues.
+The system reduces waiting time, avoids unnecessary hospital visits, and lowers crowding, making healthcare access faster, safer, and less stressful.
+AI acts only as a support assistant, helping patients choose the right doctor while final decisions remain with medical professionals.
+
+Team **SVIETIAN** -- [Prashant Sinha](https://github.com/prashantsinha), [Pragati Kesherwani](https://github.com/rajni12071985-debug), [sahiba sheikh](https://github.com/sahiba-sheikh), [Sudipta Chatterjee](https://github.com/sudiptachatterjee)
+
+`2026-02-08`
+
+---
+
+### CareDetect
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/caredetect-506e) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://trialbreastcancerwebsite.netlify.app/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/L2NnE_vjGZg) [![Built at](https://img.shields.io/badge/Built%20at-Lean%20In%20Hacks%207.0-0052CC?style=flat-square)](https://leanin-hacks-7.devfolio.co)
+
+> Early breast health screening using 3D and AI.
+
+![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Blender](https://img.shields.io/badge/Blender-333333?style=flat-square) ![AR/VR](https://img.shields.io/badge/AR/VR-333333?style=flat-square) ![Keras CNN](https://img.shields.io/badge/Keras%20CNN-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![React.js](https://img.shields.io/badge/React.js-333333?style=flat-square)
+
+**The problem it solves**
+
+1 out of 8 women are at a certain risk of breast cancer, but detection at an early stage in India is often not possible due to the expensive nature of a mammography test, dependence on clinics, and geographical challenges such as rural and semi-urban scenarios. **CareDetect **provides an opportunity for a risk assessment test to be conducted at a very early stage, at a person’s own place, which is cost-effective, convenient, and easy to use repeatedly. The biochemical sweat test, which is cost-effective, is analyzed by AI on the device. A fully digital solution uses symptoms, menstrual history, family history, lifestyle, and an interactive 3D model of the breast to better understand the problem, generate a personalized risk score with clear next steps, and provide optional user feedback to continuously improve the model over time.
+
+**Challenges we ran into**
+
+One major challenge was working with the 3D renderable model in an AR/VR environment. Initially, the model was heavy and caused lag, slow loading, and interaction issues, which affected the overall user experience.
+
+To overcome this, I optimized the 3D assets by reducing mesh complexity and improving rendering efficiency, while still maintaining visual clarity. I also tested the model repeatedly to ensure smooth interaction across devices.
+
+Another challenge was making the 3D visualization easy to understand rather than overwhelming. This was solved by simplifying the structure and designing the interaction flow in a more intuitive way, so users can explore the model without confusion.
+
+**Emerging Technologies**
+
+CareDetect comes under Emerging Technologies because it is an AR/VR-based application that uses an interactive 3D renderable model to visually understand and analyze breast cancer–related patterns. The use of immersive 3D visualization instead of traditional flat representations makes the approach modern, intuitive, and aligned with emerging AR/VR technologies.
+
+Team **CodeDivas** -- [Aadhya Verma](https://github.com/aadhyaavermaa), [Archi Aggarwal](https://github.com/archiagg26), [Anushka Yadav](https://github.com/anushkayadav0901)
+
+`2026-02-07`
+
+---
+
+### CareCompanion
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/carecompanion-369f) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://www.canva.com/design/DAHAjHB4SxI/5HLowWuFeC27Bmg8M-sf0g/view?utm_content=DAHAjHB4SxI&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h41bcb5bf8e) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/b2sKQzxRG6U?si=wmGCVmd2Xy8sG659) [![Built at](https://img.shields.io/badge/Built%20at-Lean%20In%20Hacks%207.0-0052CC?style=flat-square)](https://leanin-hacks-7.devfolio.co)
+
+> AI-Powered Preventive Healthcare & Caregiver
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+🔍 **The Problem**
+
+Healthcare today fails in one crucial area: daily consistency.
+
+•⁠  ⁠Medicines are forgotten
+•⁠  ⁠Health data is scattered
+•⁠  ⁠Caregivers are informed too late
+•⁠  ⁠Preventable conditions become emergencies
+
+For elders, this is dangerous.
+For families, this is stressful.
+And for the healthcare system, this is costly.
+
+At the same time, menstrual health, an important indicator of overall well-being, is still ignored or treated as a private inconvenience — especially in India.
+
+💡 **Our Solution – CareCompanion**
+
+CareCompanion is a smart healthcare companion designed for every individual with special focus on elders and women’s health.
+
+It helps users:
+•⁠  ⁠Take medicines on time
+•⁠  ⁠Track health regularly
+•⁠  ⁠Stay connected with caregivers and doctors
+
+And for women, it provides a dedicated, optional menstrual health tracker
+because periods are not separate from health, they are part of it.
+
+**Challenges we ran into**
+
+* **Understanding the problem statement**
+  Since the problem statement was provided by the organizers, the key challenge was understanding its intent clearly and identifying areas where meaningful innovation could be added without deviating from the core objective.
+
+* **Communicating feasibility without development**
+  As this was an ideathon and not a development-based hackathon, the challenge was to present the idea in a way that felt realistic and implementable. This was addressed by creating detailed workflows and feature breakdowns.
+
+* **Designing for multiple user groups**
+  Aligning the solution to serve elderly individuals, caregivers, and women—while keeping the experience simple—required careful feature prioritization and user flow planning.
+
+* **Deciding premium vs essential features**
+  A key challenge was ensuring that premium features did not restrict access to critical healthcare needs. All core health and safety features were kept free, with premium limited to advanced insights and personalization.
+
+* **Simplifying a complex healthcare idea**
+  Healthcare systems can be complex, and the challenge was to present the solution clearly within limited time. This was managed by structuring the idea into clear, modular components.
+
+**Beginner's track - Your first hack starts here!**
+
+CareCompanion fits perfectly into the Hackathon Track as it directly addresses the organiser-defined problem of improving everyday healthcare accessibility and adherence. The project focuses on helping individuals—especially elders—stay consistent with medications through smart reminders, while also providing a dedicated menstrual cycle tracking feature for women, an often ignored yet critical health aspect in India. By combining preventive care, timely alerts, and simple health tracking in one platform, CareCompanion aligns strongly with the hackathon’s goal of building impactful, tech-driven solutions for real-world health challenges.
+
+Team **Fusion Coders** -- [Riddhika Sachdeva](https://github.com/Riddhika-Sacheva), [Mannat Wadhwa](https://github.com/mannatwadhwa1009-ship-it), [Prabhjot Singh](https://github.com/explore), [Hemank Aggarwal](https://github.com/hemankagg-hash)
+
+`2026-02-07`
+
+---
+
+### PharmAssist
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/pharmassist-194c) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/kshitiz510/hacktu-pharmassist) [![Built at](https://img.shields.io/badge/Built%20at-HackTU%207.0-0052CC?style=flat-square)](https://hacktu7.devfolio.co)
+
+> A million dollar R&D team
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+### The Problem It Solves
+
+Access to affordable medicines remains a major challenge in underserved and remote regions, not due to lack of medical knowledge, but because **generic pharmaceutical companies struggle to identify which medicines to produce and scale efficiently**. High uncertainty around market demand, patent clarity, regulatory effort, and clinical feasibility discourages manufacturers from expanding into low-margin but high-impact drugs. As a result, many essential medicines remain unavailable or expensive where they are needed most.
+
+### How This Project Helps
+
+This platform enables **generic pharma companies to confidently expand their product portfolios** by automating early-stage research and decision-making. It replaces months of fragmented manual analysis with an AI-driven, multi-agent system that evaluates market demand, patent freedom, clinical activity, and supply feasibility in days.
+
+By lowering the cost and risk of launching new generics, manufacturers are encouraged to enter underserved therapeutic areas—leading to **greater medicine availability, faster market entry, and lower prices for patients**. Ultimately, this improves healthcare access by ensuring essential, affordable medicines reach populations that are currently underserved, aligning directly with the goal of equitable and universal healthcare.
+
+**Challenges we ran into**
+
+### Challenges We Ran Into
+
+One of the primary challenges was **integrating heterogeneous data sources with varying structure, reliability, and update frequency**. Market data, patent records, clinical trial information, and trade datasets all use different schemas and levels of granularity. Early versions of the system produced inconsistent insights because agents were operating on partially overlapping or outdated information.
+
+To resolve this, we introduced a **standardized intermediate representation** that every agent had to conform to before passing data to the orchestrator. This ensured consistency, traceability, and easier debugging across the agent pipeline.
+
+Another major hurdle was **balancing automation with explainability**. Fully automated outputs initially lacked transparency, which is critical in pharmaceutical decision-making. We addressed this by adding **confidence scoring and source attribution** to each agent’s output, allowing users to understand *why* a recommendation was made and what data supported it.
+
+Finally, coordinating multiple agents without redundant computation was challenging. This was mitigated by implementing **task-level orchestration and caching**, which reduced unnecessary agent re-runs and improved overall system efficiency.
+
+**MongoDB Atlas**
+
+### Use of MongoDB Atlas
+
+Our project uses a **MongoDB Atlas cluster as the central database layer** for all data storage and coordination needs. Outputs generated by each AI agent, such as market insights, patent evaluations, clinical signals, trade analysis, and confidence scores are stored as **JSON documents** in Atlas collections.
+
+The flexible document-based schema allows us to efficiently manage **heterogeneous and evolving data** coming from multiple agents without rigid constraints. The orchestrator agent queries the Atlas cluster to aggregate these stored outputs and generate structured, explainable reports for decision-making.
+
+By using a managed MongoDB Atlas cluster, we ensure **scalability, reliability, and fast access** to agent outputs and intermediate analysis states, enabling smooth multi-agent orchestration and future system expansion.
+
+Team **PharmAssist** -- [Kshitiz Jain](https://github.com/kshitiz510), [Guransh Chugh](https://github.com/guranshchugh-9), [Vidyt Bhudolia](https://github.com/VidytBhudolia)
+
+`2026-02-08`
+
+---
+
+### LifePulse-AI
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/lifepulseai-8161) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/aryan-26-prog/LifePulse_AI) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://drive.google.com/file/d/1KgPW4Ull83XREt5tGIf17q8lJrhcpn1H/view?usp=drive_link) [![Built at](https://img.shields.io/badge/Built%20at-HackTU%207.0-0052CC?style=flat-square)](https://hacktu7.devfolio.co)
+
+> Community Health and Risk Management System
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Socket.IO](https://img.shields.io/badge/Socket.IO-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Express.js](https://img.shields.io/badge/Express.js-333333?style=flat-square)
+
+**The problem it solves**
+
+Community Health & City Risk Intelligence Platform
+
+Transforming public health through AI-powered community monitoring and intelligent risk
+assessment. Connecting citizens, NGOs, and city officials to prevent health crises before
+they emerge.
+
+**Challenges we ran into**
+
+i faced challenges regarding timin issue
+
+Team **Bruhgrammers** -- [Tarun Tarun](https://github.com/Txeim), [Aryan Dhiman](https://github.com/aryan-26-prog), [Mayank Kumar](https://github.com/mayankkumarlinghe-jpg)
+
+`2026-02-08`
+
+---
+
+### PharmaInnovate
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/pharmainnovate-37f2) [![Built at](https://img.shields.io/badge/Built%20at-KnowCode%203.0-0052CC?style=flat-square)](https://knowcode-3.devfolio.co)
+
+> Bimaari Nayi, Drugs Wahi.
+
+![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![Docker](https://img.shields.io/badge/Docker-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![FastAPI](https://img.shields.io/badge/FastAPI-333333?style=flat-square) ![crewai](https://img.shields.io/badge/crewai-333333?style=flat-square) ![LangGraph](https://img.shields.io/badge/LangGraph-333333?style=flat-square)
+
+**The problem it solves**
+
+# PharmaInnovate AI – Technical Overview
+
+- **Modular Platform**: Pharmaceutical research and drug repositioning system designed for evidence-based analysis.
+- **Unified Data Integration**: Aggregates biomedical, regulatory, scientific, and commercial data sources into a single analytical workflow.
+- **Multi-Agent Architecture**: Central coordination layer decomposes complex queries into well-defined subtasks.
+- **Parallel Execution**: Domain-specific agents run concurrently across clinical trials, regulatory intelligence, patent analysis, scientific literature, market data, and chemical evaluation.
+- **Evidence Synthesis**: Normalizes, cross-validates, and correlates multi-source outputs with confidence assessment.
+- **Repositioning Insights**: Identifies potential alternative drug indications using structured analytical reasoning.
+- **Scalable Backend**: Asynchronous Python stack based on FastAPI and LangGraph ensures low latency and deterministic workflow control.
+- **Interactive Frontend**: Real-time dashboard for visualization, exploration, and report generation.
+- **Structured Outputs**: Generates publication-ready exports to support downstream analysis and decision-making.
+- **Operational Efficiency**: Reduces manual research effort while improving traceability, reproducibility, and analytical reliability for research, clinical, and early-stage innovation environments.
+
+**Challenges we ran into**
+
+# Challenges faced
+
+1. **API Usage Limits**  
+   Manage and monitor API usage limits to ensure system reliability, prevent service interruptions, and maintain compliance with provider constraints.
+
+2. **AI Agent Coordination and Parallel Execution**  
+   Ensure that all AI agents operate cohesively, with proper orchestration to enable parallel execution while maintaining consistency, data integrity, and inter-agent communication.
+
+3. **Transformation of JSON Data into Human-Readable Language**  
+   Convert structured JSON outputs into clear, natural language representations that are easily understandable by end users without losing semantic accuracy.
+
+4. **Adherence to Time Constraints**  
+   Design and optimize workflows to guarantee that all processes execute within defined time limits, meeting performance and delivery requirements.
+
+Team **Meow Meow** -- [Tisha Patel](https://github.com/tishapatel2109), [Pushya Singh](https://github.com/Push900?tab=overview&from=2025-04-01&to=2025-04-03), [Siddhant Shukla](https://github.com/Siddhantshukla1657), [Raunak Kumar Gupta](https://github.com/Raunakg2005)
+
+`2026-01-25`
 
 ---
 
