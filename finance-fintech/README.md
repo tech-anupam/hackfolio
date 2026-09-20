@@ -1,6 +1,6 @@
 # Finance and Fintech
 
-![Projects](https://img.shields.io/badge/Projects-203-4B32C3?style=flat-square) [![GitHub](https://img.shields.io/badge/GitHub-tech--anupam-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/tech-anupam) [![Instagram](https://img.shields.io/badge/Instagram-tech.anupam-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/tech.anupam)
+![Projects](https://img.shields.io/badge/Projects-240-4B32C3?style=flat-square) [![GitHub](https://img.shields.io/badge/GitHub-tech--anupam-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/tech-anupam) [![Instagram](https://img.shields.io/badge/Instagram-tech.anupam-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/tech.anupam)
 
 [← Back to all themes](https://github.com/tech-anupam/hackfolio#readme)
 
@@ -975,6 +975,89 @@ Team **lumo** -- [Shinjan Patra](https://github.com/flaminshinjan), Tanish Vadel
 
 ---
 
+### Zump.fun
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/zumfun-1395) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/AjnasNB/zump.fun) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://docs.google.com/presentation/d/1MMW0Ec9I4ooryD-DDpN4ARtfr5ObEv9kSZxIhzHqzoU/edit?usp=sharing) [![Built at](https://img.shields.io/badge/Built%20at-ETHIndiaVilla-0052CC?style=flat-square)](https://ethindia-villa.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-6-FF6B6B?style=flat-square)
+
+> Stealth trading.Hidden identity.Zero traceability
+
+![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![Cairo](https://img.shields.io/badge/Cairo-333333?style=flat-square) ![StarkNet](https://img.shields.io/badge/StarkNet-333333?style=flat-square) ![Noir](https://img.shields.io/badge/Noir-333333?style=flat-square) ![Starknet Sequencer + SHARP](https://img.shields.io/badge/Starknet%20Sequencer%20+%20SHARP-333333?style=flat-square) ![Ztarknet Privacy Layer](https://img.shields.io/badge/Ztarknet%20Privacy%20Layer-333333?style=flat-square) ![Garga](https://img.shields.io/badge/Garga-333333?style=flat-square)
+
+**The problem it solves**
+
+Pump.fun revolutionized memecoin launches — but:
+
+- All wallets are publicly traceable
+- Whale wallets are stalked and copy-traded
+- Creators get doxxed, rugged, and chased
+- MEV bots front-run liquidity movements
+- Trader behavior becomes predictable meta
+- Degens want freedom without surveillance.
+
+🧬 What is zump.fun?
+
+A fully private pump.fun-style launchpad where:
+
+- traders
+- creators
+- market-makers
+- remain completely anonymous,
+- backed by zero-knowledge cryptography.
+
+✔️ Hidden trader identity
+✔️ Private position sizes
+✔️ Encrypted liquidity movements
+✔️ Shielded price manipulation signals
+✔️ Stealth memecoin launches
+
+Privacy = Narrative Alpha
+
+🌊 Core Mechanics (Pump.fun Model)
+
+Similar economic engine:
+
+0 → LP curve bootstrap
+
+Mint → Bonding Curve → Listing Threshold
+
+Auto-LP deployment to DEX (e.g., Jediswap / Ekubo)
+
+Fair launch, no presale, no insider advantage (publicly)
+
+BUT:
+
+Wallets ≠ identities
+
+Curve participation is untraceable
+
+**Challenges we ran into**
+
+1️⃣ ZK Bonding Curve Pricing
+Keeping bonding curve logic private without breaking UX or pricing fairness.
+
+2️⃣ Noir + Garaga Integration
+Early-stage tooling made zk-proof generation + Cairo verification complex.
+
+3️⃣ Private → Public Liquidity Transition
+Shielding bonding trades while enabling transparent LP listing required hybrid execution design.
+
+4️⃣ MEV & Sniper Protection Under Privacy
+Invisible orders needed encrypted batching to prevent manipulation.
+
+5️⃣ Anonymity Without Enabling Scams
+Added ZK-enforced vesting + anti-rug logic to protect traders even when creators are hidden.
+
+6️⃣ ZK State Growth & Gas Efficiency
+Optimized storage commitments and proof batching to keep on-chain costs low.
+
+7️⃣ Wallet Compatibility
+Ensured stealth UX works across diverse Starknet AA wallets and fee models.
+
+Team **Guradlink,ai** -- [Sherhin Pp](https://github.com/SherhinShoukath), [Ajnas N B](github.com/AjnasNB), [Amaan Sayyad](https://github.com/AmaanSayyad)
+
+`2025-12-01`
+
+---
+
 ### SignFlow
 [![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/signflow-a1cb) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://www.youtube.com/watch?v=KDsyd7BzeiA) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=aVUMpGVybJw) [![Built at](https://img.shields.io/badge/Built%20at-Locus'%20Paygentic%20Hackathon%20--%20#4-0052CC?style=flat-square)](https://paygentic-week4.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-5-FF6B6B?style=flat-square)
 
@@ -1742,6 +1825,422 @@ Another challenge was **integrating authentication smoothly** with the React fro
 Team **Broken Table** -- [Sparsh Agarwal](https://github.com/sparshagarwal0411), [Siya Yadav](https://github.com/skylover02), [Harsh Bhardwaj](https://github.com/Harshb7406), [Akash Niranjan](https://github.com/shenmok)
 
 `2026-02-02`
+
+---
+
+### Gigscore
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/gigscore-e934) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/DQrBCuZ6rZA?si=9qi0-U7r_IJdox7k) [![Built at](https://img.shields.io/badge/Built%20at-DUHacks%205.0-0052CC?style=flat-square)](https://duhacks5.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-4-FF6B6B?style=flat-square)
+
+> Credit Beyond Payslips
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square)
+
+**The problem it solves**
+
+Traditional lending systems rely heavily on fixed monthly salaries, payslips, and formal employment records to assess creditworthiness.
+However, gig workers such as Swiggy and Zomato delivery partners earn daily, variable income and lack formal salary documentation, despite having consistent work patterns and reliable earnings.
+
+Because of this:
+●Banks reject loan applications from    gig workers
+●Workers depend on informal or high-interest loans
+●Financial inclusion remains limited and unfair
+
+**Challenges we ran into**
+
+●Lack of real gig-worker data due to privacy restrictions
+●High income variability, making stability assessment difficult
+●Absence of standard credit labels for gig workers
+●Time constraints in building ML, backend, and UI together
+
+Team **The Heisenberg** -- [Krishnakumar Garala](https://github.com/KrishnaGarala-20), [Prince Ghinaiya](https://github.com/PrinceGhinaiya), [Yug Garala](https://github.com/Yug9849), [Gol Nevil](https://github.com/nevilgol1)
+
+`2026-01-25`
+
+---
+
+### CashLens - An UPI Budget Manager
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/cashlens-8132) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/basic30/Cashlens) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://cashlens.pages.dev/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/sGgpbfNWP-Y) [![Built at](https://img.shields.io/badge/Built%20at-Hackxios%202K25-0052CC?style=flat-square)](https://hackxios2k25.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-4-FF6B6B?style=flat-square)
+
+> Your Money in Focus
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![Redux Toolkit](https://img.shields.io/badge/Redux%20Toolkit-333333?style=flat-square) ![Radix UI](https://img.shields.io/badge/Radix%20UI-333333?style=flat-square) ![lucid react](https://img.shields.io/badge/lucid%20react-333333?style=flat-square) ![React Router DOM](https://img.shields.io/badge/React%20Router%20DOM-333333?style=flat-square) ![Recharts](https://img.shields.io/badge/Recharts-333333?style=flat-square)
+
+**The problem it solves**
+
+The Problem CashLens Solves
+
+Managing personal finances is increasingly difficult. People receive multiple UPI and bank SMS alerts every week, yet most still lack clarity about where their money is going. Several issues contribute to this:
+
+Information overload causes important transaction details to get lost in SMS notifications.
+
+Manual expense tracking apps require users to enter data themselves, leading to low engagement and incomplete records.
+
+Users do not receive real-time insights or guidance about spending patterns, overspending, or potential savings.
+
+Impulse spending on food delivery, subscriptions, and online shopping often goes unnoticed.
+
+Many financial apps store sensitive data on external servers, raising privacy concerns.
+
+The combined effect is scattered financial information, poor visibility, unnoticed overspending, and no actionable help.
+
+How CashLens Helps Users and Makes Financial Tasks Easier and Safer
+
+CashLens turns raw SMS alerts into a fully automated, private, and intelligent personal finance system. It improves users’ financial awareness and control by offering the following:
+
+Automatic Expense Tracking
+CashLens parses UPI/bank SMS alerts locally on the device and extracts transaction details instantly, eliminating the need for manual entry.
+
+Clear and Organized Financial Overview
+A visual dashboard presents monthly spending, category distributions, weekly trends, and top merchants, giving users immediate clarity without searching through messages.
+
+AI-Driven Financial Insights
+CashLens acts as a financial coach by highlighting overspending, identifying unusual transactions, predicting budget overruns, and suggesting ways to optimize expenses.
+
+Subscription and Recurring Payment Detection
+Users can easily identify active, unused, or hidden subscriptions and understand their monthly and annual cost impact.
+
+Safety Through Anomaly Detection
+The system flags suspicious or unexpected transactions, helping users spot potential issues early.
+
+Privacy-First Design
+All processing occurs locally in the browser, and no financial data is uploaded or stored on external servers, ensuring complete user privacy.
+
+Summary :
+
+CashLens simplifies personal finance by automating expense tracking, organizing spending patterns, detecting anomalies, and providing meaningful AI insights—all while keeping data entirely private. It allows users to understand and manage their money easily, accurately, and safely.
+
+**Challenges we ran into**
+
+Challenges We Ran Into  :
+
+Building CashLens presented several technical and design challenges that required careful problem-solving:
+
+Reliable SMS Parsing and Transaction Extraction
+Different banks and UPI apps use inconsistent SMS formats, which made it difficult to extract amounts, merchants, and transaction types accurately.
+Solution:
+We created a pattern-matching system with multiple fallback rules and tested it against a diverse mock SMS dataset. Iterative refinement improved accuracy significantly.
+
+Categorizing Transactions with Limited Context
+Many SMS messages lack explicit category information (e.g., whether a purchase is “Food” or “Shopping”).
+Solution:
+We implemented keyword-based classification combined with a lightweight NLP approach. Merchant names and transaction descriptions were mapped to known spending categories, improving classification consistency.
+
+Ensuring Real-Time Performance in a Local-Only Environment
+Since all parsing and analytics run in the browser for privacy reasons, heavy processing caused occasional lag.
+Solution:
+We optimized data structures, reduced unnecessary re-renders, and offloaded heavier computation into background logic. This made the dashboard feel responsive even with hundreds of transactions.
+
+Setting Up a Clean and Intuitive Dashboard
+Displaying trends, budgets, anomalies, and categories in a meaningful way was challenging from a UX perspective.
+Solution:
+We simplified the visual hierarchy, used Recharts for clarity, and iterated on UI layouts until insights could be understood at a glance.
+
+Testing Anomaly Detection
+False positives and false negatives occurred early when flagging unusual transactions.
+Solution:
+We refined detection rules and added threshold-based logic, improving the reliability of alerts.
+
+Handling Routing and Deployment Issues
+During deployment, certain deep-linked pages broke due to client-side routing.
+Solution:
+We fixed this by configuring proper rewrite rules for Netlify/AWS Amplify, ensuring SPA routes work on refresh
+
+**Best Innovation**
+
+Why CashLens Fits the Best Innovative Track:
+
+Privacy-First by Design
+Unlike traditional fintech applications, CashLens demonstrates that AI-powered financial tools can operate without sending sensitive user data to the cloud, ensuring complete user privacy.
+On-Device Financial Intelligence
+All AI-driven insights, including spending analysis, anomaly detection, and financial health scoring, run locally on the user’s device, enabling a decentralized and future-ready architecture.
+Unique SMS-to-Insights Pipeline
+CashLens converts raw bank SMS messages directly into actionable financial analytics inside the browser, removing the dependency on external servers or third-party processors.
+User-Controlled Financial Data
+Users retain full ownership and control over their financial data, with no lock-in, tracking, or hidden monetization practices.
+Real-World Impact
+The platform addresses everyday financial challenges such as overspending, forgotten subscriptions, and financial anxiety, delivering meaningful value to real users.
+Scalable and Auditable Architecture
+CashLens is built with an open, transparent, and adaptable architecture, allowing future integrations and scalability without compromising privacy.
+Bridging AI and Trust
+By keeping users in control of their data, CashLens builds trust in AI-driven financial tools, which is critical for the future of consumer finance.
+
+Team **Team Apex** -- [Sania Ghosh](https://github.com/Sania2805), [Sneha Majumder](https://github.com/SnehaMs325), [Srijit Bhattacharya](https://github.com/Sidibo), [Snahasish Dey](https://github.com/basic30)
+
+`2025-12-30`
+
+---
+
+### Pay Anyone Legend
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/pay-anyone-legend-733c) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/kurodenjiro/Anyone-pay) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://anyone-pay.vercel.app/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/75USMbrn7_8) [![Built at](https://img.shields.io/badge/Built%20at-Zypherpunk-0052CC?style=flat-square)](https://zypherpunk.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-4-FF6B6B?style=flat-square)
+
+> Private cross-chain x402 payments for merchants.
+
+![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![Rust](https://img.shields.io/badge/Rust-333333?style=flat-square) ![NEAR Protocol](https://img.shields.io/badge/NEAR%20Protocol-333333?style=flat-square) ![x402](https://img.shields.io/badge/x402-333333?style=flat-square)
+
+**The problem it solves**
+
+Anyone Pay solves critical problems in digital payments by combining **AI-powered intent recognition**, privacy-preserving technologies, cross-chain interoperability, and a universal payment standard.
+
+---
+
+## 1. AI-Powered, Private Intent Recognition
+
+**Problem**: Users suffer fund loss from typos or must manually handle complex crypto addresses. Additionally, the AI used for intent recognition often runs on traditional servers, compromising the user's payment intent and sensitive transaction data.
+
+**Solution**: The system uses **AI to analyze natural language queries** (e.g., "Pay onlyfan" -> OnlyFans) and performs **semantic matching**, filling in missing details automatically. Crucially, this AI intent engine and associated private computation run inside a **NEAR AI Trusted Execution Environment (TEE)**. This hardware-secured enclave protects the user's payment intent, ensuring the AI cannot be compromised or monitored by the server operator. 
+
+---
+
+## 2. Privacy in Digital Payments & Usability
+**Problem**: Traditional payments expose transaction details, require KYC, and enable surveillance, limiting financial freedom.On-chain transactions are constantly monitored for behavior and often require KYC (Know Your Customer), which compromises security/safety.
+
+**Solution**: "Anyone Pay" utilizes "near intent" to automatically create Zcash addresses, ensuring all transaction details are hidden. Furthermore, it uses "Chain Sign" to enable a Near Account to generate derived addresses others c from receiving chains and initiate transactions. This combined process results in transactions that are completely anonymous and leave no traceable footprint on the internet.
+
+---
+
+## 3. Cross-Chain Payment Complexity
+
+**Problem**: Users must manage multiple chains, manually bridge assets, and struggle with different gas fees to transact across the decentralized ecosystem.
+
+**Solution**: A unified interface automatically manages the complexity. It uses NEAR Chain Signatures to perform cross-chain transactions; the asset bridging is driven by the target chain specified (Base, Solana, etc.). The core is an **Intent-based architecture** where users express the goal, and the system handles the multi-step execution.
+Example Intent: Pay $0.20 USDC to a merchant on Base by using the user's existing funds on Base. The user simply says: "pay 0.2 usdc to 0x... Base"
+
+---
+
+## 4. Merchant Payment Friction
+
+**Problem**: Merchants face complex technical setup, require multiple integrations, must manually verify payments, and provide a poor customer experience.
+
+**Solution**: Merchants benefit from **one-click service creation**. Service discovery is simplified via the AI's natural language search. Payments are automatically verified using the **x402 payment protocol**. Customers simply scan a QR code to pay.
+
+---
+
+## 5. Multichain Pay-to-API Standardization (x402) & Developer Tools
+
+**Problem**: Payment APIs are fragmented. There is no universal, easy standard for monetizing digital content or machine-to-machine (M2M) API access across major blockchains (EVM, Base, Solana). Furthermore, developers lack a comprehensive environment to build and test these autonomous AI payment systems.
+
+**Solution**: Adoption of the **HTTP 402 "Payment Required" standard** via the **x402 protocol** combined with Anyone Pay's cross-chain routing. This creates a universal, multichain standard that allows developers to **easily implement a simple, granular pay-per-access model** for any API or web application.
+
+To support this, the **AI-Native Playground** provides developers with a complete environment for rapid prototyping, testing, and deploying their verifiable AI agents and applications.
+
+This ensures:
+* **Easy Multichain Payment:** The client can pay using tokens on their preferred chain (Base, Solana, EVM chains), and the system handles the cross-chain settlement automatically.
+* **Universal API Flow:** Consistent, native HTTP payment flow across all services.
+* **Rapid Deployment:** Developers can quickly build and launch agents that interact with the payment standard. 
+
+---
+
+## 6. Key Management Complexity
+
+**Problem**: Users must secure and manage seed phrases, private keys, and multi-chain wallets, leading to high risk of loss and high user friction.
+
+**Solution**: **NEAR Chain Signatures (MPC)** handle keys automatically and securely on the backend. **No seed phrases needed**. This key abstraction, combined with QR code scanning, replaces traditional wallet complexity.
+
+---
+
+## Real-World Use Cases
+
+* **Content Creators**: Create service, share link, get paid automatically and privately.
+* **SaaS Providers**: Instant, granular payments for premium features or **metered API usage**.
+* **Digital Goods**: Automatic, instant payment verification before unlocking content.
+* **Cross-Border**: Fast, low-cost private payments across different blockchain networks.
+* **Privacy Users**: Private Zcash deposits with shielded transactions for all payments.
+
+**Challenges we ran into**
+
+Major technical challenges encountered while building Anyone Pay, focused on blockchain and AI integration.
+
+## 1. Chain Signatures Integration Complexity
+
+**Challenge**: Implementing NEAR Chain Signatures for Ethereum signing. `chainsig.js` library had issues:
+- `signAndSendTransactions` function not working
+- Account object structure mismatches
+- Transaction serialization problems between NEAR and Ethereum
+
+**Solution**: 
+- Switched to direct NEAR API based on `chainsig-script` example
+- Created custom `lib/near.ts` for direct MPC contract interaction
+- Used `chainsig.js` only for EVM adapter utilities (prepare/finalize)
+
+**Key Learning**: Direct API calls are often simpler than abstraction libraries. Hybrid approach: libraries for utilities, direct calls for core logic.
+
+---
+
+## 2. EIP-712/EIP-3009 Signature Handling
+
+**Challenge**: x402 payments require EIP-712 typed data signing. Multiple signature format issues:
+- Invalid `v` value errors
+- Signature recovery failures  
+- Incorrect `r` and `s` format (needed 32 bytes, not hex strings)
+
+**Root Cause**: 
+- Chain Signatures return `recovery_id` (0 or 1), not EIP-155 `v` value
+- Different formats needed for EIP-712 vs transaction signing
+- Gas estimation failed with placeholder signatures
+
+**Solution**:
+- Implemented `signTypedDataWithChainSignature` for EIP-712 authorization
+- Adjusted `v`: `recovery_id + 27` for EIP-712, `recovery_id + chainId * 2 + 35` for EIP-155
+- Ensured `r` and `s` are exactly 32 bytes (64 hex chars) for `transferWithAuthorization`
+- Manual transaction construction to avoid gas estimation failures
+- Added signature verification before broadcasting
+
+**Key Learning**: EIP-712 and EIP-155 have different signature format requirements. Chain Signatures recovery_id needs conversion for different standards.
+
+---
+
+
+**Key Learning**: NEAR Account initialization requires keys present in keystore. Synchronous operations shouldn't be wrapped in async/await.
+
+---
+
+## 4. Cross-Chain Transaction Signing
+
+**Challenge**: Signing Ethereum transactions from NEAR Chain Signatures:
+- Converting NEAR format to Ethereum format
+- Handling different signature formats
+- Gas estimation without valid signatures
+
+**Solution**:
+- Used `chainsig.js` EVM adapter for `prepareTransactionForSigningLegacy` and `finalizeTransactionSigningLegacy`
+- Manual transaction construction with fixed gas limits when estimation fails
+- Separate transaction objects for ethers (numbers) and viem (BigInt)
+- Proper type conversions between libraries
+
+**Key Learning**: Legacy transaction format is simpler for cross-chain signing. Gas estimation can be bypassed with reasonable fixed values.
+
+---
+
+## 5. Ethers Version Compatibility (v5 vs v6)
+
+**Challenge**: Needed to downgrade from `ethers` v6 to v5.7.2 for `chainsig.js` compatibility. Extensive API changes:
+- `ethers.parseUnits` → `ethers.utils.parseUnits`
+- `ethers.Interface` → `ethers.utils.Interface`
+- `ethers.keccak256` → `ethers.utils.keccak256`
+- BigNumber handling changes
+
+**Solution**: Systematically converted all v6 API calls to v5 equivalents. Fixed BigNumber mixing issues with explicit conversions.
+
+**Key Learning**: Always check library version compatibility. BigNumber operations need explicit type conversions.
+
+---
+
+## 6. AI Semantic Search and Service Matching
+
+**Challenge**: Implementing semantic search for service discovery:
+- Generating embeddings for services
+- Matching user queries to services
+- Setting similarity thresholds (too high = no matches, too low = false positives)
+
+**Root Cause**: 
+- Near AI API key might not be available
+- Vector similarity search requires proper setup
+- Threshold tuning is critical
+
+**Solution**:
+- Implemented `generateEmbedding` with Near.AI
+- Created `searchServicesSemantic` with vector search
+- Fallback to `searchServicesKeyword` if embeddings fail
+- Adjusted threshold to 0.6 (60% similarity) for better matching
+
+**Key Learning**: Always provide fallback mechanisms. Similarity thresholds need tuning. Keyword search is valuable when AI unavailable.
+
+---
+
+**General Bounty**
+
+I’ve heard about the Network School in Singapore — a place with warm golden sunlight near the beach, where you can work out and play volleyball with top founders from around the world. It sounds like an amazing place, and I hope to experience it one day.
+
+**Cross-Chain Privacy Solutions**
+
+We are specifically leveraging NEAR Intent to seamlessly bridge SOL (Solana) and Zcash assets, enabling us to execute the final X402 payment without user friction or manual swaps.
+
+**Cross-Chain Privacy Solutions**
+
+Specifically, we are leveraging NEAR Intent and Chain Abstraction technology to seamlessly execute payments, culminating in the X402 Payment transaction for merchants.
+
+**Privacy-Preserving AI & Computation**
+
+We utilize NEAR AI to autonomously process user intents, ensuring all cross-chain and privacy steps are handled automatically behind the scenes within Trusted Execution Environments (TEEs) for secure and verifiable private data processing. This functionality is supported by the AI-Native Playground, which provides developers with a complete environment for rapid prototyping, testing, and deploying their verifiable AI agents and applications.
+
+**Private Payments & Transactions**
+
+Crucially, we utilize Zcash and its shielded addresses to ensure maximum privacy, guaranteeing that the user's deposit address is never revealed. Furthermore, by employing NEAR AI locally within the system, we ensure that no third-party data sharing occurs, maintaining complete control and security over your transaction information, all while utilizing the x402 private payment API to facilitate autonomous, machine-to-machine transactions over the web
+
+[Kuro Denjiro](https://github.com/kurodenjiro)
+
+`2025-12-03`
+
+---
+
+### NocomFi
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/nocomfi-d2e3) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/jp4g/nocom-v1) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://youtu.be/eZa_b9goWIU) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/vZkVShrkt_o) [![Built at](https://img.shields.io/badge/Built%20at-Zypherpunk-0052CC?style=flat-square)](https://zypherpunk.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-4-FF6B6B?style=flat-square)
+
+> Lending with perfectly private collateral
+
+![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![Zero-Knowledge Proofs (ZKPs)](https://img.shields.io/badge/Zero--Knowledge%20Proofs%20(ZKPs)-333333?style=flat-square) ![AZTEC Protocol](https://img.shields.io/badge/AZTEC%20Protocol-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![Smart Contracts](https://img.shields.io/badge/Smart%20Contracts-333333?style=flat-square) ![tee](https://img.shields.io/badge/tee-333333?style=flat-square)
+
+**The problem it solves**
+
+# **Nocom Fi**
+*"Are you earning yield on your shielded ZCash?" "No comment." *
+Private money market built on top of Aztec with first class support for cross chain/ shielded assets
+
+NOTICE: See this link for the [non-technical pitch video.](https://youtu.be/eZa_b9goWIU) as a better answer to "What problem it solves"
+
+## Problem
+* There is over $10 billion USD in idle shielded capital
+* Capital managers are forced to choose between composability/ productivity vs privacy
+* There is likely billions more of capital that would prefer to be shielded given the chance, but can't handle the opportunity cost of leaving transparent DeFi
+
+## Solution
+* Cross chain privacy-first money market
+* Give already shielded capital the opportunity to be productive without risking surveillance
+* Give already productive capital the ability to be shielded without risking opportunity
+* Nocom Finance builds the intersection between the rapidly growing decentralized lending market (TVL up ~500% since 2022 to ~$60Bb) with the equally rapidly growing pool of decentralized shielded assets (TVL up ~100% YTD to ~$10Bb)
+
+## Features
+ * Entirely encrypted collateral: Nocom uses a version of the ["secret escrow"](https://github.com/defi-wonderland/aztec-standards/tree/dev/src/escrow_contract) pattern (read the link for explanation on pattern). Collateral for Nocom pools is stored in an escrow between borrowers and a liquidator TEE, meaning collateral is *entirely* private while still being constrained to follow the protocol of the smart contract.
+ * Anonymous borrowing and lending: Nocom pools allow lending and borrowing of a single debt asset backed by a single collateral asset. This mode of decentralized lending pools offers solid efficiency inside of ZK circuits (Aztec contracts) while maximizing usability. Of course, in the future, vaults combining individual pools can be built on top of this. Borrowing and lending occurs anonymously: addresses are hidden, and balances are shielded when the exit the pool, but the utilization ratio is public.
+ * Overcollateralized Stablecoins: Nocom also offers the overcollateralized zUSD stablecoin. Stablecoins are collateralized in the same way that isolated debt pools are, however there is no loaned asset on the other side. Stablecoins are minted on borrows and burned on repayments and liquidations. Since colilateral is private, a variety of markets can share the same stablecoin, meaning that if you use a natively private asset like shielded ZCash, it is impossible to tell that any ZCash was even used to collateralize the stablecoin (all the volume could come from the ETH market and the ZCash market could be dead, or vice versa)
+ * TEE-based health factor monitoring and liquidations: Nocom operates a Phala TDX instance that privately monitors position health. If a position enters liquidation territory, the TEE will execute a liquidation bringing the position into solvency. The TEE only has custody of the key material for escrows - if the TEE were to be compromised, all assets are still safe, although unshielded to key holders
+ * Mock price oracle in TEE: since no oracles exist for Aztec yet, we use a MockOracle we host ourselves that points to CoinGecko. However, to harden the price oracle, we bundle it with the liquidation service to add a layer of guarantee to the execution of price feed updates. 
+ * Mock cross chain (ZCash) support: Nocom assumes a ZCash<>Aztec bridge will come from the Zypherpunk hackathon, and will employ [Train Protocol's HTLC's](https://github.com/TrainProtocol/contracts/tree/dev/chains/bitcoin) in the case that solutions from this hackathon are insufficient. Other chains, like Solana or Eth L2's, can be serviced by [Wormhole](https://www.notion.so/nethermind/Wormhole-on-Aztec-documentation-Quick-Start-Guide-263360fc38d0804bba2afb4a33cbbca6). Any 
+
+## Future Improvements
+(Asides from cleaning up all the rough edges of a hackathon)
+(Not all of these are guaranteed to happen, but some ideas Nocom enables that I will explore)
+ * 1-click entry from any chain: using TEE relayers, users will be able to enter encrypted positions from any chain in one click.
+ * Aztec Connect (Lending Only): general purpose vehicle for going from transparent chain to transparent chain while integrating timing and sizing analysis protections
+ * Cross Market Lending: User A collateralizes on L1 Aave, User B collateralizes on L2 Morpho (using Aztec Connect style depositing through Nocom). User B can now borrow from privately borrow from Aave using their Morpho collateral (with Nocom being the accounting/ processing layer)
+ * Cross Chain PoL Lending: Nocom takes its L2 treasury and deposits into L1 lending markets like Aave. Users can collateralize positions on Nocom and borrow directly from the treasury's L1 positions. This breaks timing and sizing analysis attacks associated with traditional mixers while allowing the protocol to leverage its treasury further.
+
+**Challenges we ran into**
+
+1. limited time: could not get devnet integration. using sandbox.
+2. limited time: interest rate math is primitive (its a privacy hackathon not a defi hackathon and ALL of the other defi parts are integrated. Will add ray math later)
+3. issue with AIP20 `transfer_public_to_commitment`: got "expected field, found u32". Since I know this is a bug and not a technical limitation of partial notes, I chose to mock this by using `transfer_public_to_private` which leaks address for this PoC
+4. initially this was built aave style (multi-collateral positions) which made the complexity of contracts feel exponentially worse. Eventually decided to switch to morpho
+
+**General Bounty**
+
+Full stack (zk smart contracts, front end integration into smart contracts, TEE-based price oracle and liquidation service) project that will be continued regardless of placement in hackathon
+
+**Private DeFi & Trading**
+
+Aztec-based money market using isolated lending. Uses the "secret escrow" smart contract patterns to make collateralization of debt entirely private. Isolated lending pattern extended to overcollateralized exogenous stablecoins (GHO style). Has complete integration into a frontend that employs the EmbeddedWallet. Uses a Phala Network TEE to facilitate more trust in the price oracle. Uses a Phala Network TEE for private health factor monitoring and liquidation execution for stable/ isolated debt positions.
+
+**Cross-Chain Privacy Solutions**
+
+Does not yet implement Solana but immediate next step is [Wormhole](https://nethermind.notion.site/Wormhole-on-Aztec-documentation-Quick-Start-Guide-263360fc38d0804bba2afb4a33cbbca6) integration
+
+**Private DeFi & Trading**
+
+Nocom V1 expects other Zypherpunk builders to have created Aztec<>ZCash bridges and uses a mocked token. However, Nocom is uniquely built for natively shielded assets like ZCash since it provides end-to-end privacy when deploying capital into yield generation strategies or stablecoins (vs bridging eth in which is just going into a mixer).
+
+[Jack Gilcrest](https://github.com/jp4g)
+
+`2025-12-04`
 
 ---
 
@@ -3183,6 +3682,180 @@ Tax-Loss Shadow is an Open Innovation in Fintech that transforms tax compliance 
 Team **Team Baguette** -- [Utkarsh Singh](https://github.com/UTKI20), [Srish Bansal](https://github.com/SrishBansal), [divyansh nagpal](https://github.com/maybedivyansh), [Kanishk Kulshrestha](https://github.com/Kanishk-Kulshrestha)
 
 `2026-02-01`
+
+---
+
+### Ind Offline Payment
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/ind-offline-payment-a0c7) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Mnn-fun/Ind-Offline-Payment-) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/Pch3IVhSqBY) [![Built at](https://img.shields.io/badge/Built%20at-DUHacks%205.0-0052CC?style=flat-square)](https://duhacks5.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-3-FF6B6B?style=flat-square)
+
+> Why to always depend on Internet -use IOP
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square)
+
+**The problem it solves**
+
+Bridging the Digital Divide for Rural India While India leads the world in UPI transactions, a significant population—over 400 million feature phone users in rural areas—is left behind due to a lack of smartphones and reliable internet connectivity. Popular apps like GPay and PhonePe are unusable for them.
+
+Ind Offline Pay solves this by enabling 100% Offline Digital Payments using the USSD (Unstructured Supplementary Service Data) protocol.
+
+Key Features:
+
+>No Internet Required: Works on the basic GSM voice network (Signal bars only, no 4G/5G needed).
+
+>Works on Any Phone: Designed specifically for basic feature phones (keypad phones) found in villages.
+
+>Multilingual Support: We recognized that English is a barrier, so our system explicitly offers a Hindi Interface to ensure true inclusivity for rural users.
+
+>Bank-Grade Security: Implements PIN Hashing (PBKDF2) and Brute-force lockout protection, ensuring that offline does not mean insecure.
+
+**Challenges we ran into**
+
+1. Simulating the Telecom Network The biggest hurdle was that real USSD codes (like *99#) are strictly regulated by Telecom Operators and cannot be acquired for a 24-hour hackathon.
+
+Solution: We built a full-stack Network Simulator that mimics the exact behavior of a GSM Network tower. We created a "State Machine" in Python that maintains the session state of a phone call, allowing us to demonstrate the technology live without needing a telecom license.
+
+2. Managing Session State (Stateless vs Stateful) Unlike modern web apps (REST APIs) which are stateless, USSD is session-based. The server needs to remember where the user is in the menu (e.g., did they just press '1' for Balance or '1' for English?).
+
+Solution: We implemented a complex Session Manager using Python's match-case logic to track every user's journey through the menus in real-time.
+
+3. Offline Security Ensuring security without an internet connection to verify tokens was difficult.
+
+Solution: We implemented local cryptographic hashing for PINs using Werkzeug security libraries. We also added a "Lockout Mechanism" that freezes the account after 3 failed attempts, preventing physical hacking of the device.
+
+Team **Frankenstein** -- [Pratik Chauhan](https://github.com/IconIc-026), [Manan Kotiya](https://github.com/Mnn-fun), [Meet Suthar](https://github.com/me3t25)
+
+`2026-01-25`
+
+---
+
+### Cash Expense Tracker
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/cash-expense-tracker-ad4a) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ankush12-b/cash-expense-tracker) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/NsHUusnTjAI) [![Built at](https://img.shields.io/badge/Built%20at-Winter%20of%20Code%205.0-0052CC?style=flat-square)](https://winter-of-code-5.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-3-FF6B6B?style=flat-square)
+
+> Built to solve, not complicate.
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square)
+
+**The problem it solves**
+
+💰 Cash Expense Book - Use Cases & Benefits 🎯 What Is It? Cash Expense Book is a premium, privacy focused personal finance tracker that helps you manage your daily expenses without sharing your financial data with third parties. Everything stays on your device. 
+
+👥 Who Can Use It?
+
+Students 🎓 Track monthly allowance and pocket money Monitor spending on food, books, and entertainment Stay within budget during semester No bank account required - perfect for cash transactions
+
+Freelancers & Gig Workers 💼 Record daily business expenses Track project-wise spending Separate personal vs business expenses Export CSV for tax filing and accounting
+
+Households & Families 🏠 Manage monthly household budget Track grocery, utilities, and bills Monitor where money is going each month Prevent overspending with budget warnings
+
+Small Business Owners 🏪 Quick expense logging for petty cash Category-wise expense analysis Track daily operational costs Export reports for bookkeeping
+
+Travelers ✈️ Track vacation spending in real-time Multi-currency support (40+ countries) Daily expense monitoring while abroad Stay within travel budget
+
+Anyone Who Wants Financial Privacy 🔒
+
+✨ How It Makes Life Easier Before Cash Expense Book: 
+❌ Scribbling expenses in notebooks
+❌ Forgetting what you spent money on
+ ❌ No clear picture of monthly spending
+ ❌ Manual calculation at month-end 
+❌ Lost receipts and forgotten transactions
+ ❌ No budget tracking = overspending
+ ❌ Privacy concerns with cloud apps
+
+After Cash Expense Book: 
+✅ Quick 10-second logging - Add expense in seconds 
+✅ Visual calendar view - See spending at a glance 
+✅ Automatic calculations - Instant totals and remaining budget 
+✅ Smart warnings - Alerts at 90% budget usage 
+✅ Organized categories - Know where money goes 
+✅ One-click exports - CSV reports for analysis 
+✅ Complete privacy - Your data never leaves your device
+
+🚀 Key Features That Make It Better
+
+Multilingual Support 🌍
+7 languages: English, German, Spanish, French, Hindi, Japanese, Mandarin Entire UI translates based on selected language Perfect for international users
+
+Smart Budget Management 💰
+Set monthly budget Real-time remaining amount 90% usage warning Budget validation (can't exceed limit) Add money to budget anytime
+
+Visual Calendar 📅
+Month-by-month navigation See expenses on specific days Total per day shown Month total at top Click any day for detailed breakdown
+
+Category Analytics 📊
+Built-in categories + custom ones Pie chart visualization in profile See spending patterns Identify problem areas Category-wise totals
+
+Easy Expense Management ✏️
+10-second entry - Title, amount, date, category Custom categories saved permanently Remove expenses individually Timestamps on every entry View by day, month, or all-time
+
+Professional Exports 📥
+Current month CSV - This month's expenses All-time CSV - Complete history Includes: Title, Amount, Category, Date, Timestamp Perfect for Excel/Google Sheets Ideal for tax records 7. Dark/Light Mode 🌓
+
+Navy & Grey theme (professional) Light mode for daytime use Eye-friendly colors Premium minimalistic design Toggle anytime
+
+Profile Management 👤
+View all-time spending Category breakdown with bars User info display Delete account option (PIN-protected) Avatar support (optional)
+
+The Core Value Proposition
+
+"Your money, your privacy, your control."
+
+Cash Expense Book gives you the simplicity of pen & paper with the power of digital tools, all while protecting your financial privacy. No company owns your data. No subscription fees. No internet required. Just pure, efficient expense tracking that respects your privacy.
+
+🎁 Best Part: It's FREE Forever
+
+No hidden costs No premium tiers No feature locks No data selling No ads 100% free, 100% private, 100% yours
+
+Use of AI tools was taken into consideration for this project.
+
+
+Check this video for step by step usage of the expense tracker 
+https://youtu.be/QnpTLKuIg58
+
+[Ankush Bhardwaj](https://github.com/ankush12-b)
+
+`2026-01-20`
+
+---
+
+### TradeWise
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/tradewise-5e13) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/archakbanerjee10/TradeWise-final) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/Fja7vLVcau8) [![Built at](https://img.shields.io/badge/Built%20at-Hackxios%202K25-0052CC?style=flat-square)](https://hackxios2k25.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-3-FF6B6B?style=flat-square)
+
+> An AI-Powered Stock Trading Intelligence System.
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Express.js](https://img.shields.io/badge/Express.js-333333?style=flat-square)
+
+**The problem it solves**
+
+The biggest threat to modern retail traders is unverified digital noise. Malicious actors use fake news to trigger artificial price spikes, leading uninformed investors into significant losses. TradeWise solves this by closing the "Verification Gap," providing an automated truth-filter that identifies high-risk information before an investor executes a trade.
+
+**Challenges we ran into**
+
+Setting up a full-stack architecture for the first time and ensuring smooth communication between frontend and backend using REST APIs.
+
+Managing routing and file paths correctly in an Express.js backend while serving multiple HTML pages.
+
+Handling ES module configuration issues in Node.js (import/export, type: module, __dirname fixes).
+
+Debugging CORS, 404 errors, and file-not-found (ENOENT) issues during local development.
+
+Designing a buy/sell order flow without using a database, while still maintaining consistent application state.
+
+Synchronizing frontend UI actions (Buy/Sell buttons, watchlist clicks) with backend order creation logic.
+
+Ensuring user-specific data isolation and resetting state correctly on logout.
+
+Integrating an AI-based news verification module (TruthLens AI) using Python and external APIs within a web platform.
+
+Handling inconsistent or noisy financial news data while generating sentiment and trust scores.
+
+Collaborating in a team environment and merging frontend, backend, and AI components within limited hackathon time.
+
+Balancing feature completeness, UI/UX polish, and system stability under strict deadlines.
+
+Team **VR1** -- [Avijit Roy](https://github.com/avijit-roy24), [Ankan Dolui](https://github.com/ankan-dolui), [Ayushi Srivastava](https://github.com/ayu-1301), [Kanishkaa Patra](https://github.com/kanishkaapatra), [Gouri Biswas](https://github.com/gouribiswas23), [ARCHAK BANERJEE](https://github.com/archakbanerjee10)
+
+`2025-12-30`
 
 ---
 
@@ -5030,6 +5703,884 @@ By prioritizing clarity, usability, and real student needs, the project demonstr
 Team **ThinkSync** -- [Bhumika Soam](https://github.com/bhumika-soam), [Mahi Garg](https://github.com/mahigarg0403-blip), [Khushi Hirawat](https://github.com/Khushi_hirawat)
 
 `2026-01-26`
+
+---
+
+### Reagretshield.ai
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/reagretshieldai-f52c) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Divyesh8696/DUHacks) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://regretshield-ai.vercel.app/) [![Built at](https://img.shields.io/badge/Built%20at-DUHacks%205.0-0052CC?style=flat-square)](https://duhacks5.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> AI-based regret prediction for payments
+
+![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square)
+
+**The problem it solves**
+
+**The Problem it Solves:** Bridging the Gap Between Impulse and Intention
+
+
+ In the modern digital economy, the friction required to spend money has reached an absolute minimum. Features like "Buy Now," biometric one-tap payments, and saved credit card info have optimized for speed, often at the expense of financial health. Regret Shield AI addresses the psychological "reflex-buy" by reintroducing a calculated, intelligent layer of resistance.
+
+**Detailed Capabilities & Strategic Benefits**
+
+
+**1. Neutralizing the "Instant Gratification" Trap**
+Modern e-commerce is designed to trigger dopamine release, pushing users to complete a purchase before they can consider the consequences.
+
+**How it helps: **The platform identifies High-Intensity triggers. When a user attempts a purchase that is categorized as "Non-Essential" or "High-Luxury" during a time of high susceptibility, the app triggers a Hard Pause. This breaks the dopamine loop, allowing the prefrontal cortex (the logical brain) to re-engage.
+
+
+**2. Context-Aware Risk Calculation**
+Unlike traditional budgeting apps that only check if you have enough money, Regret Shield evaluates context.
+The "Vulnerability" Variable: The system factors in time of day, day of the week, and recent transaction frequency. A $200 purchase at 2 PM on a Tuesday is treated differently than a $200 purchase at 2 AM on a Saturday.
+Psychological Sentiment: By analyzing the "Note" field for keywords like "bored," "sale," "deal," or "treat myself," the AI quantifies the emotional state of the user, assigning a higher Regret Score to emotional spending versus logical necessity.
+
+
+**3. Guarding the "Non-Negotiable" Buffer**
+Many people accidentally erode their emergency savings by making several "small" impulsive purchases that add up.
+Automated Oversight: The system maintains a constant awareness of your Emergency Buffer. It doesn't just warn you when you hit zero; it calculates the "velocity" of your spending and protects your safety net with Active Blocking if a transaction threatens your predefined financial security baseline.
+
+
+**4. Pattern Recognition & Behavioral Therapy**
+Traditional expense trackers tell you where your money went; Regret Shield tells you why you are losing it.
+Historical Regret Tracking: By correlating high-risk warnings with actual user outcomes, the system builds a unique Personal Risk Profile. Over time, it identifies which categories (e.g., Tech Gadgets, Fashion, Food Delivery) cause the most long-term stress, making it significantly easier for users to develop permanent discipline.
+
+
+**5. Reducing "Financial Decision Fatigue"**
+Managing money is mentally draining. Constantly saying "no" to oneself leads to willpower depletion.
+The "Invisible Guard": By automating the "no" (or the "wait"), the app takes the burden of constant self-regulation off the user. It makes staying within a budget safer and more passive, as the system only interrupts when it detects a genuine threat to the user’s long-term goals.
+
+
+**6. Real-Time Financial "Vibe-Check"**
+Every transaction undergoe a multi-factor audit:
+Price-to-Salary (PRR): Is this single item worth 10% of my monthly income?
+Savings-to-Salary (SSR): How much of my "survival runway" am I burning?
+Purpose-to-Debt (PDR): Am I prioritizing a "want" over an existing "debt" or "need"?
+By presenting these complex ratios as a simple, color-coded Regret Score, the app makes high-stakes financial data instantly understandable for the average user.
+Good
+Bad
+
+**Challenges we ran into**
+
+**Key Challenges Faced During Development**
+Building a system that merges financial data with behavioral psychology presented several unique engineering and design hurdles:
+
+
+
+**1. Engineering "Productive Friction"**
+
+The Challenge: Most apps aim for "zero friction." We had to do the opposite—deliberately slowing the user down without making the app feel slow or broken.
+The Solution: Designing the 5-second Cool-Off timer required precise state management. We had to ensure the "Confirm" button remained strictly disabled and visually "locked" until the timer hit zero, forcing a psychological pause while maintaining a smooth, high-fidelity UI.
+
+
+**2. Quantifying the "Unquantifiable" (Regret Prediction)**
+The Challenge: "Regret" is a subjective human emotion. Turning it into a mathematical score that feels accurate to the user was difficult.
+The Solution: We developed a multi-weighted Regret Scoring Algorithm. By combining hard data (Price-to-Salary ratios) with soft data (time of day and "Impulse Keywords" found in transaction notes), we created a score that accurately mirrors the "gut feeling" of a risky purchase.
+
+
+**3. Real-Time Data Synchronization**
+The Challenge: For a "Guard" to be effective, it must be instant. The dashboard, transaction history, and "Wealth Saved" stats needed to reflect changes immediately after a "Cool-Off" or "Block" event.
+The Solution:We implemented Atomic Firebase Updates. When a transaction is processed, the system simultaneously updates the user's balance, their "Protected Wealth" counter, and their average Regret Score in a single transaction, ensuring the UI remains a "single source of truth."
+
+
+**4. Achieving a "Premium-Technical" Aesthetic**
+The Challenge: Many financial apps look boring (like spreadsheets) or too playful. We wanted it to feel like a High-End Security Terminal.
+The Solution: This required advanced CSS and Framer Motion work. We used Glassmorphic layering (backdrop blurs), Tighter-than-standard tracking on typography, and Animated SVG masks to give the interface a depth that feels expensive and trustworthy.
+
+
+**5. Branding Transition & Consistency**
+The Challenge: Mid-development, we pivoted from "Advisor" to "Financial Guard." In a complex codebase with dozens of components, missing even one instance would break the "vibe."
+The Solution: We performed a codebase-wide audit using advanced grep patterns to ensure every label, alt-tag, and variable name reflected the new "Guard" identity, ensuring a seamless experience from the landing page to the deepest settings menu.
+
+
+**6. Deployment & Environment Security**
+The Check: Moving from a local environment to a live production server (Vercel) often causes "works on my machine" issues.
+The Solution:We hardened the project by moving all Firebase secrets into Environment Variables. We structured the 
+lib/firebase.ts
+ to gracefully handle both local and production environments, ensuring the "Guard" never goes offline due to a configuration mismatch.
+
+Team **CSK** -- [Om Bhudhara](https://github.com/Ombhudhara), [Kacha Hemanshu](https://github.com/HRKACHA), [Divyesh Modhavadiya](https://github.com/Divyesh8696)
+
+`2026-01-24`
+
+---
+
+### Shadow Stream
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/safemask-b515) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/nisargpatel7042lva/shadowstream) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://youtu.be/eEsCcrCqfH4) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/eEsCcrCqfH4) [![Built at](https://img.shields.io/badge/Built%20at-DUHacks%205.0-0052CC?style=flat-square)](https://duhacks5.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> Hide payment amounts from public
+
+![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![npm](https://img.shields.io/badge/npm-333333?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=flat-square) ![Rust](https://img.shields.io/badge/Rust-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+Web3 organizations can't pay people privately. Every salary, every contractor payment, every bonus is visible on-chain for anyone to see.
+What This Causes:
+
+Competitors poach talent by seeing exact compensation
+Privacy violations - your income is public forever
+Traditional businesses avoid crypto because of payment transparency
+Manual bulk payments are slow, expensive, and error-prone
+
+What ShadowStream Does:
+✅ Private bulk payments - Pay 100+ people in one transaction with encrypted amounts
+✅ Zero-knowledge privacy - Only recipients can see what they received
+✅ Compliance ready - Selective disclosure for auditors when needed
+✅ Fast & cheap - Under 30 seconds, less than $0.01 per payment on Solana
+Result: DAOs, crypto companies, and Web3 organizations can finally pay their teams with the privacy of traditional payroll, but with the speed and transparency of blockchain.
+
+**Challenges we ran into**
+
+1. Privacy Protocol Integration Complexity
+The Problem: Integrating multiple privacy protocols (Privacy Cash, Light Protocol, Arcium) each had different APIs and proof generation methods. Getting them to work together seamlessly was initially overwhelming.The Solution: Built an abstraction layer that unified all privacy protocols under a single interface. This allowed us to switch between protocols based on use case (Privacy Cash for transfers, Arcium for state encryption, Range for compliance) without rewriting core logic.
+
+2. Bulk Payment Transaction Size Limits
+The Problem: Solana transactions have compute unit limits. When trying to send payments to 100+ recipients in one transaction, we kept hitting "Transaction too large" errors.The Solution: Implemented batch chunking - automatically splits large payment batches into optimal transaction sizes (25-30 recipients per transaction) and executes them sequentially. Users still see it as "one batch" in the UI, but we handle the chunking behind the scenes.
+
+[Nisarg Xplores](https://github.com/nisargpatel7042lva)
+
+`2026-01-25`
+
+---
+
+### Satix
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/satix-6c5f) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ayushkumar2601/Satix) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://satix.vercel.app/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/MuJAJfg7RQA?si=b26v4oH5OPUD9pe2) [![Built at](https://img.shields.io/badge/Built%20at-DUHacks%205.0-0052CC?style=flat-square)](https://duhacks5.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> Credit Score for you Micro Loans
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![AI/ML](https://img.shields.io/badge/AI/ML-333333?style=flat-square) ![Supabase](https://img.shields.io/badge/Supabase-333333?style=flat-square)
+
+**The problem it solves**
+
+## 🚩 The Problem TrustScore Solves
+
+A massive portion of the population is **unbanked or underbanked**—they earn, spend, and pay bills regularly, yet remain invisible to traditional credit systems. Existing credit scores depend on *formal loans, credit cards, and banking history*, which many people simply don’t have. As a result, they are often **denied loans**, pushed toward unsafe lenders, or charged extremely high interest rates.
+
+## 💡 How TrustScore Helps
+
+**TrustScore** enables fair access to credit by evaluating *real financial behavior* instead of legacy credit history.
+
+People can use TrustScore to:
+- Access **micro-loans** without a credit card or prior loan history  
+- Prove reliability through **utility payments, UPI usage, and location stability**  
+- Receive **transparent, explainable scores** instead of opaque rejections  
+- Get **instant eligibility decisions**, reducing paperwork and wait times  
+
+For lenders, it:
+- Reduces risk through **conservative, behavior-based scoring**
+- Provides **auditable, regulator-friendly explanations**
+- Ensures **failsafe scoring** even if AI systems are unavailable  
+
+***In short, TrustScore turns everyday financial discipline into trust***—making lending **safer, fairer, and more inclusive** for everyone involved.
+
+**Challenges we ran into**
+
+## ⚙️ Challenges I Ran Into
+
+One of the biggest challenges was **making AI reliable in a high-stakes fintech workflow**. Early on, Gemini occasionally returned inconsistent outputs or failed due to rate limits or network issues. In a credit-scoring system, *“AI failed” is not an acceptable outcome*.
+
+To solve this, I redesigned the architecture to be **AI-assisted, not AI-dependent**. I implemented a fully **deterministic scoring pipeline** that computes all financial features and a baseline trust score first. Gemini is then used only as a *reasoning and adjustment layer*, and if it fails, the system **automatically falls back** to deterministic scoring with zero user impact.
+
+Another challenge was **keeping the system explainable**. AI-generated scores can feel like a black box, which is risky for users and regulators. I addressed this by logging every sub-score, weight, and explanation separately, ensuring every trust score is **traceable and auditable**.
+
+***These challenges pushed me to design TrustScore as a resilient, production-minded system rather than a fragile demo.***
+
+Team **Twains** -- [AYUSH KUMAR](https://github.com/ayushkumar2601), [Arnav Sharma](https://github.com/ArnavSharma-IND)
+
+`2026-01-25`
+
+---
+
+### CredXtra
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/credxtra-750a) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/IND-Anshuman/CredXtra) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/JlL7_xpV_3Q?si=c_EV0bNcUqW4Ywi2) [![Built at](https://img.shields.io/badge/Built%20at-DUHacks%205.0-0052CC?style=flat-square)](https://duhacks5.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> Credit Scores for People Without Credit Scores
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Firebase](https://img.shields.io/badge/Firebase-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![scikit-learn](https://img.shields.io/badge/scikit--learn-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square)
+
+**The problem it solves**
+
+For the Student
+Problem: Needs an education loan or a laptop for college but has 0 credit history. Banks reject them.
+
+Solution: The app analyzes their educational validation and professional social connections (LinkedIn).
+
+Usage: The student uses the score to secure micro-loans for equipment or tuition with lower interest rates.
+
+For the Workers
+Problem: Earns cash daily but has no payslips and no permanent address proof .
+
+Solution: The Geolocation Stability feature proves they have a consistent "night-time location" (residence) and "day-time location" (workplace) over months, acting as a digital address proof.
+
+Usage: They use this "Stability Score" to get a working capital loan to buy more inventory for their shop.
+
+For the Community
+Problem: A trustworthy person in a village needs money, but the bank doesn't know them.
+
+Solution: A local mentor or community leader with a high CredXtra score can digitally "vouch" for them.
+
+Usage: This digitizes the traditional "word-of-mouth" trust, allowing the borrower to leverage their community reputation to unlock credit.
+
+It make tasks Easier & Safer-
+
+Making Finance "Safer" (Predictive Protection)-
+
+Unlike CIBIL, which punishes you after you miss a payment, CredXtra is predictive. The AI analyzes spending patterns (e.g., "You are spending 80% of your income on luxury goods this week") and alerts the user before their score drops.Notification system from models which alert or suggest on when someone's credit score might drop on their near future action or near past actions and how to increase it.
+
+Behavioral Risk Detection-
+
+By analyzing sentiment (impulsiveness/aggression) and transaction types (gambling vs. groceries), the system protects lenders from high-risk borrowers and protects borrowers from debt traps.
+
+Making Finance Easier-
+
+Users don't need to hunt ITR (Income Tax Returns) or utility bills. The app passively generates a score using data they already generate (location, phone usage, social graph, and financial spending and investing data).
+
+**Challenges we ran into**
+
+We ran into challenges such as integrating the frontend with the results and scoring the bank statements.Some of the main problems were-
+1. The "Empty Profile" Problem
+We wanted CredXtra to be magical—you upload one file (your bank statement) and get a score instantly. But valid credit scores usually need way more data, like where you live (Stability) or if you pay bills on time (Utility).
+
+The Struggle: How do we judge "Stability" without tracking the user's GPS 24/7?
+The Fix: We realized the data was already hiding in the bank statement! If a user buys coffee in "Mumbai" every morning for 6 months, they are stable. We built an engine to "read between the lines" of transaction descriptions, allowing us to fill in the missing pieces of a user's life without asking them filling out endless forms.
+
+2. Fighting the "Perfect" Fake
+Early on, we tried to trick our own system. We created a fake user who earned ₹10 Lakhs and spent nothing. To our horror, our AI gave this fake user a perfect 900 score.
+
+The Struggle: In the age of AI, fraudsters can generate fake bank statements in seconds. If it looks perfect math-wise, how do we catch it?
+The Fix: We learned that real human behavior is messy. Real people don't spend exactly ₹500.00 every day at exactly 9:00 AM. We built a "Validation Shield" that looks for things that are too perfect. If the numbers don't have enough random chaos (using Benford's Law), we know it's a bot, not a human.
+
+3. Making Math Look Friendly
+We calculate weird things like "Financial Resilience" (how fast you recover after going broke). Showing a user a number like "0.74 Resilience Coefficient" is scary and meaningless.
+
+The Struggle: How do we explain complex behavioral psychology to a regular app user without boring them?
+The Fix: We ditched the boring tables for a Radar Chart. Now, users see their credit profile as a "Shape." A balanced shape means you're doing great. A lopsided shape instantly shows you what's wrong (e.g., "Great Income, but bad Impulse Control"). It turned a math problem into a visual one.
+
+Team **Unknown coders** -- [Shreeshanth Shetty](https://github.com/SHREESHANTH99), [Anshuman Singh](https://github.com/IND-Anshuman), [Shirshendu Ranjana Tripathi](www.github.com/ShirshenduR), [DEVADITTA PATRA](https://github.com/celestiancoder)
+
+`2026-01-25`
+
+---
+
+### offline payment for featured phones
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/offline-payment-for-featured-phones-88ee) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/DhrumilLathiya/Offline-Payment-For-Feature-Phones.git) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/KCkoT-xp6wc) [![Built at](https://img.shields.io/badge/Built%20at-DUHacks%205.0-0052CC?style=flat-square)](https://duhacks5.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> offline payment
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Spring](https://img.shields.io/badge/Spring-333333?style=flat-square)
+
+**The problem it solves**
+
+This project enables secure digital payments without requiring real-time internet connectivity, making digital transactions accessible in situations where existing systems fail.
+
+What People Can Use It For
+ Feature phone payments using offline tokens (no smartphone required)
+Merchant payments in markets with poor or unstable network
+Rural transactions where internet access is unreliable
+Emergency situations where connectivity is unavailable
+Transit & remote services (local shops, buses, village vendors)
+
+**Challenges we ran into**
+
+While integrating the wallet service with the dummy bank server, API calls were frequently failing with 400 Bad Request or 401 Unauthorized, even when the request payload and JWT token looked correct.
+A major challenge was deciding what happens if a payment token expires before the user comes online.
+The biggest architectural challenge was designing a system that doesn’t assume internet access.
+
+Team **sudoku solver** -- [Dhrumil Lathiya](https://github.com/DhrumilLathiya), [ved Darji](https://github.com/veddarji), [Yash Thummar](https://github.com/yash57-ty), [Jenil Vaghasiya](http://github.com/jenil1210)
+
+`2026-01-25`
+
+---
+
+### Zapp - Private QR Payments
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/zapp-private-qr-payments-6c44) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/CWYRenee/zapp) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://zapp-demo.vercel.app/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/GVsZ3QeODgw) [![Built at](https://img.shields.io/badge/Built%20at-Zypherpunk-0052CC?style=flat-square)](https://zypherpunk.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> just Zapp it
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![SwiftUI](https://img.shields.io/badge/SwiftUI-333333?style=flat-square) ![NEAR Protocol](https://img.shields.io/badge/NEAR%20Protocol-333333?style=flat-square) ![Lightwalletd SDK](https://img.shields.io/badge/Lightwalletd%20SDK-333333?style=flat-square)
+
+**The problem it solves**
+
+Zapp is a privacy-first mobile wallet that lets people pay with Zcash (ZEC) while recipients receive local fiat into familiar payment apps like UPI, Alipay, or PIX. Users can make cross-border payments and everyday purchases without exposing who they are paying, how much they are sending, or which assets they hold. The app streamlines complex cross-chain DeFi flows by using NEAR Intents and RHEA Finance under the hood, so earning yield on idle ZEC feels like a simple deposit and withdraw experience. It improves safety by keeping funds in a self-custody wallet with biometric authentication and by avoiding centralized exchanges or custodial ramps for ZEC↔fiat conversion. Facilitators use the linked web dashboard to manage orders and payment rails, earning spread while giving users a fast off-ramp that still preserves on-chain privacy.
+
+**Challenges we ran into**
+
+A key hurdle was the lack of basic developer infrastructure, such as easily accessible browser-based Zcash test wallets. This meant I had to invest extra time upfront just to discover what tools existed, where to find them, and how to stitch them together before I could even start building.
+
+**General Bounty**
+
+Zapp provides real world payments built on top of existing QR payment rails while preserving privacy.
+
+**Cross-Chain Privacy Solutions**
+
+Zapp is a self‑custody Zcash wallet with on‑chain, off‑chain QR payments and yield via NEAR/RHEA. The backend orchestrates ZEC↔NEAR bridging, DeFi positions, and P2P fiat orders without holding keys. The admin dashboard lets facilitators manage orders and view analytics. Together, they deliver private, cross‑chain payments and earning.
+
+**Cross-Chain Privacy Solutions**
+
+Zapp uses a Zcash‑only SwiftUI wallet for shielded UX, while backend‑zapp hosts bridge, SwapKit, and NEAR/RHEA services that convert ZEC to cross‑chain intents and back. admin‑zapp gives facilitators web tools to manage fiat rails and analytics. Together, this structure delivers private, Zcash‑anchored cross‑chain interactions.
+
+**Self-Custody & Wallet Innovation**
+
+Zapp is a fully self‑custody Zcash wallet built with SwiftUI and ZcashLightClientKit, so keys and shielded transactions stay on the device. Features like biometric auth, unified/transparent address management, on‑chain and QR off‑chain send, Receive, and the Earn tab (ZEC→NEAR→RHEA) are all wrapped in simple flows. The backend only orchestrates swaps, bridging, and DeFi positions—never holding keys—while the facilitator dashboard and in‑app touches like Word Search during sync focus on fast, understandable UX without compromising privacy.
+
+**Private Payments & Transactions**
+
+Zapp’s payment stack is split into three layers to prioritize privacy and security.
+The iOS wallet (SwiftUI + ZcashLightClientKit) keeps keys, shielded balances, and signing entirely on‑device with biometric protection.
+The backend only orchestrates: it creates ZEC↔fiat orders, verifies Zcash transactions via RPC, coordinates ZEC↔NEAR bridge and RHEA deposits/withdrawals, but never holds user keys.
+The admin dashboard lets facilitators manage payment rails and orders with minimal metadata, while analytics operate on aggregated, pseudonymous data.
+
+**Private Focused Content & Media**
+
+The Word Search games in Zapp lives as its own feature alongside core wallet flows, but runs entirely offline while the Zcash SDK syncs. It entertains users during that wait, and is themed with vocabulary around Zcash, shielding, and private payments. By repeatedly exposing these terms in a low‑stakes game, it gently familiarizes users with privacy concepts without ever touching keys, transactions, or network state—reinforcing that privacy‑preserving systems can be both safe and approachable.
+
+**Zcash Data & Analytics**
+
+Zapp already acts like a personal shielded explorer. The iOS app embeds ZcashLightClientKit and stores seeds/viewing keys locally, so all note decryption and transaction scanning happen client‑side in ZcashWalletService/WalletViewModel. The backend (backend‑zapp) never sees viewing keys, only derived addresses and tx hashes used for orders/Earn. Extending this structure, the app can surface a richer “activity” view—filtering by account, address, or memo—so a user who shows up with their viewing key can transparently audit all their shielded history while keeping raw decrypted data confined to their device.
+
+**Self-Custody & Wallet Innovation**
+
+Zapp is a mobile‑first, self‑custody Zcash wallet built with SwiftUI and ZcashLightClientKit, so keys and viewing data never leave the device. Wallet onboarding, biometric auth, balance/sync indicators, and an offline Word Search game create a smooth, privacy‑aware UX. The Send and Earn flows wrap complex on‑chain, cross‑chain, and off‑chain operations into simple actions, while backend‑zapp only orchestrates swaps/bridging. admin‑zapp gives facilitators analytics without exposing user identities, improving private asset management across the system.
+
+**Private DeFi & Trading**
+
+Zapp already includes a private swap path: the Send screen lets users pick cross‑chain assets, while the iOS wallet signs shielded ZEC transactions locally and delegates only swap quotes and bridge routing to a backend SwapKit/bridge service. The Earn flow reuses this infrastructure to move ZEC ↔ NEAR ↔ RHEA in a single tap, effectively acting like a privacy‑preserving, cross‑chain launchpad for yield positions. On the facilitator side, the Analytics dashboard computes volume and spread earnings from completed orders only, exposing aggregate metrics rather than per‑user histories—privacy‑preserving analytics layered on top of these swap flows.
+
+**Privacy-Focused Content & Media**
+
+Zapp treats privacy as normal, not niche. Structurally, the Word Search feature sits alongside core wallet tabs as dedicated, offline content: it runs while the ZcashLightClientKit wallet syncs, never touching keys or network. By theming puzzles around concepts like shielding, self‑custody, and cross‑chain privacy, it quietly teaches vocabulary and mental models. Combined with the main app’s shielded‑by‑default design, it becomes an educational mini‑game that makes privacy feel approachable, everyday, and worth caring about.
+
+**Cross-Chain Privacy Solution**
+
+Zapp implements this with three coordinated projects.
+
+- The iOS wallet is a self‑custody Zcash app that sends shielded ZEC on‑chain, off‑chain QR payments into local fiat rails, and cross‑chain transfers via a token‑aware Send flow.
+
+- The backend runs structured order and earn‑position services, plus SwapKit/NEAR/Omni‑Bridge integrations to move value ZEC↔NEAR↔RHEA and back, always keyed by wallet addresses rather than identities.
+
+- The admin dashboard lets facilitators methodically accept/reject orders, mark fiat/ZEC legs, and view aggregate analytics, so cross‑border, cross‑chain payments stay organized while individual users remain private.
+
+**Cross-Chain Privacy Solutions**
+
+Zapp uses a clear three‑tier structure to do exactly this.
+
+- The iOS wallet stays Zcash‑only, holding keys and initiating deposits/withdrawals via simple Earn and Send flows.
+
+- In backend‑zapp, NEAR Intents, Omni‑Bridge, and SwapKit services turn those actions into ZEC↔NEAR swaps, nZEC minting, and RHEA deposits/withdrawals—DeFi access and cross‑chain routing without exposing user keys.
+- Earn positions model ZEC‑backed lending on NEAR, and the same infrastructure can support wrapped‑ZEC primitives.
+
+- The admin dashboard helps facilitators manage fiat rails and monitor volume, so ZEC becomes easy to spend and deploy in DeFi while preserving on‑chain privacy.
+
+**Private Payments & Transactions**
+
+- The iOS wallet is a self‑custody Zcash app that lets users pay real‑world QR codes for UPI, Alipay, PIX, etc., and deposit/withdraw into Earn with one tap.
+- In backend‑zapp, NEAR Intents, Omni‑Bridge, and SwapKit turn those actions into ZEC↔NEAR swaps and RHEA interactions, so ZEC funds power off‑chain fiat payments and on‑chain DeFi without exposing keys.
+- The admin dashboard lets facilitators operate local rails and monitor volume, completing a private, real‑world payment loop.
+
+**General Bounty**
+
+Zapp’s architecture is built for Zcash privacy end‑to‑end.
+
+- The iOS app is a self‑custody, ZcashLightClientKit wallet that keeps keys and viewing data on‑device, offering shielded send/receive, QR off‑chain payments, Earn (ZEC→NEAR→RHEA) and an offline Word Search game during sync.
+- backend‑zapp orchestrates ZEC↔NEAR bridging, DeFi positions, and QR orders without ever holding keys—only addresses and tx hashes.
+- admin‑zapp gives facilitators order tools and aggregate analytics, so fiat rails and cross‑border flows stay organized while individual Zcash users remain private.
+
+**Private Payments & Transactions**
+
+Zapp is a mobile privacy payment app made for the real world. It delivers private payments on Zcash through three coordinated projects:
+
+1. The iOS app is a self‑custody Zcash wallet (ZcashLightClientKit) with shielded by default send/receive, QR‑based off‑chain payments to UPI/Alipay/PIX rails, and an Earn tab that abstracts cross‑chain yield into one‑tap actions.
+2. backend‑zapp orchestrates orders, ZEC↔NEAR bridging, and DeFi positions without ever holding keys.
+3. admin‑zapp gives facilitators tools to manage fiat payouts and see aggregate analytics, enabling structured, cross‑border payments while preserving user privacy.
+
+[Renee C](https://github.com/CWYRenee)
+
+`2025-12-04`
+
+---
+
+### LumenAi
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/lumen-c504) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/CoderUzumaki/Lumen) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/vkGydFgzfWg) [![Built at](https://img.shields.io/badge/Built%20at-Hack--a--Sol%202025-0052CC?style=flat-square)](https://hackasol-4.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> The AI layer your finances have been missing.
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![SQLite](https://img.shields.io/badge/SQLite-333333?style=flat-square) ![OCR](https://img.shields.io/badge/OCR-333333?style=flat-square) ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-333333?style=flat-square) ![OpenAi](https://img.shields.io/badge/OpenAi-333333?style=flat-square)
+
+**The problem it solves**
+
+LUMEN transforms raw financial data into real-time intelligence, giving users clarity, control, and confidence in their money.
+
+ 1.Automatic Tracking of All Expenses
+
+No more manually entering expenses or keeping receipts.
+
+Upload a bill → LUMEN extracts all details automatically
+
+Converts paper receipts into structured digital transactions
+
+Works for invoices, POS slips, online bills, wallet transactions
+
+→ Zero manual effort. 100% automated tracking.
+
+📊 2. Smart Personal Financial Insights
+
+LUMEN shows users:
+
+where their money is going
+
+which categories are rising
+
+unusual spikes
+
+spending trends
+
+comparison with past months
+
+→ Makes budgeting effortless and data-driven.
+
+🔍 3. Fraud & Anomaly Detection
+
+LUMEN flags financial behavior that is:
+
+too expensive
+
+out-of-pattern
+
+at unusual times
+
+with unknown vendors
+
+duplicate charges
+
+→ A built-in financial safety net.
+
+🔔 4. Predictive Reminders
+
+Users get proactive alerts for:
+
+bill due dates
+
+subscription renewals
+
+recurring expenses
+
+grocery or refill patterns
+
+upcoming high-spend cycles
+
+→ Never forget a payment again. No late fees, no surprises.
+
+💬 5. AI Chat: Ask Anything About Your Finances
+
+Ask in plain English:
+
+“Where did I spend the most last month?”
+
+“Show my coffee purchases.”
+
+“How much did I spend eating out this week?”
+
+“Did I overspend compared to last month?”
+
+LUMEN uses Hybrid RAG + SQL to answer accurately.
+
+→ Your personal financial analyst. On demand.
+
+🧠 6. Behavioral Insight & Personalization
+
+LUMEN learns patterns over time:
+
+“You usually order groceries around the 10th.”
+
+“Your food spending is trending upward.”
+
+“This month’s shopping is above average.”
+
+→ Personalized financial coaching powered by your own data.
+
+🛡️ 7. Centralized, Clean Finance Dashboard
+
+Instead of juggling:
+
+bank apps
+
+wallet apps
+
+PDF invoices
+
+email receipts
+
+paper bills
+
+LUMEN gives a single unified view of everything.
+
+→ One platform. Total visibility.
+
+🔥 Summary
+
+LUMEN makes financial life:
+
+Easier (no manual tracking)
+
+Smarter (AI insights & trends)
+
+Safer (fraud detection)
+
+More Predictable (recurring patterns & reminders)
+
+More Powerful (ask any financial question instantly)
+
+**Challenges we ran into**
+
+1. 🧩 Supabase Connection Failure (DNS Resolution Bug)
+
+Problem:
+Supabase PostgreSQL refused to connect from our network due to IPv6-only DNS resolution.
+Every SQLAlchemy call failed with:
+
+“could not translate host name… Name or service not known”
+
+How I solved it:
+
+Debugged DNS using nslookup and confirmed IPv6-only response.
+
+Tried multiple DNS servers, but network still blocked IPv6.
+
+Finally switched to SQLite for reliability and speed in a 24-hour environment.
+
+Refactored ORM code to remove Postgres-specific features.
+
+Result:
+Database stability improved and development became frictionless.
+
+2. 🧠 OCR Output Was Messy & Inconsistent
+
+Problem:
+OCR returned different structures for every invoice:
+
+missing fields
+
+wrong vendor names
+
+misread amounts
+
+date inconsistencies
+
+unstructured items list
+
+How I solved it:
+
+Built a normalization pipeline that:
+
+standardizes dates
+
+maps vendors
+
+cleans numeric fields
+
+infers missing values
+
+reconstructs items
+
+Result:
+Clean, consistent transactions — regardless of invoice format.
+
+3. 🔀 Query Routing: SQL or RAG?
+
+Problem:
+Some queries needed SQL (analytics), while others needed vector search (semantic).
+At first, everything went through embeddings → this gave wrong answers.
+
+How I solved it:
+
+Built a Query Classifier using an LLM that labels questions as:
+
+ANALYTICAL → SQL agent
+
+SEMANTIC → RAG
+
+Cleaned the SQL agent to handle aggregations safely.
+
+Result:
+Accuracy increased dramatically. Analytical queries became trustworthy.
+
+4. 🔄 Recurring Pattern Detection Was Harder Than Expected
+
+Problem:
+People don’t spend on a perfect 30-day cycle.
+Intervals were noisy, items fluctuated, and vendors weren’t consistent.
+
+How I solved it:
+
+Created a variance-based cycle detector
+
+Allowed ±10% amount tolerance
+
+Auto-mapped recurring cycles (7/14/30/90 days)
+
+Added confidence scoring
+
+Result:
+The AI could detect subscriptions, bills, grocery cycles — reliably.
+
+5. ⚡ RAG Didn’t Work Well on Small Text (Receipts)
+
+Problem:
+Embedding small transaction text didn't give good semantic matches.
+“coffee expenses” didn’t match “CCD Latte 200”.
+
+How I solved it:
+
+Generated richer embeddings by combining:
+
+vendor name
+
+category
+
+items
+
+description
+
+amount
+
+Stored this as a long-form searchable text blob for embedding.
+
+Result:
+Semantic search became significantly more accurate.
+
+**AI/ML Innovations**
+
+We used ai / ml extensively to build mvp of our project ; 
+such as R.A.G pipelines with Large Language model apis to query and retrieve the  transactions in our databases ; along with post-processing of the outputs .
+We used Machine learning Algorithms  for detecting anomalies and outlier transactions .
+
+Team **dUnder Pressure** -- [Nishant Borkar](https://github.com/coderconnoisseur/), [Abhinav Mishra](https://github.com/CoderUzumaki)
+
+`2025-11-15`
+
+---
+
+### LUMEN AI
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/lumen-ai-0116) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/RazzGourav/Alien-X) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://docs.google.com/presentation/d/1JAxAGPi1K0QtWY1Ioit3cZliYiRo_jkw/edit?usp=sharing&ouid=114123750960584066841&rtpof=true&sd=true) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/gAvDPvwDYK4) [![Built at](https://img.shields.io/badge/Built%20at-Hack--a--Sol%202025-0052CC?style=flat-square)](https://hackasol-4.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> YOUR FINANCES, FINALLY FIGURED OUT.
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Google API](https://img.shields.io/badge/Google%20API-333333?style=flat-square) ![Google Cloud Platform (GCP)](https://img.shields.io/badge/Google%20Cloud%20Platform%20(GCP)-333333?style=flat-square)
+
+**The problem it solves**
+
+🔥 THE PROBLEM LUMEN SOLVES
+1️⃣ Financial Data is Scattered and Hard to Understand
+
+People get financial information from:
+
+Bank SMS
+
+UPI apps
+
+PDFs
+
+Wallet apps
+
+Receipts
+
+Emails
+
+Invoices
+
+But none of these talk to each other.
+
+➡ Users only see numbers, not insights.
+
+2️⃣ Manual Analysis is Slow and Confusing
+
+People struggle with:
+
+Calculating monthly expenses
+
+Finding which category is overspending
+
+Tracking subscriptions
+
+Understanding investment risks
+
+Reading long financial documents
+
+➡ Most users lack time, tools, or financial knowledge.
+
+3️⃣ Traditional AI Hallucinates (Dangerous in Finance)
+
+Normal chatbots:
+
+Make up numbers
+
+Give incorrect financial advice
+
+Don’t show evidence
+
+Cannot be trusted with money decisions
+
+➡ Finance demands 100% accuracy, not guesses.
+
+4️⃣ Companies Cannot Audit Employee Expenses Properly
+
+Enterprises face:
+
+Fake bills
+
+Non-compliant claims
+
+Policy violations
+
+Manual audit workload
+
+Missing documentation
+
+➡ Leads to financial leakages and compliance risks.
+
+5️⃣ No AI System Today Combines:
+
+Document reading
+
+Financial reasoning
+
+RAG safety
+
+Knowledge graphs
+
+Compliance checking
+
+Insights generation
+
+➡ Users need one financial intelligence layer, not 20 different apps.
+
+🚀 WHAT PEOPLE CAN USE LUMEN FOR
+
+(Everyday benefits for normal users and enterprises)
+
+For Individuals
+
+Track expenses automatically
+
+Upload receipts and get instant insights
+
+Receive summaries, charts, trends
+
+Understand overspending
+
+Get AI-based investment suggestions
+
+Predict future expenses and habits
+
+Auto-generate financial reports (PDF)
+
+Verify bank statements or invoices
+
+Ask questions like “Why am I overspending?”
+
+Convert disorganized documents into smart insights
+
+In short:
+LUMEN becomes your personal financial advisor + accountant + analyst.
+
+For Enterprises
+
+Detect fake receipts
+
+Check policy compliance using RAG
+
+Audit expense reports instantly
+
+Flag violations with citations
+
+Analyze employee spending patterns
+
+Identify fraud or anomalies
+
+Ensure accurate reimbursements
+
+Maintain traceable audit trails
+
+Reduce manual workload
+
+In short:
+LUMEN becomes your financial auditor + compliance officer.
+
+🛡️ HOW LUMEN MAKES TASKS EASIER & SAFER
+1️⃣ Easier — Saves Time & Removes Complexity
+
+Converts messy receipts into clean data instantly
+
+Explains financial reports in simple words
+
+Automatically categorizes expenses
+
+Generates insights without user effort
+
+Predicts future spending or risks
+
+Handles the math, graphs, and analysis automatically
+
+➡ Users spend just 1 minute. AI does the rest.
+
+2️⃣ Safer — Hallucination-Free, Verified Answers
+
+Thanks to:
+
+Hybrid RAG (Vector + Knowledge Graph)
+
+Explainable AI
+
+Citations from documents
+
+LUMEN:
+
+Never guesses
+
+Shows proof for every answer
+
+Bases decisions only on retrieved facts
+
+➡ Perfect for financial decisions where accuracy matters.
+
+3️⃣ Smarter — Understands Patterns & Behavior
+
+LUMEN automatically:
+
+Detects unusual transactions
+
+Spots overspending categories
+
+Predicts upcoming bills or renewals
+
+Advises based on behavior patterns
+
+➡ AI that improves your financial health over time.
+
+4️⃣ Enterprise-safe — Compliance & Fraud Prevention
+
+Reads company policies
+
+Checks each claim against rules
+
+Flags violations instantly
+
+Prevents manipulated invoices
+
+Reduces fraud & human errors
+
+➡ Creates a safer, transparent financial workflow.
+
+**Challenges we ran into**
+
+We hit a “RAG error” where the assistant produced confident-but-wrong answers because retrieval returned poor context (bad chunking, noisy embeddings, or KG mismatch). We fixed it by cleaning/OCR-normalizing text, improving chunking, adding rich metadata, re-ranking a larger candidate set, fusing knowledge-graph facts first, constraining the LLM with grounding prompts + citation rules, and adding post-generation evidence verification. The result: dramatically lower hallucinations and fully traceable, auditable answers suitable for finance.
+
+**AI/ML Innovations**
+
+Our project fits the AI/ML track because it directly implements the core technologies expected in the problem statement: multimodal AI for document intelligence, hybrid RAG for grounded financial reasoning, knowledge graph-based ML insights, and agentic AI for auditing, forecasting, and anomaly detection. We built a complete end-to-end AI Financial Intelligence Layer that reads, understands, reasons, and acts on financial data — exactly matching the Generative AI, Agentic AI, ML, and financial security themes of the challenge.
+
+Team **AlienX** -- [Rahul Godara](https://github.com/StackOverChad), [Jatin Naik](https://github.com/Jatin-code16), [Rohan Kumar](https://github.com/piverine), [Gourav.Kumar Ojha](https://github.com/RazzGourav)
+
+`2025-11-15`
 
 ---
 
@@ -8101,6 +9652,445 @@ This project fits the track because it’s not just another 'tracker'—it’s a
 [Nikhil Jha](https://github.com/nikhiljha3050)
 
 `2026-01-26`
+
+---
+
+### FINANCE TRACKER
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/finance-tracker-4470) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/kanishkaapatra/finance_tracker) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/bjX_inFwskc) [![Built at](https://img.shields.io/badge/Built%20at-Winter%20of%20Code%205.0-0052CC?style=flat-square)](https://winter-of-code-5.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> The story behind your spending
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JWT](https://img.shields.io/badge/JWT-333333?style=flat-square) ![Express.js](https://img.shields.io/badge/Express.js-333333?style=flat-square) ![Chart.js](https://img.shields.io/badge/Chart.js-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![React.js](https://img.shields.io/badge/React.js-333333?style=flat-square)
+
+**The problem it solves**
+
+Most people suffer from "Financial Avoidance"—the habit of ignoring bank statements because they are overwhelming and boring. Standard banking apps provide a long list of transactions, but they fail to give a "bird's-eye view" of financial health.
+This project solves this by:
+
+Turning Noise into Signal: It transforms thousands of raw, confusing transaction rows into clean, interactive Donut and Trend Charts.
+
+Identifying Spending Leaks: Users can instantly see if "Subscription Creep" or "Dining Out" is cannibalizing their savings goals.
+
+Predictive Awareness: Instead of just looking at the past, the visual dashboard helps users forecast their end-of-month balance, making it safer to make big purchase decisions.
+
+Bridge to Literacy: It makes complex accounting concepts (like Cash Flow and Burn Rate) accessible to non-technical users through a Gamified UI.
+
+**Challenges we ran into**
+
+Data Sync & Re-rendering Initially, adding a single transaction caused the entire dashboard to re-render, creating a visible lag.
+
+How I fixed it: I utilized React.useMemo and React.memo to memoize the expensive chart calculations. I also moved the data aggregation logic (grouping by category) to the Backend (SQL) so the frontend receives a small, pre-calculated JSON object rather than thousands of raw records.
+
+[Kanishkaa Patra](https://github.com/kanishkaapatra)
+
+`2026-01-12`
+
+---
+
+### Quant Compass
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/btc-predictor-by-gamma-6f48) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/chandraxshu/OOC) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/T0QeKJudkYA) [![Built at](https://img.shields.io/badge/Built%20at-Out%20Of%20Context'26-0052CC?style=flat-square)](https://out-of-context-2026.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Stop trading blindly from today.
+
+![NumPy](https://img.shields.io/badge/NumPy-333333?style=flat-square) ![pandas](https://img.shields.io/badge/pandas-333333?style=flat-square) ![Matplotlib](https://img.shields.io/badge/Matplotlib-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![GitHub](https://img.shields.io/badge/GitHub-333333?style=flat-square) ![XGBoost](https://img.shields.io/badge/XGBoost-333333?style=flat-square) ![AI/ML](https://img.shields.io/badge/AI/ML-333333?style=flat-square)
+
+**The problem it solves**
+
+## The Problem It Solves
+
+Cryptocurrency markets are highly volatile, noisy, and difficult to analyze manually. Traders and analysts often rely on subjective judgment, static indicators, or simple strategies such as Buy-and-Hold, which may fail to adapt to rapidly changing market conditions and expose users to unnecessary risk.
+
+This project solves the problem of **making data-driven, systematic trading decisions** by integrating machine learning–based price prediction with algorithmic trading and backtesting.
+
+---
+
+## What Can This Project Be Used For?
+
+### 1. Automated Market Analysis
+The system can be used to automatically analyze historical BTC/USDT price data and identify meaningful patterns using machine learning, reducing the need for manual technical analysis.
+
+### 2. Price Forecasting
+Users can leverage the trained model to generate short-term price predictions for Bitcoin, helping anticipate market trends rather than reacting after price movements occur.
+
+### 3. Algorithmic Trading Strategy Development
+The project provides a framework for converting price predictions into objective buy/sell signals, enabling users to design and test rule-based trading strategies without emotional bias.
+
+### 4. Risk-Aware Decision Making
+By evaluating strategies using metrics such as Sharpe ratio and maximum drawdown, users can assess not only profitability but also risk, making trading decisions safer and more informed.
+
+### 5. Strategy Evaluation Without Financial Risk
+The backtesting pipeline allows users to test strategies on historical data before deploying them in real markets, reducing the risk of financial loss.
+
+---
+
+## How It Improves Existing Approaches
+
+- Replaces manual and subjective analysis with a **reproducible, data-driven pipeline**
+- Improves upon naive strategies by adapting to market dynamics using machine learning
+- Enables systematic evaluation of trading strategies before real-world use
+- Makes experimentation faster by providing an end-to-end workflow from data to results
+
+---
+
+## Practical Impact
+
+This project serves as a practical tool for:
+- Students learning financial machine learning
+- Analysts evaluating quantitative trading ideas
+- Developers prototyping algorithmic trading strategies
+- Researchers studying price behavior in cryptocurrency markets
+
+**Challenges we ran into**
+
+## Challenges Encountered
+
+### 1. Model Bias in High-Frequency Data(martingale bias)
+One of the primary challenges encountered during development was **model bias when training on high-frequency (hourly and minutely) data**. Initial models appeared to perform well during training but failed to generalize during backtesting, leading to unreliable predictions and suboptimal trading performance.
+
+**How it was addressed:**
+- Carefully analyzed train–test splits to eliminate data leakage.
+- Applied walk-forward validation to preserve temporal order.
+- Reduced overfitting by tuning hyperparameters and limiting model complexity.
+- Focused on robust evaluation using out-of-sample performance rather than training accuracy.
+
+---
+
+### 2. Model Selection and Experimentation
+Selecting an appropriate model for noisy financial time-series data proved challenging. Simpler models failed to capture market dynamics, while more complex models often overfit.
+
+**How it was addressed:**
+- Experimented with multiple modeling approaches, including:
+  - Facebook Prophet
+  - TensorFlow-based neural networks
+  - XGBoost regression
+- Compared models based on both prediction accuracy and downstream trading performance.
+- Selected **XGBoost** as the final model due to its balance between accuracy, stability, and computational efficiency.
+
+---
+
+### 3. Aligning Prediction Accuracy with Trading Profitability
+Another significant hurdle was the realization that **good prediction metrics do not always translate into profitable trading strategies**. Several models with low error metrics resulted in poor trading outcomes.
+
+**How it was addressed:**
+- Shifted focus from purely minimizing prediction error to optimizing trading performance.
+- Iteratively refined signal-generation rules.
+- Evaluated models using trading-specific metrics such as Sharpe ratio and maximum drawdown.
+
+---
+
+### 4. Extensive Iterative Experimentation
+Achieving consistent profitability required extensive experimentation and validation.
+
+**How it was addressed:**
+- Conducted approximately **11 hours of continuous experimentation** testing different models, feature sets, and trading rules.
+- Iteratively adjusted strategy parameters to maximize returns while minimizing losses.
+- Validated all final results through repeated backtesting to ensure consistency.
+
+---
+
+## Key Takeaway
+The primary lesson from this project was that **financial machine learning is as much about risk management and evaluation as it is about prediction accuracy**. Careful validation, model selection, and iterative testing were critical to achieving reliable and interpretable results.
+
+Team **gamma** -- Jayant Mittal, Harjas Singh, Niank Jain, Chandranshu Yadav
+
+`2026-01-25`
+
+---
+
+### AlgoTrading
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/algotrading-5619) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://drive.google.com/file/d/1JjsTJ_Hboja2Uk2EyRb1k_G92LRfU1-z/view?usp=sharing) [![Built at](https://img.shields.io/badge/Built%20at-Out%20Of%20Context'26-0052CC?style=flat-square)](https://out-of-context-2026.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> shoot your best gambles with the help of our model
+
+![Python](https://img.shields.io/badge/Python-333333?style=flat-square)
+
+**The problem it solves**
+
+This project addresses critical inefficiencies in manual cryptocurrency trading by leveraging machine learning to enhance decision-making and operational continuity. 
+
+**Overcoming Human Limitations (Better Prediction):**
+
+ Cryptocurrency markets generate massive, multidimensional datasets that are impossible for humans to process in real-time. This algorithm identifies subtle, non-linear patterns and "deeper" market trends that manual analysis often misses, providing a statistically grounded edge over intuition-based trading.
+
+**24/7 Market Coverage**:Unlike traditional stock markets, crypto markets never sleep. Human traders miss opportunities or incur losses while asleep or away from their screens. This automated model monitors market conditions 24/7, ensuring that profitable signals are captured and risks are managed around the clock without fatigue.
+
+**Mitigating Emotional Bias & Stress** (Psychological Safety): Trading is high-stress, and fear or greed often lead to poor decision-making (e.g., panic selling or FOMO buying). By offloading trade logic to an AI model, the system removes emotional volatility from the process. It shifts the burden of execution from the individual to a systematic, data-driven entity, reducing the mental strain associated with managing profit and loss responsibility.
+
+**Institutional-Grade Risk Management**:By formalizing trading strategies into code, the project moves away from ad-hoc individual guesses toward an organizational approach. This allows for consistent backtesting and risk assessment, treating trading as a managed business process rather than a series of personal gambles.
+
+**Challenges we ran into**
+
+Selecting the training features for Task 1 was the hardest part. Initially I had used the direct value as a target, which led to the model simply predicting close to the last input. 
+It took a bit of time to identify the problem.
+The fix was to predict the delta values instead.
+
+There was also the problem of identifying how many lag values will be enough. Plotting the lag scatter graph, helped identify the best lag values.
+
+Team **Chamkeele Chuze** -- Divakar Bhatt, Dev Agarwal, Rudransh Joshi, [Paarth Sharma](https://github.com/RadheRadhe13)
+
+`2026-01-25`
+
+---
+
+### Vortix
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/vortix-3ccd) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://vortix-2hyb.vercel.app/checkout) [![Built at](https://img.shields.io/badge/Built%20at-Code%20Kalari-0052CC?style=flat-square)](https://code-kalari.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> VORTIX is an intelligence‑driven payment reliabili
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+Our solution is unique because it shifts digital payments from a reactive system to a proactive, intelligence‑driven one. Unlike existing systems that detect problems only after a payment fails, our approach predicts potential failures in advance, guides users to safer payment options, and safely handles retries and recovery. It also considers device and network stability, reduces blind retries and double debits, and enables faster resolution when failures occur. Rather than replacing existing banks or gateways, our solution enhances them by adding a reliability and decision‑intelligence layer that improves trust and user experience.
+
+**Challenges we ran into**
+
+handling the ai hubs and integration of the blockchain
+
+Team **INNOVATRIX** -- [Manaseswaran S](https://github.com/manaseswar145), [SURDEEP KANNAN P](https://github.com/surdeep-kannan), [G.B.UVANTH RAJA](https://github.com/uvanthraja), [M.Srishanth Madhu](https://github.com/Srishanth-23)
+
+`2026-01-18`
+
+---
+
+### voice first digital banking
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/voice-first-digital-banking-6a65) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Yuva-2006-del/voice-first-digital-banking) [![Built at](https://img.shields.io/badge/Built%20at-Code%20Kalari-0052CC?style=flat-square)](https://code-kalari.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> banking that talks, protects and listens
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square)
+
+**The problem it solves**
+
+In India, a large section of the population—including blind individuals, elderly citizens, illiterate users, and people from rural regions—faces serious challenges in accessing digital banking and financial services. Existing financial applications rely heavily on visual interfaces, text-based navigation, passwords, and fixed-language settings, making them difficult or impossible to use for users with visual impairments or low digital literacy.
+We propose a secure, voice-first financial application that enables users to access banking services using face recognition authentication.
+The system is controlled by an intelligent voice assistant that manages navigation and transactions without any visual dependency.
+It automatically detects and understands all Indian languages, ensuring PAN-India usability.
+Users can perform bank transactions, savings, loans, investments, donations, and statement downloads entirely through voice commands.
+A smart savings system allows users to save and withdraw money using natural speech.
+The platform provides full audio guidance, making it accessible for blind and elderly users.
+This solution ensures financial inclusion, security, and independence for all users across India.
+
+Team **KTTECH** -- [Tejeshwar p](https://github.com/teju-1024), [GANAPRIYA N](https://github.com/gana16priya-png), [Yuvashree M](https://github.com/Yuva-2006-del)
+
+`2026-01-18`
+
+---
+
+### x402 Papercheck
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/x-papercheck-e64a) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://docs.google.com/document/d/1ow_yg826CeOdROh9wZpe7io6wimEvOX_BERmljuTPZM/edit?tab=t.0#heading=h.wpi7tnnn9zi2) [![Built at](https://img.shields.io/badge/Built%20at-Build%20Onchain%20with%20FBI-0052CC?style=flat-square)](https://build-onchain-fbi.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> One paper, one payment, full check.
+
+![x402](https://img.shields.io/badge/x402-333333?style=flat-square)
+
+**The problem it solves**
+
+x402-Papercheck makes research paper verification affordable, on-demand, and fair.
+
+Today, plagiarism and AI-content checks are locked behind expensive subscriptions, even though most users need them only occasionally. Students writing a single research paper, or educators reviewing selected submissions, are forced to overpay or rely on low-quality free tools.
+
+With x402-Papercheck, users can:
+
+1. Verify plagiarism and AI-generated content in research papers
+2. Pay once per document, based on actual paper size
+3. Avoid monthly subscriptions and account lock-ins
+4. Get transparent pricing before execution
+5. Safely use premium verification tools only when needed
+
+This makes academic integrity checks easier, safer, and more accessible for students, researchers, and educators, while ensuring payment is enforced fairly and only when real work is performed.
+
+**Challenges we ran into**
+
+A key challenge was calculating the verification cost before running plagiarism or AI checks, as x402 requires upfront pricing. This was solved by separating document metadata extraction from the analysis pipeline. Another hurdle was preventing duplicate payments on retries, addressed using x402 nonces and expiry to ensure safe, idempotent requests.
+
+[Aafreen Khan](https://github.com/aafreenzy)
+
+`2025-12-18`
+
+---
+
+### Z402
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/z-6de6) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Blessedbiello/Z402) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://www.loom.com/share/84d73735fe794927ba1d18282012addc) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.loom.com/share/84d73735fe794927ba1d18282012addc) [![Built at](https://img.shields.io/badge/Built%20at-Zypherpunk-0052CC?style=flat-square)](https://zypherpunk.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> A Privacy preserved payment infra
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+Z402 is a privacy-first payment infrastructure that makes accepting Zcash as easy as adding middleware to your API. Built on Coinbase's X-402 standard, Z402 enables developers to monetize APIs, AI models, and digital content with pay-per-use pricing - no subscriptions, no data harvesting. Add `requireX402Payment()` to any Express route and start accepting private payments instantly. Complete with TypeScript SDK, real-time analytics, webhook events, and comprehensive documentation.
+
+What you can use it for:
+• AI Model Monetization: Pay-per-inference pricing without subscriptions
+• API Monetization: Any REST API becomes revenue stream in 5 lines of code
+• Content Micropayments: True pay-per-view without accounts
+• Agent Commerce: Autonomous AI agents pay for services automatically
+• IoT Payments: Devices transact without human intervention
+
+How it makes things easier:
+• From weeks to minutes: Traditional payment integration → 5 lines of code
+• No subscription overhead: No accounts, billing systems, or customer data
+• Privacy by default: Shielded transactions, zero PII collection
+• No chargebacks: Blockchain finality, no 180-day risk window
+• Stripe-like DX: Clean APIs, TypeScript SDK, comprehensive docs
+• Production-ready: 17,476 LOC, 18/18 tests, real crypto verification
+For "What Makes It Unique":
+Z402 is the first production-ready implementation of Coinbase's X-402 protocol. While others build demos, we ship production code:
+
+• Real cryptographic verification 
+• Complete X-402 standard compliance (all 3 endpoints)
+• Stripe-quality developer experience (5-line integration)
+• Production infrastructure (TimescaleDB, Redis, webhooks)
+• Comprehensive docs (7 guides, OpenAPI spec)
+
+We revive HTTP 402 "Payment Required" - a status code from 1997 that was ahead of its time - combining it with Zcash privacy and modern developer experience.
+For "Problem Solved":
+Traditional payment integration is broken for modern use cases:
+
+❌ AI services can't charge per inference (credit card fees too high)
+❌ APIs can't do pay-per-call (payment processors need subscriptions)
+❌ Content creators can't do micropayments (economically impossible)
+❌ Privacy services can't accept payments (KYC reveals users)
+
+Z402 solves all of this with blockchain-native payments that are private, instant, and final.
+
+**General Bounty**
+
+## What It Is
+
+X402 is the developer-facing payment protocol layer of Z402 - essentially "HTTP 402 Payment Required but with Zcash shielded transactions." It's middleware that lets devs monetize APIs/functions with zero setup complexity.
+
+## Core Value Proposition
+
+**Stripe-like integration simplicity + Zcash privacy = no accounts, no KYC, no user data**
+
+Developers add one line of middleware to protect endpoints. Users pay directly with shielded ZEC. No payment processor middleman.
+
+## Key Components Needed
+
+### 1. Infrastructure
+* Express.js/Fastify middleware package
+* TypeScript SDK with full type safety
+* OpenAPI 3.0 specification for standard HTTP 402 responses
+* Webhook system for transaction confirmation
+
+### 2. Developer Tools
+* CLI for project initialization and testing
+* Mock gateway for local development
+* Real-time analytics API (revenue only, no user tracking)
+* 7+ integration guides (API protection, pay-per-call, subscription-style, rate limiting, etc.)
+
+### 3. Privacy Technology
+* Shielded transaction verification without revealing payer identity
+* Time-limited access tokens (no persistent user sessions)
+* Zero-knowledge payment proofs
+* Privacy-preserving analytics (aggregated revenue, no individual transactions)
+
+## How It Works (Simple Flow)
+
+1. Dev wraps endpoint with `requireX402Payment()`
+2. Unpaid request returns 402 + payment details (ZEC address, amount, memo)
+3. User sends shielded transaction
+4. Webhook confirms payment
+5. Access token issued for time-limited/usage-limited access
+6. User accesses protected resource
+
+**Private Payments & Transactions**
+
+**Z402** is a privacy-first payment infrastructure built on Zcash that implements Coinbase's X-402 Payment Required standard. It directly addresses both privacy and security requirements: **Privacy-First Design:**
+
+- Zero PII collection - no emails, names, or personal data stored
+- Zcash shielded address support for fully private transactions
+- Privacy-preserving analytics using TimescaleDB aggregates only
+- No user tracking or behavioral profiling
+
+**Security-Hardened Transaction System:**
+
+- Cryptographic payment verification using secp256k1 ECDSA signatures
+- HMAC webhook signatures prevent replay attacks
+- Blockchain settlement eliminates chargebacks and fraud
+- Real-time transaction monitoring with automated security checks
+
+**Production-Ready Payment Solution**: Z402 makes private payments accessible to any developer with 5 lines of code:
+app.get('/api/protected', requireX402Payment(0.001), (req, res) => {
+  res.json({ data: 'premium content' })
+})
+**Real-World Use Cases:**
+
+- AI inference payments (pay per token, privacy preserved)
+- Autonomous agent transactions (M2M payments without identity)
+- Private content monetization (no payment processor surveillance)
+- IoT micropayments (no KYC friction)
+
+Unlike traditional payment systems that sacrifice privacy for convenience, Z402 delivers both - achieving ~75 second settlement finality while maintaining complete transaction privacy through Zcash's cryptographic shielding.
+
+**Cross-Chain Privacy Solutions**
+
+**How Z402 Fits Perfectly**
+**Z402 **is a privacy-first payment protocol for developers to monetize APIs with Zcash. Current problem: users must own ZEC to pay, creating massive onboarding friction.
+NEAR intents solves this: Users pay with any token (USDC, ETH, SOL), NEAR converts to ZEC automatically, merchants receive private ZEC payments. Privacy preserved, friction eliminated.
+
+**Privacy-Preserving AI & Computation**
+
+**Z402** enables privacy-preserving AI inference by combining shielded Zcash payments with confidential compute endpoints - users can access AI models without revealing identity, usage patterns, or payment history.
+
+**General Bounty**
+
+**Z402** is a production-ready private payment infrastructure implementing Coinbase's X-402 Payment Required standard on Zcash. It enables developers to accept privacy-preserving payments for APIs, AI models, and digital content with just 5 lines of code. 
+**How it fits:**
+
+- **Payment Solution:** Complete X-402 protocol implementation with cryptographic verification (secp256k1 ECDSA)
+- **Transaction System:** Full payment lifecycle - request → verify → confirm → settle
+- **Privacy:** Supports Zcash shielded transactions, zero PII collection, no user tracking
+- **Security:** HMAC webhook signatures, blockchain settlement finality (~75s), no chargebacks
+- 
+
+**Real-world use cases:** Pay-per-API-call services, AI inference micropayments, content monetization, agent-to-agent commerce, IoT machine payments - all with complete privacy preservation.
+
+[Biello Nuhu](https://github.com/Blessedbiello)
+
+`2025-12-04`
+
+---
+
+### Loanify
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/loanify-0e16) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/bucketshop69/loanify) [![Built at](https://img.shields.io/badge/Built%20at-Zypherpunk-0052CC?style=flat-square)](https://zypherpunk.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Loanify - Private Lending
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Rust](https://img.shields.io/badge/Rust-333333?style=flat-square) ![Solana Blockchain](https://img.shields.io/badge/Solana%20Blockchain-333333?style=flat-square) ![solana/web3.js](https://img.shields.io/badge/solana/web3.js-333333?style=flat-square)
+
+**The problem it solves**
+
+## 🎯 The Problem We're Solving
+
+Traditional lending protocols expose all user positions publicly, creating:
+- Privacy concerns for large holders
+- Front-running opportunities
+- Regulatory complications for institutional users
+
+**Challenges we ran into**
+
+After deploying with `arcium deploy`, the MXE account is created but the distributed key generation (DKG) by the Arcium cluster nodes never completes. The MXE public key remains all zeros, blocking encryption functionality.
+
+- Tried v0.4.0 cluster (768109697) - keygen pending
+- Tried v0.3.0 cluster (1078779259) - keygen pending  
+- Both clusters appear inactive for new MXE keygens on devnet
+
+## Resolution Status
+- Code compiles successfully with `arcium build`
+- Program deployed to devnet: `5WXm6ZDyyuAMSW2NuvL1T97AAtjjJi2rZ7fvD1JsZMRj`
+- MXE account created but awaiting cluster keygen
+- End-to-end privacy demo blocked until Arcium devnet clusters perform keygen
+
+**Private DeFi & Trading**
+
+Loanify proves that private, confidential DeFi is not just possible but practical. By combining Solana's performance with Arcium's privacy, we can build DeFi protocols that protect user privacy while maintaining security and functionality.
+
+Bibhu padhy
+
+`2025-12-04`
 
 ---
 
@@ -12690,6 +14680,816 @@ Solution: This model automates the process. It acts as an "always-on" critic tha
 Team **Adaptive Minds** -- [Sakshi Maji](https://github.com/SakshiMaji07), Moksha Sana
 
 `2026-02-01`
+
+---
+
+### OFFLINE PAYMENT SYSTEM
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/offline-payment-system-08c3) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/tilavatpriyanshu/OFFLINE-PAYMENT-SYSTEM) [![Built at](https://img.shields.io/badge/Built%20at-DUHacks%205.0-0052CC?style=flat-square)](https://duhacks5.devfolio.co)
+
+> Digital Payments Beyond Connectivity
+
+![Java](https://img.shields.io/badge/Java-333333?style=flat-square)
+
+**The problem it solves**
+
+This project solves the problem of digital payment inaccessibility faced by people using feature phones or living in areas with poor or no internet connectivity, especially in rural India. Most existing payment systems require smartphones and continuous internet access, which forces many users to rely on cash, increasing the risk of theft, loss, and lack of transaction records. This offline digital payment system enables users to make secure payments without internet using simple USSD-style inputs, protected by a PIN-based authentication mechanism with account lock after multiple wrong attempts. It allows users to easily pay nearby merchants, clearly shows the merchant name before payment to avoid mistakes, and maintains a transaction history for transparency and expense tracking. Overall, the system makes everyday payments easier, safer, and more inclusive by bringing reliable digital transactions to feature phone users and underserved communities.
+
+**Challenges we ran into**
+
+While making this project, the biggest challenge was creating an offline payment system without real USSD or internet services, because such systems are not available for normal testing. I solved this by using a simple console-based menu that works like a USSD screen and takes input from the user step by step. Another problem was handling security, especially checking the PIN and locking the account after three wrong PIN attempts, which did not work correctly at first, but I fixed it by counting wrong attempts properly. I also faced an issue where merchant names were changing every time, so I solved it by keeping the same merchant name for the same merchant ID. Finally, storing and showing transaction history was tricky, but I managed it by saving each payment detail in a simple and clear way.
+
+Team **TECH TITANS** -- [Dhruv Shukla](https://github.com/shukladhruv-25), [Priyanshu Tilavat](https://github.com/tilavatpriyanshu), [Kush Devmurari](https://github.com/kushdevmurari), [Chaitanya Dhruve](https://github.com/MrCoder-29)
+
+`2026-01-24`
+
+---
+
+### OPS (Offline Payment System)
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/ops-offline-payment-system-082a) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/RutKoticha/Duhacks5-Application) [![Built at](https://img.shields.io/badge/Built%20at-DUHacks%205.0-0052CC?style=flat-square)](https://duhacks5.devfolio.co)
+
+> No Net. No Problem
+
+![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![Kotlin](https://img.shields.io/badge/Kotlin-333333?style=flat-square) ![Express.js](https://img.shields.io/badge/Express.js-333333?style=flat-square) ![Prism.js](https://img.shields.io/badge/Prism.js-333333?style=flat-square)
+
+**The problem it solves**
+
+Most digital payment and data-sharing applications today rely heavily on continuous internet connectivity and centralized servers. In environments such as rural areas, underground locations, crowded events, college campuses, or during network outages, users are often unable to complete simple transactions or exchange information.
+
+Existing QR-based payment systems also require an active internet connection to validate and process payments, which limits their usability in offline scenarios. Additionally, manual Bluetooth pairing between devices is slow, confusing, and prone to connecting to the wrong device.
+
+This project addresses these limitations by introducing a hybrid QR code + Bluetooth approach that enables offline, device-to-device communication and transaction initiation.
+
+**Challenges we ran into**
+
+Android Bluetooth Permission Changes (Android 12+)
+
+One of the biggest challenges was handling Bluetooth permissions across different Android versions. Older versions rely on BLUETOOTH and BLUETOOTH_ADMIN, while Android 12+ introduces BLUETOOTH_SCAN, BLUETOOTH_CONNECT, and BLUETOOTH_ADVERTISE.
+
+Problem:
+Bluetooth scanning and connection worked on some devices but failed silently on newer Android versions.
+
+Solution:
+Implemented version-based runtime permission handling and added the new Bluetooth permissions in the manifest. Also ensured location permission was granted when required.
+
+🔹 QR Scanner Camera Permission Issues
+
+The QR scanner initially crashed when opening the camera.
+
+Problem:
+Camera access was attempted before runtime permission was granted.
+
+Solution:
+Added proper runtime camera permission checks and initialized the scanner only after permission approval.
+
+🔹 Bluetooth Connection Failing After QR Scan
+
+Even after successfully scanning a QR code, the sender device sometimes failed to connect to the receiver.
+
+Problem:
+Bluetooth discovery was still active while attempting to initiate a connection.
+
+Solution:
+Explicitly stopped discovery before connecting using:
+
+bluetoothAdapter.cancelDiscovery();
+
+🔹 Version Conflicts Between Libraries
+
+While integrating QR code generation (ZXing) and Bluetooth-related dependencies, Gradle build errors occurred due to incompatible library versions.
+
+Problem:
+Duplicate class errors and dependency mismatch issues.
+
+Solution:
+Aligned library versions, analyzed dependency trees, and enforced compatible versions where needed.
+
+🔹 Randomized Bluetooth MAC Address
+
+Android provides randomized MAC addresses for privacy.
+
+Problem:
+The MAC address embedded in the QR code was inconsistent and unreliable.
+
+Solution:
+Switched to using device name and service UUID instead of depending on MAC address.
+
+🔹 Inconsistent Behavior Across Devices
+
+The same code behaved differently on different phones.
+
+Problem:
+Hardware and OS-level Bluetooth stack differences.
+
+Solution:
+Tested on multiple devices, added logs, and handled edge cases more defensively.
+
+🔹 Managing Connection State
+
+Connections occasionally dropped unexpectedly.
+
+Problem:
+Lack of proper state monitoring.
+
+Solution:
+Implemented Bluetooth callbacks to track connection state and display user feedback.
+
+Team **Gravity** -- [Rut Koticha](https://github.com/RutKoticha), [Shivam Modi](https://github.com/shivam1002modi), [Jay Varu](https://github.com/Jay-Varu), [Ronak Rathod](https://github.com/Ronak206)
+
+`2026-01-25`
+
+---
+
+### Apna India ATM
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/apna-india-atm-8bce) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/am323065/Apna-India-ATM) [![Built at](https://img.shields.io/badge/Built%20at-DUHacks%205.0-0052CC?style=flat-square)](https://duhacks5.devfolio.co)
+
+> Banking System
+
+![Java](https://img.shields.io/badge/Java-333333?style=flat-square) ![JavaFX](https://img.shields.io/badge/JavaFX-333333?style=flat-square)
+
+Team **Error 404** -- [Anuj Mishra](https://github.com/am323065)
+
+`2026-01-25`
+
+---
+
+### Stock Sense AI
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/stock-sense-ai-e98c) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/logitechsabarni/Stock-Sense-AI) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://ai.studio/apps/drive/1LvXE_IgdK-6sNzybSEnRNhVQTRpERCHy?fullscreenApplet=true) [![Built at](https://img.shields.io/badge/Built%20at-Winter%20of%20Code%205.0-0052CC?style=flat-square)](https://winter-of-code-5.devfolio.co)
+
+> Hybrid AI system for accurate stock trend insights
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![scikit-learn](https://img.shields.io/badge/scikit--learn-333333?style=flat-square) ![pandas](https://img.shields.io/badge/pandas-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![GitHub](https://img.shields.io/badge/GitHub-333333?style=flat-square) ![Jupyter Notebook](https://img.shields.io/badge/Jupyter%20Notebook-333333?style=flat-square)
+
+**The problem it solves**
+
+Stock market prediction systems often rely only on historical price data or technical indicators, ignoring the strong influence of news sentiment and public perception. This results in predictions that fail to capture real-world market behavior, especially during volatile conditions.
+
+Stock Sense AI solves this by combining numerical stock price analysis with sentiment analysis of financial news, enabling more context-aware and reliable stock trend predictions. The system helps users understand not just what the market is doing, but why it may move in a certain direction.
+
+This makes stock analysis:
+
+More informed and balanced
+
+Less dependent on single-source signals
+
+Better suited for retail investors and analysts.
+
+Stock Sense AI fuses market data and news sentiment to deliver smarter, context-aware stock trend predictions.
+
+**Challenges we ran into**
+
+One of the main challenges was aligning time-series stock data with textual news sentiment. Market data is numerical and continuous, while news sentiment is textual and event-based, making direct integration non-trivial.
+
+To overcome this, I:
+
+Normalized and synchronized both data sources over matching time windows
+
+Converted news headlines into sentiment scores using NLP techniques
+
+Designed a hybrid feature pipeline that allowed both numerical and sentiment data to contribute meaningfully to predictions
+
+Another challenge was avoiding overfitting while maintaining high accuracy. I addressed this by:
+
+Careful feature selection
+
+Regular evaluation using regression metrics
+
+Validating model performance across different time segments.
+
+[Sabarni Guha](https://github.com/logitechsabarni)
+
+`2026-01-25`
+
+---
+
+### PS-4 Stock price Prediction
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/ps-stock-price-prediction-and-algorithmic-trading-8274) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://drive.google.com/file/d/1UoxwP8LDVpGpPEfXWRN30eZjFwl37joI/view?usp=drive_link) [![Built at](https://img.shields.io/badge/Built%20at-Out%20Of%20Context'26-0052CC?style=flat-square)](https://out-of-context-2026.devfolio.co)
+
+> Portofolio Badhao Paise Kamao
+
+![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![NumPy](https://img.shields.io/badge/NumPy-333333?style=flat-square) ![pandas](https://img.shields.io/badge/pandas-333333?style=flat-square) ![Matplotlib](https://img.shields.io/badge/Matplotlib-333333?style=flat-square) ![HTML5](https://img.shields.io/badge/HTML5-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square)
+
+**The problem it solves**
+
+📈 Bitcoin Price Prediction & Algorithmic Trading System
+📌 Project Overview
+This project implements a machine learning–based Bitcoin price prediction model and an algorithmic trading strategy.
+The system is divided into two clearly separated tasks as specified in the problem statement:
+
+Task 1: Predict next‑day Bitcoin price movement using historical data
+
+Task 2: Use the trained model to generate trading signals and evaluate a trading strategy
+
+The project is designed to be modular, evaluation‑safe, and API‑ready.
+
+🎯 Objectives
+Predict next‑day log returns of Bitcoin using ML
+
+Evaluate prediction accuracy using MSE and RMSE
+
+Deploy the trained model to simulate a realistic trading strategy
+
+Measure performance using Sharpe Ratio, Drawdown, and Returns
+
+Export results in JSON format for API or frontend use
+
+🧠 Task Breakdown
+🔹 Task 1: Price Prediction (ML)
+Dataset Used:
+BTC-2017min.csv to BTC-2021min.csv (yearly minute-level data)
+
+Processing:
+Minute data is resampled to daily frequency for stability
+
+Target Variable:
+Next‑day log return
+
+Model:
+XGBoost Regressor
+
+Evaluation Metrics:
+
+Mean Squared Error (MSE)
+
+Root Mean Squared Error (RMSE)
+
+📌 RMSE is measured in log‑return units (dimensionless), which is standard for financial time‑series.
+
+🔹 Task 2: Algorithmic Trading Strategy
+Dataset Used:
+BTC-Daily.csv (Daily execution dataset as allowed by the problem statement)
+
+Model Usage:
+The trained Task‑1 model is used for inference only
+
+Strategy Type:
+
+Long‑only
+
+Trend‑filtered
+
+Confidence‑based signals
+
+Performance Metrics:
+
+Strategy Return
+
+Buy & Hold Return
+
+Sharpe Ratio
+
+Maximum Drawdown
+
+Number of Trades
+
+🛠️ Tech Stack
+Language: Python
+
+Libraries:
+
+pandas
+
+numpy
+
+matplotlib
+
+xgboost
+
+scikit‑learn
+
+Output Format: JSON (API compatible)
+
+▶️ How to Run the Project
+1️⃣ Install Dependencies
+pip install pandas numpy matplotlib scikit-learn xgboost
+2️⃣ Run the Main Script
+python btc_ml_trading_final.py
+3️⃣ Output Generated
+Console:
+
+MSE & RMSE (Task 1)
+
+Strategy metrics (Task 2)
+
+File:
+
+results.json (used for visualization or API)
+
+📊 How to Use the Product
+🔹 As a Research / Evaluation Tool
+Analyze prediction accuracy using RMSE
+
+Compare ML‑based strategy vs Buy & Hold
+
+Study risk‑adjusted performance using Sharpe Ratio
+
+🔹 As an API Backend
+The file results.json is API‑ready and can be directly served using Flask.
+
+📈 Visualization
+Graphs such as:
+
+Equity Curve
+
+Buy & Hold Curve
+
+Drawdown Curve
+
+Trading Signals
+
+can be plotted directly from results.json using a separate plotting script.
+
+Team **Creators** -- Atharv Dehedkar, Spandana Surepally, Aaditya Maurya
+
+`2026-01-25`
+
+---
+
+### CreditLens_ML
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/creditlensml-8380) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ojha-sweta/credit-sense) [![Built at](https://img.shields.io/badge/Built%20at-Hackxios%202K25-0052CC?style=flat-square)](https://hackxios2k25.devfolio.co)
+
+> Seeing creditworthiness beyond traditional scores
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square)
+
+**Best Innovation**
+
+CreditLens ML fits the Best Innovation track by addressing a real and underserved problem in digital lending: assessing creditworthiness for users with limited or non-traditional credit history.
+
+Instead of relying on conventional credit scores, our solution uses alternative behavioral and financial indicators such as income patterns, transaction frequency, spending behavior, employment type, and education level to predict credit risk.
+
+The innovation lies in combining a lightweight machine learning model with a simple, transparent web interface that makes credit risk assessment more accessible, explainable, and scalable for early-stage fintech use cases.
+
+CreditLens ML demonstrates how data-driven decision-making can be implemented quickly and responsibly, enabling lenders to make informed decisions while expanding access to credit for individuals often excluded by traditional systems.
+
+Team **SynapTech** -- [Sweta Ojha](https://github.com/ojha-sweta), [Anchal Kumari](https://github.com/Anchal-2005-bot), [Sweta Ojha](https://github.com/ojha-sweta)
+
+`2025-12-30`
+
+---
+
+### DenialShield
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/denialshield-1ef5) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/pkelotra/Hackxios.git) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://hackios.vercel.app/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/MQwE_EcUonA) [![Built at](https://img.shields.io/badge/Built%20at-Hackxios%202K25-0052CC?style=flat-square)](https://hackxios2k25.devfolio.co)
+
+> Your AI defense against insurance denials.
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Git](https://img.shields.io/badge/Git-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![GitHub](https://img.shields.io/badge/GitHub-333333?style=flat-square)
+
+**The problem it solves**
+
+DenialShield bridges the gap between complex health insurance bureaucracy and patients who need coverage. It tackles the overwhelming confusion and financial risk associated with denied medical claims.
+
+What People Can Use It For
+1. "Pre-Flight" Check for Medical Claims
+Use Case: Before submitting a claim, users can upload their medical bills and doctor's notes.
+Benefit: The AI acts as a compliance officer, scanning for missing documentation or inconsistencies that would typically lead to a denial. It proactively flags issues so they can be fixed before the claim is even sent.
+
+2. Decoding "Insurance Speak"
+Use Case: Users can upload a confusing denial letter filled with codes like CO-50 or PR-96.
+Benefit: It instantly translates technical jargon into plain English, explaining exactly why coverage was denied (e.g., "Medical Necessity not proven" vs. "Missing pre-authorization").
+
+3. Generating Professional Appeals in Seconds
+Use Code: Instead of spending hours stressing over how to write a formal appeal, users can let DenialShield draft one.
+Benefit: It automatically generates a professional, legally-sound PDF appeal letter. It cites specific medical evidence from the user's uploaded notes and references relevant insurance policies to refute the denial, significantly increasing the chance of success.
+
+How It Makes Tasks Easier & Safer
+Easier: Converts a multi-hour process of research and writing into a few clicks. It removes the need to be an expert in medical billing codes.
+Safer: Reduces the risk of permanent financial loss by ensuring appeals are backed by evidence and correct policy citations, rather than emotional arguments which insurance companies often reject.
+
+**Challenges we ran into**
+
+1. Managing System Dependencies on Windows
+We faced consistent crashes with pdf2image due to missing poppler binaries on Windows. To solve this, we implemented a hybrid extraction strategy, using PyMuPDF for fast, direct text extraction from digital PDFs and only falling back to image-based OCR when absolutely necessary, removing the strict dependency for most files.
+
+2. Ensuring Consistent JSON from LLMs
+Llama-3 would frequently include conversational filler or malformed syntax when asked for data, breaking our parsers. We overcame this by using Pydantic to enforce strict output schemas and implementing a validation retry loop that automatically re-prompts the model if the JSON output is invalid.
+
+3. Extracting Data from Low-Quality Scans
+Standard OCR tools struggled with the complex tables and skewed text often found in medical forms. We switched to PaddleOCR, which uses deep learning to significantly improve layout analysis and text detection accuracy on "noisy" scanned document.
+
+**Best Innovation**
+
+1. Prevention Over Reaction
+Most apps help you fight a bill after you get it.Denialshield acts like a "spellchecker" for your claims, catching mistakes before you hit submit. It’s a simple shift—stopping the denial before it happens—that could save millions in lost coverage.
+
+2. Expert Help for Free
+Beating an insurance denial usually requires hiring an expensive professional. We "cloned" that expert knowledge into an AI. Now, anyone can have a pro-level advocate reviewing their case and fighting for them, completely for free. It levels the playing field.
+
+3. AI Doing the Real Work
+We didn't just make a chatbot. We taught a computer to actually read messy, scanned doctor's notes and understand them like a human would. It does the hard work of connecting the dots between your medical history and your policy, using AI to solve a real, stressful problem.
+
+Team **Chaar_Launde** -- [Hitanshu Seth](https://github.com/Hitanshu078), [Yash Gupta](https://github.com/YashGupta2106), [Siddharth Anil](https://github.com/sidnovates), [Pranay Kelotra](https://github.com/pkelotra)
+
+`2025-12-30`
+
+---
+
+### Off-grid payment gateway
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/offgrid-payment-gateway-d43b) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/PVER-Programz/off-grid-payment) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://github.com/PVER-Programz/off-grid-payment/raw/refs/heads/main/demo/video1.mp4) [![Built at](https://img.shields.io/badge/Built%20at-𝙂𝙇𝙔𝙏𝘾𝙃-0052CC?style=flat-square)](https://glytch.devfolio.co)
+
+> Pay Anywhere. No Network Needed.
+
+![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Dart](https://img.shields.io/badge/Dart-333333?style=flat-square) ![REST API](https://img.shields.io/badge/REST%20API-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Flutter](https://img.shields.io/badge/Flutter-333333?style=flat-square)
+
+**The problem it solves**
+
+▪ Many small merchants and local businesses in areas with poor or unreliable internet connectivity face challenges in accepting digital payments. 
+▪ Traditional online payment systems require active internet, making them unusable in offline scenarios.
+▪ Customers often carry cash due to lack of offline digital alternatives, leading to inefficiency and security risks. 
+▪ There is a need for a reliable, fast, and secure offline digital payment system that works without internet.
+
+**Challenges we ran into**
+
+1. Duplicate API Requests
+Payment and receive-payment requests were firing twice.
+Caused by API calls being triggered during widget rebuilds.
+Fixed by moving requests into isolated functions and ensuring they run only on button press.
+
+2. Balance Not Updating
+Portfolio page displayed old balance after transactions.
+The app relied on cached state instead of fetching new data.
+Solved by reloading balance on initState() and after every successful payment.
+
+3. Device-to-Device Connectivity Issues
+Inconsistent connection between hotspot-host and client device.
+QR-based IP detection sometimes picked the wrong interface.
+Fixed by adding retry logic, validating IP flow, and standardizing request formats.
+
+4. QR Scan Not Updating IP
+Toast showed correct IP but app still used old value.
+IP was updated locally but not passed through navigation.
+Fixed by passing IP via constructors and removing outdated variables.
+
+5. Permission & Hotspot Problems
+Camera, Wi-Fi, and hotspot permissions behaved differently on devices.
+Solved using permission_handler and a centralized permission-check routine.
+
+6. JSON Parsing Errors
+
+API response numbers caused decoding failures.
+
+Solved by wrapping parsing in try/catch and standardizing backend JSON format.
+
+Team **NOBEDLESS** -- [SARVESVAR RAJ](https://github.com/sarvez06), [Shri Chaathura Doddi](https://github.com/DSC155), [shashaank k](https://github.com/shashaank-18), [Chakravarthy P](https://github.com/Chakravarthy2468), [Sasswath K](https://github.com/Sasswath), [Pramod Viknesh](https://github.com/pver-programz)
+
+`2025-12-10`
+
+---
+
+### NETRATAX
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/netratax-c09a) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Venkatesh056/GNN_NETRATAX) [![Built at](https://img.shields.io/badge/Built%20at-𝙂𝙇𝙔𝙏𝘾𝙃-0052CC?style=flat-square)](https://glytch.devfolio.co)
+
+> AI eyes on every invoice chain!!
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![PyTorch](https://img.shields.io/badge/PyTorch-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![GitHub](https://img.shields.io/badge/GitHub-333333?style=flat-square)
+
+**The problem it solves**
+
+Tax authorities face major challenges in detecting sophisticated GST fraud schemes such as shell companies, circular trading, bogus ITC claims, and multi-layered invoice networks. Traditional rule-based systems and manual audits cannot analyze the huge volume of transactions or uncover hidden multi-hop relationships between companies. Fraud entities often operate in interconnected rings that remain invisible in tabular data, leading to revenue loss and delayed detection. NETRA TAX solves this by transforming GST transactions into graph networks and applying Graph Neural Networks and pattern-detection algorithms to automatically identify anomalies, suspicious clusters, and high-risk trading behaviors with high accuracy—enabling faster, data-driven, and proactive fraud investigation.
+
+**Challenges we ran into**
+
+One of the major challenges was handling highly imbalanced fraud data, where fraudulent companies formed only a small portion of the dataset, making model training difficult and prone to bias. Building an accurate graph structure from raw GST invoices also required resolving missing mappings, inconsistent IDs, and noisy transaction patterns. Optimizing the GNN model for performance on a large, sparse transaction network was another hurdle, especially ensuring stable training and preventing overfitting. On the system side, integrating the ML pipeline with a real-time FastAPI backend and ensuring smooth communication between data processing, model inference, and the D3.js network visualization introduced several architectural complexities. Designing an intuitive frontend that displays complex fraud networks in a way auditors can understand was also challenging, requiring multiple iterations to balance clarity, performance, and accuracy.
+
+Team **AI Architects** -- [Venkatesh D](https://github.com/Venkatesh056), [Sriharsan BS](https://github.com/Sriharsan), [Lathika S](https://github.com/lathikasakthivel), [Devadhatthan L](https://github.com/deva07777), [Varun S](https://github.com/Freaksthegeeks), [Sivani Vidyarani Raja](https://github.com/Sivanividya)
+
+`2025-12-10`
+
+---
+
+### Expense Management System
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/edumind-37b5) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Kalpan2007/Expense_Mang...) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://expenseflow-3k.netlify.app) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/wuV864I_mPE?si=oIRd6LnQU3Mh5aCX) [![Built at](https://img.shields.io/badge/Built%20at-Hack%20This%20Fall%202025%20--%20Milestone%20Edition-0052CC?style=flat-square)](https://hackthisfall.devfolio.co)
+
+> The Ultimate Financial Tracking Solution
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Cloudinary](https://img.shields.io/badge/Cloudinary-333333?style=flat-square) ![JWT](https://img.shields.io/badge/JWT-333333?style=flat-square) ![OCR](https://img.shields.io/badge/OCR-333333?style=flat-square) ![Express.js](https://img.shields.io/badge/Express.js-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+# 🧩 The Problem It Solves
+
+Managing expenses in modern teams, startups, and organizations is often slow, messy, and error-prone.  
+Many companies still rely on **manual spreadsheets**, **emails**, or **chat messages** to track and approve expenses.  
+This creates several problems:
+
+- 📉 **Lack of transparency** in how money is being spent  
+- ⏱️ **Time wasted** on manual approvals and follow-ups  
+- 🧾 **Lost receipts** or incorrect data entries  
+- 💸 **Higher fraud risks** due to missing audit trails  
+- 🌍 **Difficulty managing multi-currency expenses** for global teams  
+- 🤯 **No real-time insights** into spending or budget usage  
+
+As organizations grow, these issues lead to financial leaks, delayed reimbursements, and decreased productivity.
+
+---
+
+# 🚀 What People Can Use It For (How It Helps)
+
+The **Expense Management System** makes financial tracking **simpler, faster, and safer** for both individuals and organizations.  
+Users can benefit from:
+
+### ⭐ 1. Track Expenses Easily  
+Employees can quickly submit expenses, attach receipts, and categorize spending — no spreadsheets needed.
+
+### ⭐ 2. Automated Receipt Scanning (OCR)  
+The system extracts data from receipts automatically, saving time and reducing manual entry mistakes.
+
+### ⭐ 3. Streamlined Approval Workflow  
+Managers can approve or reject expenses with comments through a clean, organized dashboard.  
+Supports **multi-level approvals** for larger companies.
+
+### ⭐ 4. Increased Safety & Transparency  
+Every action is recorded in an **audit trail**, improving accountability and preventing fraud.
+
+### ⭐ 5. Multi-Currency Support  
+Real-time exchange rates help remote or international teams submit expenses effortlessly.
+
+### ⭐ 6. Insightful Analytics  
+Dashboards show spending patterns, category breakdowns, budgets, and trends to support smarter decisions.
+
+### ⭐ 7. Improved Team Productivity  
+Automated notifications, role-based access, and fast workflows reduce manual tasks and speed up reimbursements.
+
+**Challenges we ran into**
+
+# 🧗 Challenges I Ran Into
+
+Building this project came with several technical and architectural challenges.  
+Some of the most significant hurdles were:
+
+---
+
+## 🔹 1. Designing and Managing Multiple User Panels  
+One of the toughest parts of the project was creating and handling **three separate panels** —  
+**Admin**, **Manager**, and **Employee** — each with completely different permissions, UI flows, and responsibilities.
+
+It was challenging to:
+
+- Maintain clean separation of access  
+- Prevent unauthorized access between roles  
+- Build different dashboards without duplicating code  
+- Keep the navigation and user experience consistent  
+
+### ✅ How I solved it
+I implemented a **role-based access control (RBAC)** system using Supabase Auth and custom role checks in the backend.  
+On the frontend, I used:
+
+- React Context for managing user roles  
+- Protected routes for each dashboard  
+- Shared UI components with conditional rendering  
+
+This made the entire permission system predictable, secure, and scalable.
+
+---
+
+## 🔹 2. Handling Multi-Level Approvals  
+Creating a configurable approval workflow was harder than expected.  
+Expenses needed to move through different approval stages depending on category, amount, and rules.
+
+### ✅ How I solved it  
+I created a clear **approval state machine** and stored the workflow logic in the database.  
+This allowed expenses to move smoothly through approval levels with full audit history.
+
+---
+
+## 🔹 3. Implementing OCR for Receipt Scanning  
+Integrating OCR and ensuring accurate extraction from noisy or low-quality images was tricky.
+
+### ✅ How I solved it  
+I refined the OCR pipeline by:
+
+- Preprocessing images  
+- Validating extracted fields  
+- Allowing manual edits after OCR  
+
+This improved accuracy and user experience.
+
+---
+
+## 🔹 4. Managing Real-Time Data Synchronization  
+Keeping dashboards updated instantly when expenses were added or approved required real-time listeners.
+
+### ✅ How I solved it  
+I used **Supabase real-time subscriptions** to push instant updates to the frontend without refreshing the page.
+
+---
+
+## 🔹 5. Backend & Frontend Communication Issues  
+At one point, I faced errors such as:  
+- `ERR_CONNECTION_REFUSED`  
+- CORS failures  
+- Invalid API key errors  
+
+### ✅ How I solved it  
+By carefully syncing environment variables, enabling proper CORS policies, and ensuring the backend was running on the correct ports.
+
+**Best Use of GitHub**
+
+# 🛠️ How We Used GitHub Effectively as a Team
+
+Using GitHub played a *crucial role* in making this project organized, scalable, and team-friendly.  
+Here are the key ways we leveraged GitHub to ensure smooth collaboration and high-quality development:
+
+---
+
+## ✅ 1. Organized & Scalable Collaboration Workflow
+
+We followed a **professional Git branching strategy** to keep development clean:
+
+- **`main` branch** → stable production-ready code  
+- **`dev` branch** → active development  
+- **feature branches** → separate branches for each new feature or fix  
+
+This made it easy for multiple teammates to work simultaneously without breaking the main codebase.
+
+---
+
+## 🔄 2. Pull Request (PR) Reviews for Better Code Quality
+
+Every update went through a **Pull Request**, ensuring:
+
+- Code reviews before merging  
+- Discussion on improvements  
+- Detection of bugs early  
+- Better understanding of each other's work  
+
+This made the final output cleaner, safer, and more maintainable.
+
+---
+
+## 🌱 3. GitHub Issues to Track Tasks & Bugs
+
+We used **GitHub Issues** to manage:
+
+- New features  
+- Bugs  
+- Enhancements  
+- Backend/Frontend tasks  
+
+Each issue had:
+- Labels (`bug`, `feature`, `frontend`, `backend`, etc.)  
+- Clear descriptions  
+- Assigned team members  
+
+This helped us stay organized and avoid confusion during development.
+
+---
+
+## 🧩 4. Milestones & Project Board for Planning
+
+We used GitHub Projects (Kanban Board) to track progress:
+
+- **To Do** → tasks planned  
+- **In Progress** → tasks being developed  
+- **Completed** → finished tasks  
+
+This gave the entire team a clear overview of status and deadlines.
+
+---
+
+## 🧪 5. Using GitHub Actions for Automation (CI/CD)
+
+We implemented **GitHub Actions** for:
+
+- Auto-running lint checks  
+- Auto-building frontend  
+- Testing backend APIs  
+
+These automated workflows helped catch errors instantly, improving code stability.
+
+---
+
+## 🗂️ 6. Version Control Made Debugging Easy
+
+Whenever something broke, GitHub made it easy to:
+
+- Compare versions  
+- Roll back to stable commits  
+- Identify which PR caused the issue  
+
+This saved hours of debugging time.
+
+---
+
+## 🤝 7. Seamless Teamwork Across Frontend & Backend
+
+GitHub allowed frontend and backend developers to work in parallel:
+
+- Backend API contracts shared via README + issues  
+- Frontend updates tracked via PRs  
+- Clear versioned changes for everyone  
+
+This ensured integration stayed smooth throughout the project.
+
+---
+
+# 🚀 Overall Impact
+
+Using GitHub to its fullest made the project:
+
+- **Organized**  
+- **Team-friendly**  
+- **Efficient**  
+- **Scalable**  
+- **Easy to maintain & debug**  
+
+This professional workflow helped us build the entire platform faster, smarter, and with much higher quality.
+
+Team **The Garuda** -- [Kalpan Kaneriya](https://github.com/Kalpan2007), [Dax Patel](https://github.com/daxp472/)
+
+`2025-11-29`
+
+---
+
+### Predikt AI
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/predikt-ai-2d9c) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://www.canva.com/design/DAG48oyP8EU/3jsevBNYUL1p7AsrARcr9g/edit?utm_content=DAG48oyP8EU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/w0d048pQ6tQ) [![Built at](https://img.shields.io/badge/Built%20at-HackBIOS%202K25-0052CC?style=flat-square)](https://hackbios2k25.devfolio.co)
+
+> Make your business stock-out risk proof
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-333333?style=flat-square) ![AWS Lambda](https://img.shields.io/badge/AWS%20Lambda-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=flat-square) ![XGBoost](https://img.shields.io/badge/XGBoost-333333?style=flat-square)
+
+**The problem it solves**
+
+Our solution is for product-based businesses. Generally, businesses face a lot of set backs while maintaining optimum stock in there businesses. Sometimes they over produce the stock which increases the holding and carrying cost of the business. At times, they run out of stock which causes opportunity cost and loss of sales profit.
+Our software uses machine learning models like XGBoost, Prophet, LSTM to forecast the material requirement for the business reducing unnecessary inventory carrying and avoids out-of-stock risk during peak business season period.
+
+Current business problems
+Poor quality or missing sales & inventory data
+Highly unpredictable supplier lead times
+Festival & trend-driven sudden demand spikes
+
+**Challenges we ran into**
+
+Challenges we faced
+Difficulty explaining ML predictions to supply chain teams
+Integrating forecasting with inventory & procurement systems
+Balancing hybrid ML models without overfitting
+
+We fixed it by using:
+Outlier removal (IQR & Z-score)
+Missing value imputation
+SKU normalization
+Auto holiday tagging
+Data validation rules before training
+
+Team **444** -- [Om Shukla](https://github.com/omshukla307-boop), [Sankalp Dewangan](https://github.com/sankalpdewangan2219-ui), [Shreyans Jain](https://github.com/Shreyanjain07), [Abhijeet Baghel](https://github.com/abhijeet28-08)
+
+`2025-11-18`
+
+---
+
+### Project LUMEN
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/project-lumen-924c) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/jaiprakashsahu058-blip/Lumen) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/Kr0UbrQ4ZQw) [![Built at](https://img.shields.io/badge/Built%20at-Hack--a--Sol%202025-0052CC?style=flat-square)](https://hackasol-4.devfolio.co)
+
+> AI layer to manage finance
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![OAuth](https://img.shields.io/badge/OAuth-333333?style=flat-square) ![SQLite](https://img.shields.io/badge/SQLite-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![GEN AI](https://img.shields.io/badge/GEN%20AI-333333?style=flat-square) ![RAG](https://img.shields.io/badge/RAG-333333?style=flat-square)
+
+**The problem it solves**
+
+Our platform **automatically reads financial emails—bank alerts, UPI receipts, invoices, bills**—and converts them into clear, real-time insights. Users get automatic expense tracking, category-wise spending, pie charts, and monthly trends without manually entering anything.
+
+![image](https://assets.devfolio.co/content/d596949b4fa84e419c8029097d6d551b/663c12a6-06a8-4676-9f25-6d331dacbb0a.jpeg)
+It also analyses money behaviour to detect unusual spending, hidden subscriptions, or potential fraud. Users receive proactive reminders for bills and recurring purchases.
+
+A **unique feature is the wishlist** affordability predictor, which tells users exactly when they’ll be able to buy something they want based on their cashflow and saving habits.
+
+Overall, it makes personal finance effortless, organized, and safer—running silently in the background and helping users make better financial decisions.
+
+**Challenges we ran into**
+
+A major hurdle was integrating the LLM with our database in real time. Running the model locally on the same system caused performance drops, slow responses, and unstable data syncing.
+
+To solve this, we hosted **a lightweight LLM on a separate laptop** over the local network and connected our main website to it. This split the load, prevented resource conflicts, and made LLM ↔ database communication much more stable.
+![image](https://assets.devfolio.co/content/d596949b4fa84e419c8029097d6d551b/5bd379de-2bc1-4edd-93ff-98b29429b74c.png)
+By separating the inference node and the web app, we achieved smooth processing, faster responses, and reliable structured data storage.
+
+**AI/ML Innovations**
+
+This project uses AI/ML at its core: it **extracts financial data from emails** using multimodal models, classifies transactions automatically, detects anomalies through behavioural pattern learning, and generates real-time insights using intelligent reasoning. The **wishlist affordability** feature uses predictive modelling to forecast savings and spending. Everything—extraction, analysis, prediction, and personalization—is powered by AI, making it a truly autonomous financial intelligence system.
+
+Team **Circle** -- [Jaiprakash sahu](https://github.com/JaiprakashSahu), [Nitish Dubey](https://github.com/Nitish23100), [Hritik Routia](https://github.com/oghritik), [Anish Toppo](https://github.com/anishtoppo55)
+
+`2025-11-15`
+
+---
+
+### LUMEN-AI
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/lumenai-a16f) [![Built at](https://img.shields.io/badge/Built%20at-Hack--a--Sol%202025-0052CC?style=flat-square)](https://hackasol-4.devfolio.co)
+
+> Personal Finance Management Application
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+https://github.com/kartik1pandey/Finanace-managment-app
+
+
+https://www.youtube.com/watch?v=5I_L9Ss64b0
+
+Team **Snickers** -- [Anish Kumar](https://github.com/Sarcastic-Soul), [Parth Patel](https://github.com/parthwhy), [Amrit Singh](https://github.com/Amritsingh101), [Anshul Pratap Lakra](https://github.com/LakraAnshul)
+
+`2025-11-15`
 
 ---
 
