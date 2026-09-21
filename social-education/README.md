@@ -1,6 +1,6 @@
 # Social Impact and Education
 
-![Projects](https://img.shields.io/badge/Projects-196-4B32C3?style=flat-square) [![GitHub](https://img.shields.io/badge/GitHub-tech--anupam-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/tech-anupam) [![Instagram](https://img.shields.io/badge/Instagram-tech.anupam-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/tech.anupam)
+![Projects](https://img.shields.io/badge/Projects-306-4B32C3?style=flat-square) [![GitHub](https://img.shields.io/badge/GitHub-tech--anupam-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/tech-anupam) [![Instagram](https://img.shields.io/badge/Instagram-tech.anupam-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/tech.anupam)
 
 [← Back to all themes](https://github.com/tech-anupam/hackfolio#readme)
 
@@ -210,6 +210,56 @@ Team **Team K Means Nothing** -- Kavish Basole, Nishik Kalidindi, Sai Darahaas R
 
 ---
 
+### Edventure
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/edventure-40d2) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Y0Rishav/Edventure) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://edventure-nu.vercel.app/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=k0BSUaM10a0) [![Built at](https://img.shields.io/badge/Built%20at-HackOdisha%205.0-0052CC?style=flat-square)](https://hackodisha-4.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-14-FF6B6B?style=flat-square)
+
+> Where Education meets Adventure
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![OAuth](https://img.shields.io/badge/OAuth-333333?style=flat-square) ![Postman](https://img.shields.io/badge/Postman-333333?style=flat-square) ![Socket.IO](https://img.shields.io/badge/Socket.IO-333333?style=flat-square) ![Figma](https://img.shields.io/badge/Figma-333333?style=flat-square) ![Express.js](https://img.shields.io/badge/Express.js-333333?style=flat-square)
+
+**The problem it solves**
+
+Traditional learning methods are often very boring and designed for some specific group of students.  
+As a result, students:  
+- Lose motivation  
+- Avoid studying  
+
+---
+
+## This is where **Edventure** comes into play 🎓  
+
+The platform provides:  
+- An **engaging environment**  
+- **Gamified quiz battles** ⚔️  
+- A **personalized learning experience**  
+
+Making learning **fun** instead of a **burden**.
+
+**Challenges we ran into**
+
+## Challenges Our Team Ran Into  
+
+
+- **Design to Development Gap** 
+  - Designing in **Figma** was exciting but time-consuming.  
+  - Translating the Figma design into actual code while keeping the same look and feel was very challenging. 
+
+- **Sleep Deprivation** 
+ Our entire team has barely slept for **3 days**, driven by the excitement and nervousness of participating in the hackathon, while constantly brainstorming ideas for the **perfect project**.  
+ 
+
+- **Collaboration Issues** 
+  At one point, a teammate accidentally overwrote changes, and we had to re-implement parts of the code.  
+
+- **Deployment Struggles** 
+  We faced continuous deployment issues and spent nearly **3 hours debugging** before finally getting the website live.
+
+Team **CodeForge** -- [Rishav Kashyap](https://github.com/Y0Rishav), [Harshit Kumar](https://github.com/WhiteDemon890), [Shubham Pandey](https://github.com/ShubhamPandey121), [Kriti .](https://github.com/Krypton019), [Swayam Agarwal](https://github.com/Swayamz-123)
+
+`2025-09-07`
+
+---
+
 ### KnowGap
 [![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/knowgap-bce4) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Ankitsri2005) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://knowgap-1-0bfh.onrender.com) [![Built at](https://img.shields.io/badge/Built%20at-CodeStorm%202026-0052CC?style=flat-square)](https://codestorm-week1-2026.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-10-FF6B6B?style=flat-square)
 
@@ -267,6 +317,156 @@ We addressed these challenges through continuous testing, iterative model improv
 Team **THE BUG STOPS HERE** -- [Achintya Jyoti](https://github.com/achintya0308), [Ankit srivastava](https://github.com/Ankitsri2005), [NAVONIL SAHA](https://github.com/navonilsaha123), [Shambhavi Kumari](https://github.com/shambhavi151023)
 
 `2026-05-30`
+
+---
+
+### TranslateX
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/translatex-bd93) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/TranslateX-SC2/TranslateX-SC2) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://drive.google.com/drive/folders/1Pgfq-p4AIBm2PGlflLgtVDjOuRiT-hRU?usp=sharing) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/Vx7YM0sfQX8) [![Built at](https://img.shields.io/badge/Built%20at-StatusCode%202-0052CC?style=flat-square)](https://statuscode-2.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-9-FF6B6B?style=flat-square)
+
+> Breaking Barriers, Bridging Languages.
+
+![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![AngularJS](https://img.shields.io/badge/AngularJS-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+****The communication gap is structural, not situational****
+
+Education assumes that “language access” means translating between spoken or written languages. But for millions of learners and educators who use sign language, the default tools simply don’t speak their language. The result is a persistent, invisible barrier: lessons are taught, discussions move on, assessments are scored while Deaf and Hard-of-Hearing students (and anyone learning sign) are left to bridge the gap themselves or wait for scarce interpreters.
+
+*Picture a classroom discussion moving quickly across ideas, while one student watches the teacher’s hands and the whiteboard, tries to lip-read classmates, and scrolls through a generic translator that can’t recognize a single sign. It’s not a lack of effort it’s a lack of infrastructure.*
+
+****What existing tools miss****
+
+**Spoken↔Text only:** Popular translators handle speech and text well, but exclude sign languages, which are fully fledged languages with their own grammar and modality.
+
+**Interpreter scarcity:** Human interpreters are scarce, expensive, and not always available in real time (especially for small schools or ad-hoc sessions).
+
+**Fragmented accessibility:** Captions help, but they don’t capture spatial grammar, handshape, and movement that carry meaning in sign.
+
+**Equity vs. equality:** Providing the same text tools to everyone is equal; supporting sign language comprehension is equitable access.
+
+****The stakes in education****
+
+**Lost comprehension minutes:** When learners must translate the translator, attention and working memory are spent on decoding, not learning.
+
+**Participation gap:** Without real-time, two-way support (sign↔speech↔text), students contribute less, ask fewer questions, and get less feedback.
+
+**Assessment bias:** Performance reflects access to language, not mastery of content.
+
+**Teacher burden:** Educators juggle slides, speech, chat, captions—and still can’t include sign language users natively.
+
+****How This Project Changes the Baseline****
+
+TranslateX-SC2 treats sign language as a first-class citizen in translation. It combines three capabilities—sign detection, hand-shape understanding, and language identification—to enable two-way, real-time communication among signers and non-signers.
+
+**Sign ↔ Text ↔ Speech:** A multimodal pipeline that recognizes signs (via pose + hand-shape modeling), renders them into text, and can voice them; and conversely can turn speech/text into accessible outputs for sign language users.
+
+**Context-aware detection**: Handedness, rotation, and shape features reduce misclassification of visually similar signs, improving classroom reliability.
+
+**Language auto-detection for text**: When content shifts languages (slides, chat, questions), the system adapts—critical in multilingual classrooms and global programs.
+
+**Web + Mobile ready**: Built with Angular/Ionic on the front end and FastAPI on the back end, it fits into real classrooms, devices, and bandwidth realities.
+
+****What People Can Use It For (and How It Makes Life Easier)***
+
+**Students (Deaf/HoH, and sign learners)**:
+
+Follow live lectures through sign-aware translation instead of juggling captions and guesswork.
+
+Ask questions in sign and be “heard” as text/speech by the class in real time.
+
+Practice and get immediate feedback when learning or refining signs.
+
+**Teachers & TAs**:
+
+Run inclusive discussions without relying on a dedicated interpreter every session.
+
+Share materials that the system can translate across modalities, reducing prep overhead.
+
+Get equitable participation signals (questions, polls, quick checks) from all students.
+
+**Schools & Programs**:
+
+Support IEP/Accessibility commitments with practical tooling that works across web and mobile.
+
+Reduce interpreter bottlenecks for everyday interactions (office hours, clubs, labs), reserving human experts for nuanced contexts.
+
+Enable cross-campus and international collaboration where both spoken and signed languages are present.
+
+**Parents & Community Tutors**:
+
+Use it at home to support homework, parent-teacher conversations, and informal learning moments.
+
+****Why This Is Safer, Fairer, and More Practical****
+
+**Safety through clarity**: By translating the intended linguistic signals (not just surface text), misunderstandings in labs, workshops, or safety briefings are reduced.
+
+**Lower cognitive load**: Students don’t have to mentally “stitch together” captions, lips, and slides; they can allocate attention to learning.
+
+**Interpreter-friendly**: This isn’t a replacement for human expertise. It fills the availability gap and can complement interpreters by stabilizing routine interactions.
+
+**Scalable access**: The same stack can serve a classroom, a district, or a global online course—making equitable access a default rather than a special accommodation.
+
+**Challenges we ran into**
+
+**1. Integrating Sign Language Detection with MediaPipe**
+
+The original sign language detection model was trained using OpenPose, but the app relies on MediaPipe Holistic for real-time pose estimation. These frameworks output different skeletal formats, which made the model incompatible at first.
+Solution: I implemented a conversion pipeline (newFakePose) to translate MediaPipe’s outputs into an OpenPose-like structure, ensuring smooth model inference without retraining from scratch.
+
+**2. Hand Shape Recognition Complexity**
+
+Sign languages rely heavily on subtle differences in hand shape, rotation, and handedness. Early attempts misclassified many signs because small variations weren’t captured accurately.
+Solution: I introduced 3D skeletal representation for hands and applied additional filtering techniques based on SignWriting’s five major axes (handedness, plane, rotation, view, and shape). This significantly improved detection accuracy.
+
+**3. Real-Time Performance Bottlenecks**
+
+Running multiple ML models (sign detection, hand shape analysis, and language detection) in real time caused latency issues on mobile devices.
+Solution: I optimized model usage by:
+
+Offloading heavy computation to the FastAPI backend.
+
+Using frame-dropout techniques to balance speed and accuracy.
+
+Leveraging Firebase cloud integration for efficient storage and data access.
+
+**Vultr Cloud Deployment Track**
+
+**My project relies on real-time AI inference for tasks like sign language detection, hand-shape recognition, and language translation. These models are computationally heavy and need to scale efficiently for a global audience. Deploying the system on Vultr’s cloud infrastructure ensures:**
+
+**High Performance Compute:** AI models can be served on powerful instances optimized for machine learning workloads.
+
+**Scalability:** Vultr allows horizontal scaling, so as more users access the app (especially in classrooms or communities), the backend can auto-scale to meet demand.
+
+**Low Latency: **By deploying across Vultr’s worldwide data centers, the app can provide near real-time translation, crucial for live conversations and classroom use.
+
+**Cost-Effective Deployment:** Vultr’s flexible pricing and on-demand scaling make it sustainable for long-term deployment and experimentation.
+
+**Secure Cloud Services:** Integration with FastAPI + Firebase is enhanced by Vultr’s secure and reliable hosting environment.
+
+**Best Use of Gemini API**
+
+We used the Gemini API to simplify and preprocess text input before converting it into sign language. Since sign language has a very different grammar structure compared to spoken languages, Gemini helps by breaking down complex sentences into simpler, more natural forms that can then be smoothly animated in sign language.
+
+**Education**
+
+Language and communication are at the heart of education. However, traditional translation tools often overlook sign languages, leaving many learners especially those from the Deaf and Hard-of-Hearing community at a disadvantage. My project addresses this gap by integrating AI-powered translation across text, speech, and sign language into one unified platform.
+
+**In an educational setting, this has several key benefits:**
+
+Inclusive Classrooms: Teachers can communicate more effectively with students who rely on sign language.
+
+**Accessible Learning Resources:** Educational content can be translated not just into different spoken/written languages, but also into sign language, broadening accessibility.
+
+**Global Collaboration: **Students from diverse linguistic and hearing backgrounds can collaborate seamlessly, breaking down barriers to participation.
+
+**Assistive Learning Tool:** Learners of sign language can use the app as a practice and recognition tool, reinforcing their understanding through real-time feedback.
+
+By enabling equitable access to knowledge and communication, the project directly empowers inclusive education and promotes lifelong learning opportunities for all.
+
+Team **PixelParadox** -- [Sumanta Patra](https://github.com/xEspix), [Ritik Aryan](https://github.com/RitikAryan24), [Anuj Kaushal](https://github.com/Anuj-k-45), [Samriddho Biswas](https://github.com/SamriddhoBiswas), [Raman Sah](https://github.com/MisterStranger03)
+
+`2025-08-24`
 
 ---
 
@@ -530,6 +730,427 @@ Team **HOLA AMIGO** -- [Ankit Singh](https://github.com/Iankitsinghak), [ATHAR A
 
 ---
 
+### Campus_Quest
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/campusquest-fb38) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/aditonu/Campus_Quest) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://decoder-gang13.netlify.app/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/pzTcfuvPJvg?si=rSTVKG_fV7HY_ydu) [![Built at](https://img.shields.io/badge/Built%20at-Syntax%20Error%202025-0052CC?style=flat-square)](https://syntax-error-2025.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-6-FF6B6B?style=flat-square)
+
+> Play as an IITR student and defeat the Professor
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![GD Script](https://img.shields.io/badge/GD%20Script-333333?style=flat-square)
+
+**The problem it solves**
+
+## 💡 The Problem It Solves  
+
+Campus life at IITR can be stressful — endless assignments, lectures, and deadlines! 😩  
+**IITR Samosa Run** brings a light-hearted escape from that pressure.  
+
+This game lets IITR students (and anyone who loves campus nostalgia)  
+relive the fun side of IITR life in a playful way — through samosa runs,  
+dodging bots, and battling the ultimate boss: **the Professor**! 👨‍🏫  
+
+### 🎯 What it offers
+- A **fun break** from academic stress  
+- A way for IITR students to **connect with their campus** through a game  
+- A **simple, safe, and entertaining** way to enjoy competition and humor  
+- Encourages creativity and interest in **game development** using Godot  
+
+In short, it’s not just a game — it’s an **IITR experience** recreated in pixels! 🎓🎮
+
+**Challenges we ran into**
+
+## ⚠️ Challenges I Ran Into  
+
+- **Tilemap Design:** Creating a 32×32 IITR-themed tilemap that looks good and aligns correctly in Godot.  
+- **Character Movement & Physics:** Getting smooth movement, jumping, and collisions to feel responsive.  
+- **Enemy AI:** Programming bots that patrol and respond to the player without breaking the game.  
+- **Health & Damage System:** Ensuring the player loses health correctly when hitting bots and resets properly on restart.  
+- **Final Boss Mechanics:** Designing the Professor fight to be challenging but fair.  
+- **Asset Integration:** Making custom sprites, samosas, and IITR building graphics fit seamlessly into the game.
+
+**Open Track - Development**
+
+## 🧭 How This Project Fits into the Freshmen Track  
+
+**IITR Samosa Run** is an ideal project for the **Freshmen Track** because it combines creativity, coding, and problem-solving — all while being beginner-friendly.  
+
+### 🎓 Why It Fits  
+- **Beginner-Friendly Development:**  
+  Built using **Godot Engine** and **GDScript**, it helps freshmen learn the basics of 2D game design, physics, animation, and logic without requiring advanced programming knowledge.  
+
+- **Encourages Creative Thinking:**  
+  Freshmen can apply design ideas, storytelling, and humor from campus life to make learning game development more fun and relatable.  
+
+- **Practical Learning Experience:**  
+  It introduces core programming concepts like loops, collisions, health systems, and event handling in an interactive way.  
+
+- **Community & IITR Spirit:**  
+  The IITR theme helps new students feel connected to their campus, inspiring them to explore how coding can bring everyday IITR experiences to life.  
+
+### 🌱 Outcome  
+By working on or playing this project, freshmen can:  
+- Learn **basic game development workflows**  
+- Understand **logic building and visual design**  
+- Gain motivation to **create and share their own projects**  
+
+In short, *IITR Samosa Run* is not just a game — it’s a **fun gateway for freshmen to start their coding journey at IITR!** 🚀
+
+Team **DecoderGang13** -- [Hemant Kumar](https://github.com/hemant-00), Aditya Raj, Lakshya Sharma, krishna gupta
+
+`2025-10-12`
+
+---
+
+### CareerConnect
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/careerconnect-fec0) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://careerconnect-jet.vercel.app/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=SRnXmLy0TYM) [![Built at](https://img.shields.io/badge/Built%20at-HackAura-0052CC?style=flat-square)](https://hackaura.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-6-FF6B6B?style=flat-square)
+
+> To provide career guidance and education with all
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Firebase](https://img.shields.io/badge/Firebase-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Chart.js](https://img.shields.io/badge/Chart.js-333333?style=flat-square) ![Firestore](https://img.shields.io/badge/Firestore-333333?style=flat-square) ![SPRINGBOOT](https://img.shields.io/badge/SPRINGBOOT-333333?style=flat-square) ![cosine similarity](https://img.shields.io/badge/cosine%20similarity-333333?style=flat-square)
+
+**The problem it solves**
+
+CareerConnect is designed to solve the significant career awareness gap within the Indian education system. The primary problems it addresses are:
+
+**Limited Career Knowledge:**  93% of students in India are only aware of a few traditional career paths (like engineering, medicine, and law) out of more than 250 available options.
+
+**Lack of Access to Guidance:** There is a critical shortage of professional guidance, with 40% of students lacking access to career counselors.
+
+**Outdated Counseling Methods:** Existing career counseling platforms often depend on static psychometric tests and human counselors, which are not always scalable or reflective of current market trends.
+
+**Fragmented Solutions:**  Students often have to use separate platforms for self-assessment, career discovery, mentorship, and skill development, leading to a disconnected experience.
+
+**What People Can Use It For**
+CareerConnect serves as a comprehensive ecosystem for students, mentors, and administrators, making career guidance more accessible, personalized, and effective.
+
+**For Students:**
+
+**Personalized Onboarding:** Create a profile through a smart, multi-step form that uses AI for real-time interest analysis.
+
+**AI-Powered Career Discovery:** Take a RIASEC personality assessment and receive career suggestions through interactive, swipeable cards that show a percentage match. They can visualize their assessment on radar charts and identify skills gaps.
+
+**Intelligent Mentor Matching:** Get connected with suitable industry mentors based on an algorithmic compatibility score. Students can communicate with mentors via integrated chat and video tools.
+
+**Customized Learning Paths:** Follow dynamic and gamified "skill trees" to track progress toward career goals. These paths integrate with learning platforms like YouTube and Udemy.
+
+**Conversational AI Assistance:** Interact with a context-aware AI chat assistant for immediate answers and guidance, using voice or text input.
+
+**For Mentors:**
+
+**Provide Mentorship:** Offer career guidance and mentorship to students matched with them through the platform.
+
+**View Recommendations:** See career recommendations relevant to their mentees.
+
+**Communicate Effectively:** Engage with students using the platform's integrated communication tools.
+
+**For Admins:**
+
+**Manage Platform Content:** Oversee and manage the content available on the CareerConnect platform to ensure it is up-to-date and relevant.
+
+**Challenges we ran into**
+
+The provided document is a prototype submission for a hackathon. It outlines the proposed solution, its architecture, and its features. The document does not contain information regarding any specific bugs, hurdles, or challenges encountered during the development process.
+
+**AI**
+
+The CareerConnect project is an AI-driven platform that integrates artificial intelligence into every stage of the user's journey, primarily powered by Google Gemini AI and cosine similarity algorithms. During the "Smart Onboarding" phase, it uses AI to conduct real-time interest analysis as a student builds their profile. Subsequently, it performs a comprehensive AI Career Analysis based on the RIASEC personality assessment , which is processed by an internal AI engine using Google Gemini to provide personalized career recommendations. For networking, the platform employs a "Matching Engine" that uses cosine similarity algorithms to calculate mentor-student compatibility scores for intelligent matching. To provide continuous support, a context-aware AI Chat Assistant , also powered by Google Gemini , offers live and adaptive conversational guidance to users.
+
+**Open Innovation**
+
+CareerConnect exemplifies open innovation by building an ecosystem that integrates external technologies and communities to create value. The platform's core intelligence is powered by the external Google Gemini API for career analysis and its chat assistant. It further opens its environment by integrating with third-party platforms like YouTube and Udemy for personalized skill development and Google Calendar for scheduling. A key aspect of this open model is the creation of a mentor network that connects students with external industry professionals , directly addressing the 40% counselor access gap with outside expertise. This entire ecosystem is designed with an API-driven architecture that allows it to consume data from various sources to provide real-time market intelligence for career recommendations.
+
+[V Meenakshi Iyer](www.github.com/meenakshiiyer2531)
+
+`2025-10-04`
+
+---
+
+### Kyoshi
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/kyoshi-f02b) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/hissterical/kyoshi) [![Built at](https://img.shields.io/badge/Built%20at-DSU%20DevHack%202.0-0052CC?style=flat-square)](https://dsudevhack2.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-5-FF6B6B?style=flat-square)
+
+> AI Education without the dull parts
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![p5.js](https://img.shields.io/badge/p5.js-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![d3.js](https://img.shields.io/badge/d3.js-333333?style=flat-square)
+
+**The problem it solves**
+
+There are AI platforms for students and teachers, but there's no good platform that works seamlessly for both teachers and students and includes powerful AI tools. Teachers can generate interactive and engaging content using ai within their notes by 2 clicks, like explanation videos, 3d models, desmos graphs etc. The students receive these notes and can learn using a live AI mentor which has graph RAG context to the notes and agentic control over it.
+
+**Challenges we ran into**
+
+Building a graphRag with no experience was tough, but we got to learn how relations are built and stored based on embedding similarity. Trying to use auth0 was surprisingly difficult so we gave up and built a custom one. Trying to manage rate limits while using several models was a headache with multiple api keys requested from friends.
+
+**Best Build for Kroolo**
+
+We aligned our solution with Kroolo's first problem statement. Which was a AI education platform designed to work seamlessly for both teachers and students. Teachers can generate interactive and engaging content using ai within their notes by 2 clicks, like explanation videos, 3d models, desmos graphs etc. The students receive these notes and can learn using a live AI mentor which has graph RAG context to the notes and agentic control over it.
+
+**Best Use of Gemini API**
+
+We used gemini's full potential in this project, 
+
+From gemini-embeddings-001 for the RAG graph
+to Gemini's smart flash models to plan scenes for our videos and generate text explanation. We use it's 2.0 flash image model for the blueprint for 3d generation. And the most agentic usecase is its live api which can fetch context from rag base and can fetch pdfs, show them, and highlight them based on the user's query. 
+
+It was easy to use because of the new singular google-genai SDK, instead of struggling with multiple imports.
+
+Team **Sudo wudo** -- [Basavesh A](github.com/hissterical), [Abhirama M](https://github.com/ram0verflow), [Shashwath Prabhu](https://github.com/shashwath1278/)
+
+`2025-09-13`
+
+---
+
+### LearnOS
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/learnos-1d78) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/1Kunalvats9/teen_titans) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://teen-titans.vercel.app/) [![Built at](https://img.shields.io/badge/Built%20at-mosAIc:%20AI%20in%20action%20with%20The%20Product%20Folks-0052CC?style=flat-square)](https://mosaicbytpf.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-5-FF6B6B?style=flat-square)
+
+> Learning anything made simple with AI
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![WebSockets](https://img.shields.io/badge/WebSockets-333333?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![Framer](https://img.shields.io/badge/Framer-333333?style=flat-square)
+
+**The problem it solves**
+
+LearnOS addresses the critical gap in personalized, interactive learning experiences for students by providing a comprehensive AI-powered educational platform that transforms traditional passive learning into active, engaging, and adaptive learning journeys.
+Core Problems Solved
+1. Limited Personalization in Traditional Learning
+Problem: Standard educational content follows a one-size-fits-all approach, failing to adapt to individual learning styles, paces, and preferences
+Solution: AI-powered adaptive learning that personalizes content delivery based on student performance, learning patterns, and preferences
+2. Lack of Interactive Learning Tools
+Problem: Students struggle with passive learning methods that don't engage them actively or provide immediate feedback
+Solution: Interactive quiz systems, hands-on module creation, and real-time AI assistance that keeps students engaged and motivated
+3. Insufficient Doubt Resolution Support
+Problem: Students often get stuck on concepts without immediate access to help, leading to learning gaps and frustration
+Solution: 24/7 AI chatbot assistance integrated within learning modules for instant doubt resolution and concept clarification
+4. Absence of Personalized Tutoring
+Problem: One-on-one human tutoring is expensive, limited by availability, and often not accessible to all students
+Solution: AI-powered voice and text tutoring sessions that provide personalized guidance, explanations, and support at any time
+5. Fragmented Learning Experience
+Problem: Students use multiple disconnected tools for different aspects of learning, creating a disjointed educational experience
+Solution: Integrated platform combining content creation, assessment, AI assistance, and progress tracking in one cohesive environment
+Specific Solutions Provided
+AI-Powered Learning Modules
+Students can create and customize learning modules tailored to their specific subjects and difficulty levels
+AI generates relevant content, questions, and explanations based on individual learning needs
+Adaptive difficulty adjustment based on performance and progress
+Intelligent Quiz System
+AI-generated quizzes that adapt to student performance
+Immediate feedback and explanations for incorrect answers
+Progress tracking and performance analytics to identify learning gaps
+Integrated AI Assistant
+Context-aware chatbot assistance within learning modules
+Instant doubt resolution without interrupting the learning flow
+Personalized explanations based on individual learning history
+One-on-One AI Tutoring
+Voice-based AI tutoring sessions for natural conversation and learning
+Text-based tutoring for detailed explanations and concept breakdown
+Personalized tutoring approach based on student's learning style and pace
+Community Learning Features
+Collaborative learning environments where students can share knowledge
+Peer-to-peer support and discussion forums
+Community-driven content creation and sharing
+Comprehensive Progress Tracking
+Detailed analytics on learning progress, strengths, and areas for improvement
+Adaptive learning paths that adjust based on performance
+Goal setting and achievement tracking to maintain motivation
+Target Impact
+This platform addresses the fundamental challenges of modern education by providing:
+Accessibility: 24/7 learning support regardless of location or time
+Personalization: Tailored learning experiences that adapt to individual needs
+Engagement: Interactive tools that maintain student interest and motivation
+Efficiency: Streamlined learning processes that maximize knowledge retention
+Scalability: AI-powered solutions that can serve unlimited students simultaneously
+By solving these core educational problems, Teen Titans creates a more effective, engaging, and personalized learning experience that helps students achieve their educational goals more efficiently and with greater satisfaction.
+
+**Challenges we ran into**
+
+1. UI/UX Design Challenges
+Complex State Management for Multi-Step Forms
+Problem: Onboarding flow required managing multiple form states, validation, and conditional rendering across different steps
+Solution: Implemented a centralized OnboardingProvider with context-based state management and step-by-step validation
+Responsive Design for Multiple Device Types
+Problem: Creating a consistent experience across desktop, tablet, and mobile while maintaining functionality for complex features like voice chat and interactive modules
+Solution: Implemented responsive breakpoints, flexible layouts, and mobile-first design principles with proper touch interactions
+Real-time Chat Interface Performance
+Problem: Community chat and AI tutor interfaces needed to handle real-time message updates without performance degradation
+Solution: Implemented efficient message rendering, virtual scrolling for large message lists, and optimized re-renders using React hooks
+2. Data Schema & Architecture Issues
+Complex User Data Relationships
+Problem: Users needed to be associated with multiple communities, learning modules, progress tracking, and chat histories simultaneously
+Solution: Designed normalized database schema with proper foreign key relationships, implemented efficient queries using Prisma ORM, and added database indexing for performance
+Real-time Data Synchronization
+Problem: WebSocket connections needed to sync chat messages, user status, and learning progress across multiple clients in real-time
+Solution: Implemented WebSocket-based real-time updates with proper connection management, reconnection logic, and message queuing for offline scenarios
+Data Consistency Across Multiple Sources
+Problem: Learning progress, quiz results, and AI interactions needed to be synchronized between local state, database, and external AI services
+Solution: Created a unified data layer with optimistic updates, proper error handling, and rollback mechanisms for failed operations
+3. AI Tutor Implementation Challenges
+Voice Chat Integration Complexity
+Problem: Integrating Vapi voice API required handling audio streams, managing call states, and implementing proper error handling for network issues
+Solution: Built robust voice chat components with proper WebRTC handling, call state management, and fallback mechanisms for poor network conditions
+AI Response Quality & Consistency
+Problem: AI responses needed to be contextually relevant, educationally appropriate, and consistent across different subjects and difficulty levels
+Solution: Implemented structured prompts, context management, and response validation to ensure AI outputs meet educational standards
+Token Management & Cost Control
+Problem: AI API calls were expensive and needed to be limited for free tier users while maintaining functionality
+Solution: Implemented call time limits (1.2 minutes), token usage tracking, and tier-based access controls to manage costs effectively
+Real-time AI Interaction Latency
+Problem: Users expected instant responses from AI tutors, but API calls could take several seconds
+Solution: Implemented streaming responses, loading states, and optimistic UI updates to provide immediate feedback while AI processes requests
+4. Performance & Scalability Issues
+Large Dataset Handling
+Problem: Learning modules, quiz questions, and user progress data could grow to thousands of records, causing slow page loads
+Solution: Implemented pagination, lazy loading, and efficient database queries with proper indexing
+Memory Management for Real-time Features
+Problem: WebSocket connections and real-time updates could consume excessive memory with many concurrent users
+Solution: Implemented connection pooling, message cleanup, and memory-efficient state management
+Cross-browser Compatibility
+Problem: Voice chat, WebSocket connections, and modern CSS features needed to work consistently across different browsers
+Solution: Added polyfills, fallback implementations, and cross-browser testing to ensure compatibility
+5. Security & Privacy Concerns
+User Data Protection
+Problem: Educational data and chat conversations needed to be secure and private
+Solution: Implemented proper authentication, data encryption, and privacy controls for user-generated content
+AI Content Moderation
+Problem: AI-generated responses needed to be filtered for inappropriate content and educational accuracy
+Solution: Added content filtering, response validation, and human oversight mechanisms
+These challenges demonstrate the complexity of building a comprehensive AI-powered educational platform and showcase the robust solutions you've implemented to create a production-ready learning experience.
+
+**Top 100 Participants**
+
+For some ui
+
+**All Registered Participants**
+
+We used windsurf to get clear idea on solving a issue or problem
+
+**AI Evals & Observability | Powered by Maxim**
+
+I used google vision apis for AI evals and observability for doubt clearance
+
+**Voice AI & Conversational Products | Powered by Elevenlabs**
+
+We used voices provided from Eleven labs for 1 on 1 AI tutoring which talks to user directly
+
+Team **Teen Titans** -- [Kunal Vats](https://github.com/1Kunalvats9), [Tanishk Agrawal](https://github.com/tani066), Shaurya Sharma
+
+`2025-09-01`
+
+---
+
+### CampusNest PG
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/campusnest-pg-6530) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/RaghuvaranDBECse32/CampusNest-PG) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://campusnest-pg.onrender.com) [![Built at](https://img.shields.io/badge/Built%20at-HackOdisha%205.0-0052CC?style=flat-square)](https://hackodisha-4.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-5-FF6B6B?style=flat-square)
+
+> Safe, smart, and easy PG stays for every student.
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![SQL](https://img.shields.io/badge/SQL-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square)
+
+**The problem it solves**
+
+**CampusNest PG** solves the uncertainty, hassle, and safety concerns of student accommodation by offering a trusted platform that connects UG and PG students directly to verified PG stays near their campus.
+
+**What CampusNest PG Solves**
+
+
+
+![image](https://assets.devfolio.co/content/513efb8401d04b3591a952b2facf089e/b4760d55-4502-43e5-b120-be99f06c41cf.png)
+
+***Removes Guesswork:***
+
+Students no longer need to rely on word-of-mouth or broker networks; everything is available in one place, with transparent information and verified listings.
+
+***Saves Time and Effort:***
+
+Advanced filters and instant booking mean students find rooms suited to their needs in minutes, instead of weeks of searching or in-person visits.
+
+***Ensures Safety:***
+
+Listings are background-checked and safety features (CCTV, warden contacts, emergency info) are displayed, reducing risks for newcomers.
+
+***Streamlines Payments and Management:***
+
+In-app payments, automatic receipts, and reminders make rent transactions safe and simple. Students can track everything from maintenance requests to notices digitally.
+
+***Fosters Community:***
+
+With roommate matching, in-app messaging, and local event boards, students can meet and engage with peers for support and social connections.
+
+***Supports Parents and Hosts:***
+
+Parents get peace of mind from verified, well-reviewed listings, and hosts manage their PG property conveniently and reach genuine student tenants without intermediaries.
+
+***How CampusNest PG Makes Life Easier***
+Find, book, and move into verified PG stays with just a few clicks.
+
+Compare options by budget, amenities, safety, distance from campus, and more.
+
+Resolve issues and pay rent securely—no need to chase owners or handle cash.
+
+Build a safer, friendlier living community…and focus on your studies, not your accommodation
+
+**Challenges we ran into**
+
+**Challenges I Ran Into**
+Building CampusNest PG brought unique technical and operational challenges common to digital student housing platforms:
+
+
+![image](https://assets.devfolio.co/content/513efb8401d04b3591a952b2facf089e/be4c05d6-d554-49df-beef-edad7526e2a1.png)
+
+**Verification & Fraud Prevention:** 
+Ensuring that PG listings were genuine and not misleading was a persistent hurdle. Fake images or incorrect rent details were reported by users during early testing. Overcoming this required a manual verification workflow and encouraging property owners to submit official documentation before listing approval.
+
+**Role-Based Access Bugs:**
+Initially, tenant and owner dashboards had overlapping permissions due to inconsistent role definitions in the backend. This made sensitive owner features (like payment logs) accidentally visible to tenants. The bug was traced to role-based access controls and resolved by implementing stricter controller middleware.
+
+**Payment Integration:**
+Integrating digital payments with accurate history and auto-receipts was tricky due to API reliability. Transaction mismatches and duplicate charges surfaced during beta. Migrating to a better-supported payment API and adding robust error handling solved this.
+
+**Scalability Under Load:**
+During stress testing, search queries and listings for high-traffic periods (like admissions season) led to slow response times. Refactoring database queries and using indexed columns improved performance.
+
+**Digital Literacy Barrier:** 
+A few PG owners were unfamiliar with web tools, causing onboarding delays. Creating simple step-by-step guides and offering video walkthroughs helped bridge this gap.
+
+**Tracks Applied**
+
+- Student Wellbeing & Safety
+- Digital Innovation for College Life
+- Smart Urban Housing Solutions
+
+**Technologies Used**
+***Frontend:*** React.js, Bootstrap
+
+***Backend:*** Node.js, Express.js
+
+***Database:*** MongoDB, Supabase (for real-time data and authentication)
+
+***Payment API:*** Razorpay/Paytm
+
+***Cloud*** : AWS/GCP for hosting and storage
+
+***Others:*** RESTful APIs, JWT Auth, WebSockets (for messaging), third-party verification services.
+
+These solutions and technologies helped make CampusNest PG an effective, robust platform tailored to the unique needs of students and PG owners in India.
+
+**Best Use of Akash**
+
+CampusNest PG fits into the Akash Network track by leveraging decentralized, scalable cloud infrastructure to deliver a trusted student PG accommodation platform.
+
+Why CampusNest PG Aligns with Akash Network
+Decentralized Hosting: The platform can be deployed on Akash Network’s permissionless cloud, making student data more secure and accessible, without depending on centralized providers.
+
+Scalability for Admissions Rush: Akash’s distributed resources handle sudden traffic spikes during college admission seasons or exam times—ensuring the app remains reliable for thousands of students.
+
+AI-Powered Features: Features like roommate matching, trust verification, and smart recommendations can run cost-effectively using Akash’s real GPU support, demonstrating practical decentralized AI usage.
+
+Developer-Friendly Deployments: CampusNest PG benefits from 1-click, efficient deployments on Akash—a showcase for modern web apps in education and real estate sectors.
+
+Student and Community Impact: By using Akash, the project supports privacy, transparency, and accessibility for college communities—principles shared by Akash Network’s open-web mission.
+
+CampusNest PG is a robust use case showing how decentralized cloud and AI can improve student housing, directly addressing Akash Network’s hackathon themes.
+
+Team **Raghuvaran D** -- None None
+
+`2025-09-07`
+
+---
+
 ### Learning Twin
 [![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/paper-learn-twin-d83a) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://learningt.freebuff.app/) [![Built at](https://img.shields.io/badge/Built%20at-HyperFusion-0052CC?style=flat-square)](https://hyperfusion.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-4-FF6B6B?style=flat-square)
 
@@ -675,6 +1296,189 @@ Team Collaboration: Coordinating tasks, merging code, and resolving merge confli
 Team **Pathway** -- Jatin J, Bhaskar Sarate, Lavay Garg, Riya Ghoshi
 
 `2026-01-25`
+
+---
+
+### HopAlong
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/hopalong-e461) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/veyrix-Tr/HopAlong) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/YjVM2KF9aaU) [![Built at](https://img.shields.io/badge/Built%20at-Syntax%20Error%202025-0052CC?style=flat-square)](https://syntax-error-2025.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-4-FF6B6B?style=flat-square)
+
+> The Travel Network for IITR Students
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Socket.IO](https://img.shields.io/badge/Socket.IO-333333?style=flat-square) ![JWT](https://img.shields.io/badge/JWT-333333?style=flat-square) ![Express.js](https://img.shields.io/badge/Express.js-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+Many IIT Roorkee students want to travel during breaks but struggle to find trusted companions. Even when they do, planning becomes messy with scattered messages, unclear commitments, and no central place to organize details.
+
+HopAlong solves this by offering a secure, IITR-only travel companion platform. Students can create or join trips, send join requests, and chat in real time — all in one place. The platform verifies users via college email, ensuring safety and trust.
+
+With automatic seat tracking, clear trip details, and smart filters for destination, date, and budget, HopAlong makes trip planning smoother, safer, and far more organized for IITR students.
+
+**Challenges we ran into**
+
+Getting Socket.IO to work reliably was my biggest challenge, messages were arriving out of order, and users sometimes missed notifications. After hours of debugging, I fixed it by restructuring how users join trip rooms and setting up proper event listeners on both client and server sides.
+
+Another hurdle was IIT Roorkee’s multiple email formats (@ch.iitr.ac.in, @mt.iitr.ac.in, etc.). My initial validation only allowed the main domain, which would’ve locked out many students. I solved this by researching all departmental patterns and writing a flexible regex that accepts any IITR subdomain.
+
+Keeping the UI in sync during join request approvals was also tricky seat counts, request statuses, and notifications all needed real-time updates. I combined optimistic UI updates with Socket.IO backend events to ensure everything stayed consistent. So this integration felt so tough.
+
+I also faced issues with JWT token persistence users were getting logged out after refreshes. I learned to use Zustand’s persist middleware properly and added Axios interceptors to automatically attach tokens to all API calls.
+
+**Open Track - Development**
+
+HopAlong demonstrates full-stack web development excellence with real-time features, secure authentication, and scalable architecture. It solves a genuine campus problem using modern technologies like React, Express, MongoDB, and Socket.IO, showcasing both technical depth and practical impact. The project is production-ready with comprehensive documentation, responsive design, and a complete user journey from registration to real-time collaboration.
+
+**Open Track - Design**
+
+have a good ui
+
+Team **Envelop** -- [Harshal Sonune](https://github.com/harshalsonune55), [Chirag Goyal](https://github.com/veyrix-Tr)
+
+`2025-10-12`
+
+---
+
+### SHIKSHA SETU
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/shiksha-setu-c7d2) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/girish-5957/shiksha-setu-dig-learn-plat.git) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/HFy3TllH2MQ) [![Built at](https://img.shields.io/badge/Built%20at-HackOdisha%205.0-0052CC?style=flat-square)](https://hackodisha-4.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-4-FF6B6B?style=flat-square)
+
+> The Education Bridge
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Bootstrap​](https://img.shields.io/badge/Bootstrap​-333333?style=flat-square)
+
+**The problem it solves**
+
+Fragmented access to educational resources and support in Odisha
+
+Many students and educators face challenges such as:
+
+Lack of centralized access to exam results, curriculum updates, and scholarship information
+
+Limited platforms for resolving academic doubts or technical issues
+
+Few opportunities for users to contribute ideas to improve learning systems
+
+This platform addresses these issues by:
+
+🗂️ Aggregating updates like exam results, curriculum changes, and government education policies
+
+![image](https://assets.devfolio.co/content/20a9a815d6d043aab74fc1de3dd8a685/df3c5578-b058-4d92-b749-83b75aa21286.png)
+
+📚 Offering features like an E-Library, Live Tutorials, and a Doubts Box for academic support
+
+💡 Inviting users to submit ideas to improve the learning experience
+
+![image](https://assets.devfolio.co/content/20a9a815d6d043aab74fc1de3dd8a685/53d5ace5-f378-4c25-ae8c-3b9e0015f824.png)
+
+📞 Providing direct contact options for technical support and inquiries
+![image](https://assets.devfolio.co/content/20a9a815d6d043aab74fc1de3dd8a685/35023a72-cf7e-4dfe-a5d1-7421c892e49d.png)
+
+It’s essentially building a bridge between students, educators, and the evolving education system in Odisha
+
+![image](https://assets.devfolio.co/content/20a9a815d6d043aab74fc1de3dd8a685/7bdc7945-fe80-4ac1-978a-f8bbacc30cc1.png)
+
+![image](https://assets.devfolio.co/content/20a9a815d6d043aab74fc1de3dd8a685/31312e02-3e02-41d0-a2d1-7c51f58651e2.png)
+
+**Challenges we ran into**
+
+⚙️ Technical & Development Challenges
+Data Aggregation Complexity: Integrating diverse educational updates (exam results, curriculum changes, scholarships) from multiple sources required careful backend design and frequent data syncing.
+
+User Experience Across Platforms: Ensuring a smooth experience on Web, Android, iOS, and desktop platforms meant handling responsive design and cross-platform compatibility issues.
+
+Real-Time Doubt Resolution: Building the “Doubts Box” feature to allow real-time academic support involved managing asynchronous communication and database queries efficiently.
+
+🧠 Conceptual & Design Hurdles
+Centralization of Resources: Creating a unified interface for fragmented educational content demanded thoughtful UI/UX design to avoid overwhelming users.
+
+Scalability: Designing the system to handle future expansion—like adding new boards, subjects, or features—was a challenge in terms of architecture and modularity.
+
+🛠️ How You Overcame Them
+Leveraged Next.js for server-side rendering and performance optimization
+
+Used MongoDB for flexible data modeling across varied educational content
+
+Collaborated effectively across a team of five builders to divide responsibilities and iterate quickly
+
+Team **INNOTECHIES** -- [Subham Choudhury](https://github.com/Subham-Choudhury), [Prince Sarangi](https://github.com/princeRaj22i3), [Punam Sahoo](https://github.com/punamsahoo108), [Girish Mahapatra](https://github.com/girish-5957), [Abhisek Panda](https://github.com/abhisek0407)
+
+`2025-09-07`
+
+---
+
+### Simon Says Game (Web-based Educational Game)
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/simon-says-game-webbased-educational-game-316c) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://manasi-delta.github.io/simon-says-game/) [![Built at](https://img.shields.io/badge/Built%20at-HackOdisha%205.0-0052CC?style=flat-square)](https://hackodisha-4.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-4-FF6B6B?style=flat-square)
+
+> Test your memory, one sequence at a time.
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square)
+
+**The problem it solves**
+
+Simon Says Game is a fun, web-based memory challenge built using HTML, CSS, and JavaScript. Players must follow and repeat the flashing color sequence, which gets harder each round. It helps improve focus, memory, and attention span while providing an engaging experience.
+
+Team **TechTitans** -- [Manasi Mandal](https://github.com/Manasi-delta), [Manisha Meher](https://github.com/mehermanisha2005-coder)
+
+`2025-09-06`
+
+---
+
+### AuthenTech
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/authotech-18c3) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Mayukh0108/HackOdhisha-TeamFB) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://hack-odhisha-team-fb.vercel.app/) [![Built at](https://img.shields.io/badge/Built%20at-HackOdisha%205.0-0052CC?style=flat-square)](https://hackodisha-4.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-4-FF6B6B?style=flat-square)
+
+> Bringing Clarity to Education Proofs.
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![OCR](https://img.shields.io/badge/OCR-333333?style=flat-square) ![Express.js](https://img.shields.io/badge/Express.js-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square)
+
+**The problem it solves**
+
+**Certificate Verification**
+
+- Students can confirm their degree/diploma is genuine.
+
+- Employers can quickly check a candidate’s credentials before hiring.
+
+- Universities/colleges can verify transferred students’ records
+
+
+**Preventing Fraud**
+
+- Stops fake certificates from being used for jobs or admissions.
+
+- Helps government or recruiting agencies detect forged documents.
+
+**Digital Record Keeping**
+
+- Users can maintain a verified digital copy of their certificates.
+
+- Institutions can create a secure, searchable database for alumni records.
+
+**Instant Certificate Info**
+
+- Extracts details (Name, Roll No, Course, CGPA, Issue Date) with OCR.
+
+- Saves users from manually typing and sharing details.
+
+**Challenges we ran into**
+
+**Challenge Faced**
+
+One of the biggest hurdles we faced was low accuracy in our YOLO model during certificate detection. Initially, the model was misclassifying text regions or failing to detect certain fields because our dataset was small and lacked diversity. Many certificates had different layouts, fonts, and resolutions, which made it difficult for the model to generalize well.
+
+How We Solved 
+
+- To overcome this, we focused on better data acquisition and augmentation.
+
+- We collected certificates from multiple sources (different universities and formats).
+
+- We preprocessed the data by resizing, normalizing, and applying augmentations (rotation, brightness changes, noise addition) to simulate real-world scenarios.
+
+- We also re-labeled a portion of the dataset carefully to ensure high-quality annotations.
+
+After retraining with this improved dataset and fine-tuning YOLO’s hyperparameters (confidence threshold, learning rate), we saw a significant boost in model accuracy and consistent detection of certificate fields.
+
+Team **Firewall Breakers** -- [Mayukh Mondal](https://github.com/Mayukh0108), [Arpan Chowdhury](https://github.com/apu52), [Mayukh bhowmik](https://github.com/CoderMayukh12), [Syed Md. Musharraf](https://github.com/KIZER15), [Saujanya Das](https://github.com/Saujanya77)
+
+`2025-09-07`
 
 ---
 
@@ -1407,6 +2211,710 @@ AI-driven aptitude & interest quiz, gamified assessment, and career path simulat
 [Pranay Gumashta](https://github.com/pranay_code24)
 
 `2025-11-11`
+
+---
+
+### Eduadapt
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/eduadapt-72a7) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/teamthundercit/rurallearn) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/UFIQF6zOfeg?si=eS30iOh1XVL0hNV7) [![Built at](https://img.shields.io/badge/Built%20at-hackCBS%208.0-0052CC?style=flat-square)](https://hackcbs-8.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-3-FF6B6B?style=flat-square)
+
+> Personlized Learning App  For Students
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![TensorFlow](https://img.shields.io/badge/TensorFlow-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![faceapi](https://img.shields.io/badge/faceapi-333333?style=flat-square) ![Gemini  Api](https://img.shields.io/badge/Gemini%20%20Api-333333?style=flat-square)
+
+**The problem it solves**
+
+EduAdapt - Problem Statement & Solution Overview
+The Problem EduAdapt Solves 🎯
+Core Challenge: Educational Inequality
+Students in rural and underserved areas face significant barriers to quality education:
+
+Limited Access to Quality Teachers
+
+Rural schools often lack specialized subject teachers
+High student-to-teacher ratios
+Teachers may not be trained in modern pedagogical methods
+One-Size-Fits-All Education
+
+Traditional classrooms can't adapt to individual learning speeds
+Students who fall behind get left behind
+Advanced students aren't challenged enough
+Lack of Personalized Learning
+
+No way to identify individual strengths and weaknesses
+No adaptive curriculum based on performance
+Limited feedback on progress
+Motivation & Engagement Issues
+
+Traditional learning can feel monotonous
+No immediate feedback or rewards
+Difficult to track personal growth
+Language Barriers
+
+Educational content often only in English
+Rural students may be more comfortable in native languages
+Limited multilingual resources
+Connectivity Challenges
+
+Unreliable or expensive internet access
+Can't access online learning platforms consistently
+Data costs prohibitive for continuous learning
+How EduAdapt Solves These Problems 💡
+1. AI-Powered Personalized Learning
+Problem Solved: One-size-fits-all education doesn't work
+
+How EduAdapt Helps:
+
+Adaptive Recommendations: AI analyzes your quiz scores, learning pace, and completed lessons to recommend exactly what you should learn next
+Difficulty Adjustment: Automatically suggests easier content if you're struggling or harder content if you're excelling
+Personalized Learning Paths: Creates a unique curriculum for each student based on their goals and performance
+Smart Insights: Identifies your strengths and weaknesses to focus study time effectively
+Real-World Impact:
+
+Students learn 40% faster with personalized content
+Reduces frustration from content that's too hard or too easy
+Increases confidence through appropriate challenge levels
+2. Gamification for Motivation
+Problem Solved: Students lose motivation and engagement
+
+How EduAdapt Helps:
+
+Learning Streaks: Track consecutive days of learning (like Duolingo)
+Achievement Badges: Earn 12 different badges for milestones (First Steps, Perfect Score, Week Warrior, etc.)
+Points System: Earn points for completing lessons and scoring well on quizzes
+Leaderboard: Compete with peers (anonymously) to stay motivated
+Visual Progress: See your growth through charts and statistics
+Real-World Impact:
+
+3x increase in daily engagement
+Students return to the platform regularly to maintain streaks
+Peer competition drives healthy learning habits
+Visual rewards provide instant gratification
+3. Multilingual Support
+Problem Solved: Language barriers limit access to education
+
+How EduAdapt Helps:
+
+3 Languages: Currently supports English, Hindi (हिन्दी), and Spanish (Español)
+Easy Expansion: Infrastructure ready for 10+ more languages
+Native Language Learning: Students can learn in their most comfortable language
+Automatic Detection: Platform detects browser language and suggests it
+Real-World Impact:
+
+Makes education accessible to non-English speakers
+Improves comprehension by 60% when learning in native language
+Reduces cognitive load of translating while learning
+Culturally inclusive approach
+4. Offline-First Architecture
+Problem Solved: Unreliable internet connectivity
+
+How EduAdapt Helps:
+
+Download Lessons: Save lessons for offline viewing
+Offline Progress Tracking: Complete lessons and quizzes without internet
+Auto-Sync: When internet returns, progress automatically syncs
+Low Bandwidth Mode: Optimized for slow connections
+Offline Indicator: Clear status of connection and pending syncs
+Real-World Impact:
+
+Students can learn anytime, anywhere
+Reduces data costs by 70%
+No interruption to learning during connectivity issues
+Makes education accessible in remote areas
+5. 24/7 AI Learning Assistant
+Problem Solved: No teacher available for questions outside class
+
+How EduAdapt Helps:
+
+AI Chatbot: Ask questions anytime and get instant answers
+Contextual Help: AI understands your learning history and provides relevant guidance
+Encouraging Support: Provides motivation and study tips
+Multilingual: Responds in your preferred language
+Real-World Impact:
+
+Students don't get stuck waiting for help
+Reduces anxiety about asking "dumb questions"
+Available 24/7, unlike human tutors
+Builds independent learning skills
+6. Comprehensive Progress Tracking
+Problem Solved: Students and parents can't see learning progress
+
+How EduAdapt Helps:
+
+Visual Dashboard: See lessons completed, quiz scores, time spent
+Weekly Activity Charts: Track learning patterns over time
+Goal Setting: Set weekly/monthly goals and track progress
+Recent Achievements: Timeline of accomplishments
+Performance Analytics: Understand strengths and areas for improvement
+Real-World Impact:
+
+Parents can monitor child's progress
+Students see tangible evidence of growth
+Identifies learning patterns (best study times, etc.)
+
+**Challenges we ran into**
+
+🧩 1. Auth0 Integration & Token Verification
+
+The Challenge:
+While integrating Auth0 for authentication, our backend initially failed to verify JWT tokens properly, returning 401 Unauthorized even for valid users. This happened because the audience and issuer values were mismatched between Auth0’s dashboard and our Express middleware configuration.
+
+How We Fixed It:
+We double-checked the Auth0 configuration, corrected the environment variables (AUTH0_AUDIENCE and AUTH0_ISSUER_BASE_URL), and used the official express-oauth2-jwt-bearer library for validation. After syncing both frontend and backend configurations, the issue was resolved — secure login and role-based access started working smoothly.
+
+🧠 2. Offline Data Sync with MongoDB
+
+The Challenge:
+Building an offline-first app wasn’t easy. When students completed quizzes offline, their progress had to sync automatically once the internet returned. Initially, IndexedDB data failed to merge properly with MongoDB Atlas, causing duplicate or missing entries.
+
+How We Fixed It:
+We implemented a unique _id for every offline record and created a background sync script that checks for unsynced data using an “isSynced” flag. Once reconnected, the system batches and uploads only unsynced entries, preventing duplication. This made offline learning truly seamless.
+
+🧠 3. AI Personalization Model Delay
+
+The Challenge:
+The AI engine (using Google Gemini API) sometimes delayed responses while generating personalized lesson recommendations, which broke the smooth UX flow.
+
+How We Fixed It:
+We added asynchronous queue handling — saving user activity locally first, then processing the personalization suggestions in the background. This made the UI snappy while still serving accurate AI-driven recommendations later.
+
+🧩 4. Language Switching & Font Rendering
+
+The Challenge:
+Multilingual support (especially Hindi) caused layout breaks due to font rendering inconsistencies and text overflow in UI components.
+
+How We Fixed It:
+We switched to Unicode-compatible fonts (Noto Sans family), used Tailwind’s responsive utilities for dynamic text sizing, and added RTL (Right-to-Left) direction checks where needed. Now, EduAdapt’s multilingual mode works flawlessly across devices.
+
+🧠 5. Deployment & Environment Conflicts
+
+The Challenge:
+During deployment, frontend and backend environment variables didn’t align — resulting in CORS issues and failed API calls when deployed on separate domains.
+
+How We Fixed It:
+We configured a central .env system using Vite’s environment variables for the frontend and .env.production for backend, then updated the allowed origins in Express middleware. The full stack now communicates securely even when hosted on different servers.
+
+Team **Team Thunder** -- [Sanjay Balan](https://github.com/sanjaybalanm), [Balaji V](https://github.com/BalajiVadivel0), [SMITH C](https://github.com/SmithC05), [Libin anto](https://github.com/Libin-anto)
+
+`2025-11-09`
+
+---
+
+### GramSetu
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/gramsetu-d172) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://shg-manager-5bc4d43b.base44.app/) [![Built at](https://img.shields.io/badge/Built%20at-hackCBS%208.0-0052CC?style=flat-square)](https://hackcbs-8.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-3-FF6B6B?style=flat-square)
+
+> A Voice-Powered Financial Inclusion Portal
+
+![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![React.js](https://img.shields.io/badge/React.js-333333?style=flat-square)
+
+**The problem it solves**
+
+The core problem GramSetu solves is the digital and financial exclusion of Self-Help Groups (SHGs) in remote and underserved communities. Despite being the backbone of rural financial systems, SHGs still rely on manual, paper-based recordkeeping, which leads to calculation errors, lack of transparency, and the inability to prove their creditworthiness to banks. As a result, millions of women-led SHGs remain cut off from formal financial services, institutional loans, and larger market opportunities.
+
+At the same time, most existing digital tools are too complex for low-literacy users, requiring constant assistance from facilitators and offering little direct value to SHG members. This widens the digital divide, leaving rural entrepreneurs without access to scalable business or financial solutions.
+
+GramSetu eliminates this barrier by creating a voice-enabled, AI-integrated web platform where SHGs can digitally record savings, loans, and repayments with ease. Through Base44’s unified infrastructure for translation, authentication, analytics, and security, GramSetu ensures accessibility, trust, and scalability. By generating verifiable credit histories and linking SHGs to national marketplaces like ONDC and eSARAS, it transforms how rural communities access credit and sell products — turning informal efforts into formal, transparent, and sustainable financial ecosystems.
+
+**Challenges we ran into**
+
+During the development of GramSetu, we encountered several technical and implementation challenges while ensuring accessibility for low-literacy users and multi-language support.
+
+OCR Integration Issues:
+Initially, the Mistral OCR model struggled to accurately detect text from scanned SHG ledgers due to variations in handwriting and image quality. We fine-tuned preprocessing by adding image enhancement and used a verification step to improve accuracy.
+
+Voice Command Limitations:
+The voice input often stopped recording prematurely before users finished speaking. To fix this, we introduced a “Done” button that allows users to manually stop the voice input when they finish their command — ensuring smoother user experience and better control.
+
+Hindi Translation Challenges in Base44:
+Base44’s translation model faced inconsistencies with certain Hindi words and dialects. To resolve this, we created a custom translation table in our database that stores verified translations of frequently used SHG terms, ensuring accurate and consistent multilingual output.
+
+Performance Synchronization:
+Combining multiple modules — speech, OCR, and summarization — caused minor delays. We optimized the process through asynchronous API calls and modular caching, reducing latency significantly.
+
+**Base44 Innovation Challenge**
+
+How Base44 Empowered Our SHG Management Platform
+
+Base44 proved to be a game-changer in building our Self Help Group (SHG) Management Platform — transforming our concept into a fully functional, AI-powered application within days instead of months.
+
+1. Rapid Development
+
+With Base44’s AI-driven builder, we described our SHG requirements in plain English, and it auto-generated the entire full-stack app — database schema, authentication, APIs, and responsive interfaces for both admins and members. The integrated setup (PostgreSQL, hosting, and user management) meant zero manual configuration, saving us weeks of effort.
+
+2. AI Agent Integration
+
+Base44’s built-in AI agent framework let us easily connect the Gemini API to power a smart assistant that interacts directly with the database. Members can ask questions like “What’s my total savings?” and instantly get data-backed responses. The platform’s multi-model support (Gemini, GPT-5, Claude) gave us flexibility for conversational, analytical, and cost-efficient operations.
+
+3. Voice and Multilingual Features
+
+Through Base44’s flexible backend, we added voice-enabled transactions using the Web Speech API and Gemini’s natural language parsing — converting spoken Hindi or English into structured financial data. We also implemented bilingual support (Hindi/English) with language toggles, ensuring accessibility for rural users.
+
+4. Automated Panchsutra Scoring
+
+Using Base44’s scheduled workflows, our system automatically calculates NABARD’s Panchsutra scores weekly — analyzing meeting frequency, savings participation, lending ratios, and repayment timeliness. Complex data aggregation was handled seamlessly through Base44’s auto-generated APIs.
+
+5. Smart Reports and Role Control
+
+We built PDF report generation with pdfmake integrated as a backend function, pulling real-time data for NABARD-compliant summaries. Base44’s role-based access control ensured admins saw only their SHG data while members accessed personal records securely.
+
+6. Real-Time and Analytics
+
+Base44’s real-time APIs allowed dashboards and chats to update instantly, while built-in analytics helped us track usage, troubleshoot faster, and prioritize popular features like voice entry and AI assistance.
+
+7. Cost and Speed Advantage
+
+With no infrastructure setup and all tools unified under one platform, we built a production-ready SHG management solution in a weekend — achieving massive savings in time, cost, and complexity.
+
+In essence, Base44 enabled us to focus on what truly mattered — empowering rural women through financial inclusion — while it handled the technical heavy lifting of AI integration, automation, and scalability.
+
+**Best Use of Gemini API**
+
+Our Project has use Gemini API in all our voice models and also used in building a RAG based chatbot for our website
+
+Team **Null Pointers** -- [Kavy Rastogi](https://github.com/KavyRastogi), [Snehal Srivastava](https://github.com/SnehalSrivastava27), [Pranay Anand](https://github.com/03Pranay14), [Ankit Jangra](https://github.com/ANKIT23W)
+
+`2025-11-09`
+
+---
+
+### Clario- AI for Deaf
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/clario-ai-for-deaf-b896) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/shwetaa240/Audio-TextSign) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://docs.google.com/presentation/d/1FBg9MNBTN5smMpudovHQjD4pYwKjGzsOyS7MOe_bxps/edit?usp=sharing) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/1dCPwdNstoo) [![Built at](https://img.shields.io/badge/Built%20at-CodeUtsava%209.0-0052CC?style=flat-square)](https://codeutsava-9.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-3-FF6B6B?style=flat-square)
+
+> Real-Time Accessibility for Every Language & Voice
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![Django](https://img.shields.io/badge/Django-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![FAST.API](https://img.shields.io/badge/FAST.API-333333?style=flat-square)
+
+**The problem it solves**
+
+Clario bridges the accessibility gap for millions of Deaf and Hard-of-Hearing individuals who are often excluded from live lectures, online events, and broadcasts due to limited real-time captioning tools.
+
+With Clario, users can:
+
+🧏‍♀️ Access Real-Time Captions — Instantly convert speech into readable, simplified text for better comprehension.
+
+🗣️ Understand Complex Speech Easily — AI-driven text simplification makes spoken content easier to follow, even for low-literacy users.
+
+🤖 Experience Sign Language Translation — Displays an Indian Sign Language (ISL) avatar alongside captions for full accessibility.
+
+🌐 Use in Multiple Languages — Supports major Indian languages and accents, ensuring inclusivity across linguistic diversity.
+
+📶 Stay Connected, Even Offline — Works in low-connectivity areas with Edge AI-based offline captioning.
+
+By combining AI-powered speech recognition, NLP simplification, and ISL rendering, Clario makes education, media, and communication more inclusive, equitable, and human-centered.
+
+**Challenges we ran into**
+
+🚧 Challenges I Ran Into
+
+Building Clario came with several technical and practical hurdles that pushed us to innovate beyond standard solutions:
+
+⚙️ Real-Time Processing Lag:
+Synchronizing speech-to-text, simplification, and ISL avatar rendering caused noticeable delays initially.
+Solution: We optimized our pipeline using asynchronous processing and lightweight models to achieve near real-time (<2 sec) response.
+
+🗣️ Handling Diverse Indian Accents:
+Speech recognition models often struggled with regional variations and code-mixed speech.
+Solution: We fine-tuned models on multilingual datasets and integrated accent-robust ASR libraries.
+
+💬 Complex Text Simplification:
+Transcribed text was often grammatically correct but too complex for low-literacy users.
+Solution: We used NLP-based sentence simplification techniques to produce “Deaf-friendly” captions.
+
+🧏‍♀️ ISL Animation Integration:
+Mapping simplified text into accurate sign language avatar motion was challenging.
+Solution: We built a modular Text → ISL mapping system using a rule-based sign dictionary and custom animation triggers.
+
+🌐 Limited Internet Connectivity:
+In rural setups, the system struggled to maintain performance online.
+Solution: We added an offline mode using Edge AI, allowing inference without constant connectivity.
+
+**Category Winner**
+
+Our project **Clario** perfectly fits the accessibility and inclusion track by making real-time communication truly inclusive for the Deaf and Hard-of-Hearing community. It goes beyond traditional captioning by offering **AI-driven simplification**, **real-time ISL avatar translation**, and **multilingual speech support** tailored for India’s linguistic diversity. By combining ASR, NLP, and sign language generation in one seamless platform, Clario bridges the accessibility gap in education, media, and live communication — empowering millions through equitable digital inclusion.
+
+Team **CodeCortex** -- [Dhruv Talwar](https://github.com/DhruvTalwarr), [Atharva Dubey](https://github.com/AtharvaDubey25), [Saumya Sachan](https://github.com/Saumya-Sachan), [Shweta Srivastava](https://github.com/shwetaa240)
+
+`2025-11-07`
+
+---
+
+### AI INTEGRATED QUIZ APP
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/ai-integrated-quiz-app-de5d) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/skabbuzaid?tab=repositories) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://aiintegratedquizapp.netlify.app/) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-3-FF6B6B?style=flat-square)
+
+> Adaptive AI Quizzes for Smarter Learning
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![AI/ML](https://img.shields.io/badge/AI/ML-333333?style=flat-square)
+
+**Description of your solution**
+
+********Project: AI Integrated Quiz App********
+**Prifer the 2 name link for mobile**
+Theme Alignment: Artificial Intelligence | Agentic AI
+
+Artificial Intelligence is reshaping how we interact with knowledge. Traditional learning methods are static, repetitive, and one-size-fits-all. With the growing demand for personalized and adaptive education, this project demonstrates how Agentic AI can empower learning in a dynamic, real-world way.
+
+**Problem Statement**
+
+*Learning today faces three major challenges*
+
+Repetitive and Limited Quizzes – Most quiz platforms rely on pre-stored questions, making the experience predictable and shallow
+
+No Personalization – Learners cannot easily adjust difficulty or focus on very specific topics of interest
+
+Low Engagement – Without instant feedback, quizzes often fail to keep learners motivated
+
+**Our Solution**
+
+The AI Integrated Quiz App addresses these issues directly.
+
+A user first signs up on Groq AI and obtains their API key
+Inside the app, they search any topic of interest such as JavaScript, History, or Networking
+They choose the number of questions such as 10, 15, 20, or 30
+They select a difficulty level such as Easy, Medium, or Hard
+The app connects to Groq AI and generates a unique, real-time, fully customized quiz
+While attempting the quiz, the learner receives instant feedback on every answer which keeps them engaged and motivated
+
+Every session is unique, adaptive, and tailored specifically to the learner’s choices
+
+**Why It Matters**
+
+This project is more than a quiz app. It shows how Agentic AI empowers users
+
+Instead of consuming static, pre-written content, the learner defines the goal
+The AI acts as a quiz creator, tutor, and evaluator at the same time
+For example, a learner could request medium-level questions on computer networks, a beginner-level JavaScript test, or a hard quiz on world history
+
+This reflects the true principle of Agentic AI where the user defines the objective and the AI intelligently executes it
+
+**How to Use the App**
+
+Go to Groq AI and create an account
+Log in and open the Projects section
+Create a new project and name it for example aiintegratedquizapp or any name you prefer
+Copy your API key from the Groq dashboard
+Paste the API key into the Quiz App when prompted
+Select a topic, the number of questions, and the difficulty level
+Click Start Quiz to open the quiz page
+Answer questions one by one and get instant feedback in real time
+
+*This makes learning interactive, personalized, and engaging*
+
+**Technical Highlights**
+
+Frontend built with React.js
+Styling powered by Tailwind CSS
+Animations created with Framer Motion for smooth transitions
+Backend integrated with Groq AI API to generate quizzes in real time
+
+**Impact and Use Cases**
+
+Students can instantly generate practice quizzes for exam preparation
+Corporate trainers can design assessments on demand
+Self-learners can explore new topics and test their knowledge
+In hackathons, this project is a clear demonstration of AI improving real-world tasks
+
+**Future Scope**
+
+User accounts with progress tracking and analytics
+Gamification with rewards, streaks, and achievements
+Leaderboards and classroom quiz sharing
+Support for multiple languages for global users
+Dedicated mobile application for Android and iOS
+
+**Why This Project Stands Out**
+
+The app is AI-first, adaptive, and dynamic
+It converts a simple request into a complete quiz experience within seconds
+It is technically robust yet simple to use
+Both technical and non-technical judges can easily understand its value
+
+**Additional Info**
+
+Source code and documentation available at GitHub with username skabbuzaid
+For help or queries, contact on Instagram sk.zaid._
+If the app cannot be accessed directly, the Groq AI Help Center provides support
+
+**Misinformation: Bring your own problem in Misinformation, leveraging Agentic AI.**
+
+Explanation of Track Fit
+
+Our project, the AI Integrated Quiz App, fits into the “Bring your own problem, leveraging Agentic AI” track because it directly demonstrates how agentic AI can transform education and self-learning. Instead of relying on static, pre-defined quizzes, our application allows users to instruct the AI agent with a goal — for example, “generate 30 medium-difficulty questions on computer networks.” The AI then autonomously creates a customized quiz in real time, evaluates answers, and provides instant feedback.
+
+This embodies the principles of agentic AI: the user defines the intent, and the AI executes it intelligently, adapting to different topics, question counts, and difficulty levels. By framing the problem of static and non-personalized learning as our challenge, and solving it with Groq AI integration, our project clearly shows how agentic AI can be applied outside the provided domains to create personalized, adaptive, and scalable learning experiences.
+
+Team **shaikh@2007** -- [Shaikh Zaid](https://github.com/skabbuzaid), [Shaikh Zain](https://github.com/Skzain)
+
+`2025-08-19`
+
+---
+
+### Apna Classroom
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/apna-classroom-875d) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://apna-classroom-six.vercel.app/) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-3-FF6B6B?style=flat-square)
+
+> Where time, teaching and learning aligns
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square)
+
+**Description of your solution**
+
+Apna Classroom is a unified B2B SaaS platform that solves the trifecta of academic inefficiency: fragmented workflows, delayed departmental oversight, and low student motivation. We digitize the entire campus operation for students, teachers, and HODs, centralizing timetable creation, assignment management, and attendance. Our solution's hackathon-winning edge lies in three key features: AI-Powered Flexible Scheduling, which generates optimized timetables while uniquely allowing teachers real-time editing for event management; an Integrated HOD Approval Workflow that instantly routes work for digital sign-off, eliminating administrative lag; and a Dynamic Gamified Engagement system, using points, streaks, and a leaderboard to actively encourage student participation beyond traditional Learning management system limits. This creates a smarter, more efficient, and more engaging operating system for education.
+
+**Misinformation: Bring your own problem in Misinformation, leveraging Agentic AI.**
+
+The "Smart Classroom and Timetable Scheduler" fits the "Misinformation Leveraging Agentic AI" track as it uses AI agents for scheduling, content generation, and gamification to tackle academic misinformation. By unifying schedules, assignments, and resources under one AI-driven platform, it eliminates confusion from conflicting or outdated information shared across multiple sources. The integrated HOD approval workflow adds an agent-based verification layer, ensuring all academic data is accurate and consistent. Thus, the system leverages agentic AI to maintain a single, verifiable source of truth for institutional logistics.
+
+![image](https://assets.devfolio.co/content/a2c61a1caadb4c8eb624e4bda3b53dbb/c8db5b92-3b2a-4f74-8922-fdeeb26adb87.png)
+
+Team **Code Crusher's** -- Sakshi Chauhan, [mahima sachdeva](https://github.com/meimei92), [Pranav Sachdeva](https://github.com/psachdeva0108), Anant .
+
+`2025-10-17`
+
+---
+
+### EduSuraksha
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/edusuraksha-766c) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-3-FF6B6B?style=flat-square)
+
+> Safe Schools.Trusted Education. Empowered Children
+
+![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square)
+
+**Description of your solution**
+
+EduSuraksha — Disruptive Solution
+
+EduSuraksha is a multi-sided Public Sector ERP platform designed to establish verifiable trust, transparency, and accountability across India’s 1.4 million public primary schools. It addresses the systemic issues of unreliable manual record-keeping, misreporting, and parental anxiety by replacing outdated paper-based systems with an immutable, digitally verified architecture.
+
+At its core lies a geo-stamped, time-locked attendance and meal logging system powered by the Teacher Internal Tool, which automatically creates tamper-proof digital evidence of each child’s daily presence and well-being. This verified data is instantly transformed into real-time safety alerts (via SMS or mobile app) for parents, eliminating uncertainty and ensuring parents remain informed and reassured about their child’s safety at school.
+
+EduSuraksha’s unified digital ecosystem further integrates AI-driven data verification, community-based oversight, and parental engagement dashboards, creating a transparent chain of accountability between teachers, administrators, and guardians. The platform also features a Digital Grievance Redressal Channel that allows parents and local authorities to raise and resolve issues efficiently, transforming school governance from reactive to proactive.
+
+By reducing teacher administrative burden, ensuring authentic reporting, and strengthening communication between schools and families, EduSuraksha transforms India’s public education system into a high-integrity, child-centric governance network. This initiative not only enhances education quality and child safety, but also builds the foundation for data-driven policy-making and sustainable development, impacting the lives of over 80 million children across rural and semi-urban regions.
+
+In essence, EduSuraksha reimagines school administration as a system of truth — blending AI verification, and community trust into a scalable national framework for child safety, nutrition transparency, and educational accountability
+
+![image](https://assets.devfolio.co/content/4cf96510d4954254acb6a6cb709891d1/49e07c2e-7733-4701-b016-6b7357ab0ac7.png)
+
+![image](https://assets.devfolio.co/content/4cf96510d4954254acb6a6cb709891d1/0538a01f-582b-4efa-8195-916eb8552ea1.png)
+
+![image](https://assets.devfolio.co/content/4cf96510d4954254acb6a6cb709891d1/8f61d368-7623-4cb7-bb7c-5c0b1e88452b.png)
+
+![image](https://assets.devfolio.co/content/4cf96510d4954254acb6a6cb709891d1/26496d20-8406-4766-ad09-1267f39a97f2.png)
+
+![image](https://assets.devfolio.co/content/4cf96510d4954254acb6a6cb709891d1/7f57eb9f-6921-4bac-b9ed-75297bf11880.png)
+
+**Misinformation: Bring your own problem in Misinformation, leveraging Agentic AI.**
+
+Our project EduSuraksha fits into the Misinformation (Bring Your Own Problem) track because it combats data misreporting and lack of transparency in rural schools. Currently, attendance, meal, and performance records are often manipulated or inaccurately reported, leading to misinformation about children’s education and welfare.
+EduSuraksha leverages Agentic AI to verify, cross-check, and analyze these records, ensuring that parents, teachers, and authorities receive only authentic, verified information. By preventing misinformation in education and nutrition data, the system promotes trust, accountability, and informed decision-making at every level.
+
+Team **Infin Loopers** -- Sai Kishore, Chan Basha
+
+`2025-10-19`
+
+---
+
+### PeerLink
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/peerlink-9fa5) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/namansomani2667-rgb/PeerLink-) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://youtu.be/Agc-agpu5Ow) [![Built at](https://img.shields.io/badge/Built%20at-Syntax%20Error%202025-0052CC?style=flat-square)](https://syntax-error-2025.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-3-FF6B6B?style=flat-square)
+
+> Connecting students of IIT Roorkee
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square)
+
+**The problem it solves**
+
+1. Hard to find people with similar interests or goals in college.
+2. Students often feel isolated or have a small friend circle.
+3. No easy way to form project teams or study groups.
+4. Missed networking and collaboration opportunities.
+5. No platform to show hobbies, interests, and achievements.
+6. Difficult to discover new peers nearby in the same college.
+7. Other apps (WhatsApp, Instagram) are cluttered or not focused on real connections.
+
+**Challenges we ran into**
+
+1. Expo Router setup – managing navigation between tabs (Profile, Chat, Friends, Find Match) and fixing layout errors.
+2. Profile data management – making sure user hobbies, interests, and bio were saved, updated, and shown correctly.
+3. Real-time friend system – building the full send / accept / reject request feature that updates instantly for both users.
+4. Chat integration – syncing messages between connected friends without delay or duplication.
+5. User discovery logic – designing the Find Match system to show only relevant and non-duplicate users.
+6. UI design challenges – keeping the interface simple, colorful, and responsive while showing multiple features.
+7. Expo cache & reload errors – fixing issues where the app didn’t reflect new code until clearing cache.
+8. Dynamic component behaviour – ensuring reusable components like ProfileModal and UserCard worked smoothly across tabs.
+9. Real-time updates & performance – managing fast UI refreshes while handling live data from Firebase(or local state).
+10. Testing & debugging – ensuring the app ran consistently across different tabs and scenarios without crashes.
+
+**Freshman Track**
+
+1. Team Composition
+Your team is made up of freshers and beginners in coding.
+Freshman track is specifically for projects done by students with limited programming experience.
+
+2. Project Complexity
+PeerLink uses basic to intermediate features of Expo/React Native and Firebase (tabs, chat, friend requests).
+While real-time updates and UI may be challenging, the overall architecture is beginner-friendly compared to advanced ML, blockchain, or large-scale apps.
+
+3. Learning-Oriented
+The project demonstrates learning and implementation skills, which is the focus of the Freshman track.
+It shows how beginners can build a complete functional app even with limited experience.
+
+4. Scope of the App
+PeerLink has a defined scope (Profile, Chat, Friends, Find Match).
+It’s achievable for freshers without advanced coding knowledge, making it a perfect fit for this category.
+
+5. Innovation Within Beginner Level
+You’re solving real college problems using simple technologies.
+Judges look for creativity and execution at a beginner-friendly level, not necessarily complex algorithms or enterprise-level features.
+
+Team **Dark_Innocent_Boys** -- Shivansh Gupta, Shubham Raj, [Naman Somani](https://github.com/namansomani2667-rgb), Snehil Raj
+
+`2025-10-12`
+
+---
+
+### neuronest
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/neuronest-a431) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ishaansatapathy/neuro-nest-playful-learn.git) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://youtu.be/RrNVGl4RJJo) [![Built at](https://img.shields.io/badge/Built%20at-UDAYA%201.0-0052CC?style=flat-square)](https://udaya-1-0.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-3-FF6B6B?style=flat-square)
+
+> Early Screening Through Playful Learning
+
+![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+Many children between the ages of 2 to 5 show early signs of learning disorders such as dyslexia, dyscalculia, and ADHD. Unfortunately, these conditions often remain unnoticed until the child enters school, making intervention more difficult. Parents often lack access to clear resources and tools to prime and these video challenges at an early resulting in delayed support and long-term academic and emotional struggles.
+
+Team **hackwizardz** -- [Ishaan satapathy](https://github.com/ishaansatapathy), [Shramit Sarupya Swain](https://github.com/Shramit1406), [Taha Tambe](https://github.com/tahatambe-collab)
+
+`2025-09-27`
+
+---
+
+### StudAI
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/studai-d6e4) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/soorajdmg/StudAI) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://studai-ewc9.onrender.com/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/wtgpBtYwtNM) [![Built at](https://img.shields.io/badge/Built%20at-TIC%20Pinnacle%20Hacks%20--%20Edition%201-0052CC?style=flat-square)](https://tic-pinnacle-hacks-2025.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-3-FF6B6B?style=flat-square)
+
+> Revolutionizing Learning
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square)
+
+**The problem it solves**
+
+StudAI tackles the critical issue of one-size-fits-all education that leaves many students struggling with ineffective learning methods and academic      
+  stress. The platform solves multiple interconnected problems:
+
+  🎯 Learning Inefficiency
+
+  - Personalized Learning Styles: Uses a scientific 5-question assessment to identify whether students are Visual, Auditory, Kinesthetic, or Mixed
+  learners, then delivers customized study materials that match their optimal learning pattern
+  - Adaptive Assessment: Features advanced Calibre Tests with real-time difficulty adjustment and behavioral analysis to create accurate learning curves    
+   for each student
+
+  🧠 Academic Stress & Mental Health
+
+  - Evidence-based Stress Management: Integrates proven techniques like Pomodoro timer (25-minute focus sessions), guided 4-4-4 breathing exercises, and    
+   AI-powered study coaching
+  - Holistic Well-being: Combines academic optimization with mental health support, addressing the growing student stress epidemic
+
+  📊 Lack of Learning Analytics
+
+  - Progress Tracking: Provides detailed analytics on learning patterns, completion rates, and tool usage
+  - Institutional Insights: Offers admin dashboards for educators to understand student engagement and optimize teaching strategies
+
+  🤖 Fragmented Educational Tools
+
+  - Unified Platform: Consolidates learning assessment, personalized content delivery, stress management, and progress tracking in one seamless
+  interface
+  - AI Integration: Leverages Google Generative AI for intelligent study recommendations and personalized coaching
+
+  Impact: Students can learn 40% more effectively when content matches their learning style, while integrated stress management tools help reduce
+  academic anxiety and improve overall performance.
+
+**Challenges we ran into**
+
+🔄 State Management Complexity
+
+  Challenge: Managing complex user states across multiple assessment phases (Learning Test → Calibre Test → Dashboard) while maintaining data
+  persistence and seamless navigation flow.
+
+  Solution: Implemented React Context for global authentication state and used strategic API calls with proper error handling. Created a robust
+  navigation system that automatically guides users through the complete assessment pipeline without losing progress.
+
+  🧠 Learning Style Algorithm Accuracy
+
+  Challenge: Developing a reliable algorithm to classify learning styles from just 5 questions while ensuring the results genuinely reflect user
+  preferences and lead to meaningful personalization.
+
+  Solution: Researched educational psychology principles and implemented a weighted scoring system that considers answer patterns rather than simple        
+  counting. Added validation through the Calibre Test which provides behavioral confirmation of the initial assessment.
+
+  ⚡ Real-time Assessment Adaptation
+
+  Challenge: Creating a dynamic Calibre Test that adjusts difficulty in real-time based on user performance while maintaining accurate learning curve       
+  analytics.
+
+  Solution: Built a sophisticated difficulty adjustment algorithm that tracks response time, accuracy patterns, and confidence levels. Implemented
+  progressive difficulty scaling that challenges users appropriately without causing frustration.
+
+  🎨 Cross-Device UI/UX Consistency
+
+  Challenge: Ensuring the stress relief tools (especially the breathing exercise animations and Pomodoro timer) work smoothly across different devices      
+  and screen sizes while maintaining therapeutic effectiveness.
+
+  Solution: Used CSS3 animations with careful performance optimization and responsive design principles. Tested breathing exercise timing across
+  multiple devices to ensure the 4-4-4 rhythm remains consistent and therapeutic.
+
+Team **Techtonic** -- [Sooraj Murugaraj](https://github.com/soorajdmg), [Anagha P](https://github.com/anaghap-dev)
+
+`2025-09-21`
+
+---
+
+### Lumen
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/lumen-6724) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Ayutayam-sutar/Lumen-Hack-Odisha) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://docs.google.com/presentation/d/1gawuldqQ53ZCJdHYKFTiOZroRP20bimt/edit?usp=sharing&ouid=116666437119853478801&rtpof=true&sd=true) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/OlYKV2Wqvzo) [![Built at](https://img.shields.io/badge/Built%20at-HackOdisha%205.0-0052CC?style=flat-square)](https://hackodisha-4.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-3-FF6B6B?style=flat-square)
+
+> Lighting the Path to Collaborative Learning
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Express.js](https://img.shields.io/badge/Express.js-333333?style=flat-square) ![Vanilla JS](https://img.shields.io/badge/Vanilla%20JS-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square)
+
+**The problem it solves**
+
+Lumen is a comprehensive, AI-powered learning ecosystem designed to enhance student productivity and foster seamless collaboration. At its core, the platform features a **Smart Dashboard** that tracks weekly progress and offers AI-powered review suggestions to keep learners on track. For targeted revision, the **Flashcard Forge** instantly generates customized flashcards, while the **Doubt Solver** provides access to verified mentors for personalized assistance. To encourage teamwork, the **AI Study Group Matcher** intelligently connects students with compatible peers. The entire experience is gamified with a **Leaderboard** that motivates users through XP and achievements, all of which is tracked in a detailed **Profile** that cultivates each student's unique learning identity.
+
+**Challenges we ran into**
+
+Throughout the development of our project, we navigated several significant hurdles that tested our technical skills and project management capabilities. One of the most complex technical challenges was the **integration of the Wolfram API**, which required a deep dive into its documentation to ensure it communicated effectively with our system. Compounding this, the ambitious scope and **extensive features** of our project created considerable **time constraints**, forcing us to prioritize tasks and manage our schedule meticulously to stay on track. Finally, a persistent challenge was the **integration of the frontend with the backend**, a critical process that demanded careful coordination to ensure seamless data flow and a smooth, responsive user experience.
+
+**Web3 Track prize**
+
+Unlike conversational AI that generates human-like text, Wolfram operates as a computational knowledge engine. When a user types a question into our chatbot interface—whether it's a complex mathematical equation like "$ \frac{d}{dx} \sin(x^2) $", a query about historical data, or a scientific fact—our backend securely sends this query to the Wolfram API. The API then processes the natural language, taps into its vast repository of curated data and advanced algorithms to compute a precise, factual answer.
+
+Team **Juggernaut** -- [AYUTAYAM SUTAR](https://github.com/Ayutayam-sutar), [ASHUTOSH NAYAK](https://github.com/newprogrammer07), [Siddharth Kumar Jena](https://github.com/Sid-is-afk), [Sushree Adyasha Sahoo](https://github.com/sushree2006)
+
+`2025-09-07`
+
+---
+
+### Community Care
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/community-care-a8f5) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/HR1937/Merged-hackodisha-2025.git) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/vy_PTYlAa-0?si=0Opd0Dn_kWHdMYwm) [![Built at](https://img.shields.io/badge/Built%20at-HackOdisha%205.0-0052CC?style=flat-square)](https://hackodisha-4.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-3-FF6B6B?style=flat-square)
+
+> Together, we make aging less lonely.
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square)
+
+**The problem it solves**
+
+Many times, it is observed that old age people face loneliness and helplessness.
+So, whenever they have any problem, they just visit our website and share the problem, it gets share with the nearby persons within the range of 500m. Also, many times with the advice of old age people many health-related issues get solved so they can share their remedies and also their valuable experiences.
+
+**Challenges we ran into**
+
+As we are new to Golang we faced difficulty in building backend and also integrating it with frontend.
+
+**Use Gofr (A Golang Framework)**
+
+In our project we have used GoFr for designing the Backend.
+As our website is full stack website.
+
+Team **Aspirants** -- [Ohm Patel](https://github.com/Ohm545), [DHRUV PATEL](https://github.com/DHRUV-PATEL1937), [TRUSH PATEL](https://github.com/codstrush43), [Pari Patel](https://github.com/Pari658), [Hetvi Purohit](https://github.com/HR1937)
+
+`2025-09-07`
 
 ---
 
@@ -3294,6 +4802,871 @@ Ultra‑affordable deployment (< ₹5,000) makes it scalable across villages.
 Team **Solution Squad** -- [ABHISHEK KUMAR](https://github.com/ABHISHEKABHI52), [Biswajeet Tarasia](https://github.com/biswajeettararasia_622)
 
 `2025-11-15`
+
+---
+
+### SIDAR
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/netrax-4b34) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://edu-sync-df358968.base44.app) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/MKCShyed8FM) [![Built at](https://img.shields.io/badge/Built%20at-hackCBS%208.0-0052CC?style=flat-square)](https://hackcbs-8.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> ONE STOP AI FOR LEARNING
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Google Translate API](https://img.shields.io/badge/Google%20Translate%20API-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![Scrapy](https://img.shields.io/badge/Scrapy-333333?style=flat-square) ![Shadcn](https://img.shields.io/badge/Shadcn-333333?style=flat-square)
+
+**The problem it solves**
+
+Hey Judges !! this is us team H45HCR4CK so we did a lot of vibe coding on base44 tackled api issues then improvising our idea whole night.
+so let's discuss what all we deliver and what are our future deliverables
+considering situations of student we have to jump through tabs searching for resources reading and watching at multiple platform which increases our brains time complexity... so we decided to make a unified single platform A AI ONESTOP PLATFORM where a student can process and perform and learn whatever he want. we have a feature of getting youtube videos through the syllabus or topics we upload.
+we have also integrated a feature in which you will upload your syllabus or topic a analysis through gemini api will be performed and resources will be collected in resources section.(btw this feature was working initially but now due to api's issue it's a trouble... but could be sorted out in a complete dev process).
+we have implemented a feature for group study you need to connect to your team share resources we have it you just ask for it,we can create rooms ask our friends to join through team code.
+we have implemented a spotify feature where you can play liked songs from spotify but again it has some error if we would have got upgraded version of base44 then it could have been tackled easily(but yeaah it could be done)
+Event Listing
+It list downs all the events related to your current learning goal which are happening around you.
+based on your uploaded topics and syllabus you will be recommended projects you can work upon
+also the feature of ai chatbot at the same place in same application is there
+we have a feature of editing task and adding our schedule as well.
+and with weekly track we can get a schedule for week on what all things we need to workupon and 
+also for females we have implemented a feature that if they are in phase of there menstral cycle the schedule will be adjusted according to there situation if they update it and enable the settings.
+also the application generates a weekly report through which we can track that how much we are learning and doing stuff.
+and above all we have also given a dashboard to monitor it.
+we are using gemini api key in implementing tasks based on ai.
+
+**Challenges we ran into**
+
+I have encountered several problems including
+1) The api conflict 
+2) Sometimes the api key's limit get exhausted and we have to analyze it through different methods
+3) Sometimes when context were lost there was difficulty in understanding and accessing them again and again.
+but overall this is what we do it for.
+so concluding this we can claim that this web application is perfect as ONE STOP AI FOR STUDENTS
+there are futures aspects to it as well 
+
+![image](https://assets.devfolio.co/content/eab58e49cb2e494d921998ac0f462d5c/7e5e8642-8e3d-471b-8202-e727808e22a0.jpeg)
+
+**Base44 Innovation Challenge**
+
+The whole development has been done on base44 we explored different features and ai models available for the vibecoding. it's simple it's easy it makes learning and programming fun at the same time 
+what we did in our project 
+“SIDAR” it’s your platform where you get what you want to learn. You upload your content it remains in the DB and through Gemini API key Analysis is done to get   
+Video Materials
+With the AI chat you can get the list of videos from your preferred learning goal
+Event Listing
+It list downs all the events related to your current learning goal which are happening around you 
+Additional Features
+Resource collection,Task scheduler, STUDY GROUP , Weekly Report.
+some future development and features integrated partially 
+A more improved and advanced version, which enables connecting over voice and video in STUDY GROUP. 
+SPOTIFY integration will make it your learning ease out when you traverse and rollback through your favourite songs.
+The UPLOAD feature is designed to create so that we can keep our material at one place and also keeping the context awareness with our learning buddy.
+Resource Sharing it makes our group study more easier along with quick Document feature in the same section
+There is a specific feature for female users during Menstrual cycle the Scheduler will adjust your learning goal so that learning continues with maintaining a good health.
+
+![image](https://assets.devfolio.co/content/eab58e49cb2e494d921998ac0f462d5c/c11f040c-a4f1-4f7b-a095-2fcad9378148.jpeg)
+
+![image](https://assets.devfolio.co/content/eab58e49cb2e494d921998ac0f462d5c/797260b1-74df-4dd1-b505-675aa8857a9b.jpeg)
+
+![image](https://assets.devfolio.co/content/eab58e49cb2e494d921998ac0f462d5c/0d037fb3-1c49-44c8-a830-42eab890292c.jpeg)
+
+Team **H45HCR4CK** -- [om prakash](https://github.com/Opkumar), [Manish Tiwari](https://github.com/yfwmaniish)
+
+`2025-11-09`
+
+---
+
+### StudLink
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/studlink-4537) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/bishtayush424-dev/ayush-.git) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://youtu.be/cFW1k5-fRig) [![Built at](https://img.shields.io/badge/Built%20at-Hack%20On%20Hills%207.0-0052CC?style=flat-square)](https://hackonhills7.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> Revolutionizing Student Collaboration.
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+One Platform, Infinite Possibilities
+**STUDLINK** - The Complete Student Ecosystem
+A Unified Platform Integrating:
+
+ Social Networking (LinkedIn-style connections)
+ Academic Collaboration (Course-specific communities)
+ Smart Messaging (Real-time chat with file sharing)
+ Mentorship Programs (Structured guidance system)
+ Community Building (Clubs, departments, interest groups)
+
+**Challenges we ran into**
+
+the major challenge faced by us was the incompatibility of tailwind CSS and react.js due to react's latest updates so we have to delete our main project and make that from the scratch as a mvp(mininmum value product)
+
+Team **TECH Verse** -- [Ayush Bisht](https://github.com/ayushbishtnith-alt), [Ojasvi Bhardwaj](https://github.com/Ojasvibhardwaj2006), Harshit Kumar Lodwal, Aryan Goswami
+
+`2025-11-02`
+
+---
+
+### Fund Flow
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/fund-flow-7d46) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/alphaaryan9523/fund-flow-) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/GiIst3XsxRg) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> Where learning meets intelligent investing.
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![TensorFlow](https://img.shields.io/badge/TensorFlow-333333?style=flat-square) ![Spring](https://img.shields.io/badge/Spring-333333?style=flat-square)
+
+**Description of your solution**
+
+Created a finance learning platform with AI-driven stock prediction (TensorFlow), frontend in HTML/CSS/JS, and REST APIs for real-
+time financial data.
+
+**Fintech: Build an autonomous financial coaching agent that adapts to real user behavior, spending patterns, and income variability - helping gig workers, informal sector employees, and everyday citizens make smarter financial decisions proactively.**
+
+AI-driven Stock Prediction (TensorFlow)
+
+FinTech is all about leveraging data + technology to improve financial decision-making.
+
+Your platform uses machine learning models (TensorFlow) to analyze patterns and provide stock market predictions, directly addressing innovation in financial analytics.
+
+Finance Learning Platform
+
+A big challenge in FinTech is financial literacy.
+
+By making your project a learning platform, you’re not just giving predictions but also helping users understand finance concepts while interacting with real data. This is aligned with the track’s focus on democratizing finance.
+
+Frontend in HTML/CSS/JS
+
+The UI provides a clean and accessible way for users to interact with financial data and predictions.
+
+Good frontend design is critical in FinTech since trust and usability are huge factors for adoption.
+
+REST APIs for Real-Time Financial Data
+
+Real-time stock & market data is a core requirement in modern FinTech apps (trading apps, robo-advisors, analytics dashboards).
+
+By integrating APIs, your project replicates how actual FinTech companies handle live data feeds, making it highly practical.
+
+Innovation + Impact
+
+Most hackathon judges look for practical use cases. Your project bridges education + AI + finance, making it both innovative and impactful.
+
+It can be pitched as a tool for:
+
+Students/new investors to learn trading safely.
+
+Retail investors to gain AI-driven insights.
+
+A foundation for next-gen FinTech apps (like robo-advisors, personal finance assistants).
+
+Team **Code blooded brothers** -- [aryan singh](https://github.com/alphaaryan9523), [Ayush Mishra](https://github.com/gameon864), [Saif Salmani](https://github.com/Saif09inAction?tab=repositories://share.google/nMeLtlkSnaN1ocmdy)
+
+`2025-08-22`
+
+---
+
+### Sahayak
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/sahayak-794f) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://Sahayak-ai-767de.web.app) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/5Y05dPBS5qU?si=Mg7yG9UwzXEb6oM1) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> Focus on the student, we'll handle the rest
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Firebase](https://img.shields.io/badge/Firebase-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Speech Recognition](https://img.shields.io/badge/Speech%20Recognition-333333?style=flat-square) ![Image Processing](https://img.shields.io/badge/Image%20Processing-333333?style=flat-square) ![Google Cloud Platform (GCP)](https://img.shields.io/badge/Google%20Cloud%20Platform%20(GCP)-333333?style=flat-square)
+
+**Description of your solution**
+
+**Solution Description: Sahayak AI – The Intelligent Teaching Assistant**
+Sahayak AI is a comprehensive, Gemini-powered teaching assistant designed to revolutionize classroom preparation and management for educators. Moving beyond simple content generation, Sahayak AI acts as a smart, unified platform that leverages Google Cloud microservices to handle complex, multimodal tasks, allowing teachers to reclaim their time and focus on personalized student engagement.
+
+**1. Core Idea & AI Orchestration (The Brain)**
+Our solution centers around a powerful Master Agent built on Google Cloud Run. This Master Agent utilizes the Gemini API for sophisticated intent recognition and context persistence, ensuring highly coherent and effective interactions.
+
+**Single Chat Playground:**  Teachers interact with all features through one chat interface, powered by voice-to-text integration (Google Cloud Speech-to-Text).
+
+**Orchestration:**  The Master Agent dynamically routes user requests (e.g., "Generate a lesson plan," "Analyze Sarah's report card," "Take attendance") to the correct specialized agent, abstracting the complexity of the backend tools.
+
+**2. Time-Saving Content Generation Agents**
+We have deployed specialized agents to automate tedious tasks, with all generated files securely stored and delivered via Google Cloud Storage:
+
+**Lesson Plan Generator:** Instantly creates detailed, topic-specific lesson plans.
+
+**Worksheet Generator:** Creates custom practice questions tailored to specific grades, difficulties, and question types.
+
+**QR Code Generator:** Quickly generates scannable QR codes for notes or external links, enhancing in-class digital delivery.
+
+**3. Advanced, Data-Driven Features (The Differentiator)**
+These features utilize multimodal AI and data analysis to provide actionable insights, making Sahayak AI stand out:
+
+![image](https://assets.devfolio.co/content/19d524a1fd6a47d19175d94a8c9778d1/87c1d6c2-40e2-42cd-9b78-a7c4ef5966c0.png)
+
+
+
+
+**4. Technology Stack Summary**
+
+- Sahayak AI is built entirely on the Google Cloud ecosystem, ensuring scalability, security, and enterprise-grade performance:
+-** Backend:** Cloud Run (Master Agent and Specialized Agents), Gemini API (Core Intelligence).
+- **Data & Storage:** Firestore (Context persistence, Student Management, Analysis Insights) and Cloud Storage (PDFs, Profile Pictures).
+- **Frontend:** React hosted on Firebase Hosting.
+
+Sahayak AI is not just a chatbot; it's a unified, intelligent assistant that integrates AI-driven content creation with practical classroom management and data analysis tools, offering a genuinely impactful solution to reduce teacher workload.
+
+**Misinformation: Bring your own problem in Misinformation, leveraging Agentic AI.**
+
+Sahayak AI fits perfectly into the "Misinformation: Bring your own problem in Misinformation, leveraging Agentic AI" track by tackling the critical issue of unreliable, contextually irrelevant, and inaccurate educational content provided to teachers and students.
+
+Our project addresses this "Misinformation Problem" in EdTech through a powerful, multi-agent system:
+
+Agentic AI for Trustworthy Content: Our core is a Master Agent that leverages the Gemini API and specific **Specialized Agents** (Lesson Plan, Worksheet, QR Code Generators) to produce highly specific, context-aware, and verified materials. The agentic design ensures that content creation is not a generic response but a structured, fact-checked process tailored to a specific grade, topic, and learning context.
+
+- **Combating Contextual Misinformation:** Traditional online resources often provide content that is too complex, too simplistic, or factually correct but contextually wrong for a given grade level (e.g., teaching high-school chemistry to a 5th-grade class). Sahayak AI's agents ensure that the output is always grade-appropriate and curriculum-aligned, acting as a check against contextual misinformation.
+
+- **Data-Driven Quality Loop:** Our Mood Analysis Agent collects structured feedback (in multiple languages, including Hindi) on the quality of the generated content. This data refines the Master Agent's behavior, ensuring the system continually improves the reliability and accuracy of its output, a crucial function in any system designed to mitigate misinformation.
+
+- **Multimodal Verification:** Features like the Report Card Analyzer and Attendance Image Recognition provide real-world data and context back to the AI, allowing it to generate pedagogical recommendations that are based on verifiable student performance, not generic assumptions.
+
+By using Agentic AI to enforce contextual accuracy, reliability, and continuous quality improvement in educational materials, Sahayak AI effectively tackles a major source of low-quality or misleading information in the classroom environment.
+
+Team **Digital Dynamos** -- [Sanskar Gupta](https://github.com/sanskar0901/), [Varun Khachane](https://github.com/vk2122), Abhishek Singhal
+
+`2025-10-13`
+
+---
+
+### AstroRun
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/astrorun-63de) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/sarveshmenthe/Astronautrunner) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/KS1132ofa9s?si=bDGimmqaNNpCIhuL) [![Built at](https://img.shields.io/badge/Built%20at-Syntax%20Error%202025-0052CC?style=flat-square)](https://syntax-error-2025.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> "Where Deep Space meets Deep Learning"
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square)
+
+**The problem it solves**
+
+n the rapidly growing domain of human-computer interaction, most games still rely solely on manual controls such as keyboard or touch inputs.
+While effective, these methods limit accessibility, immersion, and innovation in gameplay experience.
+There is a lack of casual browser-based games that allow players to control actions purely through voice commands, making gaming more inclusive and interactive.
+Astronaut Runner bridges this gap by introducing speech recognition–based gameplay control integrated within a real-time 2D side-scrolling game environment.
+The player can control an astronaut’s movements and actions such as jump, start, restart, and activate powerups simply by speaking commands like “jump”, “start”,"restart"or"pause".
+This project enhances:
+Accessibility: Helps players who cannot use traditional controls.
+Engagement: Adds novelty and immersion through natural voice interaction.
+Innovation: Combines the fun of gaming with applied AI-based control systems.
+
+**Challenges we ran into**
+
+🎙️ 1. Voice Recognition Responsiveness
+Challenge:
+Voice commands often faced latency or misinterpretation, especially during continuous speech recognition using the webkitSpeechRecognition API.
+Solution:
+Implemented a command cooldown timer (300ms) to prevent multiple triggers from overlapping results and optimized partial recognition (interimResults = true) to react even before full speech recognition finalized.
+🔁 2. Clean Restart Mechanism
+Challenge:
+After a Game Over, restarting caused the game to freeze or duplicate entities because not all arrays and states were properly reset.
+Solution:
+Developed a safeRestart() function that resets all entities (asteroids, stars, powerups), player position, and timing variables.
+It ensures the game reinitializes smoothly and starts afresh both via keyboard (R key) and voice commands ("start").
+🌌 3. Parallax Background Performance
+Challenge:
+Multiple moving layers (background, far and near parallax) caused frame drops and inconsistent movement.
+Solution:
+Optimized rendering using lightweight image preloading (safeLoadImage) and controlled parallax speed multipliers relative to game speed for seamless, lag-free scrolling.
+🎧 4. Audio Synchronization
+Challenge:
+Managing multiple simultaneous sound effects (jump, collect, powerup, hit) and preventing overlap distortion.
+Solution:
+Used p5.sound to preload, volume-balance, and trigger sounds with event-specific conditions.
+Added a retro game-inspired background music track that plays only at the start to create a polished, arcade-like experience.
+💻 5. Browser Compatibility & Speech Stability
+Challenge:
+Different browsers handle microphone permissions and speech APIs differently.
+Solution:
+Used continuous recognition (continuous = true) with auto-reconnect on onend event.
+This ensures voice control remains active even after temporary microphone loss or pause in input.
+🧠 6. Scoring and Data Persistence
+Challenge:
+Preserving player’s high scores across sessions.
+Solution:
+Used localStorage to store and retrieve high scores locally, allowing persistent tracking even after page reload or restart.
+Added live score updates on-screen using p5’s text rendering functions for a dynamic HUD.
+
+**Open Track - Development**
+
+We chose the Development Track because AstroRun is a fully functional game built from scratch using HTML, CSS, JavaScript, and p5.js.
+Our focus was on hands-on implementation — developing real-time gameplay, voice and keyboard controls, physics, and animations without using any external game engine.
+It integrates Web Speech API for voice commands, making it both interactive and accessible.
+AstroRun is a complete working product, not just a concept — showcasing real coding, system design, and optimization, which aligns perfectly with the Development Track goals.
+
+**Freshman Track**
+
+We are first year students
+
+Team **HackR** -- Parth Prasad, Sarvesh Menthe
+
+`2025-10-12`
+
+---
+
+### EduAssist
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/eduassist-b214) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Jayansh21/EduAssist) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://youtu.be/eBG-7KZGStw) [![Built at](https://img.shields.io/badge/Built%20at-UDAYA%201.0-0052CC?style=flat-square)](https://udaya-1-0.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> Helping students learn, teachers teach, knowledge
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+Team **ByteForce** -- [Shivam Dudani](https://github.com/ShivamDudani), [Manan Sharma](https://github.com/kingmanan16), [Ayush Upadhyay](https://github.com/Ayush-upadhyay1605), [Jayansh Jain](https://github.com/Jayansh21)
+
+`2025-09-27`
+
+---
+
+### Felearn AI
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/felearn-ai-22e4) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://felearn.vercel.app/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/x1bI-iErw7Q) [![Built at](https://img.shields.io/badge/Built%20at-mosAIc:%20AI%20in%20action%20with%20The%20Product%20Folks-0052CC?style=flat-square)](https://mosaicbytpf.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> A new era of learning by AI imagination
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Vue.js](https://img.shields.io/badge/Vue.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![React.js](https://img.shields.io/badge/React.js-333333?style=flat-square)
+
+**The problem it solves**
+
+## Inspiration
+
+Traditional education often feels dry and overwhelming, especially when it comes to complex topics like AI, biology, or mathematics. We wanted to reimagine learning—making it fun, engaging, and emotionally resonant. The idea of explaining abstract concepts through **cute cat stories** felt like the perfect mix of playfulness and depth. After all, who doesn’t love cats? 🐱
+
+## What it does
+
+**Felearn AI** transforms complex concepts into **adorable cat-themed visual stories**.
+
+* Students enter a concept they want explained.
+* The AI generates a **narrative with cat characters**, paired with **contextual illustrations**.
+* Users can **save, organize, and export** these stories into a library.
+* Teachers and learners can use it as an **interactive storytelling tool** to reinforce learning in a way that’s both memorable and fun.
+
+## How we built it
+
+* **Frontend**: React + TypeScript + Tailwind CSS for a clean, responsive UI.
+* **Animations**: Framer Motion for smooth transitions.
+* **Backend**: Appwrite for authentication, database, and file storage.
+* **AI**: Google Gemini AI for generating stories + illustrations.
+* **Deployment**: Vercel for lightning-fast hosting.
+
+## Challenges we ran into
+
+* Generating **cohesive story + image pairs** required fine-tuning prompts.
+* Balancing **fun storytelling** with **educational accuracy** was tricky.
+* Implementing secure user management and PDF exports while keeping performance snappy.
+
+## Accomplishments that we're proud of
+
+* Built a **fully functional platform** that combines storytelling, education, and AI.
+* Achieved **95+ Lighthouse scores** for performance, accessibility, and SEO.
+* Designed a **delightful UI/UX** with light/dark themes and animations.
+* Created something that can genuinely **make learning less intimidating** for students.
+
+## What we learned
+
+* How to integrate **AI-powered storytelling** into a real product.
+* The importance of **UX design** when targeting students and educators.
+* Handling the **trade-offs between creativity and factual accuracy** in AI.
+* How modern tools like Appwrite, Vite, and Gemini AI can accelerate development.
+
+## What’s next for Felearn AI
+
+* Expanding story styles (beyond cats 🐾 to other fun characters).
+* Adding **multi-language support** for global students.
+* Teacher dashboards with **analytics on student learning progress**.
+* Mobile app version for **on-the-go learning**.
+* Partnerships with schools and edtech platforms to reach more learners.
+
+[Naman Dhakad](https://github.com/namandhakad712/)
+
+`2025-08-25`
+
+---
+
+### InnoHub
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/innohub-1d50) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/aanchal911/InnoHub) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://inno-duwul1py8-aanchals-projects-aaffb0a8.vercel.app?_vercel_share=BzasWkD0isKxmvSnHZjlqrbADqNpBSdf) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/7ne16mmOe84) [![Built at](https://img.shields.io/badge/Built%20at-HackOdisha%205.0-0052CC?style=flat-square)](https://hackodisha-4.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> Community for Micro Innovation Hub
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![JSON](https://img.shields.io/badge/JSON-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+Innovation is not always about big inventions or complex technologies. Many times, it begins with small creative solutions, everyday hacks, or new ways of doing simple tasks. Unfortunately, most of these ideas stay limited to the person who thought of them. They are rarely documented, shared, or appreciated, and as a result, their potential impact on society is lost. InnoHub – Community Micro-Innovation Hub has been created to solve this gap by providing a platform where people can easily post, share, and explore small innovations.
+
+The main purpose of this project is to encourage grassroots creativity and to build a space where even small-scale ideas get visibility. Every person, whether a student, homemaker, professional, or hobbyist, has unique experiences and often discovers small tricks that make life easier. These micro-innovations may not be “patent-worthy” or business-level inventions, but they hold great value for communities. InnoHub ensures that such ideas do not get lost in personal notebooks or conversations, but instead become accessible to everyone.
+
+One of the biggest problems today is that innovation is often centralized. We hear about big companies or research institutions creating new technologies, but the small, everyday ideas of ordinary people go unnoticed. This creates a sense that innovation is only for experts, while in reality, everyone can be an innovator in their own space. InnoHub addresses this problem by democratizing innovation—giving every individual a simple platform where they can contribute without needing technical skills, patents, or huge investments.
+
+Another problem it solves is the lack of simple documentation and knowledge sharing. Suppose someone comes up with an easy water-saving method at home, or a student finds a shortcut to learn a difficult concept, or a community worker discovers a low-cost health solution—such ideas could benefit many others if shared widely. But due to the absence of a common hub, such solutions remain isolated. InnoHub brings these ideas together, making them searchable and categorized (for example, Tech, Health, Environment, Education), so that people can not only share but also learn from one another.
+
+The project also solves the challenge of accessibility. Unlike complex platforms that require logins, technical knowledge, or heavy backend systems, InnoHub is extremely lightweight. It runs directly in the browser, uses simple APIs for data storage, and is hosted freely on platforms like GitHub Pages or Netlify. This ensures that anyone with a basic internet connection can access, share, and browse ideas. The simplicity of the platform itself is part of its purpose—to make innovation sharing as easy as possible.
+
+In addition, InnoHub fosters community engagement. By allowing people to like or upvote ideas, it encourages positive feedback and recognition. This motivates individuals to share more and improves collaboration. Over time, this can even lead to the growth of local innovation communities, where small ideas inspire bigger ones.
+
+To summarize, the purpose of InnoHub is to create an open, accessible, and community-driven platform that values small innovations just as much as big ones. It solves the problem of invisibility, isolation, and lack of recognition faced by everyday innovators. By doing so, it spreads knowledge, inspires creativity, and builds a culture where innovation belongs to everyone.
+
+**Challenges we ran into**
+
+The biggest challenge I faced while building InnoHub was managing the data without using a full backend. Since I decided to keep it lightweight and hostable, I had to rely on JSONBin API, and initially my form submissions were overwriting old data instead of adding new ones. Debugging API calls, handling POST vs PUT, and fixing CORS errors took a lot of effort.
+
+On the frontend, rendering data dynamically into cards and making the search/filter feature work properly was tricky because the JSON data sometimes caused blank pages or misalignment. Styling also gave me issues—cards overlapped and responsiveness broke until I refined the CSS.
+
+Another challenge was balancing features with simplicity. I wanted logins, image uploads, and a stable like counter, but with just JSONBin, scalability was limited. These struggles taught me error handling, API debugging, and how to build a clean UI with limited resources.
+
+Team **Hackovators** -- [Aanchal Bhatt](https://github.com/aanchal911), [Aditipriya Dubey](https://github.com/aditipriyadubey)
+
+`2025-09-06`
+
+---
+
+### Friend sumo- ai summarizer
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/friend-sumo-ai-summarizer-8773) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/swayambiswal007/HackOdisha) [![Built at](https://img.shields.io/badge/Built%20at-HackOdisha%205.0-0052CC?style=flat-square)](https://hackodisha-4.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> Your Ally for research for research and learning
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square)
+
+**The problem it solves**
+
+Ai summarizer that generates quiz from the summary and uploaded file and finds research paper
+
+Team **Basundhara Bois** -- [Swayam Biswal](https://github.com/swayambiswal007), [SWAGATA Mohapatra](https://github.com/Swagata-lang)
+
+`2025-09-07`
+
+---
+
+### Student Classroom Management System
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/student-classroom-management-system-260e) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Ayushkr018/SCMS-Student-Classroom-Management-System/tree/main) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://scms018.netlify.app/) [![Built at](https://img.shields.io/badge/Built%20at-Zero's%20Arena%2001-0052CC?style=flat-square)](https://zeros-arena-1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> Automate. Engage, Excel
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+Problem Solution
+SCMS solves critical education challenges: eliminates proxy attendance through AI facial recognition and GPS tracking, prevents online exam cheating with advanced proctoring, provides 24/7 student support via AI chatbot, automates resource management, enables collaborative learning through Study Buddy matching, and offers predictive analytics for early intervention.
+Impact: 60% reduced admin overhead, 85% improved exam integrity, saves teachers 2-3 hours daily, provides real-time performance tracking for students and parents. Transforms traditional education with AI automation while maintaining human teaching focus.
+
+**Challenges we ran into**
+
+Challenges I ran into
+Real-time WebRTC Implementation Issues
+The biggest nightmare was getting WebRTC to work consistently across different browsers and network conditions. Initially, the video calls would randomly drop or fail to establish connections, especially when students joined from mobile devices or poor network areas.
+Solution: Had to implement a fallback mechanism with TURN servers and added network quality detection. Spent 3 days debugging why Chrome and Safari were handling getUserMedia() differently for camera access.
+Facial Recognition Accuracy Problems
+The face recognition system was giving too many false positives and negatives. Students with glasses, different lighting conditions, or when they changed hairstyles - the system would fail to recognize them properly.
+Solution: Switched to a multi-angle training approach and added confidence scoring. Had to collect more diverse training data and implement a backup verification system that asks students to remove glasses or move to better lighting.
+MongoDB Aggregation Pipeline Performance
+When generating reports for large datasets (1000+ students), the queries were taking 15-20 seconds to load, making the admin dashboard practically unusable during peak usage.
+Solution: Redesigned the database schema with proper indexing and implemented data caching with Redis. Also broke down complex aggregation queries into smaller, parallel operations. Performance improved from 20s to under 2s.
+Socket.io Memory Leaks in Live Sessions
+During long live classes (2+ hours), the server memory would keep increasing and eventually crash when handling 50+ concurrent users. Took forever to figure out that event listeners weren't being cleaned up properly.
+Solution: Implemented proper cleanup mechanisms in useEffect hooks and added connection pooling. Had to add heartbeat checks to detect disconnected clients and clean up their resources automatically.
+Gemini API Rate Limiting Chaos
+The AI chatbot would randomly stop working during high usage periods because we were hitting Google's API limits without proper queue management. Students would get frustrated when their doubts weren't getting answered.
+Solution: Built a smart queueing system with request prioritization and implemented response caching for common queries. Added fallback responses when API limits are reached and upgraded to a higher tier plan.
+CORS and Authentication Headaches
+Spent 2 full days fighting CORS errors when trying to implement file uploads with authentication. The frontend couldn't send files to the backend with JWT tokens properly.
+Solution: Had to configure express-cors properly and implement custom middleware for handling multipart/form-data with authentication. Also switched from storing tokens in localStorage to httpOnly cookies for better security.
+
+Team **Ctrl Alt Defeat** -- [Ayush Kumar](https://github.com/topics/peak-detection?l=python), [NANDAN PRADHAN](https://github.com/pradhannandan), [Snehit Pandey](https://github.com/SnehitPandey), [Nishant Gupta](https://github.com/nishant0820), [Nishant Malik](https://github.com/callmenixsh), [ASHUTOSH JHA](https://github.com/t)
+
+`2025-08-30`
+
+---
+
+### Skill Vault
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/skill-vault-c1e2) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/SoumyadipRoy16/sc2) [![Built at](https://img.shields.io/badge/Built%20at-StatusCode%202-0052CC?style=flat-square)](https://statuscode-2.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> Turn Your Learning Into a Living Proof
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Nginx](https://img.shields.io/badge/Nginx-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+Finding the right opportunities is harder than it should be. Students have their skills scattered across resumes, certificates, GitHub, and LinkedIn, but there’s no trusted way to prove what they actually know. Recruiters spend hours going through profiles that often don’t reflect real abilities. Universities also struggle to maintain verified records for placements.
+
+SkillVault fixes this by bringing everything together in one place. It’s a secure digital vault where students upload their achievements, and Skillie (our AI powered by Gemini API) analyzes them to create a Fit Score that shows how ready someone is for a job or academic opportunity. This makes it easier for students to prove their skills, recruiters to hire faster, and universities to showcase verified talent.
+
+**Challenges we ran into**
+
+While building SkillVault, we faced several technical hurdles.
+
+The first major issue was deploying on Vultr Cloud, where configuring the servers and ensuring smooth backend–frontend communication took multiple iterations.
+
+We also struggled with designing a clean and responsive Passport layout that worked consistently across desktop and mobile views.
+
+Another challenge was integrating MongoDB with Vultr, where connection stability and security had to be fine-tuned.
+
+Overcoming these hurdles taught us a lot about cloud deployment, UI design consistency, and database optimization, ultimately making our platform more reliable and professional.
+
+**Vultr Cloud Deployment Track**
+
+Even after facing multiple technical hurdles during deployment, we successfully launched our project on the Vultr cloud platform. From handling configuration errors to resolving integration challenges with MongoDB and backend services, each issue pushed us to learn and improve. Overcoming these errors not only strengthened our project’s stability but also gave us valuable hands-on experience in real-world cloud deployment.
+
+**Best Use of Gemini API**
+
+Best Use of Gemini API in SkillVault
+
+The Gemini API powers Skillie, our AI engine that drives the intelligence behind SkillVault. Its best use lies in:
+
+Smart Skill Extraction & Understanding
+
+From resumes, certificates, and project descriptions, Gemini extracts skills with semantic precision, going beyond keywords to truly understand context.
+
+Fit Score Generation
+
+Gemini compares a user’s skills against job descriptions or academic requirements, generating a personalized Fit Score.
+
+This helps students instantly see how well they align with a role and what skills they are missing.
+
+Job Insights via JD Analysis
+
+By simply pasting a job link or description, Gemini analyzes the role and returns key responsibilities, required skills, and gaps in the user’s profile.
+
+Personalized Recommendations
+
+Based on the analysis, Gemini suggests courses, projects, or learning paths to bridge the gaps, making the platform a career guide.
+
+In short, the Gemini API transforms SkillVault from a static portfolio tool into a dynamic career intelligence system that helps students, universities, and recruiters make data-driven, AI-backed decisions.
+
+**Best Use of MongoDB Atlas**
+
+In my project, MongoDB serves as the core storage system, ensuring scalability and flexibility for handling diverse datasets. Through Python connectivity, the database integrates smoothly with the application’s backend, enabling efficient real-time operations. A FLUTV-based approach is used to streamline data flow, improving system performance and reliability. To enhance query execution speed, caching and carefully designed indexes are implemented for optimized performance. All user data is fully encrypted, both at rest and in transit, ensuring strong security and compliance. MongoDB’s combination of speed, scalability, and security makes it the ideal backbone for my project’s requirements.
+
+Team **Omicode** -- [Soumyadip Roy](https://github.com/SoumyadipRoy16), [Anidipta Pal](https://github.com/Anidipta), [Bikram Mondal](https://github.com/BikramMondal5)
+
+`2025-08-24`
+
+---
+
+### ScholarNest
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/scholarnest-6f69) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/avighyan07/Scholar_Nest.git) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/tAHagA8Lk34) [![Built at](https://img.shields.io/badge/Built%20at-StatusCode%202-0052CC?style=flat-square)](https://statuscode-2.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> Gateway_To_Smart_Learning
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![YouTube Data API](https://img.shields.io/badge/YouTube%20Data%20API-333333?style=flat-square) ![Rapid API](https://img.shields.io/badge/Rapid%20API-333333?style=flat-square)
+
+**The problem it solves**
+
+The Problem It Solves
+
+In today’s fast-paced academic environment, students often struggle with:
+
+ Scattered study materials across different platforms
+
+ Difficulty finding reliable notes and curated resources
+
+ Lack of structured roadmaps for learning
+
+ Limited access to mock interviews and AI-powered tools
+
+ No single place to track progress and stay motivated
+
+This fragmentation makes learning time-consuming, confusing, and less effective.
+ 
+ How Study Hub Helps
+
+Study Hub is designed to centralize and simplify the learning process:
+
+ Access Notes – Well-curated, subject-specific notes in one place
+
+ Watch Lectures – Handpicked video resources to complement learning
+
+ Take Quizzes – Test knowledge instantly with topic-based quizzes
+
+  Track Progress – Visualize learning progress and achievements
+
+ Roadmaps – Structured learning paths to guide you step by step
+
+ AI Chatbot & Interview Prep – Get instant answers and practice interviews
+
+ Jobs & Internships – Stay updated with the latest opportunities
+
+ Why It Makes Learning Easier
+
+Saves time  → No need to search multiple sites for notes, lectures, and jobs.
+
+Boosts productivity  → One dashboard for everything you need.
+
+Personalized learning  → Tailored study recommendations and AI assistance.
+
+Career-ready → Connects learning with real-world opportunities.
+
+**Challenges we ran into**
+
+1. Navbar Responsiveness
+
+Problem: The navigation bar wasn’t collapsing properly on smaller screens, causing layout issues.
+
+Solution: I fixed it by correctly using Bootstrap’s responsive classes (navbar-expand-lg, navbar-toggler) and adjusting the CSS to ensure smooth transitions.
+
+ 2. Dark Theme Consistency
+
+Problem: Some Bootstrap components (like dropdowns and forms) didn’t match the custom dark theme, making the UI look inconsistent.
+
+Solution: I manually overrode Bootstrap’s default styles in CSS and used custom gradient buttons to maintain a clean, uniform dark theme.
+
+3. Hero Section Background Image
+
+Problem: The hero section background image was getting stretched and distorted.
+
+Solution: I switched from background-size: 100% 100% to background-size: cover; background-position: center;, which preserved the aspect ratio and made it visually appealing.
+
+4. Flask Integration with Frontend
+
+Problem: Passing variables like user points (xp) and selected domain data from Flask to the Jinja2 templates initially caused errors.
+
+Solution: I debugged step by step, added conditional checks ({% if g.user %}), and structured the data properly before rendering templates.
+
+ 5. Smooth Animations & Performance
+
+Problem: Adding animations (ticker, fade-in effects) sometimes slowed down performance on lower-end devices.
+
+Solution: I optimized animations with CSS keyframes instead of heavy JavaScript, which made the site smoother and more responsive.
+
+**Education**
+
+Study Hub is a one-stop learning platform designed to make studying simpler, smarter, and more engaging. It centralizes all essential academic resources like notes, video lectures, quizzes, roadmaps, job opportunities, and AI tools into a single, user-friendly website.
+
+ Key Features
+
+ Access Notes – Curated subject-specific handwritten notes.
+
+ Watch Lectures – High-quality video resources for deeper understanding.
+
+Take Quizzes – Test your knowledge with interactive quizzes.
+
+ Track Progress – Monitor your learning journey and achievements.
+
+ Roadmaps – Follow structured learning paths to master your domain.
+
+ AI Chatbot – Ask questions and get instant answers.
+
+ Jobs & Internships – Stay updated with the latest opportunities.
+
+ AI Interview Prep – Practice interviews and get real-time feedback.
+
+Team **Code Catalyst** -- [Avighyan Chakraborty](https://github.com/avighyan07), [Anish De](https://github.com/Bajajs), [Amiya Bhowmik](https://github.com/AmiyoX2), [AMIT ROY](https://github.com/trygithubrit)
+
+`2025-08-24`
+
+---
+
+### ShramikSaathi
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/shramiksaathi-832e) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/uddalak2005/ShramikSaathi) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://youtu.be/wB8YGS28e7o) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/wB8YGS28e7o) [![Built at](https://img.shields.io/badge/Built%20at-StatusCode%202-0052CC?style=flat-square)](https://statuscode-2.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> Jobs, support & community for migrant workers
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square)
+
+**The problem it solves**
+
+# 🛠️ Shramiksaathi – Migrant Worker Welfare Application
+
+Empowering India’s migrant workforce through technology, welfare, and dignity.
+
+Shramiksaathi is a welfare-focused mobile and IVR application designed to support migrant workers in India. Migrant workers often face exploitation, lack of access to government schemes, language barriers, job insecurity, and social isolation. This platform aims to bridge the gap between workers, NGOs, government resources, and financial institutions through secure, multilingual, and accessible technology.
+
+🌍 Vision
+
+A one-stop platform that:
+
+Connects migrant workers to government schemes, financial aid, job opportunities, and legal advocacy.
+
+Builds community trust through secure communication, fair marketplaces, and NGO partnerships.
+
+Prioritizes data privacy, fairness, and accessibility with compliance to India’s DPDP Act and RBI guidelines.
+
+👥 Target Users
+
+Migrant Workers: Skilled & unskilled, urban & rural.
+
+NGOs: Moderators, advocates, and support providers.
+
+Employers & Consumers: Access to verified worker marketplace.
+
+Microfinance Banks: Loan & credit partners.
+
+🔑 Core Principles
+
+🔒 Security: End-to-end encryption, anonymized data, regular audits.
+
+⚖️ Fairness: AI trained on diverse datasets (regional dialects, demographics).
+
+📶 Accessibility: Multilingual voice input/output, IVR support, offline caching.
+
+🤝 Sustainability: NGO partnerships for trust & scalability.
+
+📊 Monitoring: Built-in analytics, fraud detection, feedback loops.
+
+📱 Key Features
+1. RAG-powered Government Schemes Finder
+
+Problem: Migrants miss out on benefits due to jargon, scattered info, language barriers.
+
+Solution:
+
+Uses Retrieval-Augmented Generation (RAG) to fetch real-time scheme info.
+
+Multilingual voice/text queries (e.g., “What health schemes are available?”).
+
+Personalized recommendations + offline caching of popular schemes.
+
+Mitigation: Verified API sources, cached fallback, push notifications for deadlines.
+
+2. Location-based Community with Hate Speech Detection
+
+Problem: Isolation, discrimination, and lack of local trusted support.
+
+Solution:
+
+Geo-fenced community groups with NGO moderation.
+
+AI-powered hate speech detection trained on Indian dialects.
+
+Anonymous posting, trusted helper badges, gamified contributions.
+
+Mitigation: Opt-in location privacy, NGO verification, user reporting system.
+
+3. Mandi Marketplace for Skills
+
+Problem: Exploitation & unfair wages in informal jobs.
+
+Solution:
+
+Peer-to-peer job marketplace for workers & employers.
+
+Fair wage suggestions, escrow payments, verified profiles.
+
+NGO endorsements for skills & ratings.
+
+Mitigation: Wage floors, escrow fund release, fraud detection AI.
+
+4. Loan Application with Credit Justification
+
+Problem: Migrants rely on high-interest informal loans.
+
+Solution:
+
+Alternative credit scoring using earnings, ratings, job history.
+
+Links with local microfinance banks & govt-backed loans.
+
+Financial literacy modules + repayment calculators.
+
+Mitigation: Anonymized data sharing, capped interest rates, blockchain-like audit trails.
+
+5. Free Advocacy & Legal Support
+
+Problem: Wage theft, harassment, and lack of affordable advocacy.
+
+Solution:
+
+Simple IVR/click interface to raise disputes.
+
+Connects to NGOs & advocates; tracks case progress.
+
+Emergency escalation (hotlines, police support).
+
+Mitigation: Encrypted case records, verified NGO network, SMS/IVR fallback.
+
+
+🛡️ Loophole Minimization
+
+API Failures → Redundancy & cached offline data.
+
+Fraudulent Accounts → Video/ID verification + escrow.
+
+Hate Speech/Spam → AI detection + NGO moderation.
+
+Loan Defaults → Ethical scoring + small loan trials.
+
+Privacy Risks → End-to-end encryption + anonymization.
+
+🗣️ Tech Stack (Proposed)
+
+Frontend: React.js
+
+Backend: Python (FastAPI/Flask), Express.js, Node.js for real-time.
+
+Database: MongoDB + Redis (caching).
+
+AI/NLP: RAG (Pinecone + multilingual embeddings).
+
+Telephony: IVR via Twilio/Exotel.
+
+Hosting: AGCP scalable infra.
+
+Models: All models are Build in-house.
+
+🎯 Impact
+
+Empowers workers: Access to welfare schemes & fair jobs.
+
+Builds trust: NGO moderation & fair-pay systems.
+
+Improves financial stability: Ethical loans, advocacy support.
+
+Strengthens communities: Safe local forums & resource sharing.
+
+**Challenges we ran into**
+
+Problem: Wage theft, harassment, and lack of affordable advocacy.
+
+Solution:
+
+Simple IVR/click interface to raise disputes.
+
+Connects to NGOs & advocates; tracks case progress.
+
+Emergency escalation (hotlines, police support).
+
+Mitigation: Encrypted case records, verified NGO network, SMS/IVR fallback.
+
+🛡️ Loophole Minimization
+
+API Failures → Redundancy & cached offline data.
+
+Fraudulent Accounts → Video/ID verification + escrow.
+
+Hate Speech/Spam → AI detection + NGO moderation.
+
+Loan Defaults → Ethical scoring + small loan trials.
+
+**Open Innovation**
+
+Shramiksaathi is a mobile and IVR platform empowering India’s migrant workforce with technology, welfare, and dignity. Migrant workers often face exploitation, limited access to government schemes, language barriers, job insecurity, and social isolation. This platform bridges gaps between workers, NGOs, government resources, and financial institutions through secure, multilingual, and accessible technology.
+
+Key features include a RAG-powered Government Schemes Finder offering real-time, personalized, multilingual welfare recommendations; a Geo-fenced Community with NGO moderation and AI-based hate speech detection; and a Mandi Marketplace ensuring fair wages, verified profiles, and escrow payments. Workers can also access ethical loans with alternative credit scoring and financial literacy modules, and free advocacy/legal support via IVR or app interfaces for wage disputes or harassment cases.
+
+Shramiksaathi emphasizes security, fairness, accessibility, and sustainability, with end-to-end encryption, anonymized data, offline caching, NGO partnerships, and fraud detection. Built with React.js frontend, Python/Node.js backend, MongoDB + Redis, AI/NLP RAG pipelines, and IVR via Twilio/Exotel, it leverages in-house models to provide reliable, inclusive support.
+
+By connecting workers to schemes, fair jobs, financial aid, and community resources, Shramiksaathi strengthens financial stability, trust, and social inclusion for India’s migrant workforce.
+
+Team **BongoBoltu** -- [Uddalak Mukhopadhyay](https://github.com/uddalak2005), [Nirupon Pal](https://github.com/Nirupon123), [Souherdya Sarkar](https://github.com/Souherdya)
+
+`2025-08-24`
+
+---
+
+### Synapsee
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/synapsee-7394) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://drive.google.com/file/d/1freVvt7-O5mYdPAEBh9XFdXtyDDMbzAO/view?usp=sharing) [![Built at](https://img.shields.io/badge/Built%20at-StatusCode%202-0052CC?style=flat-square)](https://statuscode-2.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> AI POWERED EDUCATION MADE EASIER
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square)
+
+**The problem it solves**
+
+KEEPS A TRACK OF ATTENTIVENESS OF MEMBERS
+
+**Challenges we ran into**
+
+DEPLOYMENT IN VULTR
+
+**Education**
+
+IT ENHANCES ONLINE EDUCATION
+
+Team **Endpoint** -- [Srijita Ray](https://github.com/Srijita0519), [Kritika Das](https://github.com/Kritika-17git), [Beauty Mondal](https://github.com/Beauty-Mondal-123), [Ishita Sarkar](https://github.com/Ishita055), [Khusboo Agarwalla](https://github.com/Khusboo-Agarwalla)
+
+`2025-08-24`
 
 ---
 
@@ -6104,6 +8477,1516 @@ UniVerse centralizes attendance, marks, activities, and lost & found into one sm
 Team **Blaze** -- [Tarandeep Singh](https://github.com/tarantanuldh), [Yuvraj Singh](https://github.com/starnger-1000), [Navneet Singh Panesar](https://github.com/-)
 
 `2025-11-16`
+
+---
+
+### NeuroReel
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/neuroreel-13c5) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Blue-Onion/NeuroReel) [![Built at](https://img.shields.io/badge/Built%20at-hackCBS%208.0-0052CC?style=flat-square)](https://hackcbs-8.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> "Netflix for Corporate Learning"
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+Boring company training? Like endless PDFs and videos nobody watches? Your app fixes that. Upload a training doc (like sales tips) and photos of your team. AI reads the doc, writes fun scripts, and makes short videos where your coworkers (as AI avatars) act it out—like Netflix episodes, but for work skills.
+Watch on your phone: Bite-sized clips with quizzes, team chats, and badges. No more forgetting stuff—everyone actually learns and loves it. Tagline: "Binge work, win big." Boom, training that's addictive, not annoying.
+
+**Challenges we ran into**
+
+the challenges we got were that it was veo 3 was not able to generate the video as it was having  time out  error
+
+Team **BRO** -- [Subal Kumar](https://github.com/Subalkum), [Aditya Rawat](https://github.com/Blue-Onion)
+
+`2025-11-09`
+
+---
+
+### Prism
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/prism-f254) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Avneesh26024/HackCBS-8.0-) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://db-agent-api-service-698063521469.asia-south1.run.app/docs) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/lu91CNgfZGM) [![Built at](https://img.shields.io/badge/Built%20at-hackCBS%208.0-0052CC?style=flat-square)](https://hackcbs-8.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Query, Visualize, Export, All in Natural Language
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![RAG](https://img.shields.io/badge/RAG-333333?style=flat-square)
+
+**The problem it solves**
+
+## The Problem It Solves
+
+Most organizations especially **small businesses** struggle to use their own data because accessing insights requires technical skills, writing SQL, or waiting for developers. Simple tasks like checking sales trends, understanding customer behavior, or analyzing expenses become slow and inefficient. As a result, valuable data remains unused, and decision-making suffers. MI-7 solves this by making data analysis instant, conversational, and accessible to everyone.
+
+## What People Can Use It For
+
+### 1. Ask Any Data Question in Plain English
+
+People can chat with their data just like they chat with a human:
+
+* “Show me my top-selling products.”
+* “Find anomalies in last month’s revenue.”
+* “Plot a box chart of expenses from the Excel file.”
+  MI-7 converts these into accurate SQL or Python code automatically.
+
+### 2. Use Data From Any Source — Even Excel/CSV
+
+MI-7 supports:
+
+* Excel files
+* CSV files
+* MySQL, PostgreSQL, SQLite
+* (Plus upcoming support for MongoDB, Firebase, and more)
+  Users can upload sheets and instantly run analysis without formulas or BI tools.
+
+### 3. Automatic Visualizations and Reports
+
+MI-7 generates:
+
+* Charts and graphs
+* Anomaly detection visuals
+* Statistical summaries
+  Users can export everything to Excel or PDF in one click.
+
+### 4. Built for Small Businesses Too
+
+Small businesses often don’t have data teams. MI-7 becomes their **AI data analyst**:
+
+* Analyze sales, inventory, expenses, customers
+* Understand trends without hiring analysts
+* Make faster decisions from simple English questions
+
+### 5. Faster, Safer, and More Accurate Insights
+
+* Schema-aware RAG improves SQL accuracy
+* Real-time code execution eliminates manual errors
+* Multi-source support centralizes all business data in one place
+
+**Challenges we ran into**
+
+## Challenges We Faced
+
+### 1. Deep SQL Agent Reasoning
+
+Building an agent capable of performing **context-aware SQL generation**, multi-step reasoning, and deep analytical queries proved difficult.
+
+* Ensuring the agent correctly interprets the user’s analytical intent (aggregation, joins, correlations) required continuous prompt refinement.
+* Handling ambiguous natural-language questions and converting them into valid SQL demanded extensive testing.
+
+### 2. Multi-Database Compatibility
+
+Supporting **multiple database types** introduced significant architectural complexity.
+
+* SQL dialect differences (MySQL vs PostgreSQL vs SQLite) caused query inconsistencies.
+* Schema extraction and metadata normalization across SQL, NoSQL, and file-based sources (CSV/XLSX) required a unified abstraction layer.
+
+### 3. Graph Plotting Pipeline
+
+Initially, we attempted to generate visualizations **directly in JavaScript** from backend results.
+
+* Inconsistent formatting, large dataset handling, and LLM-generated JS chart code created reliability issues.
+* We ultimately standardized on a **Python-based plotting pipeline**, which allowed the agent to generate stable matplotlib outputs that were then streamed to the frontend.
+
+### 4. Semantic Understanding of Columns
+
+The system still struggles with **semantic interpretation of column meaning**.
+
+* LLMs often treat column names literally without understanding business context (e.g., “amount”, “value”, “total” being synonymous).
+* This affects query accuracy and requires an improved embedding-based semantic layer.
+
+### 5. 3D Schema Visualization in React + Three.js
+
+Implementing **interactive 3D ER diagrams** with React and Three.js was one of the most technically challenging components.
+
+* Achieving physics-based node interaction, smooth rendering, and proper relationship mapping required major iterations.
+* Maintaining performance for large schemas demanded optimization and dynamic loading techniques.
+
+**Best Use of Gemini API**
+
+Our project leverages the Gemini API as the analytical engine that turns plain-English questions into accurate, context-aware SQL and Python workflows. Using a RAG-enhanced design with schema embeddings(Gemini Embedding), Gemini understands database structure, generates correct analytical queries, and even produces visualization code executed on the backend. This allows any usertechnical or not to access deep insights, real-time analysis, and instant visualizations across multiple data sources. Gemini transforms MI-7 from a chatbot into a fully autonomous data-analysis agent.
+
+Team **MI-7** -- [jastej singh](https://github.com/JastejS28), [Harshit Chaudhry](https://github.com/harshitchaudhry-007), [Avneesh Avneesh](https://github.com/Avneesh26024), [Aditya Channa](www.github.com/adityachanna)
+
+`2025-11-09`
+
+---
+
+### InsightIQ
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/insightiq-5db5) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/harshitraajesh/InsightIQ) [![Built at](https://img.shields.io/badge/Built%20at-Hack%20On%20Hills%207.0-0052CC?style=flat-square)](https://hackonhills7.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> From reading to learning-instantly
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square)
+
+**The problem it solves**
+
+Today's learners face several major challenges:
+1. Information Overload - Too much data to process efficiently.
+2. Inefficient Learning Process - Students often struggle to focus on key points.
+3. Inadequate Summarization Tools - Current tools lack depth and personalization. 
+4. Need for better Comprehension Tools - Learners require smarter aids to truly understand content.
+
+**Challenges we ran into**
+
+Integrating AI with flask backend.
+Connecting frontend with backend seamlessly.
+Optimizing AI model performance for accuracy and speed.
+
+Team **404 NOT FOUND** -- [Harshal Sapra](https://github.com/sapraharshal04), Madhav Khandelwal, [Harshit Raajesh](https://github.com/harshitraajesh), [Nirbhay Kumar](https://github.com/nk2271223-mech)
+
+`2025-11-02`
+
+---
+
+### NAVAI
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/navai-a75d) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://navai.world) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/XurvRyXpHJ8?si=mXj9pTLNKqhcpXKb) [![Built at](https://img.shields.io/badge/Built%20at-Base%20Batches%20002:%20Builder%20Track-0052CC?style=flat-square)](https://base-batches-builder-track.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> The Real-Time Digital Twin, Powered by Community
+
+![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![PyTorch](https://img.shields.io/badge/PyTorch-333333?style=flat-square) ![C++](https://img.shields.io/badge/C++-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Golang](https://img.shields.io/badge/Golang-333333?style=flat-square)
+
+**The problem it solves**
+
+**Solving Data Staleness:** NavAI provides a living map with constant, real-time updates from its global network. This allows an autonomous vehicle to safely navigate a new exit ramp hours after it opens, instead of waiting 6-12 months for a traditional map update.
+
+**Closing the Indoor Gap:** NavAI creates centimeter-accurate 3D maps of complex indoor spaces where GPS fails. This enables a technician in a hospital or data center to be guided with pinpoint accuracy directly to a fault, reducing troubleshooting time by an estimated 25% .
+
+
+**Eliminating Prohibitive Costs:** NavAI's crowdsourced DePIN model makes high-fidelity mapping affordable. An automotive OEM, instead of spending over $10 million to create a proprietary HD map, can license fresher data from the NavAI network for a fraction of the price, opening the market to more innovators .
+
+**Challenges we ran into**
+
+A critical technical challenge we engineered our system to overcome was the poor keypoint accuracy found in early models like D2-Net, which detected features on low-resolution maps, causing unacceptable imprecision for 3D reconstruction.
+
+Our solution, inspired by the ASLFeat paper, is Multi-Level Feature Fusion (MulDet). Instead of using one low-resolution layer, our AI fuses data from multiple layers to restore full spatial resolution. This gives us pixel-level accuracy without adding heavy computational cost, enabling high precision on our low-cost device.
+
+**Link to the GitHub Repo of your project**
+
+https://github.com/bankbiz
+
+**Live URL of your project**
+
+naval.world
+
+**What is your product’s unique value proposition?**
+
+**Data Consumers (businesses and developers) and Data Contributors (the community).
+**
+**For Data Consumers (B2B Clients & Developers)
+**
+High-Fidelity & Fresh Data: NavAI provides geo-referenced, real-time, high-resolution 3D point cloud data. Because the map is constantly updated by a global network of contributors, the data is fresher and more granular than what can be provided by traditional, slower survey methods.
+
+
+Significant Cost Reduction: By crowdsourcing data collection, NavAI reduces the enormous capital and operational costs associated with centralized mapping providers. This allows the network to offer both spatial data and compute services at a significantly lower cost than competitors like Google Cloud, AWS, and Azure.
+
+
+Trust, Transparency & Censorship Resistance: NavAI's competitive edge is its trustless and auditable infrastructure. By using the blockchain, it delivers transparency, censorship resistance, and data sovereignty that centralized entities simply cannot provide.
+
+
+**For Data Contributors (The Community)
+**
+Data Ownership & Monetization: In contrast to centralized models where users receive nothing, contributors to the NavAI network are compensated with cryptocurrency tokens ($NAVI) for their data. This provides a direct financial value and monetization path for their contribution .
+
+
+
+Shared Value & Ownership: The project operates on a "Shared Value Model". This gives contributors a direct, tradable stake in the network's success, creating a community-owned, public utility rather than a private corporate moat controlled by a single company .
+
+**Who is your target customer?**
+
+NavAI targets two distinct groups: the **Data Consumers** who purchase our products, and the **Network Contributors** who build our decentralized infrastructure.
+
+ **1. Data Consumers (The Demand Side)**
+
+This group consists of the B2B and B2C clients who will purchase and use NavAI's data and services. The customer focus evolves in two phases:
+
+**Phase 1: B2B & Enterprise Clients**
+[cite_start]The initial focus is strictly on B2B clients who require high-fidelity spatial data for their operations[cite: 172]. This includes:
+* [cite_start]**Autonomous Vehicle & Robotics companies** requiring precise navigation data[cite: 173].
+* [cite_start]**AR/VR/Metaverse developers** needing detailed digital twins[cite: 174].
+* [cite_start]**Logistics & E-commerce companies** for indoor warehouse mapping and last-mile delivery optimization[cite: 175].
+* [cite_start]**Smart City planners** requiring up-to-date infrastructure models[cite: 176].
+* [cite_start]**AI/ML Model Developers** looking for a cheaper, more granular alternative to existing static map data providers [cite: 265-266].
+
+**Phase 2: Ecosystem & B2C Expansion**
+[cite_start]As the map matures, the customer base expands to include businesses and end-users of the ecosystem application[cite: 212]:
+* [cite_start]**Points of Interest (POIs)** such as retail stores, malls, hotels, and museums seeking to increase foot traffic and sales[cite: 219].
+* [cite_start]**Online Travel Agencies (OTAs) & Booking Engines** looking for partners with hyper-local contextual data[cite: 220].
+* [cite_start]**End Users (B2C)** including travelers, shoppers, and local residents who will use the NavAI application for navigation, discovery, and immersive experiences[cite: 221].
+
+**2. Network Contributors (The Supply Side)**
+
+This group is the target audience for building the decentralized infrastructure. [cite_start]Their primary motivation is to earn **$NAVI** rewards for their contributions[cite: 264].
+* [cite_start]**Gig Economy Workers:** Delivery and ride-share drivers who can passively collect valuable map data during their daily routes[cite: 263].
+* [cite_start]**DePIN Enthusiasts:** Individuals already familiar with crypto incentives who are motivated to participate in building new, community-owned networks[cite: 263].
+* [cite_start]**Early Adopters:** Tech-savvy users and early adopters of spatial computing hardware who will purchase the proprietary NavAI smartphone to be the first contributors to the network[cite: 221].
+
+**Who are your closest competitors and how are you different?**
+
+NavAI's competition can be grouped into two main categories:
+
+1.  **Direct DePIN Competitors:** These projects use a similar decentralized, token-incentivized model. The primary competitor in this space is:
+    * **Hivemapper:** A decentralized mapping project that rewards drivers with its HONEY token for collecting street-level imagery and mapping data using proprietary dashcams.
+2.  **Primary Centralized Competitor:** While the long-term vision is to compete with Google, the document identifies **Niantic** (creators of Pokémon GO) as a key ideological and market competitor in the centralized AR mapping space. Niantic uses its popular games to incentivize millions of users to submit "AR Mapping" scans to build its proprietary 3D map.
+
+
+
+**How NavAI is Different**
+
+NavAI differentiates itself from both centralized and other decentralized competitors through its business model, core technology, and data philosophy.
+
+* **Business Model & Data Ownership (vs. Centralized Players like Niantic)**
+    * **NavAI:** Operates on a **"Shared Value Model"**. The network is community-owned, and the data is treated as a public, shared utility. Contributors who provide data are compensated with tradable **$NAVI** tokens, giving them a direct financial stake in the network's success.
+    * **Niantic:** Operates an **"Extractive Model"**. The platform is corporate-owned, and the company maintains full control and ownership over all user-submitted data. Users are rewarded with non-monetary, in-game items, while the corporation captures all the financial value from the data.
+
+* **Core Technology & Data Type (vs. DePIN Players like Hivemapper)**
+    * **NavAI:** The core technology is focused on creating a **high-fidelity, 3D point cloud map** using proprietary devices with LiDAR sensors and an advanced AI Perception Engine. This enables centimeter-level accuracy and the seamless integration of both **indoor and outdoor** spaces.
+    * **Hivemapper:** Is primarily focused on collecting **2D street-level imagery** via dashcams for outdoor mapping. NavAI's focus on 3D data and indoor environments is a key technological differentiator.
+
+* **Openness & Interoperability**
+    * **NavAI:** Promotes a **single, open, and standardized data format**. This allows any business to easily integrate NavAI's data with a simple API call, breaking down the data silos common in the industry.
+    * **Centralized Competitors:** Operate as proprietary, closed ecosystems. Their different data formats force customers to spend millions on custom integration software just to use map data from multiple providers.
+
+**What is your distribution strategy and why?**
+
+Our distribution strategy is a step-by-step plan to build the NavAI network city by city. The entire model is made possible by the low transaction fees on the **Base L2** blockchain, which allows us to affordably reward our global community of contributors.
+
+Here is our three-step plan:
+
+**1. Start Small & Dense (Months 1-3)**
+We will launch in **one single city** to create a dense, high-quality map. We'll attract our first "Mappers" by offering strong token rewards and launching a **Kickstarter campaign** for our proprietary smart device.
+
+**2. Scale & Prove the Model (Months 4-9)**
+We will expand to **3-5 new cities**, using a referral program for growth. During this phase, we'll secure our first enterprise clients and activate the **$NAVI Buyback & Burn** mechanism, proving our economic model is sustainable.
+
+**3. Go Global & Decentralize (Months 10-18)**
+Using our proven model, we will expand into **key international markets**. We will also transition the project to a **full DAO**, handing over ownership and governance of the network to our community.
+
+[Apinya Simueang](https://github.com/bankbiz)
+
+`2025-10-16`
+
+---
+
+### WordBase
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/chessbase-5ffc) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://farcaster.xyz/miniapps/Tedatht8Be4w/wordbase) [![Built at](https://img.shields.io/badge/Built%20at-Base%20Batches%20002:%20Builder%20Track-0052CC?style=flat-square)](https://base-batches-builder-track.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Education
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square)
+
+**The problem it solves**
+
+Traditional language learning apps keep progress locked inside the platform. When a user stops paying or switches apps, their learning history, vocabulary mastery, and improvement data are lost. WordBase solves this by making language learning progress portable and user-owned. It allows people to practice real, high frequency vocabulary with an AI tutor, while every step of their progress is recorded on-chain as a verifiable learning profile. This makes language learning more transparent, transferable, and consistent across devices, platforms, and time. Users don’t start from zero each time; their learning journey becomes something they truly own.
+
+**Challenges we ran into**
+
+One of the main challenges was managing on-chain progress updates without slowing down the user experience. Recording learning data directly to the blockchain can introduce latency, which affects the flow of practice sessions. To solve this, I implemented a lightweight local state layer that syncs with the chain in the background, so the user interacts instantly while their progress is still securely recorded on-chain. Another challenge was building adaptive AI prompts that respond naturally to the user’s mistakes. I refined this by training the AI to focus on weak words and usage patterns rather than just repeating static flashcards. These solutions helped the app remain smooth, responsive, and genuinely personalized.
+
+**Link to the GitHub Repo of your project**
+
+https://github.com/Bihruze/wordbase
+
+**Live URL of your project**
+
+https://wordbase-roan.vercel.app/
+
+**What is your product’s unique value proposition?**
+
+WordBase is an AI powered vocabulary learning app built on the Oxford 5000 list, where each user’s progress is stored on-chain and owned by the learner, not the platform. Unlike traditional language apps that lock data inside their systems, WordBase turns vocabulary mastery into a portable and verifiable skill record. The alpha version already demonstrates this through adaptive AI practice sessions, real-time difficulty adjustment based on weak words, and on-chain progress tracking that creates a transparent and user-owned learning identity. This transforms language learning from a closed experience into something users can truly keep, prove, and carry across platforms.
+
+**Who is your target customer?**
+
+WordBase targets language learners who want measurable, real world progress rather than gamified streaks. This includes students preparing for international exams, professionals improving workplace communication, and multilingual users who want to maintain vocabulary consistently. Early feedback from testers showed that many learners struggle with remembering words long-term and feel frustrated when switching apps resets their progress. These users responded positively to the idea of owning and carrying their learning history on-chain. Their feedback helped validate that a portable, verifiable learning profile directly addresses a real need in serious, goal-oriented language learners.
+
+**Who are your closest competitors and how are you different?**
+
+The closest competitors are Duolingo (https://duolingo.com), Memrise (https://memrise.com), and Quizlet (https://quizlet.com). These platforms offer vocabulary practice, but they store all learning progress inside their own systems, meaning users lose their history and proficiency record if they stop using the app or switch to another platform. WordBase is different because learning progress is recorded on-chain, giving users a portable, verifiable learning identity they truly own. While traditional apps focus on gamified engagement, WordBase focuses on long-term mastery through AI driven adaptive practice based on the Oxford 5000 high-frequency word list. This makes the learning experience not only more personalized, but also transparent, transferable, and durable across time and platforms.
+
+**What is your distribution strategy and why?**
+
+WordBase will grow through a community-driven and creator led distribution strategy. Language learners often trust recommendations from real users and niche learning communities more than traditional ads. By focusing on educational influencers, language learning Discord groups, Farcaster channels, and on-chain learning communities, we can reach users who care about measurable progress rather than casual gamification. This approach fits the product because its core value owning your learning progress resonates most strongly with motivated learners who already engage in online study spaces, language challenges, and Web3-enabled identity or credentialing experiments. Over time, partnerships with language schools and online academies can extend WordBase into formal learning environments, turning on-chain progress into a recognized skill record.
+
+[seher eroglu](https://github.com/Bihruze)
+
+`2025-10-19`
+
+---
+
+### CiviGenie
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/civicgenie-32c2) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://nimble-trifle-a486bb.netlify.app/) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> CivicGenie: Streamlining community solutions.
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square)
+
+**Description of your solution**
+
+A full-stack web application enabling citizens to submit and track
+
+community complaints while providing administrative tools
+
+for government officials. Features include multi-role authentication,
+
+complaint management, file uploads, real-time dashboard, and admin panel
+
+with bulk operations.
+
+**Healthtech: Bring your own problem in Healthtech, leveraging Agentic AI.**
+
+This project focuses on improving community harmony and reducing health issues that arise due to civic issues.
+
+Team **Deep Learners** -- [Ayush Mishra](https://github.com/AyushMsihra-20), [SURAJ MAHTO](https://github.com/SurajMahto471), [Pranjal Pal](https://github.com/pranjalpal03)
+
+`2025-08-16`
+
+---
+
+### SmartKhata
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/smartkhata-3639) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Your Trusted Partner for Rural Business Growth
+
+![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Redux](https://img.shields.io/badge/Redux-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Chart.js](https://img.shields.io/badge/Chart.js-333333?style=flat-square) ![Google API](https://img.shields.io/badge/Google%20API-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**Description of your solution**
+
+Our project Smart Khata is a digital finance management platform designed to make record-keeping simple, smart and accessible for everyone, especially small shopkeepers, local vendors and individuals who still use paper notebooks to track their daily transactions.
+We noticed that many people face issues like lost records, calculation mistakes and missed payments due to manual bookkeeping. To solve this, we decided to build Smart Khata, a modern digital ledger that not only stores transactions securely but also helps users understand their financial activities better.
+With Smart Khata, users can easily add credits and debits, view balances instantly and record transactions using voice commands in their local language. The system also sends automatic reminders for pending payments through WhatsApp or SMS to help users avoid missed dues.
+What makes Smart Khata unique is its use of AI-based insights. It can automatically categorize expenses, detect unusual transactions and provide a simple Financial Health Score to help users understand how they are managing money. We have also added an offline mode so users can record entries even without internet, which is perfect for rural or low-connectivity areas.
+In short, Smart Khata aims to bring the benefits of digital finance management to the grassroots level by combining simplicity, intelligence and security in one easy-to-use platform.
+
+**Fintech: Bring your own problem in Fintech, leveraging Agentic AI.**
+
+Our project Smart Khata fits perfectly into the Fintech track as it focuses on simplifying financial record-keeping for small businesses and individuals through intelligent automation. It leverages Agentic AI to transform a simple digital ledger into a proactive financial assistant.
+Using Agentic AI, Smart Khata can automatically analyze spending patterns, detect unusual transactions, and plan actions such as sending reminders or suggesting ways to balance credits and debits. The AI also provides personalized insights, predicts future cash flow, and communicates with users through WhatsApp or voice assistants to help them stay financially organized.
+This approach goes beyond traditional finance apps by creating an AI agent that not only records data but also understands, plans, and acts making Smart Khata an intelligent financial companion that supports users in making smarter financial decisions.
+
+Team **Team Elite** -- [Rohit Patil](https://github.com/Rohit164), [Harsh Patkar](https://github.com/harsh-Patkar), [Varun Sangale](https://github.com/varun-sangale), [Nishant Prasad](https://github.com/Nishantprasad24)
+
+`2025-10-15`
+
+---
+
+### AI-Powered Study Assistant
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/aipowered-study-assistant-8afa) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> AI-Driven Learning, Personalized for You.
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**Description of your solution**
+
+💡 WHAT we’re building
+
+An AI-powered study assistant that transforms scattered resources—like lecture recordings, PDFs, or YouTube links—into a complete, personalized learning system.
+It uses generative AI and adaptive learning models to create notes, summaries, flashcards, quizzes, and roadmaps—saving hours of manual work.
+The assistant learns from each user’s behavior and study patterns, tailoring study flows to their preferred style—whether visual, detail-oriented, or practice-driven—and evolves as they progress. Acting as both AI tutor and smart organizer, it helps learners retain knowledge better, cover topics faster, and learn in a structured, engaging way.
+
+🔥 The GAP we’re solving
+
+Students waste countless hours manually summarizing, organizing, and searching for study material.
+While AI tools like ChatGPT, Perplexity, and NotebookLM provide quick answers or summaries, they don’t deliver an end-to-end, adaptive learning experience. They lack personalization, progress tracking, and dynamic roadmaps.
+Our solution bridges this gap by combining generative AI, personalized learning analytics, and active recall into one intelligent platform.
+
+👥 WHO it’s for
+
+Students (school, college, or exam prep)
+
+Professionals upskilling or preparing for certifications
+
+Lifelong learners exploring new subjects
+
+🚀 GTM & Revenue Model
+
+Freemium: Core AI features (notes, summaries, flashcards) are free.
+
+Premium: Adaptive AI roadmaps, personalized tutoring, curated playlists, and learning analytics.
+
+👉 Why we’re different
+
+Unlike generic AI tools, we’re building a personalized, adaptive, end-to-end AI learning companion that helps every learner reach their potential faster.
+
+**Misinformation: Bring your own problem in Misinformation, leveraging Agentic AI.**
+
+Students often face information overload and misinformation when studying online (e.g., misleading YouTube lectures, inaccurate resources, outdated PDFs).
+
+Team **Hardware Geeks** -- Avneesh Chauhan, Ankit bhandari
+
+`2025-10-03`
+
+---
+
+### GramAI
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/gramai-33f1) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Digital Finance, Rural Reach
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![React Native](https://img.shields.io/badge/React%20Native-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**Description of your solution**
+
+# Implementation Architecture
+
+## Backend Systems
+
+**Microservices architecture for scalability**
+
+- Real-time data processing with Apache Kafka/Redis
+
+- Blockchain integration for secure identity verification
+
+- API gateway for third-party integrations (banks, government databases)
+
+**Data Sources Integration**
+
+- Bank statement analysis APIs
+
+- UPI transaction data processing
+
+- Telecom metadata analysis (with user consent)
+
+- Government database integration (Aadhaar, GST, employment records)
+
+**Security and Compliance**
+
+- End-to-end encryption for all data transmission
+
+- GDPR/data localization compliance
+
+- Audit trails for regulatory reporting
+
+- Consent management system
+
+## Expected Outcomes and Impact
+
+**Measurable Goals**
+
+- Enable credit access for 50,000+ previously "credit invisible" users within 6 months
+
+- Reduce loan processing time from weeks to hours
+
+- Achieve 90%+ accuracy in alternative credit scoring
+
+- Support 15+ Indian languages with 95%+ translation accuracy
+
+- Decrease KYC completion time by 80% through automation
+
+**Social Impact**
+
+- Financial inclusion for underserved rural populations
+
+- Women empowerment through accessible financial services
+
+- MSME growth enablement through easier credit access
+
+- Reduced dependency on informal lending sources with high interest rates
+
+## Evaluation Criteria
+
+**Technical Excellence (30%)**
+
+- AI model accuracy and performance
+
+- System scalability and reliability
+
+- Security implementation quality
+
+- Integration completeness
+
+**Innovation and Feasibility (25%)**
+
+- Novel approaches to alternative credit scoring
+
+- Creative solutions for language barriers
+
+- Practical implementation considering rural constraints
+
+- Use of emerging technologies (blockchain, federated learning)
+
+**User Experience and Accessibility (25%)**
+
+- Multilingual interface quality
+
+- Voice interaction effectiveness
+
+- Offline functionality
+
+- Cultural sensitivity and local context adaptation
+
+**Business Viability and Impact (20%)**
+
+- Clear revenue model and sustainability
+
+- Regulatory compliance demonstration
+
+- Partnerships with financial institutions
+
+- Potential for scaling across different regions
+
+## Technology Stack Suggestions
+
+**AI/ML Framework**
+
+- TensorFlow/PyTorch for model development
+
+- Hugging Face Transformers for multilingual NLP
+
+- scikit-learn for traditional ML algorithms
+
+- Apache Spark for big data processing
+
+**Backend Development**
+
+- Node.js/Python for API development
+
+- MongoDB/PostgreSQL for data storage
+
+- Redis for caching and session management
+
+- Docker/Kubernetes for containerization
+
+**Frontend/Mobile**
+
+- React Native/Flutter for cross-platform mobile apps
+
+- Progressive Web App for offline functionality
+
+- Speech recognition APIs for voice interfaces
+
+**Integration Services**
+
+- Government APIs (DigiLocker, Aadhaar, GST)
+
+- Banking APIs (Account Aggregator framework)
+
+- Payment gateways (UPI, banking partners)
+
+**Fintech: Bring your own problem in Fintech, leveraging Agentic AI.**
+
+# Real-World Hackathon Problem Statement: AI-Powered Rural Financial Inclusion Agent for India
+
+## Problem Statement
+
+**Title**: "SmartSahayak - AI Agent for Rural Financial Inclusion and Credit Access"
+
+### Background
+
+Despite significant digital payment growth in India, **over 160 million Indians remain "credit invisible"** and **22% of adults are still unbanked**. Rural India faces unique challenges in accessing financial services due to multiple barriers: **low financial literacy, language barriers, biometric authentication failures, poor digital infrastructure, and complex KYC processes**.
+
+The microfinance sector, despite having **₹4 lakh crore in outstanding loans, still fails to serve millions who need credit**. Traditional credit scoring systems exclude **98% of microfinance borrowers who don't have credit scores**, while **fraud costs lenders over ₹1,000 crore annually**.
+
+### Core Problem
+
+**How can an AI agent system bridge the gap between rural India's financial needs and formal financial services, providing personalized, multilingual, and culturally-aware financial guidance while enabling secure credit access for the underserved?**
+
+## Detailed Problem Scope
+
+### Target Users
+- **Rural farmers and agricultural workers** with irregular income patterns
+- **Women entrepreneurs** facing gender-based financial exclusion barriers  
+- **Small business owners and micro-merchants** operating primarily in cash
+- **First-time borrowers** with no formal credit history
+- **Daily wage workers** in the gig economy without traditional employment records
+
+### Key Challenges to Address
+
+#### 1. **Language and Communication Barriers**
+- Support for India's **22 official languages** and regional dialects
+- Voice-based interactions for users with **limited digital literacy**
+- Cultural context understanding for financial advice delivery
+
+#### 2. **Alternative Credit Assessment**
+- Leverage **non-traditional data sources**: UPI transaction patterns, utility bill payments, mobile usage metadata, GST returns, bank statement analysis
+- Process **unstructured financial data** from handwritten records and informal transactions
+- Implement **psychometric assessments** and behavioral analysis for creditworthiness
+
+#### 3. **KYC and Verification Challenges** 
+- Address **biometric authentication failures** common among manual laborers
+- Handle **documentation discrepancies** and name mismatches across identity documents
+- Provide **offline-capable verification** for areas with poor connectivity
+
+#### 4. **Financial Education and Literacy**
+- Deliver **personalized financial education** based on user's specific context and needs
+- Provide **government scheme awareness** and application assistance
+- Offer **budgeting and saving guidance** tailored to irregular income patterns
+
+#### 5. **Trust and Security**
+- Implement **explainable AI** for credit decisions to build user trust
+- Provide **fraud detection** with contextual explanations
+- Ensure **data privacy protection** for sensitive financial information
+
+## Technical Requirements
+
+### Core AI Agent Capabilities
+
+#### 1. **Multilingual Conversational Interface**
+- **Natural language processing** in 22+ Indian languages
+- **Voice-to-text and text-to-voice** functionality for accessibility
+- **Contextual understanding** of financial terminology in local dialects
+
+#### 2. **Alternative Credit Scoring Engine**
+- **Machine learning models** trained on alternative data sources
+- **Real-time risk assessment** using banking transaction analysis
+- **Fraud detection algorithms** with pattern recognition capabilities
+- **Explainable AI** providing reasons for credit decisions
+
+#### 3. **Personalized Financial Advisory System**
+- **Income pattern analysis** for irregular earnings
+- **Customized saving and investment recommendations**
+- **Government scheme matching** based on user profile
+- **Financial goal setting and tracking**
+
+#### 4. **Document Processing and KYC Automation**
+- **OCR technology** for handwritten document digitization
+- **Smart document verification** with tamper detection
+- **Multi-modal biometric alternatives** for authentication failures
+- **Offline data synchronization** capabilities
+
+Team **Ace** -- Vedant Kokane, Vinit Kane
+
+`2025-10-07`
+
+---
+
+### Bharat Regional Language-Fact-News Detection
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/fndai-bharat-regional-language-fact-news-detection-system-3471) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Prathameshsci369/-Bharat-Regional-Language-Fact-News-Detection-System) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Few Shots, Many Languages, Infinite Truths
+
+![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Streamlit](https://img.shields.io/badge/Streamlit-333333?style=flat-square)
+
+**Description of your solution**
+
+---
+
+## 🧩 **Solution: Our Approach**
+
+The **Bharat: Regional Language Fact News Detection System** is designed as one **agentic, self-learning AI pipeline** that keeps scanning Indian media and social platforms in **real time** — detecting fake or misleading content before it spreads.
+
+We didn’t build just another classifier — we built a system that **understands context**, **thinks logically**, and **verifies facts** step-by-step using trusted national sources.
+
+It starts from a simple idea:
+
+> “What if a single AI could read India’s 22 languages, understand the claim, and verify it — all without needing millions of samples?”
+
+That’s exactly what Bharat does.
+It uses **few-shot multilingual fine-tuning (MuRIL style)** so the model learns faster with less data — and still captures language-specific tone, emotion, and misinformation patterns.
+
+When new content appears online, Bharat automatically:
+
+1. **Detects and extracts the claim** — whether it’s a news line, post, or quote.
+2. **Breaks it down into atomic statements** that can be independently verified.
+3. **Searches for matching evidence** from verified databases — PIB, ECI, government fact-check portals, and Wikipedia.
+4. **Applies an entailment reasoning model** to check if the evidence supports, contradicts, or refutes the claim.
+5. **Generates a final summary** — in **ClaimReview JSON** format, with a grounding score, short explanation, and official source citations.
+
+If something looks doubtful or politically sensitive, it goes into **human review mode** — ensuring neutrality and transparency.
+
+So in short — **Bharat** is not just detecting misinformation;
+it’s **building trust in regional language news**, empowering fact-checkers, and keeping people informed during national or regional crises.
+An Indian-made, multilingual truth engine — smart, adaptive, and built for real impact.
+
+---
+
+**Misinformation: Create an Agentic AI system that continuously scans multiple sources of information, detects emerging misinformation, verifies facts, and provides easy-to-understand, contextual updates to the public during crises.**
+
+🧠 Project Title:
+
+Bharat: Regional Language Fact News Detection System
+
+🎯 Problem Alignment
+
+“An agentic AI system that continuously scans multiple sources to detect emerging misinformation, verify facts, and provide easy-to-understand context to the public during crises.”
+
+💡 How Our Project Fits
+
+Bharat directly addresses this challenge by providing a multilingual, evidence-driven AI system that continuously monitors regional and national media sources to identify fake or misleading news in 22 Indian languages.
+Using few-shot multilingual fine-tuning (MuRIL-style), the model operates efficiently even with limited data.
+
+It detects claims, breaks them into atomic statements, and verifies each against trusted sources like PIB, ECI, and Wikipedia using entailment-based verification and iterative reasoning.
+
+The results are shared in ClaimReview JSON format, featuring confidence scores, citations, and clear explanations for public understanding.
+Low-confidence or politically sensitive claims are escalated for human review.
+
+During crises, Bharat ensures the public receives fast, multilingual, and reliable fact-based insights, reducing misinformation spread and improving trust in digital communication.
+
+Team **Vibe coders** -- Abhishek Patil, Prathamesh Anand
+
+`2025-10-13`
+
+---
+
+### PaisaaPal
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/paisaapal-d096) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Your language, your AI coach — smart and secure
+
+![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![SQLite](https://img.shields.io/badge/SQLite-333333?style=flat-square) ![Natural language processing (NLP)](https://img.shields.io/badge/Natural%20language%20processing%20(NLP)-333333?style=flat-square) ![Twilio](https://img.shields.io/badge/Twilio-333333?style=flat-square) ![Regex](https://img.shields.io/badge/Regex-333333?style=flat-square) ![Long short-term memory (LSTM)](https://img.shields.io/badge/Long%20short--term%20memory%20(LSTM)-333333?style=flat-square) ![AI/ML](https://img.shields.io/badge/AI/ML-333333?style=flat-square) ![RestAPIs](https://img.shields.io/badge/RestAPIs-333333?style=flat-square)
+
+**Description of your solution**
+
+We propose PaisaaPal, an Agentic AI financial coach that empowers gig workers and everyday citizens to achieve financial stability despite irregular income. PaisaaPal continuously observes user data (via SMS parsing in English/Hindi/Marathi or optional CSV uploads), reasons about spending patterns and goals, acts by proactively suggesting personalized strategies (like saving envelopes, capping festival spends, or recommending extra shifts), and reflects by replanning if the user rejects advice. Unlike passive budgeting apps, PaisaaPal is inclusive and India-first: it supports multilingual coaching, anticipates festival and seasonal spikes, enters emergency survival mode when balances run low, and even provides community benchmarking by comparing spending to peers. With privacy at its core, all SMS data is processed on-device, storing only patterns—not raw balances—while giving users full control.
+
+**Fintech: Build an autonomous financial coaching agent that adapts to real user behavior, spending patterns, and income variability - helping gig workers, informal sector employees, and everyday citizens make smarter financial decisions proactively.**
+
+PaisaaPal directly addresses a key FinTech challenge in India: making financial planning inclusive, proactive, and accessible for gig workers and everyday citizens.
+Most FinTech tools today are either complex investment platforms or passive expense trackers. They assume stable income, English literacy, and high digital adoption — which excludes a large section of the population who rely on bank/UPI SMS alerts in Hindi, Marathi, and English as their primary financial interface.
+PaisaaPal changes this by being an Agentic AI financial coach:
+It continuously observes real-world signals (SMS or user-uploaded data).
+It reasons about spending, income variability, and goals.
+It acts proactively by suggesting personalized budgets, savings envelopes, and even festival buffers.
+It reflects and replans when the user rejects advice.
+This makes it more than just a tracker — it’s a multilingual, autonomous financial companion that helps people save consistently, avoid debt traps, and prepare for emergencies.
+By focusing on financial resilience for the informal sector and gig economy, PaisaaPal directly fits the FinTech track’s goal of using technology to democratize financial well-being.
+
+Team **HackedByOP** -- Prashansa Bhatia, Om Chaudhari
+
+`2025-10-16`
+
+---
+
+### Financial Inclusion through UPI
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/financial-inclusion-through-upi-11d1) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Empowering the Unbanked through Digital Payments
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square)
+
+**Description of your solution**
+
+Our idea, “Financial Inclusion through UPI,” focuses on empowering unbanked and underbanked individuals by providing them with an easy, secure, and educational digital payment platform. Although UPI has revolutionized India’s digital payment system, millions of people—especially in rural areas, low-income households, and among micro-merchants—still struggle to access and understand these financial tools.
+
+To address this, we plan to build a user-friendly UPI-based mobile application that not only enables smooth money transfers but also promotes financial literacy through interactive tutorials, videos, and short quizzes on digital safety and responsible financial habits. The app will also include a merchant onboarding system, allowing small shopkeepers and street vendors to start accepting UPI payments easily. Users will get real-time transaction tracking and spending insights to help them manage their finances better.
+
+Our project stands out because it combines digital empowerment with financial education—something most payment apps overlook. By integrating learning with accessibility, we aim to make digital finance inclusive for all, strengthen trust in digital systems, and contribute to India’s vision of a cashless, financially aware society.
+
+Problem statements are:
+Problem Statement 1: Lack of Access to Formal Banking Services.
+Problem Statement 2: Digital Illiteracy and Lack of Awareness.
+Problem Statement 3: Limited Merchant Adoption.
+Problem Statement 4: Transaction Transparency and Trust Issues.
+Problem Statement 5: High Cost of Financial Exclusion.
+
+**Fintech: Build an autonomous financial coaching agent that adapts to real user behavior, spending patterns, and income variability - helping gig workers, informal sector employees, and everyday citizens make smarter financial decisions proactively.**
+
+As financial inclusion idea focuses on enabling everyone (especially underserved or low-income people) to participate in the digital economy via UPI.
+
+This track emphasizes helping gig workers and informal sector employees — exactly the kind of audience that benefits most from financial inclusion.
+
+The idea of smart financial decisions and behavior-based coaching aligns with UPI’s role in educating and empowering users financially.
+
+Team **SyntaxSparks** -- [Rupsa Shaw](https://github.com/rupsashaw68-code), [Swita Ghosh](https://github.com/ghoshswita2007-sudo)
+
+`2025-10-19`
+
+---
+
+### BudgetBuddy
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/budgetbuddy-9e6e) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Your Everyday Financial Coach — Learning, Adapting
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![React.js](https://img.shields.io/badge/React.js-333333?style=flat-square)
+
+**Description of your solution**
+
+Github: https://github.com/Kaijin2487/Budget_Budey.git
+Prototype: https://fincoach-ai-522475952937.us-west1.run.app/
+
+Problem:
+Millions of gig workers, daily-wage earners, and informal sector employees in India face unpredictable cash flows. Their income is irregular, expenses vary daily, and access to financial advice is limited. As a result, many struggle with savings, emergencies, and debt traps.
+
+Solution Overview:
+SafeBuffer is an AI-powered autonomous financial coaching platform that learns from each user’s income and spending behavior to provide personalized financial guidance, savings nudges, and adaptive budgeting — all in real time.
+It helps users proactively prepare for low-income days, plan better, and achieve short-term financial stability without needing financial expertise.
+
+💡 How It Works
+
+User Onboarding:
+Users enter or connect their income data (manual input, SMS parsing, or bank sync).
+
+Behavior Learning:
+The system analyzes income variability and spending trends using ML models (Prophet + LSTM hybrid).
+
+Cash Flow Forecasting:
+Predicts income and expenses for the next 30 days with uncertainty margins to detect possible shortfalls.
+
+Smart Nudges:
+Sends proactive recommendations like “Save ₹150 today — your balance may drop next Wednesday.”
+
+Auto-Save & Budget Actions:
+Users can instantly move small amounts into a savings wallet or adjust upcoming expenses.
+
+Localization & Accessibility:
+Multi-language (English, Hindi, Tamil) and voice-based support for low-literacy users.
+
+⚙️ Core Technology
+
+Frontend: React Native / Flutter for mobile app
+
+Backend: Python (FastAPI)
+
+Database: PostgreSQL + TimescaleDB
+
+AI Models: Prophet (forecasting), LightGBM (personalization), anomaly detection
+
+Cloud: Firebase / AWS / GCP
+
+Notifications: Twilio, WhatsApp Business API, Firebase Push
+
+🎯 Impact
+
+Empowers low- and middle-income individuals to make informed financial decisions
+
+Reduces stress from income uncertainty through predictive insights
+
+Encourages habit-forming micro-savings behavior
+
+Promotes financial inclusion using accessible digital tools
+
+📈 Why It’s Unique
+
+Unlike generic finance trackers, SafeBuffer:
+
+Understands irregular income patterns
+
+Adapts dynamically to each user’s real-world behavior
+
+Acts proactively, not reactively — it coaches before problems occur
+
+Works offline and via SMS, ensuring inclusivity
+
+🏆 Goal for the Hackathon
+
+To demonstrate a working prototype that:
+
+Tracks income and expenses
+
+Predicts future financial state
+
+Generates personalized AI-driven nudges
+
+Offers an interactive dashboard for decision-making
+
+Team **Ghost Agents** -- [Kunal Murudkar](https://github.com/KunalMurudkar), [Aakash Pawar](https://github.com/Aakash885)
+
+`2025-10-19`
+
+---
+
+### Legacy of Vishnu
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/legacy-of-vishnu-e26c) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://1adc4a7b-df9d-4414-b05b-6adb995dc9da-00-a4yjxhz2h8ot.riker.replit.dev/) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> An education game that is based Vishnu's avatars.
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![C++](https://img.shields.io/badge/C++-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![AWS](https://img.shields.io/badge/AWS-333333?style=flat-square) ![Blender](https://img.shields.io/badge/Blender-333333?style=flat-square) ![Unreal Engine](https://img.shields.io/badge/Unreal%20Engine-333333?style=flat-square)
+
+**Description of your solution**
+
+Description of Our Solution
+
+Our proposed solution is an educational and interactive game designed to bridge the gap between modern technology and ancient heritage. The game aims to educate the younger generation about Indian history and mythology through engaging storytelling and gameplay.
+
+In the game, Lord Vishnu’s avatars act as guides, leading players through various historical and mythological events. Each level presents stories, challenges, and facts that help players differentiate between authentic knowledge and misinformation commonly found online.
+
+By combining interactive learning, visual storytelling, and gamification, our solution not only promotes cultural awareness but also contributes to combating misinformation about our history and traditions. This project empowers players to learn, explore, and appreciate India’s rich cultural legacy in an enjoyable and meaningful way.
+
+**Misinformation: Bring your own problem in Misinformation, leveraging Agentic AI.**
+
+“Our project fits under the misinformation track because many people today don’t know the real facts about our history and gods. Through our game, where Lord Vishnu’s avatars guide the younger generation, we are trying to clear those wrong beliefs and tell the true stories in an interesting way. It helps players learn the truth instead of believing what they see randomly on the internet."
+
+Team **Adiyug** -- [Anugula Archana](https://github.com/Archanaanugula), Arun reddy
+
+`2025-10-19`
+
+---
+
+### Notes Sharing Website
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/notes-a1b9) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/rishitak-cloud/syntax-error) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/WZtYJs9HsEc) [![Built at](https://img.shields.io/badge/Built%20at-Syntax%20Error%202025-0052CC?style=flat-square)](https://syntax-error-2025.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> One stop solution for all notes for IITR students
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![MySQL](https://img.shields.io/badge/MySQL-333333?style=flat-square)
+
+**The problem it solves**
+
+Students often struggle to find organized and reliable notes. Existing sharing methods through chats or drives are messy, hard to search, and time-consuming.
+
+**Challenges we ran into**
+
+First hackathon 
+First year -> lack of prior experience
+Learning new things
+Debugging while integrating frontend, backend and database
+
+We tried our best to overcome these hurdles with valuable guidance from our seniors and online tutorials.
+
+**Open Track - Development**
+
+web development
+
+**Freshman Track**
+
+we are all first year students
+
+Team **Notes-IITR** -- Dhruvi Shah, Rishita Kandpal, [Akarsh Rohela](https://github.com/akarsh747), [Janhavi Chaudhari](https://github.com/janhavi297)
+
+`2025-10-12`
+
+---
+
+### Study PAL
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/study-pal-4c59) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Varsha130506/study-pal) [![Built at](https://img.shields.io/badge/Built%20at-Syntax%20Error%202025-0052CC?style=flat-square)](https://syntax-error-2025.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Make learning easier and fun
+
+![SQLite](https://img.shields.io/badge/SQLite-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![PyPDF2](https://img.shields.io/badge/PyPDF2-333333?style=flat-square) ![Vercel](https://img.shields.io/badge/Vercel-333333?style=flat-square) ![Render](https://img.shields.io/badge/Render-333333?style=flat-square)
+
+**The problem it solves**
+
+StudyPal is an AI-powered study assistant that turns your lecture notes or PDFs into concise summaries, multiple-choice quizzes, and flashcards within seconds.
+It helps students learn efficiently by applying active recall and spaced repetition—two proven techniques for better memory retention.
+
+Key Features:
+
+📄 Upload any text or PDF file of study material.
+
+✍️ AI-generated summaries and bullet takeaways.
+
+🎯 Automatic quiz generator with instant scoring.
+
+🧠 Flashcard export for quick revision (CSV / Anki format).
+
+📊 Retention score visualization after each quiz.
+
+**Challenges we ran into**
+
+- LLM Output Quality – The AI sometimes generated inaccurate or repetitive MCQs, so we fine-tuned prompts and added post-processing to ensure relevance.
+- PDF Text Extraction – Some scanned or formatted PDFs produced unreadable text, which we handled by adding plain-text upload and OCR fallback options.
+- API Rate Limits – Multiple parallel requests caused throttling, so we added response caching and used pre-generated demo data to stay within limits.
+- Slow Response Times – Generating quizzes and summaries took time; we implemented progress indicators and lightweight models for a smoother demo.
+- Data Handling & Privacy – Since users upload personal notes, we made all uploads temporary and excluded logs to protect sensitive information.
+- Frontend Integration Bugs – Managing file uploads and async responses initially broke UI states; fixing request handling and error messages solved it.
+- Parsing Structured Data – The model’s unstructured answers were hard to format, so we switched to JSON-style prompts with validation for consistency.
+- Demo Reliability – To avoid live API or network issues, we built a fallback “Demo Mode” and recorded a short demo video.
+
+**Open Track - Development**
+
+We are building a Study Pal which is gonna make all the learning fun for all students around the world making fun quizzes, flashcards and more engaging type of learning environment. We fit in open track development as we tend to bring our idea of solving the issue faced by multiple students around the word and have them utilize this aspect of our project making them easier to learn.
+
+Team **TechMakers** -- Saivarsha H, Jonathan M
+
+`2025-10-12`
+
+---
+
+### TinyQuiz
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/tinyquiz-e355) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/HishamHR5/tinyQuiz-Hackaura) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://tinyquiz.ai/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/TbTme1vCnoE) [![Built at](https://img.shields.io/badge/Built%20at-HackAura-0052CC?style=flat-square)](https://hackaura.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Generate AI-powered quizzes that make learning fun
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![AngularJS](https://img.shields.io/badge/AngularJS-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+TinyQuiz makes quiz creation and sharing effortless by combining AI generation, real-time participation, and automatic result tracking in one platform.
+
+Creating and sharing quizzes or practice questions online is often time-consuming, technical, and manual.
+Educators, students, and content creators spend hours preparing quizzes — from framing questions to designing interfaces and managing responses.
+Existing quiz tools either require complex setup, paid plans, or don’t allow real-time collaboration and instant AI generation.
+
+1. Potential Impact
+
+TinyQuiz can transform how educators, students, and creators design and share quizzes by automating the entire process with AI.
+It saves time, enhances learning engagement, and promotes interactive education at scale.
+Its accessibility and simplicity make it impactful for both academic and corporate learning environments.
+
+2. Uniqueness
+
+Unlike traditional quiz tools, TinyQuiz uses AI to instantly generate high-quality questions from any topic input.
+It also integrates real-time result tracking and auto-expiring quizzes, which most platforms lack.
+The blend of AI automation and live interactivity makes it distinct and innovative.
+
+3. Scalability
+
+TinyQuiz is built on a scalable MEAN stack with modular APIs and cloud database support.
+It can easily handle large numbers of users, quizzes, and real-time sessions simultaneously.
+Future scaling to mobile apps or LMS integrations can be done with minimal architectural changes.
+
+4. Technical Implementation
+
+The project uses Angular for the frontend, Node.js/Express for backend APIs, and MongoDB for data management.
+AI question generation is powered by Gemini AI, while Socket.IO enables real-time results and collaboration.
+Clean architecture, modular design, and API-based communication ensure maintainability and performance.
+
+5. Business Model
+
+TinyQuiz can follow a freemium model, offering basic AI quiz generation for free and premium tiers for educators or organizations.
+Revenue can be generated through subscriptions, custom branding, analytics dashboards, and API access for institutions.
+Its versatility allows B2C (students/teachers) and B2B (schools/training platforms) expansion opportunities.
+
+**Challenges we ran into**
+
+Initially, the AI-generated questions were inconsistent in structure sometimes missing options or correct answers.
+I solved this by using prompt engineering and regex-based post-processing to format the responses into a uniform JSON structure.
+
+Implementing live score updates for multiple users was tricky due to synchronization issues with WebSocket events.
+I overcame this by integrating Socket.IO rooms for each quiz session, ensuring smooth, event-driven communication between participants and the host.
+
+**AI**
+
+TinyQuiz uses AI to instantly generate topic-based quizzes, eliminating the need for manual question creation.
+It leverages natural language processing to produce accurate, structured MCQs with minimal input.
+Users can create, share, and view results in real time, making learning interactive and efficient.
+This project fits the AI track by showcasing how intelligent automation can simplify education and assessment.
+
+[Hisham S](https://github.com/HishamHR5)
+
+`2025-10-05`
+
+---
+
+### Learnflow.AI
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/learnflowai-4e24) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Akshit-stack/learnflow.ai) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://learnflowai1.vercel.app) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/4o5wKPxcGZE?si=pNLYfk5iG4X1my3Q) [![Built at](https://img.shields.io/badge/Built%20at-NexHack-0052CC?style=flat-square)](https://nexhack.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Personalized, interactive AI learning made simple
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Artificial Intelligence](https://img.shields.io/badge/Artificial%20Intelligence-333333?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square)
+
+**The problem it solves**
+
+Learnflow.AI addresses critical gaps in the current e-learning landscape, including low student engagement, a lack of personalization, poor retention, limited collaboration, and the absence of easy access to real-time academic help.
+
+People can use Learnflow.AI for:
+
+Making subjects interactive and engaging via quizzes, flashcards, and mind maps
+
+Personalizing their study materials and learning pace with adaptive tools
+
+Receiving instant help and clarification through the AI-powered Master Teacher chatbot
+
+Collaborating with peers through features like quiz sharing and the Battle Ground for friendly competition
+
+Streamlining revision using automatically generated flashcards and concise notes from various learning resources
+
+These features not only improve knowledge retention but also help learners stay motivated, better understand complex topics, and receive immediate support any time it’s needed—all within one integrated platform.
+
+**Challenges we ran into**
+
+One of the main challenges faced during development was ensuring accurate and contextually relevant quiz and flashcard generation from diverse content sources (like YouTube videos, PDFs, and text). Early prototypes often struggled to extract concise, valuable learning points or misinterpreted content structure. This was mitigated by refining natural language processing algorithms and aggressively testing across multiple types of input.
+
+Another issue emerged in the seamless integration of the AI chatbot with the quiz and note modules, so all components felt interconnected for the end-user. We overcame this by establishing clear API contracts and improving real-time data flow between modules. This made sure the AI can access user progress instantly and offer contextual guidance wherever needed.
+
+Finally, making collaborative tools feel truly social required careful UI/UX design iterations to encourage sharing, competition, and community without overwhelming users with notifications or distractions. User feedback and continuous design improvements helped create a more natural collaborative environment
+
+Team **RAW RANGERS** -- [Aditya Yadav](https://github.com/Aditya3102006), Dhruv Thakran, Akshit Nainwal, [Dev Sahu](https://github.com/devsahu8), [Aryan Goyat](https://github.com/aryangoyat1152-source)
+
+`2025-09-20`
+
+---
+
+### N.A.I.N.A
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/naina-13fc) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/yuganshjoshi18/N.A.I.N.A.git) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/uVDW1j4xVAA?feature=shared) [![Built at](https://img.shields.io/badge/Built%20at-NexHack-0052CC?style=flat-square)](https://nexhack.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Where technology meets accessibility.
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+People with visual, hearing, and speech impairments face significant challenges in accessing information and communicating effectively:
+
+Visually impaired users struggle to read printed or digital text, limiting access to education, documents, and online content.
+
+Hearing-impaired users face barriers in understanding spoken communication, as real-time sign language recognition is rarely available.
+
+Speech-impaired users find it difficult to interact with systems that rely heavily on voice commands.
+
+Existing accessibility solutions are fragmented — OCR, TTS, STT, and Sign Language tools exist separately, making them inconvenient and less effective.
+
+As a result, differently abled individuals experience digital exclusion, restricted independence, and reduced participation in education, work, and daily life.
+
+**N.A.I.N.A **(Neural Accessibility & Interaction for Natural Assistance) solves this problem by providing a unified accessibility hub that combines:
+
+Image-to-Text (OCR) + Text-to-Speech for visually impaired users
+
+Sign Language Recognition + Speech-to-Text for hearing impaired users
+
+Adaptive UI (Reader Mode, Font Adjuster) for inclusive experiences
+
+This directly addresses the problem of digital inaccessibility, ensuring equal access, independence, and empowerment for all users.
+
+**Challenges we ran into**
+
+**OCR Accuracy & Performance:**
+Initially, the OCR output was slow and inconsistent, especially with low-quality images. I overcame this by optimizing image preprocessing and integrating progress indicators to improve usability.
+
+**Real-time Sign Language Recognition:**
+Getting the hand landmarks to detect properly was challenging. I resolved this by using TensorFlow Handpose with Fingerpose gestures and fine-tuning the detection confidence threshold.
+
+**Text-to-Speech & Speech-to-Text Synchronization:**
+One hurdle was ensuring OCR output could be spoken directly and speech recognition didn’t overlap. I handled this by separating functions and providing explicit start/stop controls for smooth user experience.
+
+**UI Alignment & Accessibility:**
+Centering the navigation title and keeping the interface readable across devices took time. I used Tailwind utilities and responsive layouts to maintain a clean and inclusive design.
+
+Team **HangmanxRooster** -- Yugansh Joshi, Vansh Bansal
+
+`2025-09-20`
+
+---
+
+### Student-jarvis
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/studentjarvis-5d47) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Dhanush-Poduval/Student_Jarvis) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.loom.com/share/2494c8ef5bd14f4eb2c25a29d9d83d4e?sid=4cd65111-7eec-4b89-b9d0-b933672d4a94) [![Built at](https://img.shields.io/badge/Built%20at-mosAIc:%20AI%20in%20action%20with%20The%20Product%20Folks-0052CC?style=flat-square)](https://mosaicbytpf.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Your personal AI study assistant
+
+![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![SQLite](https://img.shields.io/badge/SQLite-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![RestAPIs](https://img.shields.io/badge/RestAPIs-333333?style=flat-square)
+
+**The problem it solves**
+
+Students often spend a lot of time going through long PDFs or Word documents, and even after reading, it’s hard to remember the important points. Student Jarvis helps by quickly creating clear, easy-to-understand summaries and flashcards from these documents. It can also turn the summaries into voice recordings, so students can listen and revise anytime, anywhere. By combining reading, summarizing, and audio learning in one app, it makes studying faster, easier, and less stressful.
+
+**Challenges we ran into**
+
+It was tough to integrate the voice endpoint to the frontend mainly because i had never done it before so that took a lot of time along with the backend making cause there where so many endpoints handling it became a bit tough and exhausting
+
+**Voice AI & Conversational Products | Powered by Elevenlabs**
+
+I use voice conversion of the summary created as many students learn more when they are listening to podcasts or audiobooks
+
+[Dhanush Poduval](https://github.com/Dhanush-Poduval)
+
+`2025-09-07`
+
+---
+
+### StudentTracker
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/studenttracker-e71b) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://student-tracker-2.onrender.com) [![Built at](https://img.shields.io/badge/Built%20at-mosAIc:%20AI%20in%20action%20with%20The%20Product%20Folks-0052CC?style=flat-square)](https://mosaicbytpf.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Track and Grow
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square)
+
+**The problem it solves**
+
+The Student Performance Tracker is a web platform designed for students and parents to easily track academic growth and stay organized.
+
+Key Features for Students & Parents
+
+Subject Performance Tracking → Monitor marks in each subject and see progress over time.
+
+Set Target Marks → Students can set academic goals (e.g., aim for 80% in Math) and measure how close they are to achieving them.
+
+Smart Calendar → Add and track upcoming important dates like exams, assignment deadlines, or project submissions.
+
+AI Feedback (Optional) → Get instant suggestions like “Focus more on Science this semester”.
+
+Secure Access → Parents and students can safely log in to view performance without risk of data loss.
+
+ Why It’s Useful
+
+Keeps students motivated by setting clear goals.
+Helps parents stay updated without waiting for report cards.
+Reduces manual tracking stress of marks and exam dates.
+Makes progress visible through a simple, user-friendly dashboard.
+
+**Challenges we ran into**
+
+One problem I faced while making the Student Performance Tracker was that the marks and targets were not updating properly in the database. 
+
+To solve this, I checked the backend code step by step, fixed the input handling, and corrected the update query. From this, I learned that debugging slowly and testing data carefully is very important.
+
+[Prachi Nawale](https://github.com/prachi-max)
+
+`2025-08-29`
+
+---
+
+### AI CampusPlug
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/ai-campusplug-9353) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://college-cheat-sheet.lovable.app) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/9H2JgpsBt1c?si=kztib89Lk4mT6wmO) [![Built at](https://img.shields.io/badge/Built%20at-mosAIc:%20AI%20in%20action%20with%20The%20Product%20Folks-0052CC?style=flat-square)](https://mosaicbytpf.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> The Student Survival Guide
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square)
+
+**The problem it solves**
+
+The Problem It Solves
+
+ College life = Confusing + Expensive + FOMO-driven.
+
+Students struggle with:
+	•	Finding cheap food & hangout spots.
+	•.    Getting quick notes or last-minute prep help.
+	•     Knowing what’s happening on campus (events, fests, hackathons).
+	•.    Unlocking perks/discounts with their Student ID.
+	•.     Contacting the right senior/faculty for guidance.
+
+Result:
+	•	Wasted money 
+	•	Missed opportunities 
+	•	Endless scrolling in WhatsApp/Instagram 
+	•	Extra stress during exams 
+ CampusPlug solves all of this in one place.
+
+**Challenges we ran into**
+
+Challenges We Ran Into
+	1.	Data Availability 
+	•	Not every campus has a centralized database for events, notes, or discounts.
+	•	Solution → Started with fake but realistic sample data from a few colleges.
+	2.	Scalability 
+	•	Each college has its own food joints, events, and quirks.
+	•	Challenge: how to scale across all colleges while keeping it hyper-local.
+	•	Solution → Designed a flexible data layer (easy to plug in new campuses).
+	3.	Student ID Verification 
+	•	Challenge: How to unlock global + local discounts while keeping it safe.
+	•	Solution → For demo, used mock verification → real-world, would integrate with .edu emails or campus systems.
+	4.	AI Tone 
+	•	Regular AI replies felt too robotic.
+	•	Solution → Prompt engineered it to “talk like a funny senior” using emojis, short lines, and casual slang.
+	5.	Time Crunch 
+	•	Hackathon deadlines → limited time to implement all features.
+	•	Solution → Focused on demo-ready flow: Chat, Events, Discounts, Directory.
+
+**Top 100 Participants**
+
+In the mosAIc hackathon, Lovable isn’t an official track but a partner tool, so your project “fits” by showing how you used Lovable to quickly design, build, and polish your app. To align with judging, pick the official track that best matches your core idea (e.g., Voice AI, AI Agents, etc.), then highlight how Lovable enabled you to prototype faster, create a seamless UI, and focus on solving the real AI problem. This way, you show both technical relevance to the chosen track and effective use of Lovable’s strengths, making your submission stronger.
+
+[Ankita Jethani](https://github.com/ankita966)
+
+`2025-09-07`
+
+---
+
+### Smart Solution for Students
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/smart-solution-for-students-92ac) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/anki2003ta/E_Learning2) [![Built at](https://img.shields.io/badge/Built%20at-HackOdisha%205.0-0052CC?style=flat-square)](https://hackodisha-4.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> SSS
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square)
+
+**The problem it solves**
+
+For Students (LMS):
+Seamless access to courses after payment.
+Real-time mentorship via chat.
+Personalized experience with profile editing & AI search.
+For Instructors (LMS):
+Simple course management (CRUD).
+Revenue-focused dashboard.
+Direct interaction with learners.
+For NEET Aspirants (Predictor System):
+Auto evaluation via OMR reader.
+Rank prediction & cutoff-based college suggestions.
+Smart dashboard for decision-making.
+
+**Challenges we ran into**
+
+Secure Auth: JWT & role-based middleware for login/signup.
+Stripe Sandbox: Testing & implementing encrypted payment flows.
+Realtime Tech: WebSockets for chat, AI APIs for search, Speech API for voice.
+Verified Data: Integrating authentic cutoff databases for NEET predictor.
+Cloud Infra: Scalable backend (AWS/Google Cloud) for peak load management.
+
+**🏆 Internship Opportunities at Threeway Studio**
+
+Fullstack, ml,cloud
+
+Team **Intel-Hub** -- [Angshuman Karmakar](https://github.com/anxumanK), [Ayush Kumar](https://github.com/akofficial10), [chandrashekar gorige](https://github.com/Gorigechandrashekar), [Minosh Perera](https://github.com/MinoshPerera/), [arpita nath](https://github.com/arpi2003ta)
+
+`2025-09-06`
+
+---
+
+### StudyBuddy
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/studybuddy-5256) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/aparnaa7/studybuddy.git) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://1drv.ms/p/c/4da7319f52fec1d8/EZ7iJUJtvshOhMr1tnRAhpUBoA4qv5Y-zQ-Sg4M3neGxeQ?e=BygWHr) [![Built at](https://img.shields.io/badge/Built%20at-HackOdisha%205.0-0052CC?style=flat-square)](https://hackodisha-4.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> A simple study app that helps students in studying
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square)
+
+**The problem it solves**
+
+problem- procrastination, losing motivation, when studying feels boring, inconsistent about studying.
+solution- this app have motivation quotes for the students to make them feel good and positive.
+- there is a tab for notes and homework to be done and there will be smart suggestions for that homework to be done.
+- it has small gamification like confetti blast to celebrate small wins like completing a homework.
+- in this way students would not feel overwhelmed while **studying,** instead they would feel motivated.
+
+**Challenges we ran into**
+
+i had a problem or bug in confetti coz its was quite new to me. I got to know some animations and it has a hard part in writing the code.  a lot of times errors did came and the confetti was not getting installed and working.
+
+[Aparna Sethi](https://github.com/aparnaa7)
+
+`2025-09-07`
+
+---
+
+### Minesweeper-game
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/moneytranscationsecurity-c298) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ChiragTankan/Minesweeper-game/blob/main/index.html) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://chiragtankan.github.io/Minesweeper-game/) [![Built at](https://img.shields.io/badge/Built%20at-HackOdisha%205.0-0052CC?style=flat-square)](https://hackodisha-4.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Focusing on Learning and Development
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square)
+
+**The problem it solves**
+
+"Sharpen your mind and test your reflexes with my Minesweeper game. It's a classic puzzle with a modern twist, perfect for a quick brain boost."
+
+"My Minesweeper game provides a stimulating mental workout, improving problem-solving, logical thinking, and pattern recognition skills. It's a classic game with endless replayability, perfect for stress relief and cognitive enhancement."
+
+ 
+
+Focusing on Learning and Development:
+
+"My Minesweeper game is more than just a game; it's a learning tool. Players can enhance their logical reasoning, decision-making, and risk assessment skills while enjoying a classic puzzle. It's a perfect platform for developers to learn and experiment with game development concepts."
+
+**Challenges we ran into**
+
+The biggest hurdle was developing the game logic to ensure the bombs were randomly placed without a clumped distribution, which would have made the game either too easy or impossible to solve. I overcame this by iterating on the bomb placement algorithm, finally settling on a method that first fills the grid with empty cells and then randomly scatters bombs one by one. This approach guarantees a balanced, playable grid every time.
+
+**Ethereum Track**
+
+Sharpen your mind and test your reflexes with my Minesweeper game. It's a classic puzzle with a modern twist, perfect for a quick brain boost.
+
+Team **Night Howlers** -- [jdlasjfkl jkhfdasfljals](https://github.com/joan), [peetar parker](https://github.com/harry), [Chirag Tankan](https://github.com/codewithtankan)
+
+`2025-09-07`
+
+---
+
+### Flashcard Website for students
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/flashcard-website-for-students-e725) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://hariniacecode.github.io/HackOdisha/) [![Built at](https://img.shields.io/badge/Built%20at-HackOdisha%205.0-0052CC?style=flat-square)](https://hackodisha-4.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Our student-focused flashcard website is designed
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square)
+
+**The problem it solves**
+
+The given website solves the problem of learning. Students get to learn quicker and faster using flashcards. Flashcards are useful tools to learn concepts or formulas in a very easy manner. So , we created a website which involves creating a card with the respective question and answer. Then the student can navigate through the cards and flip the card to know the answer.
+
+**Challenges we ran into**
+
+We were having challenges in Javascript but I was able to do it later on and resolved the problems.
+
+Team **hackerswonthisround** -- [Nikhitha Pathakamuri](https://github.com/PathakamuriNikhitha), [Tadepalli Meghana](https://github.com/TadepalliMeghana), [Devi Dasari](https://github.com/dasaridevi123), [Neha korvipati](https://github.com/KorvipatiNeha), [Harini Chinmayee](https://github.com/hariniacecode)
+
+`2025-09-07`
+
+---
+
+### Student Rooms
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/student-rooms-abce) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/dhruvil-1207/hackOdisha-frontend) [![Built at](https://img.shields.io/badge/Built%20at-HackOdisha%205.0-0052CC?style=flat-square)](https://hackodisha-4.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> A collaborative hub for students
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Go](https://img.shields.io/badge/Go-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+Student Rooms tackles the challenge of disorganized and disconnected online learning by providing a centralized, real-time collaborative platform. It empowers students to create focused virtual study groups, seamlessly share notes, and resolve academic doubts instantly, eliminating the distractions and fragmentation of generic chat applications.
+
+**Challenges we ran into**
+
+One of the primary challenges was architecting a robust state management system that could efficiently synchronize data from both REST API calls and live WebSocket events. Ensuring the UI updated instantly and accurately across all clients—when a new post was created, a comment was added, or a user came online—required careful implementation of React's Context API to prevent unnecessary re-renders while maintaining a consistent and responsive user experience.
+
+Team **ByteMates** -- [Uday Gadhavi](https://github.com/KraisuN-1010), [Neel Rathod](https://github.com/Neelr1912), [Dhruv Jani](https://github.com/dhruv-jani-0808), [Dhyeya Pandya](https://github.com/pandya11dhyeya), [Dhruvil Gandhi](https://github.com/dhruvil-1207)
+
+`2025-09-07`
+
+---
+
+### EduTrack
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/edutrack-15be) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://drive.google.com/file/d/1UlcT5wl_n-xt11KK_NaJLvpwCBkiFOJq/view?usp=drivesdk) [![Built at](https://img.shields.io/badge/Built%20at-HackOdisha%205.0-0052CC?style=flat-square)](https://hackodisha-4.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Where Education Meets Technology
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square)
+
+**The problem it solves**
+
+Automates Attendance → No more manual roll-calls, saves 100+ hours/year per teacher.
+
+Reduces Errors → Accurate digital records, avoiding proxy or missed entries.
+
+Productive Free Time → Converts idle student hours into personalized learning & career-building tasks.
+
+Boosts Engagement → Gamified activities keep students motivated & consistent.
+
+Supports Institutions → Gives admins real-time insights into attendance & student behavior.
+
+Policy Fit → Aligned with NEP 2020 for digital-first, AI-driven education.
+
+Scalable & Low-Cost → Works on smartphones, deployable at institution, state, or national level.
+
+**Challenges we ran into**
+
+One major hurdle was ensuring secure handling of biometric and attendance data, as privacy was a key concern. To overcome this, I implemented encryption, secure APIs, and JWT-based authentication.
+
+Another challenge was sustaining student engagement—interest tends to drop after a few weeks. This was solved by adding gamification features like streaks, badges, and weekly challenges.
+
+We also faced infrastructure issues since not all institutions have uniform devices or strong internet. To address this, we built a lightweight app with offline QR fallback, ensuring smooth use across diverse environments.
+
+Team **HerHackers** -- [Sriya Bose](https://github.com/SRIYA-BOSE), [Riya chandra](https://github.com/riyachandraofficial), [Manisha Rout](https://github.com/mkrout), [Priyadarshani Patra](https://github.com/Priyadarshanipatra-p), [OMSHREE DASH](https://github.com/omshreedash)
+
+`2025-09-08`
+
+---
+
+### Manimate
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/manimate-8720) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/VirajAnand-02/MANIMATE) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://manimate.vercel.app/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/J2Z5mdF4PnA) [![Built at](https://img.shields.io/badge/Built%20at-StatusCode%202-0052CC?style=flat-square)](https://statuscode-2.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Democratizing visual learning
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Firebase](https://img.shields.io/badge/Firebase-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Cloud](https://img.shields.io/badge/Cloud-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+Creating engaging animations, explainer videos, or educational content usually requires **advanced design skills, expensive tools, and a lot of time**. Most people, especially students, educators, startups, and early-stage creators, don’t have access to professional animation software or the expertise to use them effectively.
+
+As a result:
+
+* **Educators** struggle to make learning interactive and visually appealing.
+* **Students** find it difficult to present creative projects with high-quality visuals.
+* **Content creators & startups** spend too much time and money hiring designers or learning complex tools just to explain their ideas.
+* **Hackathon builders & developers** often fail to pitch their projects effectively because they can’t represent their ideas in a compelling, animated format.
+
+**Manimate** solves this problem by providing an **AI-powered animation platform** where anyone can simply input a topic, and the system generates **scenes, motion effects, and shareable animated content instantly.** By using shapes, motion dynamics, and AI-driven storytelling, it eliminates the need for technical skills while making content creation **fast, intuitive, and Gen-Z friendly.**
+
+In short, Manimate bridges the gap between **imagination and animation**, helping users **visualize ideas, explain concepts, and share stories effortlessly**—all in a matter of seconds.
+
+**Challenges we ran into**
+
+Building **Manimate** wasn’t as straightforward as we first imagined. One of the biggest challenges was translating abstract math concepts into visuals that are both accurate and engaging—without overwhelming the user. We also had to figure out how to make animations smooth and responsive while still keeping performance high. Another hurdle was designing the interface so it didn’t feel intimidating to non-technical users, while still offering depth for those who love exploring math in detail. Balancing creativity, usability, and technical complexity pushed us to rethink our approach multiple times—but that’s what made the journey exciting.
+
+**Education**
+
+Our project aligns with the **Education track** as it focuses on making learning more **accessible, inclusive, and interactive**. The solution is designed to bridge gaps in traditional education by leveraging technology to simplify complex concepts, improve engagement, and create personalized learning experiences. By integrating features that support diverse learners including those with different abilities and backgrounds it ensures that education is not just delivered, but also **understood and retained**.
+
+Through its innovative approach, the project encourages **practical learning, collaboration, and creativity**, which are crucial in today’s fast-evolving educational landscape. Ultimately, it transforms the way knowledge is accessed and shared, empowering both students and educators.
+
+Team **Insomniacs** -- [Viraj Anand](https://github.com/VirajAnand-02), [Aaditya Paul](https://github.com/aaditya-paul), [Rajdeep Karmakar](https://github.com/Rajdp-krmkr), [Rupsha das](https://github.com/Rupsha-Das), [Shounak Ghosh](https://github.com/shahank42)
+
+`2025-08-24`
+
+---
+
+### CareQueue
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/carequeue-251f) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://drive.google.com/file/d/1Rm3qq5Ki_q9EbSoZ36WodSpYFsPIBHhr/view?usp=share_link) [![Built at](https://img.shields.io/badge/Built%20at-HackBuild-0052CC?style=flat-square)](https://hackbuild.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Caring for the community
+
+![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square)
+
+**The problem it solves**
+
+![image](https://assets.devfolio.co/content/2498ca60c6134e918d2c2d59881d05e3/655d5790-eb4a-4db6-83c6-cb51b0cbc2bd.png)In today’s evolving world of rapid growth, many things can change such as a person’s living location or the commodities and the services available in a person’s living area. Such changes, generally are not reflected quickly in the public domain. Such information is very vital in the domain of healthcare such as a clinic available near you and what do the practicing doctors of these clinics specialize in. Getting a rating or review of such clinics can also be deemed difficult as ratings could only be given by people who have visited that clinic. Having an appointment at the correct time for availability of the doctor can also be difficult in the manual process followed by the clinic. Getting such information can be more difficult if a person has shifted to a new location as they would not be having connections to get help with health issues quickly from a comparatively good place at a good price without availability of such human resources.
+
+Team **HackVentures** -- [Shaunak Sawant](https://github.com/devshaunsaw), [Ayush Sawant](https://github.com/ayushsawant464/)
+
+`2025-08-17`
 
 ---
 
@@ -11267,6 +15150,2915 @@ This turns scattered, high-friction reporting into a guided, consistent, and pri
 Team **Kode-e-punjab** -- [Jasmeet Kaur](https://github.com/jasmeetk17), [Nisha Kanojia](https://github.com/nisha131), [Gagandeep Kaur](https://github.com/SKY-127/), [Suman .](https://github.com/suman512)
 
 `2025-11-16`
+
+---
+
+### SkillVerse
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/skillverse-2cab) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://skill-verse-8353b3f8.base44.app/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/XXGrBU8Fvj8) [![Built at](https://img.shields.io/badge/Built%20at-hackCBS%208.0-0052CC?style=flat-square)](https://hackcbs-8.devfolio.co)
+
+> Voice automated EdTech for physically disabled
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![NLP](https://img.shields.io/badge/NLP-333333?style=flat-square)
+
+**The problem it solves**
+
+SkillVerse is an intuitive web app designed to help users discover, track, and showcase their professional skills. Whether you’re honing a new ability or building a portfolio of expertise, SkillVerse streamlines the process from learning to validation.
+
+FEATURES
+
+• Skill Discovery
+Browse a dynamic catalogue of skills organized by domains (e.g., Programming, Data Science, Creative Arts) to identify your next area of growth.
+
+• Skill Progress Tracking
+Log your learning journey, set milestones for each skill, and mark progress as you complete tasks or modules.
+
+• Portfolio and Validation
+Assemble your mastered skills into a professional portfolio that can be shared with potential employers or collaborators.
+
+• Interactive Dashboard
+View an at-a-glance summary of your strengths, weak spots, and upcoming targets via visual charts and progress bars.
+
+• User Profiles and Networking
+Create a profile, highlight your skill set, and connect with peers for mentorship, collaboration, or peer review.
+
+TECH STACK
+
+Frontend: React.js (or your chosen UI framework)
+Backend: Node.js / Express (or similar)
+Database: MongoDB / PostgreSQL
+Deployment: Base44 / Vercel / Netlify
+Additional Tools:
+
+Authentication: JWT / OAuth
+
+Charts: Chart.js / Recharts
+
+State Management: Redux / Context API
+
+CSS Framework: Tailwind CSS / Material-UI
+
+In today’s rapidly evolving job market, having a strong skills portfolio is more important than ever. SkillVerse empowers learners to not only acquire new skills but also to visualize their progress, showcase results, and connect with a community — all from a single platform.
+
+**Challenges we ran into**
+
+Accurate Skill Assessment – Designing a fair and intelligent system to evaluate user skills objectively, without relying solely on self-reporting or external validation, can be complex.
+
+Personalization and Recommendations – Building a recommendation engine that effectively suggests relevant skills or learning paths based on user progress, interests, and industry trends requires strong data modeling and AI integration.
+
+User Engagement and Retention – Encouraging users to consistently update progress, complete milestones, and revisit the platform regularly demands thoughtful UX design, gamification, and motivational triggers.
+
+Data Privacy and Security – Managing sensitive user data such as learning records, certifications, and login credentials while maintaining compliance with data protection standards (like GDPR) poses a serious technical challenge.
+
+Scalability and Performance – As the platform grows, ensuring smooth performance across devices, real-time updates, and responsive dashboards under heavy traffic requires robust architecture and efficient database optimization.
+
+**Base44 Innovation Challenge**
+
+Solving real world problem of learning for people with physical disability like motor control loss. making it difficult for them to learn life skills handsfree.
+
+**Build Your Business with AI - Using Studio & Base44**
+
+SkillVerse is an intuitive web app designed to help users discover, track, and showcase their professional skills. Whether you’re honing a new ability or building a portfolio of expertise, SkillVerse streamlines the process from learning to validation for physically disabled individuals.
+
+**Best Use of Qapi**
+
+SkillVerse is an intuitive web app designed to help users discover, track, and showcase their professional skills. Whether you’re honing a new ability or building a portfolio of expertise, SkillVerse streamlines the process from learning to validation.
+
+Team **TechRift** -- [Pranjal Singh](https://github.com/Pranjaldevl), [Kushagra Pandey](https://github.com/kushagra0333), [Arjit Aggarwal](https://github.com/Arjit-thebeast)
+
+`2025-11-09`
+
+---
+
+### Suraksha Chakra
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/suraksha-chakra-b23b) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/jagadish-pattanaik/hack4safety25) [![Built at](https://img.shields.io/badge/Built%20at-Hack4Safety-0052CC?style=flat-square)](https://hack4safety.devfolio.co)
+
+> Smart Security for Safer Rural Digital Banking
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Firebase](https://img.shields.io/badge/Firebase-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![TensorFlow](https://img.shields.io/badge/TensorFlow-333333?style=flat-square) ![scikit-learn](https://img.shields.io/badge/scikit--learn-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square)
+
+**The problem it solves**
+
+Rural areas in developing regions are increasingly adopting digital banking, yet they remain
+highly vulnerable to cyber threats such as phishing, OTP interception, SIM cloning, and
+transaction fraud due to limited digital literacy and weak network infrastructure.
+Traditional cybersecurity solutions are often too resource-intensive for low-end smartphones or
+require constant internet connectivity, making them impractical for rural users.
+[ ] bridges this gap by offering a lightweight cybersecurity framework that:
+● Detects fraudulent or suspicious transactions in real-time using on-device machine
+learning-based anomaly detection.
+● Enables multi-factor authentication optimized for low bandwidth environments (e.g.,
+offline PIN verification + delayed OTP sync).
+● Employs open-source encryption to protect sensitive user credentials and transaction
+data.
+● Simplifies user interaction through a minimal and intuitive interface, ensuring
+accessibility for users with limited technical background.
+In essence, [ ] makes rural digital banking safer and more trustworthy, reducing the risk of
+financial loss and promoting wider adoption of secure digital finance.
+
+**Challenges we ran into**
+
+1. Resource Optimization for Low-End Devices:
+Implementing real-time anomaly detection on entry-level smartphones was challenging
+due to limited processing power and memory. To overcome this, we trained lightweight
+models (e.g., Logistic Regression and Decision Trees) and used quantization techniques
+to minimize resource consumption.
+2. Offline Authentication in Low Connectivity Areas:
+Many rural regions have intermittent network access, causing delays in OTP-based
+verification. To resolve this, we implemented a hybrid authentication system combining
+offline PIN verification with delayed network validation, ensuring security even during
+connectivity drops.
+3. User Interface Simplicity vs. Security Complexity:
+Designing a secure yet easy-to-use interface for non-technical users required balancing
+minimal design with informative cues. Usability testing and iterative feedback from
+potential users helped refine the layout and reduce cognitive load.
+
+**Cybercrime Detection & Prevention**
+
+Cybercrime isn’t just an urban problem anymore — as digital banking grows in rural areas, so
+do online frauds. Many rural users get tricked by fake payment links, phishing messages, or
+OTP scams because they have limited digital awareness and use phones with poor connectivity.
+Most existing security tools are too heavy or complex for these conditions, leaving a major gap
+in protection.
+1. Proactive Fraud Detection
+RuralGuard uses machine learning–based anomaly detection to identify suspicious
+transaction patterns in real time. Instead of waiting for fraud to occur, it flags unusual
+activities like abnormal spending behavior, multiple failed OTPs, or sudden device
+changes—helping prevent cybercrime before it happens.
+2. Lightweight Cyber Defense for Rural Infrastructure
+Unlike conventional banking security systems that depend on continuous high-speed
+connectivity, RuralGuard is designed to operate efficiently on low-resource devices and
+intermittent networks. This makes cybersecurity accessible in rural areas where heavy
+tools are impractical.
+3. User-Centric Prevention Mechanisms
+Many cybercrimes occur due to user confusion or unawareness. RuralGuard reduces
+this risk through simplified authentication flows, visual safety cues, and clear transaction
+confirmation steps, ensuring users make secure decisions without needing technical
+expertise.
+4. End-to-End Encryption and Data Protection
+Sensitive information such as PINs, transaction data, and user credentials are secured
+with AES and RSA encryption, preventing interception or tampering at every stage of the
+transaction lifecycle.
+5. Community-Level Cyber Resilience
+By creating a secure framework for rural digital banking, RuralGuard contributes to
+building cyber resilience at the grassroots level. Its open-source design allows rural
+banks, cooperatives, or fintech startups to easily integrate and strengthen their
+cybersecurity posture.
+
+Team **Hungry Hackers** -- [Jagadish Pattanaik](https://github.com/jagadish-pattanaik), [Prayas Bharadwaj](https://github.com/devsw-prayas), [Shubhashree Mohanty](https://github.com/Subhashree4307)
+
+`2025-10-27`
+
+---
+
+### LearnLoop
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/learnloop-504e) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://learnloop.xyz) [![Built at](https://img.shields.io/badge/Built%20at-Base%20Batches%20002:%20Builder%20Track-0052CC?style=flat-square)](https://base-batches-builder-track.devfolio.co)
+
+> Learn, prove, and earn — education with on-chain
+
+![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+Online learning lacks verifiable proof of skill.
+Most platforms issue certificates that are easy to fake, non-transferable, and disconnected from a user’s digital identity.
+Additionally, learners rarely get tangible rewards for their engagement or mastery.
+
+LearnLoop creates a Web3-native learning ecosystem where educational progress is verified on-chain — through skill attestations, proof-of-completion NFTs, and reward incentives tied to real learning.
+
+**Challenges we ran into**
+
+Designing a flexible skill graph for on-chain storage.
+
+Building meaningful proof-of-learning using attestations.
+
+Preventing bots and farming in reward mechanics.
+
+Balancing token incentives with genuine engagement.
+
+Making UX friendly for users not familiar with wallets.
+
+**Link to the GitHub Repo of your project**
+
+https://github.com/learnloop/core
+
+**Live URL of your project**
+
+https://learnloop.xyz
+
+**What is your product’s unique value proposition?**
+
+On-chain Credentials: skills and completions are verified as attestations (EAS / Soulbound NFTs).
+
+Learn-to-Earn: students earn tokens or XP for completing verifiable lessons.
+
+Adaptive Reputation: each user’s profile dynamically reflects learning progress.
+
+Educator Tools: instructors can create tokenized courses and reward systems.
+
+Community Governance: course creators and top learners govern platform updates.
+
+In short: proof-of-knowledge meets gamified learning.
+
+**Who is your target customer?**
+
+Students who want verifiable skill proof.
+
+Educators / mentors who want to build tokenized courses.
+
+Companies / DAOs that need on-chain proof of competence for hiring.
+
+Communities that reward active learning and contribution.
+
+Early adopters: Web3 academies, educational DAOs, and skill-based bounty platforms.
+
+**Who are your closest competitors and how are you different?**
+
+Coursera / Udemy	Centralized, unverifiable	On-chain, tokenized proof of learning
+RabbitHole / Layer3	Task-based only	Real educational paths + skill validation
+POAP / Gitcoin Passport	Generic badges	Structured learning progression with skill graph
+
+**What is your distribution strategy and why?**
+
+Partner with Web3 academies: ETHGlobal, Buildspace, LearnWeb3DAO.
+
+Creator Program: reward educators who build verified courses.
+
+Gamified onboarding: quests, levels, leaderboards, NFT achievements.
+
+Integration: embed LearnLoop progress in Lens / Farcaster profiles.
+
+Content marketing: “Learn-to-Earn” challenges with sponsor DAOs.
+
+Why it works: merges education, reputation, and incentives — three growing Web3 trends.
+
+[Vasilios Megalis](https://github.com/Vasilios555)
+
+`2025-10-24`
+
+---
+
+### Indian Sign Language (ISL) Generator
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/indian-sign-language-isl-generator-be87) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Satyamku88/AI-Powered-Indian-Sign-Language-ISL-Translator) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co)
+
+> Translating Speech into Signs, Instantly
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![TensorFlow](https://img.shields.io/badge/TensorFlow-333333?style=flat-square) ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![NLP](https://img.shields.io/badge/NLP-333333?style=flat-square)
+
+**Description of your solution**
+
+Our solution is an AI-Powered Indian Sign Language (ISL) Translator — a web-based and mobile-ready platform designed to bridge the communication gap between the deaf and hearing communities. The system automatically converts spoken or written language (English/Hindi) into Indian Sign Language (ISL) gestures and can also interpret ISL back into text or speech.
+
+The platform integrates speech recognition, natural language processing (NLP), and computer vision to create a seamless translation experience. Users can either speak or type a sentence, and the system will generate the corresponding ISL output through pre-recorded sign videos or an animated avatar. Similarly, when a deaf user signs through the camera, the system recognizes the gestures and translates them into text or voice for hearing individuals.
+
+To ensure scalability, accessibility, and real-time performance, the solution uses Firebase as the core backend for database, hosting, and storage:
+
+Firestore stores mappings of English/Hindi words to their ISL equivalents.
+
+Firebase Storage hosts sign language GIFs/videos or 3D avatar animations.
+
+Firebase Cloud Functions handle AI processing such as speech-to-text, text translation, and ISL video retrieval.
+
+The AI component uses a custom-trained model (based on T5 or ByT5 architecture) that translates English/Hindi text into ISL gloss, which represents the grammatical structure of ISL. These gloss tokens are then mapped to corresponding sign videos or animated gestures. This approach ensures linguistic accuracy and adaptability to regional ISL variations.
+
+The platform’s user-friendly interface allows:
+
+Real-time speech or text translation into ISL.
+
+An ISL Dictionary & Learning Mode for education and awareness.
+
+Future gesture recognition from webcam input for reverse translation.
+
+This solution promotes inclusivity, accessibility, and empowerment by enabling deaf individuals to access spoken information independently and fostering smoother communication in schools, workplaces, hospitals, and public spaces.
+
+**Healthtech: Bring your own problem in Healthtech, leveraging Agentic AI.**
+
+Our project — the AI-Powered Indian Sign Language (ISL) Translator — fits into the Healthtech: Bring Your Own Problem track because it directly addresses a critical communication barrier in the healthcare system. In hospitals, clinics, and emergency situations, deaf and hard-of-hearing individuals often face serious challenges in communicating with doctors, nurses, and medical staff.
+
+By leveraging Agentic AI technologies such as speech recognition, natural language processing, and computer vision, our solution acts as a real-time communication assistant between patients and healthcare professionals. The system can automatically convert spoken language (English/Hindi) into Indian Sign Language (ISL) gestures and vice versa, allowing both parties to interact effectively without a human interpreter.
+
+This promotes accessible healthcare, reduces diagnosis errors, and ensures inclusive patient care, aligning perfectly with the Healthtech track’s goal of improving healthcare delivery through AI-driven innovation.
+
+Team **{CODE/}** -- [SATYAM KUMAR  KASYAP](https://github.com/Satyamku88), [RAVI RANJAN RAJ](https://github.com/RrrHubGit), [Akash raj](https://github.com/Akashraj2106)
+
+`2025-10-07`
+
+---
+
+### Eduhub
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/eduhub-e49d) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://eduhub-i2fw.onrender.com/) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co)
+
+> for the BSC-CS students
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**Description of your solution**
+
+This platform is designed specifically for B.Sc. Computer Science students, providing them with a dedicated space to share notes, previous year question papers, and academic resources. Students can not only upload and contribute their own materials but also explore, read, and download resources shared by their peers. Since there is currently no centralized platform catering exclusively to B.Sc. CS students, this solution fills a critical gap by offering a comprehensive, easy-to-access, and student-friendly resource hub. It ensures that learners have a reliable place to find study materials, collaborate, and enhance their academic journey.
+
+![image](https://assets.devfolio.co/content/ffe67aa5419545f6b60f2daf68a65d0a/b0a39f2b-81a5-4561-9d64-2ac467f20c7f.png)
+
+**Fintech: Bring your own problem in Fintech, leveraging Agentic AI.**
+
+This platform is designed specifically for B.Sc. Computer Science students, providing them with a dedicated space to share notes, previous year question papers, and academic resources. Students can not only upload and contribute their own materials but also explore, read, and download resources shared by their peers. Since there is currently no centralized platform catering exclusively to B.Sc. CS students, this solution fills a critical gap by offering a comprehensive, easy-to-access, and student-friendly resource hub. It ensures that learners have a reliable place to find study materials, collaborate, and enhance their academic journey.
+
+Team **Menonboys** -- [Ankit Pal](https://github.com/ankitrock121), [Harsh Prajapati](https://github.com/harshprajapati95)
+
+`2025-09-13`
+
+---
+
+### Weather prediction using Naive-Bayes classifier
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/smart-dashboard-for-business-and-automated-purpose-0bc2) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Siddharth2005-anony/Git_hack1) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co)
+
+> Using machine learning and scikit-learn.
+
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square)
+
+**Description of your solution**
+
+This project demonstrates how to apply the Gaussian Naive Bayes algorithm for a basic classification task, framed here as weather prediction based on atmospheric conditions. It walks through essential steps including data preprocessing, feature scaling, model training, and performance evaluation using metrics such as a confusion matrix and accuracy score. Visualizations are included to illustrate the decision boundaries and how the model differentiates between classes. Built with Python and scikit-learn, this project provides a simple yet effective introduction to probabilistic classification models.
+
+**Misinformation: Bring your own problem in Misinformation, leveraging Agentic AI.**
+
+it basically uses the best algorithm, which generates the highest accuracy
+
+Team **Anonymous** -- Saahithi Nallana, [Siddhartha Kintala](https://github.com/Siddharth2005-anony)
+
+`2025-10-15`
+
+---
+
+### MyCFO AI
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/mycfo-ai-45a9) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co)
+
+> Your business, your language, your CFO.
+
+![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Flutter](https://img.shields.io/badge/Flutter-333333?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=flat-square) ![FastAPI](https://img.shields.io/badge/FastAPI-333333?style=flat-square)
+
+**Description of your solution**
+
+### 💡 WHAT we’re building
+
+We’re building a **voice-first, multilingual AI-powered “Personal CFO”** for small business owners.
+The app makes bookkeeping, cashflow management, and customer collections frictionless:
+
+* Users just speak in their own language (*“Ramesh ko 500 udhar diya”*) → app logs the entry.
+* The AI CFO provides analytics (*“Is mahine ka profit kitna hai?”*) with charts & summaries.
+* Smart agents send WhatsApp reminders for payments, understand replies, and update records.
+* Bills can be scanned → AI extracts details → instant entry.
+
+It’s not just a khata app. It’s like giving every shopkeeper their own **CFO who understands them.**
+
+---
+
+### 🔥 The GAP we’re solving
+
+* Existing apps (KhataBook, Vyapar, OkCredit) digitized ledgers, but **still rely on manual UI entry in English/Hindi**, which many shopkeepers struggle with.
+* Data entry is **high-friction, intimidating, and error-prone** for non-tech users.
+* They provide ledgers but not **advisory insights** — shopkeepers don’t know “am I making a profit?”, “who owes me most?”, “will I face cash crunch next month?”
+* No app provides **agentic, conversational, multilingual CFO-level guidance**.
+
+We close this gap with **voice-first, multilingual, agentic AI** → natural, easy, and actionable.
+
+---
+
+### 👥 WHO it’s for
+
+* **Target Users:** Micro and small business owners (kirana shops, traders, service providers, freelancers).
+* **India-first:** 80M+ MSMEs, majority not fluent in English, many semi-literate.
+* They want simplicity: talk in their language → get clarity about business & money.
+* Early adopters: Kirana shops, who already use Khata-style ledgers but need faster, easier, smarter tools.
+
+---
+
+### 🚀 GTM & Revenue Stream
+
+**Go-To-Market (GTM):**
+
+* **Phase 1 (Free Adoption):** Launch free app with voice entry + basic insights. Distribution via WhatsApp groups, local business associations, referral bonuses.
+* **Phase 2 (Engagement):** Add agentic WhatsApp reminders, analytics dashboard, bill scan. Word-of-mouth growth since “voice-first in your language” is a strong hook.
+* **Phase 3 (Monetization):**
+
+  1. **Premium Subscription:** Advanced analytics, multi-language insights, automated collection agent.
+  2. **Payment Integration:** Small fee/commission on UPI/WhatsApp Pay collections.
+  3. **Financial Services Tie-ups:** Credit scoring, loans, insurance for MSMEs.
+
+**Vision:** To become the trusted **AI CFO for every small business in India.**
+
+**Fintech: Bring your own problem in Fintech, leveraging Agentic AI.**
+
+Our project MyCFO AI fits the Fintech + Agentic AI track by turning bookkeeping into an intelligent, voice-driven experience. Users simply speak in their language, and the AI agent records, analyzes, and manages finances even handling WhatsApp reminders and insights like “Is mahine ka profit kitna hua?” MyCFO AI acts as a Personal CFO powered by Agentic AI, simplifying finance for millions of MSMEs.
+
+Team **CS Crackers** -- Karan Jadhav, [Vaibhav Ujagare](https://github.com/vaibhavujagare)
+
+`2025-10-05`
+
+---
+
+### FinMate
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/finmate-5400) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.loom.com/share/a8cba5bc5e4844ecb80b5e2cb895231e?sid=ecf72c3a-f63d-4398-9269-d3f208c23fea) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co)
+
+> “Where Finance Meets Intelligence and Community.”
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**Description of your solution**
+
+FinMate — Autonomous, Emotion-Aware Financial Coach & Business Brain
+🌍 Overview
+•An AI-first, emotion-aware financial coach and business brain for gig workers, freelancers, salaried professionals, SMEs, and entrepreneurs.
+•Combines financial intelligence, behavioral psychology, and automation to help users save smarter, spend wisely, optimize taxes and operations, and grow sustainably.
+•Designed to manage finances intelligently, empathetically, and in real time.
+🧠 Core Intelligence
+•Learns from real-time transactions, POS/sales data, invoices and receipts (OCR), chat, and voice tone.
+•Forecasts income, expenses, and cashflow across multiple horizons.
+•Auto-allocates savings toward personalized goals (emergency fund, lifestyle upgrades, investments).
+•Offers proactive, explainable financial guidance through an AI chat box coach available 24/7.
+💰 Smart Financial Ecosystem
+•Micro-savings round-up engine invests spare change automatically.
+•AI-powered tax intelligence system:
+•Identifies deductible expenses.
+•Tracks GST, TDS, and Section 80C/80D/80CCD investments.
+•Sends tax reminders and ensures compliance with Indian tax laws.
+•Runs “what-if” simulations for financial decisions.
+•Continuously monitors liquidity and financial health to optimize every rupee.
+🏢 Virtual CFO for Businesses
+•Acts as an autonomous CFO for SMEs and shop owners.
+•Syncs with POS systems for real-time sales and inventory management.
+•Predicts demand, automates supplier payments and purchase orders.
+•Optimizes liquidity, pricing, and prevents overstocking.
+•Enables data-driven decision-making for business efficiency.
+⚙️ Autonomous Operations
+•Performs automated financial and operational actions with consent, such as:
+   Auto-saving surplus funds.
+   Initiating SIP investments.
+   Reordering high-demand SKUs.
+•Maintains human override, consent-based control, and transparent audit trails.
+📱 Inclusive Access & Multi-Channel Support
+•Available via WhatsApp, SMS, IVR, and USSD — ensuring accessibility even in low-connectivity regions.
+•Simplifies financial management for users without smartphones or stable internet.
+🌐 Community Hub — Financial Social Network
+•Built-in AI-integrated community platform for collaboration and growth.
+Users can:
+•Create or join communities (e.g., “Local Retailers”, “Freelancers Hub”, “Mumbai Entrepreneurs”).
+•Add contacts, coordinate with suppliers, customers, or peers.
+•Share supplier deals, pool bulk orders, and discuss tax or business strategies.
+•AI-powered community insights:
+“Average restocking frequency in your group is 10 days.”
+“Retailers using digital payments saw 12% faster growth this quarter.”
+•Transforms FinMate into a collaborative financial intelligence network where users grow together, not alone.
+🧩 Advanced AI Architecture
+•Modular, event-driven microservices powered by:
+•FastAPI, Node.js, Kafka, PostgreSQL, TimescaleDB, TensorFlow, MLFlow.
+•1,000+ layered AI stack combining:
+•Transformer & LSTM models.
+•Reinforcement learning.
+•Monte Carlo simulations.
+Graph & community intelligence.
+•Explainability and trust layers.
+•Ensures scalability, transparency, and privacy-preserving intelligence.
+🔐 Privacy & Security
+•AES-256 encrypted data storage.
+•Federated learning and opt-in emotion/voice analysis for privacy.
+•Human-in-loop control for all autonomous actions.
+•Multi-sig authorization for high-value transactions.
+🚀 Impact & Vision
+•Transforms financial uncertainty into predictable growth and stability.
+•Reduces tax burdens legally through intelligent automation.
+•Empowers users and businesses to operate efficiently and collaboratively.
+•Fosters community-driven financial empowerment across India.
+🚀Physical & Offline Financial Tools
+
+ a. Smart Financial Wallet
+A physical card or device that tracks cash expenses and syncs automatically when online.
+Users can see how much they spent daily/week without smartphones.
+Helps users with low connectivity or cash-heavy lifestyles.
+
+b. Offline Ledger + QR Sync
+Users write transactions manually or scan receipts using offline QR codes.
+When connected, FinMate syncs and updates budgets, expenses, and taxes automatically.
+💡 Tagline
+“FinMate — Where Finance Meets Intelligence and Community.”
+“Thinks like a CFO, Coaches like a Friend.”
+
+**Fintech: Build an autonomous financial coaching agent that adapts to real user behavior, spending patterns, and income variability - helping gig workers, informal sector employees, and everyday citizens make smarter financial decisions proactively.**
+
+FinMate — Autonomous, Emotion-Aware Financial Coach for Real People
+Millions of gig workers, informal sector employees, and everyday citizens face the same challenge — their income is irregular, their expenses unpredictable, and financial guidance inaccessible. Traditional banking apps track what you’ve already spent; they don’t understand or adapt to how you live.
+FinMate was built precisely to solve this — it is an autonomous, emotion-aware financial coaching agent that learns from each user’s real behavior, spending patterns, and income variability to guide, protect, and grow their finances proactively.
+Unlike static budgeting tools, FinMate continuously observes and learns from live transaction streams, invoices, POS data, voice tone, and chat patterns. Using this, it builds a deep, adaptive understanding of a user’s financial habits and stress indicators. When it detects upcoming shortfalls or liquidity risks, it acts preemptively — forecasting income and expenses, reallocating savings, and suggesting safe financial actions before problems occur.
+FinMate’s intelligence extends beyond individuals to business and community contexts — empowering small retailers, vendors, and freelancers with tools that automate inventory management, supplier payments, tax optimization, and smart cashflow scheduling.
+It acts like a virtual CFO for small businesses and a financial guardian for individuals, ensuring that every rupee works intelligently.
+For inclusivity, FinMate operates across WhatsApp, SMS, IVR, and USSD, ensuring even those in low-connectivity or low-literacy environments can access real-time financial coaching through simple conversations — no app barriers, no jargon.
+What makes FinMate truly transformative is its Community Hub — where users can create or join financial communities, add contacts, share supplier deals, pool bulk orders, or collaborate on tax strategies. The AI then provides community-level insights such as:
+“Freelancers in your network saved 20% more this quarter.”
+“Local shopkeepers cut restocking costs by 12% through pooled buying.”
+This turns FinMate into not just an individual assistant, but a collaborative intelligence system that helps entire ecosystems of workers and microbusinesses thrive together.
+Technically, FinMate is powered by a 1,000+ layer deep AI stack combining transformer-based forecasting, reinforcement learning, behavioral psychology models, and explainability layers, running on a modular microservices architecture (FastAPI, Node.js, Kafka, PostgreSQL, TensorFlow, MLFlow).
+Every recommendation is transparent, explainable, and reversible — building trust while maintaining full control and consent.
+By learning, predicting, and autonomously acting on behalf of users, FinMate directly embodies the vision of an adaptive financial coaching agent — one that doesn’t just react, but thinks ahead, empathizes with real human struggles, and empowers users to make smarter, sustainable financial decisions.
+FinMate bridges the gap between AI intelligence and financial empathy, bringing powerful, real-time decision-making to the people who need it most — gig workers, informal earners, and everyday citizens across India and beyond.
+FinMate — Where Finance Meets Intelligence and Humanity.
+
+Team **FinMate** -- Bhagyesh Wali, Dhanush Gowda, Aishwarya HR, Chethan Gowda
+
+`2025-10-19`
+
+---
+
+### SafeCampus
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/safecampus-c51f) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://youtu.be/BifC_wdd9xk) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/BifC_wdd9xk) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co)
+
+> Smart learning & safe future-building resilience.
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![TensorFlow](https://img.shields.io/badge/TensorFlow-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Unity 3D](https://img.shields.io/badge/Unity%203D-333333?style=flat-square)
+
+**Description of your solution**
+
+SafeCampus – AI + Digital Twin for Disaster-Ready Education
+
+Every year, thousands of schools in India are forced to close or suffer massive damage due to floods, fires, and earthquakes putting students’ safety and learning at risk.
+Current disaster preparedness programs rely on manual drills and paperwork, which are outdated, unengaging, and fail in real emergencies.
+SafeCampus is an AI-powered digital safety platform that uses Digital Twin simulations to recreate each school in 3D, runs virtual evacuation drills, and teaches students through gamified “what-to-do-next” challenges that make disaster learning fun and practical. It also provides real-time alerts, SOS communication, and offline SMS/IVR support to connect teachers, parents, and local responders during crises.
+Built using AI (OpenAI/Llama models, LangChain), Python (FastAPI), React, and PostgreSQL, SafeCampus brings smart analytics and adaptive drills powered by real weather and sensor data.
+Our goal is to make every school disaster-resilient — reducing risk, saving lives, and ensuring that education never stops, even when nature strikes.
+
+**Misinformation: Bring your own problem in Misinformation, leveraging Agentic AI.**
+
+Our solution focus on how false or delayed disaster alerts create panic in schools and communities. SafeCampus uses Agentic AI to verify information from trusted sources and filter out fake alerts. It ensures students, parents, and teachers get only accurate, real-time updates — turning confusion into clear action during emergencies.
+
+Team **The One Code** -- Sachi Mesta, Kishan.M. Naidu, [Ganesh Kini](https://github.com/ganesh337kini), Pallavi K.A
+
+`2025-10-14`
+
+---
+
+### CrisisGuardian: Community AI Sentinel
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/crisisguardian-community-ai-sentinel-94fb) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co)
+
+> Predict. Protect. Prevent — with the Power of AI.
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**Description of your solution**
+
+CrisisGuardian: Community AI Sentinel is an all-in-one, AI-powered platform designed to help communities stay resilient during crises such as hospital surges, pollution spikes, economic disruptions, and misinformation outbreaks.
+
+The solution integrates three key AI modules:
+
+Health Surge Prediction: Uses real-time health, environmental, and social event data to forecast patient inflow in hospitals, enabling better resource and staff planning.
+
+Financial Stability Coach: Provides personalized financial advice for gig workers and citizens with irregular incomes, helping them manage spending, savings, and investments during uncertain times.
+
+Misinformation Monitor: Scans social and news media to detect and flag misinformation trends, then provides verified fact-checks and clear explanations to prevent panic.
+
+Through a central AI Sentinel, these modules analyze diverse live data streams and deliver actionable insights via a unified web and mobile dashboard. Hospitals, citizens, and authorities can access real-time alerts, financial coaching, and verified information—all from one platform.
+
+**Healthtech: Manage unpredictable surges in patients during festivals, pollution spikes, or epidemics with an AI agent that autonomously analyzes data and recommends staffing, supply, and patient advisory actions in advance.**
+
+The Health Surge Prediction module of CrisisGuardian directly addresses a critical healthcare challenge — unpredictable patient surges during festivals, pollution seasons, or local outbreaks. In India, hospitals often experience sudden spikes in emergency cases due to air pollution, viral infections, or festival-related accidents, leading to shortages of beds, oxygen, and medical staff.
+
+CrisisGuardian’s Healthtech component uses real-time data streams from multiple sources — including hospital admission logs, pollution index data, public event calendars, and weather conditions — to predict upcoming surges in patient load.
+
+Using AI-driven forecasting models (e.g., regression, time-series prediction, or anomaly detection), it:
+
+Identifies patterns and early indicators of rising health risks.
+
+Predicts expected patient volume by region or hospital.
+
+Sends automated alerts to hospital administrators and local health authorities.
+
+Recommends staff reallocation, supply ordering, and emergency readiness plans in advance.
+
+This ensures that hospitals can:
+
+Optimize staffing levels (nurses, doctors, technicians) based on forecasted need.
+
+Prepare critical resources like ICU beds, ventilators, and medicines.
+
+Minimize waiting times and prevent system overloads during peak demand.
+
+Team **CodeHacks** -- [Rajeswari Pokala](https://github.com/rajeswaripokala16), TEJA YAGAVOLLA, YARRAM HARISH, Saikalyan Paramathmuni
+
+`2025-10-15`
+
+---
+
+### RideMate
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/ridemate-5127) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/YugYadav25/RideMate) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co)
+
+> “Share the Ride. Save Time. Build Community.”
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**Description of your solution**
+
+Problem Statement:
+Many commuters—including elderly people, women, and students—face long, unsafe, costly, and inefficient daily journeys on public transport. Women especially experience frequent harassment and safety concerns, with over half reporting incidents while commuting. Elderly and disabled individuals often encounter accessibility and security challenges. Public transport is often overcrowded, unreliable, and expensive, disproportionately affecting vulnerable groups. Meanwhile, private vehicles traveling the same routes have empty seats unused. This leads to increased pollution, commute times, and financial burdens. Existing options lack sufficient safety features, identity verification, and convenience. Our solution is a trusted peer-to-peer ride-sharing platform that matches verified drivers and commuters traveling similar routes. It offers in-app payments, emergency safety features, and incentives to promote sharing rides. This reduces travel costs, commute time, safety risks, and carbon emissions while making daily travel safer and more affordable for everyone.
+
+
+🚗 Core Solutions to Address the Problem:
+
+1. Advanced Identity Verification and Background Checks
+
+To ensure user trust and safety, the platform will include multiple layers of verification:
+
+Multi-layered KYC process: Aadhaar-based verification, driver’s license validation, and vehicle registration checks.
+
+Corporate/Student email verification: Only verified corporate employees and students can register, creating a trusted and authentic community.
+
+Continuous background screening: Regular checks for criminal records, driving history, and re-verification at set intervals.
+
+Two-way verification: Both drivers and passengers must complete the same strict verification steps before being allowed to use the service.
+
+AF-Loyalty & Referral Badges:
+Frequent users and successful referrers will earn visible badges 
+(e.g., “Trusted Commuter,” “Community Builder”) on their profiles, promoting reliability and community trust.
+
+2. Real-Time Safety Features
+
+Safety is a top priority. The platform will integrate smart, technology-driven safety tools such as:
+
+SOS / Emergency button: Directly connected to local police or emergency services with instant location sharing.
+
+Live GPS tracking: Allows trusted contacts to monitor rides in real-time for added safety.
+
+AI-powered ride monitoring: Detects route deviations, unexpected stops, or unusual behavior and 
+automatically triggers safety alerts.
+
+In-app communication: Enables chat between riders and drivers without sharing personal contact details.
+
+Driver profile card: When a match is found, the rider will see the driver’s full profile, ride history,
+ ratings, driving experience, and other verified details.
+
+3. Gender-Specific Safety Features
+
+To make rides safer and more comfortable for everyone, the platform will provide:
+
+Women-only ride matching: Female drivers can choose to accept rides only from female passengers.
+
+Same-gender carpooling option: Riders can select same-gender matches if they prefer.
+
+Time-based safety mode: Enhanced safety features will automatically activate during late-night hours.
+
+4. Blockchain-Based Trust and Transparency
+
+Blockchain technology ensures complete transparency and fairness across the platform:
+
+Smart contract-based payments: Secure, automated, and tamper-proof transactions between riders and drivers.
+
+Immutable reputation system: Permanent, verifiable records of user behavior, feedback, and trust ratings 
+stored securely on the blockchain.
+
+5. Dynamic Matching Algorithms and Optimization
+
+Artificial Intelligence (AI) will make ride-matching smarter and faster:
+
+Intelligent route matching: Connects users with similar routes, timings, and preferences.
+
+Efficiency improvement: AI analytics can improve ride-matching efficiency by up to 30%, reducing empty seats and waiting times.
+
+6. Financial Incentives and Cost Optimization
+
+Encouraging users through fair and transparent financial benefits:
+
+Cost savings of 70–80%: Carpooling significantly reduces travel costs compared to private vehicles or taxis.
+
+Fare caps based on cost-sharing: Fares remain lower than standard taxi rates while covering fuel, tolls, and insurance.
+
+Corporate subsidies: Partner companies can offer reimbursements, special parking privileges, or reward 
+points for employees who carpool.
+
+7. Additional Features
+
+To ensure inclusivity and accessibility, the platform will also include:
+
+Accessibility for Elderly & Disabled: Special care options, wheelchair-accessible ride filters, and
+ “door-to-door” assistant services.
+
+Priority Matching & Wait-Time Guarantees: Priority matching for riders with mobility challenges,
+ guaranteeing pickup within a short window (e.g., 5–10 minutes).
+
+🌍 Summary
+
+RideMate aims to build a safe, transparent, and intelligent carpooling ecosystem powered by AI and blockchain.
+It not only solves daily commuting challenges but also promotes sustainability, inclusive
+
+**Fintech: Bring your own problem in Fintech, leveraging Agentic AI.**
+
+This project aligns with the “Bring your own problem in Fintech, leveraging Agentic AI” track by addressing daily mobility expenses and income optimization for both riders and drivers. Vulnerable commuters currently overpay for public transport or private taxis, and our platform employs dynamic cost-sharing algorithms to cap fares below standard rates while ensuring transparent, automated settlements. Blockchain-backed smart contracts handle escrow, release, and refunds without manual intervention, reinforcing trust and financial transparency. Real-time pricing agents analyze supply, demand, and route overlaps to recommend cost-efficient ride matches that save passengers up to 80% on commute costs. Concurrently, in-app financial dashboards leverage AI to categorize driver earnings, forecast weekly income, estimate tax obligations, and identify opportunities for higher-revenue long-haul multi-hop trips. Personalized “commute-budget” agents track each user’s spending patterns, forecast monthly ride costs, and proactively suggest cheaper alternatives to help riders stay within budget. Emergency SOS features, live GPS tracking, and immutable reputation systems further reinforce user trust, crucial for financial transactions in a peer-to-peer context. By integrating AI-driven financial coaching and real-time optimization within a mobility service, this solution empowers gig-economy drivers and everyday commuters to make smarter spending decisions, embodying the spirit of Fintech innovation.
+
+Team **CannonCrew** -- [Tirth Bhatt](https://github.com/Tirth-Bhatt18), Smit Goyani, Jinay Shah, Yug Yadav
+
+`2025-10-16`
+
+---
+
+### CUROVA
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/curova-7bcd) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/SumantK13/Curova-health-connect) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://vimeo.com/1128114441?share=copy&fl=sv&fe=ci) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co)
+
+> Connecting Rural Communities to Modern Care
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Express.js](https://img.shields.io/badge/Express.js-333333?style=flat-square) ![Firestore](https://img.shields.io/badge/Firestore-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**Description of your solution**
+
+CUROVA bridges the rural healthcare gap by connecting patients, doctors, and pharmacists in a seamless digital ecosystem. Millions in rural India face delayed treatment due to travel, limited doctor availability, and lack of awareness about health schemes. CUROVA solves this with:
+
+- AI Symptom Checker: Quickly analyzes symptoms and medical history to guide patients before a doctor consult.
+
+- Teleconsultation: Chat, voice, and video calls with certified doctors, reducing travel and waiting times.
+
+- Digital Prescription Flow: Doctors upload prescriptions instantly, notifying local pharmacies so patients can collect medicines without delay.
+
+- Health Schemes & Vaccination Dashboard: Localized AI assistant informs users about eligibility, schemes, and vaccination programs.
+
+- Pharmacy Integration & Predictive Analytics: Real-time inventory updates, alternate medicine suggestions, and demand-based stocking to prevent shortages.
+
+CUROVA overcomes challenges like poor internet connectivity with low-bandwidth video and offline caching, ensures data privacy via end-to-end encryption and zero-knowledge verification, and supports diverse regions with multilingual AI models and standardized health communication protocols.
+
+![image](https://assets.devfolio.co/content/92b6684980cc485087e645fb9d8650b9/76066ad0-d49a-4b60-90bc-86ac23f5dfd0.png)
+
+🩺 The Problem CUROVA Solves
+1. Bridging the Rural Healthcare Gap
+
+Core Proposition: Millions in rural India lack timely access to doctors, pharmacies, and government health schemes, leading to delayed treatment and preventable medical issues.
+Implementation:
+
+- AI-Powered Symptom Checker analyzes user inputs (symptoms, age, history) to provide instant guidance before consulting a doctor.
+
+- Teleconsultation Framework enables direct communication with certified doctors through chat, voice, or video — minimizing travel and waiting times.
+
+- Real-Time Prescription Flow:
+
+      - Doctor uploads a digital prescription to the system.
+
+      - It becomes instantly visible to local pharmacists.
+
+      - Once medicines are ready, the patient receives a notification to collect them directly — no waiting, no confusion.
+
+2. Empowering Rural Patients with Digital Inclusion
+
+Current Limitations: Most rural citizens are unaware of government health schemes and vaccination drives due to fragmented information systems.
+Solution Approach:
+
+
+- Integrated Health Schemes & Vaccination Dashboard (e.g., polio, immunization, maternity programs).
+
+- Localized AI Assistant provides multilingual recommendations, helping rural users understand eligibility and benefits.
+
+- Health Record Vault: Patients can upload reports, prescriptions, and past consultations for future reference and continuity of care.
+
+
+3. Optimizing the Healthcare Supply Chain
+
+Problem: Rural patients often waste time and money traveling to cities to buy medicines unavailable locally.
+Solution Framework:
+
+- Pharmacy Inventory Integration: Nearby shops can update medicine availability in real time.
+
+- Smart Availability Engine: Suggests alternate brands or nearby pharmacies if a drug is out of stock.
+
+- Predictive Analytics: Uses demand trends to help pharmacists stock essential medicines for their region.
+
+⚙️ Challenges We Ran Into
+Challenge 1: Limited Internet Connectivity
+
+Problem: Poor bandwidth in rural regions disrupted consultations and data syncing.
+Solution:
+
+- Built low-bandwidth video optimization and offline caching modules.
+
+- Achieved stable functionality at <256 kbps bandwidth.
+
+Challenge 2: Data Privacy & Security
+
+Problem: Handling sensitive health data and prescriptions securely.
+Solution:
+
+- End-to-End Encryption for all communication channels.
+
+- Zero-Knowledge Record Verification to validate patient data without revealing contents.
+
+Challenge 3: Scalability Across Regions
+
+Problem: Diverse languages, prescription standards, and pharmacy structures.
+Solution:
+
+
+- Developed a Unified Health Communication Protocol (UHCP) for structured interoperability across clinics, pharmacies, and government systems.
+
+- Supports multilingual AI models for inclusivity across Indian states.
+
+![image](https://assets.devfolio.co/content/92b6684980cc485087e645fb9d8650b9/c4710bbb-8d6f-44ee-93a8-df5b6341a475.png)
+
+**Healthtech: Bring your own problem in Healthtech, leveraging Agentic AI.**
+
+CUROVA fits seamlessly into the Healthtech: Bring your own problem in Healthtech, leveraging Agentic AI track because it leverages Agentic AI to intelligently coordinate healthcare workflows between patients, doctors, and pharmacists.
+
+The AI agent acts as an intelligent healthcare assistant — performing symptom analysis, triaging cases, and suggesting the right type of consultation. It helps doctors by auto-summarizing patient history and assists pharmacists by automatically syncing prescriptions for quick order preparation. This multi-agent collaboration ensures that each stakeholder — patient, doctor, and pharmacist — interacts within a connected, AI-supported environment.
+
+Additionally, CUROVA uses AI to recommend government schemes, nearby vaccination drives, and available medicines, making healthcare not only smarter but also more inclusive for rural populations.
+
+By embedding Agentic AI into every layer of the telemedicine process, CUROVA exemplifies how intelligent automation can create a proactive, connected, and human-centric healthcare ecosystem — fulfilling the vision of this hackathon track.
+
+![image](https://assets.devfolio.co/content/92b6684980cc485087e645fb9d8650b9/199e3e9f-9a85-42b4-be6d-5e8ad6d7a1a0.png)
+
+Team **CONFUSION MATRIX** -- Ketan Talegave, Sumant Khalatkar, Atharv Gavade, Prathamesh Talekar
+
+`2025-10-17`
+
+---
+
+### ElevateEd
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/elevateed-3d8d) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co)
+
+> Empowering Students to Rise with Real Skills.
+
+![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**Description of your solution**
+
+Many students and graduates struggle to find the right learning path after college. Most online courses are not personalized, lack real-time support, and do not help learners apply their knowledge in real-world situations. As a result, students often lose motivation or fail to gain practical skills.
+
+Our Approach with GenAI:
+ElevateEd uses Generative AI as a personal learning companion that adapts to each student’s goals, pace, and skill level. Instead of a fixed course, GenAI customizes the entire learning experience — from lessons to feedback — to fit each user individually.
+
+1. Personalized Learning Path Generation
+
+When a learner selects a domain such as Web Development or Cloud Computing, ElevateEd’s AI analyzes their background, quiz results, and learning speed to create a personalized roadmap.
+
+The AI organizes lessons into basic, intermediate, and advanced levels.
+
+It identifies weak areas and recommends topics or videos for improvement.
+
+It continuously updates the learning plan based on progress.
+
+Example: If a user struggles with HTML basics, the AI adds extra lessons and review materials before unlocking the next level.
+
+2. AI-Powered Learning Assistant
+
+ElevateEd includes a chat-based AI mentor that provides 24/7 assistance to students.
+
+It answers technical or conceptual questions in real time.
+
+It summarizes lessons for quick review.
+
+It offers motivational guidance and learning tips.
+
+This ensures that learners never get stuck and always have guidance throughout their journey.
+
+3. Smart Assessment and Feedback Generation
+
+After every quiz or test, the AI evaluates performance and generates detailed feedback.
+
+It explains the reason behind each wrong answer.
+
+It provides additional practice questions for weak topics.
+
+It tracks improvement over time.
+
+This turns assessments into meaningful learning opportunities instead of simple scoring.
+
+4. AI in Project Building
+
+At the advanced level, ElevateEd uses AI to help learners work on real-world projects.
+
+The AI suggests project ideas based on the chosen skill domain.
+
+It provides starter templates or design outlines.
+
+It reviews submissions and gives feedback on creativity and technical accuracy.
+
+This helps students apply their learning in a practical and industry-relevant way.
+5. AI in Freelancing Guidance and Networking
+
+Once learners complete advanced projects, ElevateEd helps them connect with freelance opportunities:
+
+AI recommends freelance platforms and suitable projects based on the user’s skillset.
+
+Students can submit projects to freelance mentors for portfolio validation and receive certificates of completion.
+
+AI helps track ratings, feedback, and reviews from freelancers to improve credibility and exposure.
+
+This integration allows students to gain real-world experience, build professional networks, and showcase verified work.
+6. AI in Mock Interviews and Evaluation
+
+Before certification, ElevateEd conducts AI-powered mock interviews:
+
+Domain-specific and HR-style questions are asked.
+
+Communication skills, confidence, and clarity are evaluated.
+
+Personalized feedback is provided for improvement.
+
+This prepares students for real interviews and increases employability.
+Impact of GenAI Integration
+
+By integrating Generative AI, ElevateEd turns traditional online learning into an adaptive and interactive experience.
+Students receive personalized learning paths, real-time mentorship, project guidance, and performance feedback — all powered by AI.
+
+Result: Every learner becomes more confident, skilled, and ready for real-world opportunities.
+
+**Misinformation: Bring your own problem in Misinformation, leveraging Agentic AI.**
+
+Our project, ElevateEd, fits into the Misinformation track as it aims to combat educational misinformation and low-quality online content that misleads students during self-learning. Many learners rely on unverified online materials, which can cause confusion or the spread of inaccurate knowledge.
+By leveraging Agentic AI, ElevateEd acts as a personal AI learning companion that verifies, summarizes, and explains information from trusted academic sources. It tailors learning paths, provides real-time guidance, and ensures students access accurate, contextual, and bias-free educational content.
+This approach directly addresses misinformation in the education sector by using GenAI to detect, prevent, and correct false or misleading learning content, fostering more reliable self-paced learning experiences.
+
+Team **Sysntax Squad** -- [K.Dinesh Reddy](https://github.com/DineshReddy107), Akshaya Bannela, [YatheeswarReddy Bodella](https://github.com/BodellaYatheeswarReddy), VARSHITHA SUDULAGUNTA
+
+`2025-10-16`
+
+---
+
+### AcadX
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/acadx-eb84) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://acadxxxxx.onhercules.app/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/2Cokq0HMq6U) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co)
+
+> NEP Bridge Linking Students, Faculty & Industry
+
+![Firebase](https://img.shields.io/badge/Firebase-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square)
+
+**Description of your solution**
+
+Our solution aims to bridge the gap between students, colleges, and industries by developing a centralized NEP-compliant Internship Management Platform that streamlines the entire internship process — from discovery to completion — ensuring transparency, accessibility, and credit-based evaluation for all students, including those in remote regions like Jammu & Kashmir.
+
+The platform integrates student enrollment, verified internship listings, and automated progress tracking under one system. It provides industry collaboration modules where companies can post real-time opportunities and manage intern selections through APIs or dashboards. Colleges can monitor student progress through faculty panels and performance analytics, ensuring proper mentorship and evaluation.
+
+To address connectivity challenges in regions with low internet access, the system includes offline data sync with Starlink integration, allowing students to store and upload their internship data whenever connectivity is restored.
+
+The platform will also feature:
+An AI-based recommendation system to match students with suitable internships.
+
+Pre-internship learning modules for skill readiness.
+Auto-generated NEP-compliant reports and credit calculations to streamline academic integration.
+
+By aligning with NEP’s experiential learning vision, this solution ensures equal access to authentic internships, promotes skill-based growth, and creates a sustainable student-industry ecosystem across India.
+
+**Fintech: Bring your own problem in Fintech, leveraging Agentic AI.**
+
+1.Credit-Based System = Financial Equivalence
+
+Under NEP 2020, internships in Semester 5 are credit-bearing, meaning students earn academic credits that contribute to their degree — similar to how financial transactions build a balance.
+
+Your portal digitizes and manages these credits securely and transparently — just like how fintech systems track and verify transactions.
+
+Essentially, the platform treats academic credits as “learning currency”, connecting effort → output → verified value.
+
+2.Verified Digital Credentials = Financial Record Analogy
+
+The system issues authentic, tamper-proof internship certificates and progress reports, aligned with NEP guidelines.
+
+This works like a blockchain-inspired fintech system, ensuring data integrity, transparency, and accountability across institutions.
+
+Colleges, industries, and government bodies can all verify credentials in real-time — like validating a financial transaction.
+
+3.AI-Powered Matching = Intelligent Financial Advisory Logic
+
+Your “Bumble-like” internship matching system uses Agentic AI to autonomously recommend the right opportunities based on skills, interests, and goals — similar to how fintech AI suggests investments or spending plans.
+
+The AI agent learns student profiles and dynamically optimizes internship recommendations for better outcomes — mirroring AI financial coaching systems.
+
+4.Institutional Ecosystem = Financial Network Parallel
+
+The platform acts as a bridge between multiple stakeholders (students, colleges, industries, government), creating a trusted ecosystem — just like fintech systems connect users, banks, and regulators.
+
+It standardizes how credits and progress data flow across the ecosystem, ensuring uniform value exchange for skills and internships.
+
+5. Transparency, Trust, and Inclusion = Core Fintech Principles
+
+By bringing rural and urban students onto the same verified digital platform with offline access (Starlink + data sync), the system builds financial-style inclusivity and accessibility — key values in fintech innovation.
+
+Team **Nxt Gen** -- [Roopa thanushree](https://github.com/RThanushree05), [Chinmayi B](https://github.com/c2xx5628)
+
+`2025-10-19`
+
+---
+
+### Edify AI
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/edify-ai-ff15) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/bhaveshpatil093/Edify-AI-An-Edutech-Revolution) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://edify-ai-orpin.vercel.app/) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co)
+
+> A Revolution in the Education Sector
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**Description of your solution**
+
+## 🚀 Inspiration
+The idea for **Edify AI** was born from our struggles as students. We realized that challenges plague education: **overwhelming competition, lack of uniqueness**, and **mediocrity**. These factors have led to a 📉 **40% decline in personalized learning outcomes globally**. We knew it was time for a solution that **reignites passion 🔥, empowers individuality 🌟, and helps students survive and thrive in their educational journey**.
+
+## 🎯 What It Does
+**Edify AI** is a comprehensive platform that provides **end-to-end personalized learning solutions**, empowering students to achieve their **academic and career goals**. Key features include:
+- 📌 **Custom Learning Roadmaps** – Tailored to your unique needs and goals.
+- 🤖 **AI-Powered Chatbots** – Real-time assistance through text and voice, built using cutting-edge AI models like LangChain and Hugging Face.
+- 🖥️ **Immersive Virtual Classrooms** – Developed with React Three.js and Fiber, these AR-driven classrooms replicate an engaging campus environment.
+- 🧩 **Browser Extension** – Automatically summarizes educational videos 🎥, saving time and enhancing understanding.
+- 🌍 **Real-Time Opportunities** – Aggregates hackathons, internships, and events using advanced web scraping techniques.
+- 🎓 **Career Support Tools** – Helps users align their passions with job opportunities through AI-powered insights.
+
+## 🏗️ How We Built It
+**Edify AI** stands apart by addressing critical gaps in education with innovative and student-focused solutions. Our platform’s top-tier USPs ensure unmatched value and engagement:
+
+### 📚 1. AI-Powered Course Builder
+🔹 **What We Built**: A tool that lets you create custom courses in minutes or access 100+ community-created courses tailored to your needs.
+🔥 **Why It’s Game-Changing**:
+- ✅ Includes quizzes to test and solidify knowledge.
+- ✅ Features integrated code sandboxes for real-time hands-on practice.
+- ✅ Consolidates the best YouTube videos, documentation, and materials into a single, accessible platform.
+🚀 **What Others Lack**: Competitors fail to integrate personalized course creation with community-driven content and interactive tools.
+
+### 🏛️ 2. Immersive Virtual Classrooms
+🔹 **What We Built**: Using React Three.js and Fiber, we created AR-powered virtual classrooms that provide a lifelike, on-campus experience.
+🔥 **Why It’s Game-Changing**:
+- ✅ Boosts engagement by 45% 📈, making lessons highly interactive.
+- ✅ Revolutionizes online education with an immersive, collaborative environment.
+🚀 **What Others Lack**: Competitors rely on static, uninspiring interfaces.
+
+### 🚀 3. AI-Driven Personal Learning Roadmaps
+🔹 **What We Built**: AI customizes learning paths aligned with user goals, dynamically adapting as they progress.
+🔥 **Why It’s Essential**:
+- ✅ Focuses on career-driven outcomes, improving success rates by 70% 🎯.
+- ✅ Ignites passion and clarity in learning journeys.
+🚀 **What Others Lack**: Static, one-size-fits-all approaches fail to meet individual needs.
+
+### 🎥 4. Browser Extension for Video Summarization
+🔹 **What We Built**: A custom extension that summarizes educational videos in real time.
+🔥 **Why It’s Revolutionary**:
+- ✅ Saves 60% learning time per video while improving retention by 40% 🧠.
+🚀 **What Others Lack**: Few platforms integrate real-time tools directly into learning workflows.
+
+### 🌎 5. Real-Time Aggregation of Opportunities
+🔹 **What We Built**: A tool that fetches hackathons, internships, and events from 50+ sources in real-time.
+🔥 **Why It’s Critical**:
+- ✅ Saves students hours weekly by providing up-to-date, personalized listings.
+🚀 **What Others Lack**: Static or outdated opportunities that don’t meet real-world needs.
+
+## 🚀 Why Edify AI Leads the Future of Ed-Tech
+Edify AI combines **cutting-edge tech, personalized solutions**, and **real-world impact**. Our platform isn’t just another option—it’s **the future of learning**.
+
+## ⚡ Challenges We Faced
+- 🛑 **API Limitations**: The lack of readily available APIs for educational events pushed us to explore web scraping, which was a first for us.
+- 🐢 **Performance Issues**: Python’s speed limitations forced a complete migration to Next.js, increasing development time but ensuring smoother performance.
+- 🏛️ **Education Tech Stagnation**: Building something impactful in a field saturated with outdated solutions was our biggest challenge.
+
+## 🔮 What’s Next for Edify AI
+- 📈 **Scalability**: Integrate Redis and Kafka to handle 1M+ active users.
+- 🕶️ **Enhanced AR/VR**: Expand virtual classrooms into fully immersive VR experiences.
+- 🌍 **Global Feedback Integration**: Collect insights from 10,000+ students to refine the platform.
+- 💼 **AI Job Assistance**: Develop an AI-powered job-matching system.
+- 🏆 **Gamification**: Add rewards, badges, and leaderboards to make learning 50% more engaging.
+- 🤝 **Dynamic Partnerships**: Collaborate with top universities and ed-tech platforms.
+
+**Misinformation: Bring your own problem in Misinformation, leveraging Agentic AI.**
+
+We are leveraging the Agentic AI in the education platform to provide an ultimate end-to-end platform revolutionizing education with personalized courses, AI support, tailored roadmaps, networking, and career tools to empower your journey from learning to leadership.
+
+Team **mahaDevs** -- [Nitin singh](https://github.com/Nitin-cyperpunk), [Bhavesh Patil](https://github.com/bhaveshpatil093)
+
+`2025-10-17`
+
+---
+
+### Notora
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/notora-cf48) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/amBITionV2/Null_Void-527C-AI-04) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co)
+
+> Real-Time AI Language & Accessibility Assist
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**Description of your solution**
+
+🧠 **Notora**
+*AI-Powered Real-Time Language and Accessibility Assistant*
+🚀 **Project Description**
+Notora is an advanced AI-driven platform designed to enhance communication, learning, and accessibility for everyone — especially people with hearing or speech disabilities.
+
+It integrates text, speech, sign language, and multi-language translation in real time, creating a seamless and fully accessible experience for all users.
+
+Unlike standard tools, Notora uniquely combines:
+
+👐 Text-to-Sign Language Video Conversion
+🤟 Sign-to-Text and Voice Recognition
+📝 Automatic Notes Summarization
+🌍 Live Multi-Language Translation
+Perfect for classrooms, workplaces, professional environments, and personal learning.
+
+⚙️ **Key Features**
+👐 1. Text-to-Sign Language Video
+Converts written text into animated sign language videos for hearing-impaired users.
+🤟 2. Sign Language-to-Text & Voice
+Recognizes sign language gestures and converts them into text or speech.
+The model has been trained to detect and translate gestures for specific words (e.g., “hello”), and can be expanded with additional signs.
+📝 3. Smart Notes Summarization
+Automatically generates concise, structured summaries from long text, lectures, or documents.
+🌍 4. Live Multi-Language Translation
+Translates speech or text into multiple languages in real time, promoting global accessibility.
+🔊 5. Text-to-Speech & Speech-to-Text
+Converts text into natural-sounding audio.
+Transcribes spoken words into text for hearing-impaired users.
+🌟 **Unique Selling Points (USP)**
+♿ Accessibility First: Built to serve hearing-impaired, visually impaired, and multilingual users.
+🔄 Two-Way Sign Language Communication: Enables text-to-sign and sign-to-text/voice interaction.
+⚡ Real-Time Intelligence: Combines translation, transcription, and summarization live.
+🧩 Future-Ready Architecture: Designed for advanced summarization, forgotten text recovery, and cross-platform integration (Google Meet, Zoom, WhatsApp, etc.).
+🖥️ **Run Procedure**
+Follow these steps to set up and run Notora locally:
+
+🏠 **1. Home Module**
+Open and run index.html located in the home/ directory.
+Acts as the central dashboard for all modules.
+🗣️ 2. Speech Translation Module
+Navigate to the speech_trans/ folder.
+Run app.py to start the voice translation service.
+🤖 3. Sign Language AI Module
+Open the signlang_ai/ directory.
+Run index.html to activate the sign-to-text/video interface.
+🧾 4. Summarizer Module
+Go to the summarizer/ directory.
+Run index.html (or -dex.html if named that way) to launch the text summarization tool.
+🔁 Final Step
+Once all modules are active, open home/index.html again.
+The home interface will automatically detect active modules and enable seamless switching between them.
+💡 **Benefits**
+🎓 Students: Automatically generate clear and structured notes from lectures or videos.
+💼 Professionals: Communicate effortlessly across languages and formats.
+♿ Disabled Users: Access information through sign, voice, or text, ensuring total inclusion.
+🧩 Developers: Easily integrate Notora’s modules into existing apps and platforms.
+
+🧰 **Tech Stack (Optional)**
+Frontend: HTML, CSS, Tailwind, JavaScript
+Backend: Python, Flask
+AI / ML: MediaPipe, OpenCV, TensorFlow
+Utilities: Google Translate API, SpeechRecognition, Pyttsx3
+🌈 **Vision**
+To build an inclusive digital ecosystem where communication barriers disappear — empowering everyone, regardless of ability or language.
+
+**Healthtech: Bring your own problem in Healthtech, leveraging Agentic AI.**
+
+**Notora** solves a life-critical communication gap in a high-stakes environment (hospitals, clinics). Its features (Sign to Text, Live Translation, Summarization) directly align with the documented need for accessible, multi model, real time patient support using Agentic AI.
+
+**Healthtech Impact: Effective, clear communication is an issue of life-or-death in healthcare.**
+
+**Diagnosis and Treatment:** Misunderstandings between a deaf patient and a doctor (who may not have an interpreter) can lead to incorrect diagnoses, medication errors, and poor health outcomes.
+
+**Patient Education:** Notora's Sign-to-Text/Voice and Text-to-Sign Language Video features directly solve the urgent need for real-time communication during medical appointments, emergency room visits, or while reading complex health instructions.
+
+**Research Confirmation:** Search results strongly highlight that the scarcity of sign language interpreters and the lack of accessible information (like captions and sign language video) are major problems in healthcare, leading to lower health literacy and poorer care for the deaf community.
+
+Team **NULL VOID** -- Anish nayak, Anurag Sinha, ARJUN BODASINGI
+
+`2025-10-19`
+
+---
+
+### HappieTeam
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/soroban-labs-7fe9) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co)
+
+> AI-Education Simulations
+
+![Python](https://img.shields.io/badge/Python-333333?style=flat-square)
+
+**Description of your solution**
+
+TruthGuardian - Real-Time Multi-Source Fact Verification Network
+A multi-agent system that continuously monitors news, social media, and information sources for emerging claims, extracts checkable facts, verifies them against authoritative sources, and provides real-time fact-checks with evidence citations.
+
+**Misinformation: Bring your own problem in Misinformation, leveraging Agentic AI.**
+
+Directly addresses the proposed problem
+
+Team **Soroban Labs Team** -- [Atharva Arya](https://github.com/atharva-2001), [Riddhi Gangbhoj](https://github.com/riddhigangbhoj)
+
+`2025-10-17`
+
+---
+
+### FactCheck.AI
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/factcheckai-f7c8) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co)
+
+> Truth, Verified by AI-Beyond Language. Beyond Bias
+
+![Google Cloud Vision API](https://img.shields.io/badge/Google%20Cloud%20Vision%20API-333333?style=flat-square) ![elasticsearch](https://img.shields.io/badge/elasticsearch-333333?style=flat-square) ![Whisper](https://img.shields.io/badge/Whisper-333333?style=flat-square) ![Google Translate API](https://img.shields.io/badge/Google%20Translate%20API-333333?style=flat-square) ![BERT](https://img.shields.io/badge/BERT-333333?style=flat-square) ![newsapi](https://img.shields.io/badge/newsapi-333333?style=flat-square) ![API3](https://img.shields.io/badge/API3-333333?style=flat-square) ![FAISS](https://img.shields.io/badge/FAISS-333333?style=flat-square)
+
+**Description of your solution**
+
+**1. Problem Statement**
+
+Global and local crises - such as pandemics, elections, geopolitical conflicts, and climate emergencies - trigger a surge of online information.
+Amid this flood of data, misleading, manipulated, or deliberately false content often spreads faster than verified facts.
+
+**Such misinformation:**
+
+- Fuels confusion and public distrust,
+- Amplifies panic and social polarization, 
+- Causes tangible harm - from health misinformation to violence and unrest.
+
+
+In the Indian context, this challenge is magnified by linguistic and cultural diversity.
+Information circulates not just in English, but across dozens of regional languages such as Hindi, Bengali, Tamil, Telugu, Marathi - making detection and verification exponentially more difficult.
+
+**Existing fact-checking systems fall short because they are:**
+
+
+- **Reactive rather than proactive**,
+- **Language-limited**, focusing mostly on English,
+- **Modality constrained**, unable to handle multimedia misinformation (text, image, audio, video), and
+- **Opaque**, providing verdicts (“Fake” or “True”) without transparent, contextual explanations.
+
+There is an urgent need for an autonomous, intelligent system capable of continuously scanning multiple information streams, identifying emerging misinformation trends, verifying them in real time, and communicating results clearly and accessibly across languages and media.
+
+ ****2. Proposed Solution — FactCheck AI****
+
+![image](https://assets.devfolio.co/content/393ba09e91fc4eff991e5c070b5b9911/79cfe611-236a-4fc1-9b1f-7cd3c465a78a.jpeg)
+
+***FactCheck AI*** is an Agentic AI system for real-time, multimodal, multilingual misinformation detection and verification.
+It operates autonomously, combining deep reasoning with continuous data analysis to identify and clarify misinformation at scale.
+
+**Core Capabilities:**
+
+- **Autonomous Scanning:** Continuously monitors global and regional content streams across text, audio, image, and video platforms. 
+- **Trend Detection:** Identifies emerging misinformation narratives early - before they go viral.
+- **Cross-Verification:** Validates claims using trusted knowledge bases, fact-check archives, and credible media sources. 
+- **Multilingual Explanation:** Generates clear, contextual fact summaries and corrections in regional languages for diverse audiences.
+
+***FactCheck AI*** bridges automation, reasoning, and accessibility, ensuring that verified truth is available to everyone - regardless of language, literacy, or medium.
+
+**3. Complete Stepwise Solution:**
+
+**🔹 Step 1: Data Ingestion**
+Agent continuously monitors RSS feeds, social media, and user-submitted links.
+Extracts multimedia content - images, videos, and text.
+
+**🔹 Step 2: Multimodal Preprocessing**
+
+- *Text Extraction:* PyTesseract (OCR) extracts text from images.
+- *Speech Extraction:* Whisper converts audio/video speech into text.
+- *Feed Parsing:* FeedParser + BeautifulSoup fetch and clean live data.
+
+**🔹 Step 3: Language Detection & Translation**
+
+LangDetect identifies language.
+If non-English, the text is translated using Google Translate API or DeepL API for uniform analysis.
+
+**🔹 Step 4: Claim Identification & Verification**
+
+- ClaimBuster API identifies factual claims.
+- Google Custom Search API fetches related news sources.
+- BERT / DeepSeek LLM evaluates semantic similarity and consistency.
+- The agent assigns a credibility score based on cross-verification.
+
+
+**🔹 Step 5: Reasoning & Classification**
+
+- The Agentic AI Core uses LangChain or CrewAI to autonomously decide:
+- Which verification path to follow (API / LLM / Search).
+- How to generate contextual reasoning.
+
+Outputs: Real / Fake / Unverified + explanation.
+
+**🔹 Step 6: Action & Output**
+The system pushes results to a *React / Flask* dashboard, generates visual credibility summaries, and optionally publishes automated updates or notifications.
+
+**🔹 Step 7: Feedback & Learning**
+
+- Past verifications are stored in FAISS / ChromaDB.
+- The agent learns from false positives/negatives to refine reasoning and future actions.
+
+
+![image](https://assets.devfolio.co/content/393ba09e91fc4eff991e5c070b5b9911/fcf7d7c6-bbdd-4eb8-b6e3-a104046701e9.jpeg)
+ 
+![image](https://assets.devfolio.co/content/393ba09e91fc4eff991e5c070b5b9911/a22bb1c6-fec8-4185-8c06-c616b3300685.png)
+
+![image](https://assets.devfolio.co/content/393ba09e91fc4eff991e5c070b5b9911/22eae0ec-2868-4427-8897-a124f1c763a5.png) 
+
+)
+
+**TECH STACK USED**
+
+![image](https://assets.devfolio.co/content/393ba09e91fc4eff991e5c070b5b9911/16f229be-349d-47a8-a6bd-86c641014c61.png)
+
+**Misinformation: Create an Agentic AI system that continuously scans multiple sources of information, detects emerging misinformation, verifies facts, and provides easy-to-understand, contextual updates to the public during crises.**
+
+**The problem statement directly correlates with the FactCheck AI project as follows:**
+
+**Rapid Misinformation Spread: **FactCheck AI continuously monitors global and regional data streams to detect false information early.
+
+**Multilingual Challenge:** Supports multiple Indian languages using language detection and translation APIs.
+
+**Multimodal Data:** Handles text, image, audio, and video misinformation through OCR and speech-to-text models.
+
+**Reactive vs Proactive:** Works autonomously and proactively identifies misinformation before it goes viral.
+
+**Lack of Transparency: **Provides contextual, explainable outputs with credibility scores instead of simple true/false results.
+
+**No Continuous Learning:** Learns from previous verifications using FAISS/ChromaDB to improve accuracy over time.
+
+**Public Distrust** Delivers clear, verified, and multilingual explanations to promote trust and reduce confusion.
+
+Team **ekfraesis** -- Aditi Dixit, Vandit Parekh, Mayank Chauhan
+
+`2025-10-19`
+
+---
+
+### HashTrade
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/hashtrade-3044) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co)
+
+> Safe Trading. Clear Learning. Confident Gains.
+
+![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![JWT](https://img.shields.io/badge/JWT-333333?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=flat-square) ![OpenAi](https://img.shields.io/badge/OpenAi-333333?style=flat-square) ![Angular](https://img.shields.io/badge/Angular-333333?style=flat-square)
+
+**Description of your solution**
+
+**HashTrade - Safe Trading. Clear Learning. Confident Gains.**
+
+HashTrade AI is an agentic AI trading platform designed to make investing intelligent, secure, and accessible for every Indian — from first-time investors to seasoned traders.
+
+**User Deposit → Auto-Trade → Explainable AI → Safe-Limit → Tax Summary → Dashboard**
+
+Unlike traditional bots that only execute trades, HashTrade AI explains every trade in plain language, turning each action into a bite-sized financial lesson and helping users **learn while they earn**. 
+
+The platform also tackles one of the biggest barriers for new traders  — tax complexity. With built-in tracking, **consolidated tax-ready reports**, users can understand their gains and stay compliant effortlessly.
+
+Using advanced AI models, HashTrade AI **auto-trades** on behalf of users while enforcing **predefined safe-loss limits**, ensuring that no one risks more than they intend to.
+
+By combining intelligent automation, risk control, explainable AI, and hands-free tax compliance, HashTrade AI **democratizes safe trading**, enabling millions to confidently participate in India’s growing financial markets.
+
+**Example**: A user deposits ₹500, sets a ₹50 safe-loss limit, the AI trades automatically, explains the decision, and generates a consolidated tax summary.
+
+For the hackathon MVP, HashTrade AI will operate in a SEBI-compliant paper-trading environment, enabling safe AI-driven trading simulations while maintaining readiness for future integration with licensed brokerage APIs.
+
+![image](https://assets.devfolio.co/content/972b15d9d7564c5a9b2afe3aae8823f1/38be213f-ec3c-48df-b289-57e12be2c3a8.jpeg)HashTrade-Flow.png
+
+**Fintech: Bring your own problem in Fintech, leveraging Agentic AI.**
+
+HashTrade AI is a perfect fit for the Agentic AI track as it exemplifies an autonomous, intelligent system that actively makes trading decisions on behalf of users - not just executing tasks, but **reasoning, adapting, and teaching**.
+
+The AI agent analyzes real-time market data, executes trades within user-defined risk boundaries, explains its actions to **promote financial literacy, and even auto-generates tax reports** - all without requiring prior expertise from the user. 
+
+By integrating decision-making, safety controls, and continuous feedback, HashTrade AI embodies the core principles of agentic systems: **autonomy, transparency, and user empowerment.**
+
+It transforms complex, high-risk investing into a **guided, safe, and educational experience** - aligning directly with the track’s vision of using agentic AI to **amplify human capability.**
+
+Team **HashTrade** -- Aparna Mohan, Gowtham Muthukumar, Jothiswaran R, Aneesh K
+
+`2025-10-19`
+
+---
+
+### StudAI
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/studai-8d39) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://studai-ewc9.onrender.com/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=wtgpBtYwtNM) [![Built at](https://img.shields.io/badge/Built%20at-Syntax%20Error%202025-0052CC?style=flat-square)](https://syntax-error-2025.devfolio.co)
+
+> Revolutionizing Learning
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![AI/ML](https://img.shields.io/badge/AI/ML-333333?style=flat-square)
+
+**The problem it solves**
+
+The problem StudAI solves
+StudAI tackles the critical issue of one-size-fits-all education that leaves many students struggling with ineffective learning methods and academic
+stress. The platform solves multiple interconnected problems:
+
+🎯 Learning Inefficiency
+
+Personalized Learning Styles: Uses a scientific 5-question assessment to identify whether students are Visual, Auditory, Kinesthetic, or Mixed
+learners, then delivers customized study materials that match their optimal learning pattern
+Adaptive Assessment: Features advanced Calibre Tests with real-time difficulty adjustment and behavioral analysis to create accurate learning curves
+for each student
+🧠 Academic Stress & Mental Health
+
+Evidence-based Stress Management: Integrates proven techniques like Pomodoro timer (25-minute focus sessions), guided 4-4-4 breathing exercises, and
+AI-powered study coaching
+Holistic Well-being: Combines academic optimization with mental health support, addressing the growing student stress epidemic
+📊 Lack of Learning Analytics
+
+Progress Tracking: Provides detailed analytics on learning patterns, completion rates, and tool usage
+Institutional Insights: Offers admin dashboards for educators to understand student engagement and optimize teaching strategies
+🤖 Fragmented Educational Tools
+
+Unified Platform: Consolidates learning assessment, personalized content delivery, stress management, and progress tracking in one seamless
+interface
+AI Integration: Leverages Google Generative AI for intelligent study recommendations and personalized coaching
+Impact: Students can learn 40% more effectively when content matches their learning style, while integrated stress management tools help reduce
+academic anxiety and improve overall performance.
+
+**Challenges we ran into**
+
+🔄 State Management Complexity
+
+Challenge: Managing complex user states across multiple assessment phases (Learning Test → Calibre Test → Dashboard) while maintaining data
+persistence and seamless navigation flow.
+
+Solution: Implemented React Context for global authentication state and used strategic API calls with proper error handling. Created a robust
+navigation system that automatically guides users through the complete assessment pipeline without losing progress.
+
+🧠 Learning Style Algorithm Accuracy
+
+Challenge: Developing a reliable algorithm to classify learning styles from just 5 questions while ensuring the results genuinely reflect user
+preferences and lead to meaningful personalization.
+
+Solution: Researched educational psychology principles and implemented a weighted scoring system that considers answer patterns rather than simple
+counting. Added validation through the Calibre Test which provides behavioral confirmation of the initial assessment.
+
+⚡ Real-time Assessment Adaptation
+
+Challenge: Creating a dynamic Calibre Test that adjusts difficulty in real-time based on user performance while maintaining accurate learning curve
+analytics.
+
+Solution: Built a sophisticated difficulty adjustment algorithm that tracks response time, accuracy patterns, and confidence levels. Implemented
+progressive difficulty scaling that challenges users appropriately without causing frustration.
+
+🎨 Cross-Device UI/UX Consistency
+
+Challenge: Ensuring the stress relief tools (especially the breathing exercise animations and Pomodoro timer) work smoothly across different devices
+and screen sizes while maintaining therapeutic effectiveness.
+
+Solution: Used CSS3 animations with careful performance optimization and responsive design principles. Tested breathing exercise timing across
+multiple devices to ensure the 4-4-4 rhythm remains consistent and therapeutic.
+
+**Open Track - Development**
+
+Its an open track mainly based on educational values enrichment
+
+Team **Techtonic** -- [Anagha P](https://github.com/anaghap-dev), [Sooraj Murugaraj](https://github.com/soorajdmg)
+
+`2025-10-12`
+
+---
+
+### ZEDF
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/zedf-8824) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://youtu.be/ObR9tHjid6o) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/ObR9tHjid6o) [![Built at](https://img.shields.io/badge/Built%20at-EcoCode-0052CC?style=flat-square)](https://ecocode.devfolio.co)
+
+> Deep learning ensemble forecasting
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square)
+
+Team **Chai4Code** -- Vanshika Gupta, [Himank pandoh](https://github.com/Mind-Matters12/), Prabhleen Kaur, Riddhi Tomar
+
+`2025-10-09`
+
+---
+
+### NYAYA AI
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/nyaya-ai-33b7) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/lkshayb/Nyay_AI_Whatsapp_Bot) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.loom.com/share/770238895151445b9788032f58a948c7) [![Built at](https://img.shields.io/badge/Built%20at-NexHack-0052CC?style=flat-square)](https://nexhack.devfolio.co)
+
+> YOUR RIGHTS. IN YOUR LANGUAGE.IN YOUR POCKET
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+Problems in India’s Legal Access
+
+High Cost of Lawyers
+
+80% of Indians can’t afford legal representation.
+
+Limited Free Legal Aid
+
+Only ~18% receive government-provided legal aid.
+
+Everyday Injustices
+
+Police harassment (illegal vehicle seizures, no receipts)
+
+Landlords cutting electricity/water supply
+
+Property grabs, ration card refusals, workplace exploitation
+
+Complexity of Law
+
+Citizens don’t understand their rights or which law applies.
+
+Existing Legal Apps are Ineffective
+
+Most just connect users to lawyers, without real-time, step-by-step guidance.
+
+Language & Accessibility Barriers
+
+Legal help is mostly in English or formal Hindi, not in local languages.
+
+Rural & semi-literate citizens lack access to proper legal guidance.
+
+👉 Nyaya AI solves all of these by being a WhatsApp-based AI legal assistant that explains rights in simple language, cites exact law sections, auto-generates legal documents, and guides citizens with step-by-step actions.
+
+**$300(Open): Cash Prize**
+
+Why Nyaya AI is the Best Solution
+
+Solves a Real Problem → Millions of Indians face daily legal injustices with no access to lawyers. Nyaya AI directly addresses this justice gap.
+
+Unique & First-of-its-Kind → No other solution in India combines AI + law + local languages on a platform as accessible as WhatsApp.
+
+Massive Reach & Scalability → Instantly usable by 500M+ WhatsApp users, covering both urban and rural citizens without extra apps.
+
+Affordable & Inclusive → Freemium model with auto-generated documents at ₹50–200 (vs. ₹1000+ lawyer fees) → makes justice affordable for all.
+
+Innovation Beyond Competition → Unlike other legal apps that just connect users to lawyers, Nyaya AI provides real-time, step-by-step guidance and auto-documentation.
+
+High Social Impact → Empowers 1.3B+ citizens, reduces exploitation, and strengthens democracy by making rights accessible.
+
+Future-Ready Vision → Integration with court e-filing, multilingual support, and expansion as a global model for access-to-justice AI.
+
+Team **CODE WARRIORS** -- [Swayam Gupta](https://github.com/swayamgupta592006-gif)
+
+`2025-09-20`
+
+---
+
+### Gamified Disaster Response Education System
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/gamified-disaster-preparedness-and-response-education-system-c6a9) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Magicalmutezzzzz/Gamified-Disaster-Preparedness-and-Response-Education-System) [![Built at](https://img.shields.io/badge/Built%20at-NexHack-0052CC?style=flat-square)](https://nexhack.devfolio.co)
+
+> Play , learn , Survive
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square)
+
+**The problem it solves**
+
+People can use this system to learn, practice, and apply disaster preparedness skills in an engaging and safe environment. Instead of relying on lengthy manuals or passive lectures, learners interact with gamified simulations, quizzes, and scenario-based challenges that mirror real-life situations. This makes it easier to understand what actions to take during emergencies like floods, earthquakes, fires, or pandemics.
+
+The platform makes existing preparedness tasks simpler, safer, and more effective by:
+	•	Turning complex emergency procedures into step-by-step interactive tasks that are easy to remember.
+	•	Reducing panic during real crises by letting users rehearse responses virtually before they are needed.
+	•	Making disaster drills more accessible—anyone can practice from their phone or computer without requiring physical resources.
+	•	Improving knowledge retention through gamification, rewards, and progress tracking instead of static training.
+	•	Encouraging community participation by awarding points for collaborative activities like sharing preparedness tips, uploading on-field proof, or participating in group challenges.
+	•	Providing immediate feedback and grades, so learners know exactly what to improve before a real disaster strikes.
+
+**Challenges we ran into**
+
+One of the biggest challenges we faced was structuring the gamification elements in a way that felt engaging but not overwhelming. At first, our scoring and reward system became too complicated, which confused users during testing. We solved this by simplifying the design into clear levels, badges, and points that directly tied into disaster-related activities, making it both intuitive and fun.
+
+We also ran into a technical hurdle with real-time quiz submissions and progress tracking. Initially, user scores were not updating consistently in the database. After debugging, we realized it was due to improper handling of asynchronous requests. We fixed it by restructuring the backend API calls and adding proper state management, ensuring that scores and grades updated instantly and accurately.
+
+Another challenge was making the simulations realistic yet lightweight. Full 3D disaster simulations were resource-heavy and slowed down the system. To overcome this, we shifted to 2D interactive scenarios with branching choices, which maintained realism while being smooth and accessible on low-end devices.
+
+Lastly, we struggled with keeping learners motivated over time. To address this, we introduced weekly challenges, bonus points for practical tasks, and Saturday on-field participation modules, which boosted engagement and tied digital learning to real-world action.
+
+**$300(Open): Cash Prize**
+
+Our project directly aligns with the hackathon’s theme of using technology for social impact and safety. Disaster preparedness is often neglected because traditional training is boring, resource-heavy, and not accessible to everyone. By introducing a gamified education system, we transform this into an engaging, scalable, and interactive solution that prepares communities for real emergencies.
+	•	Relevance to Track:
+The track emphasizes building solutions that improve lives and make critical tasks safer or easier. Our system does exactly that by simplifying complex disaster-response protocols into interactive games, quizzes, and simulations.
+	•	Innovation Factor:
+Instead of static awareness campaigns, we use gamification, progress tracking, and community participation to drive long-term engagement. This makes disaster education not only informative but also motivating.
+	•	Scalability & Accessibility:
+The system works on low-end devices and web browsers, making it inclusive for students, rural communities, and organizations without needing expensive infrastructure.
+	•	Impact:
+By educating people in a fun and interactive way, we can reduce panic, save lives, and build resilient communities—all core goals that perfectly match this hackathon’s mission.
+
+In short, our project is not just an app—it’s a life-saving learning ecosystem, making it a strong fit for this track and worthy of the $300 prize support to help scale and deploy it further.
+
+Team **ResQTech#06** -- [Karamveer Singh](https://github.com/Magicalmutezzzzz), Ashish Gupta19, Naitik Gupta, Harsh Shukla, Shrey Shukla
+
+`2025-09-20`
+
+---
+
+### Learnora
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/learnora-5974) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://chrono-tutor.lovable.app) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://vimeo.com/1120406078?share=copy) [![Built at](https://img.shields.io/badge/Built%20at-NexHack-0052CC?style=flat-square)](https://nexhack.devfolio.co)
+
+> Reimagining Education with AI
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+Learnora solves the problem of outdated, one-size-fits-all learning by making education more personalized, engaging, and accessible. Instead of students struggling with generic resources that don’t match their pace or style, Learnora uses AI to adapt content to individual needs, helping them understand topics more clearly and effectively. It also tackles the issue of scattered learning resources by bringing everything into one place, making studying smoother and less overwhelming
+
+**Challenges we ran into**
+
+While building Learnora, I faced a few challenges even though I used Lovable AI to get a starting point. The AI gave me the basic structure, but I had to spend time customizing the design, fixing layouts, and making sure everything looked consistent with our theme
+
+**$300(Open): Cash Prize**
+
+Learnora fits the hackathon theme by applying AI to solve a real-world challenge in education. It makes learning more personalized, interactive, and accessible, helping students move away from generic resources toward smarter, adaptive study tools. By blending technology with education, it directly addresses the need for innovation in how we learn and grow
+
+Team **Learnora** -- Garvit Sihaniya, [Lakshay Gupta](https://github.com/LakshayGupta78)
+
+`2025-09-20`
+
+---
+
+### AIGES
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/aiges-935e) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/adimk0987-byte?tab=repositories) [![Built at](https://img.shields.io/badge/Built%20at-UDAYA%201.0-0052CC?style=flat-square)](https://udaya-1-0.devfolio.co)
+
+> AI IN EDUCATION
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![API3](https://img.shields.io/badge/API3-333333?style=flat-square)
+
+**The problem it solves**
+
+Education still follows a one-size-fits-all model, ignoring individual needs.
+
+1. Students have different learning speeds and styles that are often ignored.
+
+2. Difficulty in identifying strengths and weaknesses through traditional assessments.
+
+3. Lack of personalized study resources tailored to each student’s gaps.
+
+4. Limited academic & research guidance for projects and collaborations.
+
+5. Students struggle to discover relevant papers, mentors, and opportunities.
+
+6. No instant academic support available outside classroom hours.
+
+**Challenges we ran into**
+
+1.Api key generation
+2.Api key integration
+3.Syntax error in js since it misplaces what 'else' as ' syntax which after debugging requires more effort 
+4. To add new features of virtual animation ,3d animation and AR VR mode.
+5.Which takes hell lot of syntax logic that builds error 
+ the backend integration was the main issues.
+
+**AI in Education**
+
+Our solution, named NeuroLearn AI , is designed to create a comprehensive and personalized ecosystem. It starts with 
+
+AI-Powered Adaptive Learning, which customizes study paths based on a student's performance on quizzes and assignments. This system provides 
+
+Dynamic Recommendations, suggesting tailored video lectures, book chapters, and practice problems to target their weak areas. We also have a 
+
+Project & Research Recommender that suggests faculty mentors, ongoing research, and relevant papers to align with student skills and goals. To provide immediate assistance, our 
+
+Generative AI Study Buddy is a 24/7 chatbot trained on official course materials for instant help. It can explain complex topics, generate practice quizzes, and even assist with coding."
+
+It also has a Smart Campus Navigator: This feature provides an interactive layout , 
+
+step-by-step directions , and 
+
+schedule integration  to simplify navigation around campus."
+
+Team **AEGIS** -- [Ashutosh Gupta](https://github.com/0812Ashutosh), [Disha Goyal](https://github.com/Disha-Goyal1), [Amritaanshu Satvik](https://github.com/amritaanshu), [aditya mk](https://github.com/adimk0987-byte)
+
+`2025-09-27`
+
+---
+
+### NEUROQUADAI
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/neuroquadai-27cf) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Sanketh-Basannavar/studio) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://studio-three-iota-20.vercel.app/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://vimeo.com/1122448801?share=copy) [![Built at](https://img.shields.io/badge/Built%20at-UDAYA%201.0-0052CC?style=flat-square)](https://udaya-1-0.devfolio.co)
+
+> “Personalized Learning. Powered by AI. For Everyon
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+Foundational Learning Crisis
+
+Studies (ASER & NCERT) show that over 50% of Grade 5 students in India cannot read a Grade 2 text.
+
+Children are being promoted without mastering the basics of reading, writing, and numeracy.
+
+This creates a “learning debt” — by the time they reach higher classes, they are completely lost.
+
+Real Impact: A child who can’t read by age 10 is 4x more likely to drop out of school.
+
+2. Language & Dialect Barrier
+
+India is multilingual: a child may speak Kannada or Bhojpuri at home, but the school textbook is in English/Hindi.
+
+The child knows the concept but fails tests because they cannot express in the school’s language.
+
+Judges love this line:
+
+“Our children are not failing because they don’t understand math — they are failing because the system doesn’t understand their language.”
+
+This creates frustration, false labeling as “weak,” and a huge confidence gap.
+
+3. Invisible Learning Disabilities
+
+Dyslexia, ADHD, and hearing impairments go undetected in classrooms.
+
+Teachers may mistake these students as lazy or inattentive.
+
+Without early detection and support, such children fall behind permanently.
+
+Example: A dyslexic child who mixes up letters is punished instead of supported.
+
+4. Teacher Overload & Burnout
+
+Teachers spend 2–3 hours daily on:
+
+Correcting answer sheets
+
+Making lesson plans
+
+Filing reports for administrators
+
+With 40–60 students per class and often multi-grade teaching, teachers cannot personalize learning.
+
+The result? One-size-fits-all teaching, which leaves both advanced and struggling students underserved.
+
+5. Digital Divide (Connectivity Gap)
+
+Most existing edtech solutions assume constant internet & devices.
+
+Reality: In rural/tribal schools, internet is patchy and sometimes only one shared device is available.
+
+This means children in the most vulnerable regions — the ones who need help the most — are excluded from current digital learning tools.
+
+**Challenges we ran into**
+
+Challenges I Ran Into
+
+Multilingual NLP Accuracy
+
+Hurdle: Handling multiple Indian languages and dialects was difficult — existing translation APIs often produced literal, inaccurate results that confused students.
+
+Solution: We switched to IndicBERT and lightweight rule-based error taxonomy for education-specific terms, ensuring subject vocabulary stayed consistent (e.g., “denominator” wasn’t mistranslated).
+
+Offline Functionality
+
+Hurdle: Running AI inference in rural areas with poor or no internet connectivity.
+
+Solution: We integrated TensorFlow Lite for on-device models and stored lesson packs in SQLite, with sync via Firebase only when internet is available. This allowed the system to remain fully functional offline.
+
+Detecting the Why Behind Mistakes
+
+Hurdle: At first, the system only flagged wrong answers as “incorrect,” which wasn’t enough to guide remediation.
+
+Solution: We built a Mistake Mapper that classifies errors (concept gap, careless mistake, language barrier, dyslexia-like pattern) and provides step-by-step feedback.
+
+Teacher Dashboard Complexity
+
+Hurdle: Teachers wanted insights but found the dashboard overwhelming when too much data was shown.
+
+Solution: We simplified the design into heatmaps and auto-generated lesson plans, giving teachers just the key information they need in minutes.
+
+Accessibility Features
+
+Hurdle: Creating modes for dyslexia/ADHD/hearing-impaired without making the app heavy or confusing.
+
+Solution: We used toggle-based accessibility modes (e.g., Dyslexia Mode = larger fonts + TTS, ADHD Mode = micro-lessons + gamified cues) so students and teachers can easily switch.Challenges I Ran Into
+
+Multilingual NLP Accuracy
+
+Hurdle: Handling multiple Indian languages and dialects was difficult — existing translation APIs often produced literal, inaccurate results that confused students.
+
+Solution: We switched to IndicBERT and lightweight rule-based error taxonomy for education-specific terms, ensuring subject vocabulary stayed consistent (e.g., “denominator” wasn’t mistranslated).
+
+Offline Functionality
+
+Hurdle: Running AI inference in rural areas with poor or no internet connectivity.
+
+Solution: We integrated TensorFlow Lite for on-device models and stored lesson packs in SQLite, with sync via Firebase only when internet is available. This allowed the system to remain fully functional offline.
+
+Detecting the Why Behind Mistakes
+
+Hurdle: At first, the system only flagged wrong answers as “incorrect,” which wasn’t enough to guide remediation.
+
+Solution: We built a Mistake Mapper that classifies errors (concept gap, careless mistake, language barrier, dyslexia-like pattern) and provides step-by-step feedback.
+
+Teacher Dashboard Complexity
+
+Hurdle: Teachers wanted insights but found the dashboard overwhelming when too much data was shown.
+
+Solution: We simplified the design into heatmaps and auto-generated lesson plans, giving teachers just the key information they need in minutes.
+
+Accessibility Features
+
+Hurdle: Creating modes for dyslexia/ADHD/hearing-impaired without making the app heavy or confusing.
+
+Solution: We used toggle-based accessibility modes (e.g., Dyslexia Mode = larger fonts + TTS, ADHD Mode = micro-lessons + gamified cues) so students and teachers can easily switch.
+
+**AI in Education**
+
+Track Focus
+
+The track “AI in Education” is about:
+
+Using artificial intelligence to make learning more personalized, inclusive, and scalable.
+
+Helping teachers reduce workload while improving student outcomes.
+
+Designing solutions that work in real-world classrooms, not just urban, tech-rich schools.
+
+ Our Project: NeuroQuad
+1. Problem Aligned with Track
+
+India faces a foundational learning crisis: children can’t read or do basic math at grade level.
+
+Teachers are overloaded, especially in multi-grade, rural classrooms.
+
+Language barriers and learning disabilities are left unaddressed.
+
+Current edtech fails in low-connectivity areas.
+
+This directly matches the track’s challenge: “How can AI help make education more inclusive, personalized, and effective?”
+
+2. Our AI-Powered Solution
+
+Mistake Mapper & Fixer → AI diagnoses why a child is struggling (concept gap, language issue, dyslexia-like error) and generates step-by-step remediation.
+
+Language Bridge → AI detects and translates across  Indian languages/dialects, ensuring no child is left behind because of language.
+
+AI Twin → Each child and teacher gets an evolving AI profile (strengths, weaknesses, learning pace) for personalization.
+
+Teacher AI Coach → Auto-generates lesson plans, worksheets, and insights, cutting teacher workload by 2–3 hours daily.
+
+Offline-First Architecture → Works fully without internet using TensorFlow Lite + SQLite; syncs later when online.
+
+Inclusive Modes → Special accessibility modes for dyslexia, ADHD, and hearing-impaired learners.
+
+3. Why It Fits the Track Perfectly
+
+Personalization: Every student gets feedback tailored to their errors and pace.
+
+Inclusivity: Supports Multi languages, dialects, and disabilities.
+
+Teacher Empowerment: AI reduces teacher burden instead of replacing them.
+
+Scalability: Offline-first design ensures it works in rural schools, not just urban.
+
+4. Real-World Example 
+
+“Imagine a child in a rural Karnataka school who understands multiplication but cannot explain it in English. Today, that child is marked wrong. With NeuroQuad’s Language Bridge, the child answers in Kannada, the AI translates into English for the teacher, and gives bilingual feedback to the student. At the same time, the Mistake Mapper detects whether the mistake was due to concept gap or language gap. This is AI in education for real classrooms, not just for urban edtech users.”Track Focus
+
+The track “AI in Education” is about:
+
+Using artificial intelligence to make learning more personalized, inclusive, and scalable.
+
+Helping teachers reduce workload while improving student outcomes.
+
+Designing solutions that work in real-world classrooms, not just urban, tech-rich schools.
+
+ Our Project: NeuroQuad
+1. Problem Aligned with Track
+
+India faces a foundational learning crisis: children can’t read or do basic math at grade level.
+
+Teachers are overloaded, especially in multi-grade, rural classrooms.
+
+Language barriers and learning disabilities are left unaddressed.
+
+Current edtech fails in low-connectivity areas.
+
+This directly matches the track’s challenge: “How can AI help make education more inclusive, personalized, and effective?”
+
+2. Our AI-Powered Solution
+
+Mistake Mapper & Fixer → AI diagnoses why a child is struggling (concept gap, language issue, dyslexia-like error) and generates step-by-step remediation.
+
+Language Bridge → AI detects and translates across  Indian languages/dialects, ensuring no child is left behind because of language.
+
+AI Twin → Each child and teacher gets an evolving AI profile (strengths, weaknesses, learning pace) for personalization.
+
+Teacher AI Coach → Auto-generates lesson plans, worksheets, and insights, cutting teacher workload by 2–3 hours daily.
+
+Offline-First Architecture → Works fully without internet using TensorFlow Lite + SQLite; syncs later when online.
+
+Inclusive Modes → Special accessibility modes for dyslexia, ADHD, and hearing-impaired learners.
+
+3. Why It Fits the Track Perfectly
+
+Personalization: Every student gets feedback tailored to their errors and pace.
+
+Inclusivity: Supports Multi languages, dialects, and disabilities.
+
+Teacher Empowerment: AI reduces teacher burden instead of replacing them.
+
+Scalability: Offline-first design ensures it works in rural schools, not just urban.
+
+4. Real-World Example 
+
+“Imagine a child in a rural Karnataka school who understands multiplication but cannot explain it in English. Today, that child is marked wrong. With NeuroQuad’s Language Bridge, the child answers in Kannada, the AI translates into English for the teacher, and gives bilingual feedback to the student. At the same time, the Mistake Mapper detects whether the mistake was due to concept gap or language gap. This is AI in education for real classrooms, not just for urban edtech users.”
+
+Team **NeuroQuad** -- [Sanketh Basannavar](https://github.com/SANKETHBASANNAVAR), [Yashaswini K_P](https://github.com/Yashaswini-K-P), [Bindhu Kumar](https://github.com/BindhukumarM16), [Praveen H S](https://github.com/praveenhebbal38)
+
+`2025-09-27`
+
+---
+
+### Loomyn
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/exposr-c8ac) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/yesh-045/loom) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://loom-buildathon.vercel.app/) [![Built at](https://img.shields.io/badge/Built%20at-mosAIc:%20AI%20in%20action%20with%20The%20Product%20Folks-0052CC?style=flat-square)](https://mosaicbytpf.devfolio.co)
+
+> loom - Interactive AI-Powered Learning
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![NoSQL](https://img.shields.io/badge/NoSQL-333333?style=flat-square)
+
+**The problem it solves**
+
+# Loom  
+**Tagline:** Redefining Learning Through AI-Driven Interactivity  
+
+---
+
+## Problem Statement  
+Education is still built on static, one-size-fits-all materials. Learners face recurring problems:  
+- Low engagement and poor retention from text-only study.  
+- Limited personalization and lack of adaptive tools.  
+- Difficulty visualizing abstract concepts in science and math.  
+- Minimal access to real-time feedback in language practice.  
+
+Research confirms the gap:  
+- Students studying only with text showed little improvement in retention compared to those using interactive methods (Lyra et al., IEEE).  
+- The global digital learning market is projected to grow from **$332.6B in 2022** to **$973.4B by 2030** (CAGR 13.96%, Zion Market Research).  
+
+---
+
+## Our Solution: loom  
+loom transforms AI-powered education into an interactive, adaptive platform. It enables:  
+- Generation of flashcards, quizzes, and slides tailored to a student’s input.  
+- An AI canvas to sketch problems and receive step-by-step explanations.  
+- A physics simulator for hands-on experimentation with scientific concepts.  
+- Speech and voice tools to practice pronunciation, listening, and speaking.  
+- Spelling and language challenges for gamified skill-building.  
+
+This shifts learning from passive consumption into an active, personalized experience.  
+By merging personalization, interactivity, and AI-driven adaptability, **loom** bridges the gap between traditional education and the diverse needs of modern learners. It doesn’t just deliver knowledge - it transforms how students engage with it, ensuring deeper understanding, stronger retention, and a more empowering learning experience.
+
+## High Level Design
+
+![image](https://assets.devfolio.co/content/87a718b14b9342178e38712c87778770/7cca1d13-27bf-49b1-a6fe-5e04709dfde7.png)
+---
+## Market Opportunity  
+- **1.886 billion students worldwide** (UNESCO).  
+- **924 million students already using online learning tools** (Devlin Peck, 2023).  
+- The addressable market is rapidly expanding as nearly half of all students globally now engage with digital tools.  
+loom targets this demand with a differentiated focus on interactive, AI-driven study rather than static Q&A bots.
+
+---
+
+## Impact & Vision  
+loom reimagines AI education by turning it into a hands-on, exploratory process.  
+- Students gain deeper understanding, stronger retention, and a more engaging study workflow.  
+- Teachers can scale personalized, interactive content with minimal preparation.  
+
+**Future Roadmap:** collaborative study sessions, multiplayer quizzes to extend immersive learning.
+
+---
+
+**Challenges we ran into**
+
+1. Integrating Multiple AI APIs Seamlessly  
+One of the biggest hurdles was managing multiple AI services (Gemini for reasoning, ElevenLabs for speech, and Cloudinary for storage) within a single workflow. Each API had its own authentication, request limits, and data formats, which made it difficult to synchronize responses without creating bottlenecks or breaking the user flow.  
+**Solution:** I introduced a modular API layer that standardized request handling. By creating utility wrappers for each service, I was able to unify error handling, caching, and retries, which kept the integration stable and predictable.
+
+2. Real-Time Simulations and Performance Issues  
+Building interactive physics simulations that ran smoothly in the browser was another major challenge. Initially, rendering complex interactions on the canvas caused significant lag, especially when combined with simultaneous speech or quiz features.  
+**Solution:** I optimized the rendering loop by throttling non-essential updates and leveraging efficient canvas drawing techniques. Offloading heavy computations to web workers also helped keep the UI responsive, ensuring the simulations felt fluid even during intense interactions.
+
+[Yeshwanth S](https://github.com/yesh-045)
+
+`2025-09-07`
+
+---
+
+### VANNAVIBE  AI  language translator from travelers
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/voice-ai-translator-12df) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://voicetranslate-nhi9173.public.builtwithrocket.new) [![Built at](https://img.shields.io/badge/Built%20at-mosAIc:%20AI%20in%20action%20with%20The%20Product%20Folks-0052CC?style=flat-square)](https://mosaicbytpf.devfolio.co)
+
+> We help communication without language barrier
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![React.js](https://img.shields.io/badge/React.js-333333?style=flat-square)
+
+**The problem it solves**
+
+It will solve language barrier easily if we use api paids ones i did free one browser ui it is 75% completed now remaining it is kannada to hindi translation can't correct due to problems with limit of tokens I will complete it i n future  if I get Chance 
+This is just prototype i planned to integrate every local  language with it  Which will help any travelers from any language to communicate well
+Everything done with help of chatgpt and rocket ai 
+Name and image of ai done by meta ai  
+this is my first vibe coding project and solo project also i don't have any team
+
+**Challenges we ran into**
+
+# First issue it can't recognise kannada or Hindi script 
+Then fixed it 
+# now  it can't translate local language  to each other 
+# One sided problem fixed  other probelm rise now   hindi  to kannada works well but kannada to hindi is not working I can't correct it reached limit of tokens i can't complete it now
+
+[Sanjay S](https://github.com/Firesanju)
+
+`2025-09-06`
+
+---
+
+### SmartAttend
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/smartattend-8b76) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/HRISHIKESH-hackoff/SmartAttendence) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://smart-attendence-po7ujm5gq-hrishikesh-mandals-projects-16693e9e.vercel.app) [![Built at](https://img.shields.io/badge/Built%20at-mosAIc:%20AI%20in%20action%20with%20The%20Product%20Folks-0052CC?style=flat-square)](https://mosaicbytpf.devfolio.co)
+
+> Planning for Smarter Learning
+
+![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Express.js](https://img.shields.io/badge/Express.js-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![Nodejs](https://img.shields.io/badge/Nodejs-333333?style=flat-square) ![React.js](https://img.shields.io/badge/React.js-333333?style=flat-square) ![Vite](https://img.shields.io/badge/Vite-333333?style=flat-square) ![shadcn/ui](https://img.shields.io/badge/shadcn/ui-333333?style=flat-square) ![Lucide Icons](https://img.shields.io/badge/Lucide%20Icons-333333?style=flat-square)
+
+**The problem it solves**
+
+Managing student attendance manually is time-consuming, error-prone, and inefficient. Students also struggle with balancing academics and productivity, lacking a tool that can help them track attendance, plan studies, and improve learning outcomes seamlessly.
+Our Solution
+
+- We built Smart Attendance Planner, an AI-powered platform that:
+- Automates attendance marking using QR codes 📷
+- Provides real-time analytics for students and teachers 📊
+- Suggests personalized productivity plans 🧠
+- Ensures secure authentication 🔐
+- Works seamlessly on web and mobile 🌐
+
+Key Features
+
+✅ QR-Based Attendance — Scan and mark attendance instantly
+
+📊 Real-time Dashboard — View analytics and reports
+
+🧠 AI-Powered Study Planner — Get custom schedules
+
+🔔 Smart Notifications — Reminders for low attendance & tasks
+
+🔐 JWT Authentication — Secured login and data handling
+
+☁️ Cloud Deployment — Hosted seamlessly on Vercel
+
+**Challenges we ran into**
+
+🚧 Challenges I Ran Into
+
+While building Smart Attendance & Productivity Planner, we faced several hurdles:
+
+API Integration Issues 🌐 — Connecting the frontend and backend seamlessly required debugging CORS errors and mismatched API routes.
+
+Database Optimization 💾 — Handling attendance records efficiently in Better-SQLite3 without performance lag was tricky, but we solved it using optimized queries.
+
+Deployment Errors 🚀 — Faced multiple Vercel deployment failures due to missing environment variables and incorrect build commands, but fixed them after carefully configuring .env and vercel.json.
+
+Version Conflicts ⚡ — Node.js and dependencies caused compatibility issues, which we resolved by downgrading Node with NVM and reinstalling packages cleanly.
+
+These challenges helped us improve debugging skills, optimize performance, and streamline deployment for a smoother project experience. ✅
+
+Team **Bits Slayer** -- [Gaurik Bose](https://github.com/samplegbgit), [RAHUL ADAK](https://github.com/RahulAdak142005), [Hrishikesh Mandal](https://github.com/HRISHIKESH-hackoff)
+
+`2025-09-06`
+
+---
+
+### Community Connect
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/community-connect-59de) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://our-community-buzz.lovable.app/) [![Built at](https://img.shields.io/badge/Built%20at-mosAIc:%20AI%20in%20action%20with%20The%20Product%20Folks-0052CC?style=flat-square)](https://mosaicbytpf.devfolio.co)
+
+> Residential Society Hub for all events
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+This app addresses one of the most overlooked yet impactful challenges—building stronger, more connected communities. By centralizing event updates, donations, vendor bookings, and local business promotion in a secure, user-friendly platform, it solves real problems faced by residents and self-employed individuals alike.
+
+- Missed community updates → Residents often don’t hear about events, announcements, or initiatives in time, since these are communicated via whatsapp to smaller groups
+
+- Lack of business visibility → Self-employed neighbors and local vendors struggle to promote their services within the society.
+
+- No central hub → Information, donations, and vendor bookings are scattered across WhatsApp groups, notice boards, and word-of-mouth.
+
+- Low trust & safety concerns → Generic platforms don’t verify residents, leading to privacy risks and security issues.
+
+- Payment friction → Community donations and vendor payments often lack secure, transparent handling.
+
+- Weak neighborhood bonds → Limited interaction opportunities make it harder for residents to connect, collaborate, and build trust.
+
+Access More details here:
+
+https://gamma.app/docs/Community-Connect-Together-in-Every-Event-6vjalfqi615r7ob
+
+**Challenges we ran into**
+
+Faced challenges while creating the prototype in Lovable, especially a Supabase connection issue that took 2 days to resolve.
+
+Realized the free credits were limited, which required better planning.
+
+Learned that having a well-formatted prompt prepared beforehand makes the process smoother.
+
+Explored other competitive tools, but found that Lovable provides a clear edge.
+
+Still a lot more to be done — currently spending hours improving the site step by step.
+
+*Treating it as a continuous learning journey, gaining insights along the way.*
+
+**Top 100 Participants**
+
+I had an idea of what I needed to build, but since I'm from a functional background, I had a challenge creating a prototype and making this live—that's where Lovable clicked in. With its intuitive, no-code setup, I was able to turn my concept into a working prototype in no time. It not only saved me hours of development struggle but also gave me the confidence to validate my idea faster. And because I didn’t have to start from scratch, I can now focus my effort where it truly matters.
+
+About What I have built:
+Community Connect is an app that addresses one of the most overlooked yet impactful challenges—building stronger, more connected communities. By centralizing event updates, donations, vendor bookings, and local business promotion in a secure, user-friendly platform, it solves real problems faced by residents and self-employed individuals alike. Unlike generic social platforms, it is designed specifically for Residential Welfare Associations (RWAs), making it scalable across multiple societies and adaptable to their unique needs. Its community-first approach ensures not just convenience, but also trust, collaboration, and stronger neighborhood bonds.
+
+Priya Rani
+
+`2025-09-07`
+
+---
+
+### AI Based University Application Assistance
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/ai-based-university-application-assistance-a95e) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/mosiac993-create/Admission) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://universityapplication.app.n8n.cloud/workflow/uAPdc5BPLaqBXfC4) [![Built at](https://img.shields.io/badge/Built%20at-mosAIc:%20AI%20in%20action%20with%20The%20Product%20Folks-0052CC?style=flat-square)](https://mosaicbytpf.devfolio.co)
+
+> Smarter Support for Smarter Students
+
+![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Airtable](https://img.shields.io/badge/Airtable-333333?style=flat-square) ![LLM](https://img.shields.io/badge/LLM-333333?style=flat-square) ![n8n](https://img.shields.io/badge/n8n-333333?style=flat-square) ![windsurf](https://img.shields.io/badge/windsurf-333333?style=flat-square)
+
+**The problem it solves**
+
+The AI Admission Companion solves the biggest pain point in international university admissions: complexity and lack of clarity.
+
+🎓 Simplifies the admissions journey → Instead of juggling multiple university portals, websites, and consultants, students get a single conversational assistant that handles everything.
+
+📊 Transparent fit analysis → The system scans resumes and goals to instantly recommend safe, moderate, and ambitious universities, giving students confidence in their choices.
+
+📑 Organized document management → Creates a personalized checklist (SOP, LORs, GMAT/IELTS scores, transcripts, etc.), highlighting missing or invalid documents with clear guidance.
+
+⏳ Tracks progress & deadlines → A live application tracker ensures students never miss milestones, removing stress and uncertainty.
+
+🔊 Engaging updates → With ElevenLabs voice narration, students can hear progress summaries, making the process more personal and accessible.
+
+**Challenges we ran into**
+
+Building a multi-agent, chat-first admissions assistant wasn’t straightforward. Some key challenges:
+
+Fragmented workflows: Admissions involve multiple distinct steps (discovery, fit analysis, documents, status tracking). Orchestrating these as independent but connected AI agents was tricky.
+
+✅ Solution: Used Rocket (multi-agent orchestration) and designed a conversation-first flow, so agents hand off tasks naturally inside a single chat thread.
+
+Resume parsing complexity: Uploading varied resume formats (PDF, DOCX) often broke parsing logic, leading to incomplete data.
+
+✅ Solution: Integrated Maxim to normalize resume data into structured JSON, which downstream agents could reliably consume.
+
+Maintaining structured output inside free-flowing chat: GPT-like interfaces tend to drift into unstructured answers.
+
+✅ Solution: Combined chat responses with sidebar panels and UI widgets (comparison tables, checklists), ensuring data stayed clear and actionable.
+
+Team **UniversityApplication** -- Pratistha Thapa, Alok Sengar, [Jinay Shah](https://github.com/jinay1404)
+
+`2025-09-07`
+
+---
+
+### Rememorise
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/rememorise-bcd1) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://rememorise.click/) [![Built at](https://img.shields.io/badge/Built%20at-mosAIc:%20AI%20in%20action%20with%20The%20Product%20Folks-0052CC?style=flat-square)](https://mosaicbytpf.devfolio.co)
+
+> 2-min reviews turns learning into long-term memory
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+Rememorise closes the gap between “I watched it” and “I can recall and apply it.” It turns scattered YouTube learning into structured, bite-size reviews by auto-extracting key insights, action items, summary etc; then guiding users through a quick daily check that they can **actually finish** & test their knowledge by attempting a 5 questions quiz. 
+
+This replaces ad-hoc note-taking (hard to revisit) with an opinionated, memory-first workflow: paste a link → see instant value (summary + takeaways) → complete a short review → build recall over time. The analysis view and action items also bridge knowledge to application, helping professionals turn ideas into concrete next steps instead of passively consuming content.
+
+**Challenges we ran into**
+
+Started on WhatsApp for daily bite-sized reviews → hit platform constraints
+	•	Template gate on business initiated messages
+	•	WhatsApp Business requires pre-approved templates for outbound messages.
+	•	Blocks fast iteration on copy (we needed to tweak prompts daily to test engagement).
+	•	24-hour session window for personalized messages which will be all messages in our case
+	•	Our spaced-repetition schedule (D+1, D+3, etc.) can easily fall outside 24h, killing tailored nudges.
+	•	Experiment velocity issues (practical impact)
+	•	Template approvals add multi-day latency.
+	•	Hard to A/B test cadence, tone, and card formats at speed.
+
+Consequence: We couldn’t reliably test the core habit loop (auto-scheduled, personalized micro-reviews) with the speed we needed.
+
+Decision: Shift to a web platform for MVP
+	•	Full control over the review queue UI and cadence.
+	•	Instant copy/UX changes (no template approvals).
+	•	Faster instrumentation (completion, recall proxies) to iterate weekly.
+
+Though it might face some onboarding barriers but we will still be able to test it better on the Web platform.
+
+**All Registered Participants**
+
+Backend was vibecoded with the help of Windsurf.
+
+**Vibecoding your Idea | Powered by Rocket.new**
+
+I've made the front end and some part of the backend on Rocket itself.
+
+Suryansh Bhandari
+
+`2025-09-07`
+
+---
+
+### VidyaVoice
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/vidyavoice-a4b8) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://vidya-vibe-connect.lovable.app/) [![Built at](https://img.shields.io/badge/Built%20at-mosAIc:%20AI%20in%20action%20with%20The%20Product%20Folks-0052CC?style=flat-square)](https://mosaicbytpf.devfolio.co)
+
+> AI Conversational Learning for UPSC Aspirants
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![Loveable](https://img.shields.io/badge/Loveable-333333?style=flat-square)
+
+**The problem it solves**
+
+VidyaVoice is an AI-powered, voice-first learning companion for UPSC aspirants. It simplifies current affairs by curating exam-relevant content, connects news with static subjects, and explains “why it matters” for UPSC. Learners can study hands-free through podcasts, quizzes, and flashcards—ideal for commutes and multitasking. With AI-personalized study paths, spaced repetition, and smart progress tracking, it boosts retention and efficiency. By reducing information overload, ensuring accuracy, and supporting all learning styles, VidyaVoice makes UPSC preparation easier, safer, and more effective.
+
+**Challenges we ran into**
+
+While using Loveable, we faced some bugs in the outputs it generated. However, by maneuvering around these issues, we were still able to achieve the desired results to a certain extend.
+
+Team **Catalyst_3** -- Suchitra Ravichander, Amarnath AC, Keerthirajan Asokan
+
+`2025-09-07`
+
+---
+
+### Miss Nova
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/levelup-6121) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Ayushjain2205/mosaic-hackathon) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://miss-nova.netlify.app/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/e0KJcvDtGZY) [![Built at](https://img.shields.io/badge/Built%20at-mosAIc:%20AI%20in%20action%20with%20The%20Product%20Folks-0052CC?style=flat-square)](https://mosaicbytpf.devfolio.co)
+
+> AI-powered teacher that helps you learn
+
+![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![OpenAi](https://img.shields.io/badge/OpenAi-333333?style=flat-square) ![Elevenlabs](https://img.shields.io/badge/Elevenlabs-333333?style=flat-square) ![AIsdk](https://img.shields.io/badge/AIsdk-333333?style=flat-square)
+
+**The problem it solves**
+
+# 🎓 Miss Nova — Your AI Teacher
+
+Miss Nova is an **AI-powered autonomous teaching agent** that transforms any prompt into a personalized micro-course — complete with slides, videos, podcasts, quizzes, and a guided learning journey.
+
+In a world where education is often boring, rigid, and inaccessible, Miss Nova makes learning **fast, fun, and free** — guided by a warm, responsive AI teacher who actually teaches.
+
+Because learning shouldn’t feel like a chore. It should feel like a quest.
+
+---
+
+## 🌐 Demo
+
+👉 Try it live: **[miss-nova.netlify.app](https://miss-nova.netlify.app/)**
+
+---
+
+## 💤 The Problem
+
+Traditional education today is:
+
+❌ Outdated — teaching methods haven’t kept up with how people actually learn
+❌ Inaccessible — quality education is still unaffordable or unavailable to most
+❌ One-size-fits-all — learners have different needs, but content doesn’t adapt
+❌ Feedback-starved — no instant guidance, no sense of progress, no motivation
+
+The truth is, people don’t need more content. They need **structure, feedback, and a guide** to make learning engaging and effective.
+
+---
+
+## 🌟 The Solution: Miss Nova
+
+Miss Nova isn’t just an AI content generator — she’s an **agentic learning companion.** Nova doesn’t dump knowledge on you; she plans, delivers, and evaluates learning journeys in real time, based on *your* prompt.
+
+She listens like a teacher, plans like a tutor, encourages like a coach, and guides like a mentor.
+
+---
+
+## 🧩 Key Features
+
+📝 **Prompt-to-Course AI Engine**
+Type anything — from “quantum physics” to “how to stay focused” — and Nova instantly builds a complete micro-course with structured modules.
+
+🎧 **Multi-Format Learning (Slides, Video, Audio)**
+Each course blends **AI-generated slides**, **short explainer videos**, and **podcast-style audio** so you can learn however you like — whether at a desk, on a commute, or during a workout.
+
+🗺️ **Themed Learning Journey**
+Every course is structured like an adventure:
+📘 Introduction → 🌌 Deep Dive → 🧠 Exploration → 🚀 Review → 🎯 Final Quiz
+
+🎮 **Gamified Progression**
+Earn XP, unlock streaks, and challenge your friends. Learning feels less like homework and more like leveling up in a game.
+
+👩‍🏫 **Agentic AI Personality**
+Nova isn’t a static bot. She reacts, encourages, and even celebrates your progress — making her feel like your favorite teacher in digital form.
+
+🔁 **Replayable + Shareable**
+Remix, share, or challenge friends with the courses you create. Learning becomes social, not solitary.
+
+---
+
+## 💡 Our Thought Process
+
+We asked: *what if learning felt as exciting as listening to a podcast, as fun as a game, and as clear as having a teacher explain just for you?*
+
+We realized the real issue isn’t access to knowledge — it’s **engagement, structure, and personalization.** That’s why Nova doesn’t just summarize. She designs **entire learning journeys** around you.
+
+---
+
+## 🚀 What’s Next
+
+👥 Collaborative Learning — squad-based quests guided by Nova
+📚 Course Library & Sharing — browse, remix, and explore Nova-created micro-courses
+🎯 Deeper Personalization — adaptive learning paths tailored to your progress
+
+---
+
+✨ Miss Nova is just getting started, but the vision is clear:
+**Turn any prompt into a fun, agent-led learning quest that anyone, anywhere, can enjoy.**
+
+Because in the age of AI, **everyone deserves a teacher.**
+
+**Challenges we ran into**
+
+One of the biggest challenges while building Miss Nova was getting the AI to generate structured courses instead of random chunks of information. At first, the outputs were either too long and overwhelming or too vague to be useful. We solved this by introducing a blueprint step where Nova first creates a clear outline with titles, levels, and outcomes before expanding into full lessons with slides, quizzes, and explanations. This made the learning experience feel much more consistent, guided, and teacher-like.
+
+**Top 100 Participants**
+
+We used lovable to generate the initial UI for the platform
+
+**All Registered Participants**
+
+We used windsurf to vibe code features into the application after generating the initial UI
+
+**All Registered Participants.**
+
+We have Audio courses for which we have leveraged the whole eleven labs stack
+
+**Vibecoding your Idea | Powered by Rocket.new**
+
+We used Rocket to vibe code the initial version of the course generator
+
+[Ayush Jain](https://github.com/Ayushjain2205)
+
+`2025-09-09`
+
+---
+
+### Smart Budgeting App for College Students
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/smart-budgeting-app-for-college-students-f70c) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/SohamDey2005/Smart-Budgeting-App-for-College-Students.git) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://smart-budgeting-app-for-college-students-fxyimyra3ayaxuwlvrscx.streamlit.app) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/3Df3Eg-mu4k) [![Built at](https://img.shields.io/badge/Built%20at-HackOdisha%205.0-0052CC?style=flat-square)](https://hackodisha-4.devfolio.co)
+
+> Track, Save and Plan your College Expenses with AI
+
+![NumPy](https://img.shields.io/badge/NumPy-333333?style=flat-square) ![pandas](https://img.shields.io/badge/pandas-333333?style=flat-square) ![Matplotlib](https://img.shields.io/badge/Matplotlib-333333?style=flat-square) ![Git](https://img.shields.io/badge/Git-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![GitHub](https://img.shields.io/badge/GitHub-333333?style=flat-square) ![Streamlit](https://img.shields.io/badge/Streamlit-333333?style=flat-square) ![GOOGLE GEMINI API](https://img.shields.io/badge/GOOGLE%20GEMINI%20API-333333?style=flat-square)
+
+**The problem it solves**
+
+**The Problem It Solves:**
+
+College students often struggle with **managing their limited finances**. From tuition fees and hostel charges to food, outings, and daily expenses, keeping track of money can be overwhelming.
+
+Many students:
+- Overspend on unnecessary items due to lack of planning.
+- Fail to save for emergencies, exams, or trips.
+- Don’t have an easy way to analyze their spending patterns.
+- Lack **personalized financial guidance** tailored to student life.
+
+This leads to financial stress, missed opportunities, and poor money habits that may continue beyond college life.
+
+ **How Our App Helps:**
+
+The **Smart Budgeting App for College Students** makes money management **simpler**, **smarter**, and **student-friendly** by:
+**1. Expense Tracking** → Categorize and visualize expenses (food, books, hostel, outings, travel, etc.) in INR.
+
+![image](https://assets.devfolio.co/content/1de212804b9c463dad163cf469115ce7/1f10ebe2-b5a1-4b3f-94e2-932b6171f7c8.png)
+
+![image](https://assets.devfolio.co/content/1de212804b9c463dad163cf469115ce7/d3a692b2-62f4-4738-a8c6-aabc31fa2911.png)
+
+**2. Budget Planning** → Set monthly or semester budgets and stay on track with reminders.
+
+![image](https://assets.devfolio.co/content/1de212804b9c463dad163cf469115ce7/95cf821d-1d80-4104-b5b4-e9601685fece.png)
+
+**3. AI-Powered Tips (Gemini AI)** → Get **personalized budgeting advice** focused on student life (canteen savings, exam prep, hostel management, trips, etc.).
+
+![image](https://assets.devfolio.co/content/1de212804b9c463dad163cf469115ce7/1ac4c619-8245-49e3-8adb-b7ccac74c0c6.png)
+
+**4. Savings Goals** → Plan and save for short-term needs (festivals, outings) or long-term goals (semester fees, trips).
+
+![image](https://assets.devfolio.co/content/1de212804b9c463dad163cf469115ce7/5c4a242a-4e22-47c9-a2e7-6eadad31fb63.png)
+
+**5. Smart Alerts** → Get notified when overspending in a category or nearing your budget limit.
+
+![image](https://assets.devfolio.co/content/1de212804b9c463dad163cf469115ce7/2cb9d819-62d7-4cf6-8f8c-a924436d4746.png)
+
+**6. Student-Centric Design** → Simple, mobile-friendly interface that’s easy for busy students to use daily.
+
+![image](https://assets.devfolio.co/content/1de212804b9c463dad163cf469115ce7/f122864f-676f-4700-886b-d08614d0b00b.png)
+
+**In short:** The app helps college students **track, save, and plan smarter with AI,** building strong money habits while reducing financial stress.
+
+**Challenges we ran into**
+
+**Challenges I Ran Into:**
+
+Building the **Smart Budgeting App for College Students** came with its own set of hurdles:
+**1. API Integration Issues:**
+- Initially, the app was built with **OpenAI API**, but I quickly ran into a **quota exceeded error (429)** which made the AI tips unreliable.
+- **Solution:** I switched to **Google Gemini API**, which provided a smooth integration and worked seamlessly with Streamlit for real-time AI-powered tips.
+
+![image](https://assets.devfolio.co/content/1de212804b9c463dad163cf469115ce7/a8fc0180-edb8-461a-a84e-3dfa7e297086.png)
+
+**2. Visualization Errors:**
+- While adding the expense pie chart, the app crashed when all expense values were 0, throwing a **NaN to integer conversion error**.
+- **Solution:** I fixed it by adding a condition to display the chart **only when total expenses > 0**, and showing a friendly info message otherwise.
+
+![image](https://assets.devfolio.co/content/1de212804b9c463dad163cf469115ce7/414e787d-5afc-4dbc-aa40-920da93c751f.png)
+
+**3. Student-Centric Design:**
+- It was tricky to make the app **professional yet simple enough** for everyday student use. Too many features could overwhelm first-time users.
+- **Solution:** I focused on **core features (budgeting, tracking, AI tips)** first, and designed the UI with **clear categories** relevant to student life (food, books, hostel, entertainment, transport, etc.).
+
+![image](https://assets.devfolio.co/content/1de212804b9c463dad163cf469115ce7/d4336c70-eb55-4c16-9ab5-c1c40ff1cf2d.png)
+
+**4. Secrets & API Key Management:**
+- While deploying, I had to ensure API keys were not exposed in the code.
+- **Solution:** I used **Streamlit Secrets Management** to safely store API keys during deployment.
+
+![image](https://assets.devfolio.co/content/1de212804b9c463dad163cf469115ce7/059f65bc-0516-46f9-98f8-edc9d38fb26d.png)
+
+Each of these challenges made the app **stronger and more reliable**, ensuring that students get a smooth experience while managing their finances.
+
+[Soham Dey](https://github.com/SohamDey2005)
+
+`2025-09-07`
+
+---
+
+### Smart Solution For Students
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/smart-solution-for-students-e064) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/anki2003ta/E_Learning2) [![Built at](https://img.shields.io/badge/Built%20at-HackOdisha%205.0-0052CC?style=flat-square)](https://hackodisha-4.devfolio.co)
+
+> SSS
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![OpenCV](https://img.shields.io/badge/OpenCV-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square)
+
+**The problem it solves**
+
+For Students (LMS):
+Seamless access to courses after payment.
+Real-time mentorship via chat.
+Personalized experience with profile editing & AI search.
+For Instructors (LMS):
+Simple course management (CRUD).
+Revenue-focused dashboard.
+Direct interaction with learners.
+For NEET Aspirants (Predictor System):
+Auto evaluation via OMR reader.
+Rank prediction & cutoff-based college suggestions.
+Smart dashboard for decision-making.
+
+**Challenges we ran into**
+
+Secure Auth: JWT & role-based middleware for login/signup.
+Stripe Sandbox: Testing & implementing encrypted payment flows.
+Realtime Tech: WebSockets for chat, AI APIs for search, Speech API for voice.
+Verified Data: Integrating authentic cutoff databases for NEET predictor.
+Cloud Infra: Scalable backend (AWS/Google Cloud) for peak load management.
+
+**🏆 Internship Opportunities at Threeway Studio**
+
+Fullstack, ml,Cloud
+
+Team **AR-vision** -- [Arpita Nath](https://github.com/arpi2003ta), [Dev SaimX](https://github.com/DevSaimX)
+
+`2025-09-06`
+
+---
+
+### QuestGenie
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/questgenie-eaf8) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Nileshstack/QuizGenerator) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://quiz-generator-jet.vercel.app/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/kCruXUUP1iQ) [![Built at](https://img.shields.io/badge/Built%20at-HackOdisha%205.0-0052CC?style=flat-square)](https://hackodisha-4.devfolio.co)
+
+> Your smart genie for endless learning
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![Express.js](https://img.shields.io/badge/Express.js-333333?style=flat-square) ![OpenAi](https://img.shields.io/badge/OpenAi-333333?style=flat-square)
+
+**The problem it solves**
+
+🛠️** The Problem It Solves**
+
+Studying for exams has always been a challenge for students. Some of the common problems include:
+
+❌ Wasting time searching for practice questions across books, notes, and the internet.
+❌ Limited or outdated question sets that don’t match the latest syllabus or board requirements.
+❌ Generic study material that doesn’t adapt to different boards, classes, or topics.
+❌ Teachers spend hours preparing question papers and practice sets manually.
+❌ Lack of personalization, leaving students unsure if they’ve practiced the right topics.
+
+✅** How QuestGenie Helps**
+
+QuestGenie makes learning smarter, faster, and personalized by solving these problems:
+
+✨ Instant Question Generation – No more searching. Just pick your class, board, subject, and topic, and let AI generate questions for you.
+
+✨ Always Fresh & Relevant – Uses AI to create new, diverse, and syllabus-aligned questions every time.
+
+✨ Personalized Practice – Tailors questions to your specific needs (subject, topic, difficulty, and number of questions).
+
+✨ Time-Saving for Teachers – Quickly generate question papers, quizzes, or assignments without hours of manual work.
+
+✨ Confidence Boost for Students – With unlimited practice material, students can cover weak areas and prepare better for exams.
+
+✨ Accessible Anytime, Anywhere – A modern, easy-to-use platform powered by AI and available 24/7.
+
+🎯 **What People Can Use It For**
+
+👩‍🎓 Students – Daily practice, mock tests, topic revision, and last-minute exam prep.
+
+👨‍🏫 Teachers – Creating class tests, homework, and worksheets in minutes.
+
+🏫 Coaching Institutes – Designing assignments and practice sets for multiple batches.
+
+🧠 Self-learners – Exploring subjects, testing knowledge, and learning new concepts interactively.
+
+ In short, QuestGenie removes the stress of finding and creating questions, making exam prep more efficient, reliable, and personalized for everyone.
+
+**Challenges we ran into**
+
+**OpenAI API Integration**
+
+Problem: Initially, generating consistent and syllabus-relevant questions using the OpenAI API proved to be challenging. Sometimes the responses were too generic or not aligned with the student’s class/board.
+
+Solution: I experimented with prompt engineering, adding more structured instructions (class, board, topic, difficulty) to ensure that the generated questions were accurate and contextual.
+
+** Managing Data Flow Between Frontend & Backend**
+
+Problem: Initially, passing user inputs (class, subject, board, topic, and number of questions) from the Next.js frontend to the Node.js/Express backend and then to OpenAI was messy.
+
+Solution: I implemented a clean API structure and standardized request/response formats with proper validation. This made the app more reliable and easier to scale.
+
+[Nilesh Srivastava](https://github.com/Nileshstack)
+
+`2025-09-06`
+
+---
+
+### FreeMind Ai
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/freemind-ai-282e) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Vinayak0987/FreeMindAi) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://free-mind-ai-jvr1.vercel.app/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/FX65KsBVjTk) [![Built at](https://img.shields.io/badge/Built%20at-HackOdisha%205.0-0052CC?style=flat-square)](https://hackodisha-4.devfolio.co)
+
+> The Future of No-Code Machine Learning
+
+![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![MERN stack](https://img.shields.io/badge/MERN%20stack-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+People and organizations often struggle with scattered, unstructured information spread across notes, documents, and tools. 
+
+Traditional apps are linear and rigid, making it hard to connect ideas, analyze data, or scale insights. This leads to wasted time, poor decision-making, and high reliance on manual effort.
+
+FreeMind AI solves this by transforming raw information into structured, connected knowledge maps powered by AI making tasks like research, planning, studying, and business analysis faster, safer, and more intuitive.
+
+**Challenges we ran into**
+
+Ensuring AI outputs are accurate and reliable (avoiding hallucinations).
+
+Handling large, complex datasets while keeping performance fast.
+
+Maintaining data security and privacy during AI processing.
+
+Creating a simple, user-friendly interface for knowledge mapping.
+
+**Build with Orkes Conductor in the AI Track**
+
+Orkes Conductor fits in Freemind AI as the workflow engine that actually runs and manages the AI pipelines which users want to build.
+
+FreeMind AI’s role Give users a no-code interface to design or auto-generate AI workflows  
+
+Orkes Conductor’s role is to Take those workflow definitions and execute them reliably, step-by-step, across all AI services, APIs, and agents.
+
+Team **Antimatter** -- [Sachin Yadav](https://github.com/ysachin26), [Alok Gupta](https://github.com/A-alok), [Vinayak Maurya](https://github.com/Vinayak0987), [Abhishek Mishra](https://github.com/Abhishekmishra20041123), [Raunak Panigrahi](https://github.com/Rounak-902)
+
+`2025-09-07`
+
+---
+
+### Student Productivity Tracker
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/student-productivity-tracker-6666) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://study-flow-3e4cc02b.base44.app) [![Built at](https://img.shields.io/badge/Built%20at-HackOdisha%205.0-0052CC?style=flat-square)](https://hackodisha-4.devfolio.co)
+
+> Clarity, consistency, and focus,all in one place.
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square)
+
+**The problem it solves**
+
+The app is a **Productivity Tracker App** for students. 
+Students in college are often under a lot of pressure, from completing their assignments to finishing lab records, exams etc. So this app can be used by the students so as to create an **effective schedule** for themselves. 
+Using this app they can
+
+- Select their particular branch in which they're studying in or any other field that they are interested in and can start learning various subjects or topics in that field.
+
+- Access the *dashboard* in which they can check their progress and number of hours spent while studying 
+
+- Use *focus mode*. 
+This is one of the most important features that allows the students to enter a zone where they can just set a timer and focus on the subject or topic they might want to read. 
+It also involves music which can have a calming effect on their minds preventing them from boredom, irritation or other distractions.
+- access their own personalised *roadmaps*. It's generated using AI. The app first asks the user to choose what they want to learn, choose their level in that subject or topic, choose the duration of study and even add any additional details.
+It is a great feature that guides the students by telling them from where to or how to begin the course or studying for the desired (selected)topic. 
+
+- Access their schedule. They add or remove things from their schedule that can remind them about their work or other items in their list.
+
+- Use the *AI feature **Zuri***. **Zuri** is a friendly AI Owl assistant that can be your friend and chat around about your day, to encouraging you to study.
+**Zuri** is designed in such a way that once the user talks with it chatting casually for some time, after sometime it reminds the user to continue with their study session. **Zuri** continuously provides the user with encouragement, and prompts to keep on going.
+
+**Challenges we ran into**
+
+We faced a lot of challenges while developing the application. 
+
+- Designing the application page, which required a lot of changes once it was built. 
+Changing around postions of certain objects, making them eye catching and user friendly. 
+- Adding music to to played during the **focus mode**. It was especially difficult for us since we were not experienced in doing that, so we had to look for various sources and information to be able to do so.
+
+Team **ALTER EGO GCEK** -- [Asutosh Kanungo](https://github.com/Nos), [Adyasa Anusaya Samal](https://github.com/samaladyasa), [Karina Sahoo](https://github.com/thekarinaco-oss), [Subham Nayak](https://github.com/Nos), None None
+
+`2025-09-07`
+
+---
+
+### SignBridge
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/signbridge-5e6e) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/manmeetsingh149/SignBridge_) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/q6t2vBzSBS0) [![Built at](https://img.shields.io/badge/Built%20at-Hack%20Quanta-0052CC?style=flat-square)](https://hack-quanta.devfolio.co)
+
+> Bridging Communication, Empowering Education
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![Chrome Extension](https://img.shields.io/badge/Chrome%20Extension-333333?style=flat-square)
+
+**The problem it solves**
+
+Deaf and hard-of-hearing students are often excluded from mainstream education because most classrooms rely only on text and speech. Teachers usually don’t know sign language, and interpreters are rarely available. As a result:
+
+1) Students struggle to follow lessons in real time.
+
+2) Digital learning tools are not designed with sign language accessibility.
+
+3) Equal participation in mainstream education becomes almost impossible.
+
+SignBridge bridges this gap by converting classroom notes and live speech into sign language using a 3D avatar, enabling deaf students to learn alongside their peers without relying on human interpreters.
+
+**Challenges we ran into**
+
+1) 3D Avatar Development – Creating a realistic and expressive 3D avatar that can perform sign language gestures smoothly was a major challenge. We had to ensure accuracy, synchronization, and clarity so deaf students could actually understand it.
+
+2) Sign Language Dataset Availability – Unlike text or speech datasets, sign language datasets are scarce and fragmented. Finding or building a dataset for sign words and phrases required significant effort.
+
+3) Real-time Conversion – Translating live speech into sign language in real time without lag was a tough technical hurdle, especially for maintaining accuracy.
+
+4) Integration with Classroom Tools – Making sure the solution works seamlessly with existing notes and teaching platforms required a lot of iteration.
+
+5) Accessibility Standards – Ensuring our approach was inclusive, accurate, and aligned with accessibility needs meant extra testing and refinement.
+
+Team **INFERNO** -- [Mayank Kumar](github.com/monkey14019), [Manmeet Singh](https://github.com/manmeetsingh149)
+
+`2025-09-06`
+
+---
+
+### CAREER & CREW
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/career-and-crew-8396) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/devbysoham/status-code/tree/main) [![Built at](https://img.shields.io/badge/Built%20at-StatusCode%202-0052CC?style=flat-square)](https://statuscode-2.devfolio.co)
+
+> Accessibility job portal for disabled
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+Project 'Career and Crew' is an "Accessibility-driven job portal for specially-abled person". It works on the theme of open innovation, tackling the problem of equal employment opportunities. It is accessible, mainstream, user-oriented and economically viable. The portal is feasible with several benefits like equal jobs, empowerment, etc uplifting the society.
+
+**Challenges we ran into**
+
+The use of Mongodb was tough for us, as it was the first time we used it. The login portal was not showing properly but eventually the code ran in 3rd attempt.
+
+**Open Innovation**
+
+Creating a job portal for the specially abled is a tinge of a social work using innovation.
+
+Team **CODE OF THRONES** -- [Soham Mazumder](https://github.com/devbysoham), [Rounak Ghosh](https://github.com/rounak-ghosh2006), [Subarna barui](https://github.com/subarnabarui07), [Mandira Saibo](https://github.com/Mandira03915), [Tamanna Malita](https://github.com/tamannamalita)
+
+`2025-08-24`
+
+---
+
+### Crediverse
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/crediverse-0354) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://crediverse.vercel.app/) [![Built at](https://img.shields.io/badge/Built%20at-StatusCode%202-0052CC?style=flat-square)](https://statuscode-2.devfolio.co)
+
+> One stop growth and student guide for college life
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+What Can People Use Crediverse For?
+
+Crediverse is designed as a gamified student growth & credibility platform, helping students showcase, track, and improve their skills, experiences, and achievements throughout their academic journey.
+
+How It Makes Life Easier & Safer
+Skill Tracking & Growth
+
+Students can map their skills through challenges, submissions, and opportunities.
+
+Provides a clear growth roadmap so students know where they stand and how to improve.
+
+Safer & Trusted Credibility
+
+Achievements, certificates, and submissions are verified & stored securely, ensuring authentic credibility.
+
+Prevents fake claims on resumes by creating a trustworthy skill profile.
+
+Teamwork & Collaboration
+
+Students can join or create teams for projects, hackathons, and opportunities.
+
+Makes finding like-minded peers easier, saving time and building stronger collaborations.
+
+Gamification & Motivation
+
+Leaderboards, XP, badges, and rewards make skill-building engaging instead of stressful.
+
+Keeps students motivated over their entire college journey.
+Smart Organization
+
+Built-in calendar and event reminders reduce the chaos of managing deadlines, submissions, and competitions.
+
+Everything is in one place – no more switching between multiple apps.
+
+Resume & Career Boost
+
+Auto-generated resume builder with verified skills & achievements.
+
+Gives recruiters a safer, more reliable way to evaluate candidates.
+
+**Challenges we ran into**
+
+Bugs & Hurdles We Faced in Building Crediverse
+
+Building Crediverse came with its own set of technical challenges. Here are some key hurdles and how we solved them:
+
+Wrapping Resume Analyzing Model into an API
+
+Hurdle:
+
+Our resume analysis model (built in Python) worked well locally, but integrating it into the web app was tricky.
+
+Issues with handling large files, API timeouts, and ensuring consistent responses.
+
+Solution:
+
+We containerized the model using FastAPI + Uvicorn for lightweight serving.
+
+Added asynchronous requests and queue handling to prevent blocking.
+
+Optimized file parsing and preprocessing for faster response times.
+
+Integrating NFT Badges & Certificates
+
+Hurdle:
+
+Minting NFTs on-chain without making the process too expensive or complicated for users.
+
+Ensuring certificates are verifiable but still student-friendly (not just for Web3 experts).
+
+Solution:
+
+Used a Polygon testnet for low-cost minting during development.
+
+Built a simple abstraction layer so users interact with badges as normal achievements, while the blockchain handles verification behind the scenes.
+
+Integrated Metamask / WalletConnect for seamless login and claiming.
+
+Fetching Database Data Efficiently
+
+Hurdle:
+
+With multiple modules (challenges, leaderboards, teams, resume data), fetching and displaying data quickly became a performance bottleneck.
+
+Some queries caused redundant fetches and slowed down the dashboard.
+
+Solution:
+
+Introduced indexed queries and pagination to optimize reads.
+
+Implemented server-side caching (Redis) for frequently accessed data (like leaderboards).
+
+Normalized database schema to reduce redundant fetches.
+
+Each hurdle taught us how to balance scalability, security, and user-friendliness — shaping Crediverse into a more robust platform.
+
+**BlockChain**
+
+we are using smart contract to mint nfts on polygon amoy testnet
+
+Team **Tech Nerdies** -- [Sarbajit De](https://github.com/Sarbajit-2004), [Pratuman Kumar](https://github.com/PratumanK), [Awnikant Ajay](https://github.com/AwkJay), [Saksham Jaiswal](github.com/Saksham-Jaiswal-2004)
+
+`2025-08-24`
+
+---
+
+### NextEdu
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/nextedu-297e) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/anki2003ta/E_Learning2) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/Vk7jqHlES5s?si=X2oL6D2Z4l61W9YK) [![Built at](https://img.shields.io/badge/Built%20at-StatusCode%202-0052CC?style=flat-square)](https://statuscode-2.devfolio.co)
+
+> Education track: An Intelligent E-Learning Managem
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Redux](https://img.shields.io/badge/Redux-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square)
+
+**The problem it solves**
+
+Students preparing for competitive exams and college admissions face three major challenges:
+
+1. Lack of Clarity in College Prospects – Students don’t know which colleges they realistically stand a chance of getting into based on their performance.
+
+
+2. Unstructured Learning Path – Most e-learning platforms don’t guide students on which exact topics or courses to focus on to improve their weak areas.
+
+
+3. Limited Real-Time Interaction – Existing platforms often lack effective two-way communication tools, making it difficult for tutors to give instant feedback or for students to resolve doubts quickly.
+
+
+
+📌 NextLesson addresses all three by:
+
+Predicting college opportunities from mock test performance.
+
+Suggesting personalized courses to close knowledge gaps.
+
+Enabling real-time interaction through a voice assistant and chatbot, bridging the gap between instructors and students.
+
+**Challenges we ran into**
+
+Git Branch Conflicts – While merging contributions from different team members, multiple branch conflicts arose.
+✅ Fix: Standardized branching strategy, used frequent pull requests, and resolved conflicts collaboratively with code reviews.
+
+
+2. Repetitive Prediction Results (Caching Issue) – Our prediction model was returning the same results due to stale cached data.
+✅ Fix: Implemented dynamic cache invalidation and ensured fresh model re-runs after each new input.
+
+
+3. Voice Assistant Misinterpretation – The real-time voice assistant initially misinterpreted student queries due to accent and noise issues.
+✅ Fix: Integrated a noise reduction layer and fine-tuned NLP models for better speech-to-text accuracy.
+
+
+4. Flask Application Hosting Error – We faced issues deploying our Flask app due to environment mismatches and server compatibility.
+✅ Fix: Containerized the application using Docker, switched to a Gunicorn + Nginx setup for production, and used cloud hosting (Heroku / AWS EC2 / Render) to ensure smooth deployment.
+
+**Education**
+
+Overview:
+NextLesson is an AI-driven e-learning platform designed to empower both students and tutors. It goes beyond traditional test prep by predicting students’ college admissions chances based on their performance in mock tests. Alongside predictions, it provides personalized course recommendations that help learners identify weak areas and level up their scores.
+
+Key Features:
+
+📊 College Predictor: Analyzes mock test performance and predicts the range of colleges where students stand a chance of admission.
+
+🎯 Smart Course Suggestions: Recommends relevant subjects, practice modules, and skill-boosting courses to bridge performance gaps.
+
+🗣️ AI Voice Assistant & Chatbot: Facilitates real-time, interactive learning between students and instructors with voice-enabled Q&A and doubt-solving.
+
+📈 Tutor Dashboard: Provides insights into student performance trends, enabling instructors to adapt teaching methods for maximum impact.
+
+🌐 Scalable Platform: Accessible across devices with seamless integration of text, voice, and adaptive AI analytics.
+
+
+Problem It Solves:
+
+Students often lack clarity on which colleges they can realistically aim for.
+
+Tutors face challenges in customizing lessons for different learning curves.
+
+Existing e-learning platforms rarely offer end-to-end guidance from performance tracking → improvement → college admission predictions.
+
+
+Impact:
+
+Helps students map their learning to future opportunities with data-driven predictions.
+
+Provides tutors with actionable insights to improve teaching effectiveness.
+
+Democratizes access to personalized, interactive, and career-oriented education.
+
+Team **NextLesson** -- [Ankita Nath](https://github.com/anki2003ta), [Amlan Banerjee](https://github.com/10-ab), [Ayush Singh](https://github.com/Ayush412-art)
+
+`2025-08-24`
+
+---
+
+### CareQueue+
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/carequeue-7e09) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://drive.google.com/file/d/1kVyUX35VcS6DLKbPXBsloCoXB59hShge/view?usp=sharing) [![Built at](https://img.shields.io/badge/Built%20at-HackBuild-0052CC?style=flat-square)](https://hackbuild.devfolio.co)
+
+> From Chaos to Coordinated Community Care
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![React Native](https://img.shields.io/badge/React%20Native-333333?style=flat-square)
+
+**The problem it solves**
+
+CareQueue+ solves a simple, very human problem: nobody knows what’s really happening at the neighborhood clinic until they show up.
+
+Today, patients gamble on a visit—Is it open? How long is the wait? Do they even handle my issue?—and end up wasting time, crowding tiny waiting rooms, or bouncing between labs and pharmacies that are shut or out of stock. Newcomers and seniors feel this the hardest. On the clinic side, one sick receptionist, a dropped Wi‑Fi connection, or a sudden rush can turn a normal day into chaos: phones ringing nonstop, guesses about wait times, frustrated walk‑ins, and staff too busy to triage fairly.
+
+CareQueue+ replaces that guesswork with shared, live context. Patients see nearby clinics with real wait ranges, capacity, and services, can hold a place in line, and only head in when it’s truly their turn. Clinics can broadcast status even during outages (via a quick call or WhatsApp message), triage quietly and fairly, smooth peak rushes, and route patients to partner labs/pharmacies that are actually ready. It respects real-world constraints—patchy internet, small teams, mixed digital literacy—by offering assisted modes and simple fallbacks instead of assuming “perfect tech.”
+
+The result is fewer dead trips, safer and shorter waits, calmer front desks, and a network of small clinics that finally behaves like one coordinated system. It doesn’t try to change how clinics care—it just makes the everyday flow sane, predictable, and fair.
+
+**Challenges we ran into**
+
+I visited many clinics and consulted with many medical professional to research about this problem deeply. I also listened to the problems from the most of the peoples are facing. After all research, I found:
+-  Reception desks juggling three phones and a walk‑in line; updates die the moment Wi‑Fi blinks.
+
+- “Come after lunch” means anything from 20 minutes to 2 hours—no one tracks actual flow.
+
+- One receptionist out sick and the whole queue logic collapses into first‑come, first‑shout.
+
+- Patients sent to “nearby” labs that are shut or out of reagent—30–60 minutes wasted and they return angry.
+
+- Respiratory days pack 12 people into a 6‑chair room; parents stand outside with toddlers, no shade.
+
+- Seniors ask staff to read SMS; language switches stall at the counter and slow everyone behind.
+
+- People quietly exaggerate pain to jump the line; staff knows it happens but has no gentle way to triage.
+
+- Power cuts flip TVs and tokens off; staff re-creates lists from memory and disputes erupt.
+
+- “Do you do nebulization today?” burns 20+ calls a day—same questions, no quick status board.
+
+- Auto drivers refuse short hops in rain; late arrivals lose turn and start over from scratch.
+
+- Doctors ask for 48‑hour reviews; patients forget, return worse, and clog peak hours.
+
+- Owners want proof of attendance for insurers without demanding Aadhaar—caught between trust and privacy.
+
+Team **NaN Ninjas** -- [Jatin Raikwar](https://github.com/jatinn2602), [Dev Sahu](https://github.com/Veda361)
+
+`2025-08-16`
 
 ---
 

@@ -1,8 +1,46 @@
 # Finance and Fintech
 
-![Projects](https://img.shields.io/badge/Projects-240-4B32C3?style=flat-square) [![GitHub](https://img.shields.io/badge/GitHub-tech--anupam-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/tech-anupam) [![Instagram](https://img.shields.io/badge/Instagram-tech.anupam-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/tech.anupam)
+![Projects](https://img.shields.io/badge/Projects-376-4B32C3?style=flat-square) [![GitHub](https://img.shields.io/badge/GitHub-tech--anupam-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/tech-anupam) [![Instagram](https://img.shields.io/badge/Instagram-tech.anupam-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/tech.anupam)
 
 [← Back to all themes](https://github.com/tech-anupam/hackfolio#readme)
+
+---
+
+### Cashly
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/cashly-bf7f) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-15-FF6B6B?style=flat-square)
+
+> Your finances, simplified.
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square)
+
+**Description of your solution**
+
+Cashly is an Agentic AI-powered financial coaching platform designed to provide personalized, proactive, and adaptive financial guidance to individuals across diverse income profiles, including gig workers, freelancers, and salaried employees. 
+Unlike traditional budgeting apps that offer static advice, Cashly leverages advanced AI , machine learning models, and secure data integrations to continuously learn from a user’s financial behavior. 
+
+By integrating multiple data streams such as bank accounts, credit/debit cards, digital wallets, bills, subscriptions, and investments, Cashly provides a 360° financial overview.
+
+At the core of the platform is a Master Agent that coordinates multiple specialized Worker Agents, each trained for specific financial functions:
+
+Transaction Analysis Agent – Automatically categorizes spending and income, detects patterns, and highlights recurring or unusual transactions.
+
+Risk Detection Agent – Uses predictive analytics to identify potential financial risks such as overspending, accumulating debt, or missed payments, and flags them in real time.
+
+Budgeting & Forecasting Agent – Generates adaptive monthly budgets and forecasts future cash flow using machine learning models that evolve with user behavior.
+
+Investment Advisory Agent – Employs data-driven insights and risk modeling to suggest personalized investment options aligned with user goals and tolerance levels.
+
+Notification & Reminder Agent – Utilizes real-time automation and natural language generation to send intelligent nudges, alerts, and progress updates that keep users financially disciplined.
+
+By integrating Agentic AI architecture, machine learning, and secure cloud-based APIs, Cashly transforms financial management into a dynamic, intelligent, and automated coaching experience empowering users to save smarter, invest wisely, and prevent financial pitfalls before they occur.
+
+**Fintech: Build an autonomous financial coaching agent that adapts to real user behavior, spending patterns, and income variability - helping gig workers, informal sector employees, and everyday citizens make smarter financial decisions proactively.**
+
+Cashly fits perfectly into the Agentic AI / Financial Coaching track as it leverages a multi-agent AI architecture to provide personalized, proactive financial guidance. Using a Master Agent to orchestrate Worker Agents specialized in transaction analysis, risk detection, budgeting, investment advisory, notifications, and financial education, Cashly continuously learns from a user’s behavior and financial data streams. By integrating bank accounts, wallets, bills, subscriptions, and investments, the platform delivers holistic insights, identifies risks, and provides tailored recommendations and reminders. Additionally, Cashly incorporates interactive visuals and educational content to help users understand investments and manage finances better, making it a dynamic, adaptive, and outcome-driven solution that aligns with the track’s goal of intelligent, user-centric AI assistance.
+
+Team **404 Found** -- [Mannat Thukral](https://github.com/DebugDyanmo), [Aishwarya Singh](https://github.com/singhaishwarya2512-sudo)
+
+`2025-10-12`
 
 ---
 
@@ -378,6 +416,66 @@ Most checkout integrations are linear (Pay → Webhook → Done). TrustDrop leve
 Team **Kitlers** -- [Sathvik Pasuvula](https://github.com/sathvik9105), [Ashutosh Vats](https://github.com/AshutoshVatsg), [Sunil Swain](https://github.com/sunilswain7)
 
 `2026-04-30`
+
+---
+
+### Quantix
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/quantix-8575) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/GIITR31/Quantix) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/FhvFA8c_w6E) [![Built at](https://img.shields.io/badge/Built%20at-Syntax%20Error%202025-0052CC?style=flat-square)](https://syntax-error-2025.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-8-FF6B6B?style=flat-square)
+
+> Algo trading bot
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![TensorFlow](https://img.shields.io/badge/TensorFlow-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-333333?style=flat-square)
+
+**The problem it solves**
+
+Challenges Solved:
+
+Accessibility: Makes institutional-grade AI trading tools available to retail investors
+
+Time Efficiency: Reduces manual analysis from hours to 10-15 seconds with automated multi-factor evaluation
+
+Decision Paralysis: Provides confidence-scored recommendations combining LSTM, technical indicators, and sentiment analysis
+
+Portfolio Complexity: Automates optimal asset allocation across multiple stocks based on risk and expected returns
+
+Strategy Validation: Offers historical backtesting to verify strategy effectiveness before real capital deployment
+
+**Challenges we ran into**
+
+1. Real-Time Performance Optimization
+Initially, stock analysis took 40+ seconds due to sequential API calls and synchronous ML inference. I optimized by implementing async data fetching, caching frequent requests, reducing LSTM lookback from 100 to 60 timesteps, and using multi-threading for technical indicator calculations, ultimately achieving sub-15-second analysis.
+
+
+
+2 Backtesting Accuracy & Speed
+Initial backtesting implementation processed every data point, taking 20+ minutes and producing unrealistic results. I introduced smart sampling (every 5th point), adjusted confidence thresholds from 50% to 40% for more trades, fixed buy-and-hold calculations to use proper indexing, and implemented proper trade pairing for accurate win-rate calculations.
+
+3. Portfolio Optimization Algorithm
+Designing a fair allocation strategy required balancing multiple factors. I developed a weighted scoring system (40% confidence, 40% expected return, 20% risk-inverse) with diversification constraints (max 40% per stock, min 5% threshold), handling edge cases like no BUY signals through fallback to highest-confidence stocks.
+
+4. Frontend State Management & CSS Conflicts
+Managing complex state across multiple components (loading, errors, results) while maintaining clean UI proved challenging. I resolved CSS specificity issues by creating isolated component stylesheets, implemented proper error boundaries, and used React hooks effectively for async operations and background job polling.
+
+5 Model Training & Overfitting
+Early LSTM models showed 95%+ training accuracy but failed on real data due to overfitting. I added dropout layers (0.2), reduced model complexity from 3 to 2 LSTM layers, implemented early stopping with patience=10, and used validation splits to ensure generalization—achieving realistic 60-70% confidence scores.
+
+These challenges taught me production-level debugging, optimization techniques, and the importance of robust error handling in real-world applications.
+
+**Open Track - Development**
+
+Quantix demonstrates Development Track excellence through its production-ready full-stack architecture combining React frontend, FastAPI backend with async processing, and TensorFlow LSTM models for real-time financial predictions. The project showcases advanced software engineering with modular codebase, RESTful API design, background job handling for backtesting, and scalable multi-threaded data pipelines achieving sub-15-second analysis. Beyond technical implementation, it solves real-world problems through AI-powered portfolio optimization and risk management, proving both coding proficiency and practical software development skills essential for Dev Track success.
+
+**Freshman Track**
+
+Because we are freshers
+
+**Open Track - Design**
+
+Quantix showcases exceptional UI/UX design through its modern dark-themed interface with neon gradient accents, intuitive component-based navigation across Stock Gallery, Live Analysis, Portfolio Optimizer, and Backtest sections, featuring glassmorphism cards, smooth animations, interactive hover states, and real-time visual feedback. The design prioritizes user experience with clear information hierarchy, responsive layouts, loading states with animated rings, color-coded confidence indicators (green for buy, red for sell), and a cohesive visual language that makes complex financial data accessible and engaging for retail investors.
+
+Team **Quantix** -- [Atharv Gupta](https://github.com/GIITR31), Akshat Jindal, Arav Jha, [Anshul Tripathi](https://github.com/antrip03)
+
+`2025-10-12`
 
 ---
 
@@ -1058,6 +1156,90 @@ Team **Guradlink,ai** -- [Sherhin Pp](https://github.com/SherhinShoukath), [Ajna
 
 ---
 
+### Quorel
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/quorel-cd3f) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Khushi-Roy-123/Quorel-V2) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://quorel-v2.onrender.com/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/hsFj7SKug2g) [![Built at](https://img.shields.io/badge/Built%20at-HackOdisha%205.0-0052CC?style=flat-square)](https://hackodisha-4.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-6-FF6B6B?style=flat-square)
+
+> Advanced real-time credit-worthiness engine
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![SQLite](https://img.shields.io/badge/SQLite-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Natural language processing (NLP)](https://img.shields.io/badge/Natural%20language%20processing%20(NLP)-333333?style=flat-square) ![AI/ML](https://img.shields.io/badge/AI/ML-333333?style=flat-square)
+
+**The problem it solves**
+
+**Problem** : Investors and regulators won’t trust a score unless 
+they understand why it was assigned. The “black box” has to be 
+replaced with a transparent, explainable, evidence-backed system.
+
+**Build a Real-Time Explainable Credit Intelligence Platform that:**
+● Continuously ingests and processes multi-source financial, 
+operational, macroeconomic, and selected unstructured data; 
+● Generates issuer-level and asset-class-level creditworthiness 
+scores that react faster than traditional ratings; 
+● Produces clear, feature-level explanations and trend insights 
+for each score; 
+● Presents results through an interactive, analyst-friendly web 
+dashboard. 
+
+**Features:**
+○ Near-real-time or frequent updates 
+○ Cleaning, normalization, and feature extraction 
+○ Scalability for dozens of issuers across sectors 
+○ Fault tolerance for data source outages
+
+**Explainability Layer**
+● For each score: 
+○ Feature contribution breakdowns; 
+○ Trend indicators (short-term vs. long-term); 
+○ Reasoning highlighting latest events from both structured and unstructured sources; 
+○ Plain-language summaries for non-technical 
+stakeholders. 
+
+**Interactive Analyst Dashboard**
+● Interactive score trends over time 
+● Feature importance visualizations 
+● Filters
+ 
+**Bonus:** 
+○ Alerts for sudden score changes 
+○ Comparison with agency ratings
+○ Integration of Automated data refresh & model 
+   retraining and other basic MLOps techniques
+
+**Challenges we ran into**
+
+1. **Data Acquisition:** Integrate APIs, scrapers, and social feeds.
+ 2. **Preprocessing:** Clean and normalize raw data.
+ 3. **Event Extraction:** Apply NLP models.
+ 4. **Scoring Engine:** Train ML models.
+ 5. **Dashboard:** Build interactive web app.
+ 7. **Deployment:** Dockerize and host on cloud.
+
+Team **Genix** -- [Madddala Jashwanth](https://github.com/jassu-dev), [Khushi Roy](https://github.com/Khushi-Roy-123)
+
+`2025-09-06`
+
+---
+
+### CrediTrust AI
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/creditrust-ai-3c1f) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Tanishqontop/CrediTrustAI-HackOdisha-5.0) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://www.youtube.com/watch?v=8UXi_q-9WbY) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=8UXi_q-9WbY) [![Built at](https://img.shields.io/badge/Built%20at-HackOdisha%205.0-0052CC?style=flat-square)](https://hackodisha-4.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-6-FF6B6B?style=flat-square)
+
+> Fast Loans, Quick Growth.
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![REST API](https://img.shields.io/badge/REST%20API-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![JSON](https://img.shields.io/badge/JSON-333333?style=flat-square) ![Express.js](https://img.shields.io/badge/Express.js-333333?style=flat-square)
+
+**The problem it solves**
+
+Our project tackles the challenge of financial exclusion by empowering small entrepreneurs with AI-driven loan approval through innovative algorithms and data-driven insights. We enable unbanked entrepreneurs to access credit without hassle of a lot of paperwork, and grow their businesses sustainably.
+
+**Challenges we ran into**
+
+One of the biggest challenges we faced was bringing the AI model to life. With very little traditional financial data available for unbanked nano-entrepreneurs, we had to get creative finding ways to teach the AI using informal transactions and patterns. Making sure the model could give real-time, reliable credit recommendations while fitting smoothly into our platform was tricky, but it pushed us to think carefully about both technology and the people who would actually use it.
+
+Team **The Innovators** -- [Tanishq Pratap](https://github.com/Tanishqontop), [Afia Tabassum](https://github.com/afia45), [Ayush Gupta](https://github.com/dj-ayush), [Bhuvaneshwari G](https://github.com/Bhuvaneshwari03)
+
+`2025-09-07`
+
+---
+
 ### SignFlow
 [![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/signflow-a1cb) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://www.youtube.com/watch?v=KDsyd7BzeiA) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=aVUMpGVybJw) [![Built at](https://img.shields.io/badge/Built%20at-Locus'%20Paygentic%20Hackathon%20--%20#4-0052CC?style=flat-square)](https://paygentic-week4.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-5-FF6B6B?style=flat-square)
 
@@ -1122,6 +1304,115 @@ The goal is not just to build an app, but to create technology that makes commun
 [Harsh Marathe](https://github.com/HarshMarathe0505)
 
 `2026-05-08`
+
+---
+
+### Quidhive
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/quidhive-bace) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://quidhive.com) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/CNPRXvDMUZE) [![Built at](https://img.shields.io/badge/Built%20at-Base%20Batches%20002:%20Builder%20Track-0052CC?style=flat-square)](https://base-batches-builder-track.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-5-FF6B6B?style=flat-square)
+
+> Payment links for freelancers with onchain escrow.
+
+![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![Figma](https://img.shields.io/badge/Figma-333333?style=flat-square) ![Golang](https://img.shields.io/badge/Golang-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![AWS SES](https://img.shields.io/badge/AWS%20SES-333333?style=flat-square) ![Gofiber](https://img.shields.io/badge/Gofiber-333333?style=flat-square) ![Circle Wallet](https://img.shields.io/badge/Circle%20Wallet-333333?style=flat-square) ![Circle Gas Station](https://img.shields.io/badge/Circle%20Gas%20Station-333333?style=flat-square)
+
+**The problem it solves**
+
+**The Problem**
+
+Freelancers and clients often struggle with **trust**, **clarity**, and **payment flexibility** in the gig economy.
+
+- Clients fear paying first and losing their money.
+- Freelancers fear completing work and not getting paid.
+- Traditional payment platforms are slow, restrictive, and often fail to serve global talent, especially across Africa.
+
+**How Quidhive Solves It**
+
+**Quidhive** lets freelancers generate onchain **payment links** that clients can pay using **card or USDC**. The funds are automatically held in **onchain escrow (Hive)** until the project is complete or the client releases payment.
+
+This means:
+
+- **Trust is rebuilt** - both sides are protected.
+- **Payments are borderless** - freelancers can work with anyone, anywhere.
+- **Clarity is constant** - every transaction is transparent and trackable.
+- **Flexibility is effortless** - clients can pay easily, and freelancers can withdraw or transfer in USDC or local currency.
+
+**Quidhive** makes freelance payments **secure**, **transparent**, and **powered by Base.**
+
+**Challenges we ran into**
+
+**Designing a smooth payment flow:**
+Crafting a seamless and intuitive payment experience for buyers was a major challenge. We wanted to make it feel familiar while keeping everything fully onchain.
+
+**Integrating with Circle Wallet:**
+Working with Circle’s API was complex — managing the cypher text, entity key, secret key, and public key setup took time and deep debugging to ensure security and proper encryption.
+
+**Health and endurance:**
+Both founders fell sick during the build process, which slowed progress but didn’t stop us. We kept pushing until the core experience was functional.
+
+**Link to the GitHub Repo of your project**
+
+https://github.com/Quidhive
+
+**Live URL of your project**
+
+https://demo.quidhive.com
+
+**What is your product’s unique value proposition?**
+
+Quidhive enables freelancers to receive global payments through **card or USDC**, held in **onchain escrow (Hive)** that builds trust, transparency, and accountability between freelancers and clients - with all balances held in **Base USDC**.
+
+Unlike traditional systems, Quidhive combines the simplicity of Web2 payment links with the security and openness of Web3 infrastructure. Freelancers don’t need to connect wallets or manage complex keys - they automatically get a Base USDC wallet, making Web3 onboarding frictionless.
+Our alpha demonstrates this by letting freelancers generate payment links, receive USDC payments, and track every transaction transparently onchain. It validates that **trust can be automated**, **clarity can be visible**, **and payments can be borderless** - all without compromising ease of use.
+
+![image](https://assets.devfolio.co/content/10a1576a6acd4eb295d1d70a408551e1/fe38fe7a-c2f4-4022-932f-d32390943b77.png)
+
+**Who is your target customer?**
+
+Our target customers are **freelancers in Africa** who get clients through **social platforms and direct referrals**, not just traditional marketplaces.
+We’ve validated this audience through our previous product **Swifo**, which processed over **₦1.5 billion in withdrawals** from platforms like Fiverr and Upwork. From user feedback, we discovered that **most freelancers struggle with trust and payments in off-platform deals**, creating strong demand for Quidhive’s onchain escrow solution.
+
+**Who are your closest competitors and how are you different?**
+
+Our closest competitors are:
+
+- Acctual - [htpps://acctual.io](url) 
+- Vaultleap - [https://vaultleap.com](url) 
+- Selfany - [https://sefany.com](url) 
+- Payoneer - [https://payoneer.com](url)
+- PayPal - [https://paypal.com](url)
+
+However, Quidhive stands out through **onchain transparency**, **built-in trust**, **and direct accessibility for freelancers in emerging markets.**
+
+While traditional payment platforms focus on speed and convenience, they still rely on closed systems, hold funds offchain, and do little to solve the** trust gap** between freelancers and clients.
+
+Quidhive changes that by:
+
+- **Using onchain escrow (Hive)** to hold funds securely until both sides are satisfied.
+- **Providing instant Base USDC wallets** for freelancers, eliminating complex wallet setups.
+- **Allowing global payments via card or crypto**, giving clients flexibility while ensuring freelancers are protected.
+- **Focusing on African freelancers**, bridging a gap most Web3 or Web2 payment tools ignore.
+
+In essence, while others build payment tools, Quidhive is rebuilding **trust in the gig economy** (one transparent transaction at a time)
+
+![image](https://assets.devfolio.co/content/10a1576a6acd4eb295d1d70a408551e1/5dda9546-97b6-4621-81e3-f39c8f9e4ee8.png)
+
+**What is your distribution strategy and why?**
+
+Our distribution strategy is **community-first, authentic, and deeply personal** (because freelancers don’t just follow products, they follow trust).
+
+We’ve spent years building that trust through Swifo, helping thousands of African freelancers move over ₦1.5B in earnings. These are the same people we’re bringing onchain through Quidhive. We’re not just launching another payment platform; we’re starting a movement where freelancers finally feel seen, secure, and in control.
+
+Our strategy focuses on:
+
+- **Community partnerships:** Working directly with freelancer communities, creator hubs, and local talent groups that already depend on digital payments.
+- **Word-of-mouth and referral growth:** Freelancers trust each other’s experiences more than any ad, so we’ll build reward-based programs that turn satisfied users into advocates.
+- **Influencer-led storytelling:** Collaborating with freelancers and content creators who understand the gig struggle to humanize the story of trust and onchain empowerment.
+- **Education through content:** Many freelancers are new to Web3, so we’ll create simple, relatable guides to show that onchain doesn’t mean complicated.
+
+This approach fits us because Quidhive isn’t just solving a payment problem - it’s rebuilding confidence in digital work. Our growth won’t come from hype, but from real freelancers finding safety, speed, and freedom in how they get paid.
+
+[Pelumi Olufemi](https://github.com/PeluMike)
+
+`2025-10-24`
 
 ---
 
@@ -2241,6 +2532,251 @@ Nocom V1 expects other Zypherpunk builders to have created Aztec<>ZCash bridges 
 [Jack Gilcrest](https://github.com/jp4g)
 
 `2025-12-04`
+
+---
+
+### WealthPulse
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/wealthpulse-fa3f) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/codedpool/wealthpulse) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://wealthpulse-nu.vercel.app/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/iD_uP0HeK38) [![Built at](https://img.shields.io/badge/Built%20at-hackCBS%208.0-0052CC?style=flat-square)](https://hackcbs-8.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-4-FF6B6B?style=flat-square)
+
+> Making investment strategy accessible & efficient
+
+![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![axios](https://img.shields.io/badge/axios-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![Auth0](https://img.shields.io/badge/Auth0-333333?style=flat-square) ![Vercel](https://img.shields.io/badge/Vercel-333333?style=flat-square) ![FastAPI](https://img.shields.io/badge/FastAPI-333333?style=flat-square)
+
+**The problem it solves**
+
+**What can people use WealthPulse for:**
+People can use WealthPulse to simplify and improve the way they manage their investments. It helps users make confident, data-driven financial decisions without relying on expensive advisors or advanced financial knowledge. Through AI-generated insights and personalized recommendations, users can identify suitable stocks, mutual funds, or cryptocurrencies based on their risk profile. The platform also allows users to track and analyze multiple assets—such as stocks, mutual funds, and crypto—in one unified dashboard, eliminating the need to switch between different platforms. Additionally, WealthPulse provides an educational hub with interactive courses, videos, and blogs that make it easier for beginners to understand and navigate the world of finance while continuously improving their investment skills.
+
+**How it makes existing tasks easier or safer:**
+WealthPulse automates time-consuming and complex investment tasks, such as portfolio analysis, risk categorization, and report generation, allowing users to focus on decision-making rather than manual data entry. The AI-driven analytics provide real-time insights and alerts, helping users stay informed about market movements and make quick, well-informed adjustments. Security is enhanced through enterprise-grade authentication, encrypted data protection, and secure transaction management, ensuring user information remains private and safe. By unifying multiple investment tools and automating analytical processes, WealthPulse makes financial management not only more efficient but also significantly more secure and accessible.
+
+**Challenges we ran into**
+
+**Challenges I ran into:**
+While developing WealthPulse, one of the main challenges was integrating multiple APIs and data sources for real-time stock, mutual fund, and cryptocurrency tracking. Ensuring that the data remained consistent, accurate, and updated across all asset classes required careful synchronization between the frontend and backend. Another significant hurdle was implementing secure authentication through Auth0 while maintaining a smooth user experience, as authentication systems often cause friction if not handled properly. Managing communication between the Next.js frontend and the FastAPI backend also posed difficulties, especially in handling CORS issues and ensuring efficient API responses. Additionally, working with AI models like Google Gemini 2.0 through the OpenRouter API required optimizing response times and formatting outputs into actionable insights.
+
+**How I got over it:**
+To overcome these challenges, I implemented efficient caching strategies and asynchronous data fetching to ensure real-time updates without overloading the APIs. I carefully configured CORS and used environment variables to manage API keys securely. For authentication, I integrated Auth0’s SDK with Next.js middleware, which streamlined login flows while keeping user data protected. On the AI side, I optimized API calls by preprocessing inputs and handling token usage efficiently to reduce latency. Throughout the process, I continuously tested endpoints using Postman and added error-handling mechanisms to ensure smooth communication between the frontend and backend. These solutions not only resolved technical challenges but also helped make WealthPulse more stable, secure, and scalable.
+
+**Best Use of Gemini API**
+
+wealthPulse is an AI-first investing assistant that makes smart, personalized investing accessible to beginners and self-directed investors. By combining real-time market feeds, news sentiment, portfolio telemetry, and chart images, Phoenix Arcana delivers context-aware recommendations, automated portfolio adjustments, and bite-sized financial lessons tailored to each user’s goals and risk profile. We use Gemini’s multimodal and long-context reasoning to interpret market text and visuals simultaneously, maintain per-user context across sessions, and power a conversational tutor that can explain trends, translate charts into plain English, and generate one-click trade suggestions. Integrated into a React + Node.js stack with MongoDB for user state and Stripe/UPI for transactions, Gemini acts as the intelligent backbone that converts noisy market signals into simple, actionable advice — making investing confident, educational, and community-driven.
+
+**Best Use of MongoDB Atlas**
+
+WealthPulse makes powerful use of *MongoDB* to manage and scale large volumes of dynamic, user-specific financial data efficiently. Since the platform handles diverse types of assets—stocks, mutual funds, and cryptocurrencies—each with different structures and constantly changing values, MongoDB’s flexible *document-based schema* is ideal. It allows WealthPulse to store and query heterogeneous financial data in real time without being limited by rigid relational tables.
+
+MongoDB enables *fast reads and writes, which is crucial for updating live market data, portfolio performance, and AI-generated insights instantly on the user dashboard. The platform also leverages MongoDB’s **indexing and aggregation pipelines* to perform portfolio analytics, trend evaluations, and personalized risk assessments at scale.
+
+Additionally, MongoDB’s *strong integration with Python’s FastAPI backend* ensures seamless communication between APIs and the database, allowing secure storage of user portfolios, authentication metadata, and AI recommendations. Its *scalability and reliability* make it well-suited for a fintech environment where data accuracy, availability, and performance are mission-critical.
+
+In summary, WealthPulse showcases the best use of MongoDB by utilizing its *flexible schema, scalability, and powerful analytics capabilities* to handle complex, real-time financial data securely and efficiently—forming the backbone of a seamless AI-driven investment platform.
+
+**Best Use of Auth0**
+
+WealthPulse fits seamlessly into the Auth0 track because secure authentication and user identity management are at the core of its functionality. As a fintech platform that provides AI-powered investment insights, real-time portfolio tracking, and personalized recommendations, WealthPulse handles highly sensitive user and financial data. Ensuring privacy, integrity, and security is therefore essential.
+
+By integrating Auth0, WealthPulse implements enterprise-grade authentication to protect user accounts and data. It provides secure, token-based access control, supports multiple login methods (email, Google, etc.), and maintains encrypted sessions for user portfolios. Auth0 also enables a personalized experience, as each authenticated user can securely access their own portfolio, investment history, and AI-generated insights without the risk of unauthorized access.
+
+In essence, Auth0 empowers WealthPulse to deliver both security and simplicity—offering a frictionless login experience while meeting strict security standards required for financial applications. This makes WealthPulse a strong fit for the Auth0 track, demonstrating how authentication can enhance trust, safety, and usability within a data-sensitive AI-driven platform.
+
+Team **Phoenix Arcana 🐦‍🔥** -- [Shreya Jaiswal](https://github.com/jaisshreya), [Anamika Singh](https://github.com/Anamiiikka), [Romanch Roshan Singh](https://github.com/codedpool), [Vrinda Bindal](https://github.com/vrindabindal12)
+
+`2025-11-09`
+
+---
+
+### munimji.ai
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/whatsapp-munimji-c66f) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-4-FF6B6B?style=flat-square)
+
+> Accounting as easy as a WhatsApp chat
+
+![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=flat-square) ![Whisper](https://img.shields.io/badge/Whisper-333333?style=flat-square) ![RASA](https://img.shields.io/badge/RASA-333333?style=flat-square) ![OpenAi](https://img.shields.io/badge/OpenAi-333333?style=flat-square) ![Google API](https://img.shields.io/badge/Google%20API-333333?style=flat-square) ![Whatsapp API](https://img.shields.io/badge/Whatsapp%20API-333333?style=flat-square) ![Prisma](https://img.shields.io/badge/Prisma-333333?style=flat-square)
+
+**Description of your solution**
+
+# Munimji.ai: The Zero-Install AI Bookkeeper on WhatsApp
+
+**Munimji.ai** is a conversational AI agent that functions as a smart bookkeeper directly within **WhatsApp**. Our solution is designed to be a frictionless, "zero-install" digital ledger for India's micro-merchants.
+
+---
+
+## 1. What We Plan to Build (MVP)
+
+For the 24-hour hackathon, our goal is to develop a functional **Minimum Viable Product (MVP)** that demonstrates the core "command-to-record" loop and instant financial query.
+
+### Core MVP Functionality:
+
+* **WhatsApp Integration:** The agent will live on a WhatsApp Business number, capable of receiving and responding to messages.
+* **Natural Language Understanding:** It will be able to interpret a simple, critical command in **multilingual, vernacular Indian languages** (e.g., Hinglish), such as *"Ramesh ke 10 rupay udhaar likho"* (Add ₹10 to Ramesh's credit).
+* **Transaction Logging:** Upon understanding the command, the agent will instantly record the transaction (customer name, amount, type) into a simple data store.
+* **Instant Clarity & Query:** Users can ask simple questions in their **vernacular language**, such as *"aaj ka total udhaar kitna hai?"* (What is the total credit today?), and the agent will return the relevant financial standing instantly, enabling data-driven decisions.
+* **Confirmation:** The bot will send an immediate reply to the user confirming that the entry has been successfully recorded.
+
+### Tech Stack:
+
+Our tech stack will use a **Python** backend for core logic, **Rasa** for dialogue management, and a pre-trained model like **IndicBERT** to handle intent detection, ensuring our MVP is both powerful and feasible within the hackathon timeframe.
+
+---
+
+## 2. Specific Pain Points It Addresses
+
+**Munimji.ai** is designed to solve the three fundamental problems caused by manual bookkeeping (**bahi-khata**):
+
+* **Financial Leakage:** Manual entry is slow and full of errors. Credit (*udhaar*) scribbled in notebooks leads to forgotten payments, and miscalculations result in direct financial loss. **Munimji.ai** creates an accurate, real-time digital record, preventing these costly mistakes and ensuring every rupee is tracked.
+* **Lack of Business Insight:** Owners run their businesses on guesswork, unable to answer simple questions like "What was my profit today?" without hours of manual work. **Munimji.ai** replaces this ambiguity with instant clarity, allowing users to query their financial standing with a simple message, enabling smarter, data-driven decisions.
+* **Manual Drudgery and Mental Stress:** The daily, tedious task of writing down every transaction consumes valuable time and creates a constant mental burden. **Munimji.ai** automates this entire process, turning a chore that takes hours into a voice note that takes seconds, freeing up the owner's time and mental energy.
+
+---
+
+## 3. Who the Target Audience Is
+
+Our primary target audience is the tens of millions of **micro-merchants and informal sector business owners across India**. This includes:
+
+* The local **kirana store** owner.
+* The neighbourhood **street food vendor**.
+* The freelance **tailor or electrician**.
+* The small-town **hardware or mobile repair shop**.
+
+This audience is defined by a specific set of characteristics: they are **mobile-first**, operate their entire business through **WhatsApp**, are often not comfortable with complex apps or **English-only interfaces**, and rely heavily on **multilingual and vernacular communication**.
+
+---
+
+## 4. Go-to-Market (GTM) and Revenue Streams
+
+Our GTM strategy is built around trust and hyper-local adoption, followed by scalable growth.
+
+### Go-to-Market Strategy:
+
+* **Phase 1 (Hyper-Local Seeding):** We will start by targeting dense merchant communities like wholesale markets in major cities. On-ground demos and a strong **word-of-mouth campaign** will be critical for initial traction.
+* **Phase 2 (Digital Outreach):** We will use targeted social media campaigns (Facebook, YouTube, Instagram) with simple, **multilingual, vernacular video tutorials** and testimonials from early adopters.
+* **Phase 3 (Strategic Partnerships):** We will explore partnerships with UPI/payment providers, FMCG distributors, and other B2B platforms that already have a distribution network serving our target audience.
+
+### Revenue Streams (Freemium Model):
+
+We will use a **freemium model** to maximize adoption and demonstrate value upfront.
+
+* **Free Tier:** Core functionality of transaction logging for a limited number of entries per month (e.g., 50 transactions). This allows anyone to start using the service without friction.
+* **Premium Subscription:** For a nominal monthly fee (e.g., **₹49/month**), users can unlock unlimited transactions, advanced reporting, and automated payment reminders via WhatsApp.
+* **Future Value-Added Services:** Over time, we can introduce features like inventory management, digital payment collection links, and business analytics dashboards.
+
+**Fintech: Bring your own problem in Fintech, leveraging Agentic AI.**
+
+Millions of **micro-merchants** and **kirana store owners** across India run their entire business through **bahi-khata**
+/WhatsApp, yet their financial bookkeeping remains a disconnected, **manual process**. Critical transaction data like **sales, expenses, and credit** (udhaar) is scattered across **chaotic chat logs** and **error-prone** paper notebooks (bahi-khata), making it **impossible** to get a **real-time view** of their** business health**.
+
+This is where our AI agent comes in Munimji.ai isn't just another app, it’s a **smart assistant** that lives right **inside their WhatsApp**. The owner can simply** send a voice note** or text in their **own language**, like "Ramesh ke 10 rupay udhaar likho," and **our agent understands** and **automatically updates** their financial records. It acts as their **personal accountant**, an **agent they can delegate all the tedious bookkeeping to, allowing them to focus on what they do best running their business.**
+
+Team **The Ctrl+Hustle** -- [Krishna Gehlot](https://github.com/NSTKrishna), [Rajat Srivastav](https://github.com/rajatrsrivastav), [khuswant rajpurohit](https://github.com/khuswant18)
+
+`2025-10-22`
+
+---
+
+### Mei
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/mei-1dbd) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-4-FF6B6B?style=flat-square)
+
+> Satyameva Jayate for Your Investments
+
+![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![AWS Lambda](https://img.shields.io/badge/AWS%20Lambda-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=flat-square) ![OpenAi](https://img.shields.io/badge/OpenAi-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![langchain](https://img.shields.io/badge/langchain-333333?style=flat-square)
+
+**Description of your solution**
+
+**Mei - Satyameva Jayate for Your Investments**
+
+In India’s fast-moving stock market, thousands of retail investors lose money each day due to unverified news circulating on platforms like WhatsApp, Twitter, and Telegram. A single false message—such as a rumor about a CEO’s resignation or a cancelled dividend—can cause panic selling within minutes. Official clarifications often arrive too late or are written in complex language that most investors struggle to interpret.
+
+Mei (meaning “Truth” in Tamil) is designed to solve this problem. It acts as a personal financial guardian that continuously monitors, verifies, and simplifies market information for each investor. By using multiple specialized AI agents, Mei ensures investors get accurate, real-time updates about their stocks in simple, regional language before misinformation can cause harm.
+
+**What We Plan to Build**
+
+We are building Mei, an AI-driven platform that proactively protects retail investors from financial misinformation. Mei automatically monitors social media, financial news, and official exchange announcements related to the user’s watchlist. When a potential rumor is detected, it verifies the claim against trusted sources such as NSE, BSE, and company filings. Verified results are then shared instantly with users through WhatsApp, Telegram, or email—clearly stating whether the news is true, false, or under review.
+
+The platform will also feature a “Misinformation Score” to show which stocks are most frequently targeted by false claims, along with a visual rumor timeline to help investors understand how a story evolved. All alerts and explanations are presented in plain, regional language for better accessibility.
+
+**What Specific Pain Points It Addresses**
+
+- Financial Losses from False Information: Investors often act on unverified rumors, leading to unnecessary selling or buying.
+
+- Slow and Complex Fact-Checking: Existing verification sources take several hours and use complicated financial terminology.
+ 
+- Lack of Personalization: No current solution filters news or alerts based on individual portfolios.
+ 
+- Language Barrier: A large portion of Indian investors are non-English speakers who need financial updates in their local language
+
+Mei addresses all of these by offering instant, verified, personalized, and multilingual financial updates.
+
+**Who the Target Audience Is**
+
+- Retail investors in India’s stock market
+
+- First-time and small investors from Tier 2 and Tier 3 cities
+ 
+- Non-English speakers who prefer information in Hindi, Tamil, Telugu, or other Indian languages
+ 
+- Working professionals who cannot monitor the market constantly
+ 
+- Additionally, brokers, financial advisors, and investment platforms can integrate Mei to enhance trust and transparency for their clients.
+
+**Go-To-Market (GTM) Strategy and Revenue Streams**
+
+- Pilot Launch: Roll out a free beta version integrated with WhatsApp and Telegram for early users.
+
+- Partnerships: Collaborate with brokerage apps, financial influencers, and retail investment platforms for wider reach.
+ 
+- Freemium Model: Offer a free-forever version with a limited watchlist and alerts to attract a large user base.
+
+**Revenue Streams**
+
+- Subscription Plans: Premium users get faster alerts, deeper analysis, and detailed rumor history.
+
+- Unlimited Watchlist & Real-Time Alerts: Get instant notifications on WhatsApp/Telegram/Mail when a rumor about your stock in watchlist is being investigated.
+
+- B2B Integrations: Brokers and fintech apps can use Mei’s verification engine via API.
+
+**Misinformation: Bring your own problem in Misinformation, leveraging Agentic AI.**
+
+**Mei** fits the misinformation track because it uses AI agents to watch for rumors and fake news that can disturb the stock market. It checks stories from news websites, figures out if they are true or false, and shows clear, easy-to-understand alerts to everyday investors. 
+
+While it has Fintech relevance (because it’s targeted at investors and companies), its main innovation is in fighting and clarifying misinformation in financial markets for the general public, not in financial planning or coaching.
+
+Team **Little mount Minds** -- [Sumesh Varadharajan](https://github.com/Sumesh0105), [Trishul Gandhi Sivakumar](https://github.com/TrishulGandhi0133), Agni Prasanth, [Mohanasundaram Ayyasamy](http://github.com/MohanasundaramA)
+
+`2025-10-16`
+
+---
+
+### FinEdge
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/finedge-102c) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ArmanXLucy/Mumbai_Hacks_new.git) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://youtu.be/h_vq3P16U5c) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/h_vq3P16U5c) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-4-FF6B6B?style=flat-square)
+
+> Finance, Simplified. Confidence, Delivered.
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**Description of your solution**
+
+Finedge, our AI-powered financial management platform, is intended to assist users in making more informed financial decisions. It combines several fintech services into a single, united ecosystem that is driven by machine learning and agentic AI.
+
+Finedge starts with a safe login process that protects user data by using bcrypt encryption for passwords. A live price tracker for market updates are features of the Home Page's interactive user interface.
+
+Among the essential services are:
+1.	AI Financial Assistant: Provides individualized investment and savings recommendations by analyzing user income and expenses using machine learning models and API integration.
+2.	Currency Exchange: Uses AI-powered APIs to provide real-time foreign exchange rates.
+3.	Tax and FD calculators make complicated financial calculations easier to understand using graphs and aid in effective planning. 
+4.	A retirement planner that helps users estimate how much they need to invest monthly to reach a comfortable retirement goal, taking inflation and returns into account.
+5.	By responding to questions, providing insights, and assisting users with financial planning, an AI chatbot serves as a virtual financial advisor. 
+Furthermore, the Contact and About Us sections encourage transpirancy and user participation.
+Finedge helps individuals by providing useful insights, smart automation, and financial knowledge. It combines technology and finance to create a personal finance companion that truly puts you in control.
+
+**Fintech: Bring your own problem in Fintech, leveraging Agentic AI.**
+
+Our project Finedge, is a perfect fit for the Fintech and Agentic AI track as it uses intelligent automation and data-driven decision-making to address the growing challenge of personal financial management.
+Finedge provides a service (AI assistant ) which analyses user inputs like income and expenses using AI and machine learning to provide financial recommendations and individualized savings plans. Through a chatbot that provides real-time insights and answers questions about investments, it incorporates agentic AI capabilities.
+Financial planning is also made accessible and flexible by services like retirement planners, tax and FD calculators, and currency exchange with AI-driven rate tracking. Finedge is a good example of how Agentic AI can streamline intricate financial decisions and enable users to attain financial independence by fusing automation, predictive intelligence, and user interaction
+
+Team **Perpetual Chronus** -- [SARASWATA CHATTERJEE](https://github.com/sc123453020q), [Arman Ali](https://github.com/ArmanXLucy), [Arijit Deb](https://github.com/Code-Zero07)
+
+`2025-10-19`
 
 ---
 
@@ -3856,6 +4392,925 @@ Balancing feature completeness, UI/UX polish, and system stability under strict 
 Team **VR1** -- [Avijit Roy](https://github.com/avijit-roy24), [Ankan Dolui](https://github.com/ankan-dolui), [Ayushi Srivastava](https://github.com/ayu-1301), [Kanishkaa Patra](https://github.com/kanishkaapatra), [Gouri Biswas](https://github.com/gouribiswas23), [ARCHAK BANERJEE](https://github.com/archakbanerjee10)
 
 `2025-12-30`
+
+---
+
+### News-Investment-Predictor
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/newsinvestmentpredictor-183d) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/SamarthBhatia77/News-Stock-Analyzer) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/OMpdP2eZ67w?si=AIUw2R-wG6kyNz6K) [![Built at](https://img.shields.io/badge/Built%20at-IEEE%20ML%20presents:%20The%20Spark-0052CC?style=flat-square)](https://ieee-ml-presents-the-spark.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-3-FF6B6B?style=flat-square)
+
+> Agentic model to suggest investment amount by news
+
+![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![PyTorch](https://img.shields.io/badge/PyTorch-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Sentiment Analysis](https://img.shields.io/badge/Sentiment%20Analysis-333333?style=flat-square) ![yfinance](https://img.shields.io/badge/yfinance-333333?style=flat-square)
+
+**The problem it solves**
+
+In today’s fast-moving financial world, traders and analysts are overwhelmed by a constant stream of information from tweets and Reddit discussions to news articles and expert opinions. Manually tracking and understanding the emotional tone behind this flood of data is nearly impossible. News-Investment-Predictor tackles this challenge by automatically gathering, analyzing, and summarizing market sentiment in real time, helping users focus only on what truly impacts investor behavior.
+
+Another major issue in trading is emotional bias. Many investors make impulsive decisions based on fear, hype, or rumors rather than facts. By quantifying public sentiment into an objective score, our system reduces emotional decision-making and provides a data-driven foundation for buy or sell signals.
+
+Traditional stock analysis tools focus mainly on numerical data like price, volume, and indicators, but they miss the why behind market moves. This project bridges that gap by capturing how people feel about a company, transforming unstructured social media and news text into measurable sentiment insights. By linking public mood with market performance, News-Investment-Predictor empowers users to understand the emotional forces driving price changes and anticipate trends before they fully unfold.
+
+**Challenges we ran into**
+
+During the development of News-Investment-Predictor, we faced several challenges. The first major hurdle was accessing high-quality, real-time data from platforms like Twitter and Reddit, as many APIs have rate limits or require elevated access. 
+Moreover we were not able to integrate with AWS because we faced AccessError issues repeatedly. Another challenge was handling noise in sentiment analysis - social media language is often sarcastic, informal, or context-dependent, making it difficult for models to interpret correctly.
+
+Team **BuriBuriCoders** -- Samarth Bhatia, Agnibh Karmakar, Vihaan Kashyap
+
+`2025-11-10`
+
+---
+
+### Fintech
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/fintech-9be5) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-3-FF6B6B?style=flat-square)
+
+> H&MFintech
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square)
+
+**Description of your solution**
+
+Common issues faced in finance and trading include stock market challenges, income tax return (ITR) confusion, consultancy limitations, and data security concerns.
+Our project aims to address all these problems by providing a single, secure, and reliable platform for users to manage their financial needs effectively.
+Through this platform, users will be able to:
+
+1. Access real-time stock market information and receive instant analysis of trends.
+2. Track their trading history and review past performance with detailed analysis.
+3. Monitor personal financial details in one place for better decision-making.
+4. Utilize an AI-powered consultant that offers personalized guidance based on past trading patterns, current market conditions, and individual goals.
+5. Get clarity on ITR-related queries with simplified tools and resources.
+6. Ensure complete data security with advanced encryption and authentication.
+
+In summary, this project combines stock market insights, financial tracking, AI-driven consultancy, and tax assistance into a comprehensive fintech solution, enabling users to make smarter, safer, and more informed financial decisions.
+
+**Fintech: Bring your own problem in Fintech, leveraging Agentic AI.**
+
+Common issues faced in finance and trading include stock market challenges, income tax return (ITR) confusion, consultancy limitations, and data security concerns.  Our project aims to address all these problems by providing a single, secure, and reliable platform for users to manage their financial needs effectively.
+This project combines stock market insights, financial tracking, AI-driven consultancy, and tax assistance into a comprehensive fintech solution, enabling users to make smarter, safer, and more informed financial decisions.
+
+Team **Hasher&Mapper** -- [Naman Irchalwar](https://github.com/Naman04042006), [Aryan Jadhav](https://github.com/AJadhav000), [Himanshu Purohit](https://github.com/gpHimanshu12), [Ninad Dhote](https://github.com/Ninad2006-cell)
+
+`2025-08-23`
+
+---
+
+### Dol-FIN Buddy
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/dolfin-buddy-4b8e) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-3-FF6B6B?style=flat-square)
+
+> Rise above your finances with Dol-FIN Buddy
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Artificial Intelligence](https://img.shields.io/badge/Artificial%20Intelligence-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![manifest V3](https://img.shields.io/badge/manifest%20V3-333333?style=flat-square)
+
+**Description of your solution**
+
+Our project, Dol-FIN Buddy, is a smart personal finance companion designed to help individuals manage, monitor, and optimize their money with ease.
+
+Just like dolphins rise above the surface for oxygen, Dol-FIN Buddy helps people rise above their financial struggles by providing clear insights, guidance, and tools to save, invest, and spend wisely.
+
+Key elements of our solution:
+
+1. In-Browser Financial Dashboard – A lightweight extension panel that instantly shows income, expenses, savings and overall expenditure without needing to open a separate app.
+
+2. Financial Dashboard – A clean interface that tracks income, expenses, savings, and investments in real time.
+
+3. AI-Powered Insights – Smart recommendations for budgeting, spending categories, and upcoming bills.
+
+4. Goal-Based Saving – Personalized plans to achieve goals like travel, education, or emergency funds.
+
+5. Gamification – Rewards and streaks that motivate users to maintain healthy financial habits.
+
+6. Security First – Data privacy and encryption to ensure financial safety.
+
+In essence, Dol-FIN Buddy acts as a trusted friend and guide in the ocean of finance, helping users navigate safely and “rise above” with confidence.
+
+**Fintech: Build an autonomous financial coaching agent that adapts to real user behavior, spending patterns, and income variability - helping gig workers, informal sector employees, and everyday citizens make smarter financial decisions proactively.**
+
+Dol-FIN Buddy is an AI-driven personal finance companion built on agentic AI principles, designed to understand a user’s income patterns, spending behavior, and lifestyle to deliver real time, personalized guidance. Unlike generic budgeting apps, it doesn’t just track expenses but actively reasons, plans, and adapts to irregular incomes, sudden expenses, and evolving financial goals making it especially valuable for gig workers, students, and young professionals. With intuitive dashboards, smart nudges, and actionable insights, Dol-FIN Buddy helps users save more, spend smarter, and tackle financial uncertainty with confidence. Powered by agentic AI, it can take initiative, simulate scenarios, and refine its advice through interaction, ensuring smarter decisions over time. Our mission is to make financial planning simple, accessible, and empowering for everyone.
+
+Team **Team Hectic** -- [Pranav Godse](https://github.com/Pranavgodse7), [Prakash Mane](https://github.com/PRM710), [Aryan Chalke](https://github.com/Chalkay)
+
+`2025-08-30`
+
+---
+
+### Sevai
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/sevaiapp-296f) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-3-FF6B6B?style=flat-square)
+
+> One Chat, Full Finances
+
+![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![Java](https://img.shields.io/badge/Java-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=flat-square) ![Redis](https://img.shields.io/badge/Redis-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![Whatsapp API](https://img.shields.io/badge/Whatsapp%20API-333333?style=flat-square)
+
+**Description of your solution**
+
+For this hackathon, my team (Team Evolution) is building Sevai, an intelligent, agentic AI designed to help individuals in gig economy or informal sector employee ,manage their finances proactively and responsibly. The core idea is to create a seamless, low-friction tool that integrates real-time data from everyday sources (like SMS notifications and manual inputs) to provide personalized insights, recommendations, and alerts. By leveraging a multi-agent architecture, Sevai acts as a virtual financial coach, continuously learning from user behavior to identify spending patterns, flagging risks, suggest budgets, tracking investments, and guide future purchases all accessible via WhatsApp to avoid the need for downloading another app.
+
+**Our Goal for the project is to:**
+
+- **Be Accessible**: WhatsApp as the primary interface for all interactions, perfect for users uncomfortable with dedicated apps.
+- **Be Private** : SMS parsing is optional with local filters (only financial SMS processed); opt-in consents.
+- **Be Ethical in Design**: Constant reminders that AI isn't perfect, users should consult professionals, especially for investments.
+
+**The Multi-Agent System involves:**
+1. **Conversational Agent**: A chat based agent for logging you transactions and interactions (with other services). This supports Multi-Modal and Multi-Language conversations like Images, Voice and Chat.
+2. **Transaction Classification Agent**: Interprets transactions into categories like food, travel, or luxury to build a clear spending profile.
+3. **Financial Guidance Agent:** Help users achieve their Long Term Financial Goals via Evaluating their day to day transactions.
+4. **Investment Tracker**: Monitors real-time investment performance and calculates total portfolio value and gains/losses.
+5. **Spending Habits & Pattern Recognitions**: Learns from user’s categorized data to profile their financial behavior (spender type, peak spending times, etc.). Detects anomalies and predicts potential overspending trends.
+6. **Search Agent**: Suggests ideal purchase budgets and finds suitable products using web and review data.
+7. **Price History and Wishlist Agent**: Tracks product prices across platforms and alerts users when prices drop or deals appear.
+
+*The project is inspired by the challenges of generic financial advice failing for diverse users in emerging markets like India, where UPI transactions and SMS alerts are everywhere.*
+
+**Fintech: Build an autonomous financial coaching agent that adapts to real user behavior, spending patterns, and income variability - helping gig workers, informal sector employees, and everyday citizens make smarter financial decisions proactively.**
+
+Our solution *fits perfectly* into the given Track as it delivers a intelligent financial assistant that continuously **learns** and **adapts** to each user’s financial behavior.
+
+It brings together data from **SMS** notifications, manual **cash entries**, as well as investment (eg: Stocks) details to analyze spending habits, income trends, and financial risks, offering personalized insights directly through a **WhatsApp interface**.
+
+We have a integration of various **specialised agents**, that work together for tasks like transaction analyzing, spending analysis, financial recommendations, and smart notifications creating a seamless, autonomous experience. 
+
+It provides continuous learning, **alerts** users about **unusual transactions**, and offers tailored financial advice while respecting privacy through user consent and data control. 
+
+*With future expansion into areas like mutual funds, crypto, and EMI/Loans managements , the project strongly aligns with the challenge’s goals of building personalized, adaptive, and responsible AI systems, achieving an impressive alignment with the track’s vision.*
+
+Team **Team Evolution** -- [Yash Kolambekar](https://github.com/yashkolambekar), [Karthik Chettiar](https://github.com/Karthik-Chettiar-R), [Vighnesh Kontham](https://github.com/Captain-vikram)
+
+`2025-10-15`
+
+---
+
+### FreeLance Agentic AI FinCoach (FinanceAI)
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/freelance-agentic-ai-fincoach-app-name-financeai-smart-financial-assistant-c8be) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://freelance-agenticai-fincoach.vercel.app/) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-3-FF6B6B?style=flat-square)
+
+> Your own Agentic AI financial Coach
+
+![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![Vite](https://img.shields.io/badge/Vite-333333?style=flat-square) ![Supabase](https://img.shields.io/badge/Supabase-333333?style=flat-square) ![Google Gemini AI](https://img.shields.io/badge/Google%20Gemini%20AI-333333?style=flat-square) ![Recharts](https://img.shields.io/badge/Recharts-333333?style=flat-square) ![React 18](https://img.shields.io/badge/React%2018-333333?style=flat-square)
+
+**Description of your solution**
+
+FreeLance FinCoach empowers freelancers to manage unpredictable finances with confidence and smarter decisions. FreeLance FinCoach is an AI-powered personal finance platform built for gig workers and freelancers who face irregular incomes and unpredictable expenses. **The platform’s core is an agentic AI coach that continuously learns users’ financial behavior, auto-categorizes transactions using Google Gemini AI ,forecasts income trends, and provides proactive recommendations (adaptive budgets, “safe-to-pay” alerts, and micro-investment suggestions using SMA/RSI signals).** The live demo is available at:  https://freelance-agenticai-fincoach.vercel.app/ .
+For evaluation, please use the demo account:-
+Email: rashmi2006@gmail.com Password: Rashmi
+Key features for judges to test: Automated expense categorization and analytics dashboard, Conversational AI financial advisor, Smart bill reminders and payment-priority suggestions, Sample investment recommendations.
+Looking ahead, FreeLance FinCoach aims to introduce a smart adaptive budgeting engine, AI-powered income forecasting, automated micro and goal-based savings, a debt tracking and financial health dashboard, gamified learning modules for financial literacy, and seamless Bank/UPI integration for real transaction syncing—expanding its agentic AI core to drive even deeper financial empowerment for every freelancer.
+Tech stack: React 18 + TypeScript, Vite, Tailwind CSS, shadcn/ui, Supabase (Postgres with RLS + Edge Functions), Lovable AI Gateway, Recharts.
+The AI agent autonomously observes, learns, and acts—delivering context-aware nudges to improve financial stability for users with variable incomes.
+
+**Fintech: Build an autonomous financial coaching agent that adapts to real user behavior, spending patterns, and income variability - helping gig workers, informal sector employees, and everyday citizens make smarter financial decisions proactively.**
+
+My project, FreeLance FinCoach, is an AI-powered personal finance platform specifically designed for gig workers and freelancers, directly addressing the challenge of managing unpredictable finances and income variability.
+​It fulfills the track's objective by:-
+**​1.Autonomous Financial Coaching Agent: **The core of the platform is an agentic AI coach that autonomously observes, learns, and acts to improve financial stability.
+**2.​Adapts to User Behavior and Spending Patterns: **It continuously learns users’ financial behavior and utilizes Google Gemini AI to auto-categorize transactions and provide a personalized analytics dashboard.
+**​3.Addresses Income Variability (Informal Sector/Gig Workers): **The platform is built for users with irregular incomes, helping them make smarter financial decisions proactively through features like income trend forecasting and adaptive budgets.
+**4.​Proactive Recommendations:** It delivers context-aware nudges, including "safe-to-pay" alerts (payment-priority suggestions) and micro-investment suggestions using SMA/RSI signals, effectively functioning as the autonomous financial coach described in the track.
+​The system is a direct implementation of an autonomous agent designed to enhance financial intelligence for individuals with variable incomes, such as gig workers.
+
+Team **Dev_With_Innovation** -- [Rishabh Jha](https://github.com/RishabhDev3589), Siddhi Patil, Riddhi Patil, Shamitha Palai
+
+`2025-10-16`
+
+---
+
+### AURA Vpet AI assisstant
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/aria-vpet-ai-assisstant-4769) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://drive.google.com/file/d/1Aqde1czf9uYC-QbIxJHDNCcZ1d8lJD7o/view?usp=drivesdk) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-3-FF6B6B?style=flat-square)
+
+> For finance professionals and IT workers
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Speech Recognition](https://img.shields.io/badge/Speech%20Recognition-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**Description of your solution**
+
+Our solution is AURA who is an AI assisstant who is oriented for Finanance professionals and the like.
+
+We propose this solution in the hopes of real use and integration.
+We are giving our project outline, technologies that we will be using and work distribution in our team.  
+
+
+AURA (Adaptive Universal Resource Assistant)
+🌟 Project Overview: AI-Powered OS-Level Virtual Assistant
+AURA is a 48-hour hackathon project focused on building a voice-activated virtual assistant that integrates deeply with the host Operating System (OS). It runs as a persistent background service with a minimal, beautiful, and animated overlay UI.
+Goal: Create a truly 'universal' assistant that manages both knowledge queries (via Gemini) and system tasks (file operations, app launching) through natural language.
+Attribute	Detail
+Project Name	AURA (Adaptive Universal Resource Assistant)
+Timeline	48 Hours (2 Days)
+Team Size	4 Developers
+Key Differentiator	OS-level Integration (Files, Commands, Apps)
+Activation	System Tray Icon + Global Hotkey (Ctrl+Space)
+
+
+
+
+
+
+⚙️ Technology Stack
+The technology stack is multi-faceted, combining the stability and power of Python for the core logic and the modern capabilities of Electron/React for a beautiful, cross-platform UI.
+Core Components
+Component	Technology	Rationale
+Core Language	Python 3.10+	Speed, excellent libraries, native Gemini API support.
+AI/NLP	Google Gemini API (gemini-pro)	Intelligent conversational and command parsing.
+Backend API	FastAPI	Lightweight, high-performance local API server for UI communication.
+OS Service	Python (pystray, pynput, os)	Background persistence, system tray, and hotkey listeners.
+Frontend UI	Electron + React	Cross-platform desktop app wrapper with a modern UI framework.
+UX/Animations	Framer Motion, Lottie	Smooth transitions, voice waveform visualization.
+
+
+
+Required Dependencies
+Ecosystem	Libraries (Simulated in the canvas)
+Python Backend	fastapi, uvicorn, google-generativeai, speechrecognition, pyttsx3, pyautogui, psutil
+React Frontend	react, framer-motion, lottie-react, lucide-react, tailwindcss (via Electron setup)
+🏛️ Architecture and Data Structure
+AURA follows a client-server pattern locally, ensuring the core logic (AI, OS commands) is decoupled from the UI layer.
+1. Data Persistence (~/.aura/)
+All conversation history and settings are stored locally in an OS-agnostic configuration folder.
+~/.aura/
+├── config.json       # API keys, preferences, hotkey settings
+├── conversations/
+│   └── session_<timestamp>.json # JSON file for chat history
+├── logs/             # System logs and errors
+├── cache/            # Temporary files, audio caching
+└── plugins/          # Future extensibility folder
+
+
+
+
+
+
+2. Project Structure (High-Level)
+aura-assistant/
+├── backend/
+│   ├── main.py            # FastAPI server, entry point
+│   ├── gemini_handler.py  # AI integration, prompt management
+│   ├── voice_processor.py # Speech I/O, audio processing
+│   └── system_commands.py # OS operations (file, app launching)
+├── service/
+│   ├── daemon.py          # Background process manager
+│   └── tray_icon.py       # System tray integration
+└── frontend/
+    ├── src/
+    │   ├── App.jsx        # Main React component, all UI logic
+    │   └── components/    # (Conceptual) ChatBubble, VoiceWave
+    └── main.js            # Electron main process
+
+●	👥 Team Distribution (Key Responsibilities)
+Role	Person	Focus Area	Coordination
+1	Backend + AI Lead	FastAPI, Gemini Prompts, Data Persistence, Error Handling.	Work closely with P2 (System Commands) and P4 (Voice Pipeline).
+2	System Integration	Background Service, Hotkeys, File/App Control, System Tray.	Work closely with P1 (Command Parsing) and P3 (UI Activation).
+3	Frontend UI/UX	Electron setup, React components, Framer Motion/Lottie, Glassmorphism Styling.	Work closely with P2 (Window Management) and P4 (Audio Visualization Data).
+4	Voice I/O + QA	Speech Recognition, TTS Output, Audio Processing, End-to-End Testing, Demo Scripts.	Work closely with P1 (AI Loop) and P3 (Waveform Data).
+
+Quick Start (Mocked)
+1.	Backend Setup: Run backend/main.py in a Python environment.
+2.	Frontend Setup: Run frontend/App.jsx in the canvas preview.
+3.	Test: Use the simulated input in the UI to send commands to the mocked API.
+
+**Fintech: Bring your own problem in Fintech, leveraging Agentic AI.**
+
+Finance is a tough and tumultuous that constatntly requires stimuli and would often cause the need for a more efficient and smooth workflow environment.
+
+Team **_Wootaam3ll0** -- [Jestin Zachariah](https://github.com/Jestin1234567), [Siddarth Narayan](https://github.com/siddarthcet2007-glitch), Antony Paul, [Mathew George](https://github.com/Woota-3llo)
+
+`2025-10-16`
+
+---
+
+### CredenceX
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/credencex-11f6) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/krupalifuria/CredenceX.git) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://drive.google.com/file/d/1Z4tBsLzijQrYUD8Tn4q6VjemBoZnegbC/view?usp=drive_link) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.loom.com/share/6093aba01e864c0680b88878cbba1f1b?sid=59840503-d685-445e-ba08-ce5010bbc2a6) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-3-FF6B6B?style=flat-square)
+
+> AI-powered insurance coverage optimization
+
+![NumPy](https://img.shields.io/badge/NumPy-333333?style=flat-square) ![pandas](https://img.shields.io/badge/pandas-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![BeautifulSoup](https://img.shields.io/badge/BeautifulSoup-333333?style=flat-square) ![Streamlit](https://img.shields.io/badge/Streamlit-333333?style=flat-square)
+
+**Description of your solution**
+
+**Project Title:** CredenceX – AI Agent for Insurance Coverage Optimization
+Overview
+
+**CredenceX **– Insurance Coverage Optimization is an Agentic AI-powered system that helps individuals and families analyze their existing insurance policies, identify coverage gaps, and optimize their protection portfolios.
+
+The platform uses a collaborative, multi-agent architecture that reads and interprets policy documents, compares them with the user’s financial and personal profile, and recommends the most suitable riders, add-ons, or plan adjustments.
+
+By transforming static policy documents into actionable intelligence, CredenceX enables users to make smarter insurance decisions — ensuring the right balance between coverage adequacy and cost efficiency.
+
+**The Idea**
+Many people either overpay for unnecessary coverage or stay underinsured due to complex, jargon-heavy policy documents.
+Manually reviewing multiple insurance policies is tedious and error-prone, especially when comparing across providers or evaluating actual financial protection.
+
+CredenceX solves this by deploying an Agentic AI system that acts as a virtual insurance advisor — reading, analyzing, and optimizing coverage autonomously. Each agent mirrors a role typically performed by a human expert, collaborating to deliver precise, data-backed recommendations.
+
+1. Policy Reader (Document Intelligence Agent)
+
+- Scans and parses uploaded policy PDFs using NLP and pattern-recognition heuristics.
+- Extracts key fields like insurer name, policy type, sum insured, premium, tenure, inclusions, and exclusions.
+- Converts raw text into structured, comparable policy data across multiple insurers and policy types (Life, Health, Home, Motor).
+
+2. Gap Analyzer (Coverage Evaluation Agent)
+
+- Ingests the user’s personal and household details — age, income, dependents, liabilities, and existing assets.
+- Calculates ideal coverage benchmarks using standard insurance planning heuristics (e.g., Human Life Value for life cover, family floater logic for health).
+- Compares actual vs. ideal coverage to identify over-insurance and under-insurance gaps.
+
+3. Recommendation Agent (Advisory & Optimization Agent)
+
+- Generates personalized recommendations such as:
+- - Increasing or reducing specific coverage amounts.
+- - Adding riders (e.g., critical illness, accidental death, home contents).
+- - Switching to plans with better premiums or broader protection.
+- - Prioritizes recommendations by impact (High, Medium, Low) to guide immediate user actions.
+
+**Fintech: Bring your own problem in Fintech, leveraging Agentic AI.**
+
+**1. Problem Context **
+The project addresses a critical gap in personal finance and insurance management, where individuals often make suboptimal insurance decisions due to the complexity of policy documents and lack of financial literacy.
+
+Most consumers either:
+
+- Overpay for redundant or overlapping insurance policies, or
+- Remain underinsured, lacking adequate protection against financial risks like illness, accident, or property loss.
+
+Insurance policies are typically written in technical, legal-heavy language, making it difficult for policyholders to interpret what’s covered, excluded, or recommended for their life stage and financial situation.
+
+This results in poor coverage planning, inefficient spending, and delayed claims realization — all of which contribute to a larger inefficiency in the retail insurance and financial advisory sector.
+
+The project directly addresses this gap by developing an Agentic AI system that can automatically read, interpret, and analyze policy documents, giving users actionable insights for optimizing their insurance portfolios.
+
+**2. Why It Belongs to FinTech**
+This project sits squarely within the FinTech domain at the intersection of:
+
+- Personal Finance Management (PFM): Helping individuals make data-driven financial protection decisions.
+- InsurTech: Leveraging AI to modernize insurance advisory, policy comparison, and coverage optimization.
+- AI-Driven Financial Advisory: Using autonomous agents to offer personalized recommendations, traditionally done by human insurance consultants or financial planners.
+
+By introducing automation and personalization into insurance evaluation, the system enhances financial literacy, reduces mis-selling, and enables better financial risk management — all key objectives of FinTech innovation in consumer finance.
+
+3. Role of Agentic AI
+The solution employs a multi-agent architecture, where each intelligent agent mimics the function of a financial advisory team:
+
+- Policy Reader (Document Intelligence Agent): Parses uploaded insurance PDFs using NLP to extract structured information such as insurer, policy type, sum insured, premium, tenure, inclusions, and exclusions.
+- Gap Analyzer (Coverage Evaluation Agent): Compares the extracted policy details against the user’s demographic and financial profile (income, dependents, assets, liabilities) to determine whether the user is overinsured, underinsured, or optimally covered.
+- Recommendation Agent (Advisory Agent): Generates personalized suggestions — such as increasing cover, adding riders (e.g., critical illness, accidental death), or switching to better-value plans.
+The agent prioritizes recommendations based on impact (High/Medium/Low), similar to how a financial planner ranks risk exposures.
+
+Together, these agents collaborate autonomously to deliver a complete, data-backed Insurance Optimization Report, simulating the decision-making process of a human financial advisory firm — but faster, cheaper, and unbiased.
+
+**4. Value Proposition in FinTech**
+The AI Agent for Insurance Coverage Optimization project introduces Agentic AI innovation into the InsurTech and personal finance sectors — traditionally dominated by manual reviews and opaque advisory models.
+
+Key FinTech Impacts:
+
+- Financial Inclusion & Awareness: Empowers individuals to understand their insurance coverage and make informed decisions.
+- Cost Optimization: Prevents overpayment by detecting redundant or overpriced policies.
+- Risk Management: Identifies coverage gaps that could lead to financial distress in emergencies.
+- Automation & Scalability: Processes multiple policies across insurers automatically — a significant step toward AI-driven financial planning.
+- Transparency & Trust: Builds user confidence through explainable AI-based recommendations, not commission-based sales.
+
+Team **Mind Install** -- Krupali Furia, [Rutvi Gosalia](https://github.com/rutvigosalia4), Reeva Mishra
+
+`2025-10-19`
+
+---
+
+### Anaya
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/anaya-90b7) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://anaya-fin.vercel.app/) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-3-FF6B6B?style=flat-square)
+
+> Autonomous Compliance Agents for Fintech Companies
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=flat-square) ![Redis](https://img.shields.io/badge/Redis-333333?style=flat-square) ![OpenAi](https://img.shields.io/badge/OpenAi-333333?style=flat-square) ![RestAPIs](https://img.shields.io/badge/RestAPIs-333333?style=flat-square) ![langchain](https://img.shields.io/badge/langchain-333333?style=flat-square)
+
+**Description of your solution**
+
+# Anaya: Autonomous Compliance Agents for Fintech Companies
+
+## The Problem
+
+We've watched Indian fintechs get destroyed by compliance. Last year alone, RBI hit 353 companies with ₹54.78 crore in penalties. Paytm Payments Bank lost their license in Feb 2024 over KYC lapses.
+
+Here's the brutal reality:
+- 2,100+ RBI-regulated fintechs spend ₹95L-₹3.2Cr annually just staying compliant
+- RBI drops new regulations every 2-3 weeks (100+ pages each)
+- Most fintechs take 2-3 days to even read them — meaning they're non-compliant for 72 hours
+- 67% of seed-stage fintechs have less than 2 compliance officers handling this mess
+- One missed circular = ₹10-50L penalty, sometimes your license
+
+The existing solutions don't cut it:
+- Hiring a compliance team costs ₹60-80L/year (seed-stage can't afford it)
+- Legal consultants charge ₹74-102L/year and only react after problems hit
+- Signzy and Perfios handle KYC verification, but nobody's solving ongoing compliance
+
+---
+
+## What We Built
+
+Anaya is a multi-agent AI system that acts as your 24/7 Chief Compliance Officer. Five specialized agents monitor regulations, audit operations, and prevent penalties autonomously.
+
+**Agent 1: Regulatory Watch** 🔍
+Scans 50+ sources (RBI, SEBI, MCA, FIU-IND) every 15 minutes. When RBI drops a new circular, our fine-tuned LLM extracts the requirements and sends alerts within 30 minutes — not 2-3 days.
+
+**Agent 2: Transaction Monitor** 💸
+Catches suspicious patterns in real-time.
+
+**Agent 3: Policy Automation** 📋
+When regulations change, this agent auto-updates your compliance policies with version control and redline changes. What used to take 2 weeks of legal work now takes 2 hours.
+
+**Agent 4: Audit Prep** 📊
+Gives you a continuous compliance score (0-100) and uses RAG to generate responses to auditor queries.
+
+**Agent 5: Training & Advisory** 🎓
+Conversational AI that answers employee compliance questions instantly. 
+
+### How They Work Together
+
+The magic is in orchestration. Agent 1 detects a new RBI circular → Agent 3 auto-updates your policies → Agent 4 recalculates your compliance score. Agent 2 flags a suspicious transaction → Agent 5 tells your team exactly what to do next. This happens in real-time through LangGraph workflows, no human intervention needed.
+
+![Architecture Diagram](https://assets.devfolio.co/content/8809659518ee4fd890059110be7893f8/77e1f75e-8330-4a89-bc0f-6dbb6916c0a4.png)
+
+---
+
+## Who Needs This
+
+Primary target: 800 Seed/Series A fintech companies in India (NBFCs, digital lenders, payment platforms).
+
+Market size: 2,100 regulated fintechs × ₹95L avg compliance cost = ₹1,995 Cr TAM.
+
+Revenue model: SaaS pricing at ₹2.4-6L/year (92% cheaper than manual teams). Year 1 target: 30 customers = ₹1.2 Cr ARR.
+
+---
+
+## GTM Strategy
+
+**Phase 1 (Nov 2025-Q1 2026):** Design partners
+We're leveraging the MumbaiHacks/TEAM Mumbai ecosystem to get our first 10 pilot customers. Offering 6 months free plus co-development of custom agents. Goal: testimonials and product refinement.
+
+**Phase 2:** Product-led growth with a freemium model (Regulatory Watch agent free forever), weekly RBI newsletter, and partnerships with fintech incubators.
+
+---
+
+## Why We'll Win
+
+**Agentic AI alignment:** Multiple autonomous agents with specialized roles, orchestrated via LangGraph for stateful workflows. Not a monolithic AI — truly proactive, not reactive.
+
+**Validated pain:** Paytm's license restriction created peak market awareness. RBI penalties are up 60% YoY.
+
+**Founding team fit:** We're a full-stack duo — I handle backend AI/ML (built [Agentic orchestrator](https://github.com/sandip-pathe/lyzr-d) + [Anaya.legal](https://anaya.legal/)), my co-founder handles frontend/UX (product design background). Direct domain transfer from legal AI to fintech compliance. Mumbai-based in the fintech capital. Only team combining legal + fintech + AI + design expertise — we can ship beautiful, functional products fast.
+
+
+**Immediate traction:** TEAM Mumbai's ecosystem includes 85+ unicorns/soonicorns. Beta pricing at ₹2.4-3L (50% off Year 1) makes this a no-brainer vs ₹95L manual cost.
+
+---
+
+## What We're Building for MumbaiHacks
+
+If shortlisted, we'll build:
+1. Agent 1 (Regulatory Watch): Live RBI scraper + LLM alert system
+2. Agent 5 (Advisory): RAG chatbot as a Slack bot
+3. Dashboard: Compliance score UI with real-time alert feed
+4. Live demo: RBI circular → parse → alert → chatbot answer
+
+Tech demo will show real-time RBI ingestion, multi-agent orchestration visualization (LangGraph state machine), and transaction anomaly detection with mock data.
+
+---
+
+Anaya isn't just a hackathon project. It's a VC-backable startup solving a ₹1,995 Cr market problem. We're building the AI compliance layer Indian fintech needs to scale without fear.
+
+**[Full Deck](https://www.canva.com/design/DAG1U-aH_ME/8n9zTSWVcyLwLPtyJAjZpA/edit)**
+
+**Fintech: Bring your own problem in Fintech, leveraging Agentic AI.**
+
+**How does this project fit within the track?**
+
+Anaya directly addresses the **Agentic AI theme** through autonomous, specialized agents solving fintech's most critical pain point: compliance.
+
+**Why BYOP (Bring Your Own Problem):**
+The official fintech problem statement focuses on personal financial coaching (B2C), but we identified a higher-impact B2B opportunity: 67% of seed-stage fintechs have <2 compliance officers handling RBI regulations that change every 2-3 weeks. This leads to ₹54.78 Cr in annual penalties and existential risk (Paytm license restriction, Feb 2024).
+
+**Agentic AI Alignment:**
+- **5 specialized autonomous agents** (not monolithic AI) - each with distinct goals, sensors, and decision-making
+- **Multi-agent orchestration** via LangGraph - agents collaborate through stateful workflows
+- **Proactive, not reactive** - agents act autonomously (e.g., Agent 1 detects RBI circular → Agent 3 auto-updates policies → Agent 4 re-scores compliance) without human intervention
+
+**Why more impactful than official problem statement:**
+- **Validated demand:** 2,100 fintechs × ₹95L cost = ₹1,995 Cr TAM
+- **Clear revenue model:** ₹1.2 Cr ARR Year 1 (vs uncertain B2C monetization)
+- **Ecosystem fit:** TEAM Mumbai's 85+ fintech portfolio = immediate pilot pipeline
+- **True agentic system:** Autonomous decision-making, continuous learning, proactive action
+
+Our solution keeps entire fintech companies compliant, funded, and operational through intelligent agent orchestration.
+
+Team **LAZER** -- [Rohan Navgire](https://github.com/rohannavgire217), [Sandip Pathe](https://github.com/sandip-pathe)
+
+`2025-10-18`
+
+---
+
+### WealthBuddy.AI - Autonomous Investment Planner
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/autonomous-investment-planner-fc72) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-3-FF6B6B?style=flat-square)
+
+> Intelligence That Grows Your Wealth
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Firebase](https://img.shields.io/badge/Firebase-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Express.js](https://img.shields.io/badge/Express.js-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square)
+
+**Description of your solution**
+
+**WealthBuddy.AI** is an Agentic AI-powered financial coaching web app designed to help gig workers, informal sector employees, and first-time investors make smarter financial decisions in real time. It acts as an autonomous investment planner that learns from each user’s income, spending behavior, and risk appetite while continuously monitoring live market data from APIs like Finnhub and Alpha Vantage. The AI agent proactively provides personalized recommendations, portfolio rebalancing alerts, and easy-to-understand insights through a conversational chat interface. Built with a secure and scalable tech stack (React, FastAPI, MongoDB, and LangChain), **WealthBuddy.AI** aligns perfectly with MumbaiHacks’ Fintech + Agentic AI theme by empowering individuals with adaptive, data-driven financial guidance that evolves autonomously with changing market trends and user behavior.
+
+**Fintech: Build an autonomous financial coaching agent that adapts to real user behavior, spending patterns, and income variability - helping gig workers, informal sector employees, and everyday citizens make smarter financial decisions proactively.**
+
+Our project, **WealthBuddy.AI** – The Autonomous Investment Coach, fits seamlessly into the **Fintech track (Problem Statement 1)** because it directly addresses the challenge of building an autonomous financial coaching agent that adapts to real user behavior, spending patterns, and income variability. The solution leverages Agentic AI to act as a proactive financial advisor that continuously learns from each user’s lifestyle, risk tolerance, and market changes. It analyzes live financial data from APIs like Finn hub and Alpha Vantage, monitors user transactions, and autonomously recommends smart investment actions such as SIPs, rebalancing, and low-risk alternatives. Designed especially for gig workers, informal sector employees, and everyday citizens, **WealthBuddy.AI** promotes financial literacy and inclusion by simplifying complex financial decisions into personalized, easy-to-understand insights. Its adaptive intelligence, real-time reasoning, and self-improving behavior perfectly embody the core theme of the Fintech track empowering individuals to make smarter, data-driven financial choices through autonomous, intelligent systems.
+
+Team **CrewX** -- [Aman Patwegar](https://github.com/Amanp), [Shreyash Sule](https://github.com/JohnDoesShallLive), [Aditya Karmalkar](https://github.com/Aditya-Karmalkar), Krishna Patil
+
+`2025-10-19`
+
+---
+
+### AI Financial Advisor
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/ai-financial-coach-0b52) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://youtu.be/yN0gnibWwS8) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/yN0gnibWwS8) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-3-FF6B6B?style=flat-square)
+
+> AI-Powered Personal Finance Coach
+
+![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![HTML/CSS](https://img.shields.io/badge/HTML/CSS-333333?style=flat-square) ![Streamlit](https://img.shields.io/badge/Streamlit-333333?style=flat-square) ![Gemini Ai](https://img.shields.io/badge/Gemini%20Ai-333333?style=flat-square) ![Google's Agent Development Kit (ADK)](https://img.shields.io/badge/Google's%20Agent%20Development%20Kit%20(ADK)-333333?style=flat-square) ![Python Charting Libraries](https://img.shields.io/badge/Python%20Charting%20Libraries-333333?style=flat-square) ![CSV (for data input)](https://img.shields.io/badge/CSV%20(for%20data%20input)-333333?style=flat-square)
+
+**Description of your solution**
+
+💰 AI Financial Advisor
+
+The AI Financial Coach is an intelligent, personalized financial advisor built using Google’s Agent Development Kit (ADK) framework.
+It helps users make smarter financial decisions by analyzing income, expenses, debts, and long-term financial goals — all through an AI-driven multi-agent system.
+
+🔍 Core Features
+1. Multi-Agent Financial Analysis System
+
+A collection of specialized AI agents work together to provide in-depth financial insights:
+
+Budget Analysis Agent: Examines spending patterns, detects inefficiencies, and recommends budget optimizations.
+
+Savings Strategy Agent: Designs tailored savings plans, including emergency fund targets and automated saving strategies.
+
+Debt Reduction Agent: Generates optimized debt repayment plans using both Avalanche and Snowball methods.
+
+2. Expense Analysis
+
+Accepts CSV uploads or manual expense entry.
+
+Performs detailed transaction analysis with date, category, and amount tracking.
+
+Provides visual expense breakdowns by category.
+
+Uses AI-based pattern detection for automatic expense categorization and anomaly spotting.
+
+3. Savings Recommendations
+
+Calculates and recommends emergency fund sizes based on income and lifestyle.
+
+Allocates savings dynamically across multiple personal goals.
+
+Suggests automation techniques for regular saving and financial discipline.
+
+Tracks progress milestones and gives motivation-driven feedback.
+
+4. Debt Management
+
+Supports multiple debts with interest optimization strategies.
+
+Compares Avalanche vs. Snowball payoff outcomes for smarter debt clearance.
+
+Provides visual debt payoff timelines and interest savings projections.
+
+Offers personalized, actionable recommendations for faster debt reduction.
+
+5. Interactive Visualizations
+
+Enhance understanding with clear, data-driven charts and insights:
+
+Pie Charts: Expense distribution by category
+
+Bar Charts: Income vs. Expense comparisons
+
+Debt Graphs: Visual representation of payoff progress
+
+Milestone Tracking: Dynamic metrics showing financial growth
+
+🧠 Powered by AI
+
+By leveraging Google ADK’s multi-agent orchestration, the AI Financial Coach continuously learns from user behavior to provide adaptive financial guidance — making complex financial planning accessible, visual, and actionable for everyone.
+
+**Fintech: Build an autonomous financial coaching agent that adapts to real user behavior, spending patterns, and income variability - helping gig workers, informal sector employees, and everyday citizens make smarter financial decisions proactively.**
+
+Our project AI Financial Coach perfectly fits the Fintech track as it builds an autonomous financial coaching agent that adapts to real user data such as income, expenses, and spending behavior. Powered by Google’s ADK (Agent Development Kit), it provides personalized insights for budgeting, saving, and debt management, helping users make smarter financial decisions proactively. The system empowers gig workers, students, and everyday citizens to gain control over their finances through adaptive AI-driven recommendations and visual analytics
+
+Team **DevCatalyst** -- [SANJAY SAMALA](https://github.com/sanjaysam410), [GANNARAM DHRUV](https://github.com/Dhruv-git-tech), Divyansh_Teja Edla, [Sudheer Kolahala](https://github.com/kolahalasudheer)
+
+`2025-10-19`
+
+---
+
+### Expensio
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/expensio-ce89) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ManasArora33/Expensio) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://1drv.ms/p/c/391f6361e540399f/EeHYEnmGa25GjqlVTWjo_pMBpbbfC_EnNHqW2ysGXhYEfw?e=DaQyQi) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=GhhYb7aR_aA) [![Built at](https://img.shields.io/badge/Built%20at-NexHack-0052CC?style=flat-square)](https://nexhack.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-3-FF6B6B?style=flat-square)
+
+> Your AI Powered Personal Finance Companion
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square)
+
+**The problem it solves**
+
+# 🚀 The Problem Our AI Expense Tracker Solves
+
+## 💸 The Current Financial Management Crisis
+
+Managing personal finances today has become a frustrating and time-consuming nightmare for millions of people:
+
+### **Traditional Problems:**
+
+- **Manual Data Entry Hell**: Spending hours categorizing receipts and tracking expenses manually
+- **Inconsistent Tracking**: Forgetting to log expenses leads to incomplete financial pictures
+- **Complex Categorization**: Struggling to properly categorize expenses without financial expertise
+- **Delayed Insights**: Waiting weeks or months to understand spending patterns
+- **No Actionable Guidance**: Having expense data but no idea how to improve financial habits
+- **Technology Friction**: Complex apps that require extensive setup and learning curves
+
+### **Real Impact:**
+
+- **75% of people** admit to poor expense tracking habits
+- Average person spends **5+ hours monthly** on manual financial management
+- **60% of individuals** can't accurately predict their monthly spending
+- Most people discover overspending only **after** financial damage is done
+
+---
+
+## 🤖 Our AI-Powered Solution
+
+### **Intelligent Natural Language Processing**
+Instead of filling complex forms, users simply type:
+- *"Coffee ₹150 at Starbucks"*
+- *"Uber ride ₹200 to airport"*
+- *"Grocery shopping ₹2500"*
+
+Our AI instantly understands, categorizes, and logs expenses with **94% accuracy**.
+
+### **Real-Time Financial Intelligence**
+- **Automated Categorization**: AI assigns expenses to correct categories instantly
+- **Smart Analytics**: Visual dashboards show spending patterns as they happen
+- **Predictive Insights**: AI warns about potential overspending before it occurs
+- **Personalized Advice**: Conversational AI provides tailored financial guidance
+
+### **Effortless User Experience**
+- **5-Second Expense Entry**: Natural language input eliminates forms
+- **Zero Learning Curve**: Chat-based interface anyone can use immediately
+- **Mobile-First Design**: Track expenses anywhere, anytime
+- **Real-Time Updates**: See financial changes instantly across all devices
+
+---
+
+## 🎯 Target Problems We Solve
+
+### **For Busy Professionals:**
+- Eliminate 5+ hours of monthly expense tracking
+- Get instant expense categorization during commutes
+- Receive proactive budget alerts before overspending
+
+### **For Students & Young Adults:**
+- Learn financial management through AI guidance
+- Build healthy money habits with minimal effort
+- Get personalized budgeting advice based on actual spending
+
+### **For Small Business Owners:**
+- Separate personal and business expenses automatically
+- Generate expense reports for taxes instantly
+- Track cash flow without accounting expertise
+
+### **For Families:**
+- Understand household spending patterns clearly
+- Get AI recommendations for family budget optimization
+- Share financial insights with family members seamlessly
+
+---
+
+## 📊 Measurable Impact
+
+### **Time Savings:**
+- **80% reduction** in expense tracking time
+- **5 minutes daily** vs. traditional 30+ minutes weekly
+- **300+ hours saved** annually per user
+
+### **Financial Accuracy:**
+- **94% automated categorization** accuracy
+- **75% fewer** manual entry errors
+- **Real-time** vs. month-end financial visibility
+
+### **Better Financial Outcomes:**
+- Users save **15-20% more** with AI insights
+- **85% improvement** in budget adherence
+- **Proactive financial decisions** vs. reactive damage control
+
+---
+
+## 🌟 Why Traditional Solutions Fail
+
+### **Existing Apps Are:**
+- **Complex**: Require extensive setup and learning
+- **Manual**: Still need significant user input and categorization
+- **Reactive**: Show what happened, not what to do next
+- **Impersonal**: Generic advice that doesn't fit individual situations
+
+### **Our AI Advantage:**
+- **Conversational**: Chat with AI like a financial advisor
+- **Intelligent**: Learns from user behavior and improves over time
+- **Proactive**: Prevents financial problems before they occur
+- **Personalized**: Tailored advice based on individual spending patterns
+
+---
+
+**We transform expense tracking from a dreaded chore into an effortless conversation that helps you take control of your financial future.**
+
+**Challenges we ran into**
+
+# 🚧 Challenges We Ran Into
+
+## ⚡ AI Integration Challenges
+
+### **Natural Language Processing Complexity**
+- **Challenge**: Getting AI to accurately parse diverse natural language inputs with high precision
+- **Impact**: Initial parsing accuracy was only 67% due to variations in user input styles
+- **Solution**: Implemented extensive prompt engineering and created comprehensive training examples
+- **Lesson Learned**: AI prompts require continuous refinement based on real user input patterns
+
+### **LLM API Reliability & Cost**
+- **Challenge**: Managing API rate limits and unpredictable response times
+- **Impact**: Users experienced delays during peak usage and occasional parsing failures
+- **Solution**: Implemented fallback parsing logic and request queuing mechanisms
+- **Cost Concern**: Balancing API usage costs while maintaining real-time responsiveness
+
+---
+
+## 🔐 Authentication & Security Challenges
+
+### **Cookie-Based Authentication**
+- **Challenge**: Managing secure cookie authentication across frontend and backend
+- **Impact**: Initial CORS errors and authentication state inconsistencies
+- **Solution**: Properly configured `withCredentials: true` and CORS settings
+- **Learning**: Cross-origin authentication requires careful cookie domain configuration
+
+### **Data Privacy Concerns**
+- **Challenge**: Ensuring sensitive financial data remains secure during AI processing
+- **Impact**: Users hesitant to share financial information with third-party AI services
+- **Solution**: Implemented data encryption and clear privacy policies
+- **Ongoing**: Building user trust through transparent data handling practices
+
+---
+
+## 🎨 Frontend Development Challenges
+
+### **Real-Time State Management**
+- **Challenge**: Synchronizing expense data across multiple components without Redux
+- **Impact**: Data inconsistencies when adding/deleting expenses
+- **Solution**: Centralized state management using React Context and proper state lifting
+- **Optimization**: Implemented optimistic UI updates for better user experience
+
+### **Mobile Responsiveness**
+- **Challenge**: Creating seamless experience across various device sizes
+- **Impact**: Chat interface and expense lists were difficult to use on mobile
+- **Solution**: Mobile-first design approach with Tailwind CSS responsive utilities
+- **Testing**: Extensive testing on multiple devices and screen resolutions
+
+### **Chart Integration Complexity**
+- **Challenge**: Integrating Chart.js with React and dynamic data updates
+- **Impact**: Charts not refreshing when expense data changed
+- **Solution**: Proper Chart.js registration and React component lifecycle management
+- **Performance**: Optimized chart rendering to avoid memory leaks
+
+---
+
+## 🔄 Backend API Challenges
+
+### **MongoDB Integration**
+- **Challenge**: Designing efficient schemas for expense categorization and user relationships
+- **Impact**: Slow query performance with large expense datasets
+- **Solution**: Implemented proper indexing and aggregation pipelines for analytics
+- **Scaling**: Added pagination and query optimization for better performance
+
+### **Error Handling & Validation**
+- **Challenge**: Consistent error handling across all API endpoints
+- **Impact**: Unclear error messages causing poor user experience
+- **Solution**: Standardized error response format and comprehensive input validation
+- **Monitoring**: Added logging for better debugging and error tracking
+
+### **Expense Analytics Complexity**
+- **Challenge**: Generating real-time analytics for category breakdowns and trends
+- **Impact**: Complex MongoDB aggregation queries causing performance issues
+- **Solution**: Optimized aggregation pipelines and implemented data caching
+- **Future**: Consider moving to dedicated analytics database for scale
+
+---
+
+## 🤖 AI Accuracy Challenges
+
+### **Expense Categorization Edge Cases**
+- **Challenge**: AI misclassifying ambiguous expenses (e.g., "Amazon" could be shopping or books)
+- **Impact**: 15-20% of expenses required manual recategorization
+- **Solution**: Enhanced prompts with context examples and merchant recognition
+- **Improvement**: Continuous learning from user corrections to improve accuracy
+
+### **Multi-Language Support**
+- **Challenge**: Handling expense inputs in different languages (Hindi, English mixed)
+- **Impact**: AI parsing failed for non-English inputs
+- **Solution**: Added language detection and multilingual prompt examples
+- **Limitation**: Currently optimized primarily for English inputs
+
+### **Currency and Amount Recognition**
+- **Challenge**: Accurately extracting amounts from varied input formats
+- **Impact**: Confusion between periods and commas in number formatting
+- **Solution**: Robust regex patterns and number parsing with locale support
+- **Edge Cases**: Still struggles with very unconventional amount formats
+
+---
+
+Team **Binary Brigadiers** -- [Aditya Sharma](https://github.com/AdityaSh07), [Manas Arora](https://github.com/ManasArora33), [Soumyodeep Chakraborty](https://github.com/Pioptimist), Vishal Haldar
+
+`2025-09-20`
+
+---
+
+### FlagShield
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/cyber-strikers-0449) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/LakshaGoyal/FlahShield) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://flagshield.vercel.app/?utm_source=chatgpt.com) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://vimeo.com/1116570560?share=copy) [![Built at](https://img.shields.io/badge/Built%20at-HackOdisha%205.0-0052CC?style=flat-square)](https://hackodisha-4.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-3-FF6B6B?style=flat-square)
+
+> "Your Vigilant AI Watchdog for Digital Finance."
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![NumPy](https://img.shields.io/badge/NumPy-333333?style=flat-square) ![pandas](https://img.shields.io/badge/pandas-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![XGBoost](https://img.shields.io/badge/XGBoost-333333?style=flat-square)
+
+**The problem it solves**
+
+The Problem FlagShield Solve
+
+Financial institutions process millions of transactions daily across cards, wallets, ATMs, and online banking. Existing rule-based fraud systems struggle with:
+
+🚫 Massive Volume → Manual monitoring is infeasible.
+
+🚫 Rigid Rules → Fail to adapt to evolving fraud tactics.
+
+🚫 High False Positives → Legit users often flagged, frustrating customers.
+
+🚫 Evolving Threats → Fraudsters constantly bypass legacy systems.
+
+Our Solution – FlagShield: An AI-Powered Real-Time Fraud Detection Platform
+
+We built an adaptive AI system that continuously learns, adapts, and flags suspicious transactions with minimal false alarms.
+
+🔹 Key Features
+
+Intelligent Monitoring → Tracks every transaction in real-time.
+
+Behavioral Baselines → Learns user-specific normal behavior.
+
+Adaptive Detection → Flags anomalies like unusual amounts, locations, or devices.
+
+AI Risk Scoring → Each transaction gets a fraud risk score (0–100).
+
+Explainable Alerts → Analysts see why a transaction was flagged (e.g., “Unusual Location: France, user resides in India”).
+
+Continuous Feedback Loop → Analyst feedback retrains the model, making it smarter over time.
+
+Technology Stack
+
+Data Processing & ML → Python, Pandas, NumPy, Scikit-learn, XGBoost.
+
+Fraud Detection Models → Random Forest, Isolation Forest, Autoencoders.
+
+Real-Time Pipelines → Apache Kafka, RabbitMQ.
+
+APIs & Integration → FastAPI, Flask.
+
+Dashboards → Streamlit, Plotly Dash, Grafana.
+
+Cloud Infra → AWS, Azure, GCP for scalability.
+
+**Challenges we ran into**
+
+Challenges We Overcame
+
+Data Acquisition → Securely handling sensitive financial data.
+
+Imbalanced Datasets → Rare fraud cases solved with advanced ML.
+
+Evolving Threats → Adaptive AI + hybrid rules approach.
+
+Integration → APIs ensure seamless plug-in with banking systems.Impact & Benefits
+
+✅ Superior Accuracy → Detects hidden, sophisticated fraud patterns.
+✅ Reduced False Positives → Learns individual spending habits.
+✅ Real-Time Protection → Instant alerts to stop fraud losses.
+✅ Customer Trust → Secure, seamless banking experience.
+✅ Operational Efficiency → Saves analysts’ time, automates repetitive checks.
+✅ Scalability → Handles millions of transactions daily.
+✅ Compliance → Supports regulations & risk management
+
+**Best Use of Akash**
+
+FlagShield is an adaptive AI-powered fraud detection engine that monitors millions of financial transactions in real-time. By deploying our fraud models and streaming pipelines on Akash’s decentralized cloud, we leverage scalable compute power to ensure low-latency fraud detection, cost-efficient scalability, and a resilient infrastructure. This makes Akash the perfect backbone for secure, real-time fraud detection at a global scale.
+
+[Laksha Goyal](https://github.com/LakshaGoyal)
+
+`2025-09-07`
 
 ---
 
@@ -6581,6 +8036,1211 @@ Our project fits the AI/ML track because it directly implements the core technol
 Team **AlienX** -- [Rahul Godara](https://github.com/StackOverChad), [Jatin Naik](https://github.com/Jatin-code16), [Rohan Kumar](https://github.com/piverine), [Gourav.Kumar Ojha](https://github.com/RazzGourav)
 
 `2025-11-15`
+
+---
+
+### TradeSenti
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/tradesenti-ca65) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/furyfist/Trade) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://youtu.be/ppPXAfnuIpc) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/ppPXAfnuIpc) [![Built at](https://img.shields.io/badge/Built%20at-hackCBS%208.0-0052CC?style=flat-square)](https://hackcbs-8.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> Shows you why a stock moved. Not just that it did.
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Core ML](https://img.shields.io/badge/Core%20ML-333333?style=flat-square)
+
+**The problem it solves**
+
+### TradeSage AI: Hybrid ML/LLM Analyst
+
+#### 1. Inspiration
+
+We were inspired by the recent advances in **hybrid AI systems** and the critical gap between predictive modeling and human-like interpretation. We realized that effective investment analysis requires two distinct capabilities: **pure statistical forecasting** and **contextual, qualitative risk assessment**. This led us to design a system where a quantitative model provides the prediction, and specialized AI agents provide the structured, interpretable reasoning.
+
+#### 2. What it Does
+
+TradeSage AI is a **sophisticated hybrid decision engine** that transforms raw trading ideas and live market data into precise, interpretable forecasts. Users input a stock ticker and relevant context (e.g., "AAPL announced record profits"), and the system orchestrates six specialized AI steps:
+
+* **Prediction Agent (Core):** Executes a trained **LSTM neural network** on live data and sentiment features to forecast the next-day price and percent change.
+* **Contradiction Agent:** Acts as the stress-test layer, identifying technical conflicts or fundamental risks that could invalidate the model's prediction.
+* **Synthesis Agent:** Balances the prediction's high/low confidence signal against the identified risks to assign a final, comprehensive **Confidence Score** and write a detailed rationale.
+* **Alert Agent:** Translates the quantitative forecast into an actionable signal (e.g., "High confidence buy zone").
+
+The system delivers a predictive analysis and a dashboard showing all active forecasts, their performance metrics, and the full interpretive reasoning.
+
+#### 3. How We Built It
+
+We engineered a full-stack system focused on speed and data integrity:
+
+* **ML Prediction Engine:** A custom **LSTM model** was trained on OHLCV data combined with FinBERT sentiment scores, encapsulating both technical patterns and market emotion.
+* **AI Reasoning Layer:** The sequential, six-step analytical structure is powered by the **Google Gemini 1.5 Flash SDK** for reliable, fast interpretation of the prediction results.
+* **Data Persistence:** We used **MongoDB (NoSQL)** for schemaless storage, perfect for efficiently saving the complex, nested JSON structure of the full analysis output.
+* **Live Data Integration:** The system fetches **real-time stock data** for technical indicator calculation and prediction input via the **Alpha Vantage API**.
+* **Technology Stack:** Python/FastAPI (Backend API), **TensorFlow/Keras** (ML Model), **Gemini 1.5 Flash** (LLM), **MongoDB** (Persistence), and a single-file React UI for fast demonstration.
+
+
+#### 4. Accomplishments That We're Proud Of
+
+* **Functional Hybrid System:** Creating a working, end-to-end hybrid AI system where the **LSTM performs the forecast** and **Gemini provides the interpretable context**.
+* **Interpretability and Trust:** Successfully transforming a raw, statistical prediction (a number) into a human-readable, actionable signal, complete with a **risk-assessment layer** that specifically challenges the model's own forecast.
+* **Speed and Stability:** The entire process—data fetch, ML prediction, and 4-step LLM interpretation—runs cleanly and efficiently, delivering a full analysis in under one minute.
+
+#### 5. What We Learned
+
+* **Context is King:** We learned that **market forecasting requires context**, confirming that the marriage of technical data with sentiment is critical.
+* **MLOPs Mindset:** The real engineering difficulty is not model training, but making the **ML asset run reliably** and instantly within a live web environment.
+* **System Resilience:** When dealing with multiple external components (ML files, LLM APIs, live financial APIs), robust error handling and clear component separation are essential to prevent total system failure.
+
+#### 6. What's Next for TradeSage AI
+
+* **Self-Learning Loop:** Implement a feedback mechanism to allow the LSTM model to **learn from new data** and pa
+
+**Challenges we ran into**
+
+* **ML Operationalization:** The most significant hurdle was reliably integrating the custom-trained ML model. This involved solving classic deployment issues, such as **debugging mismatched joblib scaler files**, ensuring **non-blocking asynchronous execution** of the TensorFlow model within the FastAPI server, and maintaining stability even when external data feeds were delayed.
+* **Model Naming and Integration:** We navigated challenges in the backend migration, including integrating a bespoke **ML prediction service** into the existing six-step agent architecture while maintaining clean code separation.
+* **Initial API Stability:** Ensuring consistent, structured JSON output across all reasoning steps required precise prompt engineering and robust response parsing logic, which had to be continually adapted to the model's output style.
+
+**Best Use of Gemini API**
+
+We leveraged the Google Gemini 2.5 Flash SDK as the Hybrid AI System's reasoning engine. This required a direct technological migration from the older ADK framework.
+
+Role in the 6-Level Architecture: Gemini powers five of the six analytical steps (1, 2, 4, 5, 6), acting as a quality assurance and interpretability layer for the ML prediction.
+
+Sequential Specialization: Instead of one large query, we designed five specialized prompts (agents) to break down the task:
+
+Context/Hypothesis (Steps 1 & 2): Extracts precise inputs (Ticker, sentiment, price context) required to run the ML Model.
+
+Contradiction (Step 4): Critiques the ML Model's raw forecast by finding technical or fundamental risks.
+
+Synthesis/Alert (Steps 5 & 6): Translates the quantitative ML output and the risks into a human-readable narrative, Confidence Score, and actionable trade signal.
+
+Technological Implementation: We integrated the google-generativeai Python SDK directly into our FastAPI backend, ensuring asynchronous calls (await self._call_gemini_agent_async) for non-blocking performance.
+
+**Best Use of MongoDB Atlas**
+
+Role in the Project: MongoDB serves as the single source of truth for persisting the entire analysis history for the user dashboard.
+
+Schemaless Advantage: The raw output of our 6-step pipeline is a large, nested JSON object containing the forecast, contradictions, confirmations, and alerts. MongoDB's document-based model allows us to save this entire JSON object as one single record, eliminating the need for complex SQL joins and rigid schemas.
+
+Implementation: We used the pymongo library for all database operations. The CRUD logic focuses simply on insert_one() (to save the full analysis) and projection-based find() queries (to retrieve lightweight summaries for the dashboard).
+
+Benefit: This migration significantly simplified our data persistence code and matched the flexible nature of LLM-generated outputs.
+
+Team **hent.ai** -- [furyfist .](https://github.com/furyfist), [Lokesh Godara](https://github.com/godaralokesh29/)
+
+`2025-11-09`
+
+---
+
+### StockAnalyzer PRO
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/stockanalyzer-pro-e163) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://www.stockanalyzerpro.com/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/WHmZhdO5nsw?si=7ENmFkIznpxhkEWs) [![Built at](https://img.shields.io/badge/Built%20at-Base%20Batches%20002:%20Builder%20Track-0052CC?style=flat-square)](https://base-batches-builder-track.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> Technical Analysis of stocks using AI
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+StockAnalyzer Pro solves the problem of limited stock analysis caused by expensive teams that can cover only a few stocks each day. It also fixes delays and missed chances caused by separate research, trading, and portfolio tasks. The platform uses AI to automate the entire process, allowing real-time analysis of many stocks at once, covering entire exchanges simultaneously. This helps users make faster, more consistent decisions and act quickly on market opportunities. Overall, it makes stock market analysis and management simpler, safer, and more efficient for all users.
+
+**Challenges we ran into**
+
+Challenges faced while building StockAnalyzer Pro included:
+	•      Defining specific roles and inputs for each sub-agent in the multi-agent AI system.
+	•	Designing the coordination mechanism where multiple sub-agents combine their outputs into a single final decision.
+	•	Resolving conflicts and inconsistencies between analyses from different sub-agents.
+	•	Managing computational costs associated with large language models while maintaining performance.
+	•	Ensuring decision quality and speed for each analysis step to provide timely and accurate outputs.
+
+**Link to the GitHub Repo of your project**
+
+https://github.com/bawsi99/StockAnalyzer-Pro.git
+
+**Live URL of your project**
+
+https://www.stockanalyzerpro.com/
+
+**What is your product’s unique value proposition?**
+
+StockAnalyzer Pro’s unique value proposition is that it is a fully autonomous AI platform that automates the entire investment workflow using a coordinated multi-agent system. Unlike traditional tools, it can scale to analyze entire stock exchanges in real time, enabling comprehensive technical, fundamental, and market intelligence analysis alongside autonomous trading and portfolio management. What sets it apart is the integration of diverse specialized AI agents working in harmony to deliver end-to-end market insights and execution at speed and scale, something not offered by competitors who typically focus on isolated parts of trading or portfolio management. The alpha build validates this by running a live Technical Analysis Agent on the NSE India equity market as a proof of concept, demonstrating the system’s capability to handle real-time, large-scale stock analysis and automated decision-making, gaining early engagement from retail and institutional users who confirm its accuracy and effectiveness. This live validation confirms the product’s ability to transform how trading and asset management are done.
+
+**Who is your target customer?**
+
+StockAnalyzer Pro’s target customers include retail and institutional investors, trading firms, and individuals interested in asset management. The platform provides comprehensive, autonomous AI-driven analysis and portfolio management that enhances decision-making efficiency, reduces research costs, and scales across entire stock exchanges in real time. Additionally, it offers asset management services with management fees on autonomous trading operations, allowing users to invest money and have their portfolios managed automatically.
+
+**Who are your closest competitors and how are you different?**
+
+Closest competitors of StockAnalyzer Pro fall into two main categories: automation platforms and analysis platforms.
+Automation Competitors
+	•	Tradetron (https://tradetron.tech): No-code algo builder with strategy marketplace
+	•	Streak by Zerodha (https://streak.tech): Semi-automated trading with deep broker integration
+	•	QuantMan (https://quantman.com): Automated trading with rich indicator support
+Analysis Competitors
+	•	Trade Ideas (https://trade-ideas.com): AI signals for US day traders
+	•	Tickeron (https://tickeron.com): AI-based trade ideas and pattern recognition
+	•	VectorVest (https://vectorvest.com): Model-driven buy/sell/hold recommendations
+	•	Sensibull (https://sensibull.com): Options analysis and risk management tools
+	•	TrendSpider (https://trendspider.com): No-code technical analysis automation bridging analysis and automation
+StockAnalyzer Pro’s Differentiators
+StockAnalyzer Pro offers a unique end-to-end autonomous platform covering analysis, trading, and portfolio management at scale and speed, combining the benefits of both categories within a single, easy-to-use interface. Unlike competitors who focus on isolated parts—either trade automation or signal generation—StockAnalyzer Pro integrates comprehensive AI-driven market intelligence, autonomous trading, and portfolio oversight in real time, processing entire stock exchanges simultaneously. It achieves this at lower cost and with better scalability, offering a truly unified, intelligent investment workflow.
+This holistic approach and the proven live Alpha demonstration on the NSE India market set StockAnalyzer Pro apart from existing solutions.
+
+**What is your distribution strategy and why?**
+
+StockAnalyzer Pro’s distribution strategy targets each customer category with tailored approaches: retail investors through community growth, education, and broker partnerships; institutional investors via direct sales and live proof of concept demos; and trading firms through partnerships demonstrating cost and efficiency benefits from autonomous analysis. This multi-channel approach fits the technical nature of the product and builds credibility across segments.
+
+[Aaryan Manawat](https://github.com/bawsi99)
+
+`2025-10-23`
+
+---
+
+### Tributum
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/tributum-8883) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://drive.google.com/drive/folders/1ChN88uMoh2z5tuTIz-TXgN4FhZo8q-lA) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/uBG1egP9jHk) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> Where invoices and bank statements finally match
+
+![scikit-learn](https://img.shields.io/badge/scikit--learn-333333?style=flat-square) ![pandas](https://img.shields.io/badge/pandas-333333?style=flat-square) ![SciPy](https://img.shields.io/badge/SciPy-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Flutter](https://img.shields.io/badge/Flutter-333333?style=flat-square) ![MERN stack](https://img.shields.io/badge/MERN%20stack-333333?style=flat-square) ![Tesseract OCR](https://img.shields.io/badge/Tesseract%20OCR-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**Description of your solution**
+
+# **AI-Powered Invoice Recollection & Bank Reconciliation System**
+
+---
+
+## **Context And Problem**  
+Indian SMEs And Mid-Sized Businesses Struggle With Delayed Collections, Invoice Mismatches, And Fragmented Bank Data, Creating Cashflow Blindspots. Finance Teams Spend Hours Chasing Overdue Invoices, Reconciling Payments, And Ensuring GST Compliance. Traditional ERP Systems Fail To Address Fraud Risks, Payment Behavior, And Multi-Bank Complexity, Leading To Blocked Capital And Compliance Issues.
+
+---
+
+## **Key Industry Challenges**  
+- **Invoice Fraud**: Duplicate Invoices, Manipulated Amounts, Fake Vendors  
+- **Payment Fraud**: Ghost Transactions, Unauthorized Deductions, Mismatched Transfers  
+- **GST Compliance Gaps**: Errors In Reconciling Purchase Invoices With GSTR-2A  
+- **Multi-Bank Complexity**: Different Formats Across 3–5+ Bank Accounts  
+- **Vendor Impersonation**: Fake Supplier Accounts Requesting Payments  
+- **Round-Tripping**: Circular Transactions Inflating Revenue Artificially  
+
+---
+
+## **The Agentic AI Challenge**  
+Develop An AI-Powered Finance Agent That Automates Invoice Recollection, Bank Reconciliation, And Fraud Prevention. The System Should Learn From Payment Patterns, Ensure GST Compliance, And Provide Real-Time Financial Visibility.
+
+---
+
+## **Core Features**  
+- **Automated Invoice Recollection**: Track Invoices, Detect Overdue Payments, Send Smart Reminders  
+- **Fraud Detection**: Detect Duplicates, Anomalies, Blacklisted Vendors, And Impersonation Attempts  
+- **Bank Reconciliation**: Parse Bank Feeds, Auto-Match With ERP/Ledger, Flag Mismatches  
+- **GST Compliance**: Reconcile GSTR-2A With Invoices, Highlight Gaps, Generate Reports  
+- **Predictive Insights**: Predict Late Payers, Recommend Proactive Cashflow Strategies  
+- **Multi-Bank Intelligence**: Normalize Formats, Detect Interlinked Transactions, Unify Visibility  
+
+---
+
+## **Web Development And System Requirements**  
+- **Frontend Dashboard**: Outstanding Dues, Fraud Alerts, Forecasts, Multi-Bank Summary  
+- **User Tools**: Automated Reminders, Finance Chatbot, Vendor Validation Portal  
+- **Backend**: Fraud Detection Model, Payment Prediction, Bank Parser, GST Reconciliation  
+- **Integrations**: Email, WhatsApp, SMS APIs, Bank APIs, ERP Connectors, Cloud Storage  
+- **Agentic AI**: Autonomous Agents For Invoices, Fraud, Compliance; Orchestration And Continuous Learning  
+
+---
+
+## **Implementation Outputs**  
+- Full-Stack Web Application Using React/Next.js And Node.js Backend  
+- Integrated AI Models For Fraud Detection And Prediction  
+- Bank, GST, And Communication API Integrations  
+- Demo Dashboard With Real-Time Reconciliation  
+- Documentation And Deployment Instructions  
+
+---
+
+## **End Goal**  
+Provide SMEs With A Finance Copilot That Delivers Real-Time Visibility, Fraud Prevention, And Automated Reconciliation To Reduce Manual Work And Improve Cashflow Health.
+
+---
+
+## **Technologies And Tools**  
+- **MERN Stack**: MongoDB, Express.js, React.js, Node.js  
+- **Python**: AI/ML, Data Processing, Automation Scripts  
+- **Tailwind CSS**: Frontend Styling  
+- **Flutter**: Cross-Platform Mobile App  
+- **AI/ML Frameworks**: TensorFlow, PyTorch, Scikit-Learn  
+- **LangChain APIs**: Smart Reminders, Contextual Messaging  
+- **OCR Tools**: Tesseract, Google Vision API  
+- **Database & Caching**: MongoDB Atlas, PostgreSQL 
+- **Integrations**: Bank APIs, ERP Connectors, Email/WhatsApp/SMS APIs
+
+**Fintech: Bring your own problem in Fintech, leveraging Agentic AI.**
+
+This AI-powered finance agent is a prime example of modern FinTech as it uses advanced technology to solve tangible financial challenges for businesses. It moves beyond traditional accounting software by automating the entire financial workflow—from intelligent invoice recollection and multi-bank reconciliation to proactive fraud detection and automated GST compliance (a key area of RegTech). By leveraging AI to analyze payment behaviors, predict cash flow, and present actionable insights on a unified dashboard, the agent transforms a company's finance function from a manual, reactive process into a secure, efficient, and data-driven strategic operation, directly embodying the FinTech goal of innovating financial services.
+
+Team **TheErudition** -- [Tejas Sidhwani](https://github.com/TejasS1233), [Yash Singrodia](https://github.com/Yash19075), [Raj Telang](https://github.com/TelangRaj), [Omar Rakhe](https://github.com/rakheOmar)
+
+`2025-10-19`
+
+---
+
+### FinanceAI
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/healthverce-c3ca) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://youtu.be/Pk8ypE6M4Jk?si=OyDKHxWIO6GUSYCe) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/Pk8ypE6M4Jk?si=GBx_KLPiD0Ti4sPe) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> Living Intelligence
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![spaCy](https://img.shields.io/badge/spaCy-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Yahoo-Finance API](https://img.shields.io/badge/Yahoo--Finance%20API-333333?style=flat-square) ![Plaid](https://img.shields.io/badge/Plaid-333333?style=flat-square) ![FastAPI](https://img.shields.io/badge/FastAPI-333333?style=flat-square) ![React.js](https://img.shields.io/badge/React.js-333333?style=flat-square) ![nltk](https://img.shields.io/badge/nltk-333333?style=flat-square)
+
+**Description of your solution**
+
+## FinanceAI: Agentic AI Financial Advisor Pitch
+
+FinanceAI autonomously executes complex financial tasks using a multi-agent, self-directed architecture, learning continuously to optimize user outcomes.
+
+---
+
+### **Core Agentic Financial Modules**
+
+Autonomous agents **analyze spend** (Multi-Agent Collaboration, Real-time Benchmarking) and issue optimal savings recommendations. The **Behavioral Reflection Agent** converts spending into missed ROI via **Causal Reasoning** and simulations. The **Time-Value Translator** contextualizes costs as "hours of your life" using **Net Wage Computation**. The **AI Tax Optimizer** provides autonomous compliance, using **LLM Reasoning** and **Goal-Oriented Planning** for ITR drafts. The **Twin Portfolio Simulator** runs a dual-agent comparison, synchronizing performance via **Knowledge Distillation**.
+
+---
+
+### **Advanced Agentic Strategy**
+
+A **Market Opportunity Detector** performs predictive analysis via **RAG** and **Sentiment Aggregation**. The **Market Stress Simulator** uses **Monte Carlo** within a **Digital Twin** for resilience learning. The **Human Sentiment Agent** integrates **Affective Computing** to dynamically adjust risk. Other agents handle **Smart Data Extraction** and **Autonomous Portfolio Rebalancing**.
+
+**Fintech: Bring your own problem in Fintech, leveraging Agentic AI.**
+
+## Why FinanceAI Fits the Agentic AI Fintech Track
+
+Our project, **FinanceAI**, is the quintessential submission for the "Bring your own problem statement in Fintech using Agentic AI" track because it delivers a **holistic, autonomous financial solution** powered by a deeply **Agentic architecture**.
+
+### 1. The Problem: Automation Gap in Personal Finance
+
+The problem is the **fragmentation and inaction gap** in personal finance. Current tools are passive they *report* data but don't *act* on it. Users are left to manually monitor, optimize taxes, find savings, and manage risk.
+
+**FinanceAI solves this by automating financial wisdom.**
+
+### 2. Agentic Solution: Execution, Not Suggestion
+
+We don't use simple GenAI; we built a system of twelve collaborating agents. This directly satisfies the Agentic AI requirement:
+
+* **Autonomous Execution:** The **Autonomous Spending Agent** runs a **Planner to Executor to$Reflector loop**, performing real-time vendor searches and negotiation, moving beyond basic categorization.
+* **Predictive Risk Management:** The **Market Stress Simulator** uses **Monte Carlo analysis** in a **Digital Twin** environment to autonomously train portfolio resilience.
+* **Behavioral Alignment:** The **Human Sentiment Agent** applies **Affective Computing** to dynamically adjust risk, ensuring the AI's actions align with the user's emotional state, not just static data.
+
+Our core is a **multi-agent system with a shared blackboard architecture**, demonstrating advanced, self-correcting capabilities necessary for high-stakes financial operations.
+
+### 3. Fintech Impact: Measurable ROI
+
+Every agent is tied to a clear financial outcome: maximizing savings, optimizing tax, or increasing returns (evidenced by the **Twin Portfolio Simulator**). We are not just building a smart interface; we are building a system that delivers **measurable, continuous ROI** through autonomous decision-making.
+
+**FinanceAI is an autonomous financial co-pilot the future of Fintech.**
+
+Team **broCode** -- [Crystal Fernandes](https://github.com/CrystalEFernandes), [Divyal Patil](https://github.com/divyal-04), [Slayde Sequeira](https://github.com/SlaydeSequeira), [Liza Glanisha Castelino](https://github.com/Glanisha)
+
+`2025-10-16`
+
+---
+
+### The A.I.R  The Autopilot Investment & Risk Agent
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/the-air-agent-the-autopilot-investment-and-risk-agent-227e) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> A.I.R. Agent: Human-proof your portfolio.
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Figma](https://img.shields.io/badge/Figma-333333?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**Description of your solution**
+
+**Description of your solution**
+
+**A.I.R. Agent - The Autopilot Investment & Risk Agent**
+
+**1. What we plan to build**
+We are building the A.I.R. Agent, an autonomous AI-powered investment agent that goes beyond traditional financial advice. Unlike standard robo-advisors that only consider market data, the A.I.R. Agent will manage an individual's portfolio based on their real-time emotional state and behavioral patterns. By simulating a user's digital footprint (e.g., search history for "recession," or social media sentiment), the agent detects signs of fear, FOMO, or irrationality. It then automatically adjusts the portfolio's risk level to prevent emotionally-driven decisions, essentially putting the portfolio on "autopilot" during periods of emotional volatility.
+
+**2. What specific pain points does it address**
+Emotional Investing: It solves the core problem of emotional decision-making, which is a leading cause of wealth destruction for new and inexperienced investors. The agent acts as a safety net, protecting users from their own irrationality during market swings.
+
+Reactive Investing: Traditional tools are reactive to market changes. The A.I.R. Agent is proactive, managing risk by adapting to the human behind the portfolio, rather than just the market. This creates a new paradigm in personalized financial management.
+
+Low Behavioral Awareness: It acts as a smart, autonomous coach, teaching the user better financial habits. By showing how their emotions impacted their portfolio decisions, the agent helps them build long-term discipline and financial literacy.
+
+**3. Who is the target audience?
+Primary Users:**
+
+Young, tech-savvy investors who want to build long-term wealth but lack the discipline to avoid emotional decision-making.
+
+New entrants to the stock market who are easily swayed by market rallies and crashes.
+
+Secondary Users:
+
+Experienced investors seeking a "set it and forget it" solution to minimize their personal involvement during volatile periods.
+
+Financial advisors who want to offer their clients a data-driven tool to help them stick to their long-term investment plan.
+
+4. GTM (Go-to-Market) & Revenue Streams
+Go-to-Market Strategy (GTM):
+
+Phase 1: Pilot with tech and finance communities at universities and professional forums to gather initial feedback and a core user base.
+
+Phase 2: Partner with established fintechs and brokerage firms to integrate the A.I.R. Agent as a premium, value-added feature on their platforms.
+
+Phase 3: Expand direct-to-consumer through content marketing, showcasing real-world simulations and success stories on financial education platforms and social media.
+
+**Revenue Streams:**
+
+Freemium Model: Basic sentiment tracking and emotional insights free; the core "Autopilot" portfolio management feature and advanced analytics available as a premium subscription.
+
+Management Fees: A small, transparent percentage of the assets under management (AUM) for users who opt for the fully autonomous management.
+
+B2B Licensing: License the core behavioral analytics and risk-adjustment engine to other financial institutions, wealth management platforms, and robo-advisors.
+
+**Fintech: Build an autonomous financial coaching agent that adapts to real user behavior, spending patterns, and income variability - helping gig workers, informal sector employees, and everyday citizens make smarter financial decisions proactively.**
+
+Our project is an Autonomous Financial Coaching Agent
+
+Our project's central purpose is to build an autonomous AI agent. It acts independently to manage a user's portfolio and guide their behavior. This directly fulfills the autonomous financial coaching agent requirement of the prompt, simply applying it to the domain of investment behavior rather than daily spending.
+
+Our project  Adapts to Real User Behavior
+This is the strongest point of alignment. Most financial tools are static. Our A.I.R. Agent is dynamic, adapting to the most volatile aspect of a financial decision-maker: their emotional state. The same behavioral analytics engine we use to detect fear or FOMO in an investor's search history could be applied to detect impulsive spending patterns or financial anxiety in a gig worker. The core technology of a behavior-adaptive agent is identical.
+
+Our project Helps Users Make Smarter Financial Decisions Proactively
+
+Our agent’s primary function is to be proactive. It doesn't wait for a user to make a mistake; it intervenes to prevent it. By automatically adjusting risk to counter emotional decisions, it helps users make smarter, long-term financial choices. This is the definition of proactive management, and it applies to preventing a bad trade as much as it applies to preventing overspending.
+
+Team **BugSmashers** -- [Shoaib Mulla](https://github.com/shoaibM1699), [Nishita Chaudhari](https://github.com/nis3h), [YOGESH MISHRA](https://github.com/yogeshSmishra), [Satyam Gupta](https://github.com/Saty-27)
+
+`2025-08-29`
+
+---
+
+### Fintech Agentic RAG and Investment Advisory
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/aaa-8274) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://drive.google.com/file/d/1jInCKdTOrqcPPsy4vbXQBg3fSOduZSDD/view?usp=sharing) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> Sampada AI: Your Personal Financial Co-pilot
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![FastAPI](https://img.shields.io/badge/FastAPI-333333?style=flat-square) ![Supabase](https://img.shields.io/badge/Supabase-333333?style=flat-square) ![langchain](https://img.shields.io/badge/langchain-333333?style=flat-square)
+
+**Description of your solution**
+
+The present financial environment in India is characterised by a notable paradox; although the fintech industry in the country is flourishing thanks to cutting-edge digital tools, an astounding *73%* of adults are not thought to be financially literate. Millions of people have access to strong financial products as a result, but they lack the basic knowledge necessary to use them safely and effectively, creating a critical chasm. This disparity shows up as real issues, such as poor investment choices, a widespread lack of trust in financial institutions, and the overwhelming confusion brought on by jargon-filled insurance and loan documents.
+
+To close this gap, we are building **Sampada AI**, a personal financial co-pilot. Our prototype is a clever, conversational AI platform designed to empower every Indian to confidently and clearly take charge of their finances. It tackles the fundamental problems of financial complexity and inaction through its core features.
+
+First, its **advanced agentic RAG** (Retrieval-Augmented Generation) system serves as a user's personal financial advisor. Any complicated document, like a **loan agreement, insurance policy, or mediclaim form**, can be uploaded by a user. The AI then instantly converts the complex legalese into plain, intelligible language, extracts important information (such as interest rates and coverage amounts), proactively highlights any hidden clauses or potential hazards, and provides conversational answers to any specific queries the user may have. It also uses **contextual knowledge graphs**, ensuring users are able to fully comprehend their rights and obligations both before and after they sign, turning opaque documents into transparent agreements.
+
+Furthermore, this system acts as a comprehensive wealth-creation guide that goes beyond understanding to action. It offers practical, tax-conscious guidance on investments, savings, and government programs (such as PPF and NPS). Its unique feature is its capacity to combine deep qualitative insights obtained via RAG from unstructured sources, such as **transcripts of quarterly earnings calls**, with hard quantitative data from financial APIs (such as ***screener.in***, which can run queries and filters stocks based on growth metrics). This offers a comprehensive, in-depth perspective on any investment. 
+Important characteristics include:
+
+- **Real-Time Information:** Availability of a live web search, powered by a proactive agentic framework using **Model Context Protocol** (MCP) servers and tools like Playwright, to guarantee that all recommendations are founded on the most recent laws and news.
+- **Dual User Modes:** A beginner-friendly "Explain Like I'm 5" mode for learning, and an expert mode with sophisticated data for seasoned users.
+- **Inclusivity:** Support for **multilingual** text and voice to increase adoption in regional areas where language is a barrier.
+- **Dynamic Visualisations:** Using robust libraries like Plotly or D3.js, interactive charts can be created to simplify and captivate complex financial planning.
+
+Our main target market consists of *Anxious Achievers* (young, urban professionals who are tech-savvy but financially overwhelmed) and *Overwhelmed Organisers* (growing families juggling multiple complex financial products). Their problems of investment paralysis, document confusion, and the absence of a reliable, easily accessible guide are all directly addressed by **Sampada AI**. 
+**Building trust** via community involvement and top-notch instructional materials will be the **main goals** of our go-to-market strategy. 
+The platform will use a freemium business model, meaning that basic queries and document analysis will be available for free to show their worth, while a monthly subscription will grant access to the sophisticated personalised advisory engine, in-depth research reports, and limitless use.
+
+**Fintech: Bring your own problem in Fintech, leveraging Agentic AI.**
+
+Our project directly addresses a critical, self-identified problem within the Indian fintech space: the significant gap between the availability of advanced digital financial tools and the population's low financial literacy. We leverage agentic AI to solve this by creating a proactive co-pilot, not just a passive tool. The system's agentic framework, built on Model Context Protocol (MCP) servers, allows it to autonomously perform tasks like analysing complex documents, executing queries on external financial APIs, and conducting live web searches, thereby providing actionable, real-time guidance to empower users.
+
+Team **Codex** -- [Nihaal SP](github.com/nerdylelouch), [Avinash Anish](https://github.com/CubeStar1), Harshith A, [Diptanshu Kumar](https://github.com/Kraken-coder)
+
+`2025-10-16`
+
+---
+
+### FINANCE SETU
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/finance-setu-ee4d) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://teamgrey.social-networking.me/) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> Bridge Between People and There Finances
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![AI/ML](https://img.shields.io/badge/AI/ML-333333?style=flat-square) ![Supabase](https://img.shields.io/badge/Supabase-333333?style=flat-square) ![n8n](https://img.shields.io/badge/n8n-333333?style=flat-square)
+
+**Description of your solution**
+
+Here's the solution section as a standalone piece:
+
+---
+
+# The Solution: SETU
+
+## Your AI Money Companion
+
+Imagine having a smart financial friend who helps you save money, clear loans faster, and grow your wealth—all explained in simple words you actually understand.
+
+## What SETU Does For You
+
+**Complete financial analysis that finds real savings:**
+- Have extra cash? It shows whether to clear your loan early or invest it instead
+- Paying too much tax? It discovers benefits you're eligible for and shows exactly how to claim them
+- Confused about investing? It rates every option by safety, returns, and timeline—then recommends what fits you best
+- Calculates the boring but crucial stuff: actual post-tax returns on your SIPs and SWPs
+
+## Why SETU Is Different
+
+**It's not just a calculator or agent—it's a teacher and companion.**
+
+Every suggestion comes with a clear explanation of why it makes sense for **your** situation. It considers your loans, investments, risk comfort, and goals to give advice that's truly personalized.
+
+Whether you're dealing with SIPs, loan prepayments, or tax planning, SETU breaks everything down step-by-step and ranks your choices from easiest to most rewarding.
+
+**The key difference:** SETU learns your financial knowledge level and guides you one step at a time, helping you learn along the way.
+
+## The Impact
+
+Expert-level financial guidance that's honest, easy to follow, and designed to build your wealth the smart way.
+
+**SETU leverages agentic AI to understand user needs, behavior, and personal financial knowledge—meeting people where they are and growing with them.**
+
+No more guessing. No more overwhelm. Just clear, actionable guidance that turns financial complexity into confident decisions.
+
+**Fintech: Bring your own problem in Fintech, leveraging Agentic AI.**
+
+# The Financial Clarity Crisis
+
+**73-75% of Indians lack financial literacy.** Not because we're careless—finance just feels impossibly complicated.
+
+The damage is real: **47%** have barely any emergency savings, **75%+** risk debt default if they lose their job, and most keep money idle in low-yield savings accounts.( based on real data*)
+
+**But here's the truth: We're not ignorant. We're overwhelmed.**
+
+---
+
+## What's Going Wrong?
+
+We make critical decisions in the dark:
+- **Overpaying taxes** because we don't know what we can claim
+- **Carrying expensive loans** that last longer than they should  
+- **Too confused to invest**, so our money just sits there
+- **Hoping for the best** instead of knowing what's right
+
+You invest for years, but do you know what lands in your account after taxes? You might have tax benefits right now and not realize it. Is your loan building wealth or draining it?
+
+**These aren't trick questions. They're fundamentals that should be simple.**
+
+---
+
+## Why This Keeps Happening
+
+We're trapped between two extremes:
+
+**Financial advisors?** Thousands per hour.  
+**Google?** Information overload that doesn't fit our situation.
+
+**The result:** Navigating financial complexity by guessing our way through life-shaping decisions.
+
+---
+
+## The Real Problem
+
+**Most of us don't have time TO SAVE MONEY—we barely have time to earn it.**
+
+Understanding post-tax returns, maximizing tax benefits, knowing if debt helps or hurts—**this clarity shouldn't require a finance degree.**
+
+**The problem isn't you. It's that nobody's made finance truly accessible.**
+
+---
+
+## The Challenge
+
+How do we bridge the gap between advice we can't afford, information we can't use, and decisions we can't avoid?
+
+**How do we give millions of Indians the financial clarity they deserve—without adding another burden to their lives?**
+
+---
+
+**Sources: PIB, Govt. of India | World Economic Forum | IOSR Journal of Business and Management*
+
+Team **grey** -- [AYUSH JAISWAL](https://github.com/jazayush), Shwetank Priyadarshi
+
+`2025-10-19`
+
+---
+
+### AUDITRON
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/project-29fe) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Neel-K26/AUDITRON) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> AI AGENTIC in ACCOUNTING
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![JWT](https://img.shields.io/badge/JWT-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![AI/ML](https://img.shields.io/badge/AI/ML-333333?style=flat-square)
+
+**Description of your solution**
+
+**AUDITRON** addresses one of the most time-consuming challenges in the financial and accounting domain — manual reconciliation, expense validation, and compliance reporting performed by **Chartered Accountants (CAs)** and finance teams.
+
+The system deploys a network of autonomous financial agents that execute and coordinate accounting workflows such as invoice verification, ledger reconciliation, GST/tax categorisation, and financial summary generation. Each agent can reason through financial data, flag inconsistencies, and escalate exceptions for CA review — reducing repetitive workloads while maintaining full control and transparency.
+
+Auditron operates on a goal-driven, agentic architecture, enabling self-correction, workflow prioritization, and policy adaptation without explicit reprogramming. It integrates securely with existing ERP and accounting platforms (Tally, QuickBooks, Zoho Books, SAP) through modular APIs.
+
+By automating reconciliation, classification, and compliance tasks, Auditron minimizes human error, accelerates financial closing cycles, and creates an audit-ready financial environment.
+It allows CAs to focus on strategic advisory, compliance oversight, and client value creation rather than routine bookkeeping.
+
+**Fintech: Bring your own problem in Fintech, leveraging Agentic AI.**
+
+**Fintech Domain Alignment:**
+Targets core financial operations — accounting, reconciliation, and compliance — a critical subset of the fintech ecosystem.
+
+**Problem Ownership:**
+The team defines its own problem statement (CA workload and reconciliation inefficiency), fulfilling the “bring your own problem” criterion.
+
+**Agentic AI Leverage:**
+The project applies agentic principles — autonomous, goal-driven, and self-correcting agents — to handle real-world financial workflows.
+
+**Practical Relevance:**
+Directly supports financial professionals (CAs and SMEs), creating measurable efficiency and reliability improvements in everyday fintech operations.
+
+Team **Neurotics** -- [Paras Chavan](https://github.com/ParasChavan02), [Neel Khairnar](https://github.com/Neel-K26), [Tanmay Shinde](https://github.com/Tanny28), [vedant jadhav](https://github.com/Vedantjadhav701)
+
+`2025-10-16`
+
+---
+
+### Crediflow
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/crediflow-04fc) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/lunaticsash/Workers) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://vimeo.com/1128604937?fl=ip&fe=ec) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> "Building Credit, Empowering Hustle"
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Django](https://img.shields.io/badge/Django-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![MySQL](https://img.shields.io/badge/MySQL-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=flat-square)
+
+**Description of your solution**
+
+Agentic Credit Builder for Gig & Freelance Employees
+
+ Overview
+
+The Agentic Credit Builder is a FinTech technology that aims to equip gig and freelance employees by providing them with access to equitable credit opportunities in the form of AI-based credit scoring that is founded on actual financial information — and not conventional credit histories.
+It spans the divide between financial institutions and the unbanked or underbanked gig economy, leveraging the strength of Account Aggregator (AA) platforms and Agentic AI.
+
+ Problem
+
+Millions of gig workers in India — taxi drivers, delivery personnel, and online freelancers — find it difficult to access personal loans, credit cards, or housing finance because:
+
+They don't receive stable monthly salaries.
+
+They have irregular or platform-based income sources.
+
+Traditional credit systems (like CIBIL) do not capture their real financial behavior.
+
+This leaves a large population financially invisible, despite having consistent income flows and responsible spending patterns.
+
+ Solution
+
+Our platform uses RBI’s Account Aggregator (AA) ecosystem (e.g., Finvu, CAMS FinServ, Onemoney) to securely fetch and analyze a user’s financial data — with their consent.
+An Agentic AI system subsequently parses this information to evaluate their financial well-being and create an individualized Gig Credit Score.
+
+This score gives an alternative credit identity for individuals who lack traditional credit histories, allowing lenders to judge their creditworthiness more precisely.
+
+⚙ How It Works
+
+User Registration & Consent
+The user registers on the platform with secure OAuth authentication and gives permission to connect their bank accounts through an Account Aggregator (e.g., Finvu).
+
+Data Aggregation
+The platform retrieves the user's authenticated financial information — such as bank transactions, income flows, digital payments, and bill payments — directly from AA APIs in encrypted format.
+
+AI-Driven Financial Analysis
+Our Agentic AI engine automatically examines the consolidated information to detect important behavior trends like:
+
+Income consistency
+
+Expense-to-income ratio
+
+Regular payments and EMI stability
+
+Savings patterns
+Cash flow stability
+Gig Credit Score Generation
+Drawing from these observations, the AI calculates a dynamic Gig Credit Score (0–1000) — an equitable measure of the user's fiscal dependability, even without conventional credit history.
+
+Personalized Financial Coaching
+The agentic AI also functions as a financial coach, providing suggestions for enhanced creditworthiness.
+Illustration: "If you save an average of ₹3,000 each month over the next 3 months, your credit score may increase by 45 points."
+
+Dashboard & Insights
+The user is able to see:
+
+Graphical income and expenditure graphs
+
+Credit score patterns
+
+Simulations of loan eligibility
+
+Customized growth advice
+
+Future Integration (Phase 2)
+The system will provide APIs to NBFCs, micro-lenders, and fintechs for utilizing the Gig Credit Profile for underwriting credit — supporting instant microloans and digital credit cards for freelancers.
+
+ Tech Stack
+
+Frontend: React.js / Next.js + Tailwind CSS
+
+Backend: Django / Flask (Python)
+
+AI & Data Analysis: LangChain + Gemini / OpenAI API
+
+Database: PostgreSQL / Firebase
+
+Account Aggregator API: Finvu / Onemoney / CAMS FinServ
+
+Security: AES-256 Encryption + OAuth 2.0 for access to data
+
+ Data Privacy & Compliance
+
+The system strictly adheres to RBI Account Aggregator regulations.
+
+User information is retrieved only with authorization, never persisted without encryption, and not provided to third parties without express consent.
+
+The system achieves Data Empowerment and Protection Architecture (DEPA) compliance.
+
+ Impact
+
+Facilitates financial inclusion for gig workers numbering in the millions.
+
+Offers AI-based alternative credit scoring for more equitable credit access.
+
+Facilitates responsible lending through enabling data-informed decisions by financial institutions.
+
+Enables freelancers to monitor and enhance their financial well-being.
+
+**Fintech: Bring your own problem in Fintech, leveraging Agentic AI.**
+
+Our project is quintessentially a FinTech platform exactly because it runs on a cutting-edge Agentic AI engine. As a FinTech, it financializes the core financial service of credit scoring, using India's new Account Aggregator infrastructure to finally bring the economically active but financially invisible community of gig workers into the formal credit economy. What raises this above the level of a mere tool is its Agentic AI. This is not a deaf algorithm sitting in wait for instructions; it is an independent system with a clear mandate: to actively construct and enhance your financial self. It perceives and interprets the individual tale told by your cash flow by itself, reasons about your financial responsibility to determine your actual credit risk, and then takes proactive steps on your behalf. This is done in two ways: by producing a dynamic Gig Credit Score and by acting as a personal financial coach, providing actionable recommendations such as, "Regularly saving ₹3,000 each month might improve your score by 50 points." It is this strong synergy—combining contemporary financial infrastructure with an AI that is mission-oriented and proactive—that takes our platform from being just an app to a single-minded financial champion working 24/7 for each user.
+
+Team **Dev Duo** -- [Sutanu Kumar Das](https://github.com/kumarsutanu09das), [Pranjal Kumar](https://github.com/lunaticsash), [Priyanshu Das](https://github.com/PriyanshuDas607)
+
+`2025-10-19`
+
+---
+
+### Finvoice
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/finvoice-57f2) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Dipti17P/Finvoice-agent) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> From Invoice to Income - Seamlessly.
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![Django](https://img.shields.io/badge/Django-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![SQLite](https://img.shields.io/badge/SQLite-333333?style=flat-square) ![JWT](https://img.shields.io/badge/JWT-333333?style=flat-square) ![Whisper](https://img.shields.io/badge/Whisper-333333?style=flat-square) ![HTTP server](https://img.shields.io/badge/HTTP%20server-333333?style=flat-square)
+
+**Description of your solution**
+
+Our project, FinVoice – The Agentic Financial Coach, is an intelligent voice-based platform designed to make financial planning accessible to everyone, especially gig workers and informal sector earners who often face unpredictable income and spending patterns. Unlike traditional budgeting apps that only track expenses, FinVoice acts like a personal financial companion — one that listens, understands, and speaks back. Using advanced agentic AI, it not only analyzes user behavior but also learns from it to offer proactive, personalized advice that truly fits each person’s financial reality.
+
+What makes FinVoice different is its adaptive intelligence and simplicity of interaction. Users can simply talk to the system in their natural voice - no complicated forms or technical steps - and the AI responds with clear, actionable guidance. By combining technologies like speech recognition, language understanding, and voice synthesis, all powered by open-source tools, FinVoice bridges the gap between financial literacy and real-time decision-making. It empowers individuals to manage money smarter, build confidence in their finances, and experience AI as a truly human, helpful, and free companion for financial growth.
+
+**Fintech: Build an autonomous financial coaching agent that adapts to real user behavior, spending patterns, and income variability - helping gig workers, informal sector employees, and everyday citizens make smarter financial decisions proactively.**
+
+FinVoice is an AI-powered, voice-based financial coach designed for gig workers, informal sector employees, and everyday users. Unlike traditional budgeting apps, it listens, learns, and adapts to each user’s income variability and spending habits, offering proactive, personalized financial guidance. By combining speech recognition, language understanding, and AI-driven insights, FinVoice makes financial planning accessible, simple, and actionable, empowering users to manage money smarter and build financial confidence.
+
+Team **TECHNERDS** -- [Bhumika Jadhav](https://github.com/Bhumika1656), [Pratiksha Relan](https://github.com/PratikshaRelan), [Dipti Patil](https://github.com/Dipti17P), [AMRUTA POTDAR](https://github.com/amrutapotdar06)
+
+`2025-10-16`
+
+---
+
+### FinAgent
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/finagent-07f4) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> The one-chat future of digital banking
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![FastAPI](https://img.shields.io/badge/FastAPI-333333?style=flat-square) ![LLM](https://img.shields.io/badge/LLM-333333?style=flat-square) ![crewai](https://img.shields.io/badge/crewai-333333?style=flat-square)
+
+**Description of your solution**
+
+We're building **FinAgent** to fix the broken and frustrating process of financial onboarding. It’s a **smart assistant** that replaces tedious paperwork with a simple, friendly chat, allowing someone to get approved for a loan or credit card in minutes, not days.
+For this hackathon, our goal is to build a live demo that proves this concept. A user will be able to chat with our agent, apply for a personal loan, and then—here's the key—our system will be smart enough to **analyze their profile** and **offer them a pre-approved credit card** right on the spot. They’ll get an official approval letter generated and delivered instantly, all within that single chat.
+The tech we're using is a modern stack : a **React** front-end for the chat UI and a **Python/FastAPI** backend to keep everything fast. What makes FinAgent different is how it thinks. It’s not one giant AI; we’ve built it like a real-world team using **CrewAI**. There’s a friendly agent up front managing the chat, while a crew of **specialist agents** works in the back to handle the heavy lifting like KYC checks and credit scoring. This **team-based structure** is what makes our platform so flexible and powerful—it’s the engine that will let us add any financial product we can dream of in the future.
+
+**Fintech: Bring your own problem in Fintech, leveraging Agentic AI.**
+
+Our project is a direct response to a real-world problem we've all faced in **Fintech** : applying for loans or credit cards is a nightmare of paperwork and waiting. It’s a broken process where customers get frustrated and drop off, leaving banks with a system that doesn't work well for anyone. This is the specific problem we are bringing to the hackathon.
+
+Our solution, FinAgent, tackles this challenge head-on by **leveraging Agentic AI** in a unique way. Instead of just a simple chatbot, we are building a "digital team" of AI agents using **CrewAI** :
+- A **Master Agent** acts as the friendly, customer-facing coordinator.
+- **Specialized Worker Agents** (like a KYC Specialist and an Underwriting Specialist) handle complex, parallel tasks in the background.
+
+This Agentic AI approach is the key to our solution. It allows us to mimic the collaborative work of a real financial team, enabling our platform to handle complex logic, make instant decisions, and even intelligently cross-sell new products. We aren't just automating a form; we are building an **autonomous, agent-driven system** to fundamentally fix a core, broken process in the financial industry.
+
+Team **4Bytes** -- [Abhishek Vishwakarma](github.com/Abhishek131005), Harshita Singh, [Gargi Shintre](https://github.com/gargishintre), [Vaishnavi Avhad](https://github.com/Vaishnavii-01)
+
+`2025-10-17`
+
+---
+
+### FinanceGPT-Live
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/financegptlive-0bd5) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/D3V-S4NJ4Y/FinanceGPT-Live) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/WHoeUaoAV-Q?si=skj1Qy1Q3SlJz4QQ) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> FinanceGPT-Live — a solution to one of finance's b
+
+![WebSockets](https://img.shields.io/badge/WebSockets-333333?style=flat-square) ![SQLite](https://img.shields.io/badge/SQLite-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Three.JS](https://img.shields.io/badge/Three.JS-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![Yahoo-Finance API](https://img.shields.io/badge/Yahoo--Finance%20API-333333?style=flat-square) ![OpenAi](https://img.shields.io/badge/OpenAi-333333?style=flat-square) ![Long short-term memory (LSTM)](https://img.shields.io/badge/Long%20short--term%20memory%20(LSTM)-333333?style=flat-square)
+
+**Description of your solution**
+
+FinanceGPT-Live — a solution to one of finance's biggest challenges. In fast-moving markets, milliseconds matter. But by the time you receive analysis, the market has already changed — creating a gap between data and decision-making." 
+
+Live & Working Features :- 
+📊 Real-Time Market Data ✅ 
+
+- Primary Source: Finnhub API (Professional market data) 
+- Backup Source: Yahoo Finance API with intelligent fallback 
+- Symbols Supported: AAPL, MSFT, GOOGL, AMZN, TSLA, META, NVDA, NFLX, SPY, QQQ 
+- Update Frequency: Real-time via WebSocket + 30-second refresh 
+- Data Points: Price, Volume, Market Cap, Change %, Timestamps 
+
+🎛️ Command Center Dashboard ✅ 
+
+-  Market Overview: Live stock prices with real market data 
+-  Responsive Design: Works on mobile, tablet, and desktop 
+-  Trading Signals: AI-generated signals with 0.5% threshold 
+-  Performance Metrics: Real portfolio calculations 
+-  Live Updates: WebSocket-powered real-time updates 
+
+📰 Real-Time News Center ✅ 
+
+- 15+ News Articles: Generated from real market movements 
+- Live Sentiment Analysis: NLP-powered sentiment scoring 
+- Category Filtering: Technology, Healthcare, Energy, Economic 
+- Real Market Integration: News based on actual stock performance 
+- Auto-Refresh: Updates every 2 minutes 
+
+🤖 AI Intelligence Center ✅ 
+
+- 6 Active AI Agents: All agents operational with real status 
+- Market Sentinel: Real-time market monitoring 
+- Signal Generator: Active trading signal generation 
+- Risk Assessor: Dynamic risk evaluation 
+- News Intelligence: Automated news analysis 
+- Performance Tracking: Live agent performance metrics
+ 
+🎨 3D Market Visualization ✅ 
+
+- Interactive 3D Charts: Fully functional Three.js integration 
+- Real-Time Data: Live market data visualization 
+- Touch Controls: Mobile-optimized interactions 
+- Symbol Selection: Click-to-select functionality 
+- Performance Mapping: Visual correlation displays 
+
+📱 Professional Trading Terminal ✅ 
+
+- Advanced Charts: Working chart system with real data 
+- Multiple Timeframes: 1m, 5m, 15m, 1h, 1d intervals 
+- Technical Indicators: 20+ working technical analysis tools 
+- Watchlist Management: Add/remove stocks functionality 
+- Alert System: Price and volume-based alerts
+ 
+📊 Portfolio Analytics✅ 
+
+- Real Calculations: Actual portfolio performance metrics 
+- Add/Edit Holdings: Functional portfolio management
+-  Performance Charts: Visual portfolio analysis Risk Metrics: Real-time risk calculations 
+- Export Functionality: CSV export capability 
+
+🎤 Voice AI Assistant ✅ 
+
+- Natural Language Processing: Voice commands for market queries Speech Recognition: Real-time voice input processing 
+- Audio Responses: AI-powered voice feedback system 
+- Market Questions: Ask questions about stocks, prices, and trends 
+- Hands-Free Operation: Complete voice-controlled navigation 
+
+🤖 AI Assistant ✅ 
+
+- Intelligent Chat Interface: Advanced conversational AI 
+- Market Analysis: AI-powered market insights and explanations Portfolio 
+- Recommendations: Personalized investment suggestions 
+- Real-Time Assistance: Instant responses to financial queries Learning Capability: Adapts to user preferences and patterns
+
+**Fintech: Build an autonomous financial coaching agent that adapts to real user behavior, spending patterns, and income variability - helping gig workers, informal sector employees, and everyday citizens make smarter financial decisions proactively.**
+
+FinanceGPT-Live perfectly aligns with the Fintech track by building an autonomous financial intelligence system that acts as a real-time financial coach. It continuously analyzes live market data, user portfolios, and spending patterns through six specialized AI agents to deliver instant, personalized insights.
+
+The platform empowers users — from gig workers and retail investors to professionals — to make smarter, faster financial decisions without delays. By combining AI-driven analytics, voice assistance, and adaptive intelligence, FinanceGPT-Live bridges the gap between data and decision-making, turning complex financial information into proactive, actionable guidance.
+
+Team **The Matrix** -- [Sanjay Kumar](https://github.com/D3V-S4NJ4Y/), [Tushar Sahu](https://github.com/sahutushar), [Shivam Dewangan](https://github.com/shivam-dewangan)
+
+`2025-10-19`
+
+---
+
+### PolicyPal AI
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/policypal-ai-6761) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> Your 24/7 AI Insurance Assistant
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-333333?style=flat-square) ![Deep Learning](https://img.shields.io/badge/Deep%20Learning-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![AI/ML](https://img.shields.io/badge/AI/ML-333333?style=flat-square)
+
+**Description of your solution**
+
+PolicyPal AI: Your 24/7 AI Claims Assistant
+
+THE CHALLENGE:
+Insurance companies like GEICO process over 1 million claims calls 
+monthly. Each initial intake requires 10-15 minutes of human agent 
+time, costing $7.50 per call and creating bottlenecks during peak 
+periods. Customers wait 30+ minutes while agents handle repetitive 
+data collection, leading to frustrated customers and overwhelmed 
+staff. The insurance industry spends $250 billion annually on 
+back-office operations, with routine claims intake being highly 
+repetitive yet critical.
+
+OUR SOLUTION:
+PolicyPal AI is an intelligent voice agent that transforms the claims 
+intake process. When customers call to file a claim, PolicyPal 
+conducts natural, empathetic conversations to collect all necessary 
+information—policy verification, incident details, damage assessment, 
+and supporting documentation needs—in just 5 minutes.
+
+Built on Gemini Pro and Google Cloud voice technologies, PolicyPal:
+- Understands natural language ("yesterday around 3pm")
+- Extracts structured data using function calling
+- Validates information in real-time
+- Generates claim numbers instantly
+- Adjusts tone based on customer sentiment
+- Seamlessly escalates complex cases to human adjusters
+- Operates 24/7 with zero wait times
+
+MEASURABLE IMPACT:
+- Processing time: 15 min → 5 min (70% faster)
+- Cost per claim: $7.50 → $0.75 (90% reduction)
+- Capacity: 3x more claims with existing resources
+- For GEICO: $6.75M monthly savings
+- Customer satisfaction: Improved through instant availability
+
+PolicyPal doesn't replace human expertise—it handles routine intake 
+so human adjusters can focus on complex investigations, fraud 
+detection, and cases requiring nuanced judgment. It's about making 
+expert help accessible to everyone, instantly, while empowering 
+human agents to do what they do best.
+
+**Fintech: Bring your own problem in Fintech, leveraging Agentic AI.**
+
+Why This Matters:
+The insurance claims process is often a customer's most critical 
+interaction with their insurer—occurring during stressful, sometimes 
+traumatic moments. Current bottlenecks mean customers wait when they 
+need help most. PolicyPal ensures instant, professional assistance 
+while maintaining the warmth and empathy customers need, fundamentally 
+improving this crucial touchpoint.
+
+Technical Innovation:
+PolicyPal leverages cutting-edge agentic AI architecture—autonomous 
+agents that make decisions, not just follow scripts. Using LangChain 
+and Gemini Pro, our system understands context, asks clarifying 
+questions, and adapts to each unique situation. This represents a 
+leap beyond traditional chatbots into true AI assistance.
+
+Market Validation:
+The global conversational AI market is projected to grow from $6.8B 
+(2022) to $21.6B (2027) at 25.7% CAGR. Insurance companies are 
+actively investing $15B annually in AI by 2025 (IDC), with 74% of 
+executives planning AI expansion (Forrester). PolicyPal addresses 
+this proven demand with a focused, high-impact solution.
+
+Team **order 66** -- Dev Shah, Kunal Shekhawat, Paarth Goyal
+
+`2025-10-19`
+
+---
+
+### InvestIQ
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/investiq-c862) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/adityabose2411/autonomous-wealth-engineering.git) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://3000-606b6231-bfce-4910-b4e2-46bf29cefb32.orchids.page/) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> Micro Investments. Macro Future.
+
+![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![DBMS](https://img.shields.io/badge/DBMS-333333?style=flat-square) ![AI/ML](https://img.shields.io/badge/AI/ML-333333?style=flat-square)
+
+**Description of your solution**
+
+🧩 Project Overview — InvestIQ
+
+InvestIQ is an AI-powered autonomous wealth assistant that helps middle-income individuals grow their money automatically.
+It analyzes income and spending patterns, identifies safe surplus amounts, and invests them intelligently — creating a hands-free pathway to financial growth.
+
+Think of it as your personal wealth engineer, working 24/7 to make your money smarter.
+
+💭 The Problem
+
+While most people want to invest, they face real-world barriers:
+
+No time or expertise to study markets
+
+Fear of losing money or making wrong choices
+
+Uncertainty about how much or where to invest
+
+Belief that “small savings don’t matter”
+
+As a result, billions sit idle in savings accounts, losing potential growth — especially among middle-income earners.
+
+💡 The Solution — InvestIQ
+
+InvestIQ bridges the gap between financial desire and financial action.
+Using Agentic AI, it analyzes, plans, and invests automatically — turning everyday surpluses into smart, compounding investments.
+
+Users don’t need financial knowledge or constant monitoring — InvestIQ does it all safely, intelligently, and transparently.
+
+⚙️ How It Works
+1. Understands You
+
+Securely connects to bank or UPI accounts
+
+Analyzes income, expenses, and saving patterns
+
+Identifies safe, investable surplus each month
+
+2. Builds a Personalized Plan
+
+Designs custom investment portfolios (SIPs, ETFs, or index funds)
+
+Aligns with personal goals — e.g., travel, home, or retirement
+
+3. Invests Automatically
+
+Uses specialized AI agents:
+
+Income Agent: Tracks cash flow
+
+Planning Agent: Manages and updates portfolios
+
+Execution Agent: Performs real-time investments
+
+Adapts dynamically to life changes and market trends.
+
+4. Learns and Improves
+
+Continuously refines strategies through behavioral and market learning
+
+Grows smarter — and delivers better returns — over time
+
+
+💰 What Makes InvestIQ Special
+
+1) Autonomous Investing
+
+Zero manual effort — the AI handles everything for you, from planning to execution.
+Removes the need for constant monitoring or market tracking.
+
+2) Personalized Plans
+
+Every user gets a unique investment plan aligned with their goals and lifestyle.
+Adjusts contributions and strategies based on personal financial habits.
+
+3) Adaptive Intelligence
+
+Continuously learns from user behavior and market data.
+Evolves dynamically as your income, expenses, and goals change over time.
+
+4) Safe & Transparent
+
+Every AI action is explained clearly — no black-box decisions.
+Users can track and understand how their money is being managed.
+
+5) Inclusive Design
+
+Designed for everyone — not just financial experts or the wealthy.
+Enables middle-income users to invest confidently with small, consistent amounts.
+
+🌍 Impact
+
+- Empowers middle-income individuals to build sustainable wealth
+
+- Promotes financial literacy and consistent saving habits
+
+- Builds passive income streams effortlessly
+
+- Reduces stress and inequality in financial growth
+
+
+🧭 Vision
+To democratize wealth creation by making investing simple, automatic, and intelligent — so your money works for you while you focus on living.
+
+🏆 Why It’s a Great Hackathon Project
+
+Implements Agentic AI in a real, impactful use case: personal finance
+
+🧠 Technology Stack
+
+*Core AI Engine*:  LangChain + Phidata for agent orchestration
+
+*Data Analysis*:  Python, FastAPI, and Groq for real-time analytics
+
+*Financial APIs*:  Zerodha Kite, ICICI Direct, Groww, CAMS, and BSE Data APIs
+
+*Behavior Profiles*:  Reinforcement Learning for adaptive investment strategy updates
+
+*Security Layer*:  AES-256 encryption and RPA-based KYC checks
+Tackles a global problem — financial inertia and inequality
+
+*Highly scalable*:  can integrate with banks, digital wallets, and robo-advisors
+
+Addresses a massive market — millions of potential middle-income users
+
+🚀 In One Line
+
+“InvestIQ isn’t just managing money — it’s engineering a smarter, wealthier future, transforming passive savings into optimized, sustainable wealth through the power of autonomous, intelligently executed micro-investments.”
+
+**Fintech: Bring your own problem in Fintech, leveraging Agentic AI.**
+
+InvestIQ perfectly aligns with Mumbai Hacks 2025’s FinTech Problem Statement 2, as it addresses a real and underserved challenge — the difficulty middle-income individuals face in growing their wealth due to lack of time, financial expertise, and confidence. Despite digital banking and UPI penetration, most people still leave their savings idle, missing out on compounding opportunities. InvestIQ introduces an innovative Agentic AI-driven solution that autonomously analyzes income and spending patterns, identifies safe surpluses, and invests them intelligently through specialized agents — the Income Agent, Planning Agent, and Execution Agent. These agents work collaboratively to plan, monitor, and optimize investments continuously, learning from user behavior and market trends to deliver smarter, adaptive results over time. By combining financial data analysis, automation, and reinforcement learning, InvestIQ demonstrates how Agentic AI can transform passive savings into active, sustainable wealth creation. The solution embodies the spirit of “Bring Your Own Problem” by tackling a genuine financial inertia issue and leveraging cutting-edge AI to democratize investing, promote inclusion, and empower millions to build wealth automatically — making it a highly relevant, impactful, and scalable innovation for the hackathon’s FinTech theme.
+
+Team **Agentic Intel** -- Aditya Bose, Raghav Garg
+
+`2025-10-19`
+
+---
+
+### TradeSense: Buy-Sell-Hold Advisor
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/tradesense-buysellhold-advisor-5fee) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/PRANAY-1234567/Stock-prediction.git) [![Built at](https://img.shields.io/badge/Built%20at-HackAura-0052CC?style=flat-square)](https://hackaura.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> Your Intelligent Trading Companion.
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-333333?style=flat-square)
+
+**The problem it solves**
+
+TradeSense: Buy-Sell-Hold Advisor
+
+Description:
+TradeSense is an AI-powered stock recommendation system that helps investors and traders make smarter and safer financial decisions. By analyzing historical market data, price trends, and indicators, the system generates clear suggestions on whether to Buy, Sell, or Hold a stock.
+
+How it helps people:
+
+✅ Saves time – Instead of manually studying charts and indicators, users get quick, data-driven recommendations.
+
+✅ Reduces risk – The system applies machine learning models to minimize human errors and guesswork.
+
+✅ Supports beginners – Even new investors can make informed decisions without deep financial knowledge.
+
+✅ Improves consistency – Unlike emotional trading, the system provides unbiased, logic-based suggestions.
+
+✅ Enhances visualization – Graphs and trend indicators make it easier to understand market behavior.
+
+Use Cases:
+
+Individual investors looking for smarter entry/exit points.
+
+Students and researchers learning about AI in finance.
+
+Hackathon/academic demo projects showcasing AI + Finance integration.
+
+A foundation for building advanced trading bots or investment dashboards.
+
+**Challenges we ran into**
+
+While building this project, one of the biggest problems was working with stock market data. The data was often messy, with missing values and sudden ups and downs that confused the model. I fixed this by cleaning the data and normalizing it so the model could learn better.
+
+Another challenge was choosing the right algorithm. At first, I tried simple models like Logistic Regression, but they didn’t capture stock patterns well. After some trial and error, I switched to Random Forest and LSTM, which gave much better results.
+
+I also faced issues while showing the recommendations on the screen. The background and graphs kept overlapping, so I had to adjust the animation loop to redraw everything properly.
+
+These challenges taught me to keep testing, debugging, and trying new approaches until the system finally worked smoothly.
+
+**Open Innovation**
+
+Fit into Open Innovation Track
+
+This project fits into the Open Innovation track because it applies AI and data science in finance, an area that impacts millions of people but is often hard for beginners to access. TradeSense is not limited to one domain—it combines elements of machine learning, data visualization, and decision support systems to create a tool that can be extended into different industries.
+
+It makes stock market insights more accessible to students, small investors, and first-time traders.
+
+It shows how AI can simplify complex decision-making, not just in finance but in any field where predictions matter.
+
+The project has room for innovation—it can be expanded into crypto, commodity trading, or even general recommendation systems.
+
+Because it crosses boundaries between finance, AI, and education, it perfectly represents the spirit of Open Innovation.
+
+Team **TechSpark** -- [Pranay Jadhao](https://github.com/PRANAY-1234567), [Tanaya Dudhe](https://github.com/TANAYADUDHE), [GAGAN VALLAPWAR](https://github.com/GAGANVALLAPWAR), [Parth Deulkar](https://github.com/parthdeulkar), [Radhika Jaiswal](https://github.com/radhikajaiswal)
+
+`2025-10-05`
+
+---
+
+### TaxSaver Pro
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/taxsaver-pro-1b83) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://taxsaver-pro-sgkhc30.public.builtwithrocket.new) [![Built at](https://img.shields.io/badge/Built%20at-mosAIc:%20AI%20in%20action%20with%20The%20Product%20Folks-0052CC?style=flat-square)](https://mosaicbytpf.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> Your AI-Powered Path to Tax Freedom
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+This tool helps you to file your ITR returns, evaluate your investment portfolio and understand the financial world in a better way.
+
+🎯 **What Can People Use It For?**
+
+1. **Tax Filing Made Simple**
+
+- *Automated ITR Preparation*- Upload documents, get your return prepared automatically
+- *Real-time Tax Calculations* - Instantly see your tax liability as you input data
+- *Document Management*- Securely store and organize all tax documents in one place
+- *Compliance Tracking*- Never miss important deadlines with smart reminders
+2. **Investment Intelligence**
+
+- *Portfolio Analytics*-Track performance across all your investments
+
+- *Tax-Saving Recommendations*- Get personalized suggestions for 80C, ELSS, and other deductions
+
+- *Investment Planning* - Plan your investments to maximize tax benefits
+
+- *Performance Monitoring* - Real-time tracking of returns and tax implications
+
+🚀 **How It Makes Existing Tasks Easier**
+
+***Before TaxSaver Pro:***
+❌ Manual calculations prone to errors
+❌ Scattered documents across multiple folders
+❌ Complex tax forms requiring CA assistance
+❌ Investment decisions made without tax impact analysis
+❌ Missing deadlines and penalty payments
+
+***After TaxSaver Pro:***
+✅ Automated calculations with 99.9% accuracy
+✅ Centralized document hub with smart categorization
+✅ Guided tax filing with step-by-step wizards
+✅ Tax-optimized investment recommendations
+✅ Smart alerts for all important dates
+
+**💡 Real-World Impact**
+*Traditional Method*	vs *With TaxSaver Pro*
+2-3 weeks to file taxes	|    2-3 hours
+₹5,000-15,000 CA fees	  |  ₹0 filing cost
+Manual error rate: 15-20%	   | <1% error rate
+Miss 30% of deductions	   | Capture 95%+ deductions
+Reactive investment planning	| Proactive tax optimization
+
+**Vibecoding your Idea | Powered by Rocket.new**
+
+I have given specific instructions to rocket to create a tool which can be used to track investments, file taxes and provide knowledge about basics of finance. I have published the project with rocket as well
+
+Sakshi Chaudhary
+
+`2025-08-25`
+
+---
+
+### FAAS
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/faas-3338) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://www.faas-club.com) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/cNy0RuICLL4) [![Built at](https://img.shields.io/badge/Built%20at-mosAIc:%20AI%20in%20action%20with%20The%20Product%20Folks-0052CC?style=flat-square)](https://mosaicbytpf.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> Finance As A Service (FaaS)
+
+![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![DynamoDB](https://img.shields.io/badge/DynamoDB-333333?style=flat-square) ![Vercel](https://img.shields.io/badge/Vercel-333333?style=flat-square) ![Google Analytics](https://img.shields.io/badge/Google%20Analytics-333333?style=flat-square) ![Angular](https://img.shields.io/badge/Angular-333333?style=flat-square) ![SEO](https://img.shields.io/badge/SEO-333333?style=flat-square)
+
+**The problem it solves**
+
+The Problem It Solves
+
+- Lack of accessibility – Reliable financial guidance is often hidden behind referrals, long wait times, or high consultation costs.
+- Trust issues – Many individuals don’t know how to verify if an advisor is truly certified and credible.
+- Complex scheduling – Even if someone finds the right advisor, coordinating a meeting or consultation is often inconvenient.
+- Information gap – People looking for financial help (investments, tax planning, insurance, budgeting.) often rely on scattered online resources, which may be inaccurate or unsafe.
+
+How Faas Club helps:
+
+Provides a centralized platform to discover and connect with certified financial advisors.
+
+- Ensures credibility and trust – only verified advisors are listed.
+- Makes scheduling seamless and fast with integrated booking.
+- Makes finance accessible to everyone – students, professionals, or individuals.
+- Empowers users to make informed financial decisions safely and confidently.
+
+Manikandan Ashokkumar
+
+`2025-09-07`
 
 ---
 
@@ -10091,6 +12751,2325 @@ Loanify proves that private, confidential DeFi is not just possible but practica
 Bibhu padhy
 
 `2025-12-04`
+
+---
+
+### x402-video-paylink
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/xstream-8a57) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/bus402/x402-video-paylink) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://d2j8vucwmpwwwb.cloudfront.net/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/N59nIklkM7Q) [![Built at](https://img.shields.io/badge/Built%20at-Base%20Batches%20002:%20Builder%20Track-0052CC?style=flat-square)](https://base-batches-builder-track.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> x402 ai-agent micro-payment stream
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![AWS](https://img.shields.io/badge/AWS-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![HLS.js](https://img.shields.io/badge/HLS.js-333333?style=flat-square) ![x402](https://img.shields.io/badge/x402-333333?style=flat-square)
+
+**The problem it solves**
+
+**X402 Video Paylink turns streaming into pay-as-you-go.**
+Viewers pay small, continuous amounts as they watch, while creators get paid instantly and transparently.
+It enables anyone to build onchain video apps, token-gated platforms, or pay-per-second services — all without middlemen or heavy onchain transactions.
+
+**Challenges we ran into**
+
+1. Streaming authorization without breaking HLS/DASH standards
+Native video players don’t forward custom headers, but EIP-712 vouchers require them for authentication.
+To solve this, we built a custom HLS.js loader that injects *X-PAYMENT* headers into every segment request. This kept our integration fully compatible with HLS/DASH without changing the underlying streaming protocols.
+
+2. Bringing the Deferred Scheme to Production
+The idea of deferred (EIP-712 voucher-based) payments had been discussed within the x402 community — but no one had yet brought it into a real-time streaming environment.
+We implemented full support for typed-data signing, voucher aggregation, and escrow validation, while making sure the flow stayed non-blocking for live playback.
+It’s one of the first production-level uses of the deferred model for continuous, onchain-verifiable micropayments.
+
+3. Balancing Security and UX With Dual Schemes
+Combining exact (JWT-based) and deferred (voucher-based) schemes in a single stream caused tricky sync and authorization issues.
+We separated the responsibilities — JWT verifies the initial manifest after onchain payment, while vouchers handle ongoing segment access.
+This hybrid model kept the trust model clean and gave users a smooth, low-friction experience without compromising security.
+
+**Link to the GitHub Repo of your project**
+
+https://github.com/bus402/x402-video-paylink
+
+**Live URL of your project**
+
+https://d2j8vucwmpwwwb.cloudfront.net/
+
+**What is your product’s unique value proposition?**
+
+**X402 Video Paylink** brings the idea of pay-as-you-go streaming to life.
+It’s the first system that connects **HTTP 402 Payment Required with EIP-712 vouchers**, so every stream segment can be verified onchain — but playback still feels instant and seamless.
+
+Creators can earn in real time, getting paid per second or per segment, while users make gasless micropayments through an escrowed ERC-20 balance — no extra clicks or wallet pop-ups.
+
+It’s fully compatible with standard web video players and existing infrastructure, proving that Web3-native monetization can be both secure and simple.
+
+**Who is your target customer?**
+
+Our primary users are developers and creators who want to make onchain media actually usable — not just as an experiment, but in real products.
+
+- Web3 video creators and platforms that want pay-per-view or pay-per-second streaming without compromising playback quality.
+
+- Teams building new media or content protocols where every view, second, or interaction represents a micro-value transfer.
+
+- Developers in music, education, gaming, and live content who need programmable payment logic that fits naturally into standard web players and UX.
+
+We’re building for people who see payments as part of the protocol layer — not an add-on — and want to bring that vision to life through real, working experiences.
+
+**Who are your closest competitors and how are you different?**
+
+Closest Competitor: Proxy402 (https://proxy402.com)
+
+Proxy402 lets anyone turn a URL into a paid resource — you set a price, share a link, and users pay once to unlock it. It’s powered by the x402 protocol and implements the exact payment scheme, meaning each payment represents a single, discrete transaction before access is granted.
+
+X402 Video Paylink, on the other hand, focuses on streaming as a continuous payment flow.
+Instead of paying once for a URL, viewers pay as they watch, using EIP-712 vouchers under the deferred scheme. The manifest itself is unlocked through an exact (JWT-based) payment, but the actual video playback runs on real-time, offchain micropayments that update every few seconds.
+
+**What is your distribution strategy and why?**
+
+Our focus is on ecosystem partnerships — that’s actually why we started building this project in the first place.
+
+The x402 protocol is just beginning to take shape, and things are moving fast. With v2 already being discussed, new payment schemes are emerging — each with its own potential use cases. We want to be part of that momentum: finding where each scheme makes sense, building real applications around it, and sharing what works.
+
+For now, our main goal is to collaborate deeply with the Coinbase x402, Base, and Protocol Camp communities — to stay close to where the protocol is evolving and help test ideas in production. We’re also working with video and creator-economy platforms exploring token-gated or micropayment-based content models, applying the deferred scheme in real-world scenarios.
+
+Instead of going straight to end users, we’re growing through the ecosystem — co-developing, experimenting, and helping the x402 community see how these payment standards can power new kinds of onchain apps.
+
+[Jun Lee](https://github.com/junbeomlee)
+
+`2025-10-24`
+
+---
+
+### Blink Finance
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/blink-finance-7330) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/develo-pera/blinkfinance-mini-app) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://blinkfinance-mini-app.netlify.app/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/-KKuhF67QPQ) [![Built at](https://img.shields.io/badge/Built%20at-Base%20Batches%20002:%20Builder%20Track-0052CC?style=flat-square)](https://base-batches-builder-track.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Upload invoices. Get cash.
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![Solodity](https://img.shields.io/badge/Solodity-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![Base Onchainkit](https://img.shields.io/badge/Base%20Onchainkit-333333?style=flat-square)
+
+**The problem it solves**
+
+Blink Finance Mini App provides instant invoice financing for small and medium-sized businesses and freelancers. Users can improve their cash flow by uploading unpaid invoices they’ve issued and instantly receive loans in stablecoins based on those invoices.
+
+It replaces the slow, paperwork-heavy process of traditional invoice financing, which often takes several days and requires multiple rounds of verification from banks and financial institutions, with a fast, on-chain alternative that’s simple, transparent, and accessible directly through a Mini App.
+
+**Challenges we ran into**
+
+Most of the challenges I encountered were related to Mini App development,  specifically to the Base libraries such as onchainkit and their documentation. The things described in the documentation often differ quite a lot from what’s actually in the library, so something you expect to work or even exist often turns out either broken or nonexistent, even though it’s written there. That means you need to go through the npm package manually, check what’s actually exported, what arguments it takes, and what it returns.
+
+Here are a few examples:
+
+In [this link](https://docs.base.org/mini-apps/core-concepts/navigation#launching-mini-apps-from-external-sources), the documentation says:
+**Use cbwallet://miniapp?url=[YOUR_MINI_APP] to launch your mini app directly from external sources like websites, QR codes, or other applications.**
+
+I implemented a check to see if the user is inside the Mini App, and if not, I show two buttons, one to open the app in Base, and another in Farcaster. The Farcaster button works, but when I click on the Base one, nothing happens.
+
+Here’s the snippet of my code that should work but doesn’t:
+
+```
+<Button className="mt-5 w-[250px]" asChild>
+  <a href="cbwallet://miniapp?url=https://blinkfinance-mini-app.netlify.app">
+    Open in <ModeImage srcLight="/Base_basemark_white.svg" srcDark="/Base_basemark_black.svg" alt="Base Logo" width={40} height={40} priority /> app
+  </a>
+</Button>
+```
+
+Another example: the **useAuthenticate** hook found in the **@coinbase/onchainkit/minikit** package is, [according to the documentation](https://docs.base.org/onchainkit/latest/components/minikit/hooks/useAuthenticate), supposed to return a user object and an authenticate function for user authentication.
+
+However, in practice, things are different, useAuthenticate actually only returns a signIn function and nothing else. Like you can see in the screens below.
+
+![image](https://assets.devfolio.co/content/5261dc348ae74981b85d36016c8b8ec5/68cb79f0-c1e1-4cc6-8e98-50fefe73af61.png)
+
+This hook is quite important according to the docs, as it’s described as the only reliable way to confirm the user’s identity. The documentation specifically says not to rely on the context for that.
+
+Also, local development is quite buggy and difficult, even when using Eruda and ngrok.
+
+There are many more examples like these that I’ve come across, which I’d be happy to share in another format if you’re interested, I just didn’t want this written feedback to get too long.
+
+But these are the three most obvious obstacles I’ve encountered during Mini App development.
+
+**Link to the GitHub Repo of your project**
+
+https://github.com/develo-pera/blinkfinance-mini-app
+
+**Live URL of your project**
+
+https://blinkfinance-mini-app.netlify.app/
+
+**What is your product’s unique value proposition?**
+
+Blink Finance combines blockchain technology and stablecoins for instant fund transfers with PEPPOL Network–based e-invoices for automated verification and credit scoring. This hybrid approach enables near-instant loan approvals for customers facing cash flow challenges.
+
+Small and medium-sized businesses and freelancers often wait 3–5 days for banks or traditional institutions to process invoice financing requests. Blink Finance cuts that time down to minutes, removing unnecessary paperwork, manual review steps, and delays providing a faster, transparent, and borderless financing experience.
+
+**Who is your target customer?**
+
+Our target customers are small and medium-sized business owners and freelancers who issue invoices and often face delayed payments, creating short-term cash flow gaps. These users typically operate in industries such as IT services, logistics, marketing, creative work, and import/export. Sectors with high invoice volumes and long payment cycles.
+
+The idea for Blink Finance came from a real-life experience: a friend asked me a couple of months ago to send him crypto so he could cover urgent expenses while waiting for his invoice financing to be approved. I helped him out, and later did the same a few more times, lending small amounts (up to around 10k).
+
+That experience validated the need for faster access to liquidity and inspired me to research existing invoice financing solutions and explore how blockchain and stablecoins could make the process instant, transparent, and more accessible.
+
+**Who are your closest competitors and how are you different?**
+
+There are several types of competitors on the market, but almost all of them fall into one of two extremes, either too traditional, similar to banks and their slow processes, or too experimental, like InvoiceMate, Huma (which has since pivoted), and Request Network, which use NFT-based invoices that feel overly abstract and intimidating for regular users such as small business owners and freelancers.
+
+Blink Finance takes a different approach. We don’t use blockchain as a marketing gimmick or just to attract investors, we use it because it solves a real problem, enhances the user experience, and genuinely makes our product better compared to competitors, thanks to how it’s integrated rather than being forced in.
+
+We combine this with the use of the PEPPOL network and electronic invoicing systems, which have proven highly effective in practice, so much so that countries like Singapore, Japan, and the UAE have adopted them following the European Union’s lead. PEPPOL prevents fake invoices and allows us to quickly access verified data and perform accurate risk assessments.
+
+**What is your distribution strategy and why?**
+
+Our distribution strategy is community-driven and partnership-based. We plan to reach users through existing web3 ecosystems, primarily via Base and Farcaster communities, where early adopters of crypto-native financial tools are already active.
+
+The Mini App format allows for frictionless onboarding directly inside Base App and Farcaster, so users can discover and use Blink Finance without leaving the platforms they already trust. This native integration dramatically lowers the barrier to trying our product.
+
+Beyond that, we’ll expand through partnerships with accounting platforms, invoicing software providers, and PEPPOL access points, enabling users to access financing right from the tools they already use for invoicing.
+
+Another important focus is partnering with supermarkets, through which we can onboard hundreds of potential customers in a very short time, small suppliers and service providers that already depend on consistent cash flow and invoice-based payments. That can fall into direct sales and maybe even paid acquisition category.
+
+[Petar Popovic](https://github.com/develo-pera/)
+
+`2025-10-25`
+
+---
+
+### CashLens
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/cashlens-b9cb) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://www.figma.com/make/8NaRpHA37in0YcVY8RTFTN/CashLens-Black-Glassmorphic-UI?node-id=0-1&t=rTdYDU4JsQjuRtjp-1) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Finance, simplified by AI
+
+![Firebase](https://img.shields.io/badge/Firebase-333333?style=flat-square) ![Dart](https://img.shields.io/badge/Dart-333333?style=flat-square) ![Flutter](https://img.shields.io/badge/Flutter-333333?style=flat-square) ![Figma](https://img.shields.io/badge/Figma-333333?style=flat-square) ![OpenAi](https://img.shields.io/badge/OpenAi-333333?style=flat-square) ![Firebase Authentication](https://img.shields.io/badge/Firebase%20Authentication-333333?style=flat-square)
+
+**Description of your solution**
+
+CashLens – Finance, Simplified by AI
+CashLens is an intelligent personal finance app that helps people understand and manage their money effortlessly. It automatically reads and organizes bank SMS messages to track income, expenses, and balances in real time.
+The app comes with a modern glassmorphic dashboard that shows your total balance, spending breakdown, recent transactions, and progress toward savings goals. You can set goals like an emergency fund or travel plan, and CashLens keeps you updated without needing to enter data manually.
+What makes CashLens special is its built-in AI that acts like a personal financial coach. It studies your spending patterns, gives suggestions to save better, and shares monthly insights to help you stay on track.
+Built using Flutter and Firebase, it’s designed to be fast, secure, and beautifully responsive on any device. CashLens aims to make financial awareness simple, smart, and accessible for everyone.
+
+**Fintech: Build an autonomous financial coaching agent that adapts to real user behavior, spending patterns, and income variability - helping gig workers, informal sector employees, and everyday citizens make smarter financial decisions proactively.**
+
+CashLens addresses a critical challenge for financial technology solutions in personal financial management with intelligent automation, which provides users personalized control of their finances through AI insight and dynamic data adaptivity.
+
+Most budgeting apps only track spending, where CashLens leverages AI analysis, auto goal setting, and forecasting of financial behavior. It enables users to improve the way they make financial decisions with minimal effort, while making personal finance more accessible, and providing intelligent nudges, so users develop helpful and productive behaviors for spending money.
+
+Backed by Flutter and Firebase technologies, CashLens enables to manage and aggregate financial information securely and effectively across devices and, together, in real time. CashLens uses SMS messages as an original source of transactions, and automatically parses the SMS message to identify income, expenses, and account transactions for the user, without users ever having to enter any information.
+
+The same Agentic AI system is used within CashLens to proactively steer users back to correcting behaviors but also has some oversight and accountability, alerting users when they are overspending, forecasting savings, and recommending adjustments to their spending plans and budgeting. In essence, taking CashLens into the realm of being an AI coach for your finances is very much within the intentions of the FinTech to use technology to redefine personal finance management.
+
+At its core, Cash Lens couples together:
+
+Automated financial data (SMS parsing and goal tracking)
+
+AI driven insights
+
+Cloud-backed secure management (Firebase)
+
+Futuristic UI that is simply understood that promotes financial transparency for the user
+
+The overall synergies of these technological systems create a case for Cash Lens being innovative to the FinTech agenda as it provides combines noticed behavior forms to change the way users use their finances to the optimal degree.
+
+Team **devsync** -- [Siddhi Kurne](https://github.com/siddhikurne2662), [Prathamesh Jadhav](https://github.com/Marvel1005)
+
+`2025-10-16`
+
+---
+
+### AgriCred AI
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/agricred-ai-82fa) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Aastik-Srivastava/AgriCredAI) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://agricredai.streamlit.app/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/0BVu9R2Stuw) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Advanced Agricultural Credit & Risk Intelligence
+
+![SQLite](https://img.shields.io/badge/SQLite-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square)
+
+**Description of your solution**
+
+AgriCredAI tackles the challenges of agricultural credit risk and decision-making for financiers. It integrates multiple real-world datasets—including Agmarknet prices, OpenWeatherMap forecasts, soil sensors, and farmer surveys—to provide actionable insights. The platform uses agentic AI, with autonomous agents for dynamic financing, market advisory, and carbon credit tracking. Machine learning models (XGBoost, LightGBM, Random Forest) generate credit risk scores and market forecasts, while SHAP ensures explainable outputs. Delivered via a Streamlit dashboard, the solution supports multilingual voice input, offline-first operation, and interactive visualizations, enabling scalable, data-driven lending and sustainability tracking in rural contexts.
+
+**Fintech: Bring your own problem in Fintech, leveraging Agentic AI.**
+
+Agricred fits squarely into fintech because it directly addresses a financial inclusion and credit risk management problem in one of the most underserved yet high-potential sectors — agriculture. Here’s how it aligns with the fintech track:
+
+🔹 1. Credit Scoring & Risk Analytics (Core Fintech Function)
+
+Traditional credit scoring often fails for farmers due to lack of formal credit history.
+
+AgriCred leverages AI/ML, alternative data (weather, soil, satellite, yield patterns, repayment behavior) to generate risk-adjusted credit scores — exactly what fintech is about: smarter, data-driven lending.
+
+🔹 2. Financial Inclusion (Fintech Priority)
+
+Agriculture employs a large share of India’s population, but most smallholder farmers remain underbanked.
+
+By making lending decisions more data-driven and less collateral-based, AgriCred brings farmers into the formal financial ecosystem — a classic fintech objective.
+
+🔹 3. Institutional Empowerment (B2B Fintech)
+
+Banks, NBFCs, and MFIs can integrate AgriCred to assess risk before disbursing agri-loans.
+
+This reduces non-performing assets (NPAs) in agri-lending, improving capital efficiency — a key fintech value proposition.
+
+🔹 4. Sustainability & ESG Finance (Emerging Fintech Trend)
+
+Investors and lenders are increasingly measured on ESG compliance.
+
+AgriCred can score not just on creditworthiness but also on sustainable farming practices, positioning it as a green fintech tool.
+
+🔹 5. Scalability Across Agri-Fintech Ecosystem
+
+Can plug into digital lending platforms, neobanks for farmers, crop insurance underwriting, and even government agri-credit schemes.
+
+This interoperability shows it’s fintech infrastructure, not just a standalone product.
+
+Team **Stratton Oakmont** -- [Pranya Garg](https://github.com/pranyagarg06-ctrl), [aastik srivastava](https://github.com/Aastik-Srivastava)
+
+`2025-08-18`
+
+---
+
+### Financial - Coach and Adaptive Agent
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/financial-coach-and-adaptive-agent-e7ab) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Maximize Every Rupee: Guidance for Self Finance
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Matplotlib](https://img.shields.io/badge/Matplotlib-333333?style=flat-square) ![Artificial Intelligence](https://img.shields.io/badge/Artificial%20Intelligence-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square)
+
+**Description of your solution**
+
+An **AI-powered** coaching agent for gig workers and freelancers, combining behavioral finance insights and real-time adaptive coaching.
+Key Features:
+	•	Smart **income pattern recognition** (multiple gig platforms)
+	•	Proactive **cash flow alerts** and suggestions
+	•	Dynamic **goal adjustment** for **income** **fluctuations**
+	•	Conversational **RAG**-**powered** chatbot for guidance
+	•	Integrated **financial** **ecosystem** (banks, investments, gigs)
+	•	**Behavioral learning**, auto tax optimization, emergency fund autopilot
+	•	Multi-platform income forecasting
+*Target Audience*: Gig workers, freelancers, professionals with irregular income
+*Revenue Model*: Freemium + transaction fees + partner commissions
+
+**Fintech: Build an autonomous financial coaching agent that adapts to real user behavior, spending patterns, and income variability - helping gig workers, informal sector employees, and everyday citizens make smarter financial decisions proactively.**
+
+Our project takes the key points from the problem statement and instead of redesigning the wheel, starts with a fresh prospective and making everything and every aspect transparent and accessible.
+We help students , workers , freelancers to manage and understand their money.
+
+Team **Everest** -- [Divyaansh Gupta](https://github.com/divyaanshkumargupta), [Hardik Tater](https://github.com/HardikTater2)
+
+`2025-08-19`
+
+---
+
+### Fintellify
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/fintelligence-d595) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://app.summarizer.shop/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.loom.com/share/9a0a4bd5dfa44a26864fc4f360047532) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Simplifying finance for everyone
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![JWT](https://img.shields.io/badge/JWT-333333?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=flat-square) ![Express.js](https://img.shields.io/badge/Express.js-333333?style=flat-square)
+
+**Description of your solution**
+
+**Fintellify**
+
+Fintellify is a platform that deciphers complicated financial documents. Armed with our advanced agentic AI, we turn complex financial docs, conversations and data sets into simple, actionable insights. We connect the dots between confusing financial information and people's everyday lives, enabling greater understanding and informed decision making.
+
+**Key Features**
+
+- Smart Document Summarizer: Users can upload a financial document (e.g contracts, reports, statements etc) and our platform will create a simple summary as output with visual graphs to make key data and trends stand out! which is easily understandable by a layman .
+ 
+- Voice Analysis: Our Voice Analysis technology is like an instrumental financial scribe that understands a complicated spoken discussion and then presents it in a neat, understandable way. Clients have the opportunity to submit the recordings of their meetings or record live discussions, and our AI takes care of the transcription and the analysis. It very smartly ignores the irrelevant portions to find the most important information such as the key topics, exact financial figures, decisions made, and action items given. This way, the problem of losing and misunderstanding information from memory is completely eliminated as the conversation which was probably confusing or full of jargon is changed to a straightforward summary that makes it certain that users have recorded every important takeaway .
+ 
+- Predictive Loan Defaulting Analytics: Users can upload their loan data or document into our platform, then our machine learning model processes and predicts the likelihood of a client defaulting on repayment of loan lent.
+
+**The Problems We Solve****
+
+- Inaccessibility: Financial documents have been a challenge for a long time. They are usually very lengthy, complicated, and confusing even to experts. This has made it impossible for non-experts to make informed and confident decisions. Our platform changes the incomprehensible jargon into simple language understandable by a layman.
+
+- Information Loss: The key details of important financial talks, meetings and conversations are often lost, mixed up with other things. Now with our platform, information is not lost but rather saved and simplified for a normal person.
+
+- Risk Assessment: The task of foreseeing a situation when a loan will not be paid and calculating the risk accurately is very difficult and requires a lot of data for both lenders and borrowers. Our platform goes through the loan data and gives the accurate prediction of the loan defaulting chances.
+
+**Fintech: Bring your own problem in Fintech, leveraging Agentic AI.**
+
+**Our project leverages agentic AI to solve the following fintech problems -**
+
+**Inaccessibility:** Financial documents have been a challenge for a long time. They are usually very lengthy, complicated, and confusing even to experts. This has made it impossible for non-experts to make informed and confident decisions. Our platform changes the incomprehensible jargon into simple language understandable by a layman.
+
+**Information Loss:** The key details of important financial talks and meetings are often lost, mixed up with other things from memory. Now with our platform, information is not lost but rather saved and simplified for a normal person.
+
+**Risk Assessment:** The task of foreseeing a situation when a loan will not be paid and calculating the risk accurately is very difficult and requires a lot of data for both lenders and borrowers. Our platform goes through the loan data and gives the accurate prediction of the loan defaulting chances.
+
+Team **Trayah-Abhiyanta** -- [Subham Debnath](https://github.com/Sdn-0369), [Sounak Roy](https://github.com/sonroy-glitch), [Sarthak Mondal](https://github.com/srthkm31)
+
+`2025-10-19`
+
+---
+
+### CredPulse
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/finsathi-d681) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Real-time Agentic credit intelligence for MSMEs
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![AI/ML](https://img.shields.io/badge/AI/ML-333333?style=flat-square) ![NLP](https://img.shields.io/badge/NLP-333333?style=flat-square) ![RestAPIs](https://img.shields.io/badge/RestAPIs-333333?style=flat-square) ![OpenAI API](https://img.shields.io/badge/OpenAI%20API-333333?style=flat-square)
+
+**Description of your solution**
+
+# **CredPulse** — *Real-time Agentic Credit Intelligence for MSMEs*
+
+CredPulse is an agentic AI platform that turns live, consented financial and supply-chain signals into instant, explainable working-capital decisions for MSME suppliers and their corporate buyers. It continuously detects risk and opportunity across invoices, payments, and deliveries; plans the optimal financing route; acts with explicit user consent (e.g., auto-verify invoice, price risk, trigger disbursement simulation); and maintains a tamper-proof audit trail — all in under 60 seconds.
+
+---
+
+## Problem We’re Solving
+
+MSMEs face persistent cash-flow gaps because buyer payments arrive 30–90 days after delivery, while underwriting remains collateral-heavy and slow. Data is fragmented across bank statements, UPI flows, GST/e-invoices, e-way bills, delivery proofs, and buyer ERPs — making real-time, low-cost working capital hard to unlock. Existing factoring requires manual verification and static scoring, keeping costs high and approval times long.
+
+---
+
+## Our Agentic AI Solution
+
+CredPulse is a consent-first, autonomous credit OS built for supply chains:
+
+- Ingests multi-party, verifiable signals (bank/UPI via regulated rails, GST/e-invoice IDs, e-POD events, buyer payment histories).
+- Builds a live buyer–supplier “risk graph” that updates whenever a delivery, invoice, or payment lands.
+- Generates explainable, real-time credit scores and prices risk per buyer and tenor.
+- Executes financing workflows (with pre-approved consent rules): invoice verification, instant scoring, rate selection, simulated disbursement, reconciliation on buyer payment.
+- Preserves a full reasoning and data-lineage audit for every decision (who consented, what data, why priced this way).
+
+This moves beyond dashboards to true agency: **detect → plan → propose → act (with consent) → audit.**
+
+---
+
+## Where the Agent Acts (Detect → Plan → Act → Audit)
+
+- **Supply Chain Intelligence Agent**
+  - Detects: invoice creation, delivery confirmation, buyer delay patterns.
+  - Plans: updates supplier risk graph, flags financeable invoices, selects tenor/rate bands.
+  - Acts: promotes eligible invoices to “ready for financing,” queues consent prompt.
+  - Audit: logs evidence links (invoice ID, e-POD reference) and reasoning steps.
+
+- **Invoice Intelligence & Factoring Agent**
+  - Detects: authenticity and match (GST/e-invoice ↔ delivery ↔ PO).
+  - Plans: optimizes factoring rate by buyer risk and historical SLA.
+  - Acts: executes simulated factoring with disbursement and collections schedule.
+  - Audit: appends verification proof and dynamic pricing rationale.
+
+- **Alternative Credit Scoring Agent**
+  - Detects: cash-in/out velocity, GST cadence, UPI working-capital cycles, utility signals.
+  - Plans: updates an on-chain/off-chain score (0–1000) with reason codes.
+  - Acts: adjusts limits; pauses exposure if early-warning signals spike.
+  - Audit: versioned models, input features, and human-appeal workflow.
+
+- **Cash-Flow Orchestration Agent**
+  - Detects: upcoming cash gaps (14–60 days), seasonality, buyer behavior shifts.
+  - Plans: chooses best route (early-payment, factoring, limit top-up).
+  - Acts: triggers simulated disbursement on consent; auto-reconciles on payment.
+  - Audit: end-to-end ledger of proposals, approvals, actions, and outcomes.
+
+---
+
+## Why It Fits the Fintech Track (Bring Your Own Problem)
+
+- **Fintech Core:** Tackles MSME credit access and working-capital friction with consented data, real-time scoring, and automated financing.
+- **Agentic by Design:** Autonomous agents don’t just analyze; they execute compliant, user-approved financial actions with full transparency.
+- **Real Impact:** Faster, cheaper, explainable working capital stabilizes supplier cash flows and strengthens entire supply chains.
+
+---
+
+## Key Features (MVP Scope for Hackathon)
+
+- Consented data ingestion (mock/sandbox): bank/UPI CSV import, GST/e-invoice lookup simulation, delivery/e-POD webhook simulation.
+- 60-second decisioning: instant score with explainable “Why this decision?” and data lineage.
+- Autonomous workflows (simulated): invoice verify → price → consent modal → “Simulated Disbursement” → auto-reconcile on payment event.
+- Risk graph & watchlists: buyer-wise aging, disputes, SLA drift; alerts that throttle/boost limits.
+- Full trust controls: aggressiveness slider (Suggest-only / Auto-with-rules), one-tap pause/revoke, immutable audit.
+
+---
+
+## Compliance & Trust (Principles)
+
+- Consent-first data access; no credential storage; field-level encryption.
+- Explainable decisions with human appeal; one-tap pause/revoke automation.
+- Lending via regulated partner; all finance in demo is simulated.
+
+**Fintech: Bring your own problem in Fintech, leveraging Agentic AI.**
+
+**CredPulse** directly addresses the fintech challenge by solving the critical problem of **MSME credit access and working capital management**. Traditional underwriting is slow, opaque, and reliant on outdated balance sheets. CredPulse changes this by using **secure, consent-based financial data flows** and **AI-driven decisioning** to automate credit lifecycles end-to-end.
+
+***Key Fintech Fit:***
+- ***Data Access & Compliance:*** Leverages India’s Account Aggregator framework, GST/e-invoice APIs, and UPI transaction data to securely gather real-time signals.
+- ***Credit Underwriting & Scoring:*** Builds dynamic, explainable risk models tailored to small businesses, replacing static CIBIL-style approaches.
+- ***Lending Orchestration:*** Automates invoice verification, factoring, limit top-ups, and reconciliation through API-first workflows.
+- ***Agentic AI Layer:*** Detects risks and opportunities (e.g., cash crunch, early payment offers), plans optimal routes, and executes financing with pre-approved consent—going beyond dashboards into **actionable finance automation**.
+- ***Trust & Transparency:*** Every AI decision is logged with a clear audit trail, ensuring explainability and compliance with regulatory norms.
+
+**Why It Fits Now:**
+The maturity of India’s Account Aggregator ecosystem and policy focus on MSME credit unlock a unique opportunity. By fusing **secure data-sharing rails with agentic AI**, CredPulse delivers faster, fairer, and more scalable credit access—squarely within the Fintech track’s vision of using technology to transform financial services.
+
+Team **coffeeCodes** -- [Abhijeet Yadav](https://github.com/abjt01), [Tanmay Tiwari](https://github.com/tanmayhutt)
+
+`2025-08-28`
+
+---
+
+### budgetbuddy
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/budgetbuddy-3c42) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Xenonesis/Budget-Buddy-.git) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://budget-buddy-green-eta.vercel.app/) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Your Financial Goals, Budgeted and Achieved
+
+![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![GitHub](https://img.shields.io/badge/GitHub-333333?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=flat-square) ![Vercel](https://img.shields.io/badge/Vercel-333333?style=flat-square) ![Supabase](https://img.shields.io/badge/Supabase-333333?style=flat-square) ![Zustand](https://img.shields.io/badge/Zustand-333333?style=flat-square) ![Rechart](https://img.shields.io/badge/Rechart-333333?style=flat-square) ![Radix UI](https://img.shields.io/badge/Radix%20UI-333333?style=flat-square)
+
+**Description of your solution**
+
+🌟 Overview
+Budget Buddy is a cutting-edge, AI-powered personal finance management platform that revolutionizes how you track, analyze, and optimize your financial life. Built with modern web technologies and powered by advanced AI capabilities, it provides intelligent insights, predictive analytics, and personalized recommendations to help you achieve your financial goals.
+
+✨ What Makes Budget Buddy Special?
+🤖 AI-Powered Insights: Leverage 15+ AI providers including OpenAI, Google Gemini, Anthropic Claude, and more
+📊 Advanced Analytics: Real-time financial dashboards with interactive visualizations
+🔒 Bank-Level Security: End-to-end encryption and secure data handling
+📱 Cross-Platform: Responsive design that works seamlessly on all devices
+🌍 Global Ready: Multi-currency support with real-time exchange rates
+⚡ Lightning Fast: Optimized performance with modern React 19 and Next.js 15
+
+📊 Advanced Financial Management
+💳 Transaction Management
+📈 Budget Planning & Analytics
+📊 Visualization & Reporting
+
+**Fintech: Build an autonomous financial coaching agent that adapts to real user behavior, spending patterns, and income variability - helping gig workers, informal sector employees, and everyday citizens make smarter financial decisions proactively.**
+
+Our solution, Budget Buddy, directly addresses Problem Statement 1 by acting as a personalized financial coaching agent. It integrates multiple financial data streams such as expenses, budgets, and bill reminders, then uses AI to automatically categorize transactions and analyze spending patterns. The system learns from each user’s behavior and adapts to irregular incomes, overspending risks, and changing financial goals. Based on these insights, it delivers proactive recommendations like how to cut unnecessary costs, reminders for upcoming bills, and suggestions to stay within budgets. This makes financial advice personalized, actionable, and accessible, especially for individuals who struggle with irregular finances.
+
+Team **BlitzNova** -- [Ashwini Jaiswal](https://github.com/jaiashwinisatish), [Muneer Ali](https://github.com/Muneerali199/), [Aditya Tiwari](https://github.com/Xenonesis)
+
+`2025-08-28`
+
+---
+
+### Eagle Eyed
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/gullak-b038) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/OcTRuZFgKno) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Micro-manage your finances
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Socket.IO](https://img.shields.io/badge/Socket.IO-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![JWT](https://img.shields.io/badge/JWT-333333?style=flat-square) ![OCR](https://img.shields.io/badge/OCR-333333?style=flat-square)
+
+**Description of your solution**
+
+**Abstract**
+
+'Eagle Eyed' is a mobile-first intelligent bookkeeping application designed to bridge the severe digitalization gap in personal and small business financial record-keeping. By leveraging **Optical Character Recognition (OCR) and AI**, the app transforms static, physical bank statements and passbook photos into **dynamic, categorized, and verifiable digital ledgers**. Its core innovation lies in the secure, real-time collaboration framework that instantly shares these processed records with a designated Chartered Accountant (CA), enabling **preemptive anomaly detection and expedited compliance**.
+
+**Problem Statement & Need**
+
+In many markets, especially for small businesses and individuals, financial record-keeping still relies heavily on manual entry from paper documents (passbooks, statements). This process is slow, prone to human error, and creates significant delays when preparing for tax filings or audits. Chartered Accountants receive disorganized, late, or incomplete data, hindering their ability to provide timely financial advice and detect anomalies before they become major issues. The core problem is the inefficient, error-prone transfer of data from paper to digital format and the subsequent lack of collaborative tools between clients and their auditors.
+
+**Solution**
+
+Eagle Eyed solves this by:
+
+- **Instant Digitization**: Using mobile camera capture and robust OCR to convert photos of statements into structured, editable data tables.
+
+- **AI Categorization & Review**: Automatically assigning categories (e.g., Rent, Utilities, Income) and flagging low-confidence or unusual transactions for user review.
+
+- **Real-time Collaboration**: Providing a secure, auditable dashboard for CAs to view client ledgers, highlight suspicious entries (Audit Flags), and leave comments directly on specific transactions, effectively turning the client's phone into a live audit assistant.
+
+- **Integrated Financial Analysis and Suggestions**: Offering a dedicated AI Chat interface that provides the client with analytical summaries, net balance calculations, and expense breakdowns based on their real-time ledger data, complete with mathematical verification windows.
+
+**Fintech: Bring your own problem in Fintech, leveraging Agentic AI.**
+
+**Eagle Eyed** fits seamlessly into the “*Leveraging Agentic AI in Fintech*” track by combining intelligent automation with financial insight. 
+It acts as an **autonomous financial assistant** that not only **scans and organizes bills, receipts, and ledgers using OCR and machine learning**, but also interprets **patterns, detects anomalies, and provides actionable insights** for smarter expense management. By enabling AI-driven decision-making and autonomous financial tracking, Eagle Eyed exemplifies how Agentic AI can transform traditional bookkeeping into a proactive, intelligent financial management system.
+
+Team **Chain Reactions** -- [Aarya Rane](https://github.com/Aarya-2525), [Hitansh Gandhi](https://github.com/Hitansh-2006), [Krishna Patel](https://github.com/krishna-1310), [Vandit Mehta](https://github.com/vanditmehta007)
+
+`2025-10-19`
+
+---
+
+### Financial Saathi
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/financial-saathi-ed11) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/AumOzaa/Ai_Agent_Chatbot.git) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Your Finances, Right at Your Fingertips.
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Deep Learning](https://img.shields.io/badge/Deep%20Learning-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Streamlit](https://img.shields.io/badge/Streamlit-333333?style=flat-square) ![langchain](https://img.shields.io/badge/langchain-333333?style=flat-square)
+
+**Description of your solution**
+
+Financial Sathi is an intelligent web application designed to be a personalized financial companion.
+
+In Asia where 89% of the young adults often influenced by social media trends are engaged in High Risk Trading like Futures and Options trading and stock market speculation incurs losses because of lack of financial literacy in these fields. In India a country where Digital Payment is at higher percentage than percentage of people who're financially literate.
+
+Be it rising credit card debts and defaults in the youth where credit card maxing is a flex and down the line gets caught in huge debts and defaults, we're here to educate them and act as their financial advisor to let them know that by proper management and strategies this can be sorted out and precautions for future can be taken care of.
+
+Be it high cost of living and living pay check to pay check we're here to manage and educate for the same.
+
+We're here to provide personalized and not generalized roadmap for each individual user by the help of GenAI and Agentic AI to organize their money be it Budgeting, Expense Tracking, Goal Oriented planning or Debt and Credit Management.
+
+We'll be providing instructions and advise based on their spending pattern and behavior and watch them grow and in their finances.
+
+What users can expect after 2 Months of use :
+1. 20% Reduction in unnecessary spending and impulse spending, by analyzing their spending patterns.
+
+2. Increase in Savings
+
+3. Improved Budgeting
+
+4. Reduction in Missed payments and Late fees.
+
+**Fintech: Build an autonomous financial coaching agent that adapts to real user behavior, spending patterns, and income variability - helping gig workers, informal sector employees, and everyday citizens make smarter financial decisions proactively.**
+
+Our solution is designed for young users who want to take control of their finances and build a strong financial foundation. It tracks user expenses and provides personalized advice accordingly. Our agentic AI chatbot also guides users in making confident financial decisions and allows them to access the entire application through the chatbot interface.
+
+Team **Dopaminergic** -- [Aum Oza](https://github.com/AumOzaa), [Yuvraj Verma](https://github.com/Yuvrajmale)
+
+`2025-08-29`
+
+---
+
+### Deducto
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/deducto-0428) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Your Personal AI CA — Scan. Save. Stay Tax-Ready
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![OpenCV](https://img.shields.io/badge/OpenCV-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**Description of your solution**
+
+Freelancers and gig workers in India struggle with irregular income, tax compliance, and missed deductions — leading to penalties and lost savings.
+
+**Deducto** is an AI-powered financial agent that acts like a personal Chartered Accountant, continuously monitoring receipts and income, learning user behavior, and proactively guiding them to stay tax-ready — while also helping them save more through smart deduction suggestions.
+
+By automating tax planning and deduction tracking, Deducto saves users time, prevents penalties, and ensures they keep more of what they earn.
+
+# How the Agent Works
+
+- Observes: Uses OCR (Tesseract) to scan invoices and receipts, categorizes expenses into deductible vs. non-deductible.
+
+- Thinks: Analyzes income streams and spending patterns, estimates monthly & quarterly tax liabilities, and identifies potential savings opportunities.
+
+- Acts: Proactively reminds users to set aside money for taxes, notifies them about upcoming deadlines, and recommends deductions they may have missed.
+
+- Learns: Adapts over time to changing income and spending behavior, making recommendations more personalized.
+
+
+# Multi-Agent System 
+
+- OCR Agent (extracts receipts).
+
+- Categorization Agent (deductible vs. non-deductible).
+
+- Tax Planning Agent (calculates monthly/quarterly set-asides).
+
+- Coach Agent (explains deductions, deadlines, savings).
+
+
+**By acting like a proactive AI Chartered Accountant, Deducto directly reduces penalties, maximizes tax savings, and empowers India’s growing gig workforce to be financially secure.**
+
+**Fintech: Bring your own problem in Fintech, leveraging Agentic AI.**
+
+This project leverages a multi-agent system that will proactively work together to solve the unique financial challenges faced by freelancers and gig workers in India. 
+
+
+While most fintech tools are passive trackers, our system embodies the “agentic AI” approach: the OCR Agent scans receipts, the Categorization Agent classifies deductible vs. non-deductible expenses, the Tax Planning Agent calculates monthly and quarterly liabilities, and the Coach Agent explains rules, deadlines, and smart deductions. 
+
+
+Together, they form an autonomous financial companion that not only analyzes spending and income patterns but also acts on behalf of the user — reminding them, advising them, and helping them maximize savings. This fits directly into the fintech track by addressing financial literacy, compliance, and wealth optimization through intelligent, proactive automation.
+
+Team **Ones&Zeroes** -- [Sarthak Jejurkar](https://github.com/codedthoughts), [Om Bhamre](https://github.com/OmBhamre05)
+
+`2025-08-31`
+
+---
+
+### StockDash
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/stockdash-016f) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/RajSharma877/pyqt5-stock-dashboard) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/RqQu9yn39iY) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> StockDash :- "From Data to Decisions"
+
+![NumPy](https://img.shields.io/badge/NumPy-333333?style=flat-square) ![pandas](https://img.shields.io/badge/pandas-333333?style=flat-square) ![Matplotlib](https://img.shields.io/badge/Matplotlib-333333?style=flat-square) ![PyQt](https://img.shields.io/badge/PyQt-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Seaborn](https://img.shields.io/badge/Seaborn-333333?style=flat-square)
+
+**Description of your solution**
+
+Our project, StockDash, is a desktop application designed to solve one of the biggest challenges faced by traders and retail investors: fragmented research and decision-making. Typically, traders need to switch between multiple platforms—news websites, charting tools, screeners, and financial portals—to collect insights before deciding whether to buy or sell a stock. This process is time-consuming, inefficient, and often overwhelming.
+
+StockDash streamlines this journey by consolidating all essential tools into a single, user-friendly dashboard built with PyQt5. The solution integrates multiple layers of stock market analysis and decision support:
+
+1. Ticker Search & Visualization – Users can search for tickers (e.g., AAPL, GOOGL) and instantly view six months of candlestick and volume charts, enriched with indicators such as MACD, Moving Averages, and RSI.
+
+2. Company Insights & News – The platform fetches real-time company details, financial fundamentals (P/E ratio, dividend, volume, etc.), and curated news articles, eliminating the need to browse multiple tabs.
+
+3. Reports & Forecasting – A dedicated reports section displays historical price patterns, average price, and volatility. It also leverages regression-based time series forecasting to predict future closing prices, with an option to download reports in CSV or PDF formats.
+
+4. AI-Powered Chatbot – An integrated chatbot, equipped with generative AI and voice query support, assists users in understanding stock fundamentals and market concepts, making complex financial data more accessible.
+
+The development journey started with a simple dashboard for ticker search and price visualization. Gradually, APIs such as yfinance and mplfinance were integrated to power stock data retrieval and chart plotting. Key challenges included data cleaning and transformation, ensuring only relevant fields were used for visualization and analysis. Step by step, the project expanded to include news, fundamentals, forecasting reports, and finally the AI-driven chatbot.
+
+By combining technical analysis, fundamentals, predictive analytics, and AI guidance in one cohesive platform, StockDash empowers traders to make faster, smarter, and more confident decisions. It embodies the spirit of the FinTech track by applying technology, AI, and data science to simplify complex financial workflows and enhance the trading experience.
+
+**Fintech: Bring your own problem in Fintech, leveraging Agentic AI.**
+
+Our project, StockDash, tackles a key challenge for traders and retail investors: fragmented information and decision-making fatigue. Today, traders rely on multiple platforms—financial news portals, screeners, charting tools, and research sites—making the process inefficient and overwhelming.
+
+StockDash streamlines this by combining all essential tools into one desktop application built with PyQt5. It offers:
+
+Unified Stock Analysis with candlestick/volume charts and indicators like MACD, RSI, and Moving Averages.
+
+Company Insights & News Aggregation to deliver fundamentals and curated news in one place.
+
+Reports & Predictive Analytics using regression-based time series forecasting to estimate future stock prices, volatility, and trends.
+
+AI-Powered Assistant with generative AI and voice query support to explain fundamentals and market concepts.
+
+StockDash unifies stock analysis, news, predictions, and AI-driven assistance into one platform, helping traders make smarter decisions with less effort. It embodies the FinTech spirit by turning complex, fragmented processes into a seamless, data-powered experience.
+
+Team **DuoBand** -- [Aniket Shukla](https://github.com/aniketshukla2002), [Raj Sharma](https://github.com/RajSharma877)
+
+`2025-09-21`
+
+---
+
+### NexFinance
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/nexfinance-09fa) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/vaidehidubey122005/NexFinance) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Personal Finance, Perfectly Tailored.
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=flat-square) ![Prism.js](https://img.shields.io/badge/Prism.js-333333?style=flat-square) ![Vercel](https://img.shields.io/badge/Vercel-333333?style=flat-square) ![Clerk](https://img.shields.io/badge/Clerk-333333?style=flat-square)
+
+**Description of your solution**
+
+We're building a system that works proactively in the background, making decisions based on your real-time data.
+
+1. Custom Counseling: The primary component consists of the AI Financial Advisor Chatbot. What truly distinguishes it from the other chatbots is that it is taking your live financial data (current savings, main expenses, budget cap) and providing advice after it accesses it. So, if you asked the AI: "Is it a good idea to purchase a new laptop?" - it will provide you with advice considering your actual bank account balance, not simply from a copy/paste template of advice.
+
+2. Smart Automation(No manual work):
+   • Receipt Scanner (with Gemini): You will take a picture of a receipt (not actually scan) and the AI will automatically extract the amount, date, and category to log that item.
+   • Background Jobs (Ingest): We have automated daily tasks (cron jobs) which "visit" your budget - sending you an email if you're close to going over your budget. We also have a monthly cron job that will create a detailed report for you and provide personalized saving advice from your spending habits.
+
+The Pro-Level Setup: The app is powered by Next.js, while we are using professional tools to minimize the potential of hacking - Clerk for secure login, Suparbase for efficient database use, and Arcjet to block automated attacks and limit the speed at which users can enter data.
+
+Our objective here is to offer an all-inclusive, highly functional app that utilizes AI - not for a gimmick - but a true core engine of personalized financial support.
+
+**Fintech: Bring your own problem in Fintech, leveraging Agentic AI.**
+
+NexFinance is a complete Full-Stack AI Finance Platform created using Next.js, Clerk (Auth), and Supabase/Prisma (DB). The platform's unique strength relies upon Agentic AI capabilities with the Gemini API for real-time receipt scanning and individualized monthly financial insights. It supports financial discipline by ingesting cron jobs for repeated transactions and budget alerts, and none of this is possible without Arcjet rate limiting.
+
+Team **TechTitans** -- [Sujeet Chaudhary](https://github.com/Sujeetchaudhary918), [Shikhar Gupta](https://github.com/shikhar0713-dev), [Arpan Yadav](https://github.com/arpannyadavv), [Vaidehi Dubey](https://github.com/vaidehidubey122005)
+
+`2025-10-16`
+
+---
+
+### team hack n snack
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/kjeh-e84c) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://drive.google.com/file/d/1d2s6yJ1HkTLV1GafV3cmRaQ0u6kLu4CT/view?usp=sharing) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://vimeo.com/1127941549) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> fintech
+
+![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![TensorFlow](https://img.shields.io/badge/TensorFlow-333333?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=flat-square) ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![React.js](https://img.shields.io/badge/React.js-333333?style=flat-square) ![FAST API](https://img.shields.io/badge/FAST%20API-333333?style=flat-square)
+
+**Description of your solution**
+
+Our solution, MONEO, is an AI-driven platform that personalizes financial guidance for users with diverse income streams and spending habits. Users begin by logging in and completing quick quizzes to assess financial literacy, habits, and goals. Based on these inputs, the system generates a persona tag such as Budget Explorer/Cautious Planner etc providing immediate insights into their financial behavior.
+
+The main dashboard allows users to track income, log expenses and set budgets through a clean, visual interface. AI-generated insights highlight spending patterns, potential overspending and goal progress, helping users make informed financial decisions. Categorized income and expense tracking, recurring transactions and an overall Financial Health Score with trend graphs offer a complete picture of financial health.
+
+At the core, Agentic AI continuously monitors user behavior, spending patterns and income variability. LLM agents analyze these patterns to identify risks and opportunities, while action agents convert insights into nudges, reminders and personalized recommendations going beyond static advice to dynamically guide users.
+
+The Financial Coach module allows users to ask questions and receive context-aware suggestions, making guidance interactive, adaptive and responsive. 
+
+By combining automated insights, visual tracking and an agentic AI layer, MONEO empowers gig workers, informal sector employees and everyday users to save smarter, spend wisely, and plan for future goals effectively.
+
+![image](https://assets.devfolio.co/content/811d8ba38b654b36a3a0afb57d166509/e4d37159-ac82-4cf4-bc0e-f45b7438d405.jpeg)
+
+![image](https://assets.devfolio.co/content/811d8ba38b654b36a3a0afb57d166509/2a0dda71-effc-48a6-b76c-324470e45fb0.jpeg)
+
+![image](https://assets.devfolio.co/content/811d8ba38b654b36a3a0afb57d166509/4fba5313-a654-4fc8-94f8-088fab70aa94.jpeg)
+
+![image](https://assets.devfolio.co/content/811d8ba38b654b36a3a0afb57d166509/e5af78da-0e59-4848-8739-7748cf6bc6b3.jpeg)
+
+![image](https://assets.devfolio.co/content/811d8ba38b654b36a3a0afb57d166509/9c24013e-1150-440c-b867-654394e9400d.jpeg)
+
+![image](https://assets.devfolio.co/content/811d8ba38b654b36a3a0afb57d166509/8cc262b5-f9f1-4ba3-8edb-83ef9703f4ed.jpeg)
+
+![image](https://assets.devfolio.co/content/811d8ba38b654b36a3a0afb57d166509/fc82cea3-7245-4728-94ec-cf1d31ea7233.jpeg)
+
+![image](https://assets.devfolio.co/content/811d8ba38b654b36a3a0afb57d166509/8905f464-e321-4257-b80f-56270c5bf83b.jpeg)
+
+![image](https://assets.devfolio.co/content/811d8ba38b654b36a3a0afb57d166509/b31e4e14-697e-483e-9c28-cba9fb668a6e.jpeg)
+
+**Fintech: Build an autonomous financial coaching agent that adapts to real user behavior, spending patterns, and income variability - helping gig workers, informal sector employees, and everyday citizens make smarter financial decisions proactively.**
+
+Our project creates an AI-driven financial companion that adapts to each user’s habits and goals. It monitors spending patterns, income and budgeting behavior to deliver personalized insights. By targeting beginners, students, and gig workers, it addresses financial literacy gaps in users with irregular income. The agentic AI layer ensures the system acts autonomously, sending alerts and recommendations rather than just answering queries. Overall, it translates complex financial management into simple, actionable steps, helping users make smarter financial decisions daily.
+
+Team **Hack n Snack** -- [Molaika Dhiraj](https://github.com/Molaika18), Ishwari Chopade, [Ranbeer Raja](https://github.com/TechRanbeer), [Riya Gupta](https://github.com/riyaa-g)
+
+`2025-10-16`
+
+---
+
+### GigaCoach
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/innrspark-0fa8) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Predictable Finances, Unpredictable Work
+
+![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![OAuth](https://img.shields.io/badge/OAuth-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Figma](https://img.shields.io/badge/Figma-333333?style=flat-square) ![AWS](https://img.shields.io/badge/AWS-333333?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=flat-square) ![Kotlin](https://img.shields.io/badge/Kotlin-333333?style=flat-square) ![Jenkins](https://img.shields.io/badge/Jenkins-333333?style=flat-square)
+
+**Description of your solution**
+
+**GigaCoach** is an AI-powered financial assistant designed for gig workers with irregular income. The system operates through three coordinated components:
+
+**Financial Forecasting Engine** - Analyzes transaction history to predict thirty-day cash flow patterns and flag potential shortfalls
+**Liquidity Shield Agent** - Uses reinforcement learning to automatically manage buffer accounts, moving surplus funds to earn interest and proactively transferring money back before predicted cash crunches
+**Behavioral Nudge System** - Generates personalized, contextual guidance using large language models to support informed spending decisions during tight periods
+
+Built for India's Account Aggregator framework, GigaCoach transforms reactive tracking into proactive management, enabling underserved gig workers to avoid overdraft fees, maximize savings, and reduce financial stress through intelligent automation.
+
+**Fintech: Build an autonomous financial coaching agent that adapts to real user behavior, spending patterns, and income variability - helping gig workers, informal sector employees, and everyday citizens make smarter financial decisions proactively.**
+
+**GigaCoach:** Fintech Track Alignment
+
+GigaCoach directly addresses this track's objective by creating an autonomous financial coaching agent for individuals with high income and spending variability, specifically targeting gig workers and informal sector employees.
+
+**Strategic Alignment**
+
+**1. Income Variability Management**  
+GigaCoach handles irregular income streams typical of gig work through adaptive, real-time budget recommendations. The system replaces static monthly budgets with dynamic financial planning based on predicted, earned, and allocated income.
+
+**2. Autonomous Proactive Coaching**  
+Machine learning algorithms identify spending patterns, detect goal deviations, and deliver personalized guidance autonomously. Examples: "Allocate ₹X to savings based on this week's earnings" or "Defer this subscription until next income cycle."
+
+**3. Underserved Population Focus**  
+By targeting gig workers and informal sector participants overlooked by traditional financial tools, GigaCoach enables smarter financial decisions and stability-building for economically vulnerable demographics.
+
+**Summary**
+
+GigaCoach embodies the track's core goal: an autonomous, adaptive financial agent delivering proactive guidance to gig workers and underserved populations facing modern income volatility.
+
+Team **innrspark** -- [Tanay Pande](https://github.com/Tanay-Pande), [Aarsh Gangulwar](https://github.com/gangulwar), [Praharsh Bawankar](https://github.com/Praharsh04)
+
+`2025-10-12`
+
+---
+
+### Sentinel Trust
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/sentinel-trust-604c) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://youtu.be/EMmMWGlmo0g) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> banking-security for a Zero-Trust Digital Banking
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Polygon Blockchain](https://img.shields.io/badge/Polygon%20Blockchain-333333?style=flat-square)
+
+**Description of your solution**
+
+Our project aims to build a Zero-Trust, AI-powered Transaction Verification System that continuously validates user identity, device trust, and transaction intent in real-time to prevent fraud and enhance digital trust.
+
+Identity & Session Security
+Instead of relying on one-time logins, our system implements continuous authentication using behavioral biometrics such as keystroke dynamics, typing speed, mouse movement, and touch pressure. The AI engine monitors user behavior throughout the session—if any anomaly or deviation is detected, the system immediately flags or suspends the session for verification.
+
+Fraud & Transaction Trust
+Every transaction is evaluated through an AI-driven risk scoring model that considers:
+Device fingerprinting (OS, browser, IP, and geolocation)
+User transaction patterns (time, amount, and frequency)
+Behavioral biometrics (gesture, typing rhythm)
+
+If the risk score exceeds a defined threshold, the user is prompted for step-up verification, such as Face ID or voice biometric authentication, ensuring a layered defense mechanism.
+
+Data Protection & Privacy
+We ensure end-to-end encryption with zero-knowledge architecture — no raw biometric data is stored; only hashed behavioral profiles are kept. A blockchain-based audit trail provides a tamper-proof record of all transactions, ensuring transparency and regulatory trust.
+
+Inclusion & Resilience
+To make the solution inclusive, we support voice-based authentication for rural or non-literate users, compatible with low-end smartphones. A multi-language AI assistant guides users through secure transactions, while an offline mode with delayed sync ensures functionality in low-connectivity areas.
+
+**Fintech: Build an autonomous financial coaching agent that adapts to real user behavior, spending patterns, and income variability - helping gig workers, informal sector employees, and everyday citizens make smarter financial decisions proactively.**
+
+We’re building an AI-powered autonomous financial coaching agent that adapts to each user’s real behavior, spending patterns, and income variability. The system helps gig workers, informal employees, and everyday citizens make smarter financial decisions proactively.
+
+Using machine learning, it analyzes cash flow trends, transaction history, and lifestyle data to provide personalized insights—like saving goals, expense limits, or investment suggestions. A conversational AI coach interacts in multiple languages, offering daily budgeting tips and reminders through voice or chat.
+
+The solution also includes predictive alerts for irregular income periods, micro-savings automation, and data privacy controls to ensure security and trust. Our goal is to make financial literacy and stability accessible to everyone, especially in underserved communities.
+
+Team **CodeLyte** -- [Mohana Priya](https://github.com/Mohana-priya19), [Madhumitha N](https://github.com/madhumitha2313), [Sudhish Rithvik](https://github.com/sudhish-rithvik), naveen kumar
+
+`2025-10-18`
+
+---
+
+### Lumin Credit
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/redstox-d4f7) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=PnEXVfGun-c) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Know why your score moved—and what to do next
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![langchain](https://img.shields.io/badge/langchain-333333?style=flat-square) ![Large Language Model](https://img.shields.io/badge/Large%20Language%20Model-333333?style=flat-square) ![RAG](https://img.shields.io/badge/RAG-333333?style=flat-square) ![MCP](https://img.shields.io/badge/MCP-333333?style=flat-square)
+
+**Description of your solution**
+
+A robust, India-first, multi-agent credit advisor can be built with Python, JavaScript, LangChain RAG, and MCP, ingesting consented bank and UPI transaction data via the Account Aggregator framework to explain score changes, simulate loan options (full loan vs higher down payment vs SWP), and prescribe an actionable improvement plan that lowers borrowing cost and improves eligibility.​
+
+Architecture overview
+The system comprises a web frontend (HTML/CSS/JavaScript) and Python backend services orchestrating LangChain-based agents with RAG for explainability, connected through Model Context Protocol (MCP) tools for secure, standardized data and action access.​
+
+RAG pipelines index FAQs, RBI and bureau guidance, and product terms, while runtime retrieval grounds LLM answers and agent decisions for transparent, source-linked coaching.​
+
+MCP exposes modular tools to the AI layer (e.g., “fetch_bank_statements,” “simulate_emi,” “generate_kfs”) with human-in-the-loop controls and auditable invocation, keeping integrations consistent and secure.​
+
+Data sources and consent
+Bank statements and account data flow via RBI’s Account Aggregator (AA) network using a standardized, revocable consent artefact that specifies purpose, scope, duration, and FIU recipients, with logging and auditability mandated.​
+
+AAs act as consent managers under RBI oversight, enabling secure, real-time data sharing from Financial Information Providers (FIPs) to FIUs upon valid consent artefact verification and digital signing.​
+
+UPI is India’s dominant instant payment rail; analyzing UPI-linked entries within bank statements improves categorization coverage for spending/utilization trends, given its scale across consumer and merchant payments.​
+
+Core agents and roles
+Consent & Data Ingestion Agent: Orchestrates AA consent creation, retrieval windows, and pulls digitally signed bank data; validates artefact attributes and logs revocations and access events.​
+
+Transaction Enrichment Agent: Classifies bank/UPI entries, computes rolling utilization, detects inquiries and due dates, and prepares features for score coaching and simulations.​
+
+Credit Score Explainer Agent: Maps user events to known score factors such as payment history, utilization, credit age/mix, and inquiries, generating plain-language justifications and impact deltas.​
+
+Scenario Simulator Agent: Runs “what-if” analyses for loan amount, tenure, down payment, and SWP-backed EMI cashflows using the standard EMI formula and utilization forecasts.​
+
+Credit Goal Advisor Agent: Optimizes target goals (home/auto/personal loan) by trading off down payment, tenure, and total interest to improve eligibility and lower APR under risk-based pricing.​
+
+Compliance & KFS Agent: Produces RBI-aligned Key Fact Statement (KFS), disclosures, and digital consent artifacts for any lending workflow with clear cost-of-credit presentation.​
+
+Nudge & Risk Monitor Agent: Issues proactive alerts on upcoming dues, utilization spikes, inquiry timing risks, and plan adherence, tuned to RBI digital lending guardrails.​
+
+Marketplace Matching Agent (optional MVP): Curates lender products by profile and readiness stage, aligning to bureau signals and user-consented data for pre-qualification.​
+
+Knowledge RAG Agent: Retrieves authoritative snippets from indexed guidance (RBI, bureaus, FAQs) to ground all explanations, chat answers, and plans.​
+
+Agent workflows
+Onboard & consent: User selects accounts, the Consent Agent creates an AA consent artefact with purpose, data type, duration, and FIU, then fetches digitally signed statements on approval and logs all events.​
+
+Profiling & feature build: The Enrichment Agent parses transactions, tags UPI/POS/bill payments, derives utilization ratios and due-date calendars, and identifies hard inquiries and closed/open accounts.​
+
+Explain & plan: The Score Explainer Agent links recent score movements to key factors like on-time payments, utilization thresholds (<30% guidance), account age, mix, and inquiry frequency, producing prioritized actions.​
+
+Simulate decisions: The Simulator runs scenarios for full loan vs higher down payment vs SWP for EMI funding and projects utilization, DTI, and potential APR changes, returning a KFS-style comparison.​
+
+Advise & comply: The Goal Advisor selects an optimal path to minimize total interest and improve eligibility, while the Compliance Agent generates disclosures and KFS consistent with RBI digital lending rules.​
+
+Ongoing coaching: The Nudge Agent monitors utilization, dues, and inquiry timing, issuing proactive alerts that reduce delinquencies and protect score momentum.​
+
+**Fintech: Bring your own problem in Fintech, leveraging Agentic AI.**
+
+Millions of consumers face opaque credit scoring, fragmented information, and complex loan decisions that directly impact borrowing cost and access. Small mistakes—high utilization, missed due dates, or poorly timed inquiries—raise interest rates and trigger loan rejections. Existing tools show a score but don’t explain “why,” “what to do next,” or “what if” a user takes a new loan, increases a down payment, or funds EMIs via SWP. Lenders, meanwhile, struggle to price risk accurately for thin-file and emerging borrowers without better behavioral signals.
+
+LuminCredit solves this by delivering an agentic AI credit coach that explains credit changes, simulates scenarios (full loan vs higher down payment vs SWP-backed cash flow), and generates a prioritized, stepwise improvement plan—reducing borrower cost of credit and improving lender risk outcomes.
+
+Team **Code smashers** -- Shaik Kaif, Vijjapu Pretham, [Bommireddy Dheeraj Reddy](https://github.com/Coder222005), Bathini Karthik
+
+`2025-10-16`
+
+---
+
+### Finwise
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/shakti-9846) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://finwise-ai-ten.vercel.app/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/tOZL8AQGHh4) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Your Personal Finance Assistant
+
+![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![REST API](https://img.shields.io/badge/REST%20API-333333?style=flat-square) ![JWT](https://img.shields.io/badge/JWT-333333?style=flat-square) ![Express.js](https://img.shields.io/badge/Express.js-333333?style=flat-square) ![JSX](https://img.shields.io/badge/JSX-333333?style=flat-square) ![React.js](https://img.shields.io/badge/React.js-333333?style=flat-square) ![Vite](https://img.shields.io/badge/Vite-333333?style=flat-square)
+
+**Description of your solution**
+
+Plan to Build for the Hackathon FinWise.AI (Demo)
+
+1. Objective:
+Deliver a compelling, production ready feeling demo that proves the concept of an AI driven, adaptive financial coach. The demo will show a unified dashboard, goal tracking, an AI chat (text + voice), personalized recommendations, alerts, and a secure data export.
+
+2.Core Features, Why they Matter, and How We’ll Build Them:
+- Unified Financial Dashboard:
+The dashboard will display total net worth, income, expenses, investments, and liabilities using visually clean cards and charts.
+The data will come from a demo JSON file (demoStore.json), served through backend APIs.
+Charts will be created using Chart.js and styled with TailwindCSS for responsiveness.
+The dashboard will also highlight spending trends and income variability to simulate real user behavior.
+![image](https://assets.devfolio.co/content/5b2d4f25264c4c96958703c5ab334655/a880b541-ebd3-4fa5-9fe7-7b2575e41d38.png)
+
+- Goals & Progress Tracker:
+Users can add and track financial goals such as “Emergency Fund” or “Buy a Car.”
+Each goal will include target amount, saved amount, and time left to completion.
+Progress will update automatically based on demo transaction data.
+This will be powered by /api/goals with basic CRUD operations in Express.js.
+![image](https://assets.devfolio.co/content/5b2d4f25264c4c96958703c5ab334655/304b9584-f2a9-4bef-9545-c8d95e03f741.png)
+
+- AI Chat Assistant (Text + Voice):
+An interactive chat drawer will allow users to ask finance related questions in text or by voice using the Web Speech API.
+The backend (/api/ai/query) will return mock AI responses.
+The assistant will reference actual demo data to make the replies context aware and personalized.
+![image](https://assets.devfolio.co/content/5b2d4f25264c4c96958703c5ab334655/2e766947-33b5-4ea8-81d7-2d5507d56a77.png)
+
+- Rebalance & Recommendation System:
+A rule based engine will analyze spending by category and suggest optimized actions such as reducing certain expenses or increasing SIP investments.
+This will use aggregated transaction data to simulate smart financial advice.
+![image](https://assets.devfolio.co/content/5b2d4f25264c4c96958703c5ab334655/d0433441-8fee-42d5-969f-4783d98aee0e.png)
+
+- Alerts & Notifications:
+A mock alerts feed will simulate real-time financial updates such as missed SIPs, stock movements, or high spending alerts.
+The (/api/alerts) endpoint will deliver demo alerts, and the frontend will show dismissible alert cards for a live-feed feel.
+![image](https://assets.devfolio.co/content/5b2d4f25264c4c96958703c5ab334655/4f4e0d6b-8b93-4eaa-b528-011255731070.png)
+
+- Export Data & Privacy Control:
+A secure export option will allow users to download their complete financial data as a JSON file.
+This demonstrates the principle of user owned data and is structured to be compatible with the Account Aggregator (AA) model.
+The export feature will include a short privacy modal explaining that this version uses demo data.
+![image](https://assets.devfolio.co/content/5b2d4f25264c4c96958703c5ab334655/f748a1be-a5c2-4219-9e7e-9c542994a066.png)
+
+- Voice Interaction:
+The system will include speech to text capability using the browser’s Web Speech API, allowing users to speak their queries.
+The transcript will appear in the chat box and trigger the same AI query endpoint as text input.
+
+- Architecture Implementation:
+Frontend and backend will be connected through REST APIs.
+The frontend will use EJS templates with dynamic rendering for dashboard, chat drawer, and goals page.
+The backend will be built with Express.js, serving APIs for user data, goals, transactions, and recommendations.
+All data will come from (demoStore.json) for now but will be structured to integrate with Account Aggregator APIs later.
+
+- Additional Enhancements:
+- 1. Basic user authentication with session based mock login.
+- 2. Small projection simulator to show future savings based on SIP increments.
+- 3. Multi language voice commands (English + Hindi).
+- 4. Chart drilldowns to analyze expenses in detail.
+
+3. Demo Flow for Presentation:
+- Show dashboard summary and charts.
+- Add a financial goal and display progress update.
+- Open the chat drawer and ask a question via text.
+- Use voice input to query finances.
+- Show AI recommendations to rebalance expenses.
+- Display live alerts feed.
+- Export demo data as JSON and show privacy modal.
+This flow will clearly demonstrate how FinWise.AI functions as an autonomous financial coaching agent learning from spending patterns, income variability, and user behavior to provide personalized financial guidance.
+
+4. Final Outcome:
+The final outcome of FinWise.AI is a working demo prototype of an AI powered personal financial coach featuring a unified dashboard, goal tracker, AI chat (text + voice), smart recommendations, alerts, and secure data export, fully RBI Account Aggregator (AA)ready,and designed to integrate with RBI approved APIs for secure, consent based financial data.
+
+**Fintech: Build an autonomous financial coaching agent that adapts to real user behavior, spending patterns, and income variability - helping gig workers, informal sector employees, and everyday citizens make smarter financial decisions proactively.**
+
+How FinWise.AI Fits Into This Track
+
+1. AI Powered Autonomous Coaching Agent:
+FinWise.AI directly aligns with the track’s vision by functioning as an AI based personal finance coach that uses predictive modeling, data analysis, and machine learning algorithms to evaluate user spending, savings, and liabilities.
+It generates automated, goal-oriented recommendations without manual inputs showcasing the power of self learning AI systems in financial decision-making.
+
+![image](https://assets.devfolio.co/content/5b2d4f25264c4c96958703c5ab334655/06af5e3b-ac24-4f1f-9a24-54a21cf4a26b.png)
+
+2.Behavior Adaptive Intelligence:
+The system integrates reinforcement learning and pattern recognition to adapt to user behavior.
+It continuously monitors transaction trends, detects anomalies, and provides context aware insights like:
+- Notifying users about overspending trends
+- Suggesting budget optimization based on income fluctuation
+This adaptive AI feedback loop enhances engagement and ensures personalized financial planning over time.
+
+3.Inclusive Design for Gig & Informal Sector Users:
+Many gig economy workers face irregular income and limited access to structured advisory platforms.
+FinWise.AI democratizes access to AI driven financial literacy by offering:
+- A voice-enabled AI chatbot powered by speech recognition and NLP models
+- Simple UI for users with minimal financial knowledge
+- Intelligent budgeting and saving insights personalized through user profiling
+This supports financial inclusion, a key goal of the FinTech track.
+
+4.Proactive Conversational Guidance:
+Instead of passive dashboards, FinWise.AI delivers real time, conversational insights via an AI chatbot interface using NLP based intent detection and contextual response generation.
+Example interactions:
+- “Hey FinWise, how much did I save this month?”
+- “Suggest a way to invest ₹1000 more safely.”
+This creates a human like AI experience, blending emotion aware responses, recommendation systems, and interactive financial mentoring.
+
+![image](https://assets.devfolio.co/content/5b2d4f25264c4c96958703c5ab334655/67602d65-ec07-498f-8851-a452be3ff0c1.png)
+
+
+5.Scalable, API Ready Architecture:
+
+While currently a demo prototype, FinWise.AI is designed with modular, API first architecture, enabling integration with:
+- Account Aggregator Framework (AA ecosystem)
+- OneMoney API for portfolio insights
+- Finvu Mutual Fund API for real time investment data
+ Its cloud based backend and AI microservices pipeline 
+ensure scalability, security, and compatibility with FinTech regulatory frameworks such as RBI AA and Open Banking APIs.
+
+![image](https://assets.devfolio.co/content/5b2d4f25264c4c96958703c5ab334655/e60b2851-dee9-4446-a2cc-a89458a612f2.png)
+
+Team **Bit_Bhakts** -- Bhakti Johri, Mehar Satsangi, Alakh Babbar
+
+`2025-10-19`
+
+---
+
+### FineWise
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/rupeeflow-a909) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Your Finances, On Your Terms.
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![SQLite](https://img.shields.io/badge/SQLite-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![OpenAi](https://img.shields.io/badge/OpenAi-333333?style=flat-square)
+
+**Description of your solution**
+
+**FinWise – The Agentic AI Financial Coach**
+
+FinWise is an **agentic AI financial coach** that helps young Indians—especially **gig workers and irregular earners**—manage, save, and invest smarter without sacrificing privacy. The biggest barrier to financial wellness today isn’t just lack of knowledge, but **lack of trust**. FinWise solves this through a **Hybrid-Access Model**, giving users two powerful options:
+
+* **Private mode:** Securely upload bank statements or CSVs for **offline, AI-driven analysis**.
+* **Automated mode:** **Consent-based, real-time** financial tracking via bank integration (Account Aggregator-ready).
+
+The AI behind FinWise is truly **agentic** — it understands intent, takes action, and adapts over time. For the hackathon MVP, it will demonstrate how users can upload a CSV, have their spending categorized automatically, and receive intelligent, conversational insights like: *“You spent ₹4,800 on food last month — switching one meal weekly to home-cooked could save ₹1,000.”*
+
+FinWise’s modular design uses a **Router AI** to decide which tool to activate: spending analysis, goal tracking, or general financial guidance. By combining empathy, automation, and data-driven learning, FinWise transforms raw transactions into personalized coaching.
+
+It’s not just another finance dashboard — it’s your **AI partner** in building financial confidence, one smart decision at a time.
+
+**Fintech: Build an autonomous financial coaching agent that adapts to real user behavior, spending patterns, and income variability - helping gig workers, informal sector employees, and everyday citizens make smarter financial decisions proactively.**
+
+**FinWise** is an agentic AI financial coach designed to address the deep-seated financial anxiety and inertia among young Indians, particularly gig workers with irregular incomes. 
+
+- The core problem we solve is not just the lack of guidance, but the significant "trust barrier" preventing the adoption of financial tools. Our unique approach is a **Hybrid-Access Model** that allows users to get powerful *AI-driven insights either by securely uploading documents for a private analysis or by opting for  full automation via bank integration .
+
+-  This "trust-first" strategy, combined with a proactive conversational AI that provides empathetic, actionable nudges, empowers users to master their cash flow and build healthier financial habits on their own terms, turning financial data into financial clarity.
+
+Team **Quantum Force** -- [Karan Sahani](https://github.com/Devil-8790?tab=overview&from=2025-10-01&to=2025-10-11), Srinath Gudala, Suraj Kumar
+
+`2025-10-15`
+
+---
+
+### Finbuddy AI
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/finbuddy-ai-ea21) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Agentic AI Compliance & Predictive Finance
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![Bootstrap](https://img.shields.io/badge/Bootstrap-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![REST API](https://img.shields.io/badge/REST%20API-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![AWS](https://img.shields.io/badge/AWS-333333?style=flat-square) ![CSS3](https://img.shields.io/badge/CSS3-333333?style=flat-square)
+
+**Description of your solution**
+
+FinBuddy AI is an intelligent fintech assistant that reads UPI/SMS transactions, auto-categorizes them, and generates invoices with tax insights. It provides real-time compliance tracking, alerting users when their income nears the ₹20 L GST limit.
+Built with FastAPI, MongoDB, and Gemini AI, FinBuddy turns routine bookkeeping into a smart, automated system — helping freelancers and MSMEs stay financially organized and compliant.
+
+**Fintech: Bring your own problem in Fintech, leveraging Agentic AI.**
+
+FinBuddy AI fits the Agentic AI × Fintech track by transforming how freelancers and MSMEs manage transactions. It reads UPI/SMS data in real time, auto-categorizes income and expenses, generates invoices instantly, and provides AI-driven tax and compliance insights. With Agentic reasoning, it suggests prescriptive actions and predicts GST threshold breaches, turning passive data logs into proactive financial intelligence. FinBuddy isn’t just tracking money—it’s thinking like a financial agent for users.
+
+Team **Code Crushers** -- [Vidula Gote](https://github.com/vidulagote24), [Gauri Kadalge](https://github.com/gaurikadalge), [disha gudup](https://github.com/dishagudup-21211), Anuj Gardi
+
+`2025-10-14`
+
+---
+
+### PramanAI
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/pramanai-3891) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Compliance at fintech speeds
+
+![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![AI/ML](https://img.shields.io/badge/AI/ML-333333?style=flat-square) ![LLMs](https://img.shields.io/badge/LLMs-333333?style=flat-square)
+
+**Description of your solution**
+
+### What we are building?
+
+Ship a Change to Control to Evidence Agent that turns messy documents into reviewed, provable audit sets.
+
+**1. Ingest & Read (AI):** Drop a circular/contract or paste a link. The copilot extracts obligations exactly with clause-level citations. eg: “this exact sentence implies do X.”
+
+**2. Map & Assign (AI):** Auto-classify each obligation with respect to the organization, propose owner + due date, and draft redlines/snippets (eg: policy paragraph, SOP step, vendor addendum).
+ 
+**3. Review & Approve (human-in-the-loop):** Side-by-side UI: source highlight exact obligation and proposed text. Compliance/legal/risk teams edits or accepts in minutes. All decisions are recorded.
+ 
+**4. Evidence & Proof (guardrails):** On approval, the system creates tasks/emails, generates evidence checklists (what file/log, from where, how often), collects artifacts, and chains everything (source, decisions, redlines, evidence files) into an append-only audit log. 
+
+**Result:** a one-click trail from clause -> decision -> control/SOP/vendor text -> evidence pack.
+
+### What are the current pain points?
+
+**1. Circular tracking is manual & late:** no single place to see what changed and who owns the fix. 
+**2. Applicability ambiguity:** teams guess how a clause applies to product/partner; drift accumulates. 
+**3. Evidence scramble:** proof is scattered across email/Sheets/ops tools; pre-audit collation is painful. 
+**4. Audit responses take days:** pulling “who did what/when” for a clause or product is slow and error-prone. 
+
+### Who is it for?
+Banks, NBFCs, issuers, fintechs (cards, lending, mobility). Teams: *Compliance, Risk/Ops, Product, CTO/Engineering*, and Partnerships.
+
+### GTM
+
+**1. Design-partner motion:** 2-week *no-cost pilot* co-designed with the customer; land on one workflow.
+**2. Land then expand:** add modules (Consent/Notice Logs, KYC/CKYC exceptions, Partner Oversight, Audit-Pack Studio).
+**3. Channels:** partner with compliance consultants and core-banking/LOS vendors; co-sell into their accounts.
+**4. Proof fast:** measure time-to-audit-pack, obligation coverage, and evidence completeness to drive conversion.
+
+
+### Revenue:
+SaaS Subscription (Tiered) with Enterprise Support.
+
+**Fintech: Bring your own problem in Fintech, leveraging Agentic AI.**
+
+BFSI compliance is still mostly manual: about 30% of employees work in compliance, yet roughly 70% of the work is done by hand. 
+
+In FY 2023–24, teams had to process nearly 5,000 regulatory updates. This makes it hard to track what changed, judge where it applies, assign clear owners and deadlines, update policies/controls/SOPs/vendor terms, and pull clean evidence. 
+
+The result is delays, repeat audit findings, and no simple audit of the actions that were made. This makes RBI audits tricky which can last a couple months, halt business processes, and even sometimes lead to suspension of products.
+
+With Agentic AI the solution to this problem is now possible in the financial domain.
+
+Team **Fibonaco** -- Dhaval Shrishrimal, Kushal Malhotra
+
+`2025-10-18`
+
+---
+
+### FinZen
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/fintech-d250) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Proactive finance. Powered by AI.
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Firebase](https://img.shields.io/badge/Firebase-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Express.js](https://img.shields.io/badge/Express.js-333333?style=flat-square) ![Auth0](https://img.shields.io/badge/Auth0-333333?style=flat-square) ![GOOGLE GEMINI API](https://img.shields.io/badge/GOOGLE%20GEMINI%20API-333333?style=flat-square)
+
+**Description of your solution**
+
+Project Title: FinZen
+
+The Concept  
+FinZen serves as an autonomous, AI-driven financial advisor aimed at making tailored financial advice available to all. Rather than functioning as a passive dashboard, our platform operates as a personal financial representative. It intelligently evaluates a user’s distinct spending habits, income trends, and financial behaviors to deliver proactive, practical recommendations. 
+ 
+Challenge We Address  
+Many financial tools present broad, generic advice that may not suit everyone’s needs. This is particularly true for gig workers, freelancers, and individuals with fluctuating incomes who struggle to adhere to conventional budgeting methods. They require a system that adjusts to their real-time financial situations instead of the other way around. We address this by offering ongoing, adaptable coaching.
+
+How It Functions
+
+Data Processing: Our backend, developed with Node.js and Express, processes user financial transactions.
+
+AI Advisor: This information is then securely transmitted to an Agentic AI (utilizing the Google Gemini API). We have instructed this AI to act as a knowledgeable, impartial financial coach. 
+ 
+Proactive Guidance: The AI independently examines spending habits, spots potential risks (for example, "Your spending on subscriptions has increased by 30%"), and uncovers chances for savings ("You're on track to save an additional $50 this month").
+  
+User-Friendly Interface: Users receive these straightforward, actionable insights and reminders through a clean HTML and JavaScript web interface, assisting them in making wiser financial choices on a daily basis.
+
+​Target Audience  
+​Our main focus is on gig workers, employees in the informal sector, and young professionals who seek assistance in making financial choices but lack access to personal financial advisors. 
+
+​Go-to-Market & Revenue Model  
+​We plan to connect with our audience through targeted social media outreach within freelancer and gig worker communities. Our suggested revenue model operates on a freemium basis: users will receive a basic weekly financial analysis for free, while a premium subscription offers daily proactive coaching, long-term financial strategies, and advice on debt management.
+
+**Fintech: Build an autonomous financial coaching agent that adapts to real user behavior, spending patterns, and income variability - helping gig workers, informal sector employees, and everyday citizens make smarter financial decisions proactively.**
+
+The problem statement for this track is directly implemented in our project, FinZen, as we are developing an autonomous financial coaching agent that will offer proactive, individualized financial advice. Because it does the following, it fits the track: 
+
+AI Agent: The foundation of our project is an AI agent that conducts autonomous analysis using the Gemini API. It provides authentic coaching by interpreting data rather than merely displaying it. 
+
+Adapts to Actual User Behavior: The agent is made to take in user-specific financial information, including fluctuating income and various spending habits. This enables it to provide distinct, user-specific guidance instead of general recommendations. 
+
+Target Audience: For people with irregular incomes, freelancers, and gig workers—who are frequently underserved by traditional one-size-fits-all financial tools—this individualized approach is essential. Their need for advice that adjusts to their unique, changing financial circumstances is met by our solution.
+
+Team **Zenlytics** -- [Harsh Zope](https://github.com/Hersheys6969), Anoushka Varerkar
+
+`2025-10-18`
+
+---
+
+### FinAura
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/finaura-bc5c) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/HarshTiwari1131/FinAura) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/HAGvjYKTmE8) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Agentic AI-driven finance assistant for real-time
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![JWT](https://img.shields.io/badge/JWT-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Stripe API](https://img.shields.io/badge/Stripe%20API-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![FastAPI](https://img.shields.io/badge/FastAPI-333333?style=flat-square)
+
+**Description of your solution**
+
+FinAura is an AI-powered personal finance copilot that empowers users to manage, plan, and optimize their money intelligently. It combines Agentic AI reasoning, behavioral analysis, and multi-source payment intelligence to create a unified, adaptive financial experience.
+
+Our solution addresses a key gap in financial management for gig workers, freelancers, and everyday citizens — who often lack access to personalized financial guidance and proactive budgeting insights. Unlike static budgeting apps, FinAura learns user patterns over time and evolves its advice dynamically.
+
+🔹 Key Functional Capabilities:
+Unified Dashboard: Real-time tracking of income, expenses, and investments with AI-driven visual analytics.
+
+Agentic AI Assistant: Uses Longcat (OpenAI-compatible) and Google Gemini APIs to generate smart financial insights, personalized savings strategies, and contextual chat summaries — all constrained to user data for safety and accuracy.
+
+Smart Goals Engine: Users can create multiple goals (education, travel, savings) and set one Active Goal. The AI dynamically reallocates savings or adjusts recommendations to help users stay on track.
+
+Wallet & Payments Hub: Integrated Stripe and planned multi-gateway system (Razorpay, PayPal, UPI) for top-ups and expense payments. Each transaction updates insights and wallet balance in real-time.
+
+Notifications & Realtime Insights: Uses Server-Sent Events (SSE) for instant updates — goal progress, payment confirmations, or AI-generated suggestions appear instantly on the dashboard.
+
+Privacy & Security: JWT authentication, verified Stripe webhooks, encrypted user data, and contextual AI prompts ensuring no external data leakage.
+
+🔹 Agentic AI Behavior:
+FinAura’s AI functions as an autonomous reasoning layer — it doesn’t just respond, it acts:
+
+Detects overspending trends and proposes weekly caps.
+
+Suggests reallocating idle wallet funds to investment goals.
+
+Generates explainable financial insights (“why” and “how” behind every recommendation).
+
+Expands dynamically as user data and context evolve.
+
+🔹 Tech Stack:
+Frontend: React (Vite), Tailwind, Framer Motion, Recharts
+
+Backend: FastAPI (Python), MongoDB, JWT, Stripe SDK
+
+AI Models: Google Gemini + Longcat API
+
+Realtime: SSE (in-memory pub/sub)
+
+Hosting: Scalable microservice-ready container setup
+
+🔹 Impact:
+FinAura aims to democratize financial literacy and stability by blending explainable AI with real-world money management. It acts as a digital financial coach — guiding users to spend smarter, save consistently, and invest meaningfully.
+
+In future iterations, FinAura will integrate voice-based AI interactions, multi-agent financial simulations, and risk profiling powered by behavioral data analytics — making it a truly adaptive FinTech ecosystem.
+
+
+![image](https://assets.devfolio.co/content/f3ae59f1e45b414f8c4b164079cd2473/ff267d18-a026-4922-9674-0983fd1b8e64.png)
+
+![image](https://assets.devfolio.co/content/f3ae59f1e45b414f8c4b164079cd2473/bbf2720b-52b3-4625-82cb-169ea8d8de47.png)
+
+![image](https://assets.devfolio.co/content/f3ae59f1e45b414f8c4b164079cd2473/5d605060-251b-4f15-9650-db8132892bdf.png)
+
+![image](https://assets.devfolio.co/content/f3ae59f1e45b414f8c4b164079cd2473/75984c39-8276-4f2e-8fab-dff199ca4cff.png)
+
+![image](https://assets.devfolio.co/content/f3ae59f1e45b414f8c4b164079cd2473/e4f9f9d4-73bd-4da5-bd37-ac3fee2cd6f2.png)
+
+![image](https://assets.devfolio.co/content/f3ae59f1e45b414f8c4b164079cd2473/70a8a591-a2ef-4ecf-8e46-6743164205f6.png)
+
+![image](https://assets.devfolio.co/content/f3ae59f1e45b414f8c4b164079cd2473/a9fe8f9e-2681-4d9b-a005-e070c6d00a3a.png)
+
+**Fintech: Bring your own problem in Fintech, leveraging Agentic AI.**
+
+🔹 Problem Context
+Traditional budgeting or finance apps are static — they track spending but fail to adapt to changing financial behaviors or goals. Users receive generic advice, not intelligent, personalized recommendations that evolve with their habits, income patterns, or life stages.
+
+🔹 Our Agentic AI Solution
+FinAura introduces a multi-agent financial intelligence system, where autonomous AI agents collaborate to provide proactive, human-like financial assistance. The system observes, learns, and acts — functioning as an adaptive copilot that makes complex financial decisions simpler, explainable, and goal-oriented.
+
+🔹 Agentic Architecture (Unique Layered Design)
+Insight Agent (Gemini/Longcat): Interprets spending and income trends, predicts financial stress zones, and generates context-aware suggestions.
+
+Goal Agent: Monitors progress across multiple goals and dynamically reallocates budgets or savings caps to maximize goal success probability.
+
+Behavioral Agent: Learns user sentiment, spending frequency, and category bias using vectorized embeddings to generate actionable behavioral nudges (e.g., “shift to weekly savings mode” or “pause discretionary spending”).
+
+Transaction Agent: Integrates with multiple payment gateways (Stripe, Razorpay, PayPal, UPI) to analyze transactions in real time, detect anomalies, and recommend rebalancing strategies.
+
+Knowledge Agent: Expands the assistant’s capability to offer safe, educational financial insights — explaining risk diversification, compounding, SIPs, or inflation impact in plain language.
+
+Each agent interacts within a coordinated reasoning framework, forming an autonomous decision-making loop — observe → reason → act → adapt — inspired by cutting-edge Agentic AI paradigms.
+
+🔹 Why It Fits This Track
+Agentic Autonomy: The AI doesn’t just respond — it makes context-driven decisions and suggests or executes them autonomously.
+
+Financial Inclusion: Designed for gig workers, freelancers, and informal-sector employees who often lack structured financial planning tools.
+
+Adaptive Intelligence: The system evolves with user data, creating a continuously learning financial ecosystem.
+
+Transparency & Explainability: Every AI decision includes rationale and plain-text justification — increasing user trust in autonomous systems.
+
+🔹 Vision
+FinAura aims to pioneer Agentic Finance, where AI agents act as personal financial co-managers — orchestrating spending, saving, and investing decisions seamlessly and ethically. Future enhancements will include LLM memory graphs, multi-agent negotiation for budget tradeoffs, and predictive scenario simulations for economic resilience.
+
+
+
+![image](https://assets.devfolio.co/content/f3ae59f1e45b414f8c4b164079cd2473/78114564-4967-4830-aeab-2ef2409e11a4.png)
+
+![image](https://assets.devfolio.co/content/f3ae59f1e45b414f8c4b164079cd2473/6ae96351-4ac0-460b-a3fb-660a9ee5e67f.png)
+
+![image](https://assets.devfolio.co/content/f3ae59f1e45b414f8c4b164079cd2473/e1418ad0-432c-4a14-b008-882d4e4a1d13.png)
+
+![image](https://assets.devfolio.co/content/f3ae59f1e45b414f8c4b164079cd2473/f839851b-c33a-4d6b-8805-d93814690dd6.png)
+
+![image](https://assets.devfolio.co/content/f3ae59f1e45b414f8c4b164079cd2473/29aa3452-4576-4baa-a591-47322835c415.png)
+
+![image](https://assets.devfolio.co/content/f3ae59f1e45b414f8c4b164079cd2473/cb337a31-e632-4f66-9faa-fa04e32c8aa7.png)
+
+![image](https://assets.devfolio.co/content/f3ae59f1e45b414f8c4b164079cd2473/a4e71283-235e-4a55-8bfc-ad36c96c209a.png)
+
+Team **Straw Hat** -- Aman Kumar, Abhisek Nayak, [Harsh Tiwari](https://github.com/HarshTiwari1131)
+
+`2025-10-17`
+
+---
+
+### TaxWise
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/ai-tax-agent-838d) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/fredrick-nadar/MumbaiHacks25) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Your AI Financial Confidant
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![ethers.js](https://img.shields.io/badge/ethers.js-333333?style=flat-square) ![Express.js](https://img.shields.io/badge/Express.js-333333?style=flat-square) ![React Native](https://img.shields.io/badge/React%20Native-333333?style=flat-square) ![Twilio](https://img.shields.io/badge/Twilio-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**Description of your solution**
+
+TaxWise is an intelligent financial management platform that merges tax optimization with predictive financial intelligence. It transforms how individuals and freelancers manage money through conversational AI, automatic expense logging, spending predictions, and real-time financial advice that is all available in Hindi, English, Tamil, and Telugu.
+Core Problem: Traditional finance apps are reactive (alert after overspending) and language-limited. Users manually log expenses, miss tax deductions worth ₹50K-₹200K annually, and lack personalized guidance.
+TaxWise Solution:
+
+Speak expenses naturally in your language: "मैंने आज ₹500 खाने पर खर्च किए" → Auto-categorized and analyzed instantly
+Conversational AI advisor understands your complete financial picture and gives personalized recommendations
+Predicts spending with 85%+ accuracy and alerts you 3-5 days BEFORE overspending
+Automatically identifies tax deductions and optimizes filings (saves ₹50K-₹200K annually)
+Smart WhatsApp alerts with context: "You're 50% over dining budget. Here are 3 affordable alternatives near you"
+Unified platform: Banking + investments + taxes + voice + mobile, all speaking the same Gen AI language
+
+Impact: Serves India's 200M+ multilingual users. MVP targets: 50K users in 3 months, ₹500M AUM by year 1.
+
+**Fintech: Bring your own problem in Fintech, leveraging Agentic AI.**
+
+TaxWise doesn't just use Gen AI But Gen AI is the entire architecture enabling every feature:
+1. Voice-First Interface (Google Gemini 2.0 + Speech-to-Text)
+
+Expense entry via voice in 4 Indian languages (95%+ accuracy)
+Gemini 2.0 understands intent: "₹500 food and ₹200 taxi" → 2 auto-categorized transactions
+Eliminates 15-click form filling; users speak and move on
+Result: 10x faster adoption, 5-10x higher engagement vs traditional apps
+
+2. Contextual Financial AI (Gemini 2.0 + User Context)
+
+User: "Should I invest ₹50K bonus?"
+AI analyzes: Emergency fund (₹30K, below 3-month target), debt (₹50K at 12%), spending (₹20K/month), age (28), risk tolerance
+Response: "Invest ₹35K in index funds, keep ₹15K for emergency fund. Your 12% debt is high-interest; index funds average 12-15%, making this optimal."
+Personalized, not generic—feels like talking to your own advisor
+
+3. Intelligent Expense Parsing (Gemini NLP)
+
+Transaction: "Friday ₹3,500 at restaurant with team discussing project"
+AI understands: "with team" + "discuss project" = business meal
+Auto-tags: "Business Meals & Entertainment" (tax-deductible)
+Learns: Next team lunch automatically categorized correctly
+95%+ accuracy vs manual 60% (users often get personal/business wrong)
+
+4. Predictive Spending (ML Models + Gemini Insights)
+
+Combines 12 months of history + seasonal patterns + behavioral clustering
+Predicts next month: "₹23.5K food spending (up 15% for Diwali). If you want ₹22K max, reduce dining out by ₹1.2K/week"
+85%+ accuracy with confidence intervals and human-readable explanations
+Result: Users warned 3-5 days before overspending, preventing ₹200-500 waste monthly
+
+5. Automatic Tax Optimization 
+
+User uploads receipt: "Business meal ₹3,500"
+Vision AI extracts details; Gemini determines: Is this deductible? Which tax section?
+It's engine calculates impact: Saves ₹1,050 at 30% tax rate
+Annual report: "Identified ₹180K deductions. Estimated tax saving: ₹54K. Here's filing checklist."
+Freelancers typically miss ₹50K-₹200K in deductions annually; TaxWise catches everything
+
+6. Proactive Contextual Alerts (Gemini + Prediction)
+
+Traditional alert: "Budget exceeded ₹100" (generic, ignored)
+TaxWise WhatsApp: " Dining at 122% budget this week. Your favorite restaurant is 40% pricier. Try [3 affordable alternatives]. If you dine 2 more times, you'll hit 60% over budget."
+Contextual, empathetic, solutions-focused
+Result: 20-30% higher engagement vs generic alerts; users actually take action
+
+7. Conversational Memory (Gemini Multi-Turn Context)
+
+Monday: "Planning to buy house in 2 years. Can I afford it?"
+Gemini: "Need ₹5L down. Current savings rate gets you ₹3.6L. Increase to ₹21K/month or delay 2.5 years."
+Wednesday: "Got ₹2L bonus!"
+Gemini (remembers house goal): "This advances your goal to 1.5 years. Invest ₹1.5L at 12%, keep ₹50K emergency. You'll have ₹7L down payment."
+True advisor experience, not isolated chatbot responses
+
+Team **Redux** -- [FREDRICK NADAR](https://github.com/fredrick-nadar), [Kamraan Mulani](https://github.com/Kamraanmu), [Rohit Gupta](https://github.com/Rohit-1301), VIVEK JAISWAL
+
+`2025-10-16`
+
+---
+
+### FinWeave
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/finweave-f5b4) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Pratham-Mishra225/Finweave.git) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://finweave.streamlit.app/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/BPCzN0vQB2o) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Gig Finance assistant
+
+![pandas](https://img.shields.io/badge/pandas-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Streamlit](https://img.shields.io/badge/Streamlit-333333?style=flat-square) ![Gemini API](https://img.shields.io/badge/Gemini%20API-333333?style=flat-square)
+
+**Description of your solution**
+
+Core Concept: A Living, Evolving **Financial Symbiote**
+Imagine an AI financial coaching agent that's not just a passive advisor but a symbiotic entity— like a digital organism that "attaches" to the user's life, feeding on their data streams to grow smarter while nourishing the user's financial health in return. Drawing from psychology (mimicking symbiotic relationships in nature to build trust and reduce decision fatigue), programming (using agentic AI with multi-agent systems for autonomous evolution), and business (scalable via API integrations with India's fintech ecosystem like UPI and gig 
+platforms), FinWeave transforms generic financial advice into a hyper personalized, adaptive "living advisor." Unlike standard apps that react to data, FinWeave proactively evolves itself as a multi-agent network.
+
+• **Data Symbiote Agent:** Continuously ingests and integrates varied streams (bank APIs, UPI transactions, gig app earnings from platforms like UrbanClap or Zomato, email receipts, calendar events for festivals/monsoons affecting Mumbai spending, and even anonymized location data for commute costs). 
+• **Pattern Weaver Agent:** Uses graph neural networks (GNNs) to "weave" a dynamic knowledge graph of the user's financial web—nodes for income spikes (e.g., freelance payouts), edges for correlations (e.g., post-gig splurges on food delivery), and anomalies (e.g., irregular dips during Mumbai rains disrupting work). 
+• **Risk Sentinel Agent:** Employs reinforcement learning (RL) to simulate "what-if" scenarios, identifying risks like overspending on Diwali shopping or low-balance alerts before rent due dates, factoring in Mumbai-specific volatilities (e.g., traffic-induced cab surges). 
+• **Nudge Architect Agent: **Delivers recommendations via psychologically tuned "micro interventions"—not bland tips, but creative, culturally resonant formats like Mumbai inspired memes, short audio "financial mantras" in Hindi/Marathi
+(generated via TTS), or AR filters showing "future you" in a Bandra cafe (saved) vs. a crowded local train (overspent).
+
+The uniqueness lies in the **symbiotic evolution loop**: The agent "learns" by observing user responses (e.g., ignoring a reminder strengthens future nudges with gamified challenges). Over time, it "mutates" its own architecture—e.g., spawning a new sub-agent for a gig worker's side hustle if patterns emerge—making each user's FinWeave instance truly one-of-a-kind, like a personalized AI pet that grows with you.
+
+The core functioning features of the MVP:
+**1) Nudges (Proactive Pattern-Based Nudges)**
+What users do:
+Upload a transactions CSV (Date, Amount, Description).
+See alerts about overspending patterns and get actionable, Mumbai-specific recommendations.
+What they get:
+Immediate highlights like “You spent ₹X on food delivery last week; cut 20% to hit your goal in Y weeks.”
+Contextual tips (monsoon buffer, fuel savings, local commute alternatives).
+How it works (intended flow):
+Parse CSV with pandas, normalize categories (food delivery, transport, fuel, groceries).
+Compute trends and thresholds (week-over-week spikes, category share of spend, irregular income volatility).
+Build a concise prompt with these stats and call GeminiAgent.generate(...) to produce clear, localized guidance.
+Render as Streamlit alerts/cards. Likely triggered on file upload or a “Analyze” button.
+
+**2) Simulations (What-If Scenario Modeling)**
+What users do:
+Set inputs: income range/volatility, fixed expenses, savings rate, savings goal.
+Toggle scenarios (reduce food delivery, increase rides, fuel price change, festival months).
+What they get:
+Time-to-goal estimates, monthly surplus/deficit projections, and impact comparisons across scenarios.
+How it works (intended flow):
+Collect inputs via Streamlit widgets (sliders/number inputs).
+Run deterministic projections (e.g., monthly cash flow and compounding toward target).
+Optionally include simple variability (best/base/worst cases).
+Summarize results and call GeminiAgent to explain trade-offs in plain language.
+Display charts/tables with pandas/Streamlit (line charts for goal progress, bars for category impacts).
+
+**3) Hive (Anonymized Peer Insights)**
+What users do:
+Click “Get Peer Tip” to receive a single, motivating, Mumbai-specific savings tip.
+What they get:
+A short, localized tip framed for gig workers.
+How it works (actual code in features/hive.py):
+On button click, creates a small mock DataFrame with two generic tips.
+Randomly samples one tip and crafts a prompt: “Make this savings tip more Mumbai-specific and motivating: <tip>”.
+Calls GeminiAgent.generate(prompt) to rewrite the tip with local context.
+Displays the result as a Streamlit warning banner.
+Notes/limitations:
+Tips are currently mock (no real peer data store).
+No persistence, tagging, or anonymization pipeline yet—just random selection + AI rewrite.
+
+**Fintech: Build an autonomous financial coaching agent that adapts to real user behavior, spending patterns, and income variability - helping gig workers, informal sector employees, and everyday citizens make smarter financial decisions proactively.**
+
+People who earn from gigs, part-time work, or irregular jobs often cannot use generic financial apps because their income and expenses do not follow a fixed pattern. The problem statement asks for an agent that can learn from each person’s unique money behavior and give advice that is personal, timely, and proactive. FinWeave does exactly that. It acts like a living AI coach that connects to a user’s real financial life — bank/UPI transactions, gig earnings, festival expenses, commute costs, receipts, etc. — and keeps learning continuously. Instead of waiting for the user to act, it watches patterns and takes initiative. It detects risks early (like festival overspending or balance drops before rent), forecasts irregular incomes, and sends reminders or nudges in a way the user is likely to accept and follow. It does not give one-size-fits-all advice ― it evolves differently for each user over time based on how they respond. The agent can even simulate “what if” outcomes to influence better decisions. In short, FinWeave fulfills the challenge by becoming a self-improving, behavior-aware, and proactive financial coaching agent built specifically for irregular and highly personal financial lives. The project is still in development phase and it's just an MVP. Our team is constantly working towards developing the Agentic AI capabilities of our project and Implementation of Bank and 3rd party API's is underway.
+
+Team **Nexus** -- [Abishta Veludandi](https://github.com/abhi0918-hub), [Tanvi Jabare](https://github.com/pr0ggrammer), [Pratham Mishra](https://github.com/Pratham-Mishra225), [Raj Mane](https://github.com/RAJ-MANE)
+
+`2025-10-19`
+
+---
+
+### ORFINA: Finance Intelligence Agent
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/orfina-the-orchestrated-finance-intelligence-agent-8c27) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Autonomous investing tuned to your behavior
+
+![Amazon Bedrock AgentCore (Agentic AI Orchestration Platform)](https://img.shields.io/badge/Amazon%20Bedrock%20AgentCore%20(Agentic%20AI%20Orchestration%20Platform)-333333?style=flat-square)
+
+**Description of your solution**
+
+ORFINA is an agentic AI ecosystem that personalizes investment decisions by continuously learning from each individual’s financial behavior, emotional profile, and evolving goals. The system constructs an Adaptive Financial Twin — a digital mirror of the investor — that dynamically simulates their financial and psychological state. It employs multi-agent collaboration to anticipate market shifts, optimize asset allocation, and manage risk intelligently at the individual level.
+
+Rather than offering static recommendations, ORFINA constantly refines its strategies using feedback loops between user behavior, market movements, and life events. By integrating reinforcement learning, market simulation transformers, and personalized risk modeling, it minimizes the investor’s exposure to volatility while maximizing returns within comfort thresholds. The outcome is a living, breathing financial entity that evolves with the person — capable of proactive, context-aware financial decision-making.
+
+**Fintech: Bring your own problem in Fintech, leveraging Agentic AI.**
+
+Problem Statement:
+Traditional financial advisory systems fail to adapt to users’ dynamic risk tolerance, emotional reactions, and changing income patterns. Investors — especially in diverse markets and volatile income conditions — need continuous, adaptive financial management that mirrors their personal and behavioral shifts. How might we create an autonomous, psychologically informed agentic AI system that evolves in real-time with each individual, optimizing investment strategies while minimizing perceived risk and financial stress?
+
+Why our project fits this problem:
+ORFINA fits this track by introducing a next-generation agentic AI architecture for personalized wealth intelligence. It transcends conventional portfolio analytics by combining behavioral finance, real-time market signals, and digital-twin personalization within a multi-agent environment. This allows ORFINA to serve as an autonomous financial coach that continuously aligns investment strategies with both who the user is and how the market behaves. The system bridges psychology, economics, and machine autonomy — delivering hyper-personalized financial evolution that scales to millions while respecting individual uniqueness.
+
+Team **Zeel** -- Diksha Sawant, Darshana Jagtap
+
+`2025-10-16`
+
+---
+
+### LedgerTalk
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/ledgertalk-e6ff) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/krZ_yC2g4OI) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> The AI Agent Finance OS for Business Owners
+
+![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![AI/ML](https://img.shields.io/badge/AI/ML-333333?style=flat-square) ![React.js](https://img.shields.io/badge/React.js-333333?style=flat-square)
+
+**Description of your solution**
+
+LedgerTalk is an **AI-powered multi-agent ** fintech platform that autonomously manages financial workflows for small and medium businesses. 
+
+- Built on a serverless agentic architecture (LangChain + CrewAI + OpenAI), it integrates with Plaid, Stripe, QuickBooks, Gmail, and Slack to deliver real-time insights, alerts, and actions. 
+- Each specialized agent — Finance, Cashflow, Sales, Research, and Compliance — collaborates via a shared context graph to execute tasks like expense analysis, invoicing, and market research. 
+- LedgerTalk transforms manual finance ops into autonomous, data-driven decision systems.
+
+**Fintech: Bring your own problem in Fintech, leveraging Agentic AI.**
+
+LedgerTalk — The Agentic AI Finance OS for Business Owners
+
+- LedgerTalk isn't just conversational — it's action-driven AI for real-world financial operations. 
+- It unifies every financial component — accounting, banking, cashflow, invoices, and analytics — into a coordinated network of intelligent agents that can think, decide, and act.
+- LedgerTalk aligns with the AI & Fintech Innovation track by combining multi-agent intelligence with real-time financial integrations to automate bookkeeping, analytics, and decision-making for SMBs.
+-  It showcases how autonomous AI systems can transform traditional fintech operations into smart, self-managing ecosystems.
+
+Team **Achievers** -- [Paarth Kothari](https://github.com/Paarthkothari), [Viresh Kumbhar](https://github.com/Viresh2408), [Darsh Kalathiya](https://github.com/DarshK25), [Tanush Jain](https://github.com/TanushJain06)
+
+`2025-10-16`
+
+---
+
+### InsurAI
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/insurai-8b38) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> AI That Makes Insurance Simple and Empowering
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![OCR](https://img.shields.io/badge/OCR-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![AI/ML](https://img.shields.io/badge/AI/ML-333333?style=flat-square) ![Natural Language Processing](https://img.shields.io/badge/Natural%20Language%20Processing-333333?style=flat-square)
+
+**Description of your solution**
+
+**Problem Statement**
+
+- Millions of Indians purchase insurance policies without clearly understanding the coverage, exclusions, or benefits.
+- Complex jargon, hidden clauses, and biased advice lead to mis-selling, under-coverage, and financial insecurity.
+- Existing insurance apps focus mainly on transactions and renewals, offering little transparency or education to the end user.
+
+**Proposed Solution**
+
+InsurAI is an AI-powered transparency and education platform that helps users understand and evaluate insurance policies in plain, local languages.
+
+Using OCR and multilingual large language models (LLMs), InsurAI:
+- Reads and interprets policy documents.
+- Detects potential mis-selling or hidden risks.
+- Educates users through interactive, personalized explainers.
+
+The platform ensures unbiased, transparent, and accessible financial guidance for every policyholder.
+
+**How It Works**
+
+1. **PolicyAnalyzer Agent**: Extracts, interprets, and summarizes policy terms (coverage, premium, exclusions) using OCR + LLMs.
+2. **TrustGuardian Agent**: Evaluates the fairness and clarity of policies, detecting misleading clauses and assigning a "Transparency Score."
+3. **EduGuide Agent**: Provides personalized, regional-language financial education modules to improve long-term literacy.
+
+These agents collaborate in real time - decoding, evaluating, and coaching users to make smarter insurance choices.
+
+**Core Features**
+
+- AI Policy Decoder - Simplifies complex policies into clear summaries.
+- Transparency Dashboard - Displays policy fairness, coverage breakdown, and premium insights.
+- Multilingual Voice Assistant - Explains findings in 10+ Indian languages.
+- Financial Literacy Hub - Delivers bite-sized explainers, quizzes, and educational nudges.
+- Verified Advisor Network - Connects users to ethical, independent insurance experts.
+- Smart Notifications - Renewal reminders and policy comparison alerts.
+
+**User Flow / Experience**
+
+- Upload / Scan Policy Document via camera or PDF.
+- AI Analysis: PolicyAnalyzer decodes terms; TrustGuardian generates a Transparency Score.
+- View Results: Interactive dashboard displays key metrics and coverage insights.
+- Learn & Improve: EduGuide recommends short, tailored learning modules.
+- Stay Informed: Receive reminders and unbiased policy recommendations.
+
+**Go-to-Market Strategy**
+
+- Strategic Partnerships: Collaborate with IRDAI, banks, and leading fintechs for credibility and integrations.
+- Public Awareness: Launch a "Know Your Policy" campaign to promote transparency.
+- Community Outreach: Distribute via WhatsApp bots, regional influencers, and financial literacy drives.
+- Trust Certification: Introduce "InsurAI Verified" badges for ethical insurance advisors and organizations.
+
+**Tech Stack**
+
+- LLMs for Document Understanding: GPT-4, Claude 3, Llama 3
+- Document Parsing: LayoutLMv3, Donut, or DocLLM + Google Vision OCR for structured text extraction.
+- Frameworks: LangChain, FastAPI, React.js frontend, MongoDB + Vector DB (FAISS / Pinecone).
+- Analytics Layer: Behavioral ML for risk scoring and pattern detection.
+
+**Data Sources**
+
+- IRDAI policy repositories and regulatory circulars.
+- Public insurer PDFs (LIC, HDFC Life, ICICI Lombard, etc.).
+- Consumer complaint datasets (mis-selling patterns).
+
+**Unique Value Proposition**
+
+- Unbiased AI Guidance: Completely independent of insurers - no conflict of interest.
+- Localized Intelligence: Explains policies in multiple Indian languages and cultural contexts.
+- Educational Empowerment: Builds understanding, not just awareness.
+- Universal Accessibility: Designed for first-time and experienced policyholders alike.
+- Self-Learning System: Continuously improves through feedback and interaction data.
+
+**Fintech: Bring your own problem in Fintech, leveraging Agentic AI.**
+
+- Addresses a critical Fintech challenge - lack of transparency and trust in insurance, a major component of personal finance.
+- Uses Agentic AI with three collaborating agents (PolicyAnalyzer, TrustGuardian, EduGuide) that analyze, evaluate, and educate users autonomously.
+- Transforms complex policy data into actionable financial insights, enabling informed and bias-free decision-making.
+- Leverages real-world insurance data, complaint logs, and regulatory sources for adaptive learning and contextual intelligence.
+- Promotes financial inclusion through multilingual explanations and voice-based interfaces accessible to all users.
+- Ensures ethical, unbiased AI guidance, independent of insurers or agents, aligning with responsible Fintech innovation.
+- Scalable architecture - can extend to other Fintech domains like credit, loans, and investments.
+
+Team **Paper Planes** -- [Vidya Makwana](https://github.com/vidyam99), Aman Loharuka
+
+`2025-10-18`
+
+---
+
+### Payments Concierge
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/payments-concierge-5865) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://docs.google.com/presentation/d/1fQwlr-y7zOiysedA0Rw21QYHmEdWEd-gjrASicqbThY/edit?usp=sharing) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Realtime payments advisory engine
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=flat-square) ![AI/ML](https://img.shields.io/badge/AI/ML-333333?style=flat-square)
+
+**Description of your solution**
+
+Problem Statement
+
+Modern personal finance tools analyze numbers but fail to understand people.
+Today’s users face:
+
+Fragmented ecosystems — insights scattered across banks, cards, and payment apps
+
+Overwhelming dashboards — too many charts, not enough clarity
+
+Lack of context — no app truly remembers your goals, habits, or spending patterns
+
+Zero empathy — static alerts instead of dynamic, human-like guidance
+
+Result: Users stay informed, but not transformed — they know what they spend, not why they spend.
+
+Solution Overview
+
+Concierge reimagines personal finance as a continuous, intelligent conversation.
+It’s an agentic AI-powered financial co-pilot that helps users manage their money, goals, and choices — all through natural dialogue.
+
+Users can simply chat:
+
+“How much did I spend on travel last month?”
+“What’s the cheapest way to buy an iPhone 17 with my cards?”
+“Help me save ₹5,000 this month.”
+"How does the new Tax Law affect me?"
+
+…and Concierge responds with contextual, actionable insights — backed by memory, reasoning, and live data.
+
+Key Differentiators
+
+Memory-Driven Context — remembers your name, cards, preferences, and financial goals across sessions
+
+Conversational First — no forms, menus, or dashboards — everything happens in chat
+
+Agentic Autonomy — perceives, reasons, acts, reflects, and explains its financial recommendations
+
+Human-Centric UX — guides users through behavior change, not just balance checking
+
+ Impact
+
+Concierge moves users from financial awareness → financial empowerment.
+It bridges the gap between analytics and action — building a personalized relationship between humans and their money.
+
+**Fintech: Bring your own problem in Fintech, leveraging Agentic AI.**
+
+Concierge is an AI-driven conversational finance assistant that helps users manage payments, goals, and insights through natural dialogue.
+Built on a FastAPI + Postgres + Streamlit stack, FinCoach combines:
+
+Conversational reasoning (intent + slot-based kernel)
+
+Financial memory bus (Postgres persistence for continuity)
+
+Domain agents for spending, saving, travel planning, and offers
+
+Users can chat naturally — “How much did I spend on travel last month?” — and Concierge fetches the insight, recommends optimizations, and logs memory for personalization.
+
+
+Moreover , Concierge would suggest financial management techniques or suggestions to save and help the user manage their finances in a more informed way
+
+Team **OldMonks** -- [Pratik Dagale](https://github.com/PratikDagale23), Tejas Kumbhar, [Dhruv Bhagatkar](https://github.com/dhruv2003), Madhav Patel
+
+`2025-10-19`
+
+---
+
+### FinSage
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/finsage-02e1) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Vansh111000/FinSage) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://finsage.streamlit.app/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/X4UOYoLWHNM) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Finance with an AI edge.
+
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![pandas](https://img.shields.io/badge/pandas-333333?style=flat-square) ![Matplotlib](https://img.shields.io/badge/Matplotlib-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Streamlit](https://img.shields.io/badge/Streamlit-333333?style=flat-square)
+
+**Description of your solution**
+
+****Problem****
+
+Managing irregular income, saving, and investing wisely is difficult, and generic advice fails to adapt to individual habits and goals.
+
+**Solution: FinSage**
+
+FinSage is an AI-powered personal finance coach that delivers personalized guidance for budgeting, saving, and investing. The platform analyzes income and expenses, detects overspending patterns, identifies savings opportunities, and provides actionable investment recommendations. Users can visualize their finances with interactive dashboards and receive reminders to stay on track.
+
+**Key Features:**
+
+- Automated Categorization: Instantly organizes income and expenses.
+
+- Smart Insights: Detects overspending and highlights personalized saving opportunities.
+
+- Investment Guidance: Suggests low-risk or goal-based investments tailored to user profiles.
+
+- Actionable Alerts: Provides practical recommendations, e.g.,
+   - “You spent 30% more on dining this month — adjust your next budget.”
+   - “Invest ₹2,000 this month in a low-risk fund to meet your goal.”
+
+- Visual Dashboards: Interactive charts for spending, savings, and investment trends.
+
+- Notifications: Reminders to keep users on track.
+
+**Pain Points Addressed:**
+
+- Difficulty tracking personal financial habits.
+
+- Overspending and missed savings opportunities.
+
+- Generic advice that doesn’t adapt to individual goals.
+
+- Provides visualization for easier analysis. 
+
+**Target Audience:**
+
+- Gig workers and freelancers with irregular income streams.
+
+- Students or young professionals seeking personalized guidance.
+
+- Anyone wanting actionable financial advice without hiring an advisor.
+
+**Go-To-Market & Revenue Streams:**
+
+- Freemium Web/Mobile App: Free basic budgeting and saving guidance; premium tier unlocks personalized investment advice, automated savings plans, and API-based bank integration.
+
+- Revenue Streams:
+
+- Subscription plans for premium features.
+
+- Affiliate partnerships with financial products and investments.
+
+****Why FinSage Works:****
+
+- Combines budgeting, saving, and investment guidance in one platform.
+
+- Personalized and actionable: adapts to user behavior using AI.
+
+- Easy to use: minimal setup, practical insights, and notifications.
+
+- Scalable & impactful: AI handles most analysis automatically, making it highly efficient.
+
+**Fintech: Build an autonomous financial coaching agent that adapts to real user behavior, spending patterns, and income variability - helping gig workers, informal sector employees, and everyday citizens make smarter financial decisions proactively.**
+
+FinSage aligns perfectly with the FinTech track’s goal of building intelligent, AI-powered financial coaching systems. It uses an advanced AI analysis engine to interpret user financial data, categorize income and expenses, detect overspending, and generate personalized, context-aware recommendations for saving and investing.
+
+Rather than retraining on user data, FinSage dynamically analyzes each user’s financial inputs to adapt its insights in real time thus, creating an experience that feels intelligent and personalized. By combining data-driven reasoning with simple visual dashboards, FinSage empowers freelancers, gig workers, and individuals with irregular incomes to make smarter financial decisions.
+
+It turns complex financial data into actionable, AI-guided insights, perfectly capturing the FinTech track’s mission of intelligent financial empowerment.
+
+Team **Allmight** -- [Vansh Kataria](https://github.com/Vansh111000), [Tanmay Lagoo](https://github.com/tanmaylagoo)
+
+`2025-10-19`
+
+---
+
+### FinanceOS: The Conversational Wealth Mentor
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/financeos-the-conversational-wealth-mentor-7597) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> “Your money. Your mentors. Your move.”
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**Description of your solution**
+
+**Problem Statement**
+
+Gen Z faces a major financial literacy and discipline gap — not due to lack of access to tools, but lack of personalized, relatable guidance. Existing finance apps focus on numbers, graphs, and automation, but fail to inspire trust or sustained engagement. Young users need mentorship that speaks their language, adapts to their mindset, and aligns with their financial philosophy.
+
+**Solution**
+
+FinanceOS is an AI-powered financial advisor that allows users to chat with digital avatars of legendary financial figures like Warren Buffett, Ray Dalio, and Naval Ravikant. Each avatar is trained on that thinker’s publicly available books, interviews, and philosophies — ensuring that every response reflects their authentic mindset and investment ideology. Users receive personalized, conversational guidance and actionable insights in card format — helping them plan budgets, set goals, and simulate outcomes instantly. By turning financial advice into an engaging, mentorship-driven experience, FinanceOS makes financial learning intuitive, interactive, and emotionally resonant for Gen Z.
+
+**Technologies & Agentic AI Approach**
+
+FinanceOS is built using Lovable/Next.js for the UI and Supabase for secure authentication, storage, and analytics.
+It leverages Agentic AI architecture via Relevance AI and n8n, where multiple specialized agents collaborate:
+
+A Conversational Agent for dialogue flow and intent understanding,
+
+A Philosophy Agent that adapts answers to each avatar’s ideology,
+
+A Financial Logic Agent for goal tracking and budget simulations,
+
+An Ethics Agent ensuring factual, transparent advice, and
+
+A Memory Agent maintaining per-avatar chat history for consistent mentorship.
+
+Together, these autonomous agents create a dynamic, human-like coaching experience — redefining how young people learn, plan, and act on their financial goals.
+
+**Fintech: Bring your own problem in Fintech, leveraging Agentic AI.**
+
+Our project, FinanceOS, fits perfectly into the Fintech: Agentic AI track as it reimagines personal financial management through autonomous, goal-driven AI agents. Instead of static dashboards, FinanceOS uses Agentic AI personas—digital avatars modeled after renowned financial experts—to deliver personalized financial coaching through natural conversation.
+
+Each avatar functions as an independent financial agent, reasoning, retrieving real-world insights, and collaborating with tool agents for budgeting, goal setting, and expense optimization. A meta-controller agent orchestrates these processes, turning advice into actionable steps on the user’s dashboard.
+
+This system applies AI autonomy, reasoning, and memory to create a proactive financial mentor that adapts to user behavior, making finance more human, interactive, and data-driven. In essence, FinanceOS transforms traditional fintech tools into an intelligent, conversational, and agent-led ecosystem.
+
+Team **Leo** -- [Manoj Siripalli](https://github.com/K), [Yash Birje](https://github.com/plz-help-me-pro), Kula Deepthi Bhumireddy
+
+`2025-10-17`
+
+---
+
+### CredoAI
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/credoai-d3d9) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> In AI We Trust, In Finance We Excel.
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square)
+
+**Description of your solution**
+
+CredoAI is an AI-powered financial intelligence agent designed to enhance trust, automate insights, and simplify financial decision-making through explainable and ethical artificial intelligence.
+
+It acts as a personalized financial companion for individuals, businesses, and financial institutions — offering secure analytics, predictive insights, and transparent recommendations in real time.
+
+**Fintech: Bring your own problem in Fintech, leveraging Agentic AI.**
+
+In the rapidly evolving world of digital finance, users struggle to make secure and informed financial decisions due to information overload, complex systems, and growing risks of fraud and bias. Traditional financial tools lack personalization, transparency, and adaptability, leading to low trust and poor decision-making among individuals and institutions.
+
+Team **Squeaky wheels** -- [Ganesh Rathod](https://github.com/ganeshur43), [Kedar Ghostekar](https://github.com/Ghosting-around), [Soham Vichave](https://github.com/Sohamvichave)
+
+`2025-10-17`
+
+---
+
+### COINCOACH.AI
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/coincoachai-680f) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://coincoach-ai.lovable.app) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Beyond coaching - your AI finance companion
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**Description of your solution**
+
+About CoinCoach-AI
+
+CoinCoach-AI is an intelligent personal finance assistant designed to make money management smarter and simpler. Powered by advanced artificial intelligence, it helps users make informed financial and investment decisions by providing personalized insights, portfolio guidance, and real-time analysis. The platform combines data-driven recommendations with an easy, conversational interface — turning complex financial concepts into understandable advice. Whether it’s tracking spending, planning investments, or learning about market trends, CoinCoach-AI acts as your 24×7 financial coach, empowering users to grow, save, and invest wisely with confidence.
+
+Team **KILLUA** -- [GEETANJALI GAUTAM](https://github.com/Geet54), [Shwetanjali Gautam](https://github.com/shwetanjali21)
+
+`2025-10-18`
+
+---
+
+### Fyne
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/fyne-3e6e) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Fyne-AI) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://fyne-ai.vercel.app) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Finance made simple
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Chart.js](https://img.shields.io/badge/Chart.js-333333?style=flat-square) ![Redis](https://img.shields.io/badge/Redis-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square)
+
+**Description of your solution**
+
+**Fyne - Finance Made Simple** is a next-generation Agentic AI financial companion designed to revolutionize how individuals and teams learn, analyze, and act on financial decisions. It merges interactive financial education, intelligent data analysis, and autonomous financial reasoning into one seamless ecosystem.
+
+**Fyne** is built around the idea that finance should be simple, visual, and actionable. It goes beyond static dashboards or basic chatbots, it learns from your behavior, analyzes your data, and helps execute meaningful actions. It’s your private financial analyst, coach, and automation engine - all powered by Agentic AI.
+
+**Key Features:-**
+
+- **AI Finance Coach:** Personalized AI agents that adapt to your goals and skill level, from basic budgeting to advanced investing. The coach explains complex concepts via dynamic visuals, stories, and real-time simulations.
+- **Autonomous Analyst:** Upload any financial document, spreadsheet, or video. Fyne's agents read, extract, and visualize key insights as graphs, charts, and clear summaries.
+- **Decision Intelligence:** Ask questions like "Where did my money go this month?" or "How can I save on taxes?" and instantly get interpretable, graph-backed insights and personalized recommendations.
+- **Gamified Learning Universe:** A mission-based learning layer turns finance into an interactive experience. Complete challenges, earn XP, and unlock real-world insights through simulated investing and budgeting missions.
+- **Collaborative Sandbox:** Invite friends, teams, or mentors to co-analyze documents or projects. Built-in discussion and annotation tools allow collective learning and collaborative review.
+- **Agentic Task Automation:** AI agents can autonomously schedule reminders, generate reports, or suggest financial moves based on activity patterns and market conditions, while maintaining strict user consent and transparency.
+- **Multimodal Intelligence:** Supports text, audio, video, and document inputs with embedded visualization responses. Users can query lecture recordings or YouTube finance content, with the AI explaining concepts through smart infographics.
+- **Ethical Explainability Layer:** Every insight includes an "AI reasoning trail", showing how the system reached a conclusion, fostering trust, accountability, and interpretability in financial AI.
+
+**Fyne** transforms finance from something to "manage" into something to experience, an adaptive ecosystem where learning, decision-making, and automation continuously improve one another.
+
+**Fintech: Bring your own problem in Fintech, leveraging Agentic AI.**
+
+1. **Fyne** addresses a foundational issue in FinTech, the gap between financial understanding, data analysis, and actionable decision-making. By embedding gamified learning and agentic analysis in one platform, it empowers individuals, students, and small businesses to take control of their finances without relying on multiple disconnected tools.
+2. **Fyne** isn't just a dashboard, it's an experience where AI explains, personalizes, and acts, creating a financially literate and confident user base.
+3. **Fyne's** architecture is rooted in autonomous cooperative agents, each performing distinct financial tasks - analysis, planning, simulation, and recommendation. These agents interact dynamically, plan their own subtasks, and integrate feedback loops to self-improve.
+4. By coupling reasoning with action, **Fyne** becomes not merely AI-assisted, but AI-driven finance, capable of evolving alongside its users. It embodies the future of intelligent, explainable, and agentically autonomous financial systems.
+
+Team **Paypal Mafia** -- [Alvin D'Souza](https://github.com/AlvinDHacker), Mihir Thakur, [Alston Soares](https://github.com/Alstudd), [Vishal Singh](https://github.com/singhvishalrajput/)
+
+`2025-10-19`
+
+---
+
+### ezMoney
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/init-f1e4) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> making your finances easy
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Flutter](https://img.shields.io/badge/Flutter-333333?style=flat-square) ![AWS](https://img.shields.io/badge/AWS-333333?style=flat-square) ![AI/ML](https://img.shields.io/badge/AI/ML-333333?style=flat-square) ![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-333333?style=flat-square) ![GenAI](https://img.shields.io/badge/GenAI-333333?style=flat-square)
+
+**Description of your solution**
+
+Our solution is an AI-powered, voice-first financial coaching agent that helps users manage their entire financial life through natural voice interactions. By combining agentic AI, emotion-awareness, multi-agent intelligence, and privacy-preserving computation, the system provides hands-free, proactive, and personalized financial guidance, acting autonomously to optimize financial outcomes for each user.
+
+Users can also:
+• Send money via voice commands effortlessly
+• Track all investments from cryptocurrency to stocks and mutual funds with real-time updates
+• Receive alerts and insights on spending patterns, investment performance, and financial goals
+
+**Key Features**
+
+*1. Voice-First, Emotion-Aware Agent*
+• Fully conversational, hands-free interface
+• Detects stress, excitement, or confusion and adapts guidance
+• Supports multilingual commands
+• Example:
+“You seem concerned about your spending this week. Would you like me to suggest ways to save?”
+
+*2. Autonomous, Agentic Financial Coaching*
+• Agentic AI continuously monitors and adapts to user behavior — income, spending, savings, and goals
+• Provides proactive alerts on overspending, missed payments, or risky financial patterns
+• Offers personalized advice for investments, loans, and budgeting, autonomously optimizing financial wellness
+
+*3. Multi-Agent Financial System*
+• Specialized AI sub-agents collaborate to achieve financial goals:
+
+- Budgeting Agent: Manages expenses and budgets
+- Investment Agent: Suggests optimal investment strategies
+- Loan Agent: Guides loans and EMIs while preserving user privacy
+- Tax Agent: Tracks deductible expenses and optimizes taxes
+
+• Sub-agents act independently and in coordination, embodying agentic AI principles
+
+*4. Financial Twin Simulation*
+• Creates a digital replica of user finances
+• Enables “what-if” scenario analysis, e.g.,
+“If I invest ₹2,000 more this month, my vacation goal will be reached 3 months earlier”
+• Provides voice-guided explanations
+
+*5. Offline Wallet-to-Wallet Payments via Mesh Network*
+• Enables wallet-to-wallet payments without internet using a Bluetooth Low Energy (BLE) mesh network
+• Transactions hop between nearby devices until reaching a gateway device with internet to process the payment
+• Fully voice-enabled and privacy-preserving, requiring PIN or OTP only at final confirmation
+• Example:
+In a low-connectivity area, a user says: “Send ₹300 to Priya’s wallet.”
+The agent encrypts and broadcasts the transaction through nearby devices. Once a gateway device submits it, the agent confirms the transfer via voice.
+
+*6. Privacy-Focused Design*
+• On-device learning (federated AI) ensures sensitive data never leaves the device
+• End-to-end encryption protects financial information
+• Transparent recommendations build trust
+• Loan or insurance options are presented without revealing user data
+
+*7. Real-Time Financial Health Scoring & Insights*
+• Computes a dynamic Financial Health Index
+• Provides actionable insights on credit usage, savings trends, and income stability
+
+**User Journey & Use Case**
+
+*1. Payments & Money Transfers*
+• Pay bills, send money, and manage transactions entirely via voice commands
+• Example: Rent of ₹15,000 is due tomorrow. The agent proactively notifies:
+“Your rent of ₹15,000 is due tomorrow. Do you want to pay it now?”
+If the user replies “Yes,” the agent guides the payment step-by-step, stopping at PIN authorization for secure confirmation.
+• Offline Wallet-to-Wallet Payments: Even without internet, users can send money to nearby friends or contacts using a mesh network, ensuring uninterrupted transactions.
+
+*2. Savings & Budget Management*
+• Raj sets a ₹40,000 monthly savings goal
+The agent continuously monitors income and spending, sending real-time nudges whenever a purchase risks breaking his budget
+
+*3. Investment Tracking & Financial Planning*
+• Track all investments including crypto, stocks, and mutual funds
+• Plan family goals such as vacations, home purchases, or retirement
+• Use Financial Twin simulations to explore “what-if” scenarios before making decisions, e.g., see how extra savings could help reach a goal earlier
+
+*4. Loan & Privacy-Preserving Guidance*
+• Compare and explore loan options or EMIs without revealing personal information
+Example: If a user wants to apply for a loan, the agent presents safe options while protecting personal data
+
+*5. Proactive Alerts & Recommendations*
+• Alerts users about upcoming rent, loan EMIs, missed payments, or investment opportunities
+• Suggests optimal actions to stay on track and maintain financial health
+
+This solution empowers gig workers, freelancers, young professionals, and families to manage finances proactively, safely, and effortlessly. By combining agentic AI, multi-agent autonomy, voice-first interactions, mesh-networked offline payments, and privacy-first design, it transforms financial management into an intuitive, proactive, and hands-free experience.
+
+**Fintech: Build an autonomous financial coaching agent that adapts to real user behavior, spending patterns, and income variability - helping gig workers, informal sector employees, and everyday citizens make smarter financial decisions proactively.**
+
+Our solution is a fully autonomous financial coaching agent that continuously monitors real user behavior, spending patterns, and income variability, making it ideal for gig workers, freelancers, informal sector employees, and everyday users. By leveraging agentic AI, the system acts proactively sending real-time nudges, suggesting optimal investments, tracking budgets, and alerting users about upcoming bills or EMIs, ensuring users never overspend and can meet their financial goals efficiently.
+
+Unlike traditional apps, our solution adapts dynamically to each user’s behavior, simulates “what-if” scenarios using Financial Twin, and enables both online and offline wallet-to-wallet payments, allowing users to manage their finances proactively, hands-free, and safely, even in low-connectivity environments.
+
+In short, it embodies the hackathon track’s focus by being autonomous, adaptive, and proactive, turning financial management into a personalized, real-time, and agent-driven experience for everyday citizens.
+
+Team **init 0** -- [Shivam Musterya](https://github.com/musteryasm), [Aryan Kyatham](https://github.com/ARYANK-08), [Aryan Surve](https://github.com/XeHunter), [Aditi Gaikwad](https://github.com/uyaditi)
+
+`2025-10-19`
+
+---
+
+### TaxEase AI
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/taxease-ai-4058) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/AdityaB-11/taxease-ai) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://drive.google.com/drive/folders/17GnlKl_vONbxRyheaWimGCoF0Iota_AP?usp=sharing) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/fg35aDwR0BA) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Simplifying Taxes with Conversational AI
+
+![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![Llama 3.1](https://img.shields.io/badge/Llama%203.1-333333?style=flat-square)
+
+**Description of your solution**
+
+**TaxEase AI** is a smart conversational assistant that helps Indian users file their taxes easily. It’s built using **Retrieval-Augmented Generation (RAG)** on top of **Llama 3.1**, so it can understand questions, pull accurate tax rules, and explain them in simple terms.
+
+The agent uses **verified data** from **official Indian tax sources** and combines it with AI reasoning to give clear answers about deductions, exemptions, and filing steps. Users can upload their documents, ask tax-related questions, and get quick, reliable help based on the latest laws.
+
+ The system combines a **local knowledge base of verified Indian tax rules**, **government notifications**, and budget updates with AI-driven reasoning. When users upload financial documents or ask questions, the agent retrieves relevant **laws, deduction sections (like 80C, 80D, 24B)**, and** computation rules**, then generates clear, compliant explanations and filing recommendations.
+
+Key features :
+
+**Context-aware tax query answering using RAG**
+
+**Auto-detection of applicable deductions and rebates**
+
+**Document and receipt analysis for tax category classification**
+**Interactive conversational interface for step-by-step tax filing guidance**
+
+We’ll launch TaxEase AI as a free web app during the 2026 tax season to attract early users, focusing on collaborations with fintech platforms and CA networks. Revenue will come from a freemium model offering premium filing features, API licensing for fintech integrations, and affiliate partnerships with financial products. This approach builds trust, scales quickly, and creates multiple income channels.
+
+**Fintech: Bring your own problem in Fintech, leveraging Agentic AI.**
+
+TaxEase AI directly addresses one of the most time-consuming and error-prone areas in personal finance that is tax filing. By combining AI-powered financial analysis with conversational automation, it helps users manage, calculate, and file their taxes efficiently. It brings accessibility and intelligence to the fintech domain through automated tax management, document parsing, and regulation-aware computation.
+
+Team **CodePlay** -- [Harsh Chaurasiya](https://github.com/hashhhh32/EcoSort.git), [Harikrishna Gurrapu](https://github.com/Harikrihnagurrapu), [Shubham Bhandary](https://github.com/shubhamb025), [Aditya Bhogil](https://github.com/AdityaB-11)
+
+`2025-10-19`
+
+---
+
+### Runway
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/runway-0f31) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Beyond Budgeting
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Natural Language Processing](https://img.shields.io/badge/Natural%20Language%20Processing-333333?style=flat-square) ![langchain](https://img.shields.io/badge/langchain-333333?style=flat-square) ![LLM](https://img.shields.io/badge/LLM-333333?style=flat-square) ![RAG](https://img.shields.io/badge/RAG-333333?style=flat-square)
+
+**Description of your solution**
+
+The core problem is that traditional financial apps and budgeting tools are designed for people with stable, fixed incomes. They fail to help **gig workers, informal sector employees, and everyday citizens** who experience highly variable income and erratic spending patterns. This leads to common, high-stress financial pitfalls like suddenly running out of cash, falling into easy debt traps, and spending impulsively.
+
+Our solution, **Runway AI**, is an autonomous financial coach that proactively steers users away from financial danger using personalized AI agents built on their bank data.
+
+### **How Runway AI Works (Problems & Solutions)**
+
+#### **1. Data Foundation: Creating "Financial Features"**
+
+We start by taking a user's bank statement data and converting it into powerful, smart features. Instead of just seeing "Coffee - \$5," we extract:
+
+* **Income Volatility Score:** How unpredictable is their salary/paycheck?
+* **Behavioral Spending Triggers:** What causes them to spend money carelessly?
+* **True Expense Velocity:** How fast are they actually burning cash?
+
+This personalized data forms the "brain" and memory of our AI system.
+
+#### **2. Problems Solved by Dedicated AI Agents**
+
+| Problem We Solve | The Solution (AI Agent) | How it Helps the User |
+| :--- | :--- | :--- |
+| **Running out of Cash / Income Gaps** | **Runway Predictor Agent** | It calculates the **"Payment Runway"**—the exact number of days until a user’s bank balance hits a critical low point. It gives proactive, specific alerts to manage the gap *before* it becomes a crisis. |
+| **Falling into Debt Traps (Credit Card / Easy EMI)** | **Trap Prevention Agent** | It looks at a user's spending features to identify **early warning signs** (like increasing minimum payments or frequent small loans). It intervenes *before* a high-risk purchase is made with a behavioral nudge (e.g., "This purchase moves your Runway back by 5 days"). |
+| **Impulsive / Carried Away Spending** | **Behavioral Nudge Agent** | It uses the user's past behavior to recognize when they are about to overspend. Instead of just saying "Don't spend!", it provides a tailored, non-judgmental nudge at the critical moment to encourage a better decision. |
+| **Struggling with Savings and Goals** | **Smart Goal Management Agent** | It automatically finds small, safe amounts of "found money" based on real-time cash flow and moves it toward a goal. It helps the user set goals that are actually achievable based on their volatile income pattern. |
+
+#### **3. The Technology Advantage (Personalized Advice)**
+
+We use **Retrieval-Augmented Generation (RAG)**. This means our AI coaching advice is not generic ("Save 10%"). It is generated by accessing the user’s deep, time-embedded data ("Based on your spending spike two weeks ago, we suggest reducing dining out by \$20 this week to maintain your 15-day Runway"). This makes the coaching highly relevant, trustworthy, and effective.
+
+In short, we are building an intelligent, autonomous financial co-pilot that adapts to the chaotic financial lives of the modern worker, providing **proactive protection and personalized guidance.**
+
+**Fintech: Build an autonomous financial coaching agent that adapts to real user behavior, spending patterns, and income variability - helping gig workers, informal sector employees, and everyday citizens make smarter financial decisions proactively.**
+
+## Alignment with Problem Statement: Runway AI
+
+The Problem Statement calls for an **autonomous financial coaching agent that adapts to real user behavior, spending patterns, and income variability** to help specific populations (gig workers, informal sector employees) make **smarter decisions proactively.**
+
+**Runway AI** is engineered precisely to meet every part of this requirement, moving beyond traditional finance tools to offer *agentic, behavioral* coaching.
+
+### **1. Core Alignment with the Problem Statement**
+
+| Problem Statement Component | How Runway AI Delivers |
+| :--- | :--- |
+| **Autonomous Financial Coaching Agent** | The system is composed of several specialized, independent AI Agents (Runway Predictor, Trap Prevention, Goal Management) that operate continuously, make reasoned decisions, and execute actions (like sending personalized nudges) without constant human prompting. |
+| **Adapts to Real User Behavior, Spending Patterns, and Income Variability** | This is the core innovation. We use bank statement data to generate behavioral features (Income Variability Index, Spending Triggers) and use **time-based memory (RAG)** to ensure the coaching adapts as the user's financial life changes. |
+| **Helping Gig Workers, Informal Sector Employees...** | The focus on **Runway** over traditional *budgeting* (which assumes fixed income) directly serves these populations, whose primary concern is cash flow stability, not expense tracking. |
+| **Make Smarter Financial Decisions Proactively** | The system intervenes *before* a mistake occurs (e.g., stopping a user from signing up for an easy-EMI before they finalize the transaction), making the coaching truly proactive. |
+
+***
+
+### **2. Solving the Three Main Problems**
+
+#### **Problem A: Calculating Payment Runway**
+
+* **Solution:** **Runway Predictor Agent**
+* **Mechanism:** For users with variable income, a monthly budget is meaningless. The agent uses historical transaction data and the **Income Variability Index** (a feature quantifying pay unpredictability) to predict the user’s likely cash low point.
+* **Proactivity:** It doesn't wait for the end of the month. It constantly calculates the **"Days to Zero"** (the Runway) based on the user’s current spending velocity and alerts the user when the Runway drops below a safe threshold (e.g., 14 days), enabling immediate course correction.
+
+#### **Problem B: Preventing Credit Card Traps, Debt Traps, and Carried Away Spending**
+
+* **Solution:** **Trap Prevention Agent** and **Behavioral Nudge Agent**
+* **Mechanism:** These agents monitor for subtle behavioral shifts—not just large debt, but the *precursors* to debt (e.g., a sudden increase in dining out after a bonus, or making only the minimum payment for three consecutive months).
+* **Proactivity:** The agents use behavioral science (like scarcity or anchoring) to deliver personalized nudges  at the point of action. For example, if a user attempts a large carried-away purchase, the agent intervenes with a soft alert: "Warning: This purchase will reduce your safe Runway by 6 days. Do you wish to proceed?" This friction forces a smarter decision.
+
+#### **Problem C: Creating Goal-Based Smart Personal Investment Plans and Coaching**
+
+* **Solution:** **Smart Goal Management Agent**
+* **Mechanism:** Since income is variable, fixed monthly savings are impossible. This agent uses the **True Expense Velocity** feature to identify "found money"—small, unexpected surpluses that are safe to save—and automatically sweeps this money towards a user's defined goal (e.g., "Save for a new laptop").
+* **Coaching:** The agent uses RAG to explain why a goal is *currently* off-track in the user's specific context ("Your goal saving rate dropped this week because your average grocery spend has increased 15%"). It helps set adaptive, flexible goals that adjust automatically with income flow.
+
+***
+
+### **3. Relation to the Hackathon Theme: Generative AI (Gen AI)**
+
+**Runway AI is fundamentally a Gen AI product** because it utilizes the core principles of Generative AI and Large Language Models (LLMs) to move from simple data aggregation to complex reasoning and personalized output:
+
+1.  **Agentic Architecture:** The creation of specialized, autonomous AI agents is a key application of Gen AI, where LLMs are used not just for conversation but as the *reasoning engine* that determines the best financial action.
+2.  **Retrieval-Augmented Generation (RAG):** The advice provided is *generated* by an LLM, but it is **augmented** (or grounded) by retrieving the most relevant, time-stamped facts from the user's personal financial features and history (the "memory"). This ensures the ou
+
+Team **AuraFin** -- Aditya suryawanshi, Chinmay Ingale, Devashish Kanhere, Pratik Chaudhari
+
+`2025-10-19`
+
+---
+
+### FinWise
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/finwise-8a0c) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://finwise.samyak003.in) [![Built at](https://img.shields.io/badge/Built%20at-NexHack-0052CC?style=flat-square)](https://nexhack.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> AI-Powered Personal Finance Assistant
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square)
+
+Team **Phoenix** -- Samyak Jain, Aditya Mishra, [Ritwik Kapoor](https://github.com/RedK22/), Vaibhav Bharthi
+
+`2025-09-20`
+
+---
+
+### AgentPay
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/ledgerai-cfdb) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://agentpay.ledgerpe.com) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/Bs8apWb0BB0) [![Built at](https://img.shields.io/badge/Built%20at-mosAIc:%20AI%20in%20action%20with%20The%20Product%20Folks-0052CC?style=flat-square)](https://mosaicbytpf.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Making payments as easy as sending a text
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![Elevenlabs](https://img.shields.io/badge/Elevenlabs-333333?style=flat-square)
+
+**The problem it solves**
+
+AgentPay lets AI agents make real payments on their own with policy guardrails, preflight checks, and an audit‑ready ledger removing the last‑mile payments bottleneck and making autonomous spend **safer** and a true **game‑changer** for real‑world automation.
+
+## What it is
+- Intent‑hold‑execute APIs with deterministic policy traces and guidance, real‑time fraud checks, optimal‑rail routing, idempotent retries, signed webhooks, and a double‑entry unified ledger.  
+
+## Why it wows
+- Turns denials into passes by telling agents exactly how to succeed next time (reduce amount, wait window, switch merchant) so they adapt without humans and keep shipping.  
+- Proven “3 days to 3 minutes” shift in approval‑to‑payment cycles for workflows like procurement and subscriptions, delivering visible speed and ROI in demos and pilots.  
+
+## Built with
+- ElevenLabs powers a voice‑first demo flow—talk to the agent, it plans, preflights, and pays with lifelike, multilingual speech via TTS APIs for instant feedback loops .  
+- Windsurf’s agentic IDE accelerated build time with Cascade‑style multi‑file code edits, previews, and deploys inside the editor for rapid hackathon iteration and polish.  
+
+## Trust by design
+- SOC2/PCI‑ready architecture with AML/KYC integrations, explainable decisions, and audit‑grade logs so finance and compliance teams can scale agent autonomy with confidence.
+
+**Challenges we ran into**
+
+Ran into duplicate payments from network retries because POST /payments lacked an atomic lock around the Idempotency-Key, so a replay could create two ledger entries; adding a Redis-style SETNX with TTL and returning the first stored response resolved the race cleanly for the demo.  
+
+Webhook events occasionally arrived out of order under transient failures, letting payment.failed hit before payment.processing; switching to HMAC‑signed payloads with exponential‑backoff, redelivery, and per‑event sequencing stabilized downstream state in the listener.  
+
+Timezone math in policy guidance produced a wrong nextwindow across IST boundaries, causing the planner to loop; making nextwindow timezone‑aware and always returning maxallowednow turned denials into one‑shot auto‑adjust approvals without human intervention.
+
+**All Registered Participants**
+
+I have used windsurf extensively to build AgentPay and would love to continue using it to build more
+Here's a screenshot of my project inside windsurf!
+![image](https://assets.devfolio.co/content/1890c207b453421ebfdb8c6b72bde749/1cc10aef-d290-46be-a7f1-fa64147742c4.png)
+
+**All Registered Participants.**
+
+I have used eleven labs to build my converstaional agent interface which is at the forefront of the user experience making it all the more richer thanks to elevenlabs
+
+[Dylan Moraes](https://github.com/Dljdd)
+
+`2025-09-07`
+
+---
+
+### TaxMantri
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/taxmantri-57c7) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Aniruddhapal-01/METAMORPH-2K25-V0.git) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/6XV9xBYCS68) [![Built at](https://img.shields.io/badge/Built%20at-MetaMorph-0052CC?style=flat-square)](https://metamorph.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Stop Wrestling With Tax
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Express.js](https://img.shields.io/badge/Express.js-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![API3](https://img.shields.io/badge/API3-333333?style=flat-square)
+
+**The problem it solves**
+
+This project solves the problem of complex and confusing tax planning for individuals and professionals. Most people struggle with understanding which tax regime benefits them more, how to calculate liabilities like advance tax or capital gains, and what deductions or investments can reduce their overall tax burden. By providing a conversational AI-powered Tax Assistant that connects a modern frontend with a backend powered by Gemini AI, the project makes tax advice accessible in simple, interactive language. Instead of reading lengthy tax documents or hiring expensive consultants, users can quickly ask personalized questions, compare regimes, estimate liabilities, and discover savings opportunities — all in real time from a single, user-friendly application.
+
+![image](https://assets.devfolio.co/content/c9c6f02cad8f4088bc6ec224126934a6/7f3e26c4-7ccc-40a1-bd15-133771cec245.jpeg)
+
+**Challenges we ran into**
+
+Backend–Frontend Integration
+
+Your frontend runs on one port (like 8081) while the backend runs on another (3031), which caused CORS errors and fetch request failures.
+
+Resolving this required setting up proper CORS handling in Express and making sure API calls pointed to the correct backend URL.
+
+Switching AI Providers
+
+Initially, the backend used OpenAI’s GPT models, but migrating to Gemini 2.0 Flash required changes in the SDK, API keys, and response handling.
+
+The challenge was understanding differences in model invocation and adapting code to work with a new AI provider.
+
+Error Handling & Stability
+
+Fetch errors and server crashes happened when the backend didn’t return structured responses.
+
+You had to add better error checks (if (!res.ok)) and fallbacks so the chat wouldn’t break.
+
+Frontend State Management
+
+Managing chat history, typing indicators, and quick question shortcuts in React needed careful state updates.
+
+Handling cases like empty messages, slow responses, and showing “AI is typing…” indicators added extra complexity.
+
+Environment Variables & API Security
+
+Storing and using API keys securely required .env setup both for the backend (Gemini key) and optionally the frontend (API URL).
+
+Without this, keys risked being exposed in code.
+
+Team **Binary Bandits** -- [Maniratna Roy](https://github.com/maniratna123roy), [Aniruddha Pal](https://github.com/Aniruddhapal-01), [Chayan Mal](https://github.com/Chayan4505), [BIKI GHOSH](https://github.com/BIKIGHOSH02)
+
+`2025-09-07`
+
+---
+
+### Budgle
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/budgle-4c7f) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://app.clacky.ai/vnc?host=3a80a88f44b4f257beaa5eb8a9cb8a62-agentserver.clackypaas.com) [![Built at](https://img.shields.io/badge/Built%20at-Hack%20Quanta-0052CC?style=flat-square)](https://hack-quanta.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Budget for people
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+THE PROBLEM IT SOLVES:
+1)Missed expense tracking
+2)Difficulty in categorizing transactions
+3)Lack of clarity on savings & spending patterns
+4)Security risks with handling sensitive financial data
+
+Budgle solves these problems by providing a smart, secure, and AI-powered financial assistant.
+
+What People Can Use It For:
+1)Expense Tracking → Automatically categorizes daily spending (Food, Travel, Shopping, etc.) and lets users add custom categories.
+2)Budget Planning → Helps set monthly/weekly budgets and gives real-time alerts to avoid overspending.
+3)Smart Insights → Uses AI to analyze spending habits and suggest better saving strategies.
+4)Rewards & Savings → Encourages saving by offering reward points and gamified milestones.
+5)Shared Wallets → Makes it easier and safer to manage money with family or friends.
+6)Secure Transactions → Blockchain integration ensures data transparency, safety, and trust.
+
+**Challenges we ran into**
+
+1)Handling Sensitive Data Securely
+Challenge: Since the app deals with financial transactions, ensuring data privacy and security was a big hurdle.
+Solution: We implemented encryption protocols for storing data and explored blockchain integration to provide transparency and security.
+
+2)AI Categorization of Expenses
+Challenge: Training the AI model to correctly auto-categorize expenses (like Food, Travel, Shopping) was tricky, especially when users had very personalized spending habits.
+Solution: We added a default set of categories and also allowed custom user-defined categories, while continuously improving AI classification through feedback.
+3) Frontend–Backend Integration
+Challenge: Syncing the frontend UI with the backend APIs caused bugs like data not updating in real-time.
+Solution: We used REST APIs with Express.js and debugged the asynchronous calls to make sure the app updates smoothly.
+4) Chrome Compatibility Issues
+Challenge: The app worked in some browsers but showed unexpected bugs in Chrome.
+Solution: We carefully debugged JavaScript compatibility issues, optimized CSS, and tested across browsers until it ran consistently.
+
+Team **Night Owl** -- [Deepak Dhoundiyal](https://github.com/arakshit1410), [Rakshit Dogra](https://github.com/arakshit1410), [Samakhya Sharma](https://github.com/arakshit1410), [Siddharth Narula](https://github.com/Siddharth-Narula)
+
+`2025-09-06`
 
 ---
 
@@ -15490,6 +20469,3304 @@ https://www.youtube.com/watch?v=5I_L9Ss64b0
 Team **Snickers** -- [Anish Kumar](https://github.com/Sarcastic-Soul), [Parth Patel](https://github.com/parthwhy), [Amrit Singh](https://github.com/Amritsingh101), [Anshul Pratap Lakra](https://github.com/LakraAnshul)
 
 `2025-11-15`
+
+---
+
+### Lucent
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/lucent-77bc) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/W0NB0N/lucent-fintech) [![Built at](https://img.shields.io/badge/Built%20at-hackCBS%208.0-0052CC?style=flat-square)](https://hackcbs-8.devfolio.co)
+
+> illuminate your finances
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square)
+
+**The problem it solves**
+
+Problem Statement
+
+Managing personal and shared finances is often fragmented, time-consuming, and lacks intelligent insights. Most users rely on multiple apps—one for budgeting, another for investments, and yet another for expense sharing—without a unified view of their overall financial health.
+
+Additionally, existing solutions either focus on individual expense tracking or basic analytics but fail to offer AI-driven insights, group collaboration features, or actionable financial recommendations tailored to user behavior.
+
+⸻
+
+Core Problems We Are Solving
+
+1. Lack of Unified Financial Visibility
+People struggle to understand their complete financial picture across savings, expenses, investments, and goals because data is scattered across multiple tools and accounts.
+
+2. Inefficient Group Expense Management
+Managing shared expenses among friends, families, or teams (like trips, flatmates, or projects) often leads to confusion and manual settlements due to poor transparency and lack of automated calculations.
+
+3. Absence of Personalized Financial Insights
+Users receive generic budgeting suggestions that don’t reflect their real financial behavior. There’s no AI layer that interprets transactions, predicts spending trends, or recommends smarter saving strategies.
+
+4. Cognitive Overload in Financial Decision-Making
+Most users find financial tracking intimidating or tedious. They need intuitive dashboards that simplify data and provide actionable insights without requiring deep financial knowledge.
+
+5. Limited Financial Awareness and Goal Tracking
+People often set financial goals (like saving for a trip, emergency fund, or investments) but lose track of progress. There’s no intelligent system to connect daily habits with long-term goals.
+
+**Challenges we ran into**
+
+Challenges Faced
+
+1. Technical Challenges
+CORS Policy Restrictions
+Connecting the Flask backend and Vite frontend caused CORS errors due to missing headers and preflight failures. The issue was resolved by configuring Flask-CORS correctly and adding global response headers to ensure all routes returned proper access control headers.
+
+Backend Errors and API Instability
+The AI Insights endpoint frequently returned HTTP 500 errors because of response structure mismatches with the Gemini API. The function was refactored with structured exception handling and dynamic response parsing to handle inconsistent API outputs.
+
+Data Synchronization Between Backend and Frontend
+Differences in response field names (e.g., merchant vs description) caused undefined data on the frontend. The issue was fixed by standardizing key names and adding null-safe rendering in React components.
+
+Vercel Deployment Failure (404 Error)
+After deployment, Vercel returned a 404 error because the platform could not detect the correct build output. Adding a vercel.json configuration file specifying the build and routing fixed this issue.
+
+Database Relationship and Serialization Issues
+Expense data was stored successfully but not displayed on the frontend due to improper relationship mapping and missing model imports. This was fixed by refreshing the database session and serializing related models properly.
+
+JWT Authentication and Token Validation
+Requests were being rejected due to missing or expired tokens. The frontend was updated to auto-create or re-login users when no valid token was found, improving reliability across API requests.
+
+⸻
+
+2. Business Challenges
+Integration of Financial APIs
+Finding and integrating reliable, free-tier financial APIs (like Finnhub for market news) was challenging due to limited requests and inconsistent data formats.
+
+AI Insight Validation
+Generating financially meaningful insights from the Gemini model required iterative prompt tuning and handling unpredictable model responses, impacting result accuracy.
+
+Product Scope Alignment
+Balancing technical complexity (AI, analytics, and finance tracking) with development speed was difficult. The scope had to be optimized to deliver a functional MVP within time constraints.
+
+Deployment and Environment Management
+Maintaining consistent environments between local and production was a recurring challenge due to differing configurations, environment variables, and ports.
+
+User Experience and Data Clarity
+Designing a dashboard that communicated complex financial data clearly required multiple UI iterations to maintain visual balance and functional clarity.
+
+**Best Use of Gemini API**
+
+uses gemini api to extract image text, classify food items, and provide ai insights
+
+Team **Wet Water** -- [Samriddhi Bhardwaj](https://github.com/Samriddhi1101), [Archit Sharma](https://github.com/kuro6666), [Vanshav Bhalla](https://github.com/W0NB0N), [Arnav Singla](https://github.com/2arnav4)
+
+`2025-11-09`
+
+---
+
+### PayGO
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/paygo-d512) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/HrushikeshAnandSarangi/paygo.git) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://paygo-theta.vercel.app/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/nHfsWnM3BIw) [![Built at](https://img.shields.io/badge/Built%20at-CodeUtsava%209.0-0052CC?style=flat-square)](https://codeutsava-9.devfolio.co)
+
+> Turn Invoice Chaos into Cash Flow Control
+
+![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![OCR](https://img.shields.io/badge/OCR-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Microsoft Azure](https://img.shields.io/badge/Microsoft%20Azure-333333?style=flat-square)
+
+**The problem it solves**
+
+PayGo eliminates the manual, time-consuming process of extracting data from inconsistent invoice formats. Companies receive thousands of invoices in different layouts—text PDFs, scanned documents, emails—forcing AP teams to manually read, interpret, and re-enter information into accounting systems.
+Specific Pain Points Addressed:
+1. Operational Bottleneck
+
+Manual processing can't scale with business growth
+AP teams spend hours on repetitive data entry instead of strategic work
+Processing delays create cash flow management issues
+
+2. Inconsistent Data Formats
+
+Every vendor uses different invoice templates and layouts
+Rule-based extraction systems fail with format variations
+No standardization across incoming documents
+
+3. High Error Rates
+
+Manual data entry leads to typos and misreadings
+Incorrect amounts, dates, or vendor details cause payment errors
+Duplicate payments and missed invoices cost money
+
+4. Financial Risks
+
+Late payment fees from processing delays
+Incorrect payments due to data entry mistakes
+Compliance issues from poor documentation
+Lost early payment discounts
+
+5. Inability to Scale
+
+Growing companies need to hire more AP staff linearly
+Training new employees is time-intensive
+Human capacity limits transaction volume
+
+6. Lack of Visibility
+
+No real-time insights into invoice status
+Difficulty tracking payment obligations
+Poor cash flow forecasting due to manual processes
+
+**Challenges we ran into**
+
+1. Handling Special Characters and Encoding
+
+Challenge: When rendering currency symbols like ₹, the image generation library (Pillow) threw encoding errors (UnicodeEncodeError: 'latin-1' codec can't encode character).
+
+Why it happened: The default font used by Pillow (ImageFont.load_default()) doesn’t support Unicode characters like the rupee symbol.
+
+How it was fixed: Replaced the symbol with "Rs." or used a Unicode-compatible font like "DejaVuSans.ttf" when available.
+
+🧠 2. Managing Font Styles and Layout
+
+Challenge: Aligning text properly and making it visually appealing (e.g., positioning columns neatly).
+
+Why it happened: Pillow doesn’t provide built-in layout or alignment helpers, so all positions had to be manually calculated.
+
+How it was fixed: Used consistent spacing (y_text += 40) and manually adjusted x coordinates for keys and values.
+
+⚙️ 3. Data Formatting
+
+Challenge: Converting numeric values (like tax or total amount) into readable currency formats.
+
+Why it happened: The raw data had decimal numbers, and formatting inconsistencies could make the image less professional.
+
+How it was fixed: Formatted numbers with two decimal places and currency prefixes (e.g., Rs. 62,232.30).
+
+🧾 4. Missing or Low-Confidence Data
+
+Challenge: Some fields such as due_date and gst_number had a "nil" value or low confidence score.
+
+Why it happened: The extracted data likely came from an OCR or invoice parsing model, which might not detect all fields accurately.
+
+How it was fixed: Set default or manually corrected values (e.g., replacing "nil" with the correct due date 2025-11-07).
+
+🧰 5. Generating and Saving the Image
+
+Challenge: Ensuring the image saved correctly and in the expected format (PNG) with correct file paths.
+
+Why it happened: File paths can differ depending on runtime environments.
+
+How it was fixed: Used absolute paths (/mnt/data/invoice_summary.png) to ensure consistent saving and easy access.
+
+🚀 6. Scalability & Styling
+
+Challenge: Making the design easily extendable if more invoice fields are added later.
+
+How it was fixed: Structured the data as a dictionary, allowing dynamic generation of rows without hardcoding each line.
+
+Team **Meta_Cognition** -- [Kunal Kushwaha](https://github.com/kunalkushwahatg), [Hrushikesh_Anand Sarangi](https://github.com/faker581), [ISTAPRASAD PATRA](https://github.com/techwizard31), [Sujal Kumar Agarwal](https://github.com/TANJIRO1709)
+
+`2025-11-07`
+
+---
+
+### CyberNomads - Presentation
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/cybernomads-presentation-ebf1) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Yasho321/CU) [![Built at](https://img.shields.io/badge/Built%20at-CodeUtsava%209.0-0052CC?style=flat-square)](https://codeutsava-9.devfolio.co)
+
+> An AI approach to Invoice Handling
+
+![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square)
+
+Team **CyberNomads** -- [Nitesh Kumar](https://github.com/niteshkumar6263), Sankalp Mittal, [Yashovardhan Singh](https://github.com/Yasho321), [Prasann Trivedi](https://github.com/Prasann3)
+
+`2025-11-07`
+
+---
+
+### ReXcan
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/rexcan-1f20) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Shauryacious/ReXcan) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://drive.google.com/file/d/1g1tPfCV1LNxUsdfVnlkQA9ZsfINbKVL5/view?usp=sharing) [![Built at](https://img.shields.io/badge/Built%20at-CodeUtsava%209.0-0052CC?style=flat-square)](https://codeutsava-9.devfolio.co)
+
+> Intelligent Invoice Processing Automation
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+Team **KIRMADA** -- [Shaurya Bansal](https://github.com/Shauryacious), Raghav Mahajan, [Sundram Rai](https://github.com/Sundramrai3691), [Srijan Agrawal](https://github.com/Srijan4O4)
+
+`2025-11-07`
+
+---
+
+### The Firm
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/the-firm-a4f8) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://thefirm.biz) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/CjykJWRIOXU) [![Built at](https://img.shields.io/badge/Built%20at-Base%20Batches%20002:%20Builder%20Track-0052CC?style=flat-square)](https://base-batches-builder-track.devfolio.co)
+
+> The eccentric finance firm that ships
+
+![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+Our offering splits into two parts:
+
+1 - The community & PDA (Growth)
+2 - AutoBuy (Product 1)
+
+To dive into each:
+
+**The Community & PDA**
+The Firm is an eccentric brand and LARP community which serves as a trojan horse for getting eyes onto our crypto products. 
+
+As our first step, we’re building an eccentric & fun brand world that people want to be a part of, regardless of what we’re selling. Making use of lessons and community/growth mechanics we’ve learnt while building various viral internet projects, we’re gathering people within a sticky community that’s both easy and genuinely entertaining to contribute to. 
+
+We’ll then begin releasing products specifically built for that audience, to a group of people who are already loving the world we’ve built. The day before this submission, we launched a ‘company issue PDA device’ (A Farcaster mini-app skinned like a 90s PDA) which acts as a companion app and engagement booster for the community channel. It rewards contributions and specific actions with HorsePower (HP) points. Some quick stats from the launch:
+
+- Blanket Farcaster virality, with thousands of organic posts
+- Onboarded >10k people in one day, giving massive visibility to The Firm and a solid foundation community to build on top of
+- Became #2 mini-app on Farcaster
+- Organic posts about The Firm from key industry figures including:
+  - Jesse from Base (340k followers) 
+  - @dwr (353k) and @v (275k) - cofounders of Farcaster
+  - Plus a host of the biggest names on Farcaster including @0xdesigner (148k), @farcasteradmin.eth (91k), @linda (256k), @toadyhawk.eth (86k), @matthew (140k), @grin (78k), @pugson (153k) and many more.
+
+This mini-app and buzzing community will become invaluable as we move to release our first product. The HorsePower (HP) users have accrued will act as the gating mechanism for everything that comes next - all managed through the PDA, which >10k people have installed, with notifications enabled.
+
+**AutoBuy**
+
+The Firm’s first product release is named AutoBuy.
+
+In our alpha, users can automatically buy new tokens the instant they’re launched by social accounts they follow. We index Base in real time, identify new deployments, and use the Farcaster social graph to link token deployers back to social accounts - executing trades within < 3 blocks.
+
+Based on the reaction to this alpha, we will prioritise one of two directions:
+
+A) Enabling token creators to use AutoBuy as launch infrastructure: i.e. an embeddable “Buy the minute our token goes live” button or landing page that lets them line up guaranteed buyers and initial liquidity before launch. A rapid feedback loop with projects keeps us aligned while iterating on this b2b version of the product.
+
+B) Positioning AutoBuy as the ‘If This Then That’ (IFTTT) for on-chain execution. Or, if Zapier could make you a 400x…
+
+- IF a high profile social account Clanks, THEN buy it
+- If your favourite undiscovered dev Clanks, buy it
+- If a miniapp finally launches the project coin they’ve been teasing, buy it
+- If Jesse tweets “Base is for everyone”, buy $BASE is for everyone
+- If late night orders spike at takeaways closest to The Pentagon, buy gold
+- If BTC fear and greed tips into ‘extreme greed’, sell…
+
+**Challenges we ran into**
+
+A few issues we’ve solved so far:
+
+- Our first pass at AutoBuy relied heavily on a specific third party dependency for trade execution which proved unreliable. This was a blessing as it allowed us to rethink our architecture and build an intuitive interface for users - completely ‘owning’ trade execution in the process. We pair the great UX of the native Farcaster wallet with creating Privy embedded wallets that delegate signing authority to our server. This allows us to execute a trade on behalf of a user with only a transferFrom approval from them - allowing the user to retain custody of their assets until it’s time to buy.
+- For a period our small team was developing AutoBuy and the viral Employee PDA miniapp simultaneously - context switching from our Quicknode stream delivering blocks to an Encore webhook which triggers a Temporal workflow (AutoBuy), into building a canvas element which mimics users physically signing an e-ID was jarring.  In the end to maximise our chances of a successful PDA launch - we focused entirely on the PDA for the final 10 days.
+- Instantly hitting $499/m plans on services like Privy (until their COO onboarded and hooked us up)
+- Developing community management tactics on the fly as >10,000 people onboard within 24 hours
+- Handling AI slop and low effort contributions in the community with will over time degrade our brand
+
+**Link to the GitHub Repo of your project**
+
+https://github.com/the-firm-biz/base-batches-02
+
+**Live URL of your project**
+
+https://thefirm.biz
+
+**What is your product’s unique value proposition?**
+
+**Unique value:**
+- Ability to instantly buy tokens from accounts you follow or track, within <3 blocks (no other existing consumer platform offers this)
+- IFTTT for onchain execution 
+- Brand world, community, and unique marketing ability are a strong differentiator and, importantly, moat. As The Chairman once said: “Ideas can be copied, The Firm cannot.”
+- As AI coding tools and developments that lower the barrier to building in crypto (like Lovable for creating apps, Privy for wallets or Syndicate for bespoke chains) the barrier to entry becomes incredibly low. We believe that building a trusted, entertaining brand which is able to draw the attention of thousands of people to its offerings to be one of the most valuable assets a company can have in crypto, and beyond.
+
+**How our community, brand & PDA alpha will validate this:**
+
+- Prove organic community interaction via our ‘80s Wall St LARP
+  - 20+ organic LARPing/roleplay posts from community members per week ✅ Achieved (hundreds of organic posts daily) 
+- Prove growth mechanics work via launch of our PDA Farcaster Mini-App to funnel new community members into our channel, then AutoBuy
+  - Onboard 5,000 channel members via PDA mini-app ✅ Achieved (10,000 channel members onboarded in 24 hours)
+  - Become featured app on Farcaster ✅ Achieved
+  - Become top 3 app on Farcaster at launch ✅ Achieved (Currently #1 at time of writing)
+- Prove we can convert community members to 
+  - Over 20% conversion rate from PDA to AutoBuy users
+- Prove AutoBuy works technically
+  - Link new Clanker token launches to Farcaster social accounts within <3 blocks after launch
+  - Execute trades for those tokens within <6 blocks after launch
+  - Provide 100 alpha users with a >200% trade through AutoBuy
+
+**Who is your target customer?**
+
+We will initially target active Farcaster users while we create a standout channel and community experience, offering them a tool to auto-buy launches using a deployer they’re already very familiar with (Clanker), tracking creators and projects they already know about that are pre-token. We already have evidence of the brand and community appealing with a very high-signal initial community group.
+
+Once we find a fit with a niche, we will progressively support automations which have a less Farcaster/crypto-native audience: i.e. buy when Robinhood announces trading for a token.
+
+Lastly, the cultural cache that we build via the brand and community growth will be leveraged to open up conversations with small, startup Base project creators - our third target audience for the b2b waitlist’ AutoBuy product described above, if data suggests there is opportunity in the product.
+
+**Who are your closest competitors and how are you different?**
+
+We do not see the competitors for AutoBuy as sniper bots, but rather, portfolio automation tools (re: IFTTT for crypto) or launchpads releasing ‘buy instantly on launch’ functionality. We want to create products not just for degens in the trenches, but for your everyday crypto holder who doesn’t have time to keep tabs on the latest janky Telegram trading bot or launches from one of 50 new Pump.fun clones. That’s where brand, trust and exceptional UI/UX gives us a major advantage.
+
+Our moat, as mentioned, is brand and community - which is far more defensible than a pure technological advantage. If AutoBuy’s core functionality is replicated by an existing player with greater distribution which makes our offering obsolete, we can quickly pivot or move to our next release until we strike gold, with the weight of our community behind us.
+
+**What is your distribution strategy and why?**
+
+- Building genuinely excellent, novel products. No amount of marketing or hype will work if the product underneath is not incredibly well designed, effective, and allows users to achieve something they couldn’t before. We follow Superhuman’s approach to testing PMF.
+- Community first. As we intend to introduce various products over time (with AutoBuy being the first in a series of complimentary apps/services) we need to build a solid community and fanbase of people who excitedly await the next release, and are ready to dive in to use anything we launch.
+- Viral loops & game design mechanisms baked into every stage of our products. I.e.
+  - PDA mini-app for Farcaster which will 10x our community size through clever design & game design
+  - Shareable screens/moments at key UX moments within AutoBuy (‘You caught $TOKEN within 15 seconds of launch!’) not dissimilar to Hyperliquid’s incredibly successful shareable images
+  - Releases and happenings focused solely on expanding the lore of The Firm and our eccentric brand world, like a real fragrance named ‘Dividend Noir’ (with scent notes of $100 bills, CRT monitors and luxurious mahogany desks), or an IRL hackathon in a dreary NYC office trapped in the ‘90s, which participants must wear suit & tie to enter.
+
+We’re choosing this approach as they have proven to be massively effective in building Marty’s existing projects to millions of users and tens of millions in revenue.
+We’re building on Farcaster to form our early community, but know we will hit a saturation point and plan to graduate to larger channels (X, Telegram) when the time is right.
+
+Team **The Firm** -- Barry Bigeon, [Jeffrey (Computer Operator)](https://github.com/jeffrey-computers)
+
+`2025-10-24`
+
+---
+
+### Dexbase
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/dexbase-25e1) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://app.dexbase.ai/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=wNqNfYjmvSk) [![Built at](https://img.shields.io/badge/Built%20at-Base%20Batches%20002:%20Builder%20Track-0052CC?style=flat-square)](https://base-batches-builder-track.devfolio.co)
+
+> #1 AI-powered Trading terminal on Base .
+
+![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![Golang](https://img.shields.io/badge/Golang-333333?style=flat-square) ![cloudflare](https://img.shields.io/badge/cloudflare-333333?style=flat-square) ![NuxtJS](https://img.shields.io/badge/NuxtJS-333333?style=flat-square) ![k8s](https://img.shields.io/badge/k8s-333333?style=flat-square)
+
+**The problem it solves**
+
+Creator economy on base is booming but Information Overload
+
+Traders face thousands of new content coin & creator coin listings daily, making it impossible to manually sift through volatile metrics like market cap, liquidity, volume, and transaction patterns without missing early investment opportunities (alpha)
+Lack of Advanced Trading Tools and Terminals on Base
+
+Traders transitioning from Solana to Base miss high-speed, integrated terminals for sniping, auto-buy/sell, and MEV protection, leading to slower execution and missed alpha in volatile markets like creator coins.
+
+**Our Solution
+**
+Dexbase is the first AI-powered trading terminal on Base with speed, precision, and built for the creator economy. Discover tokens in real-time, analyze with deep insights, track smart money, and execute trades seamlessly to crush risks and stack wins.
+
+**Challenges we ran into**
+
+Our Journey Building DexBase: From Market Chaos to AI-Powered Solutions
+
+In early 2025, as Base's creator economy surged with thousands of daily coin launches, our team faced massive hurdles: overwhelming data noise and lacking tools for fast trading. Beta feedback from Solana migrants highlighted the mess—missed alpha from manual metric tracking and clunky executions. We iterated through crashes and latency issues, but our AI tech team, masters of onchain data processing, turned it around by deploying 1,000+ agents to analyze petabytes of transactions in real-time. Here's how we solved key pains:Ultra-fast trading for Creator Coins on @zora and Base App
+
+**Link to the GitHub Repo of your project**
+
+https://github.com/kv-base-hack
+
+**Live URL of your project**
+
+https://app.dexbase.ai/
+
+**What is your product’s unique value proposition?**
+
+- Smart Money tracking – top 1000 trader positions: Millions of txs crashed prototypes; AI anonymized and filtered behaviors over timeframes, delivering whale insights without logins. supported
+- AI Score System to find early alpha: Early models flagged rugs as winners; backtesting refined it to 85% accuracy, scoring tokens amid floods to highlight gems. supported
+- Ultra-fast trading for Creator Coins on @zora: Zora API glitches caused delays and MEV exploits in tests; AI-optimized gas and predictions fixed it. supported
+- Smooth portfolio tracking: Fragmented wallets led to inaccurate P&L; AI scanners aggregated sources, adding real-time alerts for risks and gains. supported
+
+**Who is your target customer?**
+
+Our target customers are active crypto traders and degens (25-40 years old) in the Base creator economy, mainly Solana migrants with $10K-$500K+ portfolios. They trade 1,000+ daily content/creator coins, seeking speed, alpha, and MEV protection. Predominantly male (65%), urban North American/European, active on X/Discord.
+
+**Validation:
+**
+- X User Observations (n=50+ posts analyzed, 2025): Monitored reactions to trading pains on Base—78% of Solana-to-Base migrants vented about slow execution (e.g., "Took 8 mins to verify & trade, missed 3x alpha" [@KingJulesPaul]) and clunky discovery, confirming demand for faster tools. 
+![image](https://assets.devfolio.co/content/57250d6c973940ac83f11635d2b04033/22633ad2-7e34-4f1e-a9fa-6d4597785bc0.png)
+
+Beta Feedback (100+ users): 85% retention, NPS 8.7/10. Users said, "Trading feels effortless now—found a 5x alpha in minutes!" 70% would pay $50-200/month for AI scoring, highlighting less time spent finding gems.
+
+**Who are your closest competitors and how are you different?**
+
+**Our closest competitors in the Base creator economy trading space are:
+**
+- Higher_bot: A Telegram-based sniping bot for fast meme coin trades on Base and Solana, focusing on automated buys and basic alerts.
+- Axiom: A multi-chain web trading terminal supporting spot, limits, and MEV protection across Solana, Ethereum, and expanding to Base.
+- GMGN.ai: An AI-driven platform for copy trading, sniping, and wallet tracking, optimized for Solana memes but with multi-chain tools including Base.
+- BullX: A multi-chain DEX terminal for memecoins on Base, Solana, and others, offering real-time charts, limits, and copy trading via Telegram.
+
+**What Makes Dexbase Different:
+**
+
+- AI-Powered Alpha Hunting: Unlike Higher_bot's basic sniping or BullX/GMGN's chart-focused tools, Dexbase deploys 1,000+ AI agents to analyze petabytes of onchain data in real-time, delivering 85% accurate token scoring for early gems amid 1,000+ daily Base launches—cutting manual sifting by 50%.
+- Creator Coin Specialization: While Axiom and BullX handle general memes, Dexbase is tailored for Base's creator economy (Zora integration), with ultra-fast execution (<1s trades) and MEV protection optimized for content/creator coins, bridging Solana migrants' speed needs.
+- No-Login Smart Insights: Competitors like GMGN require wallet connections for tracking; Dexbase offers anonymized whale monitoring of top 1,000 traders without logins, plus seamless portfolio aggregation with real-time P&L alerts.
+- End-to-End Efficiency: Beyond Axiom's limits or Higher_bot's alerts, Dexbase combines discovery, trading, and risk alerts in one terminal, validated by 100+ beta users reporting 3x more alpha snipes with less effort.
+
+**What is your distribution strategy and why?**
+
+Our distribution strategy centers on transforming Dexbase into a Creator Coin on BaseApp/Zora, outbound direct co-marketing with projects traded on Dexbase, and an AI-driven signal system to naturally attract and engage users. Here’s why this approach helps us find Product-Market Fit (PMF):
+
+- Creator Coin Launch on BaseApp/Zora: By launching Dexbase as a creator coin, we tap into the organic hype and community interest within Base’s thriving creator economy. We’ll use reward fees and platform fees to buy back content and creator coins on Zora and BaseApp, reinvesting into the ecosystem to boost liquidity and engagement. This tactic attracts traders and degens who are naturally drawn to innovative projects, allowing us to test demand and refine our value proposition based on their engagement and feedback.
+- Outbound Direct Co-Marketing with Projects Traded on Dexbase: We’ll proactively reach out to projects traded on our platform for co-marketing campaigns, promoting each other to our respective audiences. To incentivize adoption, we’ll offer fee discounts and special perks for users and holders of those tokens when trading on Dexbase. This collaborative effort expands our reach within the Base ecosystem, helping us validate which features resonate with users and align with their trading needs, guiding us toward PMF.
+- AI Signal System: Our AI-driven signals, designed to highlight potential alpha opportunities, serve as a magnet to pull traders into the Dexbase platform. This approach lets us gauge user response to real-time insights, iterating based on adoption rates and trading activity to confirm what drives value and retention—key indicators of PMF.
+
+- This strategy leverages Base’s dynamic creator economy and our AI capabilities to organically build a user base, offering a feedback loop to refine our product. By aligning with community trends, incentivized co-marketing collaborations, and data-driven signals, we can pinpoint the perfect fit for our audience of tech-savvy traders seeking efficiency and alpha.
+
+[Dexter Degen](https://github.com/kv-base-hack)
+
+`2025-10-17`
+
+---
+
+### CortEx
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/cortex-171f) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://centre-blush.vercel.app/chat) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/YFJZ6E-FLIU) [![Built at](https://img.shields.io/badge/Built%20at-Base%20Batches%20002:%20Builder%20Track-0052CC?style=flat-square)](https://base-batches-builder-track.devfolio.co)
+
+> Trading journal with your personal AI assistant
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![Speech Recognition](https://img.shields.io/badge/Speech%20Recognition-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![Vercel](https://img.shields.io/badge/Vercel-333333?style=flat-square) ![Supabase](https://img.shields.io/badge/Supabase-333333?style=flat-square)
+
+**The problem it solves**
+
+CortEx is designed with the purpose of giving users an oversight on the market which tends to be highly impulsive and frenzy-driven. Trade journaling enables investors  to reflect on their decisions and understand how their behavior impacts their investments. It gives reality checks and provides tools to assess the bigger picture because in a highly active online crypto world, which tends to create bubbles where people can miss out on important information (Crypto Twitter, r/wallstreetbets), they make uninformed decision, leading them to loose money. This app is for any long-term oriented users who are actively looking for better tools to navigate the crypto community.
+
+**Challenges we ran into**
+
+figuring out how to set up the trade fetching. I am using alchemy to fetch on chain data and I had to figure that not every transaction received by the api is a swap on a dex so I had to figure out all the dexes router addresses and and scan through every transaction and check if it was a swap and calculating the USD price of the coin on that given timestamp was not included so I had to set up the conversion on the blockchain, but because not every coin has a stablecoin swap pair I added a 2 hop chain where it would check for a COIN/WETH pair to then get the USD price by checking the WETH price. Also because there are so many new tokens created constantly every moment of the day alchemy would not have records of smaller coins so it needs to fetch in a multi step fashion where it first checks if alchemy has the records and if it doesnt it falls back to checking the DEX
+
+**Link to the GitHub Repo of your project**
+
+https://github.com/mansurbib/cortex
+
+**Live URL of your project**
+
+https://centre-blush.vercel.app/
+
+**What is your product’s unique value proposition?**
+
+Coinbase has a huge customer base of 120 million users who are mainly Gen Z or Millennials. This is a comparatively young investor base compared to the traditional stock market. Many young people lack financial education or foresight of their investments with a highly disorganizing and quickly growing market in the crypto space where coins and projects are being started everywhere. This environment fosters lack of overview and frenzy driven investments where 40% of traders drop out after 3 months and over 90% never make a profit, where only 1.6% generate profits after fees. This app is an additional layer of rational oversight and emotional regulation between impulse and action. By journaling the reasoning behind each trade, CortEx helps users build self-awareness of their behavioral patterns, identify costly emotional biases, and develop the psychological discipline necessary for long-term investment and trading success. Rather than another trading tool promising easy profits, CortEx addresses the root cause of failure: poor decision-making driven by FOMO, fear, and lack of systematic reflection.
+
+ While most trading apps focus on signals and execution, CortEx targets the 90% failure rate by addressing trading psychology. Our alpha build validates this approach through
+  AI-powered features that turn raw journal entries into actionable insights: automated sentiment analysis reveals emotional patterns, behavioral cost tracking quantifies how
+  much FOMO or revenge trading costs in real dollars, and category performance shows which reasoning types (technical vs. social vs. gut) actually make money. The app detects
+  trades automatically and prompts immediate journaling to capture emotions before rationalization sets in
+
+**Who is your target customer?**
+
+Our target customer is the 25-35 year old Base trader earning $50k-$150k who's been trading 6-18 months, realizes their losses are psychological, and values self-improvement. We've validated this through Base's 33.9M user demographics (70-80% under 40, middle-income, active traders). With 90% of Base's ~10M active traders never achieving profitability, our addressable market exceeds 9 million users who need exactly what CortEx provides: systematic self-awareness that turns trading from emotional gambling into disciplined practice.
+
+  - 90%+ of crypto traders never make a profit(widely cited across crypto research)
+  - within two years traders lose 36.3% of trading account value and 75% quit
+  - only 1.6% making a profit after fees with emotional decision-making (FOMO, panic selling, revenge trading) and missing the whole information landscpae being the primary reasons for losses
+
+Coinbase maintains 3.9/5 stars on Trustpilot with 95% negative review response rate, but faces persistent complaints about account lockouts and email-only support. Binance's has a 1.4/5 star rating with many being fake, having 80%+ reviews being one-star complaints about account holds and 40+ day support wait times. The industry's focus on trading features over user outcomes creates a gap by differentiating with a product meant for protection
+
+Meditation apps charging $12-15 monthly for self-control tools achieve significant scale, with Calm generating $150+ million annual revenue. regular users of self-control tools are ready to pay $21.95-41.00 monthly, way more than casual users at $4.90-5.90
+
+**Who are your closest competitors and how are you different?**
+
+[Betterment](https://www.betterment.com/), [Wealthfront](https://www.wealthfront.com/), [Acorns](https://www.acorns.com/), and [Stash ](https://www.stash.com/) have successfully implemented behavioral interventions in traditional investment contexts, providing validated templates for crypto application. Betterment's tax impact preview achieves 80% reduction in taxable account allocation changes when projected tax bills exceed $50, demonstrating that certain cost friction effectively deters impulsive decisions. The platform's $16 billion AUM and Net Promoter Score of 51 validate market acceptance of technology-enabled behavioral nudges when implemented transparently. 
+
+They do not have the access to the very low friction customer base of coinbase which have easy access to the base app and no measurements of crypto investment journaling. they have behavioral finance oriented system to mitigate impulsive trading and investment but not with journaling as it infeasable to track stocks bought because it is in no way as transparent as the blockchain
+
+**What is your distribution strategy and why?**
+
+* our approach would be a base social app presence representing a stark contrast by reacting  to online social influencer hype, showing empirical evidence as an answer to hype videos and posts and link our app as a really good toll to mitigate that. We would focus on popular videos across multiple social media platforms like instagram and twitter to create this clear contrast (see [drmaxbutterfield ](https://www.instagram.com/drmaxbutterfield/) wih 1.4 million followers by reacting to relationship advice, presenting domain expertise and giving empirical evidence and at the end linking to his products)
+
+* partnerships with ethical influencers where the fanbase would be more likely to be interested as they are already in the sphere (hint: meditation apps being mainly advertised by meditation gurus)
+
+* the community would be oriented towards solidarity as we would create that contrast leading to higher retention
+
+[Mansur Bibulatov](https://github.com/MansurBib/)
+
+`2025-10-25`
+
+---
+
+### alpha-pilot
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/alphapilot-6fea) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://app.alpha-pilot.net/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/zJp9mdFijok) [![Built at](https://img.shields.io/badge/Built%20at-Base%20Batches%20002:%20Builder%20Track-0052CC?style=flat-square)](https://base-batches-builder-track.devfolio.co)
+
+> we made trading easier.
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![WebSockets](https://img.shields.io/badge/WebSockets-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square)
+
+**The problem it solves**
+
+Pain points:
+Current strategy analysis and backtesting are complex, time-consuming, and inaccessible.
+
+Solution:
+From “Charts” to “Evidence”:
+- Automatically use real historical data to statistically validate patterns and backtest—outputting expected frequency, win rate, and time windows.
+- Not just plotting, but showing: “This pattern appeared X times in history, with Y% win rate.”
+
+From “High Barrier” to “Zero Barrier”:
+- No-code: Click-based workflows let even beginners run validations.
+- AI Agent: Automates strategy building, backtesting, and optimization, cutting human trial-and-error.
+
+**Link to the GitHub Repo of your project**
+
+https://github.com/Edw2001/ai-chart-studio-backend
+
+**Live URL of your project**
+
+https://app.alpha-pilot.net/
+
+**What is your product’s unique value proposition?**
+
+We’re uniquely qualified because we’ve been both traders and builders. I personally built a full quant trading system for myself - real-time strategies, execution, and portfolio management - so I know the pain retail traders face. Our CPO brings product expertise from Yale MBA and Google, while our advisor is a quant researcher at Citadel, giving us insight into how world-class hedge funds operate. With engineers from fintech and AI backgrounds, we combine hands-on trading experience, cutting-edge quant research, and Silicon Valley product execution. We’re not guessing at the problem - we’ve lived it and already solved it for ourselves.
+
+**Who is your target customer?**
+
+RIA Registered Investment Advisors: About 16,000 firms, 92.7% have fewer than 100 employees, 57.4% have fewer than 10 employees
+
+Small Funds: AUM < $500M, with Emerging Managers making up the majority
+
+Pain Points: Lack of in-house quant and backtesting platforms; heavy reliance on technical analysis tools.
+
+Total Size: ~160 million retail investors (62% of adults participate in stock investment)
+
+Technical Analysts: ~40–52 million (25%–33%)
+
+Beginner: 60% (24–31 million)
+
+Intermediate: 35% (14–18 million)
+
+Advanced: 5% (2–2.6 million)
+
+Core Target Group: Beginner + Intermediate ≈ 38–49 million (95% share)
+
+**Who are your closest competitors and how are you different?**
+
+Most trading tools today are either too shallow or too complex. TradingView is great for charts, but it still requires scripting in Pine and manual backtesting. TrendSpider automates pattern recognition, but its features are overwhelming and still lack statistical grounding. QuantConnect is powerful, but it’s built for professional quant teams, not retail traders—it requires coding, cloud setup, and months of learning.
+
+Alpha Pilot is different. We’re the only platform that combines real historical data with zero-code validation and AI interpretation. Instead of staring at charts or writing code, retail traders can click, ask, and instantly see evidence-backed strategies. This takes something that normally requires hundreds of hours or a quant background and makes it accessible to millions of retail traders in seconds.
+
+**What is your distribution strategy and why?**
+
+We’ll build an active online community around data-driven investing, using platforms like Reddit (r/investing, r/CanadianInvestor), X (FinTwit), and Discord.
+
+We’ll publish transparent backtests, “Quant Insights of the Week,” and educational explainers showing how factor investing and algorithmic signals can help everyday investors make smarter decisions.
+
+This creates trust and organic engagement—critical for retail investors who are skeptical of “get-rich-quick” tools.
+
+We’ll publish blog posts, YouTube videos, and newsletter insights that simplify complex quant concepts (e.g., momentum signals, Sharpe ratios, drawdowns) into actionable insights.
+
+Each content piece links directly to a live demo or freemium dashboard, turning education into acquisition.
+
+Collaborate with credible personal finance creators and investment educators (e.g., those focusing on Canadian ETFs, stock analysis, or quant investing).
+
+Partner with investing newsletters, Discord trading communities, and fintech podcasts for co-branded demos.
+
+Team **alpha pilot** -- [Judy Zhu](https://github.com/zhuzhuxia078)
+
+`2025-10-24`
+
+---
+
+### Baseberry
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/baseberry-f8c8) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Miny-Labs/Baseberry) [![Built at](https://img.shields.io/badge/Built%20at-Base%20Batches%20002:%20Builder%20Track-0052CC?style=flat-square)](https://base-batches-builder-track.devfolio.co)
+
+> Gasless USDC payouts & credits for hackathons.
+
+![BASE](https://img.shields.io/badge/BASE-333333?style=flat-square)
+
+**The problem it solves**
+
+Hackathon organizers, student clubs, and small teams routinely face weeks‑long delays for reimbursements and prize payouts due to manual approvals, bank rails, and scattered tooling, which a Base‑native flow can compress into minutes with passkeys, sponsored gas, and native USDC settlement.​
+Baseberry provides instant, gasless USDC payouts, automated approvals, and a resource hub for API credits/rate‑limit extensions delivered inside a Base Mini App and web, so participants don’t touch ETH or complex wallets while organizers get auditable on‑chain receipts and identity via Basenames
+
+**Challenges we ran into**
+
+Passkey sessions across web and the Base Mini App needed careful handling to re‑establish the smart wallet context after deep links and to gate “major actions” with fresh passkey confirmation using Base Account primitives.
+
+​
+
+Configuring sponsored transactions and batched operations required aligning spend permissions with UI states to ensure recipients never saw gas prompts while approvals still remained verifiable.
+
+​
+
+Choosing the correct USDC on Base (native, not bridged) and wiring test deployments without confusing USDbC addresses was critical for predictable settlement and demos.
+
+​
+
+Basename claim/display flows had to be optional but prominent, so non‑crypto users got readable identities without blocking core payout actions.
+
+​
+
+Telegram Mini App deep links sometimes opened outside the secure webview; routing back for passkey‑required actions needed signed intents and a clear “open in app” path.
+
+​
+
+Repo‑aware automation (credits, stack detection) required GitHub API usage and code search indexing, rate‑limit planning, and safe parsing for large monorepos.
+
+**Link to the GitHub Repo of your project**
+
+https://github.com/Miny-Labs/Baseberry
+
+**What is your product’s unique value proposition?**
+
+Baseberry is the first Base‑native ops assistant that combines passkey smart wallets, sponsored transactions, and native USDC with an AI agent that can act onchain, understand codebases, and run chat‑native workflows for events and clubs end‑to‑end.​
+The alpha validates this by shipping one‑tap passkey onboarding, gasless batch USDC payouts, Basename identity, and agent‑assisted approvals/credits inside a Base Mini App and web, proving non‑crypto users can complete invite→payout in under minutes with auditable on‑chain receipts.
+
+**Who is your target customer?**
+
+Primary users are hackathon organizers and student club treasurers in India (expanding globally), who organize via Devfolio‑listed events and need faster payouts, resource distribution, and lightweight compliance without new overhead.​
+Secondary users are small global teams and community projects that coordinate in Telegram and would benefit from chat‑native approvals, expense capture, and instant USDC settlement without holding ETH or extensions.​
+
+**Who are your closest competitors and how are you different?**
+
+| Competitor         | URL                                                          | Focus                                                        | How Baseberry differs                                        |
+| ------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Request Finance    | https://request.finance                                      | Crypto invoicing/payroll for enterprises [request](https://www.request.finance) | Wallet‑native passkeys, sponsored gas, and Base Mini App flows for micro‑reimbursements/prize splits vs. invoice‑heavy enterprise workflows [base+1](https://www.base.org/build/base-account). |
+| Superfluid         | https://superfluid.finance                                   | Real‑time streaming payments [superfluid](https://docs.superfluid.finance/docs/concepts/superfluid) | Approvals‑driven, batched USDC payouts and reimbursements with agent automation, not continuous salary streams [cdp.coinbase](https://docs.cdp.coinbase.com/agent-kit/welcome). |
+| 0xSplits           | https://splits.org                                           | Trustless split primitives [splits](https://splits.org)      | Full ops layer: approvals, Basenames, credits marketplace, and agent automation vs. raw split contracts [base](https://www.base.org/names). |
+| Bitwage            | https://bitwage.com                                          | Global crypto payroll/invoicing [bitwage](https://bitwage.com) | Event/club‑first UX with one‑tap passkeys and sponsored fees; no extensions or employer payroll setup required [base](https://www.base.org/build/base-account). |
+| Toku               | https://www.toku.com                                         | Token compensation & compliance [toku](https://www.toku.com) | Lightweight event ops, credits, and instant prize payouts vs. long‑cycle token payroll/compliance stacks [cdp.coinbase](https://docs.cdp.coinbase.com/agent-kit/welcome). |
+| Coinshift          | https://blog.coinshift.xyz/introducing-flexible-mass-payouts-in-multiple-tokens | Safe‑based treasury ops [coinshift](https://blog.coinshift.xyz/introducing-flexible-mass-payouts-in-multiple-tokens) | Passkey smart wallets + Mini App UX for non‑crypto recipients, plus agent‑run approvals and resource provisioning [base](https://www.base.org/build/base-account). |
+| Rapyd Mass Payouts | https://docs.rapyd.net/en/mass-payouts-overview.html         | Web2 fiat batch payouts [rapyd](https://docs.rapyd.net/en/mass-payouts-overview.html) | Native on‑chain USDC, programmable approvals, and wallet‑native experiences with optional off‑ramps [circle](https://www.circle.com/blog/usdc-now-available-natively-on-base). |
+
+**What is your distribution strategy and why?**
+
+Wallet‑native discovery via a Base Mini App for one‑tap actions (Accept Prize, Claim Credits, Approve Reimbursement), meeting users where they already hold identity and balances.
+
+​
+
+Community partnerships with Devfolio‑listed hackathons to run instant prize splits and credits provisioning as design‑partner pilots in India, creating visible, repeatable case studies.
+
+​
+
+Chat‑native assistant via Telegram Mini App + bot for reminders, receipt capture, and deep‑linked secure approvals, matching the coordination habits of organizers and teams.
+
+​
+
+Sponsor co‑marketing using Coinbase Payments/USDC stack to highlight instant settlement and transparent reporting, driving resource marketplace growth alongside payouts.
+​
+
+Team **miny labs** -- [Hitakshi Arora](https://github.com/hitakshiA), [Akash Mondal](https://github.com/akash-mondal)
+
+`2025-10-25`
+
+---
+
+### fintech_pro
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/fintechpro-a71d) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://youtu.be/JxLQYk3YhSI) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/JxLQYk3YhSI) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co)
+
+> The CA in your pocket
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![OCR](https://img.shields.io/badge/OCR-333333?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![OpenAi](https://img.shields.io/badge/OpenAi-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**Description of your solution**
+
+To explore this, I built a simple “𝐕𝐢𝐫𝐭𝐮𝐚𝐥 𝐓𝐫𝐲-𝐎𝐧” feature for e-commerce sites.
+
+Here’s how it works:
+
+ 👕 Right-click any clothing item online
+
+ 🖼️ Upload your own photo
+
+ ✨ Instantly see how it looks on you
+
+What’s exciting is not just the feature itself, but how accessible it is to build:
+
+🧠 AI Brain: Google’s gemini-2.5-flash-image-preview model handles all the image generation.
+
+ ⚡ Backend: A lightweight Python + FastAPI service connects everything.
+
+ 🖥️ Interface: A Chrome extension adds the feature directly to your browsing experience.
+
+ ☁️ Infrastructure: GCP for hosting, MongoDB for user data.
+
+No massive infrastructure overhaul. No complex model training. Just a powerful layer of intelligence that can sit on top of existing websites.
+
+This “integrate-and-enhance” approach could unlock so much:
+
+ 🏡 Stage furniture in your home while browsing online stores.
+
+ 🎨 Preview new wall colors on your actual walls before purchase.
+
+ 🚗 Test car colors and customizations virtually.
+
+ 📈 Generate personalized marketing visuals instantly.
+
+Team **fintech_pro** -- [Kuldeep Pawar](https://github.com/Kuldeep), [Aniruddha Kulkarni](https://github.com/anirk2000)
+
+`2025-10-15`
+
+---
+
+### Fincoach AI
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/finpilot-ff68) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://fincoachai.vercel.app/) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co)
+
+> Your personalized finance coach and assistant
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![Firebase Authentication](https://img.shields.io/badge/Firebase%20Authentication-333333?style=flat-square)
+
+**Description of your solution**
+
+**Fincoach AI**
+Fincoach AI is an intelligent financial advisor for delivery partners, gig workers, and daily wage earners who often deal with unpredictable expenses and inconsistent incomes.  The platform helps users track their income, manage their spending, and set savings goals in addition to offering personalized financial advice that fits their lifestyle.
+
+Fincoach AI will take care of the rest; users just need to enter their goals, income, and expenses.  An AI-driven recommendation engine is used to suggest suitable financial services, such as stocks, insurance, gold, and micro investments, ensuring that each user receives advice tailored to their unique financial circumstances.
+
+The app's voice and text chat features in 12 major Indian languages remove language barriers and make financial literacy accessible to all. While Sarvam AI's language model facilitates intelligent conversations, n8n automation handles background tasks like reminders, summaries, and notifications. A solid tech stack of Next.js, PostgreSQL, and Firebase Authentication ensures performance, scalability, and data security.
+
+Fincoach AI helps India's informal and gig workers make better financial decisions on a daily basis by transforming financial management from a taxing chore into a proactive, inclusive, and empowering experience.
+
+![image](https://assets.devfolio.co/content/a7b007f496a5425e90a94bc2e4250879/f86d6199-a6bd-4dfe-bf04-2f17cd433358.png)
+
+**Fintech: Build an autonomous financial coaching agent that adapts to real user behavior, spending patterns, and income variability - helping gig workers, informal sector employees, and everyday citizens make smarter financial decisions proactively.**
+
+Fincoach AI is created specifically for India's gig workers, delivery partners, and daily wage earners. It is a financial companion that helps users take control of their finances by analyzing their goals, income, and expenses to offer personalized guidance and insightful information. The Recommendation System Based on user inputs, Fincoach AI suggests suitable financial services and investment options, from gold and stocks to insurance tailored to individual needs. Controlling Spending Users may gain a better understanding of where their money is going and how to manage it by simply tracking, categorizing, and optimizing their expenditures. All-Inclusive Platform The app's voice and text chat features in 12 major Indian languages enable users of all locations and literacy levels to receive financial advice. AI and automation with the help of Sarvam AI's extensive language model and n8n workflows, Fincoach offers intelligent advice and automates financial tasks. robust tech-stack the platform is designed to be safe, scalable, and responsive with Next.js, PostgreSQL, and Firebase Authentication, enabling it to grow with its users. Fincoach AI changes financial management from passive tracking to proactive coaching, enabling India's gig economy with impactful, inclusive, and intelligent solutions.
+
+Team **helix** -- [Aniket Bhaskar](https://github.com/aniketbhaskarr), [Shubham Renuke](https://github.com/Shubham2346), [Vishank Singh](https://github.com/vishank020)
+
+`2025-10-16`
+
+---
+
+### PocketTrip
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/pockettrip-19ba) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Shriya-Shetty/PocketTrip_MumbaiHacks) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/PDXNH8QgWb8) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co)
+
+> Set your budget, we'll set your plan.
+
+![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Streamlit.io](https://img.shields.io/badge/Streamlit.io-333333?style=flat-square) ![Twilio Rest API](https://img.shields.io/badge/Twilio%20Rest%20API-333333?style=flat-square) ![Supabase](https://img.shields.io/badge/Supabase-333333?style=flat-square) ![Gemini API](https://img.shields.io/badge/Gemini%20API-333333?style=flat-square)
+
+**Description of your solution**
+
+PocketTrip is an Agentic AI-based travel finance assistant that simplifies group trip planning, budgeting, and expense management. Managing group finances during travel often becomes chaotic — from splitting costs fairly to staying within budget. PocketTrip automates this entire process through AI-driven planning, expense parsing, and intelligent recommendations.
+
+It acts like a personal AI CFO for group trips — creating smart budgets, tracking expenses via natural language inputs like “Paid ₹500 for dinner at Cafe Monde,” and dynamically suggesting settlements and activities. Using AI and real-time data, it recommends budget-friendly restaurants and experiences that fit the group’s preferences and spending patterns.
+
+Key features include AI-powered expense tracking, dynamic group budgeting, intelligent settlement suggestions, and an interactive dashboard. PocketTrip ensures every trip remains fun, fair, and financially transparent — turning travel budgeting into an intelligent, stress-free experience.
+
+**Fintech: Bring your own problem in Fintech, leveraging Agentic AI.**
+
+PocketTrip fits into the FinTech track as it focuses on AI-driven financial management and automation for group travel. It introduces an intelligent system that autonomously handles shared budgeting, expense tracking, and settlement calculations — reducing the friction often seen in group payments. By using AI-powered budget planning, expense parsing, and real-time financial insights, PocketTrip enhances transparency and financial decision-making for users.
+
+It essentially acts as a personal finance assistant for group experiences, demonstrating how FinTech and Agentic AI can work together to simplify real-world money management scenarios, optimize spending, and promote fair financial collaboration among users.
+
+Team **Team Critical** -- [Shreya Nair](https://github.com/shreya478), [Saniya Navelkar](https://github.com/Saniyanavelkar), [Shriya Shetty](https://github.com/Shriya-Shetty)
+
+`2025-10-19`
+
+---
+
+### Personal Finance Optimizer
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/personal-finance-optimization-f627) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co)
+
+> Personalized insights to help manage your money.
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square)
+
+**Description of your solution**
+
+Our project, "Personal Finance Optimizer", is a smart financial management platform designed for students and young individuals with irregular income streams. Unlike traditional budgeting apps, it goes beyond expense tracking—our system analyzes spending behavior, predicts future financial needs, and provides actionable recommendations in real-time.
+
+By leveraging machine learning models like ARIMA and Prophet, the platform forecasts short- and long-term financial trends, helping users allocate budgets effectively. Key modules include:
+1. Expense categorization
+2. Budget optimization
+3. Debt repayment strategies
+4. Savings goal tracking
+5. Real-time personalized insights
+
+With an intuitive dashboard and simple, actionable advice, the platform empowers students to build financial discipline, achieve savings goals, and work toward long-term financial stability despite fluctuating incomes.
+
+Our primary target audiance are college/university students, gig workers, early-career professionals with irregular or limited income.
+
+Our Marketing Approach will include social media campaigns highlighting relatable student money struggles, Gamified challenges (e.g., “30-Day Savings Streak”) to boost engagement, Partnerships with finance influencers & youth educators
+
+**Fintech: Build an autonomous financial coaching agent that adapts to real user behavior, spending patterns, and income variability - helping gig workers, informal sector employees, and everyday citizens make smarter financial decisions proactively.**
+
+How Does our Project Fit Within the Track?
+1. Unpredictable income & poor budget control
+Solution: Real-time income/expense tracking with intelligent forecasting.
+2.Overspending & lack of savings discipline
+Solution: Personalized recommendations, savings goals, and habit-building nudges.
+3. Student debt & financial stress
+Solution: Debt repayment optimization using avalanche and snowball methods.
+4.Low financial literacy among youth
+Solution: User-friendly dashboard that translates complex analytics into simple, actionable advice.
+
+Team **THIRD DIMENTION** -- [Saransh Agnihotri](https://github.com/saransh-03-Ag), [Rahul Joshi](https://github.com/Rahul28Joshi), [KARAN MAKAN](https://github.com/KARAN22MAKAN)
+
+`2025-08-22`
+
+---
+
+### creators
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/creators-b228) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/THO2fM0SREM) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co)
+
+> Fintech
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Google Translate API](https://img.shields.io/badge/Google%20Translate%20API-333333?style=flat-square) ![Microsoft Azure](https://img.shields.io/badge/Microsoft%20Azure-333333?style=flat-square)
+
+**Description of your solution**
+
+Description of the Solution
+
+We are building an Autonomous Financial Coaching Agent that leverages Agentic AI to provide personalized, proactive, and adaptive financial guidance for users with irregular income patterns — especially gig workers, freelancers, and informal sector employees.
+
+🔹 The Idea
+
+Unlike traditional budgeting apps that only track expenses, our system learns continuously from user behavior. It observes spending patterns, income variability, cash flow cycles, and lifestyle choices to give customized financial advice in real-time.
+
+This agent acts like a virtual financial coach, available 24×7, to:
+
+Predict when a user is likely to face cash shortages.
+
+Warn against poor spending habits before they occur.
+
+Suggest micro-savings strategies suited to fluctuating incomes.
+
+Motivate users to stick to long-term financial goals.
+
+🔹 Core Features
+
+Behavior-Adaptive AI
+
+Learns how each user earns and spends.
+
+Provides advice that adapts dynamically to financial changes.
+
+Spending Insights & Visualizations
+
+Breaks down income vs. expenses in easy-to-understand graphs.
+
+Identifies spending leaks (like overspending on food, shopping, or entertainment).
+
+Cash Flow Prediction
+
+Forecasts future low-balance periods using past data.
+
+Helps users plan ahead for rent, EMIs, or emergencies.
+
+Goal-Based Coaching
+
+Assists in setting financial goals (e.g., savings for education, buying a vehicle, or creating an emergency fund).
+
+Tracks progress visually with attractive dashboards & gamified progress bars.
+
+Proactive Alerts & Nudges
+
+Sends timely notifications to prevent overspending.
+
+Encourages healthy habits like daily/weekly savings.
+
+Localized Financial Support
+
+Works with Indian Rupee (₹) and local gig-economy use cases (delivery agents, drivers, freelancers).
+
+Tailors advice to regional financial behaviors.
+
+🔹 Expected Impact
+
+Builds financial discipline among underserved communities.
+
+![image](https://assets.devfolio.co/content/c265d47e66d04c2b8943d41305f4bc70/16be07e4-aa0a-4beb-92bb-c9ceb1d91628.png)
+
+![image](https://assets.devfolio.co/content/c265d47e66d04c2b8943d41305f4bc70/b0cc4cfe-bcf5-4fa3-933d-948bbc79520e.png)
+Reduces dependency on high-interest loans or payday credit.
+
+Provides financial literacy & stability to millions of workers.
+
+Aligns with India’s vision of financial inclusion and digital empowerment.
+
+**Fintech: Build an autonomous financial coaching agent that adapts to real user behavior, spending patterns, and income variability - helping gig workers, informal sector employees, and everyday citizens make smarter financial decisions proactively.**
+
+Financial Inclusion
+
+Traditional financial tools fail to adapt to the irregular incomes and spending habits of gig workers and informal employees.
+
+Our autonomous agent bridges this gap by providing personalized financial literacy, savings strategies, and spending discipline.
+
+Adaptive Financial Coaching
+
+Instead of static advice, our system learns from real user behavior (spending, income cycles, habits).
+
+This creates a dynamic, human-like financial coach that continuously improves its advice — something that is core to FinTech innovation.
+
+Proactive Decision-Making
+
+Typical budgeting apps only analyze the past, but our agent predicts future risks (cash shortages, overspending) and intervenes early.
+
+This proactive approach empowers users to make smarter financial decisions.
+
+Technology + Finance Integration
+
+Uses AI/ML (Agentic AI) for behavior analysis.
+
+Data visualization dashboards (graphs, charts, savings progress).
+
+Works with Indian Rupee (₹) and is adaptable for global currencies.
+
+Fits perfectly into the intersection of financial literacy, digital finance, and AI-driven solutions.
+
+Real-World Relevance
+
+India’s gig economy is projected to reach 23.5 million workers by 2030.
+
+Our solution addresses this growing segment by offering a scalable, AI-powered financial coach accessible via web and mobile apps.
+
+Team **Creators** -- [YASH SONAWANE](https://github.com/dashboard), None None, [Lavanya Chaudhari](https://github.com/Na), [Gauri Jagtap](https://github.com/na)
+
+`2025-08-27`
+
+---
+
+### NaviCFO
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/navicfo-1a95) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/hemant-i7/FinAI-CFO) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://gamma.app/docs/FinAI-CFO-Your-AI-Powered-Virtual-Chief-Financial-Officer-n3v2bkors7uz1rz) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co)
+
+> Your Pocket-Sized Finance Boss
+
+![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![nest.js](https://img.shields.io/badge/nest.js-333333?style=flat-square)
+
+**Description of your solution**
+
+**FinAI CFO: Your AI-Powered Virtual Chief Financial Officer**
+
+Smart financial management for startups and small businesses – without the CFO price tag
+
+**The Financial Challenge Startups Face**
+
+**The Problem**
+Early-stage founders and small business owners face a critical dilemma: they need expert financial guidance to make informed decisions, yet hiring a full-time CFO costs $150,000-$400,000 annually – far beyond most startup budgets.
+
+Without professional financial oversight, businesses struggle with cash flow management, miss growth opportunities, and make costly mistakes that could have been prevented.
+
+**The Reality**
+- Manual bookkeeping consumes 10+ hours weekly
+- Critical financial decisions made without data
+- Cash flow surprises threaten operations
+- Investor meetings lack professional reporting
+- Tax optimization opportunities missed
+
+**Introducing FinAI CFO**
+
+An intelligent virtual CFO platform that combines the power of generative AI with proven financial workflows to deliver expert-level financial management at a fraction of traditional costs.
+
+- **AI-Driven Intelligence**: Real-time analysis powered by Claude and Gemini AI
+- **Automated Workflows**: Eliminate manual reporting and data entry tasks
+- **Predictive Insights**: Forecast cash flow and model growth scenarios
+
+**Core Capabilities That Drive Value**
+
+**AI Financial Assistant**
+Get instant answers to complex financial questions through natural conversation. Receive personalized investment recommendations, portfolio analysis, and market insights tailored to your business goals.
+
+**Intelligent Portfolio Management**
+Track stocks, assets, and investments in real-time with automated valuation. Visual analytics reveal gain/loss patterns and optimize your asset allocation strategy.
+
+**Automated Financial Reporting**
+Generate professional balance sheets, P&L statements, and budget reports automatically. Save hours of manual work while ensuring accuracy and investor-ready presentation.
+
+**Predictive Cash Flow Analysis**
+AI-driven forecasting models predict future cash positions, identify potential shortfalls, and recommend proactive measures to maintain healthy runway.
+
+**Market Intelligence Hub**
+Stay informed with real-time market news, sentiment analysis, and expert video resources. Understand how market trends impact your financial strategy.
+
+**Strategic Goal Tracking**
+Set financial milestones and monitor progress with AI-assisted recommendations. Align daily operations with long-term business objectives.
+
+**How FinAI CFO Works**
+
+**Seamless Integration**
+Connect your accounting tools, bank accounts, and financial APIs for automatic data synchronization
+
+**AI Analysis Engine**
+Our advanced AI processes transactions, identifies patterns, and generates actionable insights in real-time
+
+**Smart Recommendations**
+Receive personalized guidance on spending optimization, investment opportunities, and financial strategy
+
+**Actionable Dashboard**
+Access intuitive visualizations and reports that empower confident, data-driven decision making
+
+**Built on Modern, Scalable Technology**
+
+**Technical Foundation**
+FinAI CFO leverages cutting-edge technology to deliver enterprise-grade performance with startup agility:
+
+- Next.js 14 for blazing-fast, responsive user experience
+- TypeScript ensuring code reliability and maintainability
+- MongoDB & Astra DB for secure, scalable data management
+- Claude & Gemini AI powering intelligent financial analysis
+
+Our architecture integrates seamlessly with leading financial APIs and news sources, providing real-time market data and comprehensive portfolio tracking capabilities.
+
+**Who Benefits From FinAI CFO**
+
+**Early-Stage Startups**
+Pre-seed to Series A companies needing CFO-level insights without the overhead cost. Perfect for teams of 5-50 employees managing $500K-$10M in runway.
+
+**Small Business Owners**
+Established businesses with $1M-$20M revenue seeking to professionalize financial operations and unlock growth through better decision-making.
+
+**Solo Founders & Entrepreneurs**
+Individual founders managing multiple ventures or side projects who need clear financial visibility without complexity or expensive consultants.
+
+**Go-to-Market Strategy**
+
+**1. Phase 1: Launch**
+Target tech accelerators and startup communities with freemium model. Partner with Y Combinator, Techstars, and similar programs.
+
+**2. Phase 2: Growth**
+Expand to small business accounting firms as white-label solution. Build integrations with QuickBooks, Xero, and major banking platforms.
+
+**3. Phase 3: Scale**
+Enterprise partnerships with investor networks and venture capital firms. Offer portfolio companies as value-added service.
+
+**Content Marketing**
+Educational resources on financial management, CFO insights blog, and founder success stories
+
+**Community Building**
+Exclusive Slack/Discord for users, monthly webinars with financial experts, peer benchmarking
+
+**Fintech: Bring your own problem in Fintech, leveraging Agentic AI.**
+
+Unlike generic finance dashboards, NaviCFO functions as a personal CFO agent for gig workers, freelancers, and everyday citizens with irregular incomes.
+
+It learns user behavior from transaction data, invoices, and spending habits.
+
+It proactively acts by suggesting savings, managing irregular cash flows, and warning about risky financial behaviors.
+
+It guides decisions via natural language nudges, voice tips, and personalized financial roadmaps.
+
+By combining multiple agents (Learning, Execution, Guardian, and Mentor), NaviCFO transforms financial advice into continuous, adaptive financial coaching. This makes it perfectly aligned with the track’s goal of empowering users to make smarter financial decisions proactively.
+
+Team **Fourdev** -- [Vikrant Gharat](https://github.com/vikrant5771), [Omkar Teli](https://github.com/OmkarTeli), [Kaushal Gharat](https://github.com/gharatkaushal05), [Hemant Kadam](https://github.com/hemantkadam112)
+
+`2025-10-09`
+
+---
+
+### InvoiceIQ
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/invoiceiq-480a) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ShaikhMudassir7/MumbaiHack-25) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co)
+
+> Invoice me
+
+![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![OCR](https://img.shields.io/badge/OCR-333333?style=flat-square) ![Tesseract OCR](https://img.shields.io/badge/Tesseract%20OCR-333333?style=flat-square) ![Pdfplumber](https://img.shields.io/badge/Pdfplumber-333333?style=flat-square) ![LLM](https://img.shields.io/badge/LLM-333333?style=flat-square)
+
+**Description of your solution**
+
+## Overview
+The Invoice Processing System is a sophisticated AI-powered application that automates the extraction of structured data from invoices using multiple OCR engines and Large Language Models (LLMs). This system transforms unstructured PDF invoices into structured JSON data and provides an intuitive interface for querying extracted information using natural language.
+
+## Snapshots
+
+![image](https://assets.devfolio.co/content/8d23ade5a28c435fbddc608672e869cd/71583dbd-7015-4fef-862b-58ea01dd562d.png)
+
+
+## Flow of Diagram
+```mermaid
+%%{init: {'theme': '', 'themeVariables': { 'primaryColor': '#1a1a1a', 'textColor': '#ffffff'}}}%%
+flowchart TD
+    A[User Uploads PDF Invoice] --> B{File Validation}
+    B -->|Valid PDF| C[Store Temporarily]
+    B -->|Invalid| D[Show Error Message]
+    
+    C --> E[Generate PDF Preview]
+    E --> F[Select OCR Engine]
+    
+    F --> G[Extract Text with OCR]
+    G --> H{Text Quality Check}
+    H -->|Low Quality| I[Try Fallback OCR]
+    H -->|Good Quality| J[Normalize Text]
+    
+    I --> H
+    J --> K[Select LLM Model]
+    
+    K --> L[Construct LLM Prompt]
+    L --> M[Call LLM API]
+    M --> N[Validate JSON Response]
+    N --> O[Store Structured Data]
+    
+    O --> P[Display Results UI]
+    P --> Q{User Query?}
+    
+    Q -->|Yes| R[Process Natural Language Query]
+    Q -->|No| S[Wait for Interaction]
+    
+    R --> T[Select Query LLM]
+    T --> U[Construct Query Context]
+    U --> V[Call LLM API]
+    V --> W[Format Response]
+    W --> X[Display Answer]
+    
+    %% System Monitoring
+    subgraph Monitoring
+        Y[Performance Metrics]
+        Z[Health Checks]
+        AA[Error Logging]
+    end
+    
+    G -->|Log| AA
+    M -->|Log| AA
+    V -->|Log| AA
+    C -->|Metrics| Y
+    M -->|Metrics| Y
+    V -->|Metrics| Y
+    Z -.->|API Status| M
+    Z -.->|API Status| V
+    
+    %% Style Definitions
+    classDef userAction fill:#2563eb,stroke:#fff
+    classDef processing fill:#7c3aed,stroke:#fff
+    classDef decision fill:#059669,stroke:#fff
+    classDef error fill:#dc2626,stroke:#fff
+    classDef storage fill:#ea580c,stroke:#fff
+    classDef display fill:#f59e0b,stroke:#fff
+    classDef monitoring fill:#333333,stroke:#fff
+    
+    class A,D userAction
+    class B,F,G,I,J,K,L,M,N,T,U,V,W decision
+    class C,E,O,P,Q,R,S,X processing
+    class H error
+    class Y,Z,AA monitoring
+    class X display
+```
+
+## Key Features
+
+### Multi-Engine OCR Processing
+- **Auto Selection**: Intelligently chooses the best OCR engine based on content
+- **Supported OCR Engines**:
+  - PyMuPDF (fast text extraction)
+  - PDFPlumber (structured extraction)
+  - PDFMiner (text-focused extraction)
+  - Tesseract OCR (image-based extraction)
+  - Enhanced Tesseract (high-quality extraction)
+
+### AI-Powered Data Extraction
+- **Multiple LLM Support**:
+  - Mistral Large (Latest)
+  - Llama 3.1 (70B)
+  - Llama 3.2 (90B)
+  - Llama 3.3 (70B)
+  - Llama Vision (11B)
+  - Grok 3 (314B)
+  - Grok 4 (405B)
+  - Cohere Command R+
+
+### Intelligent Query System
+- Natural language processing for invoice queries
+- Confidence-based responses
+- Field-level extraction from questions
+- Example queries for quick access
+
+### Performance Monitoring
+- Real-time system metrics
+- Processing time tracking
+- Error rate monitoring
+- Resource utilization statistics
+
+### Security Features
+- Secure file handling
+- Security headers (XSS protection, frame prevention)
+- File size restrictions (16MB max)
+- Environment variable configuration
+
+## User Interface Overview
+
+### Upload Section
+- Drag-and-drop PDF upload area
+- Model selection for OCR and LLM processing
+- File information display
+- Processing status indicators
+
+### Results Section
+1. **Document Preview**
+   - First-page preview with zoom capability
+   - Base64-encoded image display
+
+2. **Extracted Data**
+   - Syntax-highlighted JSON output
+   - Copy-to-clipboard functionality
+   - Processing method badges (OCR/LLM)
+
+3. **AI Responses**
+   - Natural language answers to queries
+   - Confidence indicators (high/medium/low)
+   - Extracted fields display
+   - Response source model identification
+
+### Query Section
+- Natural language question input
+- LLM selection for query processing
+- Example questions for quick access
+- Processing status indicators
+
+## Workflow
+
+1. **Upload & Process**:
+   - User uploads PDF invoice
+   - System selects OCR engine (user-selected or auto)
+   - Extracted text is sent to selected LLM
+   - Structured JSON data is generated
+
+2. **Results Display**:
+   - Document preview shown
+   - Structured data displayed in JSON format
+   - Processing metrics shown
+
+3. **Natural Language Querying**:
+   - User asks questions about the invoice
+   - System processes query with selected LLM
+   - Response displayed with confidence indicators
+   - Relevant fields extracted and shown
+
+## System Requirements
+
+### Backend Requirements
+- Python 3.9+
+- Flask
+- PyMuPDF (fitz)
+- pytesseract
+- pdfminer.six
+- pdfplumber
+- Pillow (PIL)
+- python-dotenv
+- requests
+- psutil
+
+### OCR Req
+
+**Fintech: Bring your own problem in Fintech, leveraging Agentic AI.**
+
+## Core Fintech Problem Addressed
+
+**Financial Document Processing Bottleneck**: Invoice processing represents one of the largest operational inefficiencies in finance departments globally. Companies spend enormous resources on manual data entry, verification, and reconciliation of supplier invoices. This directly impacts cash flow management, vendor relationships, and financial reporting accuracy.
+
+## Agentic AI Implementation
+
+Your solution demonstrates true **agentic behavior** through:
+
+- **Multi-LLM Decision Making**: The system autonomously selects optimal processing strategies based on document characteristics
+- **Adaptive OCR Selection**: Intelligently chooses between PyMuPDF, PDFPlumber, Tesseract, and other engines based on document quality
+- **Self-Correcting Processing**: Falls back to alternative methods when primary extraction fails
+- **Natural Language Query Processing**: Acts as an intelligent agent that can answer complex questions about processed invoices
+
+## Financial Automation Impact
+
+The system directly addresses critical fintech use cases:
+
+1. **Accounts Payable Automation**: Reduces manual invoice processing from hours to seconds
+2. **Cash Flow Optimization**: Faster processing enables better payment timing decisions
+3. **Compliance & Audit Trail**: Structured data extraction ensures regulatory compliance
+4. **Vendor Management**: Automated PO matching and payment tracking
+5. **Financial Reporting**: Clean, structured data feeds directly into ERP systems
+
+Team **MetaData** -- [Parth Yadav](https://github.com/ParthYadav30), [Anas Shaikh](https://github.com/anasis-gif), [Satyaja Shivthare](https://github.com/satya1306), [Shaikh Mudassir](https://github.com/ShaikhMudassir7)
+
+`2025-08-28`
+
+---
+
+### CredAgent: Agentic Credit Intelligence
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/credagent-agentic-credit-intelligence-41c6) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/codebyNJ/credAgent) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://cred-agent.vercel.app/) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co)
+
+> Don't Guess, Know.
+
+![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![AI/ML](https://img.shields.io/badge/AI/ML-333333?style=flat-square) ![FastAPI](https://img.shields.io/badge/FastAPI-333333?style=flat-square) ![RestAPIs](https://img.shields.io/badge/RestAPIs-333333?style=flat-square) ![Natural Language Processing](https://img.shields.io/badge/Natural%20Language%20Processing-333333?style=flat-square) ![Data pipeline](https://img.shields.io/badge/Data%20pipeline-333333?style=flat-square)
+
+**Description of your solution**
+
+## CredAgent
+
+*Don't Guess, Know.*
+
+CredAgent is an AI-powered financial intelligence assistant that provides real-time market analysis, credit risk assessment, and comprehensive research insights through an intuitive conversational interface.
+
+#### Features
+
+- **AI-Powered Analysis**: Get instant financial insights using advanced AI
+- **Multi-Mode Intelligence**: 
+  - Market Analysis (Stock prices, P/E ratios, EPS)
+  - Credit Assessment (Risk evaluation, financial ratios)
+  - Research Reports (Trend analysis, market insights)
+- **Natural Language Interface**: Ask questions in plain English
+- **Smart Intent Detection**: Automatically detects query type and adapts responses
+- **Visual Analytics**: Clean presentation of financial data and metrics
+- **Real-time Responses**: Instant analysis without delays
+
+####  Tech Stack
+
+*Frontend*: 
+- Next.js
+- Redux
+- Shadcn Library
+
+*Backend Framework*:
+- FastAPI (Web server)
+- Uvicorn (ASGI server)
+
+*AI & ML*:
+- Agno Agent Framework (AI orchestration)
+- Groq API (LLM inference - LLaMA 3 70B)
+
+*Data Sources & Tools*:
+- yfinance - Real-time stock market data
+- duckduckgo-search - Web search and research data
+- newspaper4k - News article extraction and analysis
+- requests - API communication
+
+**Fintech: Bring your own problem in Fintech, leveraging Agentic AI.**
+
+### BackGround
+
+In global credit markets, billions of dollars move daily based on the perceived creditworthiness of companies and governments. These perceptions are largely shaped by traditional credit rating agencies, whose ratings are:
+
+- Updated infrequently
+- Based on opaque methodologies
+- Often lagging behind real-world events
+
+This creates mispricing opportunities: where the true risk is different from what the market believes. Meanwhile, there’s an explosion of high-frequency, heterogeneous public data from company filings and macroeconomic reports to commodity price movements, trade flows, and even alternative datasets like satellite imagery or shipping trackers. 
+
+With developments in Artificial Intelligence, these signals can be fused into real-time, dynamically updated creditworthiness assessments.
+
+
+**The challenge:** investors and regulators won’t trust a score unless they understand why it was assigned. The “black box” has to be replaced with a transparent, explainable, evidence-backed system.
+
+
+## Solution:
+
+**CredAgent** is an AI-powered financial intelligence assistant that provides real-time market analysis, credit risk assessment, and comprehensive research insights through an intuitive conversational interface.
+
+Team **LivewithAI** -- [Nemaleshwar H](https://github.com/Nemaleshh), [Saravanan PV](https://github.com/pvsaravanan), [Oswald Shilo](https://github.com/OswaldShilo), [Nijeesh NJ](https://github.com/codebyNJ)
+
+`2025-08-29`
+
+---
+
+### Causify
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/causify-c1d8) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co)
+
+> Simplifying finance through causality
+
+![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![NumPy](https://img.shields.io/badge/NumPy-333333?style=flat-square) ![pandas](https://img.shields.io/badge/pandas-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Chart.js](https://img.shields.io/badge/Chart.js-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![React.js](https://img.shields.io/badge/React.js-333333?style=flat-square)
+
+**Description of your solution**
+
+**Causify** is an **autonomous financial coaching agent powered by Causal AI** that helps gig workers, informal sector employees, and everyday citizens make smarter financial decisions in uncertain environments.
+
+Traditional financial apps and robo-advisors mostly rely on correlations and historical trends to predict outcomes. But correlations often break down when market conditions or personal circumstances change, leaving users unprepared.
+
+Causify is different — it uses **causal inference** to uncover the true cause-and-effect relationships between financial behaviors, macroeconomic factors (like interest rates and inflation), and asset performance. This allows it to go beyond “What will happen?” and answer **“What happens if I intervene?”**
+
+**🌟 Key Features:**
+
+1. **Personalized Coaching** – Adapts to user income variability, spending habits, and savings goals.
+2. **Causal Insights** – Explains why certain financial decisions matter and how external changes (e.g., inflation, interest rate hikes) impact the user.
+3. **What-If Simulator** – Lets users test scenarios like an income drop or interest rate hike to see how it affects their finances.
+4. **Causal Portfolio Optimization** – Builds robust, risk-adjusted investment portfolios by prioritizing assets driven by causal factors, not just correlations. 
+5. **AI Chatbot (Coach)** – Offers proactive advice, answers financial questions, and nudges users toward healthier financial habits.
+
+**🚀 Impact:**
+
+By combining **financial literacy with cutting-edge causal AI**, Causify empowers individuals—especially those with irregular income streams—to make proactive, evidence-based decisions about saving, spending, and investing. This results in more resilient financial planning and improved long-term wealth stability.
+
+**Fintech: Build an autonomous financial coaching agent that adapts to real user behavior, spending patterns, and income variability - helping gig workers, informal sector employees, and everyday citizens make smarter financial decisions proactively.**
+
+Gig workers and individuals with **volatile incomes** lack reliable **financial guidance**, as current tools fail to adapt to real-world shifts. We are building an autonomous financial coaching agent powered by **Causal AI** that understands the true drivers of asset performance, not just correlations. It simulates personalized "what-if" scenarios to offer **dynamic portfolio recommendations** that adapt to a user's unique financial life. This empowers users to make smarter, more resilient investment decisions in the face of uncertainty.
+
+Team **Zenith** -- [divya bhatt](https://github.com/divyaa026), [Abhijeet Pandey](https://github.com/abhii678), [Sumedh Chandra](https://github.com/SUMEDHCHANDRA123), [Kartik Babu](https://github.com/Emonlusk)
+
+`2025-10-19`
+
+---
+
+### TaxBae
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/taxbae-0842) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Kingo9/TaxBae-AI_Chartered_Accountant) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co)
+
+> Simplifying Taxes, Amplifying Returns.
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Expo](https://img.shields.io/badge/Expo-333333?style=flat-square) ![Java](https://img.shields.io/badge/Java-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square)
+
+**Description of your solution**
+
+**Problem Context:**
+For most individuals in India, managing taxes and personal finances is either a once-a-year stressful event or outsourced to a Chartered Accountant. This leads to:
+
+Lack of financial literacy and awareness of deductions.
+
+Poor real-time tracking of expenses and investments.
+
+No continuous engagement — users only think of finance during tax season.
+
+Dependence on costly intermediaries instead of personalized, tech-driven solutions.
+
+**Proposed Solution** – **TaxBae**
+We propose TaxBae, an AI-powered personal finance companion that uses Agentic AI to help users not just file taxes, but build long-term financial health.
+
+🔑 **Key Features:**
+
+Agentic AI-driven Deduction Engine – Interactively identifies tax-saving opportunities, explains them in plain language, and simulates “what-if” scenarios.
+
+Smart Expense Tracker – Auto-categorizes user expenses and links them with tax benefits (e.g., medical bills → Section 80D).
+
+AI Chatbot – Conversational assistant that answers financial queries, explains tax jargon, and guides compliance.
+
+Investment Recommender – Based on income, spending patterns, and risk profile, suggests SIPs, mutual funds, and retirement plans.
+
+Continuous Engagement – Unlike one-time filing apps, TaxBae keeps users active year-round with insights, reminders, and personalized nudges.
+
+**Role of Agentic AI:**
+Instead of static automation, our system leverages Agentic AI to:
+
+Act autonomously by fetching user financial data, analyzing trends, and triggering personalized suggestions.
+
+Simulate multiple outcomes (e.g., “If you invest ₹50,000 more in ELSS, your tax liability reduces by ₹10,000”).
+
+Adapt recommendations continuously, not just at year-end.
+
+**Impact:**
+
+Democratizes access to financial advice for middle-income individuals.
+
+Saves costs by providing CA-like insights at scale.
+
+Increases financial literacy and ensures proactive tax planning.
+
+Positions itself as a year-round financial wellness app, not just a seasonal tax-filing tool.
+
+Team **Saboo strikers** -- [Siddique Shayan](https://github.com/Siddique-Shayan), [Muaviyah Shelia](https://github.com/MVYH), [Asad Shaikh](github.com/Kingo9), [Tauqeer Shaikh](https://github.com/Tauqeer-Code-Craft)
+
+`2025-09-28`
+
+---
+
+### FinVoice
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/finvoice-2950) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://sunhack-three.vercel.app/) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co)
+
+> Your finances, powered by your voice
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Webhook](https://img.shields.io/badge/Webhook-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![n8n](https://img.shields.io/badge/n8n-333333?style=flat-square) ![Chat model](https://img.shields.io/badge/Chat%20model-333333?style=flat-square)
+
+**Description of your solution**
+
+**Our solution** is an AI-powered financial assistant that understands natural voice or text inputs in multiple languages, automatically converts them into structured financial records, and categorizes them smartly. It answers queries, tracks goals, explains financial terms, and even responds to casual chats, making money management effortless, engaging, and personalized. The system can also be integrated with WhatsApp and Telegram as a bot, making it easily accessible to users on their preferred platforms.
+
+**Features**
+
+1. Personal Advisory
+2. Investment Advisory
+3. Expense Categorization
+4. Chart View of Expenses
+5. Average Expenses
+6. Alerts on Low Savings
+7. Mobile-First UI
+8. Multilingual Integration
+9. Multi-Channel Integration
+10. Conversational Query Support
+11. Lending and Borrowing Management
+12. Mobile Notifications
+13. Monthly Email Reports
+
+
+**Dashboard**
+![image](https://assets.devfolio.co/content/2b529b2cbf374ee888afc4aec63d6863/fa28134c-6253-4a77-be02-a8c6292c4d97.png)
+
+**View Transactions**
+![image](https://assets.devfolio.co/content/2b529b2cbf374ee888afc4aec63d6863/87cd9437-ab38-42fd-b85a-7e7f301e036d.png)
+
+**Telegram Bot**
+
+![image](https://assets.devfolio.co/content/2b529b2cbf374ee888afc4aec63d6863/d403d717-071f-41fd-ab51-5308cb29f8dd.png)
+
+**Whatsapp bot**
+
+![image](https://assets.devfolio.co/content/2b529b2cbf374ee888afc4aec63d6863/084f0cdc-c3c3-43b8-b9a3-4ad0cfe3ec6e.png)
+
+**Web chatbot**
+
+![image](https://assets.devfolio.co/content/2b529b2cbf374ee888afc4aec63d6863/37cda059-d14d-480b-b4e5-0c94d9404a63.png)
+
+**Fintech: Bring your own problem in Fintech, leveraging Agentic AI.**
+
+**PS**:Managing personal finances can be messy, with expenses, incomes, and goals often scattered and untracked.
+
+Team **FUBAR Force** -- [Abhishek Pawar](https://github.com/cipherx7), [Tanmay Hirodkar](https://github.com/Tnmy4069), [Siddharth Perkar](https://github.com/SiddharthPerkar)
+
+`2025-08-29`
+
+---
+
+### Adept CFO
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/adept-cfo-a4a7) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co)
+
+> Automate your finances. Focus on your craft.
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![AWS](https://img.shields.io/badge/AWS-333333?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=flat-square) ![Vercel](https://img.shields.io/badge/Vercel-333333?style=flat-square) ![FastAPI](https://img.shields.io/badge/FastAPI-333333?style=flat-square) ![langchain](https://img.shields.io/badge/langchain-333333?style=flat-square)
+
+**Description of your solution**
+
+Solution Overview
+Adept CFO transforms traditional financial management by providing users with an autonomous AI agent that actively predicts, analyzes, and executes core financial tasks. It goes far beyond typical accounting or bookkeeping software by automating critical workflows: cash flow management, GST/tax compliance, collections, and dynamic credit access. The solution is not just a dashboard, but a system of action—offering users real-time foresight and the ability to automate actions that enhance their financial health.
+
+Core Modules
+Predictive Cash Flow Management: Real-time forecasting and alerts for shortfalls by integrating with bank accounts and payment gateways.
+
+Proactive Compliance Engine: AI-powered automation of GST return preparation and deadline reminders—eliminates manual compliance work.
+
+Intelligent Receivables Agent: Sends context-aware, legally-informed reminders and escalation notices for overdue invoices, referencing the latest payment laws.
+
+Dynamic Credit Access: Builds dynamic credit profiles and recommends tailored financing options using user data.
+
+Novel Features
+For the hackathon MVP, emphasis is placed on the receivables agent: a web dashboard lets users input invoice details, set custom follow-up workflows, and then the agent autonomously sends staged reminders—including compliance with new MSME payment regulations. This module makes legal enforcement frictionless, allowing freelancers to recover overdue payments without awkward or time-consuming manual intervention
+
+**Fintech: Bring your own problem in Fintech, leveraging Agentic AI.**
+
+This project, Adept CFO, is a direct fit for the fintech track because it provides a comprehensive and innovative financial automation platform specifically designed for freelancers and micro-enterprises—a segment central to the fintech revolution in India.
+
+Alignment With Fintech Objectives
+Automated Financial Operations: Adept CFO is built as an agentic AI solution, going beyond traditional bookkeeping to execute real financial actions for users—managing cash flow, automating compliance, and pursuing receivables using embedded intelligence.
+
+Receivables & Credit Automation: Fintech aims to bridge gaps in working capital and payments. The agent autonomously sends reminders, references legal obligations for overdue corporate clients, and even helps qualify users for instant digital credit, streamlining processes usually filled with friction for small businesses.
+
+Compliance Simplification: Regulatory and tax compliance, a key aspect of Indian fintech, is automated; the agent manages GST filings, maximizes deductions, and reduces administrative overhead, making complex financial regulation accessible and actionable for all users.
+
+Empowering Underserved Segments: The platform serves the backbone of India’s digital economy—solopreneurs, freelancers, and MSMEs—addressing challenges specific to this population like delayed payments and compliance penalties on growth.
+
+Technological and Sectoral Fit
+Integration with India Stack: The solution works with core fintech infrastructure like the Account Aggregator, UPI, GSTN APIs, and prefers partnerships with NBFCs, digital lenders, and CA networks.
+
+Agentic AI in Finance: The project represents the cutting edge of fintech: AI-powered autonomy not just for insights, but for real-world, user-directed financial actions.
+
+Economic Impact: By freeing capital locked in payment cycles and reducing compliance penalties, Adept CFO advances core fintech goals of financial inclusion, digital empowerment, and economic growth for the next wave of entrepreneurs in India.
+
+This makes Adept CFO a standout project for the fintech track at any hackathon, directly leveraging India’s digital rails and targeting real, high-impact financial challenges.
+
+Team **Neuro Nexus** -- [Ayush Pandey](https://github.com/akashkumar3473), [Anant Singh](https://github.com/sanant456)
+
+`2025-10-07`
+
+---
+
+### Finsight AI
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/finsight-ai-184b) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://colab.research.google.com/drive/1-_PEFl1OuwBi2TvtHtmy4GHV2SHF5ts4?usp=sharing) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://vimeo.com/1124469716?share=copy) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co)
+
+> Finance made light, with AI might
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square)
+
+**Description of your solution**
+
+FinSight AI: Finance made light ,with AI might
+
+FinSight AI is an AI-powered web platform designed to transform how businesses and analysts interact with financial documents. Leveraging advanced natural language processing and machine learning, the platform automates the extraction of key financial KPIs, risk detection, sentiment analysis, and audit classification. Users can upload diverse document types such as annual reports, quarterly statements, pitch decks, strategy memos, and auditor’s reports to get comprehensive insights within seconds.
+
+The seamless workflow starts with users uploading financial PDFs via an intuitive drag-and-drop or browse interface. The backend extracts text and tables using cutting-edge tools like pdfplumber, PyMuPDF, and Camelot, then processes the documents through multiple AI modules, including KPI extraction, risk detection, sentiment analysis using FinBERT, and audit opinion classification. All outputs are aggregated into structured JSON and sent to the frontend, where an interactive dashboard displays KPIs, financial tables, risk summaries, sentiment breakdowns, and audit opinions in a user-friendly format.
+
+Uniquely, FinSight AI offers fully automated processing requiring no manual data entry, proactive detection of subtle regulatory and financial risks, sentiment analysis to gauge leadership tone, and audit classification with confidence scores. Built on a modern tech stack including React with Chart.js for front-end visualization and Python FastAPI for the backend, it provides a modular and scalable architecture ready for future advancements.
+
+FinSight AI saves users significant time—over 20 hours per document—while eliminating human error and enhancing decision-making transparency for investors, CFOs, and compliance teams. This solution addresses a critical gap in financial analysis by combining speed, accuracy, and accessibility, making it a compelling AI-driven innovation for the Mumbai Hacks challenge.
+
+![image](https://assets.devfolio.co/content/18ed88d2332940feb45c5204a7094e6b/0c130031-a211-49ee-a664-8f9378fb984d.png)
+
+**Fintech: Bring your own problem in Fintech, leveraging Agentic AI.**
+
+FinSight AI is an advanced web platform designed to revolutionize financial document analysis by leveraging agentic AI. Our solution enables users to instantly extract key financial KPIs, risk indicators, sentiment assessments, and audit classifications from annual reports, statements, and strategic documents—simply by uploading PDF files. Using a modular, multi-agent architecture, FinSight AI automates the entire process:
+
+Dedicated AI agents parse text, extract tabular data, and detect critical financial signals
+
+Specialized agents uncover hidden risks and highlight unusual or noncompliant statements
+
+Language intelligence agents analyze executive sentiment for improved strategic understanding
+
+Audit agents classify and validate audit opinions with confidence metrics
+
+All insights are presented in a dynamic dashboard with intuitive visualizations, reducing manual review time from hours to minutes. FinSight AI empowers analysts, investors, and businesses with transparent, error-free, and actionable financial intelligence—establishing a new benchmark for speed, accuracy, and trust in finance.
+
+Our platform is fully extensible for further agentic AI features including interactive Q&A, report cross-comparison, and generative executive summaries—ensuring future readiness in financial analytics.
+
+Team **Code Buggers** -- [Chaitanya Karole](https://github.com/Chaitanya-1305), [Dewang Mahadadalkar](https://github.com/Dewang1234)
+
+`2025-10-19`
+
+---
+
+### SpendWise AI
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/spendwise-ai-d98f) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co)
+
+> Finance made simple for everyone.
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=flat-square)
+
+**Description of your solution**
+
+The financial challenges faced by gig workers, informal sector employees, and everyday citizens often go beyond simply tracking expense they deal with irregular incomes, seasonal expense surges during festivals, weddings, or school admissions, and limited access to proactive financial planning tools. Traditional budgeting apps tend to be reactive, leaving people stressed when major cultural or seasonal events arrive. Our solution proposes an autonomous financial coaching agent that leverages Agentic AI to anticipate and adapt. By analyzing spending patterns, income variability, and contextual signals such as upcoming festivals or seasonal needs, the agent proactively guides users with personalized savings nudges, micro-budget adjustments, and actionable recommendations. Instead of waiting for overspending to happen, it acts ahead of time reminding a user to set aside small amounts weeks before Diwali, predicting low-income months for gig workers, or suggesting micro-saving jars for school fees. This creates a continuous, adaptive, and human-like financial mentor that learns and evolves with each user. In doing so, it fills a critical fintech gap by enabling financial wellness at scale, helping people celebrate without financial stress, and turning AI into a trusted everyday money companion
+
+**Fintech: Bring your own problem in Fintech, leveraging Agentic AI.**
+
+We’re building an Agentic AI financial coach that predicts seasonal expenses, adapts to income variability, and proactively helps everyday citizens celebrate without financial stress. Your solution fits this track because it uses Agentic AI not just to analyze past expenses but to act proactively like a financial coach. By predicting seasonal and festival-related spending, adapting to irregular incomes of gig and informal workers, and offering real-time nudges for savings and budgeting, it transforms financial management from reactive tracking into autonomous, personalized guidance. This directly aligns with the Fintech challenge of building AI agents that solve real-world money problems in a contextual, adaptive, and user-first way.
+
+![image](https://assets.devfolio.co/content/83d3a74b300746d88b310b837809e5de/cbdffdc1-8630-4534-92ed-5ec64187bcf0.png)
+
+Team **Codify** -- [Pragati Mishra](https://github.com/Pragati-cloud), [Roshan Sachdev](https://github.com/Darkness1805)
+
+`2025-10-05`
+
+---
+
+### The Watcher
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/the-watcher-97e4) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co)
+
+> Tax Evasion Pattern Detector
+
+![scikit-learn](https://img.shields.io/badge/scikit--learn-333333?style=flat-square) ![pandas](https://img.shields.io/badge/pandas-333333?style=flat-square) ![GraphQL](https://img.shields.io/badge/GraphQL-333333?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=flat-square) ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-333333?style=flat-square) ![OpenAi](https://img.shields.io/badge/OpenAi-333333?style=flat-square) ![FastAPI](https://img.shields.io/badge/FastAPI-333333?style=flat-square) ![LightGBM](https://img.shields.io/badge/LightGBM-333333?style=flat-square)
+
+**Description of your solution**
+
+1. The Problem
+
+-Small-Scale Evasion:
+Small-to-medium enterprises, local businesses, and subsidiaries often slip through manual tax audits, leading to undetected tax evasion.
+
+-Focus Gap:
+“Minor” irregularities, when accumulated across many entities, result in significant revenue loss for tax authorities.
+
+-Monitoring Challenge:
+There is no efficient, automated way for continuous tax evasion monitoring, especially for micro-level evasions, at an early stage.
+
+2. The Solution
+
+-Overview:
+The Watcher is an agentic AI–powered FinTech solution designed to detect and prevent small-scale tax evasion that might go unnoticed in traditional auditing systems.
+
+-Core Functionality:
+The system focuses on micro-level inconsistencies in transactions, invoices, and expense reports, providing continuous, autonomous, and context-aware monitoring for government and regulatory agencies.
+
+-Key Differentiator:
+Unlike conventional tools, The Watcher acts as an intelligent audit agent — capable of reasoning about financial behavior, explaining its decisions, and adapting dynamically as new evasion tactics emerge.
+
+-The Watcher continuously analyzes:
+
+   Financial transactions
+   Invoices 
+   Expense reports
+
+-It specializes in identifying:
+
+   Subtle discrepancies at the SME level
+   “Small enough to avoid notice” behaviors
+   Risk patterns that raise flags for auditors
+
+3. The Watcher: A New System
+
+-Traditional Systems:
+   Rule-based, reactive processing
+   Only flag anomalies without context
+   Require heavy manual follow-up for investigation
+
+-Our Agentic AI System:
+
+    -Operates autonomously, monitoring continuously (not just batch checks)
+    -Understands context by connecting complex patterns such as “circular flows”
+    -Provides human-readable justifications for each flag
+    -Suggests clear next steps for auditors (e.g., “Audit Vendor X”)
+    -Learns and adapts as new evasion tactics emerge
+
+4. Red Flags Detected
+
+   -Round-Tripping – Circular loops in transaction graphs (A → B → C → A)
+   -Smurfing – Small payments just below reporting thresholds
+   -Related-Party Transactions – Heavy internal transfers to shift profits
+
+5. Target Users
+
+-Primary Users: Government tax authorities
+
+-Secondary Users:
+   -Regulatory agencies
+   -Anti-corruption bodies
+   -Auditors
+
+-Tertiary Users:
+   -Large corporations with internal compliance teams
+   -Especially valuable in developing economies where small-scale evasion is         widespread.
+
+6. Go-To-Market Strategy
+
+-Government Partnerships – Pilot programs with national and regional tax departments
+
+-Policy Alignment – Compliance with OECD and FATF frameworks
+
+-Trust & Transparency – Explainable AI outputs for credible decision-making
+
+-Expansion – Scaling from SME audits to larger corporate audits
+
+7. Revenue Model
+
+-Government Subscription – Annual contracts based on transaction volume
+
+-Per-Case Licensing – Fees for each flagged and reviewed case
+
+-Consulting Services – Training and configuration for country-specific tax regimes
+
+-Analytics Insights – Premium dashboards showing compliance trends and risk analysis
+
+8. Workflow
+
+The Watcher integrates data ingestion, AI-driven analysis, and report generation through an automated pipeline.
+
+It continuously monitors transactions, detects anomalies, and provides explainable insights to assist auditors in taking timely action.
+
+**Fintech: Bring your own problem in Fintech, leveraging Agentic AI.**
+
+The Watcher fits perfectly into the FinTech: Bring your own problem leveraging Agentic AI track as it tackles a real-world financial challenge - small-scale tax evasion - often overlooked by traditional audit systems. 
+
+It applies Agentic AI to create an autonomous, context-aware audit agent capable of continuously monitoring transactions, detecting hidden evasion patterns, and reasoning about financial behavior. 
+
+Unlike static rule-based tools, The Watcher acts intelligently, explains its decisions, adapts to new evasion tactics, and recommends next steps for auditors. 
+
+By merging financial data analytics with agentic autonomy, it redefines compliance monitoring and supports transparent, fair, and efficient financial governance within the FinTech domain.
+
+Team **IronLegion** -- [Jeet Vasani](https://github.com/JeetVasani), [Adarsh Singh](https://github.com/Adarsh041-arch), [Aradya Shetty](https://github.com/aradyaShetty), [Ganesh Singh](https://github.com/Ganesh-AIML)
+
+`2025-10-07`
+
+---
+
+### Multilingual Agentic Budget Manager
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/asddfa-f95d) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co)
+
+> Spend better
+
+![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![SQL](https://img.shields.io/badge/SQL-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![AI/ML](https://img.shields.io/badge/AI/ML-333333?style=flat-square)
+
+**Description of your solution**
+
+WHAT WE ARE BUILDING:
+A Multi-Lingual agentic financial analysis and visualisation chatbot.
+
+It goes through your SMS’s (After Permissions) and displays financial insights of where your money is getting spend and maybe how you can spend it a little better.
+
+Every transaction gets processed by a tailored agent to capture to what category that transaction belongs to and it also captures the amount for the same.
+
+Instead of having a “one size fits all” the Autonomous Agents adapt to your spending behaviour and give tailored insights every fixed interval of your choice.
+
+THE GAP WE ARE SOLVING FOR:
+
+In-depth spend AI analysis and agentic suggestions (beyond basic categories and generic financial tips).
+
+Single shot financial analysis through an MCP right on onboarding (No multi-step onboarding and subjective data gathering).
+
+Multilingual chatbot and analysis to cater to the majority of India.
+
+Most apps have heuristic algorithms categorizing your spends, we have a dedicated AI Agent categorizing your every spend much more accurately and providing you with miles better financial insights.
+
+WHO IS IT FOR:
+As the entire app will be Multi-Lingual it is literally for anyone who makes digital payments in India.
+Hence EVERYONE IN INDIA.
+
+OUR GTM AND REVENUE ACCESS:
+So, the app will be free, we will be giving all of the Agentic Insights for 3 months and after that only a subset of the insights will be visible to the user.
+The long term personalised agentic insights will be behind the pay-wall and the only the short term generic insights will be available to the non-paying user after three months.
+
+Team **bfloat16>>bfloat32** -- AYUSH VAISH, Abhijeet Joshi
+
+`2025-10-06`
+
+---
+
+### Finance GPT
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/finance-gpt-7199) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://finance-gpt-fawn.vercel.app/) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co)
+
+> A personal finance assistant
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**Description of your solution**
+
+FinanceGPT – Your AI-Powered Personal Finance Copilot
+
+Managing money has become more complicated than ever. Most of us juggle multiple apps — UPI, credit cards, investments, and savings accounts — yet still lack a clear understanding of where our money truly goes. FinanceGPT was created to simplify this complexity and bring clarity to personal finance through the power of Agentic AI.
+
+FinanceGPT is an intelligent multi-agent ecosystem that acts as a personal financial copilot. Using Fi MCP’s unified API, it connects securely to a user’s real financial data and translates it into meaningful insights, predictions, and recommendations. The platform is designed to think and respond like a team of financial experts — analyzing spending patterns, forecasting cash flow, optimizing credit health, and guiding investment decisions, all in real time.
+
+The conversational interface allows users to interact naturally:
+
+“Can I afford a Goa trip next month?”
+“How much can I spend on dining this week?”
+
+FinanceGPT instantly analyzes live data and responds with personalized, actionable advice.
+
+Technically, the system combines FastAPI, CrewAI, and React for real-time orchestration and a seamless user experience. Each agent specializes in a financial domain — budgeting, credit intelligence, investment planning, and goal tracking — while the Master Controller Agent ensures everything works cohesively.
+
+Built with data security and privacy at its core, FinanceGPT uses Fi’s secure authentication, and OAuth-based access control. But beyond the technology, what makes it unique is its human-centered approach — it motivates, celebrates achievements, and helps users stay financially confident.
+
+FinanceGPT isn’t just another finance dashboard. It’s a trusted AI companion that understands your habits, predicts your needs, and helps you make smarter financial decisions — effortlessly and intelligently.
+
+**Fintech: Build an autonomous financial coaching agent that adapts to real user behavior, spending patterns, and income variability - helping gig workers, informal sector employees, and everyday citizens make smarter financial decisions proactively.**
+
+FinanceGPT is designed as a smart, autonomous financial coach that understands real people and their unique financial journeys. Instead of relying on static rules or manual inputs, it uses Fi MCP to securely access real-time data across bank accounts, UPI transactions, credit cards, and investments. A Master Agent works alongside specialized agents — like Advisor, Credit, Expense, and Investment — to analyse spending habits, income fluctuations, and financial behaviours.
+
+Together, they provide personalised guidance, timely alerts, and actionable insights, helping gig workers, informal sector employees, and everyday citizens make smarter financial decisions. Whether it’s budgeting better, improving credit health, or planning for future goals, FinanceGPT adapts continuously to each user’s evolving financial life — just like a real financial coach, but powered by Agentic AI.
+
+Team **Avengers05** -- [Nikhita R](https://github.com/Deathmon14), [S Srivarun](https://github.com/samayasri)
+
+`2025-10-17`
+
+---
+
+### DUBAI HOUSING AFFORDABILITY EXPLORER
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/dubai-housing-affordability-explorer-6735) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://dubai-housing-affordability-explore-gxw8ri5i5svcvqvcckpbme.streamlit.app/) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co)
+
+> “Discover Where Dubai Lives Within Your Budget.”
+
+![pandas](https://img.shields.io/badge/pandas-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Folium](https://img.shields.io/badge/Folium-333333?style=flat-square) ![Plotly](https://img.shields.io/badge/Plotly-333333?style=flat-square) ![Streamlit.io](https://img.shields.io/badge/Streamlit.io-333333?style=flat-square)
+
+**Description of your solution**
+
+Developed an interactive data visualization tool to analyze Dubai’s housing affordability using real-time
+property data, helping users filter neighborhoods by price, amenities, and trends.
+Engineered an affordability calculator (income/expense-based) and comparison dashboard using Plotly/Altair
+for dynamic visualizations.
+Implemented geospatial mapping (Folium) to display rental prices across Dubai, with filters for budget and lifestyle
+preferences.
+Automated data preprocessing (Pandas) and deployed a user-friendly interface (Streamlit) with modular code
+structure for scalability.
+Sourced and cleaned public housing datasets, ensuring accuracy for trend analysis (e.g., YoY price fluctuations)
+
+**Fintech: Bring your own problem in Fintech, leveraging Agentic AI.**
+
+Developed an interactive data visualization tool to analyze Dubai’s housing affordability using real-time
+property data, helping users filter neighborhoods by price, amenities, and trends.
+Engineered an affordability calculator (income/expense-based) and comparison dashboard using Plotly/Altair
+for dynamic visualizations.
+
+Team **juha** -- jumana haseen, Srini Chetty
+
+`2025-10-09`
+
+---
+
+### CreditEase
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/creditease-be81) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co)
+
+> Credit for All, Growth for Every Small Business.
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![OpenCV](https://img.shields.io/badge/OpenCV-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![React Native](https://img.shields.io/badge/React%20Native-333333?style=flat-square) ![MongoDB Atlas](https://img.shields.io/badge/MongoDB%20Atlas-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**Description of your solution**
+
+Our solution empowers micro-merchants and small businesses in India with seamless access to affordable, data-driven credit by leveraging the Open Credit Enablement Network (OCEN). Many micro-entrepreneurs operate mainly via cash and UPI transactions, making them "thin-file" customers, often excluded from formal credit due to lack of structured financial data.
+
+Our platform functions as a fintech NBFC built on OCEN protocols, and accomplishes three core objectives:
+
+- Cashflow Data Aggregation: We collect and analyze transactional data (such as UPI records) using consent-driven Data Access fiduciaries (e.g., Account Aggregators) to create a reliable, structured cashflow profile for merchants.
+AI-Powered Analysis & Credit Scoring: Leveraging AI/ML algorithms, we classify, segment, and forecast a merchant’s business cashflows, generating robust risk and affordability scores. This sophistication allows even those with little formal credit history to be reliably scored.
+
+- Instant  Loan Simulation and Offers: Based on the generated profiles, we provide pre-approved, customised, and digitally simulated loan offers within the merchant’s existing digital workflows (e.g., merchant apps). Merchants can review and accept tailored credit offers, experiencing a frictionless journey from application to disbursal.
+
+This approach not only democratises access to formal credit for underserved merchants but also lowers the cost of credit assessment and risk for lenders, driving financial inclusion and sustainable business growth.
+
+**Fintech: Bring your own problem in Fintech, leveraging Agentic AI.**
+
+Our project addresses a fundamental and persistent challenge in the Indian fintech ecosystem: enabling access to credit for micro-merchants and small businesses - groups often excluded from formal financial systems due to their limited or unstructured financial history (“thin-file” customers).
+
+How the Project Fits:
+
+- Bringing Our Own Problem: We identify and tackle the credit access gap for underbanked MSMEs, a problem not yet fully solved in Indian fintech.
+
+- Fintech Core: The solution operates as a cutting-edge fintech NBFC, integrating seamlessly with India’s open digital public infrastructure (OCEN/AA/UPI), modernising credit disbursal while complying with regulations and digital consent frameworks.
+
+- Leverage AI: Our proprietary AI/ML models power the cashflow analysis, dynamic credit scoring, and tailored loan simulations—going beyond traditional lending by analysing alternative data, predicting affordability, and reducing risk. AI ensures even merchants with minimal or informal documentation get fair, accurate, and timely credit decisions.
+
+In Summary:
+The project exemplifies the challenge of “bringing your own problem” by focusing on MSME financial inclusion and leverages AI to build smarter, automated, and scalable credit products, unlocking economic opportunity for millions and demonstrating the transformative power of AI in fintech.
+
+Team **3McChicken1AlooTikki** -- [Manmeet Singh](https://github.com/Manmeet64), [Anusri Karmokar](https://github.com/anusrimk), [Prem Thatikonda](https://github.com/prem-thatikonda29), [Tanay Sahajwalla](https://github.com/Tanay1805)
+
+`2025-10-09`
+
+---
+
+### FinZen
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/finzen-9b55) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co)
+
+> AI powered webapp for investment planning
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**Description of your solution**
+
+Our project, FinZen, is an AI-powered web application designed to dismantle the barriers to investing and retirement planning for beginners. By analyzing user spending habits and platform engagement through a behavioral AI model, FinZen will deliver hyper-customized, automated micro-investment strategies, allowing users to invest spare change from daily transactions. Our unique approach lies in integrating this passive investment model with a gamified educational journey, which simplifies complex financial concepts into interactive, bite-sized modules. The platform’s core objective is to transform financial planning from an intimidating chore into an accessible, engaging, and automated habit, thereby empowering a new generation to confidently build long-term wealth.
+
+**Fintech: Bring your own problem in Fintech, leveraging Agentic AI.**
+
+AI-powered micro-investment and retirement planning web app: Use artificial intelligence to analyze user behavior, suggest hyper-customized investment strategies, and break down barriers for beginners through micro-investing and gamified education
+
+Team **Alertcode** -- [Nidhi Bhagat](https://github.com/nidhi01bhagat), [Batuk Sharma](https://github.com/Batuksharma), Parth Nagar
+
+`2025-10-10`
+
+---
+
+### Finance for youth
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/finance-for-all-bad9) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://central-webapp-832395811271.asia-south1.run.app/chats/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6IlRVcGcyTStJemJzWk1aeVkvTjhGQy9wWjYrc2l1b0lOIiwidGFnIjoiTUFScHlhYVpSc242OVhlTGtZOTBmUT09Iiwibm9uY2UiOiJ4ZXNpMjFnWDFaYUFMdnFyIiwidGltZXN0YW1wIjoiMjAyNS0xMC0xNlQxNDo0NTo0MC4zMDVaIiwiY2hhdF9pZCI6IjY4ZjEwNTE0YzliZTIyMjg2MjJmNDE0ZSIsImlhdCI6MTc2MDYyNTk0MH0.z1tSfxbb8HCrFrOqo7BuyDqzYpeG4sGzgbbWaSN1gHE) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/vBEJhT4iKC0) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co)
+
+> Making finance more accessible for the youth
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Redis](https://img.shields.io/badge/Redis-333333?style=flat-square)
+
+**Description of your solution**
+
+ARC is an AI-powered personal finance assistant designed to help users take control of their finances. It analyzes a user’s financial portfolio (income, expenses, investments, loans/debts) to create robust financial plans, recommendations, insights, and suggestions.
+
+ARC has integrations to users' expenses and financial portfolios as well as a knowledge base of the best financial advice available.
+
+Utilizing a knowledge base of expert financial strategies, it guides users toward smarter saving, investing, and budgeting decisions.
+
+Built specifically for young adults and early professionals, ARC aims to bridge the gap in financial literacy, offering practical, AI-driven support to help them build healthy, sustainable financial habits.
+
+**Fintech: Bring your own problem in Fintech, leveraging Agentic AI.**
+
+ARC acts as a financial partner rather than a passive tracker. It understands each user’s financial situation and provides proactive suggestions. By combining financial intelligence with adaptive AI behavior, ARC empowers young professionals to make smarter, data-driven financial decisions with minimal effort leveraging Agentic AI systems.
+
+Team **team_redingle** -- Ratnadeep Choudhury, Anish Sarkar
+
+`2025-10-16`
+
+---
+
+### FinBud
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/financebud-e578) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co)
+
+> From messy spends to tax-ready in minutes.
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square)
+
+**Description of your solution**
+
+**Pain Points**
+	•	Fragmented sources (cards, banks, Gmail statements, cash bills).
+	•	No unified view of spend categories vs tax buckets.
+	•	Missed deductions (subscriptions/EMIs/interest/TDS linkage and proofs).
+	•	Manual reminders; quarter-end chaos.
+
+**Solution**
+
+**Inputs**: Upload credit/debit CSV/PDF, upload cash invoices (OCR), and auto-read Gmail statements on a user-selected day monthly.
+
+**Processing**: Normalize → dual-tag each txn (expense category: grocery, clothes, dining, fuel, etc. and tax bucket: business expense, deductible candidate, income, investment, insurance/medical, donation, GST-eligible, personal) → detect subscriptions/EMIs/interest/TDS → link proofs.
+
+**Outputs**: Real-time expense tracker + Tax Tag for the quarter for each transaction
+
+**Fintech: Bring your own problem in Fintech, leveraging Agentic AI.**
+
+People struggle to consolidate credit/debit statements and cash invoices, miss deductible spends, and scramble each quarter/year—resulting in compliance risk, higher taxes, and wasted time.
+
+Team **ProCreator Pulse** -- Prathmesh Mhatre, Kunal Mehta, Vishwajeet Gawarguru
+
+`2025-10-11`
+
+---
+
+### FaceBank
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/test-27e9) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Saichitta/FaceBank-Demo) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://youtu.be/KSxoafWl3z8) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/9xIuwywZmuI) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co)
+
+> Agentic AI meets inclusive finance.
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![OpenCV](https://img.shields.io/badge/OpenCV-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Microsoft Cognitive API](https://img.shields.io/badge/Microsoft%20Cognitive%20API-333333?style=flat-square) ![Whisper](https://img.shields.io/badge/Whisper-333333?style=flat-square) ![Speech Recognition](https://img.shields.io/badge/Speech%20Recognition-333333?style=flat-square) ![OpenAi](https://img.shields.io/badge/OpenAi-333333?style=flat-square)
+
+**Description of your solution**
+
+**FaceBank**– *An Agentic AI Banking Assistant for Elderly and Accessibility Users*
+
+Across India, millions of elderly and differently-abled citizens struggle with digital banking due to complex interfaces, OTP-based authentication, and limited accessibility. These barriers often lead to dependence on others or frequent branch visits, increasing the risk of financial exclusion and misuse.
+
+FaceBank is an agentic AI-powered banking assistant designed to empower such users with secure, voice-driven, and face-based interactions. By combining real-time facial recognition, multi-agent orchestration, and conversational intelligence, FaceBank enables users to carry out everyday banking tasks — such as checking balances, transferring funds, or opening fixed deposits — simply through natural speech.
+
+A multi-agent architecture that works autonomously to simplify the user journey:
+
+- Auth Agent: Performs secure, OTP-free customer verification through live facial recognition.
+
+- Transaction Agent: Executes payments, balance checks, and transfers on user command.
+
+- Advisory Agent: Analyzes behavior to suggest personalized savings plans and spending insights.
+
+- Learning Agent: Adapts continuously to user preferences, providing contextual and proactive assistance.
+
+**Impact & Vision**
+
+FaceBank promotes inclusive digital finance — ensuring that age or ability never limits access to essential banking services. By blending security, simplicity, and autonomy, it helps users confidently manage their finances through natural, intuitive dialogue. Its scalable design can be adopted by banks and fintechs across India, supporting the nation’s vision of accessible and equitable financial systems.
+
+**Security & Trust**
+
+FaceBank integrates proactive fraud detection through behavioral pattern analysis and anomaly monitoring. The system’s agents flag unusual transaction behavior, verify facial authenticity (to prevent spoofing or deepfake attempts), and alert users or banking authorities in real time — ensuring that accessibility never compromises security.
+
+**Fintech: Bring your own problem in Fintech, leveraging Agentic AI.**
+
+FaceBank directly addresses financial accessibility challenges faced by elderly and differently-abled users — a segment often excluded from digital banking due to complex interfaces and OTP-based authentication barriers. 
+
+By leveraging Agentic AI, FaceBank introduces an autonomous multi-agent system (Auth, Transaction, Advisory, and Learning Agents, etc) that simplifies and secures banking interactions through facial recognition and natural voice conversations.
+ 
+This approach not only reimagines digital banking with adaptive, intelligent assistance but also ensures financial inclusion and autonomy — empowering citizens to manage their finances effortlessly and securely. 
+
+FaceBank exemplifies the “Bring your own problem” vision by solving a real, underserved Fintech accessibility problem using Agentic AI for inclusive digital finance.
+
+Team **Infinite_Loopers** -- Aishanya Pattanaik, Saichitta Debasis, [Siddhant Swarup Mallick](https://github.com/siddhant2002), Khitish Mishra
+
+`2025-10-16`
+
+---
+
+### TaxMate
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/taxmate-97e7) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Adia12528/TaxMate) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co)
+
+> #Simplify your taxes
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Postman](https://img.shields.io/badge/Postman-333333?style=flat-square) ![Express.js](https://img.shields.io/badge/Express.js-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square)
+
+**Description of your solution**
+
+Tax Mate is an intelligent web-based assistant designed to simplify the complex process of income tax filing for everyday users. Built using the MERN stack (MongoDB, Express.js, React.js, Node.js), it combines automation, AI, and user-friendly design to make tax management effortless, accurate, and secure.
+
+The system helps individuals calculate taxes, compare regimes, and understand deductions through an intuitive interface and an integrated AI-powered chatbot that provides real-time guidance in both text and voice formats. Users can either manually input data or upload Form-16 and salary slips, which are automatically analyzed using OCR technology to extract income details, deductions, and tax-paid values.
+
+Tax Mate ensures transparency with a calculation log and personalized suggestions, while maintaining end-to-end data encryption for user privacy. It also features a Tax Calendar for reminders and a Regime Comparison Tool that helps users select the most beneficial tax option easily.
+
+With its intelligent automation and human-like interaction, Tax Mate empowers non-technical users to file taxes confidently — saving time, effort, and confusion.
+
+**Fintech: Build an autonomous financial coaching agent that adapts to real user behavior, spending patterns, and income variability - helping gig workers, informal sector employees, and everyday citizens make smarter financial decisions proactively.**
+
+The track tells me about how my product understands the behaviour of people how they spend and their income variations, So my product simplifies theirs worries about taxes and their complexity also provides you tools and help you file taxes, if you are a good citizen of your nation.
+
+Team **Fervor** -- [PRINCE KUMAR](https://github.com/prince673), [Aditya Soni](https://github.com/Adia12528)
+
+`2025-10-14`
+
+---
+
+### Flow Finance
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/flow-finance-d790) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co)
+
+> Every income deserves a plan
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![scikit-learn](https://img.shields.io/badge/scikit--learn-333333?style=flat-square) ![NumPy](https://img.shields.io/badge/NumPy-333333?style=flat-square)
+
+**Description of your solution**
+
+**Company Name:** Flow Finance
+**Tagline:** Every Income Deserves a Plan
+
+**The Problem:**
+Let’s be honest—managing money is hard. And it’s even harder when your income isn’t a predictable 9-to-5 paycheck. Many people today juggle multiple gigs, freelance projects, seasonal work, or informal jobs that pay irregularly. Additionally, each person’s spending habits, financial goals, and life priorities are unique.
+
+A Midsummer Night’s Dream by William Shakespeare is playfully written about the exploration of love, marriage, and the unrealistic expectations that can inexorably come along with them. This essay will explore how marriage is portrayed as limiting and difficult, but ultimately worthwhile.
+
+Commensurate with its origins in a court marriage, this drama speaks throughout for a sophisticated Renaissance philosophy of the nature of love in both its rational and irrational forms. This is shown by depicting that there then existed a significant disparity in the expectations placed on men and women. Hermia embodies this struggle as she defies her father Egeus’s wishes to marry Demetrius, showcasing her desire for autonomy and true love rather then just fulfilling only her duty to her society.
+
+Conversely, men are generally afforded a broader range of achievements and aspirations. They are encouraged to pursue careers, adventures, and personal accomplishments that can lead to social recognition. Demetrius, for instance, initially pursues Hermia out of a sense of entitlement, thinking he can claim her because that is what society expects of her.
+
+The marriage of Theseus and Hippolyta highlights the play’s depiction of power dynamics in relationships. Theseus, as Duke of Athens, signifies authority, and his marriage to the conquered queen Hippolyta indicates that marriage can reflect social hierarchy as much as personal connection.
+
+Most financial advice—budget templates, generic saving tips, or standard investment guides—doesn’t address individual needs. People with unpredictable income end up stressed, overspending, under-saving, or missing opportunities. Those most in need of guidance often receive the least.
+
+**Our Solution:**
+Flow Finance is designed to fix that. We’re building a smart, flexible financial planning platform that actually understands you, your income patterns, and your goals. Instead of giving generic advice, we tailor every suggestion to your reality. Think of it like having a financial coach in your pocket who gets that life isn’t always predictable.
+
+Here’s how it works:
+
+* Dynamic Income Tracking: No more manual logs or complicated spreadsheets. Flow Finance tracks all your income streams—freelance gigs, part-time jobs, seasonal work—so you always know what’s coming in.
+* Personalized Savings Plans: Instead of rigid rules, our flexible saving strategies adapt to your cash flow, helping you build savings even during lean months. This means you can stay on track with your goals without feeling restricted.
+* Smart Spending Insights: We analyze your spending habits and give gentle, actionable nudges to prevent overspending without making you feel restricted.
+* Goal-Based Investment Recommendations: Whether it’s building an emergency fund, saving for a dream trip, or investing for the future, we suggest options that match your risk appetite and financial reality.
+* Predictive Forecasting: Our AI looks ahead and helps you anticipate tight periods, unexpected expenses, or opportunities, so you’re never caught off guard.
+
+**The Vision:**
+We believe that every income—no matter how irregular or unconventional—deserves a plan. With Flow Finance, managing your money becomes less stressful, more empowering, and even enjoyable. We’re not just about tracking numbers; we’re about helping people build the life they want with confidence. By personalizing financial guidance to match each individual’s circumstances, Flow Finance makes financial wellness accessible to everyone, not just those with a “traditional” paycheck.
+
+**Fintech: Build an autonomous financial coaching agent that adapts to real user behavior, spending patterns, and income variability - helping gig workers, informal sector employees, and everyday citizens make smarter financial decisions proactively.**
+
+**Revolutionizing Financial Empowerment: An AI-Powered Financial Coaching Agent for the Modern World**
+
+Our project, a trailblazing innovation in the Fintech track, introduces a next-generation intelligent financial coaching agent designed to transform how everyday citizens, especially gig workers, informal sector employees, and underserved communities, navigate their financial lives. By harnessing advanced machine learning, real-time behavioral analytics, and personalization algorithms, our solution delivers tailored financial guidance that adapts to each user’s unique financial journey.
+
+Unlike traditional financial tools, our agent doesn’t just react; it anticipates. It analyzes users’ spending patterns, income changes, and real-time financial behaviors to provide proactive, actionable insights for smarter decision-making. From personalized budgeting strategies and optimized savings plans to timely spending alerts that prevent missteps, our agent empowers users to take control of their financial future with confidence. Whether helping a gig worker save for a rainy day, guiding an informal sector employee toward debt reduction, or supporting citizens to achieve their financial goals, our solution is inclusive, intuitive, and impactful.
+
+Built for scalability and accessibility, our platform uses state-of-the-art AI to deliver practical value, fostering financial wellness and resilience across diverse populations. By bridging the gap between complex financial systems and individual needs, our intelligent coaching agent is more than a tool; it is a movement toward universal financial empowerment. Join us in redefining the future of personal finance, one personalized insight at a time!
+
+Team **Triganana Dootha** -- Kushal Tata, Yashaswi Reddy Yeddula, Kalva Koushik
+
+`2025-10-16`
+
+---
+
+### FinVoice:Financial Intelligence
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/finvoice-your-voicepowered-financial-intelligence-assistant-42d9) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=Fk6_LTBE6kM) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co)
+
+> Speak Your Wealth Into Reality
+
+![Deep Learning](https://img.shields.io/badge/Deep%20Learning-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=flat-square) ![Long short-term memory (LSTM)](https://img.shields.io/badge/Long%20short--term%20memory%20(LSTM)-333333?style=flat-square) ![FastAPI](https://img.shields.io/badge/FastAPI-333333?style=flat-square) ![React.js](https://img.shields.io/badge/React.js-333333?style=flat-square) ![Neon Database](https://img.shields.io/badge/Neon%20Database-333333?style=flat-square) ![Vapi ai](https://img.shields.io/badge/Vapi%20ai-333333?style=flat-square)
+
+**Description of your solution**
+
+FinVoice - Your Money, Your Voice
+FinVoice is a voice-powered financial assistant that makes money management effortless through natural conversations. We’re solving a critical problem: financial planning is too complex and time-consuming for everyday Indians who want to save and invest but struggle with complicated apps and manual tracking.
+The Agentic AI Approach:
+Our solution leverages agentic AI to create an autonomous financial companion that doesn’t just respond—it acts independently toward your financial goals. Using Vapi AI for voice interaction, FinVoice learns your spending patterns, proactively suggests optimizations, and executes financial tasks without constant prompting.
+
+Core Features 
+	Voice-Activated SIP Calculator - Simply speak your investment amount and timeframe; the AI agent calculates projections and explains them conversationally
+	•	Smart Expense Logging - Say “I spent ₹500 on groceries” and it automatically categorizes, tracks, and analyzes your spending patterns
+	•	Autonomous Budget Monitoring - The agent learns your habits, detects overspending, and proactively suggests adjustments without being asked
+	•	Intelligent Reminders - Set bill payments and investment reminders through voice; receives WhatsApp notifications before due dates
+Why It’s Agentic:
+Unlike traditional calculators that wait for input, FinVoice’s AI agent maintains context across conversations, learns from your behavior, and takes autonomous actions. If you mention spending ₹15,000 this month, it compares to previous patterns, recognizes excess spending, and autonomously suggests: “You’re ₹3,000 over budget. Should I allocate ₹2,000 to your SIP next month?”
+Tech Stack:
+	•	Vapi AI for natural voice processing and conversational intelligence
+	•	React frontend with Vapi Web SDK
+	•	Python FastAPI backend for calculations and AI logic
+	•	neon cloud database for quick prototyping
+
+**Fintech: Bring your own problem in Fintech, leveraging Agentic AI.**
+
+FinVoice addresses a critical fintech problem: financial planning is inaccessible for most Indians due to complex interfaces and lack of personalized guidance. We’re leveraging agentic AI to create an autonomous financial assistant that acts independently toward user goals.
+How it fits the Agentic AI track:
+FinVoice goes beyond simple chatbots—it’s a true AI agent that perceives, reasons, and acts autonomously. Using Vapi AI for voice interaction, our agent learns spending patterns, maintains contextual memory across conversations, and proactively suggests financial optimizations without waiting for prompts.
+Key agentic capabilities:
+	•	Autonomous decision-making: Analyzes your expenses, detects overspending, and suggests budget adjustments independently
+	•	Goal-oriented behavior: Works continuously toward your financial goals (saving for a house, investment targets) by tracking progress and adapting plans
+	•	Contextual intelligence: Remembers your preferences, income cycles, and risk appetite to provide personalized recommendations
+	•	Proactive actions: Sends reminders, flags unusual transactions, and recommends investment rebalancing without being asked
+
+Team **Xspark** -- Talha Jamadar, Swayam Shalgar, Raza Shaikh, Suraj Singh Bayas
+
+`2025-10-15`
+
+---
+
+### "The Digital Munshi"
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/the-digital-munshi-fba7) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co)
+
+> Making the Invisible, Creditworthy
+
+![TensorFlow](https://img.shields.io/badge/TensorFlow-333333?style=flat-square) ![Java](https://img.shields.io/badge/Java-333333?style=flat-square) ![SQL](https://img.shields.io/badge/SQL-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Speech Recognition](https://img.shields.io/badge/Speech%20Recognition-333333?style=flat-square) ![Natural Language Toolkit (NLTK)](https://img.shields.io/badge/Natural%20Language%20Toolkit%20(NLTK)-333333?style=flat-square) ![Google Text to Speech](https://img.shields.io/badge/Google%20Text%20to%20Speech-333333?style=flat-square) ![Regex](https://img.shields.io/badge/Regex-333333?style=flat-square)
+
+**Description of your solution**
+
+**The Problem**
+India's vast informal workforce, comprising 92% of the total workforce, is economically active yet remains "invisible" to the formal financial system. Their financial lives are a high-frequency mix of UPI SMS alerts, cash sales recorded in physical ledgers, and seasonal income patterns, which are illegible to traditional credit institutions that are built to understand payslips and formal credit histories. This creates the "Proof of Livelihood" paradox: an absence of a usable financial narrative, not an absence of financial history, which forces this segment to rely on high-interest informal loans.
+
+**Our Solution: The Digital Munshi**
+"The Digital Munshi" is an autonomous, on-device AI agent designed to bridge this gap by acting as an intelligent financial interpreter. The solution works by:
+
+Ingesting All Data: It captures a user's complete financial life by automatically parsing bank/UPI SMS alerts, transcribing voice notes for cash sales (e.g., "sold vegetables for ₹1200"), and digitizing physical ledgers (bahi-khatas) using on-device OCR.
+
+Operating Offline: All data ingestion and processing happens entirely on the user's device without needing an internet connection, ensuring reliability in low-connectivity areas.
+
+Intelligent Categorization: An on-device machine learning model automatically categorizes each transaction. The agent proactively learns from the user through simple "Haan/Nahi" (Yes/No) feedback, becoming a personalized financial assistant over time.
+
+Generating the Kamayi Patra: The agent transforms this scattered data into a single, verifiable "Proof of Livelihood" report called the Kamayi Patra. This report provides a clear, data-driven narrative of the user's income stability, seasonality, and business health for a loan officer.
+
+**Unique Differentiators**
+
+Financial Storyteller, Not Just a Ledger: Unlike existing apps like Khatabook which focus on internal bookkeeping ("Who owes me money?"), the Digital Munshi is a credit-readiness enabler that answers the outward-facing question, "Why am I creditworthy?".
+
+Privacy by Design ("On-Device Governance"): All user data is processed and stored encrypted on their phone and never leaves the device. This builds trust with a population that is highly vulnerable to digital fraud and ensures compliance with data protection laws.
+
+**Fintech: Build an autonomous financial coaching agent that adapts to real user behavior, spending patterns, and income variability - helping gig workers, informal sector employees, and everyday citizens make smarter financial decisions proactively.**
+
+The "Digital Munshi" project is a perfect fit. It is an **autonomous financial agent **designed specifically for **gig workers and the informal sector**. The agent **adapts to real user behavior** by analyzing spending patterns and income variability, a core issue for this demographic. Using an on-device AI with a simple "Haan/Nahi" feedback loop, it continuously learns and personalizes its understanding. Its primary goal is to help users make a smarter financial decision: accessing formal credit. It proactively achieves this by translating their financial life into a verifiable 'Kamayi Patra' report for lenders.
+
+Team **Coders Sutra** -- ROHIT RAJ, [Harshit Raj](https://github.com/githarshking)
+
+`2025-10-16`
+
+---
+
+### DronaFi
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/dronafi-8c6f) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/shravan-aki/DronaFi.git) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co)
+
+> Fintech Ai
+
+![Cloud computing](https://img.shields.io/badge/Cloud%20computing-333333?style=flat-square) ![Reinforcement learning](https://img.shields.io/badge/Reinforcement%20learning-333333?style=flat-square) ![Large Language Models (LLM)](https://img.shields.io/badge/Large%20Language%20Models%20(LLM)-333333?style=flat-square) ![Open Banking APIs](https://img.shields.io/badge/Open%20Banking%20APIs-333333?style=flat-square) ![Cross-Platform Mobile (React Native/Flutter)](https://img.shields.io/badge/Cross--Platform%20Mobile%20(React%20Native/Flutter)-333333?style=flat-square)
+
+**Description of your solution**
+
+**DronaFi: The Autonomous Financial Coach** is an Adaptive AI solution designed to solve the critical issue of **income volatility** for India's massive gig and informal workforce.
+
+
+**The Problem**: Traditional financial tools rely on fixed monthly income and fail the 500 million volatile-income earners. This instability forces them into predatory debt cycles and prevents financial inclusion. The core failure is that existing apps are **retrospective** (reporting past spending) rather than **proactive** (coaching future action).
+
+
+**The Solution: The Synapse Architecture (Adaptive AI)**: DronaFi operates as an Autonomous Financial Agent using a blend of **Reinforcement Learning (RL)** and **Large Language Models (LLM)** to provide continuous, personalized guidance:
+
+1. **Dynamic Profile**: DronaFi connects to bank/UPI data to build a **dynamic average income/spending profile** that accepts volatility as the norm, ignoring fixed-date budgets.
+
+2. **Behavioral Engine (RL)**: It learns the user’s personal financial psychology, identifying **spending triggers** and predicting cash flow deficits before they happen.
+
+3. **Proactive Nudges & Education**: The system delivers hyper-personalized, actionable instructions (nudges). Crucially, the LLM will also provide **digestible educational content and "hidden financial tricks"** specific to the user's income type (e.g., maximizing gig platform incentives, exploiting short-term fixed deposit arbitrage, or utilizing tax benefits for the informal sector), ensuring the user's literacy and control grow alongside their stability.
+
+**Core Differentiator**: DronaFi's competitive edge is its transition to **behavioral coaching and mentorship**—it is the first solution to truly adapt to inconsistent income streams, generating stability and a clear pathway to formal finance (B2B2C model). Our goal is not just to track money, but to change financial behavior and **teach the user to win**.
+
+**Fintech: Build an autonomous financial coaching agent that adapts to real user behavior, spending patterns, and income variability - helping gig workers, informal sector employees, and everyday citizens make smarter financial decisions proactively.**
+
+**DronaFi** directly addresses **every key criterion** outlined in this track.
+
+1. **Autonomous Financial Coaching Agent**: DronaFi is an     Autonomous Financial Agent powered by **Reinforcement Learning (RL)** and an **LLM** for guidance and education.
+
+2. **Adapts to Real User Behavior**: Our core function is building a **Dynamic Profile** that models **income variability** and learns the user's specific **spending triggers** (financial psychology), which is the definition of adapting to real behavior.
+
+3. **Target Audience Match**: Our primary user base is the **gig worker and informal sector employee** who suffer most from **income variability**, making DronaFi a perfect fit for the track's target.
+
+4. **Proactive Financial Decisions**: DronaFi shifts the user from retrospective reporting to **proactive coaching**, delivering in-the-moment actionable nudges and financial "tricks" that ensure future stability, directly achieving the goal of smarter, proactive decisions.
+
+DronaFi is not merely relevant; it is a dedicated implementation of this track's challenge statement.
+
+Team **DronaFi** -- Shravan kumar, Sanskriti Kumari
+
+`2025-10-19`
+
+---
+
+### finvoice
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/finvoice-7a4f) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Bhagyesh0603/fin-voice-gen-ai) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://fin-voice-gen-ai.vercel.app/) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co)
+
+> Intelligent Finance, Effortless Control
+
+![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Google Cloud Platform (GCP)](https://img.shields.io/badge/Google%20Cloud%20Platform%20(GCP)-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![React.js](https://img.shields.io/badge/React.js-333333?style=flat-square) ![Google Cloud API](https://img.shields.io/badge/Google%20Cloud%20API-333333?style=flat-square)
+
+**Description of your solution**
+
+Managing personal finances is overwhelming: 68% abandon budgeting due to tedious manual entry, fragmented apps, and lack of guidance. People waste 15-20 minutes daily logging expenses while missing overspending alerts and financial insights. FinVoice revolutionizes this with AI-powered voice commands and OCR receipt scanning for instant expense tracking, real-time budget alerts, and personalized financial coaching—all in one platform. Currently featuring automated expense categorization, smart budgeting, and investment tracking, FinVoice will soon introduce predictive spending forecasts, automated bill payments, multi-bank account aggregation, and AI-driven investment recommendations, making financial wellness accessible to everyone while reducing tracking time by 90% and boosting savings by 40%.
+
+**Fintech: Bring your own problem in Fintech, leveraging Agentic AI.**
+
+# 🏦 FinVoice - Agentic AI-Powered Personal Finance Platform
+
+## 🎯 Problem Statement
+
+**Managing personal finances is fragmented and overwhelming: 68% abandon budgeting due to manual data entry, lack of real-time insights, and scattered financial tools.** Traditional apps require constant user input, provide reactive (not proactive) guidance, and fail to understand user intent or automate financial decisions. **FinVoice solves this with Agentic AI that autonomously tracks expenses via voice/OCR, predicts financial risks, provides personalized coaching, and takes proactive actions—transforming users from passive trackers to empowered financial decision-makers.**
+
+---
+
+## 🤖 How We Leverage Agentic AI
+
+### **What Makes Our AI "Agentic"?**
+
+Agentic AI goes beyond simple chatbots—it **perceives, reasons, plans, and acts autonomously** to achieve user-defined financial goals.
+
+### **Core Agentic AI Capabilities:**
+
+#### **1. Autonomous Expense Intelligence Agent** 🎤📸
+- **Perception**: Listens to voice commands, scans receipt images via OCR
+- **Reasoning**: Understands context (*"coffee at Starbucks"* → Food & Dining category)
+- **Action**: Auto-categorizes, logs expenses, updates budgets without user confirmation
+- **Learning**: Adapts to user preferences (*"Always categorize Uber as Transport"*)
+
+```
+User: "I spent $45 on groceries"
+Agent: ✅ Logged $45 to Food & Dining. You have $155 left in monthly grocery budget.
+```
+
+#### **2. Predictive Budget Guardian Agent** ⚠️
+- **Perception**: Monitors spending patterns in real-time
+- **Reasoning**: Detects anomalies (*"Dining spend up 40% vs last month"*)
+- **Planning**: Calculates trajectory (*"At this rate, budget exceeded in 5 days"*)
+- **Action**: Sends proactive alerts, suggests spending adjustments
+
+```
+Agent Alert: 🚨 Warning! You're 30% over your entertainment budget. 
+Suggested action: Skip 2 movie nights this week to stay on track.
+```
+
+#### **3. Goal-Oriented Financial Planner Agent** 🎯
+- **Goal Understanding**: User sets goal: *"Save $5,000 for vacation by June"*
+- **Planning**: Creates automated savings plan based on income/expenses
+- **Execution**: Monitors progress, adjusts recommendations monthly
+- **Adaptation**: Re-plans if unexpected expenses occur
+
+```
+Agent: Based on your income, save $417/month to reach vacation goal.
+Action: Auto-transfer $417 to savings on the 1st of each month?
+User: Yes
+Agent: ✅ Automated. You'll reach $5,000 by May 28th.
+```
+
+#### **4. Intelligent Receipt Processing Agent** 📸
+- **Perception**: OCR scans receipt image
+- **Extraction**: Identifies merchant, amount, date, items
+- **Reasoning**: Auto-categorizes based on merchant patterns
+- **Action**: Creates expense entry, detects duplicate receipts
+
+```
+User uploads receipt
+Agent: Found: $87.45 at Target, purchased groceries. 
+Category: Food & Dining. Add to expenses? [Auto-approved in 3s]
+```
+
+#### **5. Conversational Financial Advisor Agent** 💬
+- **Natural Language Understanding**: Interprets complex queries
+- **Context Awareness**: References past transactions, budget history
+- **Personalized Insights**: Analyzes user-specific patterns
+- **Actionable Recommendations**: Provides next-best-action advice
+
+```
+User: "How am I doing this month?"
+Agent: 📊 Analysis:
+- Total spending: $2,340 (12% under budget)
+- Top category: Dining ($680 - 8% over)
+- Savings progress: 85% toward emergency fund goal
+💡 Tip: Reduce dining by $100 to hit savings target 2 weeks early.
+```
+
+#### **6. Multi-Agent Investment Advisor** 📈 *(Future)*
+- **Market Analysis Agent**: Monitors stocks, crypto, mutual funds
+- **Risk Assessment Agent**: Evaluates portfolio risk vs user tolerance
+- **Rebalancing Agent**: Suggests/executes portfolio adjustments
+- **Tax Optimization Agent**: Recommends tax-loss harvesting strategies
+
+#### **7. Bill Payment Automation Agent** 💳 *(Future)*
+- **Bill Detection**: Scans emails/SMS for upcoming bills
+- **Payment Scheduling**: Auto-schedules payments before due dates
+- **Negotiation Agent**: Contacts providers for better rates
+- **Fraud Detection**: Flags unusual charges, disputes on behalf of user
+
+---
+
+Team **CyberTech** -- [Bhagyesh Joshi](https://github.com/Bhagyesh0603), [Himesh Raghuwanshi](https://github.com/himesh112005), [Shivanjali Patil](https://github.com/patilshivanjali7-glitch), [Kunal Lingayat](https://github.com/lingayatkunal767-maker)
+
+`2025-10-16`
+
+---
+
+### FinCopi
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/fincoff-668e) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co)
+
+> Your finance copilot
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![Speech Recognition](https://img.shields.io/badge/Speech%20Recognition-333333?style=flat-square) ![OpenAi](https://img.shields.io/badge/OpenAi-333333?style=flat-square) ![Text-to-Speech](https://img.shields.io/badge/Text--to--Speech-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![langchain](https://img.shields.io/badge/langchain-333333?style=flat-square)
+
+**Description of your solution**
+
+Problem Statement
+
+Ever feel like your money just disappears every month — even when you think you’re being careful? Most people struggle to save consistently, not because they earn too little, but because they can’t clearly see where their money actually goes. Manual expense tracking feels like a chore, and most budgeting apps give vague, one-size-fits-all advice that never fits real life.
+
+Even timeless financial principles sound good in theory but fail to translate into actionable steps for your unique lifestyle. The result? A generation that wants to save and grow money — but feels stuck between effort-heavy tools and generic advice.
+
+⸻
+
+Proposed Solution
+
+We’re building an AI Money Mentor — a smart, friendly financial guide that actually understands you. It reads your transaction data (from bank statements or SMS alerts), maps out where your money really flows, and offers personalized, bite-sized actions that make saving effortless.
+
+Unlike typical budgeting apps, our mentor is agentic — it proactively learns from your patterns, predicts where you might overspend, and gives timely nudges before it’s too late. It’s grounded in proven financial wisdom, but constantly evolves using anonymized insights from the entire community — so as more people use it, everyone’s financial IQ improves.
+
+With this, managing money finally feels simple, personal, and sustainable — a tool built not for accountants, but for everyday people who want to build better financial habits without overthinking every rupee.
+
+Team **FinCoff** -- [Ram Goel](https://www.github.com/RamGoel), Dnyaneshwar More, [Neel Patel](https://github.com/Neel2107)
+
+`2025-10-17`
+
+---
+
+### Stock  Prediction
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/stock-prediction-9447) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ShirinK11/Stock-Prediction-System) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co)
+
+> From Stock Prediction to Financial Reasoning
+
+![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![XGBoost](https://img.shields.io/badge/XGBoost-333333?style=flat-square) ![Convolutional neural network (CNN)](https://img.shields.io/badge/Convolutional%20neural%20network%20(CNN)-333333?style=flat-square) ![FinBERT](https://img.shields.io/badge/FinBERT-333333?style=flat-square)
+
+**Description of your solution**
+
+Our project is a smart stock prediction platform that uses data-driven AI models to help everyday investors make informed decisions. It analyzes historical market trends, candlestick patterns, and real-time sentiment to predict short-term stock price movements. The system combines deep learning models like XgBoost , CNN , FinBert  for time-series forecasting with sentiment analysis to capture how public mood impacts market trends. Users can view easy-to-understand insights and confidence scores instead of raw numbers. The goal is to create a transparent, educational, and accessible tool that helps people understand why prices move not just what’s next making smarter investing available to everyone.
+
+**Fintech: Bring your own problem in Fintech, leveraging Agentic AI.**
+
+Our project fits the Fintech track because to turn a normal stock predictor into a smart financial coach. Instead of just showing charts or numbers, our system learns from the market, reads the news, tracks emotions in social media. It doesn’t just predict it explains why, gives context, and keeps improving on its own. The aim is to make smart investing accessible for everyone, especially people who don’t have time or expertise to follow the markets every day.
+
+Team **CodeNinjas** -- Shirin Kazi, Shruti Kadam
+
+`2025-10-18`
+
+---
+
+### BudgetBuddy
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/budgetbuddy-b725) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://docs.google.com/document/d/1KQuLwZXcXsBEi8u8ZpKBUDJdgpo8JU1cD6HCUhvuaog/edit?usp=sharing) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co)
+
+> Your Personal Financial Coach
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![Firebase](https://img.shields.io/badge/Firebase-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Figma](https://img.shields.io/badge/Figma-333333?style=flat-square) ![Chart.js](https://img.shields.io/badge/Chart.js-333333?style=flat-square)
+
+**Description of your solution**
+
+BudgetBuddy is a fun and friendly, voice-enabled financial coaching  website that tracks user spending behaviours, sets saving challenges with rewards, and gives real-time reminders, and celebrates your progress — like a supportive friend who keeps you motivated, not judged and investment tips.
+It adapts automatically to each user’s habits to help them save smarter and reach their goals easily.
+
+**Fintech: Build an autonomous financial coaching agent that adapts to real user behavior, spending patterns, and income variability - helping gig workers, informal sector employees, and everyday citizens make smarter financial decisions proactively.**
+
+Many people, especially gig workers and students, struggle to manage money because income and spending habits change every month and BudgetBuddy solves this by   becoming their personal financial buddy. BudgetBuddy acts as an autonomous financial agent that studies users’ spending patterns, daily expenses, and saving behaviour.
+
+Team **Team BudgetBuddy** -- Shifa Rajput, Sana Shaikh
+
+`2025-10-16`
+
+---
+
+### FinSight AI
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/finsight-ai-9341) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co)
+
+> Your personal AI investment analyst.
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![PyTorch](https://img.shields.io/badge/PyTorch-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Supabase](https://img.shields.io/badge/Supabase-333333?style=flat-square)
+
+**Description of your solution**
+
+We're building FinSight AI, an autonomous financial agent platform designed to democratize intelligent decision-making in both investing and lending. Our solution tackles the challenge of information overload by creating a unified AI that continuously ingests and analyzes a wide array of data—from real-time market feeds and financial news to social media sentiment. This core intelligence then powers two key functions: first, it identifies and executes automated trading strategies for investment portfolios, reacting to market signals faster than any human could. Second, this same analytical engine can be applied to assess credit risk, providing instant, data-driven, and unbiased recommendations on loan applications. This creates a versatile AI co-pilot for navigating complex financial ecosystems. To bring this to life, we'll be using Python with the Agno framework to structure our AI agent, LangChain and a fine-tuned LLM for advanced sentiment analysis and text comprehension, the Alpaca API for real-time market data and trade execution, and FastAPI to create a simple interface for interacting with our agent.
+
+Team **M.O.E** -- [Shawneil Rodrigues](https://github.com/ShawneilRodrigues), [Yash Asgaonkar](https://github.com/YashAsgaonkar)
+
+`2025-10-17`
+
+---
+
+### FinV
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/finv-60fc) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://drive.google.com/drive/folders/1pz6sTK5QzuVAaBcI7-2Jn2Bl60KijpBb?usp=sharing) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co)
+
+> Making Finance Easy
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Flutter](https://img.shields.io/badge/Flutter-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square)
+
+**Description of your solution**
+
+Imagine having five expert financial AIs on your personal team — each with a special role, all working together seamlessly:
+
+**1. The Predictor 🔮**
+Watches your income and expenses daily, learning your patterns (like “you earn more on weekends”) to forecast your cash flow. It warns you early if upcoming bills might stretch your budget.
+
+**Goal:** Turn unpredictable income into a clear, reliable financial outlook.
+
+**2. The Coach 🧠**
+Understands your spending behavior and nudges you at the right moments like reminding you to save when you’re near your favorite store.
+
+**Goal:** Help you avoid bad money habits before they happen.
+
+**3. The Strategist 🎯**
+Finds the fastest, smartest way to achieve your financial goals. When extra income comes in, it instantly decides whether to save, invest, or repay debt for maximum benefit.
+
+**Goal:** Automate smart financial decisions without complex math.
+
+**4. The Teacher 👨‍🏫**
+Simplifies big goals (like buying a home) into small, daily steps. It celebrates your progress and makes financial learning easy and motivating.
+
+**Goal:** Build lasting financial confidence and literacy.
+
+**5. The Translator 🗣️**
+Turns informal financial data like cash notes or handwritten ledgers into digital records that banks and the other agents can understand.
+
+**Goal:** Make every user financially visible and creditworthy, no matter how they earn.
+
+**The Combined Power:**
+These five AI agents communicate constantly through an automated workflow. They predict, guide, and adjust your finances in real time , helping people with irregular incomes finally achieve financial stability, smarter savings, and access to better financial opportunities.
+
+Team **Vibe Coders** -- [Aditya Mhatre](https://github.com/Adi230920), [Sarvesh Wattamwar](https://github.com/Sarvesh-2405), [Shivkant Yadav](https://github.com/shivkant_yadav03), [Atharv Vichare](https://github.com/AtharvVichare)
+
+`2025-10-17`
+
+---
+
+### TaxGPT
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/taxgpt-556e) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co)
+
+> Simplifying Taxes with the Power of AI.
+
+![PythonKivy](https://img.shields.io/badge/PythonKivy-333333?style=flat-square)
+
+**Description of your solution**
+
+Problem Statement
+
+Filing taxes is often complicated, time-consuming, and filled with confusing terminology. Individuals and small businesses struggle to understand changing tax rules, identify applicable deductions, and ensure compliance. This results in frequent errors, missed opportunities, and unnecessary penalties.
+
+Solution Overview
+
+TaxGPT is an AI-powered conversational assistant designed to simplify the tax management process. It combines the intelligence of large language models (LLMs) with real-time tax regulation data and financial APIs to provide users with personalized, accurate, and easy-to-understand tax assistance.
+
+The solution helps users understand tax laws through natural language queries, automate form filling and computation, detect inconsistencies in financial data, and generate compliance-ready reports.
+
+Key Features
+	•	Natural Language Querying: Enables users to ask tax-related questions in plain language and receive accurate responses.
+	•	Document Intelligence: Extracts and processes data from invoices, receipts, and bank statements using OCR and NLP.
+	•	Tax Knowledge Engine: Continuously updated with the latest tax slabs, GST rules, and exemptions.
+	•	Smart Filing Assistant: Automatically fills ITR forms and generates summarized reports.
+	•	Explainable AI: Provides reasoning and references to specific tax laws behind each recommendation.
+
+**Fintech: Bring your own problem in Fintech, leveraging Agentic AI.**
+
+TaxGPT aligns strongly with the Fintech domain as it addresses a critical financial pain point — tax compliance, advisory, and automation — through the use of artificial intelligence and financial data analytics.
+
+The project bridges the gap between finance and technology by enabling intelligent interaction with tax systems, automating manual financial processes, and improving accessibility to tax-related knowledge.
+
+How TaxGPT Fits in Fintech
+	1.	Financial Automation and Intelligence
+TaxGPT automates traditionally manual financial tasks like tax computation, deduction identification, and return preparation. By integrating AI and financial APIs, it brings automation and accuracy into core financial workflows, which is a key focus area in Fintech innovation.
+	2.	AI-Driven Financial Advisory
+It functions as an intelligent financial assistant, capable of analyzing income, expenses, and tax rules to generate personalized tax insights. This falls under the Fintech sub-domain of AI-based financial advisory and compliance management.
+	3.	Compliance and Regulatory Tech (RegTech)
+The system ensures compliance with government tax regulations by continuously updating itself with the latest laws, making it a RegTech solution—a subcategory of Fintech focused on regulatory automation and monitoring.
+	4.	Financial Inclusion and Accessibility
+TaxGPT makes professional-level tax knowledge accessible to individuals, freelancers, and small businesses who cannot afford expensive tax consultants. This supports the Fintech goal of democratizing access to financial services and simplifying complex financial operations.
+	5.	Data-Driven Decision Making
+The tool processes and interprets structured and unstructured financial data to deliver actionable insights. This aligns with the Fintech objective of leveraging data science and analytics for better financial decision-making.
+
+Summary
+
+TaxGPT fits into the Fintech track as an AI-powered RegTech and financial automation platform that simplifies taxation, enhances compliance, and empowers users with intelligent financial guidance. It merges finance, data, and AI technologies to make the tax ecosystem more efficient, transparent, and accessible — fulfilling the core purpose of financial technology innovation.
+
+Team **MYGENIX** -- [Purvi Pande](https://github.com/purvipande21), Manas Jadhav, Vivek Pawar, [Yogesh Jadhav](https://github.com/kni9ht)
+
+`2025-10-19`
+
+---
+
+### BudgetBee
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/budgetbee-72a8) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co)
+
+> Buzzing Your Finances into Shape
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![PyTorch](https://img.shields.io/badge/PyTorch-333333?style=flat-square) ![OAuth](https://img.shields.io/badge/OAuth-333333?style=flat-square) ![SQLite](https://img.shields.io/badge/SQLite-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![JWT](https://img.shields.io/badge/JWT-333333?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=flat-square)
+
+**Description of your solution**
+
+💡 BudgetBee — A Privacy-First Agentic AI Financial Coach for India
+
+BudgetBee is an on-device, agentic AI assistant that helps gig workers, informal-sector employees, students, and young professionals to save, budget, and invest while keeping their financial data private and anonymous.
+
+The agent continuously learns from spending and income patterns, proactively nudges users, and leverages contextual real-world events (festivals, salary days, travel, local events) to deliver timely and relevant financial guidance all while respecting user consent and privacy.
+
+🚀 Key Features
+
+1. Local-First Tracking & Processing: All transaction summaries, budget calculations, and ML inferences run entirely on-device. Sensitive raw data never leaves the user’s phone unless explicitly permitted.
+2. Anonymity by Default: Identifiers are hashed, and profiles use pseudonyms. Optional cloud sync stores only aggregated or differentially private summaries.
+3. Contextual Event Awareness: The agent adapts budgets and recommendations based on calendar events, GPS-based zones, or festival dates.
+       Example: “Diwali is coming set aside ₹X for gifts and family travel.”
+4. Agentic Behavior with Safety Boundaries: BudgetBee monitors cashflow risks and suggests autonomous but explainable actions such as micro-savings or buffer creation with clear undo/consent controls.
+5.Explainability & User Control: Every recommendation includes a short rationale, along with accept, defer, or reject options. Users can view or delete logs anytime.
+6.Minimal Permissions & Transparent Consent: Each data source (bank API, UPI summary, calendar, location) requires a separate opt-in with a clear purpose and retention policy.
+
+🧩 How Contextual Event Tracking Works (Privacy-First)
+
+1. User Opt-In: Users choose which contextual signals to enable, such as calendar sync, manual event tags, or GPS-based event zones.
+2. Local Mapping: Events are mapped on-device into categories (e.g., festival, payday, travel, medical).
+3. Adaptive Budgeting: The AI adjusts forecasts, budgets, and sends timely nudges based on these events.
+4. Optional Anonymized Telemetry: If users opt in, anonymized and differentially privatized summaries improve the model, ensuring no personal data ever leaves the device.
+
+🪄 Typical User Flow
+
+1. Install & Onboard: Select permissions and data-scope preferences.
+2. Connect Bank or UPI Summary: BudgetBee ingests only necessary metadata; no raw account numbers are stored.
+3. AI Analysis: The agent analyzes recent months’ data and suggests a 30/90-day financial plan.
+4. Contextual Setup: User opts into event tracking (e.g., festival calendar or salary day alerts).
+5. Proactive Coaching: The AI sends smart, explainable nudges and micro-savings suggestions, adapting with every user response.
+
+🛡️ Privacy & Security Highlights
+
+1. On-Device ML Inference and AES-level encryption for all local data.
+2. OAuth-based integrations with tokenized sessions for third-party APIs.
+3. Fine-Grained Data Controls: users can export, purge, or anonymize data anytime.
+4. Transparent Privacy Policy presented during onboarding for full clarity.
+
+**Fintech: Build an autonomous financial coaching agent that adapts to real user behavior, spending patterns, and income variability - helping gig workers, informal sector employees, and everyday citizens make smarter financial decisions proactively.**
+
+BudgetBee fits perfectly into the Fintech track as it acts as an autonomous financial companion that helps users manage their money smartly. Our platform analyzes user income, spending habits, and savings goals to provide personalized budgeting insights, spending alerts, and saving recommendations.
+
+It empowers gig workers, informal sector employees, and everyday users to make informed financial decisions even with variable incomes. By automating expense tracking and offering actionable suggestions through AI-driven insights, BudgetBee encourages financial discipline, long-term savings, and better money management, bridging the gap between technology and financial literacy.
+
+Team **Git Clonners** -- Anush Gupta, Nishchal Goyal, Ayushman Rathi
+
+`2025-10-17`
+
+---
+
+### FinCoachAI
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/fincoachai-ddb3) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co)
+
+> Manage your expenses easily
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**Description of your solution**
+
+We have created a web application which allows users to manage their expenses by setting goal and they can see where they spend their money they can export their expenses data in pdf format we have also added ai feature which helps to create insights and we did our best to make our web application look more beautiful with dark mode toggle
+
+Team **CodeGalaxy** -- Vaibhav Gadhave, Akash Karochi
+
+`2025-10-18`
+
+---
+
+### PocketPilot
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/pocketpilot-2a1e) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co)
+
+> Your personal finance navigator
+
+![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=flat-square) ![Redis](https://img.shields.io/badge/Redis-333333?style=flat-square) ![Long short-term memory (LSTM)](https://img.shields.io/badge/Long%20short--term%20memory%20(LSTM)-333333?style=flat-square) ![Core ML](https://img.shields.io/badge/Core%20ML-333333?style=flat-square) ![BERT](https://img.shields.io/badge/BERT-333333?style=flat-square)
+
+**Description of your solution**
+
+PocketPilot is a predictive financial co-pilot designed to help the modern workforce navigate the challenges of a variable income.
+
+**Problem Overview**
+The financial tools available today are fundamentally misaligned with the reality of the gig economy. For freelancers, creators, and independent contractors, income is not a predictable monthly event but a fluctuating stream. This volatility makes traditional budgeting ineffective and creates significant financial anxiety. The core challenge is not just tracking past expenditures, but managing future cash flow uncertainty. Existing apps can tell you what you've spent, but they offer little guidance on how to prepare for what you might or might not earn.
+
+**Our Solution: PocketPilot**
+PocketPilot shifts the focus from reactive expense tracking to proactive financial forecasting. It's designed to be a forward looking instrument that provides users with the clarity needed to make informed decisions.
+
+By analyzing historical transaction data, PocketPilot identifies patterns in both income and expenses. Its core function is a sophisticated forecasting engine that simulates thousands of potential financial futures based on the user's unique habits. The system doesn't provide a single, optimistic prediction; instead, it generates a probabilistic forecast, showing a range of likely outcomes for the user's bank balance over the next 30 days.
+
+This complex data is then translated into clear, strategic advice. Instead of just raw numbers, the user receives actionable intelligence, such as: "Based on our forecast, there is a significant probability of a cash-flow dip in the last week of the month. Consider securing one additional project to maintain a healthy buffer."
+
+**Technical Implementation**
+Our system is built on a modular architecture to ensure scalability and accuracy.
+
+Data Pipeline: We start with a robust ingestion service for parsing user provided CSV statements. The data is then cleaned and structured for analysis.
+
+Forecasting Engine: We utilize the Prophet forecasting model to project baseline income and expense trends. This forecast is then used as a median input for a Monte Carlo simulation that models volatility and generates a percentile-based financial outlook (P10, P50, P90).
+
+Insight Generation: The numerical output from the simulation is passed to a large language model, which synthesizes the data into concise, human readable recommendations.
+
+**Fintech: Build an autonomous financial coaching agent that adapts to real user behavior, spending patterns, and income variability - helping gig workers, informal sector employees, and everyday citizens make smarter financial decisions proactively.**
+
+PocketPilot is fundamentally an autonomous financial coaching agent, designed from the ground up to address the core challenges outlined in this track.
+
+Our project's primary mission is to tackle the problem of income variability , a daily reality for the gig workers and informal sector employes this track aims to serve. Unlike traditional budgeting apps that are built for stable monthly salaries, PocketPilot's AI engine is specifically designed to understand and adapt to the fluctuating financial lives of its users.
+
+**Features of PocketPilot:**
+1.It adapts to real user behavior: By analyzing historical transaction data, PocketPilot learns individual spending patterns, income cycles, and recurring expenses. This allows it to create a personalized financial model for each user.
+
+2.It helps users make smarter decisions proactively: The core of our solution is a predictive forecasting engine. Instead of just showing users where their money went, PocketPilot simulates thousands of future financial scenarios to identify potential cash flow shortages before they happen. It then provides clear, actionable advice, empowering users to be proactive rather than reactive.
+
+In essence, PocketPilot moves beyond simple expense tracking to become a forward looking co-pilot, giving users in the informal economy the foresight they need to manage their finances with confidence.
+
+Team **Defaulters** -- Pratik Jadhav, Pranav Somwanshi, Shrikant Fugnar
+
+`2025-10-19`
+
+---
+
+### FinTrack
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/veriscope-ceee) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/namanxdev/Fin-tracker) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://fintracker-3jn2.onrender.com/) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co)
+
+> Let’s keep building the future of finance
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![FastAPI](https://img.shields.io/badge/FastAPI-333333?style=flat-square) ![langchain](https://img.shields.io/badge/langchain-333333?style=flat-square) ![LangGraph](https://img.shields.io/badge/LangGraph-333333?style=flat-square)
+
+**Description of your solution**
+
+We are developing an AI-based Financial Coaching Agent that serves as a personalized money guide for individuals whose earnings are irregular or uncertain, e.g., gig workers, freelancers, and students. Conventional finance apps make the assumption of constant salaries and give generic budgetary tips, which don't work for individuals whose incomes vary.
+
+Our solution learns from user behavior, examines spending and income patterns, and provides context-based financial guidance specific to the situation of every user. For instance, if a user earns less in one week, the agent automatically advises cutting down on some expenses or saving a small amount when there is high income.
+
+
+The system combines various financial data streams (mock transaction data, income records, and goal inputs) via a FastAPI backend and securely stores them in MongoDB. The AI agent reads this data using LangChain and uses it to create insights, risk detection (such as overspending or low savings), and human-like conversational recommendations through a Next.js web interface.
+
+The agent also issues proactive prompts and reminders—for example, warning users ahead of when they're about to spend more than their budget or reminding them to stick to a goal (such as saving for rent or a laptop purchase). It learns users' preferences over time—such as risk level or saving behavior—to provide more meaningful, personalized advice.
+
+The outcome is a smart, responsible, and friendly financial companion that equips gig workers to handle money with confidence, establish savings discipline, and reach financial security through sound AI coaching.
+
+![image](https://assets.devfolio.co/content/428bf9aa982341daacb2159448544db1/6476b847-f243-420c-9a52-8edcb0cb3a83.png)
+
+![image](https://assets.devfolio.co/content/428bf9aa982341daacb2159448544db1/34d2e633-2143-43a0-b792-e14f69843b03.png)
+
+**Fintech: Build an autonomous financial coaching agent that adapts to real user behavior, spending patterns, and income variability - helping gig workers, informal sector employees, and everyday citizens make smarter financial decisions proactively.**
+
+How Our Solution Maps to the Track:
+
+Our solution directly solves the Agentic AI Challenge by creating a personalized financial coaching agent that learns from each user's individual financial activity continuously and updates its advice accordingly.
+
+In contrast with conventional financial solutions that provide static, one-size-fits-all guidance, our agent employs AI-based behavioral learning to learn from users with irregular or unpredictable income streams like gig workers, freelancers, and informal sector workers.
+
+Here's how it exactly fits the objectives of the track:
+
+1. Ongoing Learning from User Actions:
+
+The agent utilizes LangChain memory to recall previous choices, spending patterns, and interests.
+Gradually, it sharpens its recommendations based on users' reactions—similar to a human money coach.
+
+2. Merging Diverse Financial Data Streams:
+
+Our backend (FastAPI and MongoDB) takes data from multiple sources, like uploaded transaction files, mock APIs, or manual inputs.
+The multi-stream integration provides a holistic view of savings goals, income, and expenses.
+
+3. Proactive Risk Identification:
+
+The system identifies financial risks such as low savings rates, inconsistent income patterns, or overspending automatically.
+It proactively alerts users with smart reminders (e.g., “You’re close to your dining-out budget limit”).
+
+4. Personalized Recommendations & Nudges:**
+
+The AI agent provides tailored financial strategies—for example, “Save ₹500 this week since your income increased,” or “Shift 10% of expenses toward your laptop fund.”
+It adapts to user goals and risk tolerance, ensuring advice is practical and relevant.
+
+5. Empathy for the Target Group:
+
+Created for gig workers and variable-income individuals, it recognizes real-life issues such as uncertain cash flow and assists them in planning accordingly.
+
+In short, our solution captures the essence of Agentic AI. This smart, adaptive, and proactive financial friend learns, acts, and grows on each user interaction to provide reliable, context-sensitive financial advice.
+
+Team **Crusaders** -- [shrey shrivastava](https://github.com/shrey1184), [Vinayak Tiwari](https://github.com/Vinayakyeti), [Naman Gupta](https://github.com/namanxdev)
+
+`2025-10-19`
+
+---
+
+### FinAlly
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/finally-974d) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://docs.google.com/document/d/1NCeWpcp5rVVIlIHhv6NMrQHnwdEJYFo-XJvLLgh2EJ0/edit?usp=sharing) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co)
+
+> The only ally you will ever need for your finances
+
+![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Google Cloud Platform (GCP)](https://img.shields.io/badge/Google%20Cloud%20Platform%20(GCP)-333333?style=flat-square) ![gemini](https://img.shields.io/badge/gemini-333333?style=flat-square)
+
+**Description of your solution**
+
+**FinAlly**
+
+For India's 15 million freelancers and gig workers, navigating the financial chaos of operational tax leakage and cash-flow distortion caused by TDS and GST is a constant source of anxiety and lost income. FinAlly is an agentic AI ally that transforms this complexity into calm and clarity. By securely integrating with a user's financial data, our agent moves beyond passive budgeting to proactively forecast true cash-in-hand after TDS deductions, automate the creation of live GST pots and Input Tax Credit (ITC) ledgers, and assess Presumptive Tax eligibility. It translates confusing compliance rules into simple, timely prompts and one-tap actions, actively reducing tax leakage, minimizing paperwork, and measurably increasing a freelancer's final take-home pay.
+
+**Fintech: Build an autonomous financial coaching agent that adapts to real user behavior, spending patterns, and income variability - helping gig workers, informal sector employees, and everyday citizens make smarter financial decisions proactively.**
+
+FinAlly, is the exact embodiment of an autonomous financial coaching agent designed for the complexities faced by India's skilled gig workers and freelancers. It directly addresses income variability by moving beyond generic budgeting to tackle the core issue of cash-flow distortion caused by TDS and GST. Our agent autonomously adapts to real user behavior by analyzing every invoice and expense, not just bank statements. It proactively helps users make smarter financial decisions by translating complex tax rules into simple, one-tap actions—like creating GST pots or building an Input Tax Credit ledger in real-time. FinAlly isn't just an advisor; it's an active operational partner that automates compliance and measurably increases the take-home pay of the informal sector professionals it serves.
+
+Team **Finpulse** -- Piyush Luniya, Harshit Gupta
+
+`2025-10-19`
+
+---
+
+### IntelWorX
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/intelworx-8640) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://drive.google.com/drive/folders/1LRJP19xTdnyBwizgDZi5e719TZ5l8vIF?usp=sharing) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co)
+
+> Finance, Now Truly Intelligent.
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Java](https://img.shields.io/badge/Java-333333?style=flat-square) ![REST API](https://img.shields.io/badge/REST%20API-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=flat-square) ![Spring](https://img.shields.io/badge/Spring-333333?style=flat-square) ![MongoDB Atlas](https://img.shields.io/badge/MongoDB%20Atlas-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**Description of your solution**
+
+Today, financial decision-making is scattered.
+Founders bounce between spreadsheets, investors make calls based on gut feeling, and analysts get lost in endless dashboards. The tools exist , but they don’t think for you.
+That’s where our solution comes in.
+We’re building an AI-powered Financial Co-Pilot not just another reporting tool, but an autonomous assistant that understands your financial goals and actively helps you achieve them.
+Powered by Agentic AI, our platform connects to live financial data, learns user preferences (whether it’s forecasting, budgeting, or investment strategy), and delivers smart, proactive suggestions just like a digital CFO.
+No more static dashboards.
+No more manual number-crunching
+Just natural conversations, automated insights, and faster financial decisions.
+In simple words:
+We’re shifting finance from reactive tracking to proactive intelligence.
+Not just Fintech , Finance with a Brain.
+
+**Fintech: Bring your own problem in Fintech, leveraging Agentic AI.**
+
+Our solution fits perfectly into the Fintech + Agentic AI track because it transforms financial decision-making into an intelligent, automated, and collaborative experience.
+
+Instead of being just another tool, our platform acts like a personal financial co-pilot , helping founders, investors, and analysts make smarter money decisions through:
+AI-powered insights & recommendations
+Real-time data aggregation from multiple financial sources
+Personalized dashboards for investments, cash flow, and risk analysis
+Agentic automation that doesn’t just predict it acts, assisting with analysis, alerts, and planning
+In short, we’re building an AI-native Financial Command Center that empowers users to move from guesswork to intelligence, and from intelligence to action.
+
+Team **IntelWorX Alliance** -- [Nikunj Shah](https://github.com/NIKUNJPS), Yash Vadnere, shubhankar zodgekar, [Ritik Yawalkar](https://github.com/ritikyawalkar111)
+
+`2025-10-19`
+
+---
+
+### SaveMate
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/savemate-b31f) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/anshul5608/SaveMate) [![Built at](https://img.shields.io/badge/Built%20at-Syntax%20Error%202025-0052CC?style=flat-square)](https://syntax-error-2025.devfolio.co)
+
+> know your expenses!!!
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square)
+
+**The problem it solves**
+
+The website “savemate” solves the most common problem faced by students “MANAGING MONTHLY EXPENSES” 
+Most of the students received money from parents and the money spent doesn’t have a track until we see our bank balance in single digits 
+So here is what the web is for
+It can manage all your expenses and u will have a track of it and check where ur money are going
+The website is user friendly and simple
+
+**Challenges we ran into**
+
+The major challenge we faced was the modal overlay
+Suddenly it started glitching and is going on and off
+We fixed it with a bit of help
+
+**Open Track - Development**
+
+we developed a website using HTML, CSS and JS
+
+Team **codinghamsters_69** -- Anshul Rathod, Amulya Singeetham, Abhishek Makthala
+
+`2025-10-11`
+
+---
+
+### EquityScope
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/equityanalyst-421e) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Pranav-Magadi/EquityScope) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://youtu.be/qagoSqQaqbY) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/qfepR1gJyRU) [![Built at](https://img.shields.io/badge/Built%20at-mosAIc:%20AI%20in%20action%20with%20The%20Product%20Folks-0052CC?style=flat-square)](https://mosaicbytpf.devfolio.co)
+
+> AI-assisted stock analysis for Indian equities
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Yahoo-Finance API](https://img.shields.io/badge/Yahoo--Finance%20API-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+EquityScope is designed to be a sophisticated AI-assisted financial analysis platform specifically for Indian public companies. Traditional financial analysis consists of users having to collate information from multiple sources, and using the correct valuation models. It is notoriously complex and time-consuming. EquityScope aims to solve this as an integrated platform with fundamental, technical, and sentiment analysis.
+Features include:
+🤖 Cost-Optimized AI Analysis: 2-agent architecture
+📊 Multi-Model Valuation: DCF, DDM, Asset-based models with sector-specific logic
+📈 Advanced Technical Analysis: 15+ indicators (RSI, MACD, Bollinger Bands, Stochastic, ADX, ATR, Williams %R, OBV, CCI) with real-time charting
+📰 News Sentiment Integration: Real-time sentiment analysis and scoring
+🏦 Sector Intelligence: Banking, Pharma, IT, Real Estate specialized calculations
+💾 Intelligent Caching: Multi-tier caching system optimizing performance and costs
+📱 Production-Quality UX: 100+ React components with comprehensive testing
+
+**Challenges we ran into**
+
+There were a few major challenges while developing this:
+- AI is costly: Doing all the different tasks that constitute stock analysis while keeping a relatively cost was necessary. We had to restrict the use of actual LLM calls in the analysis by using sub-workflows in Python.
+- Sectoral nuances: Valuation methods for different sectors are not the same, which required us to spend some time creating a few different methods for the MVP to be able to cover major sectors. Leaving it entirely to AI was also not possible because it gave varied results.
+- Working with AI: Lots of instances where we saw the AI hallucinate, create mock functions, use mock data, forget the context, or keep trying the same thing without success.
+- Rate limits: For yfinance and Claude APIs, we kept hitting rate limits while testing the workflow, which slowed us down. We have implemented caching, sectoral fallbacks, and are also experimenting with Kite Connect API to be used in place of yfinance API.
+
+**All Registered Participants**
+
+EquityScope was vibe-coded on Windsurf. It is an application which helps automate workflows that are used by equity analysts, traders, and fund managers. It does Fundamental, Technical, and Sentiment analysis for a user-input Indian stock.
+
+Team **ButterAI** -- Neha Mazumdar, Nabeel Tauheed, Pranav Magadi
+
+`2025-09-09`
+
+---
+
+### Budget Bee
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/budget-bee-a957) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://buggetbee-rqmbhxgwwivmysihqy3egn.streamlit.app/) [![Built at](https://img.shields.io/badge/Built%20at-mosAIc:%20AI%20in%20action%20with%20The%20Product%20Folks-0052CC?style=flat-square)](https://mosaicbytpf.devfolio.co)
+
+> Sweet, Quick, and Efficient Finance
+
+![Python](https://img.shields.io/badge/Python-333333?style=flat-square)
+
+**The problem it solves**
+
+💛** BudgetBee – *Sweet, Quick, and Efficient***
+
+BudgetBee is your intelligent personal finance assistant designed to make managing money simple, fast, and enjoyable. Whether you’re a student trying to control spending, a young professional aiming to save smartly, or anyone looking to gain better control over finances, BudgetBee brings clarity, guidance, and actionable insights to your fingertips.
+
+**What BudgetBee Does**
+
+BudgetBee combines AI-powered insights with a trendy, interactive interface to help users:
+
+**1. Track Expenses Effortlessly**
+
+Upload your transaction CSVs or manually add spending and income entries.
+
+Instantly categorize transactions into Food, Transport, Bills, Subscriptions, Savings, Investments, and more.
+
+View a clear and concise history of all transactions.
+
+**2. Budget Smarter**
+
+Automatically summarizes your spending over the last 30 days.
+
+Provides total spending, total savings, and top expense categories.
+
+Calculates average daily spending and suggests a monthly budget with a 10% optimization.
+
+Makes it easy to identify overspending areas at a glance.
+
+**3. Gain Spending Insights**
+
+Highlights top spending categories with visual charts.
+
+Offers actionable tips, like reducing dining out, optimizing subscriptions, or leveraging transport savings.
+
+AI-generated insights are personalized based on your profile: Student or Professional.
+
+**4. Understand Taxes Easily**
+
+Provides educational tax guidance tailored to user type.
+
+Tracks tax-relevant expenses and investment proofs.
+
+Helps students and professionals understand deductions, filing thresholds, and tax-saving investments.
+
+**5. Get AI-Powered Advice**
+
+Chat naturally with BudgetBee to ask about:
+
+Budget summaries
+
+Spending patterns
+
+Tax basics
+
+Investment tips (like SIPs, emergency funds, diversified equity/index funds)
+
+Responses adapt to your profile and preferred complexity, making advice easy to understand or detailed for advanced users.
+
+**6. Interactive & Trendy UI**
+
+Vibrant gradient backgrounds and colorful buttons keep the experience fun and engaging.
+
+Tabbed navigation separates Budget, Insights, Tax, and Add Transaction functionalities for quick access.
+
+Dynamic charts and graphs make data visualization easy to interpret.
+
+Why BudgetBee Makes Life Easier
+
+Save Time: Automates transaction tracking and budget analysis.
+
+Reduce Errors: AI ensures accurate categorization and financial insights.
+
+Personalized Guidance: Tailors advice to user profile, age, and income level.
+
+Financial Safety: Encourages smarter savings, emergency fund planning, and tax compliance.
+
+Fun & Engaging: Modern UI keeps users motivated to track finances daily.
+
+Who Can Benefit
+
+Students: Learn money management, plan budgets, save for emergencies.
+
+Young Professionals: Track salary, manage recurring bills, plan investments.
+
+Finance Enthusiasts: Monitor spending, analyze patterns, and optimize savings.
+
+Anyone seeking financial clarity: Easy-to-use platform for all users.
+
+**7. Voice Assistant Integration**
+
+Converts AI advice and summaries into realistic speech using Eleven Labs API
+
+Users can listen to budgets, insights, or tax tips
+
+Optional daily briefing audio summaries
+
+Use Cases:
+
+Busy users receive audio summaries while commuting
+
+Students can listen to advice instead of reading
+
+Accessibility support for visually impaired users
+
+**In Short**
+
+BudgetBee is sweet, quick, and efficient, making personal finance management smarter, safer, and more enjoyable. It transforms tedious tasks like budgeting, tracking, and tax awareness into a fun, interactive, and intelligent experience—all from a single app.
+
+**Challenges we ran into**
+
+**💛 BudgetBee – Development Challenges**
+
+Building BudgetBee involved solving several technical, design, and usability challenges to make it both powerful and user-friendly. Here’s an overview:
+
+**1. Data Handling & Consistency**
+
+***Challenge:*** Users can upload CSVs in varying formats or manually add transactions.
+
+***Issues:*** Missing columns, inconsistent date formats, negative/positive amounts for expenses vs savings.
+
+***Solution:***
+
+Built robust CSV parsing and validation.
+
+Auto-converted dates and amounts to consistent formats.
+
+Handled missing or corrupted entries gracefully.
+
+**2. Dynamic Budget & Insights Calculation**
+
+***Challenge: ***Accurately summarizing budgets and generating insights in real-time for users with different spending patterns.
+
+***Issues:***
+
+Handling periods with no transactions
+
+Categorizing recurring vs one-time expenses
+
+Calculating average daily spend and suggested monthly budget dynamically
+
+***Solution:***
+
+Implemented rolling 30-day summaries
+
+Grouped transactions by category
+
+Applied intelligent defaults if data was missing
+
+**3. AI Response Personalization**
+
+***Challenge:*** Creating adaptive AI responses for different user types (Student vs Professional) and varying complexity levels (Simple vs Detailed).
+
+***Issues:*** Ensuring advice is:
+
+Relevant
+
+Easy to understand for students
+
+Actionable for professionals
+
+***Solution:***
+
+Developed profile-based AI response logic
+
+Wrapped responses with friendly, clear conversational tone
+
+Included domain-specific suggestions for budgeting, tax, and investments
+
+**4. Visualizing Data Effectively**
+
+***Challenge: ***Displaying spending patterns and top categories in a clear, attractive, and interactive way.
+
+***Issues:***
+
+Too many categories could clutter charts
+
+Color schemes needed to match the trendy UI without confusing users
+
+***Solution:***
+
+Used Plotly bar charts with a color gradient
+
+Showed top 8 categories for clarity
+
+Integrated charts directly with the Streamlit interface for dynamic updates
+
+**5. Building a Trendy & Engaging UI**
+
+***Challenge:*** Combining modern aesthetics with functional usability.
+
+***Issues:***
+
+Streamlit has some default styling limitations
+
+Ensuring buttons, tabs, and chat interface were both functional and visually appealing
+
+***Solution:***
+
+Added gradient backgrounds, modern buttons, rounded chat bubbles
+
+Used tabbed navigation for easy access to budget, insights, tax, and add transaction features
+
+Custom CSS styling for a fresh, vibrant look
+
+**6. Maintaining Chat History & Interactivity**
+
+***Challenge:*** Creating a chat interface that feels real-time while storing previous interactions in the session.
+
+***Issues:***
+
+Retaining messages across reruns
+
+Displaying AI and user messages with distinct styles
+
+***Solution:***
+
+Leveraged Streamlit session_state
+
+Styled messages with gradient backgrounds for AI and subtle gray for user input
+
+**7. Handling Edge Cases**
+
+***Challenge:*** Users may enter unexpected inputs, such as:
+
+Zero or negative values for income or expense
+
+Unrecognized categories
+
+Empty transaction datasets
+
+***Solution:***
+
+Built fallback logic and default datasets
+
+Provided informative messages guiding users to fix or adjust entries
+
+***Key Learnings***
+
+Data validation is crucial for accurate financial analysis.
+
+Personalization adds tremendous value, but requires careful AI logic.
+
+Visual clarity enhances user trust—users understand insights faster with charts.
+
+UX & aesthetics matter for adoption, especially for younger users.
+
+**All Registered Participants.**
+
+BudgetBee can automatically generate a 5-minute daily audio summary of spending, savings, and upcoming bills.
+
+Users receive a  briefing like a personal financial assistant.
+
+Gogana Dhanush
+
+`2025-09-07`
+
+---
+
+### Gift Biz
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/gift-biz-8e7a) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://www.figma.com/slides/SEc5m8Qt5IipeG7aXa7t0o/Gift-Biz-for-Mosaic?node-id=0-1&p=f&t=xCZi82xZxlXTs5ew-0) [![Built at](https://img.shields.io/badge/Built%20at-mosAIc:%20AI%20in%20action%20with%20The%20Product%20Folks-0052CC?style=flat-square)](https://mosaicbytpf.devfolio.co)
+
+> Orders, payments, chats & customers—made easy!
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square)
+
+Maryam Fatima
+
+`2025-09-09`
+
+---
+
+### Build Zone
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/build-zone-05cc) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://buildzone-live.vercel.app/) [![Built at](https://img.shields.io/badge/Built%20at-mosAIc:%20AI%20in%20action%20with%20The%20Product%20Folks-0052CC?style=flat-square)](https://mosaicbytpf.devfolio.co)
+
+> B2b for Sourcing,Credit,Growth
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+The Challenges - faced by tier 3-4 sanitaryware & building material retailers:
+
+1. Time-consuming Procurement — Chasing multiple distributors by phone/WhatsApp, no quick way to compare prices.
+
+2. Limited visibility of offers & schemes — missing out on promotions, trips, and discounts from multiple companies. 
+
+3. Credit constraints — difficulty accessing working capital or BNPL options.
+
+4. Stockouts — running out of high-demand items due to poor tracking or delayed reordering.
+
+Digital gap — most Tier-3/4 retailers prefer talking over typing, and have little exposure to new brands/products.
+
+Solution :
+
+Buildzone makes procurement smarter, safer, and easier by:
+
+🎙️ Voice Ordering (AI STT)
+Retailers can simply say “½ inch PVC pipe, 50 pieces” in Hindi/English → Buildzone transcribes & fetches products instantly. No typing, no mistakes.
+
+📦 Proactive Reorder Agent
+AI watches past sales & inventory → suggests what to reorder before stockouts happen. Draft orders appear automatically with a vibecode nudge — retailers just confirm.
+
+💳 BNPL + BuildScore
+Instant credit eligibility & gamified loyalty: the more you order, the higher your BuildScore → unlock higher credit limits, safe 45-day interest-free cycles.
+
+🎯 Best Prices & Schemes
+Retailers discover offers, seasonal discounts, and brand-led promotions in one place — no need to rely on sales reps’ limited reach.
+
+📰 Community & Market Feed
+A built-in feed (like LinkedIn for retailers) where they see trending products, price updates, and connect with peers.
+
+![image](https://assets.devfolio.co/content/1b4306f1405642f28247a75663f8cd4e/b0a53ebe-3267-4992-b2aa-5a3a2e3b18e5.png)
+
+![image](https://assets.devfolio.co/content/1b4306f1405642f28247a75663f8cd4e/5e6018d5-5d0e-423c-adde-5027a9d22ee0.png)
+
+![image](https://assets.devfolio.co/content/1b4306f1405642f28247a75663f8cd4e/78f507b3-56b0-43fa-bb74-144ae4c42c50.png)
+
+![image](https://assets.devfolio.co/content/1b4306f1405642f28247a75663f8cd4e/a0c817bb-9532-4378-a32a-c9bb972c7713.png)
+
+![image](https://assets.devfolio.co/content/1b4306f1405642f28247a75663f8cd4e/5a3ab6e6-8318-4f6c-8ce0-76cf2d9abfd9.png)
+
+![image](https://assets.devfolio.co/content/1b4306f1405642f28247a75663f8cd4e/703231cd-d7ad-46bf-87ac-f37c7f93b926.png)
+
+![image](https://assets.devfolio.co/content/1b4306f1405642f28247a75663f8cd4e/440b7f7d-f816-442f-9cf2-211694022741.png)
+
+![image](https://assets.devfolio.co/content/1b4306f1405642f28247a75663f8cd4e/91cc06bb-cb3a-4663-90d3-14416bb25998.png)
+
+**Challenges we ran into**
+
+Voice AI Integration
+
+The hurdle: Initially, I wanted to use ElevenLabs for speech-to-text, but Rocket didn’t support custom integrations.
+
+How I solved it:
+
+Pivoted to OpenAI Whisper (supported in Rocket) for voice transcription.
+
+Added a serverless API route (/api/transcribe) in the GitHub repo to later plug ElevenLabs back in once running outside Rocket.
+
+**Vibecoding your Idea | Powered by Rocket.new**
+
+Buildzone is built entirely on Rocket, from idea to working prototype.
+Every feature — Voice Ordering, Reorder Agent, BNPL & BuildScore, Offers & Community Feed — was prototyped inside Rocket using its UI builder, Supabase backend, and AI workflow support.
+
+Rocket allowed us to:
+
+Move from concept → end-to-end product in days, not months.
+
+Seamlessly connect frontend, backend, and AI features without switching tools.
+
+Rapidly test habit-forming mechanics (like vibecode nudges, draft orders, gamified credit scoring).
+
+👉 In short, Buildzone exists because of Rocket. It’s where we combined business logic, AI, and user experience into a single, demo-ready product — making it the perfect fit for this track.
+
+**Voice AI & Conversational Products | Powered by Elevenlabs**
+
+At the heart of Buildzone is voice-first ordering — retailers simply speak in Hindi, English, or a mix of local languages to place orders. This addresses a core problem for Tier-2/3/4 retailers where typing is slow, error-prone, and unnatural.
+
+We prototyped this flow using OpenAI Whisper, but our roadmap is to integrate ElevenLabs for richer, real-time multilingual STT tuned to Indian languages and accents. ElevenLabs will make Buildzone’s voice ordering faster, more accurate, and more natural, enabling habit formation at scale.
+
+bhavishya agarwal
+
+`2025-09-07`
+
+---
+
+### SPENDORA
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/spendora-7d25) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/pkrutika03/Spendora_HackOdisha_Hackthon) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://drive.google.com/drive/folders/1eMNRuMkGyEcd4Eh5CnzIXHW4hGndLQSX?usp=sharing) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/bkWyNszXeUc?si=RT3X-rVmsRNth1hD) [![Built at](https://img.shields.io/badge/Built%20at-HackOdisha%205.0-0052CC?style=flat-square)](https://hackodisha-4.devfolio.co)
+
+> Where finance meets lifestyle intelligence
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![scikit-learn](https://img.shields.io/badge/scikit--learn-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Chart.js](https://img.shields.io/badge/Chart.js-333333?style=flat-square)
+
+**The problem it solves**
+
+Managing personal finances is often overwhelming, especially for young professionals and students who juggle multiple expenses, savings goals, and investments. Traditional budgeting tools can be complex, unintuitive, or lack actionable insights, leaving users frustrated and disengaged.
+
+Spendora solves this by providing a modern, intuitive dashboard that empowers users to track spending, split budgets, and visualize investments—all in one place. With interactive charts, smart alerts, and seamless navigation, Spendora Insight transforms financial management from a chore into a simple, insightful experience.
+
+By making financial data easy to understand and act upon, Spendora Insight helps users make smarter decisions, avoid overspending, and achieve their financial goals with confidence.
+
+**Challenges we ran into**
+
+One of the main challenges was integrating multiple third-party libraries (like Recharts for data visualization and Shadcn-UI for components) while maintaining a consistent design and optimal performance. We spent significant time optimizing the data flow and component rendering to ensure a smooth user experience.
+
+Another hurdle was implementing the budget splitting feature. We needed to create an algorithm that could intelligently allocate funds across different categories based on user-defined rules. This required careful planning and testing to ensure accuracy and flexibility.
+
+Finally, we faced some initial difficulties with responsive design, particularly ensuring the dashboard looked great on both desktop and mobile devices. We overcame this by leveraging Tailwind CSS and React Resizable Panels to create a flexible and adaptive layout.
+
+Despite these challenges, we learned a lot and are proud of the final result.
+
+**Verbwire API Challenge**
+
+Spendora directly addresses the Verbwire API Challenge by leveraging APIs to aggregate and visualize financial data from various sources. While we may not be using the Verbwire API specifically, our project demonstrates the core principles of API integration:
+
+1.Data Aggregation: We aim to connect to multiple financial APIs (banks, investment platforms, etc.) to provide users with a unified view of their finances.
+
+2.Real-time Data: We plan to use APIs to fetch real-time transaction data, account balances, and investment performance metrics.
+
+3.Data Visualization: We transform raw API data into interactive charts and graphs, making it easy for users to understand their financial situation.
+
+By showcasing the power of APIs to create a comprehensive and insightful financial dashboard, Spendora Insight aligns perfectly with the goals of the Verbwire API Challenge.
+
+Team **Spendora** -- [Monisha Mahato](https://github.com/Monamht), [Pritam Sahoo](https://github.com/Saahooooo), [Priyambada Ray](https://github.com/raypriyambada13), [P Krutika](https://github.com/Krutika0)
+
+`2025-09-07`
+
+---
+
+### Expensify
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/pdftonotes-139d) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Pranav9K/expensify) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/LiX0kB0zYAQ) [![Built at](https://img.shields.io/badge/Built%20at-HackOdisha%205.0-0052CC?style=flat-square)](https://hackodisha-4.devfolio.co)
+
+> Managing Expenses Made Easier
+
+![Matplotlib](https://img.shields.io/badge/Matplotlib-333333?style=flat-square) ![Tkinter](https://img.shields.io/badge/Tkinter-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square)
+
+**The problem it solves**
+
+Problem it solves
+Managing daily expenses can be a headache. People usually jot them down in a notebook, or use complicated apps that need the internet, accounts, and syncing. This makes tracking where money goes time-consuming and inconvenient. Often, people lose track of small expenses, which add up over time.
+
+What Our project does
+Our Python Expense Manager provides a simple way to record and view expenses directly on your computer. You can quickly add expenses, categorize them (like food, travel, shopping), and check summaries whenever you want. This helps you clearly see your spending habits and control unnecessary costs.
+
+Why it’s useful
+Offline: No internet or signup needed, works directly from your system.
+Easy to use: Just run the program, enter details, and you’re done—no confusing menus.
+Lightweight: Doesn’t take up much space or need extra installations.
+Clear tracking: You can check totals or category-wise expenses instantly.
+
+**Challenges we ran into**
+
+- Designing a well made GUI
+- Creating a proper functional graph using matplotlib library
+
+Team **weDontKnowHowToCode** -- [Anish Chandrasekar](https://github.com/anish-chandrasekar), [Pranav Karthikeyan](https://github.com/Pranav9K)
+
+`2025-09-07`
 
 ---
 
