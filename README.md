@@ -1,6 +1,6 @@
 # Hackfolio
 
-![Projects](https://img.shields.io/badge/Projects-13726-4B32C3?style=flat-square) [![Source](https://img.shields.io/badge/Source-Devfolio-0052CC?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/hackathons/past) ![Updated](https://img.shields.io/badge/Updated-2026--09--21-2EA44F?style=flat-square) ![License](https://img.shields.io/badge/License-MIT-000000?style=flat-square) [![GitHub](https://img.shields.io/badge/GitHub-tech--anupam-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/tech-anupam) [![Instagram](https://img.shields.io/badge/Instagram-tech.anupam-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/tech.anupam)
+![Projects](https://img.shields.io/badge/Projects-17459-4B32C3?style=flat-square) [![Source](https://img.shields.io/badge/Source-Devfolio-0052CC?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/hackathons/past) ![Updated](https://img.shields.io/badge/Updated-2026--09--22-2EA44F?style=flat-square) ![License](https://img.shields.io/badge/License-MIT-000000?style=flat-square) [![GitHub](https://img.shields.io/badge/GitHub-tech--anupam-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/tech-anupam) [![Instagram](https://img.shields.io/badge/Instagram-tech.anupam-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/tech.anupam)
 
 ## Why this exists
 
@@ -12,118 +12,118 @@ Source: [devfolio.co/hackathons/past](https://devfolio.co/hackathons/past) | Cur
 
 ## Themes
 
-- [**Web3 and Blockchain**](./web3-blockchain) &nbsp; [![3732 projects](https://img.shields.io/badge/Projects-3732-4B32C3?style=flat-square)](./web3-blockchain)
-- [**Hardware and IoT**](./hardware-iot) &nbsp; [![318 projects](https://img.shields.io/badge/Projects-318-4B32C3?style=flat-square)](./hardware-iot)
-- [**Health and Biotech**](./health-biotech) &nbsp; [![791 projects](https://img.shields.io/badge/Projects-791-4B32C3?style=flat-square)](./health-biotech)
-- [**Climate and Sustainability**](./climate-sustainability) &nbsp; [![531 projects](https://img.shields.io/badge/Projects-531-4B32C3?style=flat-square)](./climate-sustainability)
-- [**DevTools and Infrastructure**](./devtools-infrastructure) &nbsp; [![1075 projects](https://img.shields.io/badge/Projects-1075-4B32C3?style=flat-square)](./devtools-infrastructure)
-- [**Social Impact and Education**](./social-education) &nbsp; [![306 projects](https://img.shields.io/badge/Projects-306-4B32C3?style=flat-square)](./social-education)
-- [**Gaming, AR, and VR**](./gaming-ar-vr) &nbsp; [![2456 projects](https://img.shields.io/badge/Projects-2456-4B32C3?style=flat-square)](./gaming-ar-vr)
-- [**Finance and Fintech**](./finance-fintech) &nbsp; [![376 projects](https://img.shields.io/badge/Projects-376-4B32C3?style=flat-square)](./finance-fintech)
-- [**AI and Machine Learning**](./ai-ml) &nbsp; [![527 projects](https://img.shields.io/badge/Projects-527-4B32C3?style=flat-square)](./ai-ml)
-- [**Open Source Builds**](./open-source-builds) &nbsp; [![3614 projects](https://img.shields.io/badge/Projects-3614-4B32C3?style=flat-square)](./open-source-builds)
+- [**Web3 and Blockchain**](./web3-blockchain) &nbsp; [![5886 projects](https://img.shields.io/badge/Projects-5886-4B32C3?style=flat-square)](./web3-blockchain)
+- [**Hardware and IoT**](./hardware-iot) &nbsp; [![359 projects](https://img.shields.io/badge/Projects-359-4B32C3?style=flat-square)](./hardware-iot)
+- [**Health and Biotech**](./health-biotech) &nbsp; [![935 projects](https://img.shields.io/badge/Projects-935-4B32C3?style=flat-square)](./health-biotech)
+- [**Climate and Sustainability**](./climate-sustainability) &nbsp; [![645 projects](https://img.shields.io/badge/Projects-645-4B32C3?style=flat-square)](./climate-sustainability)
+- [**DevTools and Infrastructure**](./devtools-infrastructure) &nbsp; [![1303 projects](https://img.shields.io/badge/Projects-1303-4B32C3?style=flat-square)](./devtools-infrastructure)
+- [**Social Impact and Education**](./social-education) &nbsp; [![426 projects](https://img.shields.io/badge/Projects-426-4B32C3?style=flat-square)](./social-education)
+- [**Gaming, AR, and VR**](./gaming-ar-vr) &nbsp; [![2828 projects](https://img.shields.io/badge/Projects-2828-4B32C3?style=flat-square)](./gaming-ar-vr)
+- [**Finance and Fintech**](./finance-fintech) &nbsp; [![402 projects](https://img.shields.io/badge/Projects-402-4B32C3?style=flat-square)](./finance-fintech)
+- [**AI and Machine Learning**](./ai-ml) &nbsp; [![604 projects](https://img.shields.io/badge/Projects-604-4B32C3?style=flat-square)](./ai-ml)
+- [**Open Source Builds**](./open-source-builds) &nbsp; [![4071 projects](https://img.shields.io/badge/Projects-4071-4B32C3?style=flat-square)](./open-source-builds)
 
 ---
 
 ## [Web3 and Blockchain](./web3-blockchain)
 
-### Centuari
-[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/centuari-8448) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://base.centuari.finance) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/AJD6FqHx_Ag) [![Built at](https://img.shields.io/badge/Built%20at-Onchain%20Summer%20Awards-0052CC?style=flat-square)](https://onchain-summer-awards.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-240-FF6B6B?style=flat-square)
+### Training Emotion Models with AI and Chainlink VRF
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/using-ai-x-chainlinkrvf-to-train-emotions-df85) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/aigaea/aigaea_hackathon) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://hackathon.aigaea.net/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/-lu9t9XisIc) [![Built at](https://img.shields.io/badge/Built%20at-Chromion:%20A%20Chainlink%20Hackathon-0052CC?style=flat-square)](https://chromion-chainlink-hackathon.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2431-FF6B6B?style=flat-square)
 
-> Fixed Rate Lending, RWA, and Payments.
+> Emotion-Aware Oracles for Enhanced On-Chain Decisi
 
-![Solidity](https://img.shields.io/badge/Solidity-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=flat-square) ![nest.js](https://img.shields.io/badge/nest.js-333333?style=flat-square) ![foundry](https://img.shields.io/badge/foundry-333333?style=flat-square) ![Ponder](https://img.shields.io/badge/Ponder-333333?style=flat-square)
-
-**The problem it solves**
-
-Elevator Pitch Video: https://youtu.be/cJj2OQ2XL3U
-Demo Video: https://youtu.be/AJD6FqHx_Ag
-
-**Most major lending protocols** today rely on **variable interest rates**. While still being widely used by the users, these rates are **volatile**, **unpredictable**, and expose both lenders and borrowers...
-
-Team **Centuari** -- [William Gondowidjaja](https://github.com/centuari-labs/)
-
-`2025-09-02`
-
----
-
-### Netrum Base Identity
-[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/netrum-base-identity-827c) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/NetrumLabs/netrum-lite-node) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://netrumlabs.com/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=67Mh4EEux5o) [![Built at](https://img.shields.io/badge/Built%20at-Onchain%20Summer%20Awards-0052CC?style=flat-square)](https://onchain-summer-awards.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-238-FF6B6B?style=flat-square)
-
-> Netrum Base Ecosystem: Lite Node + Base Agent NFT
-
-![Solidity](https://img.shields.io/badge/Solidity-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+![Solidity](https://img.shields.io/badge/Solidity-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square)
 
 **The problem it solves**
 
-Netrum addresses a clear and growing need in the Web3 landscape by fusing lightweight infrastructure with a verified on chain identity layer. In practice this means that anyone can run a Lite Node with modest resources and a verified Base Domain, and in doing so they become a trustworthy participant...
+### 1. Reshaping Human-Machine Relationships: The "Human Gods" Paradigm
+- **Core proposition**: Humans create AI systems that should revere and provide feedback to humans, analogous to deity worship dynamics
+- **Implementation**:
+  - Collect human emotional data (personality traits, decision pattern...
 
-Netrum Labs
+Team **AIGAEA** -- AI GAEA, gaea 001
 
-`2025-08-16`
+`2025-06-19`
 
 ---
 
-### WaveTek
-[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/wavetek-0ccb) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/WaveTek-co/WaveSwap/) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://wavetek.io) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/Yvu8eI0YUXw) [![Built at](https://img.shields.io/badge/Built%20at-Zypherpunk-0052CC?style=flat-square)](https://zypherpunk.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-213-FF6B6B?style=flat-square)
+### Validia
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/validia-5ff2) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Bahamut10/decentralized-exam) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://validia.vercel.app/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/jaRR9rKBzSo?si=3u03Vd6o9wLE0eJx) [![Built at](https://img.shields.io/badge/Built%20at-Lisk%20Builders%20Challenge:%20Round%20One-0052CC?style=flat-square)](https://lisk-builders-challenge-1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1637-FF6B6B?style=flat-square)
 
-> Private Solana DeFi with a Zcash & Starknet bridge
+> Proven Integrity, Instantly Verified.
 
-![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![Rust](https://img.shields.io/badge/Rust-333333?style=flat-square) ![solana/web3.js](https://img.shields.io/badge/solana/web3.js-333333?style=flat-square) ![SolanaSDK](https://img.shields.io/badge/SolanaSDK-333333?style=flat-square) ![NEAR Protocol](https://img.shields.io/badge/NEAR%20Protocol-333333?style=flat-square) ![StarkNet](https://img.shields.io/badge/StarkNet-333333?style=flat-square) ![Zcash](https://img.shields.io/badge/Zcash-333333?style=flat-square) ![NEAR Intents](https://img.shields.io/badge/NEAR%20Intents-333333?style=flat-square)
+![Solidity](https://img.shields.io/badge/Solidity-333333?style=flat-square) ![React js](https://img.shields.io/badge/React%20js-333333?style=flat-square) ![nextjs](https://img.shields.io/badge/nextjs-333333?style=flat-square) ![Hardhat](https://img.shields.io/badge/Hardhat-333333?style=flat-square) ![TailWindCSS](https://img.shields.io/badge/TailWindCSS-333333?style=flat-square) ![Supabase](https://img.shields.io/badge/Supabase-333333?style=flat-square) ![Wagmi](https://img.shields.io/badge/Wagmi-333333?style=flat-square) ![Shadcn](https://img.shields.io/badge/Shadcn-333333?style=flat-square)
 
 **The problem it solves**
 
-WaveTek solves the problem of full transparency on Solana, where swaps, bridges, and staking reveal user identities, strategies, and cross-chain activity. We address this by integrating Encifher’s encrypted routing with Jupiter for private, MEV-resistant swaps; using NEAR Intents and StarkGate for s...
+Credential forgery has skyrocketed globally (~2,100%), costing the education sector at least ~$70 million, with manual verification processes taking 3-5 days, being slow, and prone to fraud. This erodes trust in authentic achievements and burdens institutions.
+Validia, developed on Lisk, provides a...
 
-Team **WaveTek** -- Rahim Mawani, [Vivek Pal](https://github.com/vivekpal1)
+Team **Validia** -- [Kornelius Tarigan](https://github.com/Kornelius05), [Kenedy Lukito](https://github.com/Bahamut10), [Andrew Antonio](https://github.com/ndrewantonio), [Yana Andika](https://github.com/yanaatere)
 
-`2025-12-04`
+`2025-05-17`
 
 ---
 
-### GMonchain
-[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/gmonchain-337a) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://farcaster.xyz/miniapps/x9qnnccfRPVV/gmonchain) [![Built at](https://img.shields.io/badge/Built%20at-Onchain%20Summer%20Awards-0052CC?style=flat-square)](https://onchain-summer-awards.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-118-FF6B6B?style=flat-square)
+### Freex
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/freex-e4e0) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/freexcrypto) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://www.freexcrypto.xyz/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=orsxdAU4J5E) [![Built at](https://img.shields.io/badge/Built%20at-Lisk%20Builders%20Challenge:%20Round%20One-0052CC?style=flat-square)](https://lisk-builders-challenge-1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1322-FF6B6B?style=flat-square)
 
-> Farcaster miniapp help users send GM Daily
+> Simplified Crypto Payments, Seamless Everywhere.
 
-![Solidity](https://img.shields.io/badge/Solidity-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+![Solidity](https://img.shields.io/badge/Solidity-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![Express js](https://img.shields.io/badge/Express%20js-333333?style=flat-square) ![Supabase](https://img.shields.io/badge/Supabase-333333?style=flat-square) ![Next JS](https://img.shields.io/badge/Next%20JS-333333?style=flat-square) ![Wagmi](https://img.shields.io/badge/Wagmi-333333?style=flat-square) ![Pinata IPFS](https://img.shields.io/badge/Pinata%20IPFS-333333?style=flat-square)
 
 **The problem it solves**
 
-We are deeply focused on user experience. 
-Farcaster currently has a large influx of new users—many of whom are still unfamiliar with crypto and blockchain. 
+Freex is a comprehensive cryptocurrency payment gateway solution that empowers businesses to accept cryptocurrency payments seamlessly.
+Freex provides a robust solution for businesses looking to accept cryptocurrency payments. Our platform offers:
+1. Secure Cryptocurrency Payment Processing: Ensure...
 
-GMonchain serves as an easy entry point, helping them interact with blockchain in a simple, friendly way. 
-This onboarding experience lays th...
+Team **Freex** -- None None
 
-[GMonchain gmonchain.eth](https://github.com/gmonchain)
-
-`2025-07-14`
+`2025-05-17`
 
 ---
 
-### BizarreBeasts
-[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/bizarrebeasts-9e5e) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://bbapp.bizarrebeasts.io) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.loom.com/share/503d3947a37f49bbab59d9b8a18ecd07?sid=7bae55c8-ec30-475a-a8a7-3edfcbbd9666) [![Built at](https://img.shields.io/badge/Built%20at-Base%20Batches%20002:%20Builder%20Track-0052CC?style=flat-square)](https://base-batches-builder-track.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-116-FF6B6B?style=flat-square)
+### Tumbuh
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/tumbuh-b22e) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/tumbuh-lisk) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://app-tumbuh.vercel.app/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/osBic8B4RtE) [![Built at](https://img.shields.io/badge/Built%20at-Lisk%20Builders%20Challenge:%20Round%20One-0052CC?style=flat-square)](https://lisk-builders-challenge-1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-884-FF6B6B?style=flat-square)
 
-> Create. Play. Collect. GO BIZARRE.
+> Maximize IDRX returns with smart vault allocation
 
-![Solidity](https://img.shields.io/badge/Solidity-333333?style=flat-square) ![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+![Solidity](https://img.shields.io/badge/Solidity-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square)
 
 **The problem it solves**
 
-![image](https://assets.devfolio.co/content/54c3e9d2bbb5439086effcb1b02bebbd/791be69d-d9a3-4efc-88b5-ebf230690e42.png)
+Most IDRX holders face limited DeFi opportunities due to the scarcity of high-yield protocols supporting IDRX directly. Additionally, the weakening value of IDR against the USD reduces the long-term earning potential for users who stay in IDRX-denominated assets.
 
-As a creator building in web3, I faced a fundamental challenge: **How do I create a sustainable creative economy that actually engages and rewards my community daily?**
+This project solves that by allowin...
 
-BizarreBea...
+Team **Tumbuh** -- [Akbar Wijaya](https://github.com/akbarwijayaa), [Fajar Jati Nugroho](https://github.com/FjrREPO)
 
-[BizarreBeasts GO BIZARRE](https://github.com/bizarrebeast)
-
-`2025-10-14`
+`2025-05-17`
 
 ---
 
-[**View all 3732 Web3 and Blockchain projects with complete details →**](./web3-blockchain)
+### Verifund
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/verifund-5d68) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Verifund-Team/) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://blockscout.lisk.com/address/0x72c4C531d16458622Fbd3B050923a1A2c7E69E3E/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/watch?si=FH4fiw7uJpW23taz&v=VMF3qPYTU4Y&feature=youtu.be) [![Built at](https://img.shields.io/badge/Built%20at-Lisk%20Builders%20Challenge:%20Round%20Two-0052CC?style=flat-square)](https://lisk-builders-challenge-2.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-363-FF6B6B?style=flat-square)
+
+> Verified Giving, Amplified Impact
+
+![Solidity](https://img.shields.io/badge/Solidity-333333?style=flat-square) ![IPFS](https://img.shields.io/badge/IPFS-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![AI/ML](https://img.shields.io/badge/AI/ML-333333?style=flat-square) ![NFT](https://img.shields.io/badge/NFT-333333?style=flat-square)
+
+**The problem it solves**
+
+Verifund was built to solve the critical issues that prevent crowdfunding from reaching its full potential. We make donating and fundraising easier, safer, and smarter for everyone.
+
+**1. 🛡️Tackling the Trust and Verification Crisis**
+**The Problem:** Many platforms lack credible verification system...
+
+Team **fatisda23** -- [Bagas Gunardi](https://github.com/w1th0ut), [Ferdinand Ramdhani](https://github.com/mferdinandr), [Fawwaz Naufal](https://github.com/naufalfzml), [Arif Amijoyo](https://github.com/areepp), [Abiyyu Faisal](https://github.com/faisalganteng1265)
+
+`2025-08-03`
+
+---
+
+[**View all 5886 Web3 and Blockchain projects with complete details →**](./web3-blockchain)
 
 ---
 
@@ -226,7 +226,7 @@ Team **TacSys** -- [Agrim Singh](https://github.com/th-efool), None None
 
 ---
 
-[**View all 318 Hardware and IoT projects with complete details →**](./hardware-iot)
+[**View all 359 Hardware and IoT projects with complete details →**](./hardware-iot)
 
 ---
 
@@ -289,6 +289,27 @@ Team **SIX SEVEN** -- [Prashant Pratap Singh](https://github.com/prashant-pratap
 
 ---
 
+### Nirvana.AI
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/nirvanaai-4093) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/mdkaifansari04/nirwana-ai) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://nirwana-ai.vercel.app/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/Yo5_u46kiN0) [![Built at](https://img.shields.io/badge/Built%20at-HACKHAZARDS%20'25-0052CC?style=flat-square)](https://hackhazards25.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-16-FF6B6B?style=flat-square)
+
+> Personalized mental wellness for students.
+
+![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Express.js](https://img.shields.io/badge/Express.js-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![Vercel](https://img.shields.io/badge/Vercel-333333?style=flat-square) ![React.js](https://img.shields.io/badge/React.js-333333?style=flat-square) ![TailWindCSS](https://img.shields.io/badge/TailWindCSS-333333?style=flat-square)
+
+**The problem it solves**
+
+Nirvana.AI helps students and young individuals manage anxiety, stress, and emotional imbalance through daily CBT-based micro-exercises and AI-generated reflection reports.
+Instead of lengthy therapy sessions, Nirvana.ai provides:
+- Quick emotional check-ins.
+- AI-powered personalised journaling.
+-...
+
+Team **XCoders** -- [K Om Senapati](https://github.com/kom-senapati), Nihal soni, [Kaif Ansari](https://github.com/mdkaifansari04), [Arjun Vijay Prakash](https://github.com/ArjunCodess)
+
+`2025-04-26`
+
+---
+
 ### VitalMed
 [![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/vitalmed-7b00) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://vitalmed-smoky.vercel.app/) [![Built at](https://img.shields.io/badge/Built%20at-HackTU%207.0-0052CC?style=flat-square)](https://hacktu7.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-15-FF6B6B?style=flat-square)
 
@@ -310,31 +331,30 @@ Team **DTU ALTAIR** -- [Krish Ichpal](https://github.com/DarkLordKrish), [Tanvi 
 
 ---
 
-### Upchar
-[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/upchar-a183) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/developSarth/Upchar) [![Built at](https://img.shields.io/badge/Built%20at-MumbaiHacks%202025%20--%20Round%201%20(Online)-0052CC?style=flat-square)](https://mumbaihacks25-round1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-13-FF6B6B?style=flat-square)
-
-> Your closest healthcare- smarter and faster
-
-![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Firebase](https://img.shields.io/badge/Firebase-333333?style=flat-square) ![pandas](https://img.shields.io/badge/pandas-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Data Visualization](https://img.shields.io/badge/Data%20Visualization-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![Firebase Authentication](https://img.shields.io/badge/Firebase%20Authentication-333333?style=flat-square) ![AI/ML](https://img.shields.io/badge/AI/ML-333333?style=flat-square)
-
-**Description of your solution**
-
-******Upchar – Bridging Symptoms to Solutions through AI******
-
-Upchar is an AI-powered healthcare assistant that detects diseases from symptoms, suggests remedies according to the severity of the condition.
-If the symptoms are severe, we provide an option for a clinic visit or hospital admission, c...
-
-Team **4String** -- [Archita Dedhia](https://github.com/archita-dedhia), [Shreya Tiwari](https://github.com/ShreyaTiwari80), [sarth Patil](https://github.com/developSarth), [Ved Bhanushali](https://github.com/Ved-Bhanushali03)
-
-`2025-10-04`
-
----
-
-[**View all 791 Health and Biotech projects with complete details →**](./health-biotech)
+[**View all 935 Health and Biotech projects with complete details →**](./health-biotech)
 
 ---
 
 ## [Climate and Sustainability](./climate-sustainability)
+
+### SusTainLabs
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/sustainlabs-46f1) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Ayushdevx/SustainLabs) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://sustainlabs.netlify.app/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/eK1vAnMsdgE?si=VjK_dc4ltWopnNKr) [![Built at](https://img.shields.io/badge/Built%20at-HACKHAZARDS%20'25-0052CC?style=flat-square)](https://hackhazards25.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-46-FF6B6B?style=flat-square)
+
+> Powering tomorrow's energy, optimizing today's world.
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![TensorFlow](https://img.shields.io/badge/TensorFlow-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Figma](https://img.shields.io/badge/Figma-333333?style=flat-square) ![React Native](https://img.shields.io/badge/React%20Native-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![superbase](https://img.shields.io/badge/superbase-333333?style=flat-square)
+
+**The problem it solves**
+
+SustainLabs tackles the five critical bottlenecks in renewable energy adoption: fragmentation, inefficiency, lack of trust, reactive maintenance, and disaster vulnerability.
+
+The renewable sector suffers from disconnected systems and data silos that increase operational costs by 40%. Decision-making...
+
+Team **Single Coders** -- [Shreyas Kumar](https://github.com/shkshreyas), [Ayush UPADHYAY](https://github.com/Ayushdevx), [AMRITHESH MENON](https://github.com/im-Amrith), [Punya Mittal](https://github.com/Punyamittal)
+
+`2025-04-18`
+
+---
 
 ### CareQueue
 [![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/healthbuddy-9971) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://drive.google.com/drive/folders/1o0ABAxlbJv277PgLwnh3bceky9dKdHXj?usp=sharing) [![Built at](https://img.shields.io/badge/Built%20at-HackBuild-0052CC?style=flat-square)](https://hackbuild.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-31-FF6B6B?style=flat-square)
@@ -422,32 +442,28 @@ Team **DVD - Distant Visionary Developers** -- [Swapnil Chakraborty](https://git
 
 ---
 
-### FIRE
-[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/fire-2042) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/DilicalFlame/FIRE-hackCBS) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://youtu.be/-mTySL1tgpM) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/-mTySL1tgpM) [![Built at](https://img.shields.io/badge/Built%20at-hackCBS%208.0-0052CC?style=flat-square)](https://hackcbs-8.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-18-FF6B6B?style=flat-square)
-
-> Fast Integrated Research Environment
-
-![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![WebGL](https://img.shields.io/badge/WebGL-333333?style=flat-square) ![Three.JS](https://img.shields.io/badge/Three.JS-333333?style=flat-square) ![Rust](https://img.shields.io/badge/Rust-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![AI/ML](https://img.shields.io/badge/AI/ML-333333?style=flat-square) ![FastAPI](https://img.shields.io/badge/FastAPI-333333?style=flat-square)
-
-**The problem it solves**
-
-# 🔥 FIRE: Fast Integrated Research Environment
-
-Scientific research today is **scattered across countless silos** NASA, ISRO, NOAA, Kaggle, ResearchGate, and beyond.  
-Researchers waste **over 60% of their time** just cleaning, merging, and formatting data instead of actually exploring it.  
-Student...
-
-Team **Decode** -- [Rohaaan Tan](https://github.com/Rohaan-Taneja), [Arin Chauhan](https://github.com/pi55man), [Anirudh Chhatwal](https://github.com/addy0032), [Devesh Kumar](github.com/dilicalflame)
-
-`2025-11-09`
-
----
-
-[**View all 531 Climate and Sustainability projects with complete details →**](./climate-sustainability)
+[**View all 645 Climate and Sustainability projects with complete details →**](./climate-sustainability)
 
 ---
 
 ## [DevTools and Infrastructure](./devtools-infrastructure)
+
+### DreamOps
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/dreamops-9f20) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/SkySingh04/DreamOps) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://drive.google.com/file/d/1Wi18x748xkNHCe25qYMs4ejcrQWcJuOz/view?usp=sharing) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/na-pxlHH4YE) [![Built at](https://img.shields.io/badge/Built%20at-Warpspeed:%20Agentic%20AI%20Hackathon%20|%20Lightspeed%20India-0052CC?style=flat-square)](https://warpspeed2025.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-71-FF6B6B?style=flat-square)
+
+> Dream Easy While AI Takes Care Of Your Oncall Duty
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![WebSockets](https://img.shields.io/badge/WebSockets-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![AWS](https://img.shields.io/badge/AWS-333333?style=flat-square) ![Slack API](https://img.shields.io/badge/Slack%20API-333333?style=flat-square) ![AWS Cloudwatch](https://img.shields.io/badge/AWS%20Cloudwatch-333333?style=flat-square)
+
+**The problem it solves**
+
+On-call engineers face constant interruptions, sleep deprivation, and alert fatigue from managing production incidents 24/7. Current incident response relies heavily on manual intervention - engineers must wake up at 3 AM, analyze logs across multiple systems, diagnose issues, and execute remediatio...
+
+Team **ShubhangCancelledOnUs** -- [Inchara J](https://github.com/Incharajayaram), [Harsh Kumar Gupta](https://github.com/harshkg23), [Sky Singh](https://github.com/SkySingh04), [Himanshu .](https://github.com/Himanshu3141)
+
+`2025-06-22`
+
+---
 
 ### kaamwale.com
 [![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/kaamwalecom-83da) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/akankuraj1234-prog/kaamwale) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://kaamwale-eta.vercel.app/) [![Built at](https://img.shields.io/badge/Built%20at-HackOdisha%205.0-0052CC?style=flat-square)](https://hackodisha-4.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-53-FF6B6B?style=flat-square)
@@ -534,24 +550,7 @@ Team **ZeroLag** -- [Basil Zafar](https://github.com/BasilZafar11), [Devyash Ras
 
 ---
 
-### Ghstmail
-[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/ghstmail-aabf) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/sxivansx/ghstmail-frontend) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://www.ghstmail.space/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/Y9t7zwH8RII) [![Built at](https://img.shields.io/badge/Built%20at-Aegis%20SandBox%20v2.0-0052CC?style=flat-square)](https://aegis-sandbox-v.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-20-FF6B6B?style=flat-square)
-
-> Not a Temp Mail
-
-![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![Android Studio](https://img.shields.io/badge/Android%20Studio-333333?style=flat-square) ![Docker](https://img.shields.io/badge/Docker-333333?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=flat-square) ![SMTP](https://img.shields.io/badge/SMTP-333333?style=flat-square) ![Chrome Extension](https://img.shields.io/badge/Chrome%20Extension-333333?style=flat-square)
-
-**The problem it solves**
-
-its a solution that bridges a new data privacy layer between signup and your mail inbox. this make a solution that a
-
-Team **Team FAANGmasti** -- [Shivansh Pandey](https://github.com/sxivansx), [Govind Pandey](https://github.com/govindup63), [Mohammad Saalim Arshad Quadri](https://github.com/danascape), [Suryansh Tiwary](https://github.com/suryansh-tiwary)
-
-`2026-03-08`
-
----
-
-[**View all 1075 DevTools and Infrastructure projects with complete details →**](./devtools-infrastructure)
+[**View all 1303 DevTools and Infrastructure projects with complete details →**](./devtools-infrastructure)
 
 ---
 
@@ -591,6 +590,28 @@ Team **1-A** -- [Rajdeep Shaw](https://github.com/rajdeep-pixel), [shreyas .](ht
 Team **TLE TERMINATORS** -- [Abhas Nath](https://github.com/abhas20), [Abhinav Neema](https://github.com/AbhinavNeema), [Prasoon Patel](https://github.com/Prasoon52), [Pranav Panmand](https://github.com/pranavpanmand)
 
 `2026-01-25`
+
+---
+
+### PragyanAI
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/pragyanai-097f) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Pranay50x/Warp_hack/commits/main/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/EoX1Orw3SvE) [![Built at](https://img.shields.io/badge/Built%20at-Warpspeed:%20Agentic%20AI%20Hackathon%20|%20Lightspeed%20India-0052CC?style=flat-square)](https://warpspeed2025.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-24-FF6B6B?style=flat-square)
+
+> personal, multilingual AI learning agent
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Google Cloud Platform (GCP)](https://img.shields.io/badge/Google%20Cloud%20Platform%20(GCP)-333333?style=flat-square) ![Vercel](https://img.shields.io/badge/Vercel-333333?style=flat-square) ![RestAPIs](https://img.shields.io/badge/RestAPIs-333333?style=flat-square)
+
+**The problem it solves**
+
+### **Challenges in Traditional Learning**
+
+* **Language Barriers**: Prevent access to quality education.
+* **One-Size-Fits-All Content**: Doesn’t cater to individual learning styles.
+* **Passive Learning**: Fails to engage students effectively.
+* **Limited Accessibility**: Not adaptable to differen...
+
+Team **Windows 9 Devs** -- [Rishab Tarakesh](https://github.com/Schizoid-man), [Pranay K R](https://github.com/Pranay50x), [Rayyaan Farhan](https://github.com/Tostiffent), [Kamal Karteek U](https://github.com/Kamalllx)
+
+`2025-06-22`
 
 ---
 
@@ -641,24 +662,7 @@ Team **CodeForge** -- [Rishav Kashyap](https://github.com/Y0Rishav), [Harshit Ku
 
 ---
 
-### KnowGap
-[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/knowgap-bce4) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Ankitsri2005) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://knowgap-1-0bfh.onrender.com) [![Built at](https://img.shields.io/badge/Built%20at-CodeStorm%202026-0052CC?style=flat-square)](https://codestorm-week1-2026.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-10-FF6B6B?style=flat-square)
-
-> Know What Students Know
-
-![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![NumPy](https://img.shields.io/badge/NumPy-333333?style=flat-square) ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-333333?style=flat-square) ![pandas](https://img.shields.io/badge/pandas-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Express.js](https://img.shields.io/badge/Express.js-333333?style=flat-square)
-
-**The problem it solves**
-
-Traditional assessment systems evaluate students only through final scores, making it difficult to identify why a student performed poorly or whether a correct answer was based on actual understanding or random guessing. Teachers often receive only marks, without insights into misconceptions, confid...
-
-Team **THE BUG STOPS HERE** -- [Achintya Jyoti](https://github.com/achintya0308), [Ankit srivastava](https://github.com/Ankitsri2005), [NAVONIL SAHA](https://github.com/navonilsaha123), [Shambhavi Kumari](https://github.com/shambhavi151023)
-
-`2026-05-30`
-
----
-
-[**View all 306 Social Impact and Education projects with complete details →**](./social-education)
+[**View all 426 Social Impact and Education projects with complete details →**](./social-education)
 
 ---
 
@@ -702,6 +706,44 @@ Team **Tokito** -- [Joel Libni](https://github.com/kakarot-dev), [Anandhu P](htt
 
 ---
 
+### Skills Spark Mentor Hub
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/skills-spark-mentor-hub-8c90) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/CODE-HUB07/Skill-Spark) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://skills-spark.netlify.app/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/25eDpbluvZE) [![Built at](https://img.shields.io/badge/Built%20at-HACKHAZARDS%20'25-0052CC?style=flat-square)](https://hackhazards25.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-51-FF6B6B?style=flat-square)
+
+> Ignite Your Potential. Learn from the Best , Find a Mentor. Spark a Skill. Change Your Life
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![React.js](https://img.shields.io/badge/React.js-333333?style=flat-square) ![Vite](https://img.shields.io/badge/Vite-333333?style=flat-square) ![and other more](https://img.shields.io/badge/and%20other%20more-333333?style=flat-square)
+
+**The problem it solves**
+
+Skills Spark – Mentor Hub is an advanced, purpose-driven platform built to bridge the gap between ambition and expertise. It empowers individuals to discover and connect with industry-ready mentors across various domains, enabling personalized learning experiences tailored to real-world skills.
+
+Whe...
+
+Team **The_Hackoholics** -- Varun Sharma, [Bhavesh Sahu](https://github.com/No), Aryan Yadav, [SIDDHANT SHARMA](https://github.com/CODE-HUB07)
+
+`2025-04-24`
+
+---
+
+### CHILLSWIPE
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/chillswipe-8f22) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/mirackaanarslan/CHILLSWIPE) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/A6iDG8pFUQo) [![Built at](https://img.shields.io/badge/Built%20at-Hacking%20Paris%20%20|%20Powered%20by%20Chiliz-0052CC?style=flat-square)](https://hacking-paris.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-50-FF6B6B?style=flat-square)
+
+> Swipe. Predict. Win. Feel the Game.
+
+![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![ethers.js](https://img.shields.io/badge/ethers.js-333333?style=flat-square) ![remix](https://img.shields.io/badge/remix-333333?style=flat-square) ![TailWindCSS](https://img.shields.io/badge/TailWindCSS-333333?style=flat-square) ![Supabase](https://img.shields.io/badge/Supabase-333333?style=flat-square) ![Wagmi](https://img.shields.io/badge/Wagmi-333333?style=flat-square) ![RainbowKit](https://img.shields.io/badge/RainbowKit-333333?style=flat-square) ![VERTEX AI](https://img.shields.io/badge/VERTEX%20AI-333333?style=flat-square)
+
+**The problem it solves**
+
+Prediction markets are typically intimidating, technical, and slow. Most platforms are built for crypto-native users and ignore real fan behavior.
+
+ChillSwipe solves this by introducing a swipe-based, mobile-native prediction experience that's intuitive, social, and engaging. Fans can easily stake f...
+
+Team **CHILLSWIPE** -- [Mirac Arslan](https://github.com/mirackaanarslan), [Alkim Doryan](https://github.com/alkimdoryan)
+
+`2025-07-13`
+
+---
+
 ### billianceai
 [![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/dfgdfg-fdbc) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/adhavan18/billiance-hackodisha) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://youtube.com/clip/UgkxNMgsLYpphTlZg81we7HCR9KmVYst9FAR?si=rDHlokF08Hg5fBD1) [![Built at](https://img.shields.io/badge/Built%20at-HackOdisha%205.0-0052CC?style=flat-square)](https://hackodisha-4.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-46-FF6B6B?style=flat-square)
 
@@ -721,45 +763,7 @@ Team **billiance** -- [Gouthamarvind Varatharajan](https://github.com/gxthxm), [
 
 ---
 
-### WARDEN
-[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/warden-c119) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Varun-ai07/WARDEN.git) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://www.youtube.com/watch?v=Kw1iS4ZHIR8) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=Kw1iS4ZHIR8) [![Built at](https://img.shields.io/badge/Built%20at-Agentic%20Commerce%20Hackathon-0052CC?style=flat-square)](https://agentic-commerce.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-41-FF6B6B?style=flat-square)
-
-> AI Policy Engine for Recurring Payments!
-
-![React](https://img.shields.io/badge/React-333333?style=flat-square) ![SQLite](https://img.shields.io/badge/SQLite-333333?style=flat-square) ![Express.js](https://img.shields.io/badge/Express.js-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![OpenAi](https://img.shields.io/badge/OpenAi-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![Vite](https://img.shields.io/badge/Vite-333333?style=flat-square) ![Prava SDK](https://img.shields.io/badge/Prava%20SDK-333333?style=flat-square)
-
-**The problem it solves**
-
-Most people have way more subscriptions running than they realize — I've got around a dozen and honestly couldn't tell you off the top of my head what half of them cost or when I last opened them.
- 
-> Apps like Rocket Money will show you the list and maybe nag you about a forgotten trial — but they...
-
-Team **Void Swarm** -- [VARUN P](https://github.com/Varun-ai07)
-
-`2026-08-03`
-
----
-
-### Zarkclaim
-[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/zark-claim-62b6) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Arnav-panjla/ztarknet) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://youtu.be/BeWoX_0sHJI) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/pzyhA1T_q7A) [![Built at](https://img.shields.io/badge/Built%20at-ETHIndiaVilla-0052CC?style=flat-square)](https://ethindia-villa.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-38-FF6B6B?style=flat-square)
-
-> Private Bridge b/w ZCash and Starknet using Zclaim
-
-![Rust](https://img.shields.io/badge/Rust-333333?style=flat-square) ![Cairo](https://img.shields.io/badge/Cairo-333333?style=flat-square) ![Circom](https://img.shields.io/badge/Circom-333333?style=flat-square) ![StarkNet](https://img.shields.io/badge/StarkNet-333333?style=flat-square) ![Zcash](https://img.shields.io/badge/Zcash-333333?style=flat-square)
-
-**The problem it solves**
-
-- **Privacy-Preserving Transfers**: Unlike traditional bridges that expose "User A bridged 100 ZEC" on-chain, ZCLAIM uses Zcash's shielded notes and homomorphic value commitments. The bridge verifies validity without learning amounts, true financial privacy across chains.
-
-- **Trustless Custody**: N...
-
-Team **Dragon Warriors** -- [Arnav Panjla](https://github.com/Arnav-panjla), [Anon Choudhari](https://github.com/nikillxh), [Nikhileshwaran Nadar](https://github.com/nikillxh)
-
-`2025-12-01`
-
----
-
-[**View all 2456 Gaming, AR, and VR projects with complete details →**](./gaming-ar-vr)
+[**View all 2828 Gaming, AR, and VR projects with complete details →**](./gaming-ar-vr)
 
 ---
 
@@ -860,7 +864,7 @@ Team **Kitlers** -- [Sathvik Pasuvula](https://github.com/sathvik9105), [Ashutos
 
 ---
 
-[**View all 376 Finance and Fintech projects with complete details →**](./finance-fintech)
+[**View all 402 Finance and Fintech projects with complete details →**](./finance-fintech)
 
 ---
 
@@ -960,7 +964,7 @@ Team **ORBIT** -- [Devesh Reddy](https://github.com/deveshreddyp), [Nihal DR](ht
 
 ---
 
-[**View all 527 AI and Machine Learning projects with complete details →**](./ai-ml)
+[**View all 604 AI and Machine Learning projects with complete details →**](./ai-ml)
 
 ---
 
@@ -1061,7 +1065,7 @@ Team **Ignite** -- [Sahil Kumar](https://github.com/Sahil870072), [Ayush Jha](ht
 
 ---
 
-[**View all 3614 Open Source Builds projects with complete details →**](./open-source-builds)
+[**View all 4071 Open Source Builds projects with complete details →**](./open-source-builds)
 
 ---
 

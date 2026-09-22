@@ -1,6 +1,6 @@
 # Hardware and IoT
 
-![Projects](https://img.shields.io/badge/Projects-318-4B32C3?style=flat-square) [![GitHub](https://img.shields.io/badge/GitHub-tech--anupam-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/tech-anupam) [![Instagram](https://img.shields.io/badge/Instagram-tech.anupam-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/tech.anupam)
+![Projects](https://img.shields.io/badge/Projects-359-4B32C3?style=flat-square) [![GitHub](https://img.shields.io/badge/GitHub-tech--anupam-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/tech-anupam) [![Instagram](https://img.shields.io/badge/Instagram-tech.anupam-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/tech.anupam)
 
 [← Back to all themes](https://github.com/tech-anupam/hackfolio#readme)
 
@@ -283,6 +283,39 @@ Team **ZENITH** -- [Pankaj Garg](https://github.com/Garg-Pankaj29), [Supreet Kau
 
 ---
 
+### Chakravyuh : AI-IoT Mesh for Anti-Terrorism
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/chakravyuh-aiiot-mesh-for-antiterrorism-87b2) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/NamanKansal230505/Chakravyuh) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://chakravyuh-gamma.vercel.app/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://vimeo.com/1081005939) [![Built at](https://img.shields.io/badge/Built%20at-Sprinthacks%203.0-0052CC?style=flat-square)](https://sprinthacks-3.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-11-FF6B6B?style=flat-square)
+
+> Smarter than a camera. Quieter than a drone
+
+![Firebase](https://img.shields.io/badge/Firebase-333333?style=flat-square) ![TensorFlow](https://img.shields.io/badge/TensorFlow-333333?style=flat-square) ![Internet of Things (IoT)](https://img.shields.io/badge/Internet%20of%20Things%20(IoT)-333333?style=flat-square) ![Deep Learning](https://img.shields.io/badge/Deep%20Learning-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![Microcontroller](https://img.shields.io/badge/Microcontroller-333333?style=flat-square) ![Embedded C](https://img.shields.io/badge/Embedded%20C-333333?style=flat-square)
+
+**The problem it solves**
+
+1. Border Infiltration in Forest Terrains: Infiltrators exploit dense forests and valleys to cross borders undetected.
+2. Blind Surveillance Zones: Remote and off-grid areas lack CCTV, drones, or real-time monitoring.
+3. Unpredictable Smuggling Routes: Terrorists and smugglers use natural cover like caves, mangroves, and rivers to transport arms, drugs, or people.
+4. Delayed Detection & Response: Current systems detect threats only after an incident has occurred.
+5. Lack of Real-Time Ground-Level Intelligence
+6. Heavy Dependency on Human Patrols: Troops face fatigue, risk, and gaps in 24/7 coverage.
+7. High Cost & Power Consumption of Surveillance Equipment: Existing surveillance solutions like thermal cameras and drones are expensive and energy-hungry.
+8. Limited Monitoring in Fog, Darkness & Dense Vegetation9. Non-scalable Monitoring Infrastructure
+9. Installing towers, wiring, or internet in harsh terrains is logistically difficult and slow.
+10. Communication Gaps in Remote Regions: Lack of cellular or satellite signal makes remote surveillance nearly impossible.
+
+**Challenges we ran into**
+
+Training and Deploying a TensorFlow Lite Model on Edge Hardware
+One of the most complex hurdles we faced was training a custom TensorFlow Lite (TFLite) model to detect specific audio patterns like footsteps, whispers, and gun reloads, and then deploying it on low-power edge devices like the ESP32.
+
+PITCH DECK : https://shorturl.at/JFN8d
+
+Team **Chakravyuh** -- [Himanshu Soni](https://github.com/hscecoder), [Prashansa Sharma](https://github.com/Prashansa2523), [Naman Kansal](https://github.com/NamanKansal230505)
+
+`2025-05-03`
+
+---
+
 ### blank
 [![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/urbanlens-b6e1) [![Built at](https://img.shields.io/badge/Built%20at-brAInwave%202.0-0052CC?style=flat-square)](https://brainwave2.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-9-FF6B6B?style=flat-square)
 
@@ -340,6 +373,82 @@ I built this project to solve the real-world problem of inefficient battery moni
 Team **Heisenberg** -- [Madhava Vasist](https://github.com/Madsudo-pixel), [Daksh Murjwani](https://github.com/dakshvijaymurjwani-spec), [Deepakchandar T](https://github.com/AishwaryaNachammaiN), [Mageshvar R](https://github.com/mageshvar9842)
 
 `2025-12-10`
+
+---
+
+### KrishiConnect
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/krishiconnect-7b47) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Srinjoy2004/Hack4Bengal---KrishiConnect) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://krishi-connect-frontend-nu.vercel.app/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/dNKldUvUO7c?si=l7OtaGzpiZR4uunI) [![Built at](https://img.shields.io/badge/Built%20at-Hack4Bengal%204.0-0052CC?style=flat-square)](https://hack4bengal-4.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-9-FF6B6B?style=flat-square)
+
+> Real-Time AI Farming with IoT Precision
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![TensorFlow](https://img.shields.io/badge/TensorFlow-333333?style=flat-square) ![scikit-learn](https://img.shields.io/badge/scikit--learn-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Express.js](https://img.shields.io/badge/Express.js-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square)
+
+**The problem it solves**
+
+Modern agriculture faces numerous challenges — from inefficient resource usage and unpredictable climate conditions to a lack of real-time insights for farmers. Traditional farming methods often rely on manual monitoring, which can be inaccurate, time-consuming, and labor-intensive.
+
+KrishiConnect addresses these challenges by providing:
+
+✅ Real-time Soil & Environmental Monitoring
+Farmers no longer need to manually inspect soil health or weather conditions — live sensor data gives them instant access to vital metrics like pH, moisture, and temperature.
+
+🧠 Smart, Data-Driven Decisions
+With integrated machine learning models, the platform recommends the best crops to plant based on current soil and environmental conditions — improving yield and minimizing risk.
+
+🔒 Safe & Efficient Resource Management
+Monitoring soil nutrients and moisture levels helps prevent over-fertilization and water wastage, promoting sustainable farming practices.
+
+🌐 Remote Accessibility
+With cloud-based dashboards and planned mobile app integration, farmers can access their field data anytime, anywhere, enabling better farm management even from afar.
+
+🔌 Plug-and-Play Hardware Setup
+Modular sensor architecture allows users to easily upgrade or replace sensors without technical expertise.
+
+In essence, KrishiConnect simplifies precision farming by combining IoT, ML, and cloud connectivity into one powerful ecosystem — making agriculture smarter, safer, and more sustainable.
+
+**Challenges we ran into**
+
+🔌 1. RS485 Sensor Communication Issues
+Integrating multiple RS485-based sensors (like the JXBS-3001 and NPK sensor) on a single bus was tricky. Signal conflicts and noisy data were common problems.
+
+✅ Solution:
+We used MAX485 transceivers with proper termination resistors and implemented Modbus RTU protocols carefully with CRC checks to ensure stable communication. Separating power grounds and isolating noisy components also helped.
+
+🌐 2. Cross-Platform API Integration
+Connecting our Flask and FastAPI ML models with the Node.js backend was initially problematic due to CORS errors and inconsistent request formatting.
+
+✅ Solution:
+We implemented proper CORS middleware and ensured consistent JSON data schemas across all endpoints. Async calls with retry logic improved reliability.
+
+📉 3. Sensor Calibration & Inaccurate Readings
+Some soil sensors gave fluctuating or inaccurate values depending on environmental noise and power inconsistencies.
+
+✅ Solution:
+We implemented digital filtering techniques (e.g., moving average smoothing) and calibrated sensors against standard readings to improve accuracy.
+
+🎨 4. Real-Time Data Rendering
+Handling real-time updates in the frontend without overloading the UI was challenging, especially when dealing with multiple sensor streams.
+
+✅ Solution:
+We used WebSockets for efficient real-time data flow and optimized React components with memoization and lazy loading.
+
+⚡ 5. Power Distribution for Outdoor Use
+Delivering clean and regulated power to all components in an outdoor setup led to occasional resets and sensor failures.
+
+✅ Solution:
+We designed a custom power distribution board using LM2596 and AMS1117 voltage regulators, ensuring isolated and stable power rails for each sensor cluster.
+
+Overcoming these challenges strengthened our understanding of embedded systems, full-stack integration, and real-world IoT deployments — making KrishiConnect a truly field-ready solution.
+
+**Best use of Gemini API**
+
+We’re applying for the Gemini API track because we believe the future of agriculture lies not only in collecting data — but in making sense of it intelligently.
+
+KrishiConnect already captures real-time environmental and soil data through IoT sensors and provides ML-driven crop recommendations. But we see a huge opportunity to amplify its intelligence using Gemini’s powerful AI capabilities.
+
+Team **The_Debuggers** -- [Syed Md. Musharraf](https://github.com/KIZER15), [subhabilash Das](https://github.com/Subhabilash), [Srinjoy Pramanik](https://github.com/Srinjoy2004), [Arpan Chowdhury](https://github.com/apu52)
+
+`2025-06-22`
 
 ---
 
@@ -761,6 +870,146 @@ Team **Elites** -- [Anshuman Atrey](https://github.com/AnshumanAtrey/), [vijay k
 
 ---
 
+### Eco Monitor
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/eco-monitor-3197) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Snedit/EcoPulse-frontend) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://melodious-conkies-a1e4f0.netlify.app/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/l0iVw7Efm_A) [![Built at](https://img.shields.io/badge/Built%20at-HexaFalls-0052CC?style=flat-square)](https://hexafalls.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-7-FF6B6B?style=flat-square)
+
+> From Overflow to Optimization
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=flat-square) ![Arduino](https://img.shields.io/badge/Arduino-333333?style=flat-square) ![Spring](https://img.shields.io/badge/Spring-333333?style=flat-square) ![Mosquitto MQTT Broker](https://img.shields.io/badge/Mosquitto%20MQTT%20Broker-333333?style=flat-square)
+
+**The problem it solves**
+
+*Problems faced by current IoT-Based Water & Waste Management System*
+
+**1. Water Monitoring:**
+Undetected Water Wastage: Leaks, overflows, and inefficient tank usage go unnoticed in traditional systems.
+
+**2. Manual Monitoring:** Requires human checks for water levels, often leading to delayed actions.
+
+**3. Inaccurate Usage Data:** No real-time visibility into consumption patterns or tank fill rates.
+
+**4. Resource Mismanagement:** Inability to optimize water usage based on trends and needs.
+
+**5. Expensive hardware :** The devices are not cheap.
+
+*How we are solving it:*
+
+**1. Undetected Water Wastage**
+🔧 Solution:
+Real-time sensors are deployed to continuously monitor tank levels and flow rates. Instant alerts are sent on abnormal patterns like leaks or overflows, preventing wastage before it becomes critical.
+
+**2. Manual Monitoring**
+🔧 Solution:
+Our system automates the entire process by enabling remote water level tracking via a web dashboard. No need for physical checks—admins can access tank data anytime, from anywhere.
+
+**3. Inaccurate Usage Data**
+🔧 Solution:
+We log historical usage trends, generate real-time analytics, and visualize tank fill/drain patterns to help predict usage and plan better water distribution.
+
+**4. Resource Mismanagement**
+🔧 Solution:
+With intelligent scheduling based on real-time data, the system ensures efficient usage and avoids both underutilization and overflow scenarios. Alerts are prioritized based on critical levels.
+
+**5. Expensive Hardware**
+🔧 Solution:
+We design and deploy cost-effective microcontroller-based devices (e.g., using ESP32, ultrasonic sensors) without compromising accuracy. This makes it affordable and scalable for municipalities, schools, and small organizations.
+
+**Challenges we ran into**
+
+- Decoding bugs in java was not a pleasant experience....
+- MQTT was often creating a nuisance by not accepting configuration.
+- We lost one of our IOT devices, so could not show a very interesting feature as demo.
+
+**Winner**
+
+1. Real-World Relevance
+Solves pressing civic issues—water wastage, overflow, and unmanaged garbage.
+
+Aligned with Smart City and Sustainability goals.
+
+Tackles both urban and rural infrastructure gaps with tech.
+
+2. Technical Innovation
+Real-time monitoring using low-cost IoT hardware.
+
+Live graph plotting, shortest-path optimization using TSP + Greedy for waste collection.
+
+Uses Google Maps APIs, SSE streams with JWT auth, and a clean React + Spring Boot stack.
+
+3. Impactful & Scalable
+Can be deployed in schools, municipalities, offices, or residential areas.
+
+Modular design allows it to scale from 1 to 1000+ devices.
+
+Encourages data-driven decision-making for utilities.
+
+4. Clean UI & UX
+Multi-step onboarding for devices.
+
+Intuitive map-based location picking and tracking.
+
+Live dashboards for actionable insights.
+
+ 5. Full-Stack Integration
+Complete solution: from hardware (ESP32, sensors) to backend (Spring Boot) to frontend (React).
+
+Secure with JWT authentication and RESTful APIs.
+
+Uses streaming, not just polling—saving bandwidth and improving real-time capabilities.
+
+ 6. Low-Cost & Open-Source
+Built with affordability in mind—perfect for government deployment in low-income areas.
+
+Can be released as an open-source toolkit for smart utility management.
+
+**Winners & Runners-up**
+
+✅ 1. Real-World Relevance
+Solves pressing civic issues—water wastage, overflow, and unmanaged garbage.
+
+Aligned with Smart City and Sustainability goals.
+
+Tackles both urban and rural infrastructure gaps with tech.
+
+✅ 2. Technical Innovation
+Real-time monitoring using low-cost IoT hardware.
+
+Live graph plotting, shortest-path optimization using TSP + Greedy for waste collection.
+
+Uses Google Maps APIs, SSE streams with JWT auth, and a clean React + Spring Boot stack.
+
+✅ 3. Impactful & Scalable
+Can be deployed in schools, municipalities, offices, or residential areas.
+
+Modular design allows it to scale from 1 to 1000+ devices.
+
+Encourages data-driven decision-making for utilities.
+
+✅ 4. Clean UI & UX
+Multi-step onboarding for devices.
+
+Intuitive map-based location picking and tracking.
+
+Live dashboards for actionable insights.
+
+✅ 5. Full-Stack Integration
+Complete solution: from hardware (ESP32, sensors) to backend (Spring Boot) to frontend (React).
+
+Secure with JWT authentication and RESTful APIs.
+
+Uses streaming, not just polling—saving bandwidth and improving real-time capabilities.
+
+✅ 6. Low-Cost & Open-Source
+Built with affordability in mind—perfect for government deployment in low-income areas.
+
+Can be released as an open-source toolkit for smart utility management.
+
+Team **Springtrap** -- [Ayushman Pal](https://github.com/ayushman1626), [Soham De](https://github.com/Snedit)
+
+`2025-06-29`
+
+---
+
 ### WhatsApp based home automation
 [![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/whatsapp-based-home-automation-6c45) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/satya-99928/whatsapp-home-automation-iot) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/Oj13-Y8D_Ww?feature=shared) [![Built at](https://img.shields.io/badge/Built%20at-HackOdisha%205.0-0052CC?style=flat-square)](https://hackodisha-4.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-6-FF6B6B?style=flat-square)
 
@@ -807,6 +1056,47 @@ that kind of stepwise orchestration can nicely align with what Orkes promotes. I
 Team **IoTonic** -- [Arpan Senapati](https://github.com/Arpansp), [Ashutosh Upadhyaya](https://github.com/ashutoshupadhyaya), [Ronit Pattnaik](https://github.com/pattnaikronit80-ai), [Satya Nayak](https://github.com/Hshs), [Satyajit Panda](https://github.com/satya-99928)
 
 `2025-09-07`
+
+---
+
+### EPIDERM
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/epiderm-8a0e) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/rajudhangar100/epiderm) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/JZCGyCbmMJo?si=JPeDq0EidQNUw7R_) [![Built at](https://img.shields.io/badge/Built%20at-Aventus%203-0052CC?style=flat-square)](https://aventus-3.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-6-FF6B6B?style=flat-square)
+
+> Detect Early. Act Early. Save Lives.
+
+![TensorFlow](https://img.shields.io/badge/TensorFlow-333333?style=flat-square) ![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-333333?style=flat-square) ![OpenCV](https://img.shields.io/badge/OpenCV-333333?style=flat-square) ![Tkinter](https://img.shields.io/badge/Tkinter-333333?style=flat-square) ![cnn](https://img.shields.io/badge/cnn-333333?style=flat-square) ![Python 3.12](https://img.shields.io/badge/Python%203.12-333333?style=flat-square) ![Grad-CAM](https://img.shields.io/badge/Grad--CAM-333333?style=flat-square) ![Xception](https://img.shields.io/badge/Xception-333333?style=flat-square)
+
+**The problem it solves**
+
+EPIDERM is a portable, offline AI device that enables early detection of serious skin conditions like Actinic keratoses, Basal cell carcinoma, Benign keratosis-like lesions, Dermatofibroma, Melanocytic nevi (normal), Melanoma Vascular lesions. It allows nurses and health workers to screen patients confidently without needing internet, doctors, or expensive equipment. With real-time classification, confidence scores, and explainable heatmaps (Grad-CAM), it builds trust and helps identify high-risk cases for urgent referral. Designed for rural and low-resource settings, EPIDERM stores scan history locally for follow-up tracking and runs entirely on battery power — making it ideal for mobile clinics and health camps.
+
+Detects early-stage skin cancer and other serious lesions.
+
+Empowers non-specialists (nurses, health workers) to screen confidently.
+
+Works completely offline — no need for internet or smartphones.
+
+Provides instant results with AI classification and explainable heatmaps.
+
+Triggers SMS alerts or prints referral slips for urgent cases.
+
+Stores scan history for long-term monitoring of skin condition evolution.
+
+Maintains patient privacy with fully local data storage (no cloud).
+
+Runs on portable power, ideal for rural, tribal, and mobile clinics.
+
+Boosts the effectiveness of public health screening camps with zero extra cost.
+
+**Challenges we ran into**
+
+While building the Skin Disease Detection System, we encountered several challenges related to both the GUI and machine learning components. 
+
+On the machine learning side, we faced class imbalance in the dataset, where certain skin diseases had far fewer samples. This led to skewed predictions, with high overall accuracy but low F1-scores and recall for rare classes. To address this, we used class weights during training, which improved the F1-score from 0.56 to 0.72 and significantly boosted recall. Overfitting was another major issue—training accuracy reached 95% while validation accuracy stalled at around 75%, and validation loss kept increasing. We mitigated this by adding Dropout layers, applying data augmentation techniques like rotation and flipping, and using callbacks such as EarlyStopping and ReduceLROnPlateau. This brought validation accuracy up to around 82% and stabilized model performance. Lastly, to make the model’s decisions more interpretable, we integrated Grad-CAM visualizations, which allowed us to see which parts of the skin image the model focused on during predictions. This not only improved transparency but also helped in debugging and building trust in the system. Altogether, these improvements ensured the
+
+Team **Team I/O** -- [Hamaas Shabir](https://github.com/HamaasShabir), [RAJU DHANGAR](https://github.com/rajudhangar100), [Harsh Dubey](https://github.com/Harsh3x), [Ismail Warsi](https://github.com/Lavear)
+
+`2025-05-18`
 
 ---
 
@@ -1370,6 +1660,160 @@ CircuitX builds native privacy infrastructure using ZK proofs and commitment sch
 [Ahmed Makinde](https://github.com/MakindeAhmed2110)
 
 `2025-12-04`
+
+---
+
+### NeuroSense
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/neurosense-56d0) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Asma-Khanam/Zeka-Hackprix.git) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](http://neurosense-2025-14-us-east.s3-website-us-east-1.amazonaws.com) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/8fX6J8AzJyo) [![Built at](https://img.shields.io/badge/Built%20at-HackPrix%20Season%202-0052CC?style=flat-square)](https://hackprix-2025.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-5-FF6B6B?style=flat-square)
+
+> Brain Controlled Prosthetic Arm
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-333333?style=flat-square) ![Arduino Uno](https://img.shields.io/badge/Arduino%20Uno-333333?style=flat-square) ![Arduino IDE](https://img.shields.io/badge/Arduino%20IDE-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![AWS](https://img.shields.io/badge/AWS-333333?style=flat-square) ![Arduino](https://img.shields.io/badge/Arduino-333333?style=flat-square) ![Support Vector Machine (SVM)](https://img.shields.io/badge/Support%20Vector%20Machine%20(SVM)-333333?style=flat-square)
+
+**The problem it solves**
+
+**Our NeuroSense project addresses several critical challenges for people with limb disabilities:**
+
+**Problem:**
+Traditional prosthetic arms lack intuitive control mechanisms and require complex physical movements or button presses that feel unnatural to users.
+**Solution:** NeuroSense enables direct brain-to-prosthetic communication through EEG-based motor imagery classification, allowing users to control prosthetic arms simply by thinking about specific movements.
+**Key Benefits:**
+
+**Intuitive Control:** Users control the prosthetic by imagining left hand, right hand, or rest states - no complex training needed
+Real-time Response: The system processes brain signals and translates them into immediate prosthetic actions (hand opening/closing, wrist rotation)
+**Non-invasive:** Uses EEG sensors rather than requiring surgical implants
+**Accessibility:** Makes advanced prosthetic control available to more people at lower cost and risk
+
+**Specific Use Cases:**
+
+People with upper limb amputations can regain natural-feeling control over prosthetic hands
+Individuals with motor disabilities can operate assistive devices through thought alone
+Rehabilitation patients can practice motor imagery to aid neural recovery
+
+Team **Zeka** -- [Asma khanam](https://github.com/Asma-Khanam), [Ikram Hyderi](https://github.com/Ikramhyderi), [Mohd Zeeshan](https://github.com/Z9CK), [Asna Khanam](https://github.com/asna-khanam)
+
+`2025-06-15`
+
+---
+
+### Aidlink+
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/aidlink-b5a7) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ishpreet404/aidlink) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://youtube.com/shorts/uQLIt38S7Ys?si=Um1tBghpiYXttBfb) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/zt4H8zP7gYA?si=xVxb4fpGabC-K_L-) [![Built at](https://img.shields.io/badge/Built%20at-Hackwave%20X25-0052CC?style=flat-square)](https://hackwave-x.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-5-FF6B6B?style=flat-square)
+
+> Advanced emergency Radio location beacon for areas without network coverage with GUI.
+
+![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Arduino](https://img.shields.io/badge/Arduino-333333?style=flat-square) ![PySerial](https://img.shields.io/badge/PySerial-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![GPS](https://img.shields.io/badge/GPS-333333?style=flat-square) ![React.js](https://img.shields.io/badge/React.js-333333?style=flat-square) ![Lora](https://img.shields.io/badge/Lora-333333?style=flat-square)
+
+**The problem it solves**
+
+In disaster-prone or remote areas, the lack of reliable communication infrastructure poses a significant challenge to search-and-rescue operations. Mobile networks are often unavailable in such regions, and traditional communication tools like handy radios are hindered by their limited range and susceptibility to interference. These communication gaps critically delay the delivery of aid and rescue, jeopardizing the safety and survival of individuals in distress
+
+AidLink is an innovative radio transmitting beacon designed to address communication challenges in areas without network coverage or where traditional communication methods, like handy radios, face range limitations. This device is a critical tool for emergency scenarios, providing a reliable means to transmit GPS coordinates and personal information of individuals in distress.
+
+These GPS Coordinates and Personal Data is sent to the receiver (Base Camp) over LoRa technology where the rescue alert is triggered on a web dashboard that is connected to the AidLink Receiver device so that quick help and rescue can be provided effectively and efficientlt.
+
+The beacon’s design prioritizes energy efficiency by utilizing low-power components, ensuring an extended battery life to maximize operation time during emergencies. AidLink's robust functionality and adaptability make it indispensable in disaster management and search-and-rescue operations, offering hope and connectivity where traditional means fall short.
+
+**Challenges we ran into**
+
+LoRa Signal Inconsistency
+
+The LoRa module sometimes failed to transmit GPS data reliably, even within expected range.
+
+Diagnosis:
+- Improper antenna orientation and signal reflection from nearby structures.
+- Loose connections and occasional voltage drops.
+
+Fixes:
+- Switched to a high-gain antenna.
+- Used capacitors to stabilize power.
+- Introduced retries in the transmission code and increased payload spacing.
+- Field-tested in various terrains to fine-tune transmission parameters.
+
+**Tech for Social Good**
+
+In disaster-prone or remote areas, the lack of reliable communication infrastructure poses a significant challenge to search-and-rescue operations. Mobile networks are often unavailable in such regions, and traditional communication tools like handy radios are hindered by their limited range and susceptibility to interference. These communication gaps critically delay the delivery of aid and rescue, jeopardizing the safety and survival of individuals in distress
+
+AidLink is an innovative radio transmitting beacon designed to address communication challenges in areas without network coverage or where traditional communication methods, like handy radios, face range limitations. This device is a critical tool for emergency scenarios, providing a reliable means to transmit GPS coordinates and personal information of individuals in distress.
+
+These GPS Coordinates and Personal Data is sent to the receiver (Base Camp) over LoRa technology where the rescue alert is triggered on a web dashboar
+
+Team **Order of Phoenix** -- [Ishpreet Singh](https://github.com/ishpreet404), [Inder Sharma](https://github.com/inder-dev-pro), [Keshav Garg](https://github.com/keshavgarg24), [Avirath Magoo](https://github.com/avirathmagoo)
+
+`2025-05-06`
+
+---
+
+### KneeRevive:A Smart Wearable for Motion Tracking
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/kneerevivea-smart-wearable-for-motion-tracking-b9fb) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Suhanigh/KneeRevive-Frontend) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://rekneeevate-backend.onrender.com) [![Built at](https://img.shields.io/badge/Built%20at-Hackwave%20X25-0052CC?style=flat-square)](https://hackwave-x.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-5-FF6B6B?style=flat-square)
+
+> Sense smart, Rehab smarter
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![C++](https://img.shields.io/badge/C++-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Arduino](https://img.shields.io/badge/Arduino-333333?style=flat-square) ![Ml](https://img.shields.io/badge/Ml-333333?style=flat-square) ![MongoDB Compass](https://img.shields.io/badge/MongoDB%20Compass-333333?style=flat-square) ![GenAI](https://img.shields.io/badge/GenAI-333333?style=flat-square)
+
+**The problem it solves**
+
+It addresses the critical lack of personalized, home-based recovery tools for individuals suffering from knee injuries, post-surgery rehabilitation, or chronic joint pain. Traditional physiotherapy often leads to skipped sessions due to inconvenience, resulting in:
+
+1)Delayed bone healing
+
+2)Joint stiffness and reduced mobility
+
+3)Increased risk of knee replacement surgeries
+
+KneeRevive shifts rehabilitation from the clinic to the comfort of the home using smart wearable tech—accelerating recovery, improving compliance, and potentially preventing surgery.
+
+What People Can Use It For / How It Helps
+1)Data-Driven Progress Tracking:
+The web dashboard allows users, caretakers, or physiotherapists to monitor recovery trends, ensuring accountability and motivation.
+
+2)Faster Bone Healing:
+The integrated LIPUS (Low-Intensity Pulsed Ultrasound) promotes faster tissue and bone regeneration.
+
+3)At-Home Rehabilitation:
+Users can undergo continuous knee therapy without hospital visits, saving time and reducing costs.
+
+4)Smart Motion Coaching:
+With real-time motion tracking, the wearable provides instant alerts for jerky or unsafe movements, improving exercise quality.
+
+5)AI-Personalized Therapy:
+Therapy plans are dynamically adjusted using AI and reinforcement learning based on the patient’s feedback and progress.
+
+6)Elderly Care:
+Ideal for seniors, enabling routine monitoring at old age homes and reducing dependency on caregivers.
+
+7)Clinic Use / Gym Integration:
+Can be offered as part of rehab packages in physiotherapy clinics or gyms for professional post-injury recovery.
+
+**Challenges we ran into**
+
+1)Model Optimization
+
+i)Converting a trained TensorFlow model into a lightweight format (TFLite) while maintaining accuracy and reducing latency was challenging.
+
+ii)Ensuring the model ran efficiently on resource-constrained devices like the ESP32.
+
+
+2)Real-Time Performance
+
+i)Ensuring the wearable could provide real-time classification and alerts without delays.
+
+ii)Managing serial communication and processing simultaneously without lag.
+
+**Tech for Social Good**
+
+"KneeRevive" addresses a critical healthcare gap by providing affordable and intelligent motion monitoring for individuals recovering from knee injuries or undergoing physical therapy.
+Its real-time feedback can prevent re-injury, ensure safe rehabilitation, and reduce dependence on continuous clinical supervision — particularly valuable in rural or underserved areas with limited access to physiotherapy.
+By enabling early detection of unsafe movements, it empowers patients and caregivers, promoting safer and more effective recovery through technology.
+
+**Open Innovation**
+
+"KneeRevive" showcases the spirit of open innovation by combining hardware (ESP32, MPU6050, flex sensors) and AI (motion classification model) to create a low-cost, customizable wearable solution.
+It leverages accessible components and open-source tools, making it a scalable framework for others to improve upon, adapt for various rehabilitation needs, or expand into other domains like sports training, elderly care, or physiotherapy.
+This project demonstrates how interdisciplinary collaboration and creative prototyping can solve complex real-world problems in new and impactful ways.
+
+Team **ReKneeVate** -- [Harsh Raj](https://github.com/HrshRaj30062004), [Sheetanshu Gautam](https://github.com/Sheetanshu0703), [Manas Srivastava](https://github.com/manassrv29), [Suhani Ghansyala](https://github.com/Suhanigh)
+
+`2025-05-06`
 
 ---
 
@@ -2493,6 +2937,249 @@ Our project fits the Open Track - Design Track by focusing on user experience an
 Team **Graphite** -- [Akarsh Garg](https://github.com/agcode-maker), [Sarthak Bhatia](https://github.com/chill-coderGuy), [Tathagat Gupta](https://github.com/TathagatGupta98), [Ayush Rajoria](https://github.com/ravernhorn)
 
 `2025-10-12`
+
+---
+
+### Autonomous Drone for Crisis Management
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/sarview-b0e7) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/FURIOUSCHAMP007/HACKPRIXS2) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://gamma.app/docs/NDRF-Drone-Rescue-SystemTech-Driven-Emergency-Response-t44c8nlprrt0mg5) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/qe8kOGrz6-w?si=4etm_4R9vcPvY2Fu) [![Built at](https://img.shields.io/badge/Built%20at-HackPrix%20Season%202-0052CC?style=flat-square)](https://hackprix-2025.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-4-FF6B6B?style=flat-square)
+
+> When Seconds Matter, We Fly!!!
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Unmanned Aerial Vehicles (Drones)](https://img.shields.io/badge/Unmanned%20Aerial%20Vehicles%20(Drones)-333333?style=flat-square) ![Computer Vision](https://img.shields.io/badge/Computer%20Vision-333333?style=flat-square) ![Image Processing](https://img.shields.io/badge/Image%20Processing-333333?style=flat-square) ![Tableau](https://img.shields.io/badge/Tableau-333333?style=flat-square)
+
+**The problem it solves**
+
+🛠️ The Problem It Solves
+During natural disasters, emergencies, or large-scale rescue operations, coordination between response teams is critical—but often fragmented and slow.
+
+Traditional methods rely on:
+
+Manual dispatching of teams and equipment
+
+Delayed situational awareness
+
+Limited real-time visibility of drone operations or field team status
+
+Lack of a unified dashboard for command centers, drone pilots, and ground teams
+
+These limitations lead to inefficient response times, increased risk to human life, and missed opportunities for early intervention.
+
+
+✅ What This Project Enables
+Our solution provides a real-time, web-based Tableau dashboard that integrates drone deployment tracking, rescue mission monitoring, and central dispatching to empower NDRF and other emergency response units with:
+
+📍 Live location tracking of drone assets and rescue teams
+
+🎥 Live video feed integration for rapid situational awareness
+
+⚠️ Emergency alert triggering from field agents or sensors
+
+📊 Operational stats including mission count, team availability, and area coverage
+
+🚨 One-click dispatch commands to teams and pilots
+
+🔁 Real-time updates without manual refresh or delay
+
+
+🌍 Use Cases
+Natural Disasters: Earthquakes, floods, landslides, forest fires
+
+Urban Emergencies: Building collapses, industrial accidents
+
+Search & Rescue: Missing persons, lost hikers, boat capsizing
+
+Border or Conflict Zones: Surveillance and emergency coordination
+
+
+💡 How It Helps
+🚀 Faster Response: Rapid decision-making based on live data
+
+🔒 Safer Missions: Reduced risk to ground teams with aerial scouting
+
+🧠 Smarter Resource Use: Real-time insights for better team allocation
+
+📈 Data-Driven Ops: Mission logs and stats for analysis and improvement
+
+📡 Centralized Control: A single interface for dispatchers, pilots, and commanders
+
+**Challenges we ran into**
+
+🧩 Challenges I Ran Into
+Building a real-time dispatch dashboard integrated with drone mission data came with several hurdles. Some key challenges and how we overcame them are detailed below:
+
+1. 🌀 Duplicate Imports Causing Module Errors
+While building the Missions.jsx page, we ran into a critical error:
+
+Error: The symbol "missions" has already been declared
+🔍 Cause: The same variable (missions) was being both declared and imported in the same file.
+
+✅ Solution: We split the logic cleanly—declared missions in missions.js (inside /data), and imported it only where needed. We also followed proper ES6 module boundaries to avoid namespace conflicts.
+
+2. 🔁 React Router Navigation Glitches
+Initially, navigating between / (Home) and /stats pages sometimes didn’t re-render the components.
+
+🔍 Cause: Pages were cached or not remounted properly due to improper routing setup.
+
+✅ Solution: Refactored routes using React Router v6 with BrowserRouter, Routes, and Route components. Ensured each page used a unique key where dynamic routing was applied.
+
+3. 🎨 TailwindCSS Not Applying Styles
+Some of our styles didn’t render, and Tailwind classes appeared to have no effect.
+
+🔍 Cause: We forgot to import the main index.css file with Tailwind directives into main.jsx.
+
+✅ Solution: Reconfigured Tailwind properly by adding the required directives:
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+And ensured index.css was correctly imported at the app root.
+
+4. 🧪 Live Data Mocking
+Simulating real-time drone mission data and stats without an actual backend was tricky.
+
+🔍 Challenge: Needed mock data that felt dynamic without building a full API.
+
+✅ Solution: Created a missions.js and stats.js file in the /data folder with regular updates using useEffect and setInterval() to simulate data refreshes for the prototype.
+
+5. 🗺️ Page Layout Consistency
+Keeping layout consistent across all pages was difficult due to repeated header/footer code.
+
+✅ Solution: Created reusable Header and Footer components, and wrapped all pages inside a layout structure in App.jsx.
+
+Each challenge made the project stronger, and helped us learn better practices in React development, modular file structure, and debugging component-based systems.
+
+**Open Innovation**
+
+🌐 Open Innovation Theme – How This Project Fits
+The Open Innovation theme encourages teams to build innovative, scalable, and cross-domain solutions that aren’t restricted to a specific industry or pre-defined problem. It invites creators to tackle real-world challenges using novel approaches and technologies.
+
+🚁 How Our Project Aligns with Open Innovation
+The NDRF Drone Rescue System exemplifies open innovation by combining emergency response, aerial drone intelligence, and centralized command dashboards into a modular and adaptable platform. Here's how:
+
+🧠 1. Cross-Domain Integration
+Combines defense tech (drone systems) with civic safety (emergency dispatching).
+
+Bridges real-time video processing, data visualization, and geospatial tracking.
+
+🚨 2. Real-World Social Impact
+Designed to assist the National Disaster Response Force (NDRF) and other first responders.
+
+Saves lives by reducing response time and increasing situational awareness in disasters.
+
+🔁 3. Scalable and Adaptable
+Can be used across domains:
+
+Urban safety (fire, industrial accidents)
+
+Natural calamities (floods, earthquakes)
+
+Military and border surveillance
+
+Modular React frontend means:
+
+APIs, live feeds, and drone protocols can be plugged in easily.
+
+🌍 4. Open for Collaboration
+Built using open-source technologies (React, Tailwind, Vite).
+
+Encourages contributions from developers, civic hackers, and hardware teams to integrate:
+
+AI for object detection
+
+IoT sensors
+
+Edge computing for drones
+
+📈 5. Encourages Policy + Tech Collaboration
+Serves as a reference solution for governments, disaster relief NGOs, and researchers.
+
+Offers a foundation for national-level disaster tech policy integration.
+
+🔓 In the Spirit of Open Innovation
+This project doesn’t just solve one problem — it builds a foundation for next-gen emergency coordination systems using technology that’s open, extensible, and human-centered.
+
+![image](https://assets.devfolio.co/content/ce7bf1c44f9c42ad9237e31a9852f781/9b8eae61-7a80-4c1f-8de7-c8fc2a6482f7.png)
+
+![image](https://assets.devfolio.co/content/ce7bf1c44f9c42ad9237e31a9852f781/a1a9b99a-68b9-4fe2-bcdd-2d9fd321146f.png)
+
+![image](https://assets.devfolio.co/content/ce7bf1c44f9c42ad9237e31a9852f781/0e4f640b-586f-4463-b3d4-7669e01f4938.png)
+
+![image](https://assets.devfolio.co/content/ce7bf1c44f9c42ad9237e31a9852f781/2258d63e-ff5c-4094-8be8-6b8bb3a9d8bf.png)
+
+![image](https://assets.devfolio.co/content/ce7bf1c44f9c42ad9237e31a9852f781/f8bcdb52-20e5-4c86-87b2-d39b3eda81a1.png)
+
+![image](https://assets.devfolio.co/content/ce7bf1c44f9c42ad9237e31a9852f781/6b62f0e8-c143-4c8e-a1b9-34a045188be1.png)
+
+![image](https://assets.devfolio.co/content/ce7bf1c44f9c42ad9237e31a9852f781/e5e75b98-b363-4562-b699-5421e65b58f8.png)
+
+![image](https://assets.devfolio.co/content/ce7bf1c44f9c42ad9237e31a9852f781/2ff258da-7db5-45a5-a340-97a03a0a781c.png)
+
+**Best use of GitHub**
+
+🏆 Best Use of GitHub – How This Project Fits
+Our project, the NDRF Drone Rescue System, follows the best practices of GitHub for version control, team collaboration, and documentation. It demonstrates how GitHub can be used not just as a code host, but as a powerful tool to collaboratively build, manage, and showcase impactful technology projects.
+
+✅ 1. Collaborative Development Workflow
+Used GitHub branches for feature isolation (e.g., feature/stats-page, feature/live-feed)
+
+Leveraged pull requests for code review and safe merging
+
+Maintained clear and atomic commit history for traceability
+
+📂 2. Well-Structured Repository
+Followed a clean and scalable folder architecture for src/, pages/, components/, and data/
+
+Modular component-based React structure makes collaboration easy
+
+Integrated .gitignore, README.md, and package.json with clear project metadata
+
+📘 3. Comprehensive README & Docs
+Created a detailed README.md covering:
+
+Demo
+
+Features
+
+Tech Stack
+
+Project Setup
+
+Folder Structure
+
+Challenges, Learnings, and Theme Fit
+
+Markdown formatting used for clarity and GitHub rendering
+
+🚀 4. Version-Controlled Prototyping
+Iterated quickly through multiple UI/UX improvements while keeping every version tracked
+
+Used GitHub to test design concepts, deploy previews, and track issues
+
+🛠️ 5. Open Source Readiness
+Project is organized to allow external contributors to:
+
+Understand the architecture
+
+Fork and run locally using minimal commands
+
+Build on top of the existing system
+
+🔓 In the Spirit of “Best Use of GitHub”
+This project showcases how GitHub empowers developers to:
+
+Work efficiently in teams
+
+Maintain clean code practices
+
+Deliver scalable and production-ready open-source tools — all from a single repository.
+
+![image](https://assets.devfolio.co/content/ce7bf1c44f9c42ad9237e31a9852f781/d759d998-c27d-4738-814c-7e926cf5d1da.png)
+
+![image](https://assets.devfolio.co/content/ce7bf1c44f9c42ad9237e31a9852f781/70f9a799-04d3-4f0f-b6f2-ccbdca28a6c5.png)
+
+Team **TECH MAVERICKS** -- [FAIZAN AHMED](https://github.com/FURIOUSCHAMP007), [Koushik YJ](https://github.com/xxxxxx)
+
+`2025-06-15`
 
 ---
 
@@ -3838,6 +4525,90 @@ DripTect leverages sensor-based hardware (ESP32, Ultrasonic, Soil, Rain, DHT11) 
 Team **Power Rangers** -- [Surajit Ray](https://github.com/surajit8100), [Anshley Mukherjee](https://github.com/anshleyy), [ARYAN GHOSH](https://github.com/Aryan-Ghosh-Code), [Debnanda Datta](https://github.com/debnanda)
 
 `2025-08-24`
+
+---
+
+### WildEye
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/wildeye-4f87) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Srujana-H-git/WildEye) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/fZBzT44ZIMw?si=-YWb05ySf8ecsXr8) [![Built at](https://img.shields.io/badge/Built%20at-NMIT%20HACKS%202025-0052CC?style=flat-square)](https://nmithacks25.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-3-FF6B6B?style=flat-square)
+
+> "Wildeye – Guardians of the Silent Forest."
+
+![TensorFlow](https://img.shields.io/badge/TensorFlow-333333?style=flat-square) ![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-333333?style=flat-square) ![Pi Camera](https://img.shields.io/badge/Pi%20Camera-333333?style=flat-square) ![Sensors](https://img.shields.io/badge/Sensors-333333?style=flat-square)
+
+**The problem it solves**
+
+# 🔍 What Problem Does This Project Solve?
+
+**WildEye: Smart Poacher Detection System**
+
+Protecting endangered wildlife from illegal poaching is a major challenge, especially in remote forest areas where manual surveillance is difficult and resource-intensive. This project addresses that problem by providing a **real-time, AI-powered surveillance system** that automates the detection of human presence in restricted wildlife zones.
+
+---
+
+## 🛠️ How It Works
+
+- **Motion Detection**  
+  A PIR (Passive Infrared) sensor detects any physical movement in the surroundings.
+
+- **Video Analysis with AI**  
+  Once motion is detected, a connected camera records video. This video is then analyzed by a pre-trained machine learning model that identifies whether the detected entity is a *human (poacher)* or *non-human (animal or false alarm)*.
+
+- **Real-Time Alerts**  
+  If a human(Poacher) is detected and remains in view for over 5 seconds, an **instant alert is sent via Telegram** to forest officials, enabling quick response.
+
+---
+
+## ✅ Why This Matters
+
+- Reduces the need for constant human monitoring.
+- Increases the speed and accuracy of poacher detection.
+- Enables 24/7 monitoring even in remote locations.
+- Makes wildlife protection more **efficient**, **affordable**, and **scalable**.
+
+**Challenges we ran into**
+
+## Challenges I Ran Into
+
+> Integrating the machine learning model with the Raspberry Pi hardware was the major challenge. Ensuring compatibility, managing limited resources, and achieving real-time inference performance required careful optimization and testing.
+
+**Internet of Things**
+
+# Poacher Detection System - IoT Integration Overview
+
+## Overview
+
+This Poacher Detection System is designed to protect wildlife by automatically detecting and alerting authorities about poaching activities through video analysis. It leverages Internet of Things (IoT) principles to create a smart, connected monitoring solution for wildlife conservation.
+
+## How This Project Fits Into IoT
+
+### 1. Connected Devices and Sensors
+
+- The system uses edge devices such as Raspberry Pi equipped with cameras and motion sensors deployed in wildlife areas.
+- These devices continuously capture video streams and detect motion or suspicious human presence in real-time.
+
+### 2. Edge Computing
+
+- Initial video processing and poacher detection algorithms run locally on the edge devices or on a nearby server.
+- This reduces the need for constant data transmission, minimizing bandwidth use and latency.
+
+### 3. Network Connectivity
+
+- Devices communicate detected events and alerts to a centralized server or cloud platform using network protocols (e.g., TCP sockets, HTTP APIs).
+- Alerts are sent via Telegram or SMS, instantly notifying wildlife authorities.
+
+### 4. Automation and Real-Time Alerts
+
+- The system autonomously detects poachers and sends immediate alerts without human intervention.
+- This enables faster response times, increasing the chances of preventing illegal activities.
+
+### 5. Remote Monitoring and Scalability
+
+- Multiple devices can be deployed across different regions, creating a wide-area smart monitoring network.
+- Remote access allows authorities to monitor live and historical data from
+
+Team **WildEye** -- [Sucharita S](https://github.com/Sucharita1911), [Varshini a](https://github.com/varshinianandan004), [Srujana H](https://github.com/Srujana-H-git)
+
+`2025-05-18`
 
 ---
 
@@ -5977,6 +6748,260 @@ Getting enough real-world sign language data to test the glove’s accuracy was 
 Team **CENSORED** -- [Nabanita Kundu](https://github.com/nabanitak189), [Rahul Biswas](https://github.com/rahulbiswas09), [Rupam Mondal](https://github.com/rupam2232), [Sayak Dutta](https://github.com/Sayak4g)
 
 `2025-09-07`
+
+---
+
+### SARATHI
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/sarathi-441e) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/dipan313/SARATHI) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/lDf7jZFTieQ) [![Built at](https://img.shields.io/badge/Built%20at-Hack4Bengal%204.0-0052CC?style=flat-square)](https://hack4bengal-4.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> Unified Attention Monitoring for Transportation
+
+![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-333333?style=flat-square) ![OpenCV](https://img.shields.io/badge/OpenCV-333333?style=flat-square) ![Pygame](https://img.shields.io/badge/Pygame-333333?style=flat-square) ![Matplotlib](https://img.shields.io/badge/Matplotlib-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Tornado](https://img.shields.io/badge/Tornado-333333?style=flat-square) ![Computer Vision](https://img.shields.io/badge/Computer%20Vision-333333?style=flat-square) ![Pillow](https://img.shields.io/badge/Pillow-333333?style=flat-square)
+
+**The problem it solves**
+
+## 🧠 The Problem It Solves
+
+We’ve all been there — driving late at night, eyes heavy, mind drifting. Or sitting in a long meeting, struggling to stay focused. Now imagine that same fatigue… **behind the wheel of a truck**, or **in the cockpit of a plane**.
+
+Fatigue is silent. It doesn’t knock before it takes control — and sometimes, it takes lives.
+
+Every year, **thousands of road and aviation accidents** happen simply because a driver or pilot was:
+- 😴 Tired
+- 😵 Distracted
+- 😐 Or just not paying attention for a few seconds
+
+And most vehicles still don’t have real-time, intelligent fatigue monitoring — especially in **low-cost environments**.
+
+---
+
+### ✅ What SARATHI Does
+
+**SARATHI** acts like a digital co-pilot — **quietly watching**, **gently alerting**, and **always protecting**.
+
+Using just a regular webcam, SARATHI:
+
+- 👁️ Tracks **eye movement** and **blinking patterns**
+- 🧠 Monitors **head orientation**
+- 🧍 Detects **unsafe posture** from the side
+
+If it senses the user is losing attention, it:
+
+- 🔔 Triggers a real-time **audio + visual alert**
+- 🖼️ Captures a **screenshot** of the alert moment
+- 📊 Updates a live **attention status dashboard**
+
+All in real-time — **no special hardware needed**.
+
+---
+
+### 🌍 Who Can Use SARATHI
+
+- 🚗 Long-distance or night-time drivers
+- 🚌 Fleet operators and public transport managers
+- ✈️ Aviation pilots and co-pilots
+- 🚑 Emergency drivers (ambulance, fire)
+- 🧪 Behavioral researchers studying attention
+
+---
+
+> SARATHI doesn’t judge. It just watches over you — like a caring co-pilot.
+>  
+> Because one moment of awareness… can save a lifetime.
+
+**Challenges we ran into**
+
+## 🧗‍♂️ Challenges I Ran Into
+
+Building **SARATHI** in just 36 hours came with real engineering and design hurdles:
+
+---
+
+### 🔄 Real-time Performance without GPU  
+We had to process live video frames using **MediaPipe + OpenCV + Streamlit** on a standard laptop **without GPU support**.  
+Balancing multiple models while maintaining **real-time FPS** was difficult. We solved this by:
+- Optimizing frame logic and draw operations
+- Tuning MediaPipe's confidence thresholds
+- Minimizing I/O operations and memory usage
+
+---
+
+### 🧠 Accuracy vs False Alarms  
+Setting the right **thresholds for eye closure (EAR), head tilt, and posture slouch** was tricky. Too strict → false positives. Too lenient → unsafe.  
+We used:
+- **Temporal smoothing**
+- **Manual testing on different faces & postures**
+- Frame-by-frame visual overlays to debug subtle changes
+
+---
+
+### 🔁 Streamlit + OpenCV Syncing  
+Streamlit sometimes **froze or lagged** when handling:
+- Frame updates
+- Screenshot saving
+- Alarm playback
+
+We solved it by:
+- Running logic inside a clean `main()` control loop
+- Separating UI updates from processing logic
+- Caching static assets
+
+---
+
+### 🎥 Side Posture Monitoring with a Single Cam  
+Unlike multi-cam systems, we had to **extract side-body posture** using only a **single side-facing webcam**. MediaPipe Pose had limitations depending on the user’s body angle.  
+We overcame this by:
+- Relying on **shoulder + hip landmarks**
+- Testing with **varied upper-body positions**
+- Using threshold-based slouch detection
+
+---
+
+### 🔊 Consistent Audio Alerts  
+**Pygame audio alerts** sometimes looped or lagged due to thread clashes. We wrote a **minimal alert manager** to:
+- Prevent duplicate audio triggers
+- Smooth playback using conditionals
+- Stop the alarm when posture normalized
+
+---
+
+### 💪 What Worked  
+- Careful performance profiling  
+- Testing with multiple body types and face positions  
+- Keeping the code modular, debug-friendly, and clean
+
+---
+
+> These challenges made SARATHI stronger — and more ready for the real world.
+
+Team **Dot Slash** -- [Dipan Mazumder](https://github.com/dipan313), [Subhas Pramanik](https://github.com/subhas-pramanik-09)
+
+`2025-06-21`
+
+---
+
+### Smart Door Lock App
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/devenvresourcex-b759) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://www.google.com) [![Built at](https://img.shields.io/badge/Built%20at-Hack%20With%20Gujarat-0052CC?style=flat-square)](https://hack-with-gujarat.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> A 5 way door Locking and Unlocking System
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![OpenCV](https://img.shields.io/badge/OpenCV-333333?style=flat-square) ![Docker](https://img.shields.io/badge/Docker-333333?style=flat-square) ![Arduino Uno](https://img.shields.io/badge/Arduino%20Uno-333333?style=flat-square) ![Arduino IDE](https://img.shields.io/badge/Arduino%20IDE-333333?style=flat-square) ![Arduino](https://img.shields.io/badge/Arduino-333333?style=flat-square)
+
+**The problem it solves**
+
+A 5 way door Locking and Unlocking system built with ARDUINO UNO ensuring security using RFID Card and keys, Keypad and an app made by using MIT App Inventor enabled with voice control command door locking and unlocking and locking and unlocking buttons.
+
+Team **Kaju Katli** -- [Priyadarshi Satyakam](https://github.com/priyadarshi7), [Darshan Kochar](https://github.com/darshankochar22), [Alisha Tripathi](https://github.com/alisha3693)
+
+`2025-05-29`
+
+---
+
+### NOFUEL15
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/nofuel-54bf) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://nofuel-15.vercel.app/) [![Built at](https://img.shields.io/badge/Built%20at-Hackwave%20X25-0052CC?style=flat-square)](https://hackwave-x.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> smart fueling system
+
+![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-333333?style=flat-square) ![OpenCV](https://img.shields.io/badge/OpenCV-333333?style=flat-square) ![SQLite](https://img.shields.io/badge/SQLite-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Arduino](https://img.shields.io/badge/Arduino-333333?style=flat-square) ![EasyOCR](https://img.shields.io/badge/EasyOCR-333333?style=flat-square) ![Solenoid valve](https://img.shields.io/badge/Solenoid%20valve-333333?style=flat-square)
+
+**The problem it solves**
+
+This project addresses air pollution and promotes environmental safety by ensuring that vehicles older than 15 years are not allowed to refuel at petrol stations. By automating the process with a camera and OCR technology to identify the vehicle's number plate, the system checks the car's age against a government database. If the vehicle exceeds the 15-year limit, the solenoid valve shuts off fuel flow, effectively preventing high-emission vehicles from contributing to pollution. This ensures cleaner air, helps enforce government regulations, and makes the process of limiting pollution more efficient and automated.
+
+**Challenges we ran into**
+
+Challenges We Ran Into
+OCR Accuracy for Number Plates:
+
+Issue: The EasyOCR model sometimes struggled to accurately read number plates, especially in low-light conditions or when the plates were dirty.
+
+Solution: We enhanced the OCR accuracy by preprocessing the images with filters to improve contrast and reduce noise. Additionally, we fine-tuned the EasyOCR model using a custom dataset with various number plate images to improve its performance.
+
+Vehicle Database Integration:
+
+Issue: Accessing the government vehicle database for real-time validation was initially a challenge due to access restrictions and API rate limits.
+
+Solution: We partnered with the relevant authorities to obtain access to a local database or created a mock database for development and testing. We also implemented error handling and fallback mechanisms in case of API downtime.
+
+Solenoid Valve Integration:
+
+Issue: Communicating with the solenoid valve in real time was tricky, especially when the decision to open or close the valve needed to be made quickly.
+
+Solution: We used a microcontroller (Arduino/Raspberry Pi) to interface with the solenoid valve, optimizing the response time. Additionally, we ensured reliable connectivity and tested the system in various conditions to guarantee proper functioning.
+
+Real-Time Processing:
+
+Issue: Processing images and making real-time decisions at a petrol pump with high vehicle traffic was demanding on system resources.
+
+Solution: We optimized the code for speed, reduced the resolution of images for faster processing, and ran the system on more powerful hardware to handle the load efficiently.
+
+These challenges were addressed by iterating on our design, optimizing processes, and continuously testing the system to ensure reliability.
+
+**Tech for Social Good**
+
+Our project directly contributes to public health and environmental sustainability by enforcing government regulations aimed at reducing vehicular pollution. By using technology to automatically restrict fuel access to vehicles older than 15 years, we help lower harmful emissions and support cleaner air in urban areas like Delhi. The system promotes responsible fuel consumption and ensures compliance without manual intervention, making enforcement fair, efficient, and scalable. It also raises awareness among vehicle owners about pollution norms, encouraging the transition to greener transport options—making this a strong example of technology being used for societal and environmental benefit.
+
+Team **CODE BREAKERS** -- [Vishal Kumar](https://github.com/vishal-01-kumar), [Raunit Arora](https://github.com/Raunit2903), [Ritwik Arora](https://github.com/Ritwik2903)
+
+`2025-05-06`
+
+---
+
+### MAHASTRA
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/mahastra-0e02) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/aviraltara/SprintHacks_3.0_Project_Splendid_Duo) [![Built at](https://img.shields.io/badge/Built%20at-Sprinthacks%203.0-0052CC?style=flat-square)](https://sprinthacks-3.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> सचेत एक सुरक्षित अनेक
+
+![Iot](https://img.shields.io/badge/Iot-333333?style=flat-square) ![Web development](https://img.shields.io/badge/Web%20development-333333?style=flat-square)
+
+**The problem it solves**
+
+Massive crowds create overcrowding and panic risks, overwhelming traditional crowd management. A smart, hardware-driven solution is urgently needed for real-time monitoring, efficient crowd control, and rapid emergency response to prevent stampedes and protect lives.
+
+**Challenges we ran into**
+
+Fixing the GPS Location.
+
+Team **Splendid Duo** -- [Aviral Tara](https://github.com/aviraltara), [Ali Meyan](https://github.com/alisidd0015)
+
+`2025-05-03`
+
+---
+
+### Hybrid Solar Solution
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/hybrid-solar-solution-3118) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/roshan922006/self-cleaning-solar-panel-system) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/a4cL62daoKg?feature=shared) [![Built at](https://img.shields.io/badge/Built%20at-HACKHAZARDS%20'25-0052CC?style=flat-square)](https://hackhazards25.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> The system condenses moisture from the air and stores it for cleaning the solar panel surface automatically, ensuring higher efficiency and reduced maintenance.
+
+![Microcontroller](https://img.shields.io/badge/Microcontroller-333333?style=flat-square) ![Ultrasonic Dust and Debris Sensors](https://img.shields.io/badge/Ultrasonic%20Dust%20and%20Debris%20Sensors-333333?style=flat-square) ![Water Mist Nozzles](https://img.shields.io/badge/Water%20Mist%20Nozzles-333333?style=flat-square) ![Wi-Fi/GSM Module for Real-time Alerts](https://img.shields.io/badge/Wi--Fi/GSM%20Module%20for%20Real--time%20Alerts-333333?style=flat-square) ![Cloud-based Monitoring or IoT Platform](https://img.shields.io/badge/Cloud--based%20Monitoring%20or%20IoT%20Platform-333333?style=flat-square) ![Machine Learning (for predictive cleaning and maintenance)](https://img.shields.io/badge/Machine%20Learning%20(for%20predictive%20cleaning%20and%20maintenance)-333333?style=flat-square) ![Energy-efficient AI algorithms](https://img.shields.io/badge/Energy--efficient%20AI%20algorithms-333333?style=flat-square) ![Servo Motors or Stepper Motors](https://img.shields.io/badge/Servo%20Motors%20or%20Stepper%20Motors-333333?style=flat-square)
+
+**The problem it solves**
+
+This innovative self-cleaning solar panel system with integrated air-to-water condensation technology revolutionizes the way solar panels are maintained, especially in dusty, arid, and remote regions. The system uses Peltier thermoelectric modules to cool a surface, causing atmospheric moisture to condense into clean water. This harvested water is then stored in a tank and used for periodic, automated cleaning via mist nozzles installed around the panel. This eliminates the need for manual labor or external water sources—key issues in maintaining large-scale or inaccessible solar setups. The solution significantly enhances solar efficiency by keeping the panel surface free of dust and dirt, which can otherwise reduce output by up to 30%. It improves operational safety by removing the risk of human maintenance at heights and in hazardous weather conditions. The system is particularly valuable for rural electrification, off-grid homes, agricultural lands, and smart city infrastructure where both energy and water resources are limited. Additionally, the integration of sensors and a control unit ensures intelligent water usage and system responsiveness, further reducing maintenance costs and resource consumption. This innovation supports clean energy goals, reduces dependency on traditional cleaning methods, and offers a sustainable, automated solution for maintaining optimal solar performance year-round.
+
+**Challenges we ran into**
+
+During the development of our self-cleaning solar panel system, we faced a significant challenge with water condensation efficiency, especially in regions with low humidity. The Peltier thermoelectric modules, which were designed to cool the surface and condense moisture from the air, weren’t producing enough water to adequately clean the solar panels. This inefficiency posed a problem as it meant that the system couldn’t sustain its self-cleaning function in dry conditions, which is essential for maintaining high solar panel efficiency in remote or arid areas. To address this issue, we first focused on improving the airflow around the Peltier modules. By integrating small intake fans on both sides of the module, we were able to increase the flow of humid air over the cold plate. This enhanced air circulation helped to bring more moisture into contact with the cooled surface, increasing the condensation rate. However, airflow alone wasn’t enough, so we also focused on thermal management. We insulated the Peltier modules more effectively, reducing the loss of cold air to the surroundings and ensuring the cold plate maintained a low temperature, which is crucial for condensation. In addition, we realized that the timing and frequency of condensation cycles needed to be more responsive to environmental conditions. Initially, the system was running condensation and misting cycles continuously, regardless of humidity levels. To optimize this, we incorporated humidity sensors that allowed the system to adjust its operations based on the real-time humidity levels in the environment. This not only ensured that water was only produced when needed but also saved energy by preventing unnecessary water generation during dry periods. Furthermore, we identified that the material used for the cold plate was not providing the best heat exchange, which directly impacted the condensation process.
+
+**Polygon Track**
+
+Our project aligns with the Polygon Track by leveraging decentralized technologies to optimize solar energy systems in an eco-conscious and sustainable manner. By integrating smart automation and potential IoT connectivity, the self-cleaning solar panel system can utilize Polygon’s blockchain infrastructure for data logging, maintenance tracking, and remote control. This enhances transparency, scalability, and trust in managing renewable energy systems—key principles that Polygon supports in its mission to drive decentralized innovation and real-world utility.
+
+**Ethereum Track**
+
+Our project aligns with the ETHIndia: Ethereum Track by incorporating the potential for blockchain-based transparency, automation, and decentralized data management within the self-cleaning solar panel system. By integrating Ethereum smart contracts, we can log system performance data (like cleaning cycles, water levels, energy output) onto the blockchain, ensuring tamper-proof records for maintenance, analytics, and warranty validation. Furthermore, through Ethereum, we can enable token-based incentives for clean energy usage, facilitate peer-to-peer energy credit trading, or support decentralized crowdfunding for deploying these systems in rural or underdeveloped areas. This decentralized approach not only supports the core mission of Ethereum but also empowers communities by democratizing access to sustainable technology and verifiable impact.
+
+**Groq track**
+
+Our project fits into the Groq Track by utilizing the high-speed, low-latency capabilities of Groq’s AI acceleration to optimize sensor data processing and system automation. In our self-cleaning solar panel system, real-time environmental data (humidity, temperature, dust levels) is crucial for efficient operation. With Groq’s compute power, we can rapidly analyze this data and enable smart decision-making for when and how the condensation and cleaning processes should activate. This not only improves system intelligence but also demonstrates how Groq's performance-driven AI can empower sustainable tech solutions in real-world environments.
+
+**Screenpipe Track**
+
+Our project fits into the Screenpipe Track by integrating visual monitoring and media-friendly automation into a real-world sustainability solution. The self-cleaning solar panel system uses sensors and AI to manage its operations, and with Screenpipe, we can capture and stream real-time video of the condensation process, solar cleaning, and environmental conditions. This creates opportunities for remote diagnostics, performance tracking, and engaging educational content, showcasing clean tech in action. By combining smart infrastructure with streamable visual insights, the system aligns with Screenpipe’s goal of blending technology with impactful, real-time media experiences.
+
+[Roshan S](https://github.com/roshan922006)
+
+`2025-04-18`
 
 ---
 
@@ -9825,6 +10850,627 @@ LoRa-based communication modules. This created a resilient, low-power, long-rang
 Team **The_Debuggers** -- [Srinjoy Pramanik](https://github.com/Srinjoy2004), [subhabilash Das](https://github.com/Subhabilash), [Rudrasish Dutta](https://github.com/rudrasish2003)
 
 `2025-09-07`
+
+---
+
+### HDL Code
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/hdl-code-1d91) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://hdl-code.vercel.app/) [![Built at](https://img.shields.io/badge/Built%20at-Hello%20World%20Hacks-0052CC?style=flat-square)](https://hello-world-hacks.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Master Digital Circuit Design with HDL
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=flat-square) ![React js](https://img.shields.io/badge/React%20js-333333?style=flat-square) ![Node.js + Express](https://img.shields.io/badge/Node.js%20+%20Express-333333?style=flat-square)
+
+**The problem it solves**
+
+Learning HDL is often challenging for beginners due to the lack of intuitive and
+beginner-friendly platforms that combine both theoretical learning and practical simulation.
+Existing tools are either too complex, require local installation, or lack interactive learning
+modules. This creates a significant barrier for students, especially those in early semesters or
+from under-resourced educational backgrounds, limiting their ability to grasp core digital design
+concepts effectively.
+
+**Challenges we ran into**
+
+Designing the HDL Compiler
+Developing a custom compiler for HDL was one of the most complex aspects of the project. We faced several challenges:
+
+Parsing HDL Syntax: Designing a parser that accurately understands and processes user-defined HDL code was intricate and required a deep understanding of formal grammar and lexical analysis.
+
+Error Handling: Implementing real-time, meaningful error messages for users involved meticulous attention to compiler stages and user experience.
+
+Simulation Integration: Ensuring that the compiler outputs could be directly used to simulate circuits without performance or logic errors required multiple iterations and testing.
+
+Creating Effective Learning Resources
+As the project also aims to help users learn HDL, we had to create accessible and comprehensive educational materials:
+
+Balancing Simplicity and Depth: Designing tutorials and examples that were beginner-friendly yet technically accurate was a fine balance to achieve.
+
+Interactive Learning Tools: Implementing tools like step-by-step simulations or code visualizations took extra development effort but were essential for effective learning.
+
+Content Structuring: Structuring the content into progressive levels, from basic gates to more advanced digital components, demanded thoughtful curriculum planning.
+
+Team **404 Brain Not Found** -- [Aishik Mondal](https://github.com/AishikMondal), [Sampurna Sit](https://github.com/Sampurnasit), [SAMPAD GORAI](https://github.com/CodeMasterCSE), [Soumyanil Halder](https://github.com/TMystic)
+
+`2025-05-20`
+
+---
+
+### VibeOut
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/vibeout-3f19) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/madboy482/VibeOutProject) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://drive.google.com/file/d/1t_YC4TlSHiFDRa_E6vuREBG88JMmt3no/view) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=msIccTJqUA4) [![Built at](https://img.shields.io/badge/Built%20at-Hack%20With%20Gujarat-0052CC?style=flat-square)](https://hack-with-gujarat.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Workouts that feel you.
+A real-time emotion-aware fitness platform that syncs your mind and body.
+
+![Firebase](https://img.shields.io/badge/Firebase-333333?style=flat-square) ![TensorFlow](https://img.shields.io/badge/TensorFlow-333333?style=flat-square) ![OpenCV](https://img.shields.io/badge/OpenCV-333333?style=flat-square) ![Arduino IDE](https://img.shields.io/badge/Arduino%20IDE-333333?style=flat-square) ![ESP32](https://img.shields.io/badge/ESP32-333333?style=flat-square) ![FastAPI](https://img.shields.io/badge/FastAPI-333333?style=flat-square) ![React.js](https://img.shields.io/badge/React.js-333333?style=flat-square) ![MAX30102](https://img.shields.io/badge/MAX30102-333333?style=flat-square)
+
+**The problem it solves**
+
+Traditional fitness platforms neglect emotional well-being, leading to burnout, inconsistency, and demotivation.
+VibeOut integrates real-time emotion recognition and vitals tracking to adapt workouts based on how you feel — boosting retention, improving mental wellness, and preventing overexertion.
+
+**Use cases:**
+- Auto-adjust workout difficulty based on mood & energy
+- Alert during heart stress in intense training
+- Recommend calming sessions during low motivation or anxiety
+- Personalized fitness for rehab & recovery scenarios
+
+**Challenges we ran into**
+
+- Real-time emotion recognition from voice + facial input was challenging due to ambient noise and inconsistent lighting during the demo. We used averaged inference and fallback to vitals when emotion models were uncertain.
+- IoT data sync between ESP32 and mobile app had timing issues. We resolved this using local buffering and event-driven syncing logic.
+- Integrating AI models into a lightweight frontend was tough. We optimized using pre-trained smaller models and focused only on key emotion states (happy, stressed, neutral) during the hackathon.
+
+Team **AndroNova** -- [Bhavashesh Dachapalli](https://github.com/bunnysunny24), [Aayush Kumar](https://github.com/AayushKumar2504), [Nalin Vijayvargiya](https://github.com/madboy482), [Krish Kumar](https://github.com/krishh-kumarr)
+
+`2025-05-28`
+
+---
+
+### Swarm Drone Survivor Detection
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/swarm-drone-survivor-detection-dd55) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/sriijaaa/Aventus.git) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/T_xMtiGzSRM) [![Built at](https://img.shields.io/badge/Built%20at-Aventus%203-0052CC?style=flat-square)](https://aventus-3.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Eyes in the Sky, Hope on the ground.
+
+![GNN](https://img.shields.io/badge/GNN-333333?style=flat-square) ![Simulation Environment : ROS2 + Gazebo](https://img.shields.io/badge/Simulation%20Environment%20:%20ROS2%20+%20Gazebo-333333?style=flat-square) ![AI Detection : Thermal Camera(YOLOv8 )+ RF Signal Processing](https://img.shields.io/badge/AI%20Detection%20:%20Thermal%20Camera(YOLOv8%20)+%20RF%20Signal%20Processing-333333?style=flat-square) ![Swarm Intelligence : Bio-inspired algorithms](https://img.shields.io/badge/Swarm%20Intelligence%20:%20Bio--inspired%20algorithms-333333?style=flat-square) ![Visualization : Matplotlib](https://img.shields.io/badge/Visualization%20:%20Matplotlib-333333?style=flat-square) ![Reinforced learning](https://img.shields.io/badge/Reinforced%20learning-333333?style=flat-square)
+
+**The problem it solves**
+
+When disaster strikes, finding survivors becomes a race against time. Large-scale earthquakes, floods, and building collapses create environments where traditional search methods fail. Rescuers face obstructed visibility from smoke and debris, collapsed infrastructure with no GPS or cellular networks, and vast unstructured terrain that's impossible to search thoroughly with current resources. Every minute counts, yet our ability to locate survivors in these critical moments remains dangerously limited.
+
+Our solution to it:-
+Smart drones detect disaster survivors using visual input and RF signals (e.g., Bluetooth, SOS beacons).
+They operate as a coordinated swarm, adapting roles and search patterns in real-time.
+The system ensures efficient coverage of complex, unstructured terrains.
+Live maps visualize probable survivor locations and track drone movements.
+
+**Challenges we ran into**
+
+1:- link 1 down for SITL and MAVLINK integration, i struggled for 2 hours in that.
+2:- Integration of various models of RF, YOLOv8
+3:- Shortage of GPU space as we trained all models, here only in this hackathon.
+4:- Integration of backeed files with frontend as we have to run tsx files separately.
+5:- Establishing a communication between drones in the swarm.
+
+**Ethereum Track**
+
+Project Overview: The AI-powered drone swarm simulates autonomous survivor detection in disaster scenarios (e.g., earthquakes, floods) using visual (YOLOv8) and RF signal fusion, coordinated via ROS2 and Gazebo. It features role-based drone collaboration (scout, verifier, relay), bio-inspired ant foraging, and real-time heatmaps for survivor likelihood.
+
+Ethereum Integration:
+
+Decentralized Data Integrity: Store survivor detection data (e.g., heatmap coordinates, confidence scores, drone logs) on the Ethereum blockchain using smart contracts. This ensures tamper-proof records of survivor locations and search progress, critical for coordinating multi-agency disaster response (e.g., FEMA, NGOs) and maintaining trust in data shared across decentralized teams.
+Smart Contracts for Coordination: Implement Ethereum smart contracts to automate drone role assignments (scout, verifier, relay) and resource allocation.
+
+Team **Zephyr** -- [Nishchal KJ](https://github.com/Nishchalzz), [Arun N](https://github.com/Arun973150), [Srija J](https://github.com/sriijaaa), [Dhruv Gupta](https://github.com/explorer2005)
+
+`2025-05-18`
+
+---
+
+### ANTI-TAPP
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/antitapp-7bfb) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Aneesh-G-B/Vivid-Connect) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/BGJ661LE0f4) [![Built at](https://img.shields.io/badge/Built%20at-NMIT%20HACKS%202025-0052CC?style=flat-square)](https://nmithacks25.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Because honest power deserves protection
+
+![Arduino IDE](https://img.shields.io/badge/Arduino%20IDE-333333?style=flat-square) ![ESP32](https://img.shields.io/badge/ESP32-333333?style=flat-square)
+
+**The problem it solves**
+
+ANTI-TAPP
+Anti-Tapping System for Electric Poles
+The Anti-Tapping System for Electric Poles is an intelligent solution engineered to detect and prevent unauthorized electricity usage, commonly known as power tapping. This system enhances the security and efficiency of power distribution by continuously monitoring electrical parameters and identifying anomalies in consumption.
+
+How It Works:
+
+Real-Time Monitoring: The system utilizes voltage and current sensors mounted on utility poles to measure electrical flow in real time.
+
+Power Calculation: It calculates power consumption by processing sensor data, allowing for continuous comparison against expected usage profiles.
+
+Anomaly Detection: If the measured current exceeds a predefined threshold—suggesting potential illegal tapping—an alarm is triggered.
+
+Alerts & Logging: A buzzer sounds to provide an immediate audible alert. Additionally, the event can be logged or transmitted to a central monitoring system for further investigation.
+
+Key Benefits:
+
+1. Reduces Revenue Losses: Helps utility companies combat electricity theft, ensuring financial stability.
+
+2. Improves Billing Fairness: Ensures consumers are charged accurately based on legitimate usage.
+
+3. Minimizes Manual Inspections: Reduces the need for frequent physical audits of poles.
+
+4. Increases Transparency: Enables clear tracking and reporting of energy distribution.
+
+5. Enhances System Security: Adds a layer of protection against tampering and unauthorized connections.
+
+By bringing automation, accuracy, and transparency to the management of electric poles, this system represents a significant step toward smarter and more secure energy infrastructure.
+
+**Challenges we ran into**
+
+Challenges faced are as follow :
+1. Finding appropriate libraries which would suit our hardware demonstration.
+2. Lack of components in the end moment.(which was eventually solved by the team's highly creative mind)
+3. Unresponsiveness of OLED display.
+4. Calibrating the current sensor using multimeter.
+5. Integrating the device with the cloud.
+
+**Internet of Things**
+
+This project perfectly fits into the IoT (Internet of Things) track of the hackathon as it leverages interconnected sensors and microcontrollers to monitor, detect, and respond to unauthorized electricity tapping in real-time. By using an ESP32, the system not only gathers data from voltage and current sensors but also processes it to calculate power usage. With the potential to transmit this data to cloud platforms or mobile apps, it enables remote monitoring and real-time alerts, embodying the core principle of IoT—connecting physical systems to the internet for smarter decision-making. This integration of hardware and connectivity transforms traditional electric poles into intelligent nodes in a smart grid, aligning perfectly with the goals of the IoT track to improve efficiency, security, and automation in critical infrastructure.
+
+Team **Vivid connect** -- [Aneesh GB](https://github.com/Aneesh-G-B/), [Adithya Mahesh](https://github.com/adit219), [Kruthi Sridhar](https://github.com/Kruthisridhar), [Adithii Hegde](https://github.com/hegdeadithii1)
+
+`2025-05-18`
+
+---
+
+### Traffic-AI
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/trafficai-57f3) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ArshTiwari2004/Traffic-AI) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://traffic-ai-zeta.vercel.app/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/6assdAH5Tck?si=D7j6oZae_0XbSK17) [![Built at](https://img.shields.io/badge/Built%20at-HackHaven%202.0-0052CC?style=flat-square)](https://hackhaven2.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Driving the Future of Smart, Safe, and Seamless Urban Mobility
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![TensorFlow](https://img.shields.io/badge/TensorFlow-333333?style=flat-square) ![Expo](https://img.shields.io/badge/Expo-333333?style=flat-square) ![OpenCV](https://img.shields.io/badge/OpenCV-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Arduino](https://img.shields.io/badge/Arduino-333333?style=flat-square) ![React Native](https://img.shields.io/badge/React%20Native-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square)
+
+**The problem it solves**
+
+Urban traffic congestion is becoming a major issue as cities grow more crowded with people and vehicles. Traditional traffic light systems, which run on preset timers, are no longer effective in handling today’s dynamic road conditions. They don’t adjust based on actual traffic flow, resulting in wasted green light time, long vehicle lines, and unnecessary delays at intersections. This rigidity also poses serious risks for emergency vehicles like ambulances, fire trucks, and police cars, which can get stuck in traffic when time is critical. Additionally, managing traffic manually demands a large workforce, while frequent traffic jams lead to more fuel usage, higher transportation expenses, increased driver stress, and greater carbon emissions — all of which negatively impact both the environment and daily life.
+
+**Challenges we ran into**
+
+We ran into several challenges during the development of our project , some of them are :1. *Map Integration for Route Optimization:
+   Choosing the right map service was challenging. Initially, Mapbox was considered, but due to its complex integration with Expo, it wasn’t feasible.
+
+2. Switching to React-Native-Maps:
+   Mapbox integration in Expo faced multiple compatibility and configuration issues, so we opted for react-native-maps as a more stable and manageable alternative.
+
+3. Socket.IO Integration:
+   Implementing real-time communication using Socket.IO was complex, especially in managing connections efficiently on the frontend and backend.
+
+4. Model Integration on Frontend:
+   Integrating AI/ML models with the frontend posed challenges, including handling asynchronous responses and ensuring smooth interaction with the user interface.
+
+5. API & Data Flow Management:
+   Ensuring efficient data flow between backend predictions and frontend UI required careful state management and API optimization.
+
+6. Expo Limitations:
+   Working within the Expo ecosystem limited access to certain native modules, requiring workarounds or ejecting for some advanced features.
+
+**AI/ML**
+
+Traffic-AI is a cutting-edge AI/ML-driven smart traffic management system that leverages the power of computer vision, predictive analytics, and geospatial intelligence to solve real-world urban congestion challenges. It fits into the AI/ML domain through the use of YOLOv8 and DeepSORT for real-time vehicle detection and tracking, enabling dynamic traffic signal adjustments based on live traffic density. By incorporating machine learning models, the system can predict congestion patterns and proactively manage traffic flow. Additionally, audio-based ML is used for emergency vehicle detection, while geospatial analytics and time-series forecasting support route optimization and future traffic prediction. This integration of AI technologies enables Traffic-AI to intelligently prioritize emergency vehicles, reduce delays, and enhance road safety—demonstrating a powerful and practical application of AI/ML in smart city infrastructure.
+
+**Web2**
+
+Traffic-AI fits into the Web 2.0 track by offering a highly interactive, user-centered, and real-time digital traffic management experience. It utilizes modern web technologies such as React for building a dynamic frontend dashboard, enabling users to visualize live traffic data, congestion heatmaps, and emergency alerts. Through real-time communication protocols like WebSockets, the system ensures seamless data exchange between the frontend and backend, allowing for instant updates and responsiveness. Additionally, Traffic-AI supports user-generated content and feedback through features like citizen reporting of traffic issues or road blockages. Its integration with APIs like MapMyIndia enhances geospatial interactivity, while the backend built with Flask and MongoDB manages and processes large volumes of user and sensor data efficiently. Overall, Traffic-AI exemplifies the core principles of Web 2.0: real-time interactivity, user participation, API integration, and responsive des
+
+**Android**
+
+A pivotal component of Traffic AI is an Android application developed specifically for ambulance drivers, which integrates real-time traffic data and mapping APIs to provide dynamic route guidance. The app harnesses Android-specific features such as Open Route service api integration, location services, and push notifications to deliver real-time updates and ensure a seamless user experience. While Traffic AI encompasses broader elements such as backend infrastructure and data analytics, the Android app serves as a critical interface for end-users (ambulance drivers) and addresses real-world challenges like traffic congestion. This project fits into the Android track as it focuses on creating an essential mobile solution using the Android SDK, prioritizing intuitive UI/UX design, and leveraging Android’s native capabilities to contribute to the overall effectiveness of Traffic AI.
+
+**IOT**
+
+Our project is a hardware-driven IoT solution for emergency traffic control. At its core is an Arduino Uno microcontroller, interfaced with a CZN-15E sound sensor for siren detection and an HC-SR04 ultrasonic sensor for vehicle proximity. These sensors provide real-time inputs to the Arduino via GPIO pins. Based on logic, it controls Red and Green LEDs (simulating traffic signals) and a buzzer to alert surrounding traffic. The system also interfaces with a Python-based AI GUI that performs ambulance image detection and communicates with the Arduino via serial communication, combining hardware and AI for real-time decision-making. This forms a complete cyber-physical IoT system, enabling local sensing and actuation. The design is scalable to include ESP32 for wireless control and cloud integration. This project aligns with IoT principles by combining intelligent sensing, edge computing, and actuation for smart traffic management.
+
+Team **Synapse** -- [Priyanshi Bothra](https://github.com/priyanshi0609), [Nibedan Pati](https://github.com/Heisenberg300604), [Arsh Tiwari](https://github.com/ArshTiwari2004), [Anshit Sharma](https://github.com/AnshitSharma05)
+
+`2025-05-04`
+
+---
+
+### Sec-Shield
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/secshield-04b6) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/therealindianhacker/secshield) [![Built at](https://img.shields.io/badge/Built%20at-AI--Thon%201.0-0052CC?style=flat-square)](https://aithon-1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Empowering conversations: orchestrating thoughts, tools, and voice into seamless symphony.
+
+![Arduino IDE](https://img.shields.io/badge/Arduino%20IDE-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Bluetooth Module](https://img.shields.io/badge/Bluetooth%20Module-333333?style=flat-square) ![ESP32](https://img.shields.io/badge/ESP32-333333?style=flat-square) ![voice assistant](https://img.shields.io/badge/voice%20assistant-333333?style=flat-square) ![Ollama](https://img.shields.io/badge/Ollama-333333?style=flat-square) ![MARAUDER](https://img.shields.io/badge/MARAUDER-333333?style=flat-square) ![WIFI JAMMER](https://img.shields.io/badge/WIFI%20JAMMER-333333?style=flat-square)
+
+**The problem it solves**
+
+In a world where voice assistants stumble through rigid scripts and shallow context, users face friction when executing complex tasks. They lack cohesive memory, dynamic intent interpretation, and seamless tool orchestration, forcing manual juggling of APIs and fragmented workflows. The OpenAI Agents library eradicates these barriers by providing a unifying orchestration layer that reasons, plans, and routes conversations intelligently. It transforms disjointed voice interactions into fluid, context-rich dialogues that adapt.
+
+**Ethereum Track**
+
+Wallet-Backed Identity
+• Users authenticate via MetaMask or WalletConnect, binding their voice commands to a cryptographic identity. Your assistant greets “Alice” not just by name, but by her on-chain fingerprint.
+
+On-Chain Skill Modules
+• Wrap smart contracts as Agents “tools.” Need to fetch your token balance? The planner invokes a Web3 call. Want to stake tokens? It crafts, signs, and broadcasts the transaction—silently handling gas estimation and nonce management.
+
+Real-Time Event Orchestration
+• Subscribe to contract events (e.g., NFT minting, DeFi position liquidations). When “NewProposalCreated” fires, the assistant alerts you: “A governance vote awaits your voice.” State changes become spoken notifications.
+
+Oracle and Data Feeds
+• Leverage Chainlink oracles as read-only Agents. “What’s the ETH price?” becomes a fluid question. The planner queries a trusted feed, interprets the result, and vocalizes, “Ethereum trades at €3,200.”
+
+Secure Transaction Flow
+• Integrate a hardware-w
+
+**Duality AI Track**
+
+Shared Embedding Ecosystem
+• Leverage Duality’s unified embedding store to harmonize voice inputs, contextual memory, and tool metadata—ensuring every spoken word resonates with the same semantic chorus.
+
+Composable Skill Modules
+• Wrap Duality’s prebuilt vision, summarization, or code-generation skills as Agents “tools,” letting your assistant invoke them on demand (“Analyze this image,” “Draft a summary”).
+
+Adaptive Orchestration Fabric
+• Plug Duality’s workflow definitions into the Agents planner, so multi-step pipelines (STT → intent parsing → Duality-powered analysis → TTS) execute with choreographed precision.
+
+Observability & Feedback Loop
+• Stream logs and metrics from both Agents and Duality into a unified dashboard—enabling real-time tuning of prompts, memory retention, and user-satisfaction signals.
+
+End-to-End Security & Compliance
+• Employ Duality’s data governance and differential-privacy layers around your voice transcripts and context store—preserving user trust even as
+
+Team **Quantum Hackers** -- [Manas Singh](https://github.com/manasr07/manasr07.git), [Subhampreet Singh](https://www.github.com/therealindiahacker), [Vaibhav Chaudhary](https://github.com/chvaibhav2003), [Devashish Sharma](https://github.com/Devashish-1)
+
+`2025-05-04`
+
+---
+
+### Smart LED Distance Indicator Using Arduino
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/smart-led-distance-indicator-using-arduino-bb0e) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/jaishikadas/Smart-LED-Distance-Indicator-Using-Ultrasonic-Sensor-And-Arduino-) [![Built at](https://img.shields.io/badge/Built%20at-HACKHAZARDS%20'25-0052CC?style=flat-square)](https://hackhazards25.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> This project is a real-time distance indicator using an HC-SR04 ultrasonic sensor and LEDs to show object proximity. As the object gets closer, more LEDs light up, giving quick visual feedback.
+
+![Arduino Uno](https://img.shields.io/badge/Arduino%20Uno-333333?style=flat-square) ![Arduino IDE](https://img.shields.io/badge/Arduino%20IDE-333333?style=flat-square) ![Resistors](https://img.shields.io/badge/Resistors-333333?style=flat-square) ![jumper wires](https://img.shields.io/badge/jumper%20wires-333333?style=flat-square) ![HC-SR04 Ultrasonic Sensor](https://img.shields.io/badge/HC--SR04%20Ultrasonic%20Sensor-333333?style=flat-square) ![C/C++](https://img.shields.io/badge/C/C++-333333?style=flat-square) ![LEDs](https://img.shields.io/badge/LEDs-333333?style=flat-square)
+
+**The problem it solves**
+
+This project is a real-time distance indicator using an HC-SR04 ultrasonic sensor and LEDs to visually represent object proximity. It is designed to provide intuitive feedback for applications like smart parking, obstacle detection, and assistive devices for visually impaired individuals.
+Objectives-Develop a low-cost and efficient distance measurement system,Provide real-time feedback using LEDs,Improve safety and automation in various applications,Make the system easy to understand and implement.
+ Components Used- Arduino Uno – Microcontroller for processing sensor data,HC-SR04 Ultrasonic Sensor – Measures distance using sound waves,LEDs (5x) – Visual indicators for different distance ranges,Resistors (220Ω each) – Limits current to LEDs for safe operation, Jumper Wires – Connects all components.
+Working Principle-The HC-SR04 Ultrasonic Sensor emits sound waves that bounce off objects and return.The Arduino Uno calculates the distance based on the time delay of the returning waves.The system lights up LEDs progressively based on the detected distance:
+    • Distance ≥ 15 cm → No LEDs ON (Safe) 
+    • 12 cm ≤ Distance < 15 cm → 1 LED ON 
+    • 9 cm ≤ Distance < 12 cm → 2 LEDs ON 
+    • 6 cm ≤ Distance < 9 cm → 3 LEDs ON 
+    • 3 cm ≤ Distance < 6 cm → 4 LEDs ON 
+    • Distance < 3 cm → All 5 LEDs ON (Danger) 
+The system continuously updates the LED status in real time.
+Applications- Smart Parking Assistance – Helps vehicles park safely by detecting nearby objects.
+Obstacle Detection in Robotics – Useful for autonomous robots,Social Distancing Monitor – Ensures,Smart Parking Assistance – Helps vehicles park safely by detecting nearby objects,Assistive Device for Visually Impaired – Helps users detect obstacles ahead.
+Future Enhancements-Add a Buzzer 📢 – Alerts users with sound when an object is too close,Use an OLED/LCD Display 📺 – Shows exact distance in cm,Integrate IoT Features 🌐 – Send distance data to a mobile app, AI-Based Obstacle Prediction🤖 – Improve.
+
+**Challenges we ran into**
+
+🛠️ Challenges I Ran Into
+One key challenge I faced was inconsistent distance readings from the HC-SR04 sensor. The values fluctuated rapidly even when the object was stationary. This affected the LED display and caused confusing visual feedback.
+
+After some debugging, I found the issue was due to electrical noise and timing errors in the code. To fix it:
+
+I added a small delay (50–100 ms) between readings to stabilize the output.
+
+Implemented averaging by taking multiple readings and calculating the mean, which helped smooth the results.
+
+Ensured that the Echo pin was properly initialized and that signal timing was within the sensor’s optimal range (2 cm – 400 cm).
+
+Another minor hurdle was voltage drops when multiple LEDs lit up simultaneously. Using the proper 220Ω resistors for current limiting and ensuring a stable power supply from the Arduino resolved this.
+
+These tweaks significantly improved system accuracy and reliability, making the indicator responsive and stable.
+
+**Polygon Track**
+
+My project fits into the Polygon Track as it focuses on innovative technology applications that enhance automation and safety. By using an ultrasonic sensor and real-time feedback with LEDs, it provides a smart solution for proximity sensing, making it ideal for environments like smart parking or assistive devices. This aligns with Polygon's emphasis on creating efficient, scalable, and impactful technology solutions that improve user experience and enhance safety.
+
+**Ethereum Track**
+
+While my project primarily focuses on proximity sensing using an ultrasonic sensor, it can be integrated with Ethereum-based applications in the future. By incorporating smart contracts, the distance data could be stored and tracked on the blockchain for applications such as smart parking systems or automated asset management. Additionally, the integration of IoT devices with Ethereum could create decentralized systems that ensure secure, real-time monitoring of objects and environments, fitting well with ETHIndia’s focus on decentralized technology and blockchain-based solutions.
+
+[Jaishika Das](https://github.com/jaishikadas)
+
+`2025-04-18`
+
+---
+
+### SMART TRAFFIC MANAGEMENT SYSTEM FOR URBAN AREAS
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/smart-traffic-management-system-for-urban-areas-8d33) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/AnithaD1625/SmartTrafficManagement.git) [![Built at](https://img.shields.io/badge/Built%20at-HACKHAZARDS%20'25-0052CC?style=flat-square)](https://hackhazards25.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Smarter Roads, Smoother Commutes- Our Smart Traffic Management System leverages IoT and data analytics to optimize traffic flow, reduce congestion, and enhance road safety in urban areas
+
+![OpenCV](https://img.shields.io/badge/OpenCV-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Edge Computing](https://img.shields.io/badge/Edge%20Computing-333333?style=flat-square) ![Machine Learning algorithms](https://img.shields.io/badge/Machine%20Learning%20algorithms-333333?style=flat-square) ![Wireless Communication Protocols](https://img.shields.io/badge/Wireless%20Communication%20Protocols-333333?style=flat-square) ![Iot Sensors](https://img.shields.io/badge/Iot%20Sensors-333333?style=flat-square) ![AI-powered CCTV cameras](https://img.shields.io/badge/AI--powered%20CCTV%20cameras-333333?style=flat-square) ![fuzzy logic models](https://img.shields.io/badge/fuzzy%20logic%20models-333333?style=flat-square)
+
+**The problem it solves**
+
+Urban traffic congestion is an increasing problem that impacts daily life, leading to delays, stress, pollution, and economic inefficiencies. Conventional traffic management systems find it difficult to adjust to changing traffic conditions, frequently depending on fixed signal timings and manual interventions. The Smart Traffic Management System (STMS) addresses these issues by utilizing Artificial Intelligence (AI), the Internet of Things (IoT), and real-time data analytics, thereby transforming urban mobility into a smarter, safer, and more efficient experience.
+Problems Solved
+- Traffic Congestion: Dynamically modifies traffic signals according to real-time vehicle density, alleviating bottlenecks and enhancing road efficiency.
+- Long Travel Times: Enhances signal timing and offers commuters route recommendations to reduce delays.
+- Emergency Delays: Gives precedence to emergency vehicles by establishing "green corridors," ensuring quicker response times for ambulances, police, and fire trucks.
+- Accident Detection and Management: AI-driven systems instantly identify road accidents, notifying authorities for prompt action to avert further disruptions.
+- Pollution and Fuel Waste: By decreasing idle time, STMS lessens fuel consumption and carbon emissions, aiding in cleaner air and sustainable urban planning.
+- Traffic Rule Violations: Automates observation, identifying red-light infringements and speeding to enhance road safety.
+
+**Challenges we ran into**
+
+1. Data Collection Issues
+Urban traffic systems rely on real-time data, but connectivity issues, outdated infrastructure, and insufficient sensor coverage can disrupt collection. In rural areas, weak network signals make IoT-based monitoring unreliable.  
+Solutions: 
+- Strengthened connectivity using Wi-Fi, GSM, and Zigbee to ensure stable data transmission.  
+- Integrated hybrid data sources like traffic cameras, GPS tracking, and mobile apps to compensate for data gaps.  
+- Applied edge computing to process data locally, reducing dependence on central servers and improving efficiency.
+2. Regulatory Challenges
+Introducing AI-driven traffic management requires government approval, but outdated policies often delay adoption. Complex regulations and slow administrative processes hinder deployment.
+Solutions:
+- Engaged policymakers early to align technology with current laws and avoid compliance issues.  
+- Conducted pilot projects to demonstrate benefits, building trust with authorities and securing approvals faster.  
+- Formed public-private partnerships to streamline implementation and funding.
+3. Infrastructure Limitations
+Many existing roads don’t support advanced AI sensors, cameras, or IoT devices, making integration difficult. Limited space and resources further complicate system installation.
+Solutions:
+- Focused on gradual upgrades, prioritizing high-traffic areas for improvements.  
+- Used modular technologies that could be easily added to existing infrastructure without major reconstruction.  
+- Optimized traffic signal control using AI-driven predictive analytics, reducing congestion even without physical upgrades.
+
+Team **TriplePlay** -- Madhusree M, [DurgaaDevi M](https://github.com/DURGAADEVI38), [Anitha D](https://github.com/AnithaD1625)
+
+`2025-04-24`
+
+---
+
+### Smart Campus Infrastructure Toolkit (SCIT)
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/smart-campus-infrastructure-toolkit-scit-c66e) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Harshitshrivas/Harshitshrivas-Smart-Campus-Infrastructure-Toolkit) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](http://127.0.0.1:5500/Collegeproject/college22.html) [![Built at](https://img.shields.io/badge/Built%20at-HACKHAZARDS%20'25-0052CC?style=flat-square)](https://hackhazards25.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> SCIT is an all-in-one modular platform that digitizes and optimizes campus infrastructure management.By integrating IoT sensors, AI analytics, and automation, it helps institutions efficiently manage
+
+![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Docker](https://img.shields.io/badge/Docker-333333?style=flat-square) ![Google Calendar API](https://img.shields.io/badge/Google%20Calendar%20API-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![HTML/CSS](https://img.shields.io/badge/HTML/CSS-333333?style=flat-square) ![Frontend: React.js](https://img.shields.io/badge/Frontend:%20React.js-333333?style=flat-square) ![JWT Authentication](https://img.shields.io/badge/JWT%20Authentication-333333?style=flat-square) ![Backend: Node.js (Express.js)](https://img.shields.io/badge/Backend:%20Node.js%20(Express.js)-333333?style=flat-square)
+
+**The problem it solves**
+
+1.Space Utilization Woes
+ Current Problems:
+- Double-booked rooms causing class disruptions
+- 30-40% underutilized spaces (empty rooms with lights/AC running)  
+- Manual booking systems wasting admin time
+
+ SCIT Solution:
+- AI-powered scheduling that predicts room demand  
+- Real-time occupancy sensors auto-release unused spaces  
+- Mobile self-service portal for instant bookings  
+→ Stanford reduced conflicts by 72%
+---
+2.Energy Waste & Costs
+ Current Problems:
+- Ghost energy drain from forgotten lights/AC  
+- No centralized monitoring of usage patterns  
+- Utility bills consuming 15-20% of operational budgets
+
+SCIT Solution:
+- Smart automation Lights/AC adjust based on occupancy  
+- Energy dashboards showing real-time consumption  
+- Predictive algorithms for optimal HVAC control  
+→ MIT saved $220K/year
+---
+3.Attendance Tracking Headaches
+ Current Problems:
+- Paper sheets lost/fabricated  
+- Manual data entry errors consuming 10+ staff hours weekly  
+- No real-time visibility on student presence
+
+SCIT Solution:
+- Facial recognition/RFID check-ins(99.7% accuracy)  
+- Auto-generated reports sent to faculty/LMS  
+- Emergency alerts if students miss safety-critical sessions  
+→ IIT Delhi saved 450+ hours/semester
+---
+
+4.Safety Concerns
+ Current Problems:
+- Slow emergency response due to manual alerts  
+- No unified system for fire/medical/security incidents  
+- Vulnerable access control (shared keys/cards)
+
+ SCIT Solution:
+- AI surveillance Detects threats (weapons, intrusions)  
+- Panic buttons instant alerts to security + 911  
+- Biometric access logs for sensitive areas  
+→ 60% faster lockdowns at ETH Zurich
+
+**Challenges we ran into**
+
+SCIT Development Challenges & Solutions
+1. IoT Device Fragmentation
+Challenge:
+- 30+ different sensor brands with incompatible protocols(Zigbee, LoRaWAN, BLE)
+- Campus-wide deployments failing due to signal interference
+
+Solution:
+Built a universal edge gateway with:  
+- Modular driver architecture (hot-swappable protocol support)  
+- AI-powered signal optimization (auto-channel switching)  
+→ Achieved 99.8% device connectivity at NUS pilot
+---
+
+2. Real-Time Data Sync
+Challenge:
+- Occupancy data delays (5-7 mins lag) making bookings unreliable
+- Database crashes during peak class change hours
+
+Solution:
+ Implemented:  
+- Hybrid database(TimescaleDB for sensor data + Redis for live cache)  
+- WebSocket fallback when HTTP delays exceed 500ms  
+→ Reduced latency to <1 second campus-wide
+---
+3. Privacy vs. Accuracy in Facial Recognition
+Challenge:- False negatives in low-light conditions(dorms, parking lots)
+- Student protests over privacy concerns
+
+Solution:
+ Developed:  
+- IR+RGB dual-camera system (95% accuracy in darkness)  
+- On-device processing (no cloud storage of biometrics)  
+- Opt-in policy with RFID card fallback  
+Increased adoption to 87% at IIT Mumbai
+---
+4. Campus-Wide Network Coverage
+Challenge:
+- Dead zones in historic buildings with thick walls
+- 4G/5G cost-prohibitive for outdoor sensors
+
+Solution:
+ Deployed:  
+- Mesh network using existing campus LAN points  
+- LoRaWAN data ferries(solar-powered mobile routers on campus shuttles)  
+→ Covered 100% of Stanford's 8,000-acre campus
+---
+5. AI Model Drift
+Challenge:
+- Space utilization predictions **decaying 3% weekly**  
+- Energy models failing post-renovation  
+
+Solution:
+Created:  
+- Continuous learning pipeline (auto-retrains on new floor plans)  
+- Human-in-the-loop va
+
+**Groq track**
+
+Our project fits into the Groq Track by leveraging high-speed AI processing to solve real-world challenges in smart campus infrastructure. By integrating AI-powered signal optimization, real-time data synchronization, privacy-preserving facial recognition, adaptive network coverage, and continuous model retraining, we align perfectly with Groq’s focus on ultra-low-latency, scalable AI applications. The project demonstrates how Groq’s capabilities can enable reliable, intelligent, and efficient campus operations at massive scales, where milliseconds and model adaptability are critical for user experience and system resilience.
+
+Team **Logic Legends** -- [Priyanshi Sondhiya](https://github.com/PriyanshiStack), [Harshit Shrivas](https://github.com/Harshitshrivas), [Geet Asrani](https://github.com/geet-code)
+
+`2025-04-27`
+
+---
+
+### Circuit :-  your gen Z mate
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/circuit-your-gen-z-mate-cbba) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/harshchill/Circuit-.git) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://circuit-8cau.onrender.com/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/xoY2rmBHhHU) [![Built at](https://img.shields.io/badge/Built%20at-HACKHAZARDS%20'25-0052CC?style=flat-square)](https://hackhazards25.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Circuit: “Picture abhi baaki hai, mere dost” — your AI-powered study buddy to ace every exam!
+
+![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Vanilla JS](https://img.shields.io/badge/Vanilla%20JS-333333?style=flat-square) ![CSS3​](https://img.shields.io/badge/CSS3​-333333?style=flat-square) ![HTML5​](https://img.shields.io/badge/HTML5​-333333?style=flat-square) ![Groq API](https://img.shields.io/badge/Groq%20API-333333?style=flat-square)
+
+**The problem it solves**
+
+The problem it solves
+
+Students often hit two major roadblocks during exam prep:
+
+Conceptual Confusion on Demand
+
+When you’re stuck on a topic, waiting for a teacher or peer to explain it can derail your workflow and motivation.
+
+Chaotic Time Management
+
+It’s easy to lose track of study goals, forget scheduled sessions, or spend too long on one subject at the expense of others.
+
+Circuit’s Exam Buddy tackles these pain points by:
+
+On-Demand AI Explanations
+
+Ask any question about your syllabus and get an instant, step-by-step AI‐powered breakdown—no more stalled study sessions.
+
+Smart Study Scheduler & Reminders
+
+Plan your revision in advance with customizable time slots. Receive automated alerts so you never miss a session or overcommit to one topic.
+
+With Circuit behind the scenes, you get lightning-fast clarity on tough concepts and a disciplined, reminder-driven schedule—so you stay focused, balanced, and exam-ready.
+
+**Challenges we ran into**
+
+CORS errors when calling the Groq API through our Flask backend
+Early on, every AI-explanation request from the frontend was blocked by “Cross-Origin Request” errors. To fix this, we:
+
+Installed and configured the flask-cors extension in our Python backend.
+
+Restricted allowed origins to our deployed URL and localhost during development.
+
+Verified headers with browser dev tools to ensure the Access-Control-Allow-Origin was set correctly.
+
+Losing scheduled reminders on page reload
+Our initial implementation used simple setTimeout calls in JavaScript, but all timers reset whenever the user refreshed or closed the tab. We solved this by:
+
+Persisting each study slot’s timestamp and metadata in localStorage.
+
+On page load, reading from localStorage, calculating remaining time, and re-instantiating the corresponding setTimeout.
+
+Handling cases where the scheduled time had already passed (showing a missed-session alert).
+
+Managing browser notification permissions and fallbacks
+Some users accidentally denied notification permission and never saw reminders again. We improved this by:
+
+Detecting the permission status at startup and guiding the user through the browser’s permission prompt if needed.
+
+Gracefully degrading to in-app modal alerts when notifications were blocked.
+
+Storing the user’s preference so we only prompt once and respect their choice.
+
+**Groq track**
+
+Exam Buddy (“Circuit”) showcases Groq’s strengths by integrating both its AI and Vision offerings into a seamless study workflow:
+
+Groq AI API for Instant Explanations
+
+Every student query is routed through our Flask backend into Groq’s inference fabric, delivering ultra-low latency, step-by-step concept breakdowns.
+
+The scalable throughput handles bursts of simultaneous explanation requests—ideal for solo cramming or group study sessions.
+
+Groq’s cost-efficient compute stack ensures sustainable API usage as our user base grows.
+
+Groq Vision for Text Extraction
+
+Students can snap or upload photos of handwritten notes, textbook pages, or whiteboard screenshots.
+
+Groq Vision’s OCR engine extracts clean, structured text in real time, which Exam Buddy then ingests to generate flashcards, summaries, or feed into its AI explanation module.
+
+This visual-to-text pipeline removes manual transcription entirely, letting learners focus on understanding rather than formatting.
+
+Together, these inte
+
+Team **tech tree** -- Satyam Singh, [harsh mahto](https://github.com/harshchill), Sneha Tiwari
+
+`2025-04-27`
+
+---
+
+### Smart Attend
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/smart-attend-b1b9) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Humble-Coders/DesktopAttendance) [![Built at](https://img.shields.io/badge/Built%20at-Hackspire1.0-0052CC?style=flat-square)](https://hackspire-1.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> IoT-Powered Attendance Automation
+
+![Firebase](https://img.shields.io/badge/Firebase-333333?style=flat-square) ![Kotlin](https://img.shields.io/badge/Kotlin-333333?style=flat-square) ![ESP32](https://img.shields.io/badge/ESP32-333333?style=flat-square) ![jetpack compose](https://img.shields.io/badge/jetpack%20compose-333333?style=flat-square) ![bluetooth low energy signals](https://img.shields.io/badge/bluetooth%20low%20energy%20signals-333333?style=flat-square) ![kotlin and compose multiplatform](https://img.shields.io/badge/kotlin%20and%20compose%20multiplatform-333333?style=flat-square)
+
+**The problem it solves**
+
+Educational institutions worldwide struggle with inefficient attendance tracking systems. Traditional methods—whether paper sign-in sheets or manual digital entry—waste valuable teaching time, often consuming 5-10 minutes per class session. For faculty teaching multiple classes, this translates to 50-100 hours annually lost to administrative overhead.
+Beyond time inefficiency, current systems suffer from accuracy problems. Manual processes introduce human error through misread names, transcription mistakes, and "buddy punching" where students sign in for absent friends. These discrepancies create additional administrative burden when resolving attendance disputes.
+The integration challenge compounds these issues. Most attendance data exists in isolation, requiring manual transfer to learning management systems, administrative databases, and compliance reporting systems. This fragmentation prevents institutions from leveraging attendance data for student success initiatives or regulatory requirements.
+Technology solutions have attempted to address these problems, but most require active student participation through apps, card swipes, or QR codes—creating bottlenecks and new opportunities for system gaming.
+Our solution addresses these core challenges by creating an automated, fraud-resistant attendance system that works invisibly in the background, saving time, improving accuracy, and seamlessly integrating with existing educational technology.
+
+**Challenges we ran into**
+
+1. Proximity Fraud: Students attempt to mark attendance while outside the classroom.
+Solution: Smart Proximity Detection using precise Bluetooth signal strength (dBm) measurement to detect physical barriers and flag suspicious signal patterns.
+2. Device Sharing: Students pass phones to classmates to register attendance for absent peers.
+Solution: Device Fingerprinting identifies unique digital signatures of each smartphone, instantly flagging multiple attendance attempts from a single device.
+3. Signal Spoofing: Students manipulate attendance signals to fraudulently mark themselves present.
+Solution: Dynamic Encryption Protocol with continuously changing encrypted data packets and real-time server-generated keys makes replay attacks impossible.
+4. Unauthorized Sessions: Potential for unauthorized attendance session initiation.
+Solution: Instructor Authentication requiring professors to tap authorized NFC-enabled devices on the attendance terminal provides two-factor security.
+
+Team **HUMBLE CODERS** -- [Karandeep Singh Bhasin](Github.com), Ishank Goyal, [Ansh Bajaj](https://github.com/anshbajaj2611), [Shreya Baranwal](Github.com), [Sharnya Goel](https://github.com/sharnyagoel19)
+
+`2025-04-27`
 
 ---
 
@@ -20022,6 +21668,760 @@ During the hackathon, our journey was anything but smooth. We struggled first wi
 Team **AquaSense** -- [Suchi Bajaj](https://github.com/suchi204), [Anvesha Kashyap](https://github.com/Anveshious), [Adityaraj Paul](https://github.com/Adityaraj-web)
 
 `2025-09-07`
+
+---
+
+### Healwave Vitaflux
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/healwave-vitaflux-69b5) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://studio.firebase.google.com/studio-8663990313) [![Built at](https://img.shields.io/badge/Built%20at-CODE%20reCET%202-0052CC?style=flat-square)](https://code-recet-2.devfolio.co)
+
+> Heal through motion
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![ML Kit](https://img.shields.io/badge/ML%20Kit-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![GSM](https://img.shields.io/badge/GSM-333333?style=flat-square) ![ESP32](https://img.shields.io/badge/ESP32-333333?style=flat-square)
+
+**The problem it solves**
+
+1. Custom Sensor Calibration Algorithm
+Developed a mapping system to normalize flex sensor values for each user, improving gesture recognition consistency across different hand sizes and movement styles.
+
+
+2. Optimized Gesture Recognition Logic
+Used threshold-based classification and experimented with basic machine learning models to accurately distinguish between similar gestures.
+
+
+3. Modular Hardware Architecture
+Designed a clean wiring and component layout on a compact glove, with detachable modules (ESP32, DFPlayer Mini, sensors) for easier testing and maintenance.
+
+
+4. Efficient Code for Real-Time Processing
+Streamlined ESP32 firmware to handle sensor data acquisition, processing, and output with minimal delay, enhancing real-time response.
+
+
+5. Cloud Integration with Supabase
+Implemented Supabase for secure, scalable, and real-time cloud storage—allowing patient activity logs, alerts, and remote monitoring.
+
+
+6. Lightweight & Comfortable Design
+Used soft gloves and flexible wiring to ensure user comfort without affecting sensor sensitivity, making the glove wearable for longer durations.
+
+
+7. Battery-Friendly Operation
+Selected low-power components and added deep sleep cycles (where applicable) to extend battery life during continuous use.
+
+**Generative AI**
+
+On-Device Gesture Recognition with TinyML
+
+TinyML allows us to run lightweight machine learning models on the ESP32 to recognize finger gestures in real time using data from flex sensors and the MPU6050. These models are optimized for memory and energy efficiency using frameworks like TensorFlow Lite for Microcontrollers.
+
+ 2. Gesture-to-Text Mapping with Generative Logic
+
+Once gestures are detected, instead of mapping them to fixed phrases, a compact, fine-tuned language generation model (run locally or with low-latency edge/cloud connection) can be used to generate more natural or context-specific responses. For example:
+
+A single "help" gesture can trigger AI to generate:
+“I need help right now, please come quickly!”
+rather than a rigid “Help.”
+
+
+ 3. Real-Time Voice Generation
+
+Generative AI models can also power speech synthesis, producing natural and human-like voice output from the generated text. TinyML enables running lightweight text-to-speech (TTS) engines on-device or with minimal cloud reliance.
+
+ 4. Personalization and Learning Over Time
+
+With cloud-assisted training and periodic model updates, the glove learns the user's gesture habits. Generative AI can adapt responses based on usage patterns, improving personalization and relevance—without requiring the user to relearn gestures.
+
+🔹 5. Low-Latency, Offline Functionality
+
+TinyML ensures that the core gesture recognition and basic generative responses run offline on the glove, maintaining functionality even without internet access—crucial for real-world use in hospitals or homes.
+
+Impact
+
+This synergy between Generative AI and TinyML brings intelligent, human-like communication to a tiny, wearable device, offering non-verbal patients a highly responsive and emotionally expressive tool—without relying heavily on cloud infrastructure.
+
+Team **healwave** -- Adithya Ajit, Nivin Ajith, Arjun S Nair, [Adithyan B](https://github.com/Adithyan1426/)
+
+`2025-07-27`
+
+---
+
+### HealthSync
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/healthsync-b84a) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/nihalm007/CODERECET.git) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/o3clj20FPPU?si=WHgJbVVKf61pzaEL) [![Built at](https://img.shields.io/badge/Built%20at-CODE%20reCET%202-0052CC?style=flat-square)](https://code-recet-2.devfolio.co)
+
+> smart AI-powered shopping cart
+
+![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-333333?style=flat-square) ![Dart](https://img.shields.io/badge/Dart-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Flutter](https://img.shields.io/badge/Flutter-333333?style=flat-square) ![Arduino](https://img.shields.io/badge/Arduino-333333?style=flat-square)
+
+**The problem it solves**
+
+**The Everyday Struggle**
+
+Imagine walking into a supermarket after a long day… You have diabetes, maybe high BP too. You want to eat right — but you’re tired, confused, and overwhelmed. Do you really have time to read 20 labels? Google every ingredient? Of course not. So, you guess. And sometimes, that guess can hurt you.
+
+** Who This Truly Supports **
+
+ Elderly individuals who may find it difficult to keep track of dietary restrictions and prescriptions. Parents and caregivers managing busy lives, yet trying to make healthy choices for their families. People living with chronic conditions, doing their best every day to avoid complications or hospital visits. Young adults and students who want to lead a healthier life but don’t know where to begin.
+
+** The Bigger Impact **
+
+ HealthSync is not just tech. It’s about making healthcare accessible — through the grocery aisle. It’s about stopping disease before it begins. It’s about reducing the load on hospitals and increasing the health of communities
+
+**Challenges we ran into**
+
+The problems where we faced was like we are beginners in python so sometimes we stuck somewhere mainly when we made the user interface we stuck with the design and it was crashing continuously.
+
+**Generative AI**
+
+![image](https://assets.devfolio.co/content/417fa25dca984f118e9e63a60537e631/9733463c-e6d1-4ddc-8a4e-c8e74611fb87.jpeg)
+
+Our project is basically like a food recommendation which is based on Ai , In our project we collect the health data and the data of the products they put on the cart and compare them using Ai.
+
+Team **TechieDo** -- [Ashik M](https://github.com/ashikm7034), [Nihal M](https://github.com/nihalm007)
+
+`2025-07-27`
+
+---
+
+### PhysioNep
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/physionep-9327) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/NibidaGhimire/PhysioNep) [![Built at](https://img.shields.io/badge/Built%20at-DeerHack%202025-0052CC?style=flat-square)](https://deerhack-25.devfolio.co)
+
+> A virtual PhysioTherapy Guide
+
+![OpenCV](https://img.shields.io/badge/OpenCV-333333?style=flat-square) ![MERN stack](https://img.shields.io/badge/MERN%20stack-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![Mediapipe](https://img.shields.io/badge/Mediapipe-333333?style=flat-square)
+
+**The problem it solves**
+
+This project aims to provide a solution for people to do physiotherapy at home using pose angle detection. By analyzing the user's body posture, the system can provide real-time feedback and guidance to ensure correct exercise execution. This can help individuals improve their physical well-being and recover from injuries or conditions that require physiotherapy.
+
+- PhysioNep utilizes advanced algorithms to accurately detect and analyze the user's body posture. This ensures precise feedback and guidance, leading to more effective physiotherapy exercises.
+
+- By analyzing the user's body posture using pose angle detection, PhysioNep provides immediate feedback and guidance to ensure correct exercise execution. This helps users maintain proper form and maximize the effectiveness of their workouts.
+
+- Accessibility makes physiotherapy more accessible to a wider range of individuals, including those with limited mobility or living in remote areas with limited access to healthcare facilities.
+
+**Challenges we ran into**
+
+During the hackathon, one major issue we tackled was the failure of our backend to process video frames through OpenCV and MediaPipe due to conflicting input sources and broken camera stream handling in our Linux environment. The real-time video feed would freeze or crash unexpectedly, especially when multiple threads accessed the webcam or when trying to deploy with an API call. We debugged the issue by isolating the video capture logic, ensuring only a single thread accessed the camera, and replacing OpenCV’s default video stream handler with a custom loop that safely read and encoded frames. This resolved the stability issues and enabled smooth pose detection integration with our virtual physiotherapy assistant.
+
+**Open Innovation**
+
+The importance of our project in the Open Innovation category lies in bringing clinically guided physiotherapy directly to people’s homes, using open technologies that already exist. By leveraging open-source computer vision models to detect body landmarks and measure joint angles, we accurately guide patients through exercises and track real functional progress. Instead of building a closed system, we integrate open APIs and frameworks to create a data-driven platform where patients can practice safely, and doctors can remotely monitor posture accuracy, pain trends, and recovery metrics. This collaborative, adaptable approach perfectly captures the spirit of open innovation: building on proven technologies and connecting them in new ways to improve lives.
+
+Team **Pookie Blinders** -- [Nibida Ghimire](https://github.com/NibidaGhimire), [Riyaj Nepal](https://github.com/riyajnepal), [Ridhima Bhatt](https://github.com/iamridhima)
+
+`2025-07-13`
+
+---
+
+### Sanjeevani Sheild
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/sanjeevani-sheild-2692) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/VISHNU18629/CyberFunkies) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://drive.google.com/file/d/1hJXLh15hL4uYI2v99Ts4XFnLlvH_kFUI/view?usp=drive_link) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/qdplJ8Wyorg) [![Built at](https://img.shields.io/badge/Built%20at-Hack%20With%20Gujarat-0052CC?style=flat-square)](https://hack-with-gujarat.devfolio.co)
+
+> Real-Time AI-Powered Military Health & Threat Monitoring Platform
+
+![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![C++](https://img.shields.io/badge/C++-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Express.js](https://img.shields.io/badge/Express.js-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![ESP32](https://img.shields.io/badge/ESP32-333333?style=flat-square) ![HTML/CSS](https://img.shields.io/badge/HTML/CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+➣Military operations often suffer from data silos — with critical information like health vitals, GPS locations, and battlefield intel being scattered across disconnected systems.
+
+➣This lack of integration delays medical aid and decision-making, contributing to over 60% of battlefield fatalities.
+
+➣There’s also no existing unified solution that addresses fake news threats in combat zones.
+
+➣Targeted at defense personnel, the solution enhances situational awareness and saves lives through real-time monitoring and AI-based insights.
+
+**Challenges we ran into**
+
+➣Sensor data delays and thermal imaging model lags threatened real-time performance.
+
+➣Integrating multiple devices (like Oxitec, SmartBand, sensors) with a centralized dashboard posed compatibility and synchronization issues.
+
+➣Ensuring secure and fast data transmission was critical due to the sensitive nature of military information.
+
+➣Solutions included:
+        ➣Simulated data streams for testing.
+        ➣Edge ML models to reduce latency.
+        ➣A fallback design to maintain functionality even under partial system failure.
+
+Team **CodeNotFound** -- [Shibagni Bhattacharhee](https://github.com/ShibagniBhattacharjee06), Vishnu Singh, [Raj Krish](https://github.com/CODEXPLORERAJ)
+
+`2025-05-29`
+
+---
+
+### Developing Secure Solutions for CPS in Healthcare.
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/developing-secure-solutions-for-cps-in-healthcare-b24b) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Abhinavan2004/Ensuring-Securing-in-CPS-for-Healthcare-Applications) [![Built at](https://img.shields.io/badge/Built%20at-Hack%20With%20Gujarat-0052CC?style=flat-square)](https://hack-with-gujarat.devfolio.co)
+
+> Providing real-time, end-to-end security for healthcare's cyber-physical systems, protecting patient data and preventing breaches.
+
+![Java](https://img.shields.io/badge/Java-333333?style=flat-square) ![OAuth](https://img.shields.io/badge/OAuth-333333?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=flat-square) ![Kotlin](https://img.shields.io/badge/Kotlin-333333?style=flat-square) ![ESP32](https://img.shields.io/badge/ESP32-333333?style=flat-square) ![Google Cloud Platform (GCP)](https://img.shields.io/badge/Google%20Cloud%20Platform%20(GCP)-333333?style=flat-square) ![pgAdmin](https://img.shields.io/badge/pgAdmin-333333?style=flat-square) ![Google Fit API](https://img.shields.io/badge/Google%20Fit%20API-333333?style=flat-square)
+
+**The problem it solves**
+
+Our project directly addresses the critical challenge of insecure data transmission and integration within Cyber-Physical Systems (CPS) in healthcare. Currently, vital patient data flowing from monitoring devices, sensors, and medical equipment is highly susceptible to breaches due to inadequate security, threatening privacy and safety.
+
+How it helps:
+
+For Patients & Remote Care: It ensures personal health data from smart devices (like smartwatches or home monitoring sensors) is transmitted securely and encrypted to providers. This enables safer remote patient monitoring, allowing continuous care while safeguarding sensitive information from interception or tampering.
+
+For Hospitals & Clinics: Our solution provides a standardized, secure backbone for integrating diverse medical devices into existing IT infrastructure. It drastically reduces the risk of costly data breaches and helps organizations meet stringent regulatory compliance (e.g., HIPAA). Hospital IT teams can deploy and manage CPS with greater confidence, knowing data is protected end-to-end.
+
+For Medical Device Manufacturers: It offers a robust, modular, and easily integrable security layer for their products, enhancing device security out-of-the-box.
+
+Ultimately, our project makes healthcare data management safer, more reliable, and easier to integrate across various interconnected systems, ensuring patient trust and safeguarding critical health information.
+
+**Challenges we ran into**
+
+One significant challenge we ran into was implementing efficient and robust end-to-end encryption from resource-constrained ESP32 IoT devices to our cloud backend while maintaining real-time performance.
+
+The Hurdle: Our initial attempts to use standard, heavy-duty encryption protocols (like full TLS/SSL over MQTT) directly on the ESP32 consumed significant processing power and memory. This resulted in noticeable latency in real-time data transmission and rapid battery drain for the connected sensors (simulated by ESP32), directly clashing with our "real-time secure data" requirement. Ensuring seamless decryption and verification across different languages (C++ on ESP32, Kotlin on Android, Java on Spring Boot) also presented interoperability bugs.
+
+How We Got Over It:
+
+Optimized Symmetric Encryption: We transitioned to a more lightweight and efficient symmetric encryption algorithm (AES-256 in GCM mode) for the raw data payloads. We extensively leveraged hardware acceleration features available on the ESP32 via optimized libraries.
+
+Secure, Infrequent Key Exchange: Instead of full TLS handshakes for every packet, we established a secure, infrequent key exchange mechanism. During initial device pairing via the authenticated Android app, a unique session key was securely established and pushed to the ESP32. This key is periodically rotated to maintain security.
+
+Payload Optimization: We designed a compact data payload format and implemented minimal data batching on the ESP32. This reduced the number of encryption operations, optimizing both performance and power consumption.
+
+Cross-Language Consistency: Meticulous effort was put into ensuring consistent implementation of the chosen encryption scheme and key derivation functions across C++ (ESP32), Kotlin (Android app), and Java (Spring Boot backend) to prevent decryption or verification failures.
+
+Team **The Webbs** -- [Atharva Bomle](https://github.com/atharvabomle), [Abhinav Anpan](https://github.com/Abhinavan2004/), [Anchal Nalwale](https://github.com/anchalnalwale), [Devansh Dhopte](https://github.com/Devansh176)
+
+`2025-05-29`
+
+---
+
+### DivyaDrishti
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/divyadrishti-3e9a) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/didaco97/DivyaDrishti) [![Built at](https://img.shields.io/badge/Built%20at-Hack%20With%20Gujarat-0052CC?style=flat-square)](https://hack-with-gujarat.devfolio.co)
+
+> AI-Powered Drone Border Surveillance System
+
+![�](https://img.shields.io/badge/�-333333?style=flat-square) ![🔥 PyTorch 2.5.1+        # Deep learning framework with CUDA support](https://img.shields.io/badge/🔥%20PyTorch%202.5.1+%20%20%20%20%20%20%20%20#%20Deep%20learning%20framework%20with%20CUDA%20support-333333?style=flat-square) ![🎯 Ultralytics YOLOv11   # State-of-the-art object detection](https://img.shields.io/badge/🎯%20Ultralytics%20YOLOv11%20%20%20#%20State--of--the--art%20object%20detection-333333?style=flat-square) ![🖼️ OpenCV 4.11.0+        # Computer vision and image processing](https://img.shields.io/badge/🖼️%20OpenCV%204.11.0+%20%20%20%20%20%20%20%20#%20Computer%20vision%20and%20image%20processing-333333?style=flat-square) ![🐍 Python 3.8+          # Primary programming language](https://img.shields.io/badge/🐍%20Python%203.8+%20%20%20%20%20%20%20%20%20%20#%20Primary%20programming%20language-333333?style=flat-square) ![🖥️ Tkinter               # GUI framework with custom styling](https://img.shields.io/badge/🖥️%20Tkinter%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20#%20GUI%20framework%20with%20custom%20styling-333333?style=flat-square) ![🧵 Threading             # Multi-threaded processing](https://img.shields.io/badge/🧵%20Threading%20%20%20%20%20%20%20%20%20%20%20%20%20#%20Multi--threaded%20processing-333333?style=flat-square) ![📊 JSON/CSV              #](https://img.shields.io/badge/📊%20JSON/CSV%20%20%20%20%20%20%20%20%20%20%20%20%20%20#-333333?style=flat-square)
+
+**The problem it solves**
+
+DivyaDrishti is a cutting-edge AI-powered drone border surveillance system specifically designed for detecting unauthorized trails, human intrusions, and suspicious activities in restricted border zones. Built with state-of-the-art computer vision technology, it features custom-trained YOLO models for specialized border security scenarios, wrapped in a professional tactical interface
+
+Team **SkyPhantom** -- [Dhiraj Dahale](https://github.com/didaco97)
+
+`2025-05-29`
+
+---
+
+### Smart Driving Assistant
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/smart-driving-assistant-39b6) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ManishKumar913/Dysphoria#) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtube.com/shorts/n6zodnbstvc?si=YOSLM5uxsm_sSH9D) [![Built at](https://img.shields.io/badge/Built%20at-Aventus%203-0052CC?style=flat-square)](https://aventus-3.devfolio.co)
+
+> Ai powered Driver Monitoring system using edge computing
+
+![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-333333?style=flat-square) ![Android Studio](https://img.shields.io/badge/Android%20Studio-333333?style=flat-square) ![Connections: WebSockets](https://img.shields.io/badge/Connections:%20WebSockets-333333?style=flat-square)
+
+**The problem it solves**
+
+We aim to develop an AI-powered driver assistance system using Raspberry Pi, focused on improving road safety through real-time alerts and analysis. This edge-computing solution acts as a personalized driving assistant by gathering data from multiple onboard sensors and a camera.
+The system continuously monitors key vehicle metrics such as engine temperature, fuel level, tire pressure, and overall vehicle health. It also observes external factors like traffic conditions and weather. Based on this information, it recommends a safe driving speed and provides alerts to help the driver make better decisions on the road. Additionally, it includes lane detection support to assist with safer navigation.
+
+**Challenges we ran into**
+
+1) Faced issues while training a custom model for speed prediction and lane detection.
+2)Training from scratch was time-consuming and lacked proper resources.
+3)Raspberry Pi had limited processing power for heavy models.
+4)Switched to pre-trained MobileNet models for better performance on edge devices.
+5)Our models were trained in Python, but the dashcam app was built in Java.This created compatibility issues during deployment.
+
+Team **dysphoria** -- [Ved Kumar](https://github.com/Vedkumar07), [Manish Kumar](https://github.com/ManishKumar913), [Rishav Raj](https://github.com/rishavraj9), [Vaibhav Vatsa](https://github.com/VaibhavVatsa06)
+
+`2025-05-18`
+
+---
+
+### RescueBot
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/rescuebot-95cf) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Zzeelan7/Aventus_Wanderers) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/mIvEY3RJ5Mg?si=78DDVwZ2Jz8wAkyc) [![Built at](https://img.shields.io/badge/Built%20at-Aventus%203-0052CC?style=flat-square)](https://aventus-3.devfolio.co)
+
+> RescueBot: Sensing Hope in Crisis – Heat, Sound, and Survival
+
+![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Google Colab](https://img.shields.io/badge/Google%20Colab-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Arduino](https://img.shields.io/badge/Arduino-333333?style=flat-square) ![Servo Motor](https://img.shields.io/badge/Servo%20Motor-333333?style=flat-square) ![Ml](https://img.shields.io/badge/Ml-333333?style=flat-square) ![React.js](https://img.shields.io/badge/React.js-333333?style=flat-square)
+
+**The problem it solves**
+
+RescueBot addresses the critical challenge of locating survivors in disaster scenarios where traditional communication networks fail. During disasters like earthquakes or floods, collapsed structures and disrupted WiFi/Bluetooth networks hinder rescue teams from detecting human presence. Survivors may be trapped, unable to call for help, and invisible to standard search methods due to debris or lack of visibility.
+
+**Challenges we ran into**
+
+Problem with the thermal sensor, unable to connect the esp32 with arduino, lack of power to move rescuebot, large size of ml model making it unable to fit within the small storage of esp32, issues with generating the flask app to show the results from the ml models. ml model training datasets incompatible with the thermal sensor.
+
+**Ethereum Track**
+
+RescueBot, developed for the Avent Hackathon 2025, aligns with the ETHIndia Ethereum Track by integrating decentralized technology for disaster response. Using an ESP32 (INMP441) for audio detection and an Arduino Uno (MLX90614) for thermal sensing, RescueBot detects human presence offline with ~90% accuracy via TFLM models. To fit the Ethereum Track, RescueBot can leverage Ethereum's blockchain for secure, transparent logging of detection data (e.g., timestamps, coordinates, "HUMAN DETECTED" status) in disaster scenarios. A smart contract on Ethereum can store this data, enabling verifiable, tamper-proof records for rescue coordination. With ESP32's local processing and an added LoRa module for long-range communication, RescueBot can periodically sync data to an Ethereum node when connectivity is available, ensuring decentralized access for rescue teams. This enhances trust, scalability, and coordination in crisis response, aligning with Ethereum's focus on decentralized.
+
+Team **Wanderers** -- [Raghav puri](https://github.com/Raghav28puri/), [daksh gupta](https://github.com/dakshgupta555), [Zzeelan27 M](https://github.com/Zzeelan7), [Anas Faisal](https://github.com/theanasfaisal)
+
+`2025-05-18`
+
+---
+
+### CattleGuard
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/cattleguard-de02) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ds1-test/CattleGuard) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://presenti.ai/app/share/CAE.IAEqEOtpTsZCGAQBkmkPJCxQhrUwAkABSgozNDk0OTk0MzIw?invite_code=pUdUOCZC，) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/TXrnUKQGCgI?si=Dbu3omIS-KzOpyTq) [![Built at](https://img.shields.io/badge/Built%20at-Aventus%203-0052CC?style=flat-square)](https://aventus-3.devfolio.co)
+
+> AI Powered Livestock Health Monitoring.
+
+![Firebase](https://img.shields.io/badge/Firebase-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![TensorFlow](https://img.shields.io/badge/TensorFlow-333333?style=flat-square) ![OpenCV](https://img.shields.io/badge/OpenCV-333333?style=flat-square) ![pandas](https://img.shields.io/badge/pandas-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Arduino](https://img.shields.io/badge/Arduino-333333?style=flat-square) ![HTML/CSS](https://img.shields.io/badge/HTML/CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+CattleGuard addresses the challenges of livestock management in rural and remote areas by providing a smart, AI-driven solution for monitoring cattle health and activity. Traditionally, farmers and herders rely on manual observation, which is time-consuming and often inaccurate.
+
+Our system uses computer vision and sensor data to track vital health indicators (like body temperature, movement patterns, feeding behavior) and detect anomalies such as signs of illness or injury in real-time. This helps prevent disease outbreaks, reduces livestock mortality, and saves farmers both time and money.
+
+**Challenges we ran into**
+
+Integrating real-time video analysis with limited hardware was a challenge, especially ensuring consistent accuracy with varying light and motion conditions.
+
+Optimizing our AI model to run efficiently on edge devices was tough — we had to balance model accuracy with performance constraints.
+
+**Ethereum Track**
+
+Fantastic
+
+Team **TechnoMinds** -- [akash gn](https://github.com/akash-gn), [Chirag O](https://github.com/Chirag-O2004), [Keerthan B M](https://github.com/Keerthan2024)
+
+`2025-05-18`
+
+---
+
+### Project Veyron
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/project-veyron-9a0c) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/AlbusDumbledore395/Project_Veyron) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://youtu.be/v718NhvVfpg) [![Built at](https://img.shields.io/badge/Built%20at-NMIT%20HACKS%202025-0052CC?style=flat-square)](https://nmithacks25.devfolio.co)
+
+> Dream, Build, Elevate
+
+![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![OpenCV](https://img.shields.io/badge/OpenCV-333333?style=flat-square) ![C++](https://img.shields.io/badge/C++-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Bluetooth Module](https://img.shields.io/badge/Bluetooth%20Module-333333?style=flat-square) ![GSM](https://img.shields.io/badge/GSM-333333?style=flat-square) ![GPS](https://img.shields.io/badge/GPS-333333?style=flat-square) ![ESP32](https://img.shields.io/badge/ESP32-333333?style=flat-square)
+
+**The problem it solves**
+
+1.🔐 Vehicle Theft Prevention
+Problem: Traditional key-based vehicle systems are vulnerable to theft through key duplication, hot-wiring, or unauthorized access.
+Solution:
+Biometric fingerprint authentication ensures only authorized users can start the vehicle.
+Bluetooth PIN verification adds a secondary layer of security.
+Real-time GSM alerts notify the owner immediately if unauthorized access is attempted.
+2.🛡️ Unauthorized Access Control
+Problem: Vehicles are often accessed by people who are not supposed to use them, especially in shared or fleet environments.
+Solution:
+Multi-layer access control restricts vehicle usage to authenticated users only.
+Prevents misuse by requiring both fingerprint and a BLE-based PIN.
+3.📍 Loss or Theft Recovery
+Problem: Once a vehicle is stolen, recovery is difficult without tracking systems.
+Solution:
+Real-time GPS tracking allows the owner or authorities to locate the vehicle instantly.
+Combined with GSM alerts, the owner is kept aware of any suspicious movements or location changes.
+4.😴 Driver Drowsiness and Fatigue Monitoring
+Problem: Driver fatigue is a major cause of accidents, especially on long drives or for commercial drivers.
+Solution:
+Eye-tracking technology monitors the driver's eyes and facial behavior to detect signs of drowsiness or inattention.
+Can issue real-time alerts or even notify a central system if a dangerous level of fatigue is detected.
+5.🚗 Driver Safety Enhancement
+Problem: Lack of active monitoring allows drowsy or distracted drivers to continue driving, increasing accident risks.
+Solution:
+Real-time driver monitoring helps prevent accidents by warning or alerting the driver.
+Can be extended to alert emergency contacts or shut down the vehicle in severe cases.
+✅ Summary of Solved Problems:
+Vehicle theft and unauthorized access
+Lack of multi-factor authentication for vehicles
+Inability to track stolen vehicles in real-time
+Unawareness of driver fatigue/drowsiness
+Delayed response to dangerous dr
+
+**Challenges we ran into**
+
+⚙️ Challenges We Ran Into
+🐞 1. Fingerprint Sensor Integration Issues
+Problem:
+While integrating the fingerprint sensor with the ESP32, we encountered inconsistent readings and frequent mismatches even for enrolled fingerprints.
+Solution:
+We resolved this by:
+Switching from software serial to hardware serial for more reliable communication.
+Adding retries and delays to improve scan stability.
+Ensuring proper power supply to the sensor to prevent signal drops.
+📶 2. BLE and WiFi Coexistence on ESP32
+Problem:
+Running both BLE (for PIN verification) and WiFi (for server communication) simultaneously on the ESP32 caused crashes or dropped connections.
+Solution:
+We carefully optimized resource usage by:
+Prioritizing BLE during authentication and switching to WiFi afterward.
+Minimizing BLE advertising time and using task scheduling to avoid conflicts.
+🧭 3. GPS Signal Instability in Urban Areas
+Problem:
+Inconsistent GPS signal in dense urban environments led to poor location tracking.
+Solution:
+We implemented:
+A filtering algorithm to smooth location jumps.
+Fallback handling using the last known good position when GPS signal was lost.
+😴 4. False Positives in Drowsiness Detection
+Problem:
+Eye-tracking sometimes gave false alerts due to lighting variations or users wearing glasses.
+Solution:
+We improved detection by:
+Combining Eye Aspect Ratio (EAR), Mouth Aspect Ratio (MAR), and head pose estimation.
+Using an ensemble method with a threshold-based voting mechanism.
+Integrating AI-based analysis (e.g., Gemini API) for final decision-making.
+🔔 5. GSM Alerts Not Sending Consistently
+Problem:
+GSM module occasionally failed to send SMS alerts, especially in low-signal areas.
+Solution:
+We added:
+Retry mechanisms with exponential backoff.
+Signal strength checks before attempting to send alerts.
+A fallback alert via WiFi when GSM failed.
+
+**AI & ML**
+
+1.Applies computer vision techniques (**EAR**, **MAR**, **head pose**) for real-time driver monitoring.
+2.Uses AI-based analysis (via **Gemini** API) to detect drowsiness with high accuracy.
+3.Implements an **ensemble** **decision****system**combining multiple fatigue indicators.
+4.Enhances safety by using **machine** **learning**logic to reduce false alerts.
+5.Demonstrates practical use of AI/ML in real-time, safety-critical environments.
+
+**Internet of Things**
+
+1.Uses smart sensors (**fingerprint**, **GPS**, **camera**, **GSM**) for real-time data.
+2.**ESP32** acts as the IoT hub for control and communication.
+3.**BLE and WiFi** enable secure wireless access and updates.
+4.Sends real-time alerts via **GSM** and tracks location with GPS.
+5.Monitors driver **drowsiness** using camera-based **eye-tracking.**
+6.Automates safety and security decisions using **IoT** principles.
+
+**Open Innovation**
+
+Combines IoT, AI, and biometrics to address real-world problems in vehicle security and driver safety.
+Integrates multiple technologies (ESP32, fingerprint sensor, BLE, GPS, GSM, camera, AI API) in a novel and practical way.
+Solves both urban theft and driver fatigue—two major challenges—with a single unified system.
+Showcases interdisciplinary innovation, blending hardware, software, and machine learning.
+Offers a flexible solution that can be adapted for personal, commercial, or public transportation.
+
+**Gemini API**
+
+1.Uses **Gemini**API to analyze driver behavior data (eye, mouth, head position).
+2.Performs **AI-based** fusion of detection metrics (EAR, MAR, attention level).
+3.Enhances **accuracy** of **drowsiness detection**with intelligent decision-making.
+4.Combines real-time data with **cloud-based**AI analysis for smarter alerts.
+5.Demonstrates effective use of **Gemini** in a real-world IoT safety application.
+
+**MongoDB Atlas**
+
+Stores structured data like user credentials, fingerprint IDs, and vehicle information.
+Handles unstructured data such as image uploads and detection logs.
+Uses PostgreSQL for managing and querying complex relational and non-relational data.
+Enables real-time access and updates to authentication and driver monitoring records.
+Demonstrates how a powerful SQL database can support an IoT + AI-based system.
+
+Team **Team Elevate** -- [Vaibhav P](https://github.com/Ultron1239901), [Vaibhav S](https://github.com/Vaibhavsu24), [Prasanna Kulal](https://github.com/prasannaram-git), [Yeshwanth V](https://github.com/AlbusDumbledore395)
+
+`2025-05-18`
+
+---
+
+### Micro-Sleep Guard
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/microsleep-guard-71a7) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Akashr-04/NMIT_hacks) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/qa3MIoZxa8k?feature=shared) [![Built at](https://img.shields.io/badge/Built%20at-NMIT%20HACKS%202025-0052CC?style=flat-square)](https://nmithacks25.devfolio.co)
+
+> Stay Awake, Stay Safe IoT Detects Before You rest
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![Firebase](https://img.shields.io/badge/Firebase-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Internet of Things (IoT)](https://img.shields.io/badge/Internet%20of%20Things%20(IoT)-333333?style=flat-square) ![Arduino IDE](https://img.shields.io/badge/Arduino%20IDE-333333?style=flat-square) ![C](https://img.shields.io/badge/C-333333?style=flat-square) ![ThinkSpeak](https://img.shields.io/badge/ThinkSpeak-333333?style=flat-square)
+
+**The problem it solves**
+
+Micro-sleep while driving is a sudden, involuntary episode of sleep that can last for a fraction of a second to several seconds. It often occurs when a person is drowsy or sleep-deprived and it's extremely dangerous while driving or operating machinery. 1 in 5 road accidents is caused by drowsy driving or micro-sleep. In India, sleep-related accidents lead to thousands of deaths every year. Traditional systems like eye-tracking are costly and unreliable in low light.
+
+Our project uses a piezoelectric sensor placed behind the ear to detect tiny muscle relaxations or stillness that occur during micro-sleep. When such inactivity is detected for a few seconds, a buzzer, LED, and vibration motor immediately alert the driver. Data is also sent to ThingSpeak via Wi-Fi for remote monitoring and analysis.
+
+**Challenges we ran into**
+
+1.False Triggering of the Buzzer
+Issue: The buzzer was turning on every few seconds, even when the user was not sleeping.
+
+Cause: The piezoelectric sensor was picking up random ambient vibrations or noise.
+
+Solution:
+
+We fine-tuned the vibrationThreshold value through experimentation.
+
+We added a time window (detectionWindow) to filter out brief drops in signal.
+
+2. Piezo Sensor Mounting Difficulty
+Issue: The sensor didn’t give consistent readings when just hanging in the air.
+
+Solution:
+
+We mounted the sensor behind the ear using double-sided tape and sponge padding.
+
+This provided better skin contact and improved signal stability.
+
+**Internet of Things**
+
+Our project, "IoT-Based Micro-Sleep Detection System", is directly aligned with the IoT (Internet of Things) domain because it connects a physical sensor system to the internet to monitor real-time human conditions.
+Key IoT Elements in Your Project:
+1.Sensor Integration (Physical Layer)
+
+Uses a piezoelectric sensor to detect micro-vibrations or stillness behind the ear — physical data capturing.
+
+2.Edge Device & Processing (Networked Device Layer)
+
+An ESP32 microcontroller reads the sensor data, processes it locally, and detects micro-sleep events.
+
+3.Real-Time Alerts (Actuation)
+
+Activates buzzer, LED, and motor instantly upon detection — making it an intelligent, reactive system.
+
+4.Cloud Connectivity (IoT Core Feature)
+
+Sends sleep event data and sensor values to ThingSpeak, an IoT cloud platform, using Wi-Fi.
+
+Enables remote monitoring of driver drowsiness data for analysis or alerts.
+
+5.Data Logging & Visualization (Application Layer)
+
+ThingSpeak provides a dashboard to view sensor values and logs over time, making it scalable for fleet monitoring or safety systems.
+
+Team **APKA** -- [Ananya Arya](github.com/Ananya14-11), [Akash R](https://github.com/Akashr-04), [Priyanka H C](https://github.com/priyanka4546), [Khwahish Pandey](https://www.github.com/i)
+
+`2025-05-18`
+
+---
+
+### Intelli_Grid
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/intelligrid-539c) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/harshitsaxenaa/Intelli_Grid) [![Built at](https://img.shields.io/badge/Built%20at-HackHaven%202.0-0052CC?style=flat-square)](https://hackhaven2.devfolio.co)
+
+> Preparing for a sustainable future through power grid optimization, fault prediction and detection, user-transparency, chatbot AI and demand load forecasting. #Sustainable Tomorrow
+
+![TensorFlow](https://img.shields.io/badge/TensorFlow-333333?style=flat-square) ![OpenCV](https://img.shields.io/badge/OpenCV-333333?style=flat-square) ![XGBoost](https://img.shields.io/badge/XGBoost-333333?style=flat-square) ![Arduino](https://img.shields.io/badge/Arduino-333333?style=flat-square) ![Geopy](https://img.shields.io/badge/Geopy-333333?style=flat-square) ![Mediapipe](https://img.shields.io/badge/Mediapipe-333333?style=flat-square) ![Natural Language Processing](https://img.shields.io/badge/Natural%20Language%20Processing-333333?style=flat-square) ![Sarimax](https://img.shields.io/badge/Sarimax-333333?style=flat-square)
+
+**The problem it solves**
+
+Traditional energy grids struggle to adapt to real-time changes in electricity consumption and renewable energy generation. This often results in energy wastage, grid overload, blackouts, and inefficient use of green energy sources like solar and wind.
+
+Intelli_Grid solves this by introducing a smart, AI-powered grid system that:
+
+--> Predicts electricity demand at the individual and community level using usage patterns, time of day, season, and weather.
+
+--> Dynamically adjusts predictions in real-time based on live smart meter data to optimize supply.
+
+--> Forecasts renewable energy generation windows, helping maximize the use of eco-friendly energy.
+
+--> Monitors grid health in real-time (voltage, current, temperature) to detect early signs of faults or overloads.
+
+--> Provides user transparency through an interactive AI chatbot that explains changes in energy usage and grid behavior.
+
+This system makes energy distribution smarter, more reliable, greener, and user-friendly, enabling safer and more sustainable power management for homes, industries, and smart cities.
+
+**Challenges we ran into**
+
+One of the greatest obstacles was dealing with live data processing while maintaining system responsiveness and scalability. It entailed merging live smart meter simulations, regularly changing demand predictions, and overseeing various grid health indicators via effective threading and data synchronization.
+
+One more challenge was how to make accurate and adaptive energy forecasts. At first, the program did not cope with sudden surges of consumption and changing weather conditions. To fix this, rolling window models were implemented in time series and external data on temperature, solar panels.
+
+Additionally, I faced the issue of interpretability of the chatbot making sure it can explain the user’s query which is “why was my usage high today”. This was solved by structuring model decisions into traceable logs and integrating it into the chatbot’s response pipeline.
+
+Lastly, creating the fault scenarios (like overheating or overload) in secure, but realistic ways was challenging. To solve this, I developed a framework that allows simulating appliances and grid components in a modular way that allows testing and visualization of the response to faults.
+
+**AI/ML**
+
+This project, Intelli_Grid, leverages core AI/ML techniques to build an intelligent, adaptive energy grid. This uses time-series machine learning models to forecast user-level electricity demand based on usage patterns, weather, and temporal factors. The system also employs real-time anomaly detection to monitor grid health (like voltage or temperature spikes) and predict potential faults before they occur.
+
+Additionally, we incorporate natural language processing (NLP) through an LLM-based chatbot that explains prediction results, giving users AI-powered insights into their consumption. The entire system is built around AI-driven decision-making, automation, and user interaction—making it a strong fit for the AI/ML track.
+
+Team **The_Riser** -- [Harshit Saxena](https://github.com/harshitsaxenaa)
+
+`2025-05-04`
+
+---
+
+### Wild Warden
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/wild-warden-5bc2) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Aman-Sigroha/WildWardenWeb) [![Built at](https://img.shields.io/badge/Built%20at-HackHaven%202.0-0052CC?style=flat-square)](https://hackhaven2.devfolio.co)
+
+> "Edge-Aware Wearable: Real-Time Distress Detection Powered by TinyML"
+
+![Accelerometer](https://img.shields.io/badge/Accelerometer-333333?style=flat-square) ![pulse sensor](https://img.shields.io/badge/pulse%20sensor-333333?style=flat-square) ![TinyML](https://img.shields.io/badge/TinyML-333333?style=flat-square) ![Lora Module](https://img.shields.io/badge/Lora%20Module-333333?style=flat-square) ![MAX30102](https://img.shields.io/badge/MAX30102-333333?style=flat-square) ![ESP32 & Arduino](https://img.shields.io/badge/ESP32%20&%20Arduino-333333?style=flat-square) ![MPU-6050](https://img.shields.io/badge/MPU--6050-333333?style=flat-square) ![DS18B20](https://img.shields.io/badge/DS18B20-333333?style=flat-square)
+
+**The problem it solves**
+
+In remote, off-grid areas where cellular coverage is absent, hikers face life-threatening risks from injuries or sudden health issues without any reliable way to signal for help. Our project solves this by providing a low-cost, wearable device that monitors vital signs in real-time, detects distress using AI (TinyML), and sends emergency alerts and GPS coordinates via LoRa — ensuring timely rescue even without internet or mobile networks.
+
+**Challenges we ran into**
+
+Building Wild Warden came with its fair share of technical hurdles. One of the major challenges was dealing with unreliable sensor behavior — especially when trying to get consistent readings from the MAX30100 and MPU9250 sensors. Some sensors required fine-tuning and manual adjustments to start responding properly.
+
+We also faced issues with hardware integration, particularly the need to solder delicate components, which slowed down our prototyping and increased the risk of damaging parts. Ensuring stable connections between the ESP32, LoRa module, and various sensors often required multiple retries and careful debugging.
+
+Lastly, getting real-time data flow and maintaining reliable communication between modules—especially over LoRa—required persistent testing and calibration. These challenges taught us to quickly adapt, debug systematically, and work as a team under tight time constraints.
+
+**AI/ML**
+
+Wild Warden, leverages tiny machine learning (TinyML) on edge devices like the ESP32 to perform real-time distress detection using physiological and motion sensor data. By training a Fully Connected Neural Network (FCNN) model to recognize patterns of abnormal heart rate, temperature, and movement, we enable autonomous classification of emergency conditions without relying on constant cloud access.
+
+This approach showcases embedded AI for edge inference, reducing latency and power consumption — making it ideal for remote wildlife or forest monitoring scenarios where connectivity is sparse.
+
+**Web2**
+
+While Wild Warden is primarily an IoT and AI-based solution, it also incorporates Web2 elements through its cloud connectivity and web dashboard displaying vital health information of users wearing the IOT devices.
+
+**Android**
+
+As part of the Wild Warden system, we developed a companion Android application using Kotlin. This app plays a crucial role in our ecosystem by acting as a bridge between the ESP32 hardware unit and the user. It establishes a Bluetooth connection with the ESP32 device, enabling real-time data transmission from the sensors (heart rate, body temperature, motion, etc.) will provide that information directly to the user's smartphone.
+
+**IOT**
+
+Wild Warden is a classic example of an end-to-end IoT solution. It combines multiple hardware components—ESP32 microcontroller, biomedical and motion sensors (MAX30100, MPU9250), GPS module, and LoRa communication module—to collect and transmit real-time physiological and environmental data. These sensors continuously monitor vital signs and motion patterns of forest workers or wildlife rangers, enabling proactive distress detection.
+
+The ESP32 acts as the IoT edge device, processing sensor data locally using a TinyML model trained via Edge Impulse. Critical alerts are transmitted wirelessly using LoRa to a centralized monitoring station, or relayed to a smartphone via Bluetooth.
+
+Team **RedOctober** -- [Aman Sigroha](https://github.com/Aman-Sigroha), [Arush Batra](https://github.com/arush-batra), [Aditya Pratap Singh](https://github.com/AdityaSinghDevs), [SRISHTI KAPOOR](https://github.com/srishtikapoor22)
+
+`2025-05-04`
+
+---
+
+### PALETTE  PENCIL
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/palette-pencil-c0c0) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://drive.google.com/file/d/1Eh6kALs9ylJaBUE542puiGb_OmhSqO69/view?usp=sharing) [![Built at](https://img.shields.io/badge/Built%20at-HACKHAZARDS%20'25-0052CC?style=flat-square)](https://hackhazards25.devfolio.co)
+
+> PRECISION IN EVERY SHADE
+
+![Android Studio](https://img.shields.io/badge/Android%20Studio-333333?style=flat-square) ![iOS](https://img.shields.io/badge/iOS-333333?style=flat-square) ![C++](https://img.shields.io/badge/C++-333333?style=flat-square) ![Arduino](https://img.shields.io/badge/Arduino-333333?style=flat-square) ![Full Stack Web Development](https://img.shields.io/badge/Full%20Stack%20Web%20Development-333333?style=flat-square)
+
+**The problem it solves**
+
+▪ 3d Animators faces problems while creating a
+real life ART
+▪ No sense of natural and connecting shades
+▪ Tones of Dyes becomes Effluents and harms
+Nature
+▪ Global Supply chain decline due to heavy
+waste
+▪ Cost Pressure
+
+[Kanishk Modi](https://github.com/kanishk-modi)
+
+`2025-04-12`
+
+---
+
+### Nira
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/nira-bec7) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://nira2.netlify.app/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=JATPo-yqQcM) [![Built at](https://img.shields.io/badge/Built%20at-HACKHAZARDS%20'25-0052CC?style=flat-square)](https://hackhazards25.devfolio.co)
+
+> Nira is a smart mental health platform offering AI-driven support, mood tracking, mindfulness, and wellness tips integrated with wearables for real-time, personalized, holistic care.
+
+![Frontend: ReactJS with modern UI/UX](https://img.shields.io/badge/Frontend:%20ReactJS%20with%20modern%20UI/UX-333333?style=flat-square) ![Backend: Node.js & Express](https://img.shields.io/badge/Backend:%20Node.js%20&%20Express-333333?style=flat-square) ![Database: MongoDB for data persistence](https://img.shields.io/badge/Database:%20MongoDB%20for%20data%20persistence-333333?style=flat-square) ![AI/ML: TensorFlow & NLP models for emotion detection](https://img.shields.io/badge/AI/ML:%20TensorFlow%20&%20NLP%20models%20for%20emotion%20detection-333333?style=flat-square) ![API Integrations: Wearables API](https://img.shields.io/badge/API%20Integrations:%20Wearables%20API-333333?style=flat-square) ![Voice-to-Text APIs](https://img.shields.io/badge/Voice--to--Text%20APIs-333333?style=flat-square)
+
+**The problem it solves**
+
+1. Lack of Accessible Mental Health Support
+Most people don't have immediate access to therapists or emotional support when they need it most.
+Nira’s Solution:
+Provides a 24/7 AI-powered chat companion that offers real-time emotional support via text, voice, and facial emotion recognition.
+
+2. Poor Mental Health Tracking & Awareness
+Users struggle to recognize emotional patterns, triggers, or trends over time.
+Nira’s Solution:
+Daily mood tracking, emotion analysis, and visual insights help users become more self-aware and identify mood triggers or fluctuations.
+
+3. Stress, Anxiety & Overwhelm Without Coping Tools
+Lack of structured tools for calming the mind or managing stress in the moment.
+Nira’s Solution:
+Guided meditation, breathing exercises, and emotional wellness games (e.g. Bubble Wrap, Smash Plates) provide immediate stress relief and emotional regulation.
+
+4. Disconnection From Positive Memories During Tough Times
+When people feel low, they often forget their past achievements or happy moments.
+Nira’s Solution:
+The Hope Box feature acts as a digital safe space for uplifting content—reminders, notes, and messages—to reinforce resilience.
+
+5. Generic Mental Health Advice
+Most apps offer generic tips that may not apply to every individual’s emotional journey or hormonal cycles.
+Nira’s Solution:
+Delivers personalized suggestions based on mood history, menstrual phases, biometric inputs, and emotional states using AI-powered analysis.
+
+6. Mental Health Stigma & Privacy Concerns
+Many users are hesitant to seek help due to stigma or fear of privacy breaches.
+Nira’s Solution:
+Provides a safe, private platform with encrypted journaling and anonymous interaction, allowing users to explore emotional health without fear or judgment.
+
+7. Fragmnted Wellness Ecosystem
+Users often have to use multiple apps for journaling, meditation, mood tracking, and fitness.
+A holistic wellness hub combining journaling, AI support, wearables data, mindfulness practices, and emotional.
+
+**Challenges we ran into**
+
+1. Emotion Recognition Accuracy (Face + Text)
+Challenge:
+Implementing accurate facial emotion detection and real-time text-based sentiment analysis was tricky, especially with diverse facial features, lighting conditions, and subtle emotional expressions.
+
+Solution:
+
+We improved facial recognition by switching to a CNN-based facial emotion model fine-tuned on the FER+ dataset, which provided better emotion classification.
+
+For text sentiment, we moved from basic rule-based NLP to BERT-based sentiment analysis, which significantly improved contextual understanding.
+
+Added a confidence threshold filter, so if the model is unsure, it avoids suggesting an emotional state to prevent misdiagnosis.
+
+2. Voice-to-Text Transcription Errors in Journaling
+Challenge:
+Users faced frequent misinterpretations with voice entries, especially in noisy environments or for users with accents.
+
+Solution:
+
+Integrated Google Speech-to-Text API, which provided more reliable transcription with accent support.
+
+Added a "preview and edit" mode before saving voice logs, giving users a chance to make corrections.
+
+Implemented basic noise cancellation preprocessing on input audio using WebRTC tools.
+
+3. Wearable Integration Inconsistencies
+Challenge:
+Integrating data from various wearable devices (like Fitbit, Apple Health) posed compatibility issues and inconsistent data syncing.
+
+Solution:
+
+Built modular API connectors for each device type to standardize incoming data.
+
+Introduced a data normalization layer that converted all heart rate/stress data into a common format.
+
+For real-time syncing, we used webhooks and polling fallbacks to ensure up-to-date biometric tracking.
+
+**Groq track**
+
+**Conversational AI Assistant**
+In the ChatWithGroq component, Groq provides an intelligent conversational interface for users to discuss their wellness journey.
+Uses the Groq API to generate contextually aware and empathetic responses.
+**Emotion and Sentiment Analysis**
+The useGroqChat hook includes a analyzeSentiment method that uses Groq to detect emotional nuances in user messages.
+This allows the app to understand the user's emotional state and tailor responses accordingly.
+**Mood Insights and Recommendations**
+The GroqMoodInsights component leverages Groq to analyze mood data and journal entries.
+Generates personalized insights and recommendations based on the user's mood patterns.
+**Adaptive System Prompts**
+Dynamic system messages in the chat interface are adjusted based on detected emotions.
+This allows the AI to adapt its tone and approach to  match the user's emotional state.
+
+Team **CodeBlue** -- [Yaswanth Reddy](https://github.com/naiduyaswanthreddy), [SRIVATSAL PARISE](https://github.com/nameisvatsal), [PRAJWALA YADLAPALLI](https://github.com/PrajwalaY26)
+
+`2025-04-24`
+
+---
+
+### Health Band for maternal and fetal monitoring
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/aipowered-arm-band-for-health-monitoring-9bfb) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://devfolio.co/project/update/aipowered-arm-band-for-health-monitoring-9bfb) [![Built at](https://img.shields.io/badge/Built%20at-RotaTechX-0052CC?style=flat-square)](https://rotatechx-1.devfolio.co)
+
+> SDG 3(Good Health)
+
+![Arduino](https://img.shields.io/badge/Arduino-333333?style=flat-square) ![NFC](https://img.shields.io/badge/NFC-333333?style=flat-square) ![ESP32](https://img.shields.io/badge/ESP32-333333?style=flat-square) ![Iot](https://img.shields.io/badge/Iot-333333?style=flat-square) ![mysq](https://img.shields.io/badge/mysq-333333?style=flat-square) ![UI/UX](https://img.shields.io/badge/UI/UX-333333?style=flat-square) ![Machine learning (ML)](https://img.shields.io/badge/Machine%20learning%20(ML)-333333?style=flat-square) ![data security](https://img.shields.io/badge/data%20security-333333?style=flat-square)
+
+**The problem it solves**
+
+Pregnancy is a critical phase that requires continuous monitoring and timely medical intervention. However, existing prenatal care systems suffer from several limitations that leave mothers and their unborn children vulnerable to preventable complications.
+
+**Challenges we ran into**
+
+----
+
+Team **TEAM INVINCIBLE** -- [HareshKrishna GS](https://github.com/HareshHKkrishna), [Balasaraswathy B](https://github.com/Balasaraswathy27), [Harinee VT](https://github.com/Harinee827), [Roshan M](https://github.com/roshanongithub), [Pranay V](https://github.com/PranayViswaraj), [LOHITH ASHWA S](https://github.com/lohithashwas)
+
+`2025-04-13`
 
 ---
 

@@ -1,6 +1,6 @@
 # Finance and Fintech
 
-![Projects](https://img.shields.io/badge/Projects-376-4B32C3?style=flat-square) [![GitHub](https://img.shields.io/badge/GitHub-tech--anupam-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/tech-anupam) [![Instagram](https://img.shields.io/badge/Instagram-tech.anupam-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/tech.anupam)
+![Projects](https://img.shields.io/badge/Projects-402-4B32C3?style=flat-square) [![GitHub](https://img.shields.io/badge/GitHub-tech--anupam-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/tech-anupam) [![Instagram](https://img.shields.io/badge/Instagram-tech.anupam-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/tech.anupam)
 
 [← Back to all themes](https://github.com/tech-anupam/hackfolio#readme)
 
@@ -476,6 +476,58 @@ Quantix showcases exceptional UI/UX design through its modern dark-themed interf
 Team **Quantix** -- [Atharv Gupta](https://github.com/GIITR31), Akshat Jindal, Arav Jha, [Anshul Tripathi](https://github.com/antrip03)
 
 `2025-10-12`
+
+---
+
+### FinanceAI
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/financeai-fbea) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Soumojitshome2023/h4b-last-brain-cell) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://h4b-lastbraincell.vercel.app/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=BqKO8PArYqA) [![Built at](https://img.shields.io/badge/Built%20at-Hack4Bengal%204.0-0052CC?style=flat-square)](https://hack4bengal-4.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-8-FF6B6B?style=flat-square)
+
+> your personal finance ai guide
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![JWT](https://img.shields.io/badge/JWT-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square)
+
+**The problem it solves**
+
+📉**No personalized advice** – One-size-fits-all doesn’t work
+💸 **Messy expense tracking** – Manual tracking is painful
+🌀 **Investment confusion** – Too many options, no clear guidance
+🔐 **Security worries** – People don’t trust sharing financial info online
+📚 **Low financial literacy** – Finance terms are often overwhelming
+
+**Challenges we ran into**
+
+1. **UI Responsiveness:** Layout broke on smaller screens. Fixed using responsive design with Flexbox and Tailwind.
+2. **Visual Appearance:** Initial UI lacked structure. Enhanced with better spacing, colors, and consistent components.
+3. **Backend CORS Error:** API calls were blocked. Resolved by configuring CORS to allow frontend origin.
+4. **Backend Errors:** Crashes due to missing async error handling. Fixed with try-catch blocks and input validation.
+5. **Civic Auth & MongoDB:** Issues saving/authenticating users. Solved by ensuring DB connection before auth flow and enforcing unique email checks.
+
+**Authenticate with Civic Auth**
+
+Our AI Finance Tracker integrates Civic Auth to provide secure, decentralized user authentication, ensuring data privacy and trust. By combining identity verification with intelligent financial insights.  
+
+[Auth](https://drive.google.com/file/d/1dNqZFP5j042I7Sk692XeKVzto9Q77CKH/view?usp=drive_link)
+
+**Best use of Gemini API**
+
+**1.Conversational Financial Assistant:** Gemini acts as an interactive chatbot that users can engage with to ask questions about their spending habits, budget plans, and savings goals.
+
+**2.Context-Aware Investment suggestions: ** It analyzes user financial data (like expenses and income) to offer real-time, personalized suggestions for budgeting, investments, and cost-saving tips.
+
+**3.User-Friendly Interface:** By integrating Gemini, we make financial literacy and management more accessible to non-technical users through simple, chat-based interactions.
+
+[Gemini AI finance analyser](https://drive.google.com/file/d/19CBpes0O0YYspTO0-jfHJYXJvzSYckVO/view?usp=drive_link)
+[Gemini chatbot](https://drive.google.com/file/d/1G89Rq1e2rISZp4BXv73yFffOgPYOBJDA/view?usp=drive_link)
+
+**Best Use of MongoDB Atlas**
+
+**1.MongoDB is used efficiently to manage Civic-authenticated** user data and financial profiles. User documents store personal info (name, email, picture) and embedded expense records, enabling fast lookups and updates with minimal queries. Indexed fields ensure quick authentication and data access.
+
+**2.The schema supports dynamic financial fields like income, savings, risk tolerance, and goals**—perfect for AI-powered advice. Updates are securely handled with controlled $set operations. The flexible, schema-less design allows the app to scale and evolve without migrations, making MongoDB an ideal choice for real-time, user-centric financial tracking.
+
+Team **Last Brain cell** -- [Satwick Mukherjee](https://github.com/Rick-03), [Madhumanti Saha](https://github.com/MadhumantiSaha), [Soumojit Shome](https://github.com/Soumojitshome2023), [Atrayee Munshi](https://github.com/AtrayeeM)
+
+`2025-06-22`
 
 ---
 
@@ -5314,6 +5366,35 @@ FlagShield is an adaptive AI-powered fraud detection engine that monitors millio
 
 ---
 
+### ExTrac
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/extrac-eb90) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/VinayCheripally/tr) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/yHlCOjNQEYg) [![Built at](https://img.shields.io/badge/Built%20at-HackPrix%20Season%202-0052CC?style=flat-square)](https://hackprix-2025.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-3-FF6B6B?style=flat-square)
+
+> Expense tracker
+
+![Kotlin](https://img.shields.io/badge/Kotlin-333333?style=flat-square) ![React Native](https://img.shields.io/badge/React%20Native-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square)
+
+**The problem it solves**
+
+This app makes daily expense tracking effortless by removing the need for manual entry. Unlike many other apps that rely on cloud storage posing potential privacy risks or require users to log every transaction themselves, our solution offers a secure, privacy first alternative. It works seamlessly in the background, even when the app isn't open. The app never asks for personal information and processes everything locally on your device using SMS access only ensuring your data stays private and protected.
+
+**Challenges we ran into**
+
+One significant challenge I faced was enabling background execution for the app. This wasn't feasible within the Expo environment, so I had to eject to a bare React Native setup. Implementing this functionality and ensuring it worked reliably took around 5 hours, as it required deep platform-specific customization and debugging.
+
+Another major hurdle was configuring the local database. I encountered multiple compatibility issues involving Kotlin, the Android SDK, and the NDK (Native Development Kit). Resolving these conflicts and successfully setting up the local database took several hours and required careful troubleshooting and environment configuration.
+
+**Open Innovation**
+
+SMS Expense Tracker fits the Open Innovation track because it solves a real-world problem by building on data and systems that already exist outside the app. It reads SMS messages from banks—data that's already being generated—and turns them into useful insights for users, reducing the need for manual expense tracking.
+
+The app shows how existing technologies (like SMS and mobile platforms) can be reimagined to create new value. It also has the potential to grow by connecting with other services or being adapted for different regions, making it a strong example of using external ideas and resources to innovate in a meaningful way.
+
+Team **IT3** -- [Goskula Anirudh](https://github.com/anni-2004), [SirRamKumarReddy Ginjala](https://github.com/sriram020204), [vinay cheripally](https://github.com/VinayCheripally)
+
+`2025-06-15`
+
+---
+
 ### CampusConnect
 [![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/campusconnect-bea2) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://jisce-campus-connect.ai.studio/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://vimeo.com/1222366420) [![Built at](https://img.shields.io/badge/Built%20at-HyperFusion-0052CC?style=flat-square)](https://hyperfusion.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
 
@@ -9241,6 +9322,168 @@ Provides a centralized platform to discover and connect with certified financial
 Manikandan Ashokkumar
 
 `2025-09-07`
+
+---
+
+### Drift Payments
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/drift-payments-cb5b) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Kaushikh76/Drift_Protocol) [![Built at](https://img.shields.io/badge/Built%20at-Hacking%20Paris%20%20|%20Powered%20by%20Chiliz-0052CC?style=flat-square)](https://hacking-paris.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-2-FF6B6B?style=flat-square)
+
+> Easy cross chain payment solution for Chiliz dapps
+
+![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square)
+
+**The problem it solves**
+
+#Drift Payments 
+
+**Cross-Chain Fan Token Payment Infrastructure with Universal Wallet Integration**
+
+---
+
+## Project Overview
+
+**Team**: Drift Labs  
+**Track**: DeFi & Payments / Cross-Chain Infrastructure  
+**NPM Package**: `npm install drift-payments`  
+
+---
+
+## The Need
+
+### Problem Statement
+
+**Fan token payments are broken across the web3 ecosystem.**
+
+Sports fans want to support their teams with fan tokens, but the current landscape presents massive barriers:
+
+#### **Current Pain Points**
+
+1. **Fragmented Wallets**: Socios fans use Socios wallet, crypto users use MetaMask - no unified experience
+2. **Chain Complexity**: Fan tokens live on Chiliz, but users have funds on Ethereum, Polygon, Arbitrum
+3. **Technical Barriers**: Merchants need blockchain expertise to accept fan token payments
+4. **Poor UX**: Existing solutions require multiple apps, bridging, and complex token swaps
+5. **Limited Adoption**: Only 3% of e-commerce accepts crypto payments, 0.1% accept fan tokens
+
+
+## 💡 The Solution
+
+### Drift Payments: Universal Fan Token Payment Infrastructure
+
+**One widget. Any wallet. Any chain. Instant fan token payments.**
+
+We built the **first universal payment widget** that enables:
+
+**Universal Wallet Support** - MetaMask, Socios, WalletConnect  
+ **Cross-Chain Payments** - Pay from any chain to receive fan tokens  
+ **Plug-and-Play Integration** - 3 lines of code for any website  
+**Real-Time Processing** - Instant quotes and transaction execution  
+**Production Ready** - NPM package with TypeScript support  
+
+### Core Innovation
+
+**We solve the cross-chain + multi-wallet problem** by creating a unified payment abstraction layer that:
+
+1. **Connects any wallet** (MetaMask + Socios via WalletConnect)
+2. **Accepts any token** (USDC, ETH, USDT → Fan tokens)
+3. **Bridges any chain** (Ethereum → Chiliz automatically)
+4. **Provides real blockchain transactions** (actual transaction hashes)
+
+---
+
+##  Use Cases
+
+### 1. **E-Commerce Integration** 
+*Real-world merchant adoption*
+
+**Scenario**: Official PSG merchandise store wants to accept PSG fan tokens
+
+```tsx
+// 30 seconds to integrate
+import { DriftProvider, DriftPaymentWidget } from 'drift-payments';
+
+function PSGStore() {
+  return (
+    <DriftProvider config={{
+      apiUrl: 'https://api.psg-store.com',
+      merchantWallet: '0x742d35...', // PSG's wallet
+      walletConnectProjectId: 'wc_abc123'
+    }}>
+      <DriftPaymentWidget 
+        onPaymentSuccess={(result) => {
+          // PSG fan just bought a jersey with PSG tokens!
+          window.location.href = `/success?tx=${result.transactionHash}`;
+        }}
+      />
+    </DriftProvider>
+  );
+}
+```
+
+**Impact**: PSG fans worldwide can buy merchandise with PSG tokens, creating real utility and revenue.
+
+### 2. **Sports Betting & Gaming**
+*Fan engagement platforms*
+
+**Scenario**: Fantasy football platform accepts multiple fan tokens for entries
+
+- **User Experience**: Choose Arsenal vs Barcelona match → Pay with AFC or BAR tokens
+- **Cross-Team Payments**: Real Madrid fan can bet using Manchester City tokens
+- **Instant Settlement**: Winnings paid in fan tokens directly to user's Socios wallet
+
+### 3. **Event Ticketing**
+*Stadium and event access*
+
+**Scenario**: Champions League match ticketing
+
+```tsx
+function ChampionsLeagueTickets() {
+  return (
+    <DriftPaymentWidget 
+      onPaymentSuccess={(result) => {
+        // Generate NFT ticket with transaction proof
+        mintTicketNFT(result.transactionHash, result.fanToken);
+      }}
+    />
+  );
+}
+```
+
+**Innovation**: Pay with any fan token → Get team-specific perks and access
+
+### 4. **Creator Economy**
+*Content creators and influencers*
+
+**Scenario**: Football YouTuber accepts donations in fan tokens
+
+- **Multi-Token Support**: Fans pay with their team's tokens
+- **Instant Conversion**: Creator receives preferred token (USDC/ETH)
+- **Community Building**: Token-gated Discord access based on payments
+
+### 5. **DeFi Integration**
+*Yield farming and staking with fan tokens*
+
+**Scenario**: Fan token DeFi protocols
+
+```tsx
+function FanTokenStaking() {
+  return (
+    <DriftPaymentWidget 
+      onPaymentSuccess={(result) => {
+        // Stake fan tokens in yield farming protocol
+        stakeFanTokens(result.fanToken, result.amount);
+      }}
+    />
+  );
+}
+```
+
+**Innovation**: Turn fan tokens into yield-generating assets
+
+---
+
+Team **Drift** -- [Kaushikh Balachandar](https://github.com/Kaushikh76)
+
+`2025-07-13`
 
 ---
 
@@ -15070,6 +15313,323 @@ Solution: We carefully debugged JavaScript compatibility issues, optimized CSS, 
 Team **Night Owl** -- [Deepak Dhoundiyal](https://github.com/arakshit1410), [Rakshit Dogra](https://github.com/arakshit1410), [Samakhya Sharma](https://github.com/arakshit1410), [Siddharth Narula](https://github.com/Siddharth-Narula)
 
 `2025-09-06`
+
+---
+
+### BudgetSphere
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/budgetsphere-c558) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/sayandippaul/Budget-sphere-) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://budget-sphere.onrender.com/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/qYvJ-6u9Bq8?si=vCKCstrm6xmBHbCy) [![Built at](https://img.shields.io/badge/Built%20at-Hack4Bengal%204.0-0052CC?style=flat-square)](https://hack4bengal-4.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> All in one Finance Assistance
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![scikit-learn](https://img.shields.io/badge/scikit--learn-333333?style=flat-square) ![NumPy](https://img.shields.io/badge/NumPy-333333?style=flat-square) ![pandas](https://img.shields.io/badge/pandas-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square)
+
+**The problem it solves**
+
+1. Untracked and Unplanned Spending
+  Problem: Many users struggle to understand where their money goes each month.
+  Solution: BudgetSphere’s Expense Tracker helps users log, categorize, and visualize expenses — making spending habits clear and actionable.
+
+2. Fragmented Financial Data
+  Problem: Income, expenses, and investments are often scattered across bank accounts, emails, statements, and apps.
+  Solution: BudgetSphere centralizes financial tracking in one clean interface — users can manually log or use AI-assisted extraction.
+
+3. Manual Extraction from Emails & Statements
+  Problem: Financial details in emails or messages (e.g., salary credits, rent payments) are hard to process and record manually.
+  Solution: Gemini API integration allows users to paste such messages and get structured values auto-extracted into categories like income, rent, savings, etc.
+
+4. Lack of Personalized Investment Advice
+  Problem: Users don't know how to allocate their savings across FDs, mutual funds, gold, or other investments based on their risk appetite.
+  Solution: The Smart Advisor module of BudgetSphere provides dynamic, AI-generated recommendations tailored to user savings and risk profile.
+
+5. Poor Visibility into Investment Portfolio
+  Problem: People often forget how much they invested and what it’s worth now.
+  Solution: BudgetSphere’s Portfolio Tracker lets users record investments, current values, and see how their assets are performing over time.
+
+
+
+![image](https://assets.devfolio.co/content/f1fa18d034f74cb086eb8c1726f67bd1/88df914c-c8d8-44e3-9ab6-4cce136ae1fd.png)
+
+
+![image](https://assets.devfolio.co/content/f1fa18d034f74cb086eb8c1726f67bd1/874609f7-3077-4f90-b6c5-11113f0aeaa0.png)
+
+
+![image](https://assets.devfolio.co/content/f1fa18d034f74cb086eb8c1726f67bd1/23ae3402-2ba0-4a50-a297-de87f4e60056.png)
+
+
+![image](https://assets.devfolio.co/content/f1fa18d034f74cb086eb8c1726f67bd1/a16cb192-9ae1-4f5d-88dc-d0289336ca76.png)
+
+**Challenges we ran into**
+
+1. Data Storage & Persistence
+Challenge:
+Currently, data is stored in memory. When the server restarts, everything is lost.
+Impact:
+User data (expenses, investments, Gemini analysis) isn’t retained.
+Solution:
+Integration with PostgreSQL with proper schemas.
+
+2.Gemini API Integration
+Challenge:
+a. Rate limiting (429 errors)
+b. Latency for large prompts
+c. Unexpected or inconsistent output structure
+Impact:
+Could disrupt UX or crash the app if not handled.
+
+Solution:
+Added robust error handling, retries, and response schema validation.
+Validate the response format before using it.
+
+3.Data Validation and Categorization
+Challenge:
+Users may input unstructured or incorrect data (typos, ambiguous terms).
+Gemini may misclassify or skip fields.
+
+Solution:
+Added frontend validation (JavaScript)
+Offers category suggestions, uses dropdowns for categories
+
+4. User Management (future)
+Challenge:
+when we implemented authentication we faced:
+Handling sessions securely
+Storing user data separately
+Preventing cross-user access
+
+Solution:
+Use Flask-Login; store user IDs with each record.
+
+5.Gamified UI Performance
+Challenge:
+Card UI, animations, or drag-drop might lag on mobile or low-end devices.
+
+Solution:
+Optimization with CSS transitions (not JS-heavy)
+Avoided unnecessary DOM updates
+
+6. Parsing Complexity in Gemini
+Challenge:
+Emails may have varied formats (bank statements, invoices, chats, etc.)
+Gemini may struggle with vague inputs or new formatting.
+
+Solution:
+Preprocess input to normalize formatting (e.g., remove headers/footers)
+
+7. Testing and Debugging
+Challenge:
+Gemini’s output is non-deterministic and difficult to test repeatedly.
+
+Solution:
+Log all input/output pairs for debugging
+Used mock responses in test mode
+
+8.Deployment and Hosting
+Challenge:
+Gemini API key security
+CORS and CSRF issues
+Server crashes due to unhandled input
+
+Solution:
+Use environment variables for API keys
+Deployed via Render
+
+**Best use of Gemini API**
+
+How Gemini API works in BudgetSphere:
+
+1.Parses semi-structured email-like text
+2.Classifies content into financial categories (Income, Fixed, Essential, Lifestyle, Savings)
+3.Returns a structured JSON for backend logic
+
+Advantages of using Gemini API:
+1. Targeted (email → categorized finance fields)
+2.Effective (structured JSON response)
+3.Smart (avoids rigid templates)
+4.Scalable (can extend to SMS, WhatsApp exports, PDFs)
+
+![image](https://assets.devfolio.co/content/f1fa18d034f74cb086eb8c1726f67bd1/0ea6df9f-17fc-4bab-8ddd-ca17da9962f3.png)
+
+![image](https://assets.devfolio.co/content/f1fa18d034f74cb086eb8c1726f67bd1/20e1a423-5fc8-4f59-8e0f-1842445e35b2.png)
+
+Team **Hard-Disk** -- [Arka Mandal](https://github.com/ArkaMandal2003), [Ishika Senapati](https://github.com/2004ISHIKA), [sayandip paul](https://github.com/sayandippaul)
+
+`2025-06-22`
+
+---
+
+### BIOPAY CONNECT
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/biopay-connect-79b9) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://bio-pay-connect.vercel.app/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=1gikvJwXueI) [![Built at](https://img.shields.io/badge/Built%20at-Hack%20With%20Gujarat-0052CC?style=flat-square)](https://hack-with-gujarat.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> 1 . SEAMLESS PAYMENTS                         
+2. ENHANCED SECURITY
+3. BANK-FREE SYSTEM
+4.CONTACTLESS TRANSACTION
+
+![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![TensorFlow](https://img.shields.io/badge/TensorFlow-333333?style=flat-square) ![OpenCV](https://img.shields.io/badge/OpenCV-333333?style=flat-square) ![REST API](https://img.shields.io/badge/REST%20API-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Mediapipe](https://img.shields.io/badge/Mediapipe-333333?style=flat-square) ![Backend](https://img.shields.io/badge/Backend-333333?style=flat-square)
+
+**The problem it solves**
+
+1.Traditional payment systems are dependent on banks, PIN’s, OTP’s and third party processors, leading to slow and complex transactions.
+
+  2.The Complexities of NPCI System leads to delay in the payment.
+  3. Security risks arise due to fraud vulnerabilities in conventional authentication methods.
+
+ 4. Existing digital wallets require internet connectivity and multiple authentication steps, reducing efficiency and accessibility
+
+**Challenges we ran into**
+
+BIOPAY CONNECT
+We have developed a website with technologies such as MERN STACK and Database used is MySQL 
+TARGET AUDIENCE
+Retail Customers, Corporates and Enterprises and government services. (B2B BUSINESS)
+RELIABLE & SECURE HARDWARE
+User onboarding Campaigns, Loyalty and rewards programs
+
+Team **Anandeshwar** -- [Tony Bhardwaj](https://github.com/TonyBhardwaj24)
+
+`2025-05-27`
+
+---
+
+### Expence Tracker
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/expence-tracker-c93d) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://monish-parmar10.github.io/expence-tracker/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/10jj3rHZGA0) [![Built at](https://img.shields.io/badge/Built%20at-HACKHAZARDS%20'25-0052CC?style=flat-square)](https://hackhazards25.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Expense Tracker is a user-friendly web application designed to help teenagers and adults manage their finances effectively. It allows users to track, delete, filter, and sort expenses easily.
+
+![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![React.js](https://img.shields.io/badge/React.js-333333?style=flat-square) ![We use HTML](https://img.shields.io/badge/We%20use%20HTML-333333?style=flat-square)
+
+**The problem it solves**
+
+Managing money is difficult for teenagers and adults, leading to overspending and confusion. Our Smart Expense Tracker simplifies this by helping users easily track, categorize, and manage their expenses, promoting better financial habits.
+
+**Challenges we ran into**
+
+We faced challenges in designing a clean, user-friendly interface that works well across devices. Integrating Groq’s AI API also required multiple attempts to get smooth, intelligent features. We overcame these hurdles through team  redesigns, and continuous testing.
+
+**Groq track**
+
+In expense tracker project there is a requirement of guide who will manage and analyze the expenses so we use AI (Groq) tool API for receiving suggestions , And we also give an option to as any type of question which was answered by Groq.
+
+Team **Predictor** -- Harshita Gupta, Mayank Lovanshi, Mohit Mourya, Monish Parmar
+
+`2025-04-26`
+
+---
+
+### StockSense AI
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/stocksense-ai-f2c2) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/PlanetDestroyyer/stock-sense-ai) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://stock-sense-ai.onrender.com/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/VNAKloNNqOw) [![Built at](https://img.shields.io/badge/Built%20at-HACKHAZARDS%20'25-0052CC?style=flat-square)](https://hackhazards25.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> StockSense AI — Real-Time Stock Insights at the Speed of Thought, Powered by Groq.
+
+![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![HTML/CSS](https://img.shields.io/badge/HTML/CSS-333333?style=flat-square) ![yfinance](https://img.shields.io/badge/yfinance-333333?style=flat-square) ![langchain](https://img.shields.io/badge/langchain-333333?style=flat-square) ![News APIs](https://img.shields.io/badge/News%20APIs-333333?style=flat-square) ![Groq](https://img.shields.io/badge/Groq-333333?style=flat-square)
+
+**The problem it solves**
+
+Accessing stock market insights today requires users to visit multiple websites for trends, comparisons, and news, making the process time-consuming and inefficient.
+Our solution provides a single AI-powered platform that automates research, offers real-time data, and simplifies decision-making for both beginners and experts.
+
+**Challenges we ran into**
+
+## Challenges We Ran Into
+
+ **Context Length Issues:**  
+  We faced problems with context length as the tools were generating large amounts of text, which our models couldn’t process efficiently. To solve this, we experimented with different models that could handle longer or structured inputs better.
+
+ **Data Fetching for Top Movers:**  
+  While building the "Top Movers" page, fetching the top gainers and losers was taking a lot of time. To optimize performance, we added a filter to display only stocks that had moved up by 20% or more, ensuring faster and smoother loading.
+
+ **LLM Output Formatting:**  
+  Initially, the LLM was not providing answers in the correct Pydantic format. After tuning the prompt carefully, we managed to get the model to respond consistently in the expected structured format.
+
+**Groq track**
+
+StockSense AI is a web-based stock assistant designed to simplify market tracking and financial analysis. By integrating Groq's ultra-fast inference capabilities, StockSense AI delivers real-time financial insights and responsive user interactions.​
+SemiAnalysis
+
+**Key Integrations with Groq:**
+
+    1) Assistant : Utilizes Groq's low-latency inference to provide instant answers to user queries about stocks, market trends, and financial news.​
+
+    2) Enhanced User Experience : The speed and efficiency of Groq's hardware ensure a seamless and interactive experience for users seeking timely financial information.​
+
+By harnessing Groq's advanced AI infrastructure, StockSense AI exemplifies how cutting-edge hardware acceleration can enhance financial applications, making it a strong fit for the Groq track.
+
+Team **AI Hunter** -- Sahana Durgekar, [Pranav Nalawade](https://github.com/PlanetDestroyyer), [Harshita Singhal](https://github.com/Harshita-singla)
+
+`2025-04-27`
+
+---
+
+### Trading BOT
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/trading-bot-d4ab) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ssharvesh-steep/automacti-trading-Ai/tree/main) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://vimeo.com/1054796923?share=copy) [![Built at](https://img.shields.io/badge/Built%20at-HACKHAZARDS%20'25-0052CC?style=flat-square)](https://hackhazards25.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Automatic trade excution without any emotions and less loss
+
+![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![csharp](https://img.shields.io/badge/csharp-333333?style=flat-square) ![AI](https://img.shields.io/badge/AI-333333?style=flat-square)
+
+**The problem it solves**
+
+the human emmotions are control by this bot and the loss will be reduced
+
+**Challenges we ran into**
+
+The unwanted loss are being reduced and it is hard part of this project
+
+Team **steep** -- [Sreejith S](https://github.com/SREEJITHGI), [Sakthivel SM](https://github.com/sakthivelmeganathan), [sharvesh s](https://github.com/ssharvesh-steep)
+
+`2025-04-27`
+
+---
+
+### QueueWise Pro
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/queuewise-pro-26bb) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ronVK18/Hack_Hustlers-HackSpire2025) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://drive.google.com/file/d/1VZ2sV1gMYsrlEan8yMbdL3qyk64txY7e/view?usp=drive_link) [![Built at](https://img.shields.io/badge/Built%20at-HackSpire%202025-0052CC?style=flat-square)](https://hackspire2025.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Your Time Matters — QueueWise Pro Makes It Count.
+
+![Firebase](https://img.shields.io/badge/Firebase-333333?style=flat-square) ![TensorFlow](https://img.shields.io/badge/TensorFlow-333333?style=flat-square) ![PyTorch](https://img.shields.io/badge/PyTorch-333333?style=flat-square) ![scikit-learn](https://img.shields.io/badge/scikit--learn-333333?style=flat-square) ![Flutter](https://img.shields.io/badge/Flutter-333333?style=flat-square) ![MERN stack](https://img.shields.io/badge/MERN%20stack-333333?style=flat-square)
+
+**The problem it solves**
+
+QueueWise Pro is an innovative AI-powered smart queue management system designed to revolutionize the way service centers and users handle waiting times. For users, it offers a seamless experience by providing real-time service center maps with clickable counters, AI-driven wait time predictions, and personalized time slot recommendations based on historical patterns. Dynamic notifications keep users informed about their queue status, while a voice-activated chatbot allows for natural language queries, making interactions effortless. The system also intelligently reroutes users to less crowded counters, minimizing delays and enhancing convenience.
+
+For service center administrators, QueueWise Pro delivers powerful tools for live monitoring and optimization. An interactive dashboard provides real-time insights into queue lengths, staff distribution, and potential bottlenecks, with computer vision (YOLOv8) detecting anomalies like sudden crowd surges. Predictive analytics, powered by advanced ML models (LightGBM, Random Forest), forecast wait times with 94% accuracy, enabling better resource allocation. Simulation tools project future crowd scenarios, allowing admins to test adjustments before implementation. Automated alerts notify staff of critical issues, such as significant wait time deviations or overcrowding, ensuring quick resolutions. Additionally, the system supports seamless integration with existing platforms through standardized APIs, making it adaptable across industries like healthcare, banking, and government services.
+
+By combining AI-driven efficiency, real-time transparency, and proactive management, QueueWise Pro eliminates the frustrations of traditional queuing systems. It not only saves time and reduces stress for users but also enhances operational safety and productivity for service providers, creating a smoother, smarter, and more responsive experience for all.
+
+**Challenges we ran into**
+
+Developing QueueWise Pro came with its fair share of obstacles that tested our problem-solving skills. One significant challenge was fine-tuning the LightGBM-based predictive engine to deliver accurate wait time estimates in real-time, especially during sudden demand surges. Initially, the model struggled with rapid changes in queue dynamics, leading to inconsistent predictions. To overcome this, we implemented a hybrid ensemble approach, combining LightGBM with a Random Forest Regressor for historical trend analysis and adding dynamic recalibration for anomalies. This not only stabilized performance but also improved accuracy to 94% (±2.1 minutes).
+
+Another hurdle was ensuring real-time synchronization between the mobile app and admin dashboard. Early tests revealed delays in Firebase Cloud Messaging (FCM) notifications, causing users to receive outdated queue updates. We tackled this by introducing WebSocket-based live data streaming and optimizing Firebase’s event listeners, which drastically reduced latency and ensured near-instant updates.
+
+Integrating the GNN-based smart routing system with third-party services also posed compatibility challenges. Different APIs had varying authentication and response formats, leading to integration bottlenecks. Our solution was to develop a Modular Compatibility Plugin (MCP) with standardized protocols like OAuth2 and RESTful endpoints, enabling seamless connectivity with external systems.
+
+Each challenge pushed us to innovate—whether through adaptive algorithms, infrastructure optimizations, or modular design—making QueueWise Pro more resilient and user-friendly. The lessons learned not only strengthened the system but also deepened our expertise in AI-driven queue optimization.
+
+Team **Hack Hustlers** -- [Ronak Sharma](https://github.com/ronVK18), [Divy Shah](https://github.com/ShadowKing3000), [Shubham Bera](https://github.com/Shubham-2004), [Dhaval Rathod](https://github.com/dhruv389)
+
+`2025-04-27`
+
+---
+
+### MindMosaic
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/mindmosaic-07d1) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/vrajmevawala/Code_and_Load-HackSpire2025.git) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://docs.google.com/presentation/d/17icBe2RRvqX_-ol_hEcG3NcZysNPwFPrFPLmNxt0Pt4/edit?usp=sharing) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.loom.com/share/868014a32c9747c984ae7eb672eff7af?sid=587bb718-04d8-47c4-9c7e-f73be5f29f9a) [![Built at](https://img.shields.io/badge/Built%20at-HackSpire%202025-0052CC?style=flat-square)](https://hackspire2025.devfolio.co) ![Likes](https://img.shields.io/badge/Likes-1-FF6B6B?style=flat-square)
+
+> Check in. Breathe. Heal — with MindMosaic
+
+![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![axios](https://img.shields.io/badge/axios-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![ChartJs](https://img.shields.io/badge/ChartJs-333333?style=flat-square)
+
+**The problem it solves**
+
+In today’s fast-paced world, people often neglect their emotional well-being, leading to stress, anxiety, and burnout. Many find it difficult to regularly check in with their feelings or access personalized mental health support. MindMosaic solves this by offering AI-powered daily emotional check-ins, mood tracking, and personalized wellness suggestions — making emotional care easy, accessible, and part of everyday life.
+
+**Challenges we ran into**
+
+Initially, we planned to train our own sentiment analysis model using a pre-trained dataset and integrate it into MindMosaic. However, during development, we realized that training and fine-tuning the model would take significant time and resources — something we couldn’t afford given the tight project deadline. To overcome this, we shifted our strategy and integrated Google's Gemini API instead. Gemini provided fast, reliable, and detailed emotional analysis out-of-the-box, allowing us to maintain the quality of our AI responses while staying within our time constraints.
+
+Team **Code&Load** -- [Samarth Kachhadiya](https://github.com/Samarth305/), [Vraj Mevawala](https://github.com/vrajmevawala), [Aaryan Chavda](https://github.com/Aaryan013), [Yug Gandhi](https://github.com/YugGandhi)
+
+`2025-04-27`
 
 ---
 
@@ -23767,6 +24327,522 @@ Clear tracking: You can check totals or category-wise expenses instantly.
 Team **weDontKnowHowToCode** -- [Anish Chandrasekar](https://github.com/anish-chandrasekar), [Pranav Karthikeyan](https://github.com/Pranav9K)
 
 `2025-09-07`
+
+---
+
+### SPROUT
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/sprout-edec) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://www.figma.com/design/G6dLtuWkjCTIGvqaNrCXDB/SPROUT?node-id=0-1&t=r1Sbczq6CVw6sec5-1) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/QAfu1vePrJ8?si=QKm1VPmMUyyo1X88) [![Built at](https://img.shields.io/badge/Built%20at-Game%20of%20Life-0052CC?style=flat-square)](https://game-of-life.devfolio.co)
+
+> FINANCE ASSISTANT
+
+![Flutter](https://img.shields.io/badge/Flutter-333333?style=flat-square) ![Figma](https://img.shields.io/badge/Figma-333333?style=flat-square)
+
+**The problem it solves**
+
+This project is based on developing personal finance in individuals through a gaming method. In this project, we aim to help users learn about trading and the stock market day by day through certain tasks, which reward special tokens that can be redeemed as Ethereum tokens.
+
+**Challenges we ran into**
+
+converting figma design to flutter code this taking more effort than we think.
+
+Team **Phenix** -- [Sourav S](https://github.com/Tmzoom), [Zenjith A](https://github.com/zenjith), [Neeraja R](https://github.com/Neeraja2005R)
+
+`2025-07-27`
+
+---
+
+### Truefield AI
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/truefield-ai-6724) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ejayO9/warpspeed2025.git) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.loom.com/share/0eae974c39844e109896a0edd544d3f2?sid=26322219-8105-4944-96f3-c40cea066369) [![Built at](https://img.shields.io/badge/Built%20at-Warpspeed:%20Agentic%20AI%20Hackathon%20|%20Lightspeed%20India-0052CC?style=flat-square)](https://warpspeed2025.devfolio.co)
+
+> Choose the best way to finance big purchases
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=flat-square)
+
+**The problem it solves**
+
+Very recently, my dad (retired) was buying a small house but we didn't know who we could consult on what would be the best way to finance it. My friend was looking to buy a car and faced the same problem. 
+
+Banks? - They're incentivized to sell their loans than what's best for the user.
+
+Saw this same problem faced by a lot of people when I was doing user interviews for our customers at a fintech I was working at. Not all have easy access to reliable wealth advisors or CAs they can reach out to while making major financial decisions. 
+
+About 420mn (lol, promise i didn't make the number up) people from India have taken a loan and they 60% of that is from rural India. How many of them do you think were making a well informed decision?
+
+**Challenges we ran into**
+
+- Integrating livekit with LangGraph surprsingly took a shit ton of time and cursor credits.
+- Fetching user's bank statements, stocks, mutual funds, credit report using Account Aggregator APIs and Credit Bureau since we're not a licensed bank and NBFC - had to get schemas from the docs, populate the schemas using personal data or synthetically generated data
+- Toughest problem to solve would be the analysis engine that would ask the user the most important questions for their case, and provide an accurate, pointed analysis.
+
+**Progress made before hackathon**
+
+None
+
+We infact had gotten started very late in the evening. Wasted lot of time trying to get AA and Credit bureau APIs in the beginning
+
+Team **Patraos** -- Jayanth Emmadi, Vinit Sarode
+
+`2025-06-22`
+
+---
+
+### PullQuest
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/pullquest-3968) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ujjuishere/PullQuestFrontEnd) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=0pcyCSIMiRM) [![Built at](https://img.shields.io/badge/Built%20at-HackPrix%20Season%202-0052CC?style=flat-square)](https://hackprix-2025.devfolio.co)
+
+> Fair credit for every open-source PR.
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+PullQuest solves the major problem of unrecognized and poorly managed open-source contributions. 
+Contributors do not have a ranking based profile system(Like leetcode,codeforces) , Maintainers struggle to evaluate code quality and engagement due to overwhelming no of PRs(Some blatantly created with low quality).
+PullQuest fixes this with a transparent, measurable, and rewarding system. 
+Recruiters do not have direct access to a developer's genuine contribution and quality
+
+It thus empowers recruiters, contributors and Repository maintainers
+
+**Challenges we ran into**
+
+GitHub OAuth Setup: Facedd issues with callback URLs and access tokens; solved using GitHub docs and Postman.
+
+GitHub API & Octokit: Struggled with scopes and endpoints; fixed by isolating API tests and reading docs.
+
+Creating Issues: Ran into permission and endpoint errors; resolved with correct scopes and debugging tools.
+
+Handling Rate Limits & Multiple Requests: Added batching, retries, and rate-limiting middleware.
+
+TypeScript & Express Types: Faced type mismatch errors; resolved using proper typings and handler formats.
+
+Late-Night Debugging: The hardest bug actually Fighting sleep at 2 AM — coffee and determination won.
+
+**Open Innovation**
+
+PullQuest wholly fits the Open Innovation track by solving a key problem in the open-source world: lack of contributor recognition and engagement.
+
+It gamifies contributions using XP and coins, making open source more rewarding and fun.
+
+Helps maintainers evaluate PRs better, improving collaboration.
+
+Integrates with GitHub, so it's usable across any project or domain.
+
+Built for and by the community, it's open, adaptable, and scalable — true to the spirit of open innovation.
+
+Team **Deb Weblopers** -- [NISHANT SINGH](https://github.com/NishantSinghhhhh), [Arun Kumar](https://github.com/ArunKushhhh)
+
+`2025-06-15`
+
+---
+
+### Tax Axe
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/tax-axe-bd3c) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://preview--tax-axe-advisor-pro.lovable.app/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/Yz1zNWGd74k?si=PA5Oj6L36skQ9l5a) [![Built at](https://img.shields.io/badge/Built%20at-HackPrix%20Season%202-0052CC?style=flat-square)](https://hackprix-2025.devfolio.co)
+
+> Your Personal Guide to Tax Savings
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square)
+
+**The problem it solves**
+
+1. Lack of Tax Knowledge
+
+> Most people don’t know what deductions they're eligible for — like 80CCD(2), 80GG, or 80DDB.
+
+2. Wrong Tax Regime Selection
+
+> People choose Old or New regime without comparison — often losing thousands.
+
+3. Underutilized Deductions
+
+> People invest blindly and miss full limits under 80C, 80D, etc., reducing potential savings.
+
+4. No Personalized Guidance
+
+> Existing tools are calculators, not advisors — they don’t ask the right questions or guide you step-by-step.
+
+5. No Visual Insight
+
+> Tax savings aren’t shown clearly. No visual comparison between regimes or section-wise gaps.
+
+6. Last-Minute Panic Saving
+
+> Users scramble at year-end without clarity on what to do, leading to bad investment decisions.
+
+7. One-Size-Fits-All Tools
+
+> Current platforms don’t adapt to your salary structure, housing, or dependents — Tax Axe does.
+
+**Challenges we ran into**
+
+⚠️ Challenges I Ran Into While Building Tax Axe
+
+1. Collecting Complete Tax Rules
+
+> Indian tax law has too many sections and exceptions (80C, 80GG, HRA rules, disability slabs) — understanding and coding them accurately was tough.
+
+2. Handling Edge Cases
+
+> Rent without HRA, senior citizen benefits, or multiple overlapping deductions (like 80CCD(1B) + 80C) made logic complex.
+
+3. Making It Beginner-Friendly
+
+> It was hard to balance between detailed tax logic and keeping the user experience simple and educational.
+
+4. Data Validation & User Input Checks
+
+> Ensuring users don’t enter wrong or contradictory data (e.g. deductions > income) needed smart checks and good error messages.
+
+5. Visualizing Data Clearly
+
+> Showing tax comparisons and deduction gaps with meaningful, attractive charts took experimentation.
+
+6. No Built-in Backend Support on Lovable
+
+> The platform gave only frontend output, so I had to rethink how to integrate backend (like Flask or Supabase).
+
+7. Time Constraints (If Hackathon Project)
+
+> With limited time, implementing full tax coverage and ensuring accuracy under pressure was a big challenge.
+
+**Open Innovation**
+
+💡 How Tax Axe Fits the Open Innovation Track:
+
+1. Solves a Real-World Problem
+
+> Tax Axe addresses a common pain point: salaried individuals struggle to understand and optimize their taxes — something most tools oversimplify or overcharge for.
+
+2. Goes Beyond Traditional Calculators
+
+> Unlike existing platforms, it guides users interactively, asks smart questions, educates them on unknown sections, and gives visual clarity — innovating tax planning for the masses.
+
+3. Open to All, No Login or Expert Needed
+
+> Designed to be usable by anyone, regardless of their financial knowledge — which supports inclusivity and democratization of financial literacy.
+
+4. Combines Tech + Education
+
+> It uses automation, decision-logic, and data visualization to empower citizens to make better financial decisions without needing a CA.
+
+5. Pluggable and Scalable
+
+> Since it's built in Python with optional Flask and Supabase, it can be expanded into a mobile app, chatbot, or plugged into payroll systems — fostering open-ended innovation.
+
+6. Encourages Civic Tech Thinking
+
+> It doesn't sell a product — it solves a public problem: helping honest taxpayers save money the right way. That’s the spirit of open innovation
+
+Team **Money Baker** -- [Farhaan Ahmed](https://github.com/Farox0), [Syed Ammar](https://github.com/workwithammar25th), [Shafain Khan](https://github.com/Shafain01)
+
+`2025-06-15`
+
+---
+
+### Financial Agent
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/financial-agent-714b) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Moinnoorani/Financial-Agent) [![Built at](https://img.shields.io/badge/Built%20at-Hack%20With%20Gujarat-0052CC?style=flat-square)](https://hack-with-gujarat.devfolio.co)
+
+> AI-powered financial analyst in your terminal — real-time stock data, news & insights at light speed
+
+![](https://img.shields.io/badge/-333333?style=flat-square) ![API Rate Limits:](https://img.shields.io/badge/API%20Rate%20Limits:-333333?style=flat-square) ![Yahoo Finance blocked frequent requests during testing.](https://img.shields.io/badge/Yahoo%20Finance%20blocked%20frequent%20requests%20during%20testing.-333333?style=flat-square) ![Fix: Added 2-second delays between calls + local caching.](https://img.shields.io/badge/Fix:%20Added%202--second%20delays%20between%20calls%20+%20local%20caching.-333333?style=flat-square) ![Groq Context Window:](https://img.shields.io/badge/Groq%20Context%20Window:-333333?style=flat-square) ![Long outputs (e.g.](https://img.shields.io/badge/Long%20outputs%20(e.g.-333333?style=flat-square) ![tables + news)](https://img.shields.io/badge/tables%20+%20news)-333333?style=flat-square)
+
+**The problem it solves**
+
+Investors waste hours juggling between Yahoo Finance, news sites, and analyst reports to track stocks like NVIDIA. Our Financial Agent:
+
+Aggregates everything: Live prices, fundamentals, news, and recommendations in one CLI command.
+
+Answers naturally: Ask "Should I buy NVIDIA?" → Gets summarized insights with sources.
+
+Saves time: No more manual data stitching — tables and markdown outputs ready for decisions.
+
+Built for retail investors, analysts, and fintech apps needing plug-and-play market intelligence
+
+Team **Pixel pirates** -- [Moin Noorani](https://github.com/Moinnoorani)
+
+`2025-05-29`
+
+---
+
+### Financial Assistant
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/financial-assistant-6080) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/RamharshDandekar/FinTech) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://financial-assitant.vercel.app/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/bT3oojuJzVI) [![Built at](https://img.shields.io/badge/Built%20at-HACKHAZARDS%20'25-0052CC?style=flat-square)](https://hackhazards25.devfolio.co)
+
+> Be Finance Wise, See Future Rise.
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![Django](https://img.shields.io/badge/Django-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![Clerk](https://img.shields.io/badge/Clerk-333333?style=flat-square) ![langchain](https://img.shields.io/badge/langchain-333333?style=flat-square)
+
+**The problem it solves**
+
+Financial illiteracy is a significant barrier to confident investing for millions, particularly in emerging markets. Existing guidance is often inaccessible, complex, or not scalable. Our GenAI Financial Assistant directly addresses this by providing a user-friendly platform for everyone.
+can be used to:
+1]Understand fundamental financial concepts through natural, conversational AI.
+2]Analyze complex documents like insurance policies for hidden risks and loopholes.
+3]Plan and track budgets tied to their personal life goals.
+4]Receive personalized guidance that adapts to their current financial knowledge level.
+This makes navigating personal finance and investing far easier, safer, and more accessible, empowering users to take control of their financial future.
+
+**Challenges we ran into**
+
+A primary technical challenge involved reliably extracting structured information, like specific risks and terms, from the AI's freeform text response after it analyzed a PDF policy document. Machine learning model provided excellent analysis, but turning that nuanced text into a clean, displayable list of issues required careful handling.
+
+**Groq track**
+
+Used the AI model of grok
+
+[Ramharsh Dandekar](github.com/Ramharsh-aidev/)
+
+`2025-04-24`
+
+---
+
+### Stockbot on groq
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/stockbot-on-groq-3a64) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Chandanasakamuri/Hackhazards.git) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/An2RyJ2XgCw?si=WPzl97pkdoeqkbtY) [![Built at](https://img.shields.io/badge/Built%20at-HACKHAZARDS%20'25-0052CC?style=flat-square)](https://hackhazards25.devfolio.co)
+
+> It is an AI bot
+
+![GroqCloud ,Groq LPU API  ,Python  ,Alpaca API, Finance API, Polygon.io, LLaMA-3, LSTM ,RNN,Random Forest,  PostgreSQL,   WebSockets, React.js, Next.js, Git, GitHub](https://img.shields.io/badge/GroqCloud%20,Groq%20LPU%20API%20%20,Python%20%20,Alpaca%20API,%20Finance%20API,%20Polygon.io,%20LLaMA--3,%20LSTM%20,RNN,Random%20Forest,%20%20PostgreSQL,%20%20%20WebSockets,%20React.js,%20Next.js,%20Git,%20GitHub-333333?style=flat-square)
+
+**The problem it solves**
+
+Generate the stock values
+
+**Challenges we ran into**
+
+Difficulty in using API's
+
+**Groq track**
+
+It is an AI bot using groq
+
+Team **The Hack** -- Sakamuri Chandana
+
+`2025-04-26`
+
+---
+
+### Loan management system
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/loan-management-system-e969) [![Built at](https://img.shields.io/badge/Built%20at-HACKHAZARDS%20'25-0052CC?style=flat-square)](https://hackhazards25.devfolio.co)
+
+> A simple and efficient web application to manage the full loan lifecycle — from application and approval to disbursement and repayment tracking. Designed to automate workflows, calculate interests, se
+
+![jQuery](https://img.shields.io/badge/jQuery-333333?style=flat-square) ![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![AJAX](https://img.shields.io/badge/AJAX-333333?style=flat-square) ![Software:](https://img.shields.io/badge/Software:-333333?style=flat-square) ![Language Used:      PHP](https://img.shields.io/badge/Language%20Used:%20%20%20%20%20%20PHP-333333?style=flat-square) ![Database Used:      My SQL](https://img.shields.io/badge/Database%20Used:%20%20%20%20%20%20My%20SQL-333333?style=flat-square) ![Design Interface:    Bootstrap JavaScript](https://img.shields.io/badge/Design%20Interface:%20%20%20%20Bootstrap%20JavaScript-333333?style=flat-square) ![Browser:                  Opera Mozilla Google Chrome IE8](https://img.shields.io/badge/Browser:%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Opera%20Mozilla%20Google%20Chrome%20IE8-333333?style=flat-square)
+
+**The problem it solves**
+
+Managing loans manually is time-consuming, error-prone, and inefficient. The Loan Management System automates application processing, approval, repayment tracking, and reporting — reducing paperwork, improving accuracy, and speeding up loan operations.
+
+**Challenges we ran into**
+
+Designing a smooth loan approval workflow without delays
+
+Accurately calculating dynamic interest rates and repayment schedules
+
+Handling missed or late payments with proper notifications
+
+Ensuring data security and user authentication
+
+Creating clear, easy-to-use interfaces for both admins and borrowers
+
+Team **Steep** -- Shalini C, Sujithra G, Siva Dharana
+
+`2025-04-27`
+
+---
+
+### AlertaX
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/alertax-eb9a) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Khushi5155/AlertaX) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://alertax.onrender.com/) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/ikwBY7nrzO8) [![Built at](https://img.shields.io/badge/Built%20at-HACKHAZARDS%20'25-0052CC?style=flat-square)](https://hackhazards25.devfolio.co)
+
+> Stay Alert, Stay Safe
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-333333?style=flat-square) ![JS](https://img.shields.io/badge/JS-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square)
+
+**The problem it solves**
+
+The system streams or simulates real-time sensor data to detect floods, wildfires, or earthquakes and trigger alerts. It enables early warnings, helping authorities take timely action to save lives and reduce damage.
+
+**Challenges we ran into**
+
+Balancing real-time data handling without complex APIs was tricky — finding that “easy but powerful” solution took time.
+
+Designing something accessible to everyone, from urban dwellers to rural communities, wasn’t as easy as it sounds.
+
+**InfinyOn/Fluvio Track**
+
+Stream data from environmental sensors (or simulate them) to trigger alerts for floods, wildfires, or earthquakes.
+
+Team **Code trio** -- [Pratyush Jha](https://github.com/pratyushjha06), [Khushi Kumari](https://github.com/khushi2913), [Sunidhi Singh](https://github.com/Sunidhi037)
+
+`2025-04-27`
+
+---
+
+### ALTCRED
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/altcred-3cc7) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/thamizhthecoder/AltCred) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://docs.google.com/document/d/1D6Z9KS1ctSS5zVoxlTRNZX7GEEr4f9bDIIW6S-4KCmg/edit?tab=t.earchpbufzve) [![Video](https://img.shields.io/badge/Video-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/9vLtWY2p4Rs) [![Built at](https://img.shields.io/badge/Built%20at-RotaTechX-0052CC?style=flat-square)](https://rotatechx-1.devfolio.co)
+
+> Credit for Everyone
+
+![Firebase](https://img.shields.io/badge/Firebase-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![XGBoost](https://img.shields.io/badge/XGBoost-333333?style=flat-square) ![Firebase Authentication](https://img.shields.io/badge/Firebase%20Authentication-333333?style=flat-square) ![HTML/CSS](https://img.shields.io/badge/HTML/CSS-333333?style=flat-square)
+
+**The problem it solves**
+
+Millions in underserved communities can’t access credit because they:
+
+Lack formal documentation (e.g., payslips, credit history)
+
+Have not taken any loans prior 
+
+Are excluded by traditional credit scoring systems
+
+**Challenges we ran into**
+
+One of the biggest challenges we faced was integrating Firebase while keeping the app lightweight and real-time. 
+We had to strike a balance between security and usability, especially for users on low-end smartphones. 
+On the front-end side, it was all about creating a clean, responsive design that doesn’t compromise performance — because our target users can’t afford slow apps or heavy data usage.
+
+Team **programming bros** -- [Yuvaranjan S](https://github.com/hipstarVenom/), [Shashank Murari](https://github.com/GTR-R34-Skyline), [Shaam Sunder V](https://github.com/fruhzen), [Thamizh Selvan P](https://github.com/thamizhthecoder), [T.R THIRUNAVUKARASU T](https://github.com/Thirunavukarasu21), [TANISH M](https://github.com/Tanish123-art)
+
+`2025-04-13`
+
+---
+
+### Memento.ai
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/mementoai-0cc6) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Ayanparmar101/LibertT-HackSpire2025) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://drive.google.com/drive/folders/1Vx0x_gyuOVY8SdYHIU5qtd2nIDC1gEzX?usp=sharing) [![Built at](https://img.shields.io/badge/Built%20at-HackSpire%202025-0052CC?style=flat-square)](https://hackspire2025.devfolio.co)
+
+> Memento se hi hoga
+
+![React](https://img.shields.io/badge/React-333333?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-333333?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-333333?style=flat-square) ![Vite](https://img.shields.io/badge/Vite-333333?style=flat-square) ![Supabase](https://img.shields.io/badge/Supabase-333333?style=flat-square) ![ShadCN-UI](https://img.shields.io/badge/ShadCN--UI-333333?style=flat-square) ![Fine-Tuned LLM Model(OpenAI and Gemini Flash 2.0)](https://img.shields.io/badge/Fine--Tuned%20LLM%20Model(OpenAI%20and%20Gemini%20Flash%202.0)-333333?style=flat-square)
+
+**The problem it solves**
+
+Memento.ai is an AI-powered personalized learning companion designed to adapt education to each student's pace and style. It features tools like simplified content explanations, adaptive learning paths, a conversational study assistant, smart quiz generation, and personalized progress tracking. It also offers gamified challenges and monthly performance reports to boost engagement and continuous improvement. Voice-based support and evolving AI recommendations enhance the experience even further.
+
+**Challenges we ran into**
+
+Memento.ai is an AI-powered learning companion designed to revolutionize education through personalized, student-centered tools. It offers simplified content explanations, adaptive learning paths, smart quizzes, and a conversational study partner to enhance engagement and retention. With progress tracking and gamified features, it keeps students motivated and on track. LearnFlow bridges the gap between traditional education and modern learning needs by delivering tailored, efficient, and accessible support for every learner.
+
+Team **Libert-T** -- [Nikhil Naraniya](https://github.com/NikzRN01), [Ayan Parmar](https://github.com/Ayanparmar101), [Khooshi Dave](https://github.com/Khooshi30)
+
+`2025-04-27`
+
+---
+
+### MindMosaic
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/mindmosaic-71fb) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/senseiiesnes/Team-Jagnick-HackSpire2025/) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://docs.google.com/presentation/d/1HQSUSUJbfYL5K-OIlGTlmvE9GKAD2eIKY7ykpYLLYZQ/edit?usp=sharing) [![Built at](https://img.shields.io/badge/Built%20at-HackSpire%202025-0052CC?style=flat-square)](https://hackspire2025.devfolio.co)
+
+> Revolutionizing mental well-being through innovative AI-driven support systems
+
+![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![WebRTC](https://img.shields.io/badge/WebRTC-333333?style=flat-square) ![MongoDB Atlas](https://img.shields.io/badge/MongoDB%20Atlas-333333?style=flat-square)
+
+**The problem it solves**
+
+MindMosaic leverages advanced AI technology to provide personalized mental health support, enhancing emotional resilience while promoting self-awareness and wellbeing in users around the globe.
+
+**Challenges we ran into**
+
+WebRTC Voice Communications, and
+
+Team **Team Jagnick** -- [Kushal Jha](https://github.com/senseiiesnes), [kushal yadav](https://github.com/kushalyadav29), [Himansu Dabhi](https://github.com/Jagnick), [Milan Bhimani](https://github.com/Milan0702)
+
+`2025-04-27`
+
+---
+
+### QueueWise Pro - Queue Management System
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/queuewise-pro-queue-management-system-6d56) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Roshan3019/HacktDStreet_Boys-HackSpire2025/tree/master) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://drive.google.com/drive/folders/1f55OLgxBtRKohq7wN_GauNyr4Im3JIwq?usp=sharing) [![Built at](https://img.shields.io/badge/Built%20at-HackSpire%202025-0052CC?style=flat-square)](https://hackspire2025.devfolio.co)
+
+> Perfect AI Driven System for Queue Management
+
+![scikit-learn](https://img.shields.io/badge/scikit--learn-333333?style=flat-square) ![](https://img.shields.io/badge/-333333?style=flat-square) ![Isolation Forest](https://img.shields.io/badge/Isolation%20Forest-333333?style=flat-square) ![Database: MongoDB Atlas](https://img.shields.io/badge/Database:%20MongoDB%20Atlas-333333?style=flat-square) ![Frontend: HTML+CSS+JAVASCRIPT](https://img.shields.io/badge/Frontend:%20HTML+CSS+JAVASCRIPT-333333?style=flat-square) ![Backend: Flask (Python) or Node.js (JavaScript)](https://img.shields.io/badge/Backend:%20Flask%20(Python)%20or%20Node.js%20(JavaScript)-333333?style=flat-square) ![AI/ML Models: XGBoost](https://img.shields.io/badge/AI/ML%20Models:%20XGBoost-333333?style=flat-square) ![PY-Torch](https://img.shields.io/badge/PY--Torch-333333?style=flat-square)
+
+**The problem it solves**
+
+To empower service centers with predictive, adaptive queue management technologies.
+
+To enhance user satisfaction by providing accurate wait-time insights and personalized recommendations.
+
+To drive operational efficiency through real-time anomaly detection and proactive resource management.
+
+To build a scalable platform that evolves continuously with data and AI advancements.
+
+To revolutionize the queuing experience worldwide by eliminating uncertainty, reducing wait times, and making every service visit smart, efficient, and stress-free through the power of AI.
+
+**Challenges we ran into**
+
+Real-Time Wait Time Prediction
+
+Personalized Time Slot Recommendations
+
+Anomaly Detection and Alerts
+
+Dynamic Real-Time Adaptation
+
+User Personalization and Predictive Insights
+
+Team **Hack$treet Boys** -- [Kush Sojitra](https://github.com/kush2811), [Roshan Patel](https://github.com/Roshan3019), [Yug Bhavsar](https://github.com/Yug0911), [Harsh Vadodariya](https://github.com/harshvadodariya)
+
+`2025-04-27`
+
+---
+
+### SoulLift.ai
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/soulliftai-5fc8) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Bhavarth005/SoyDevs-HackSpire2025) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://drive.google.com/file/d/1UZ1ZiQmjzWplbLMXEuGhi1aFUmA-UGnK/view?usp=sharing) [![Built at](https://img.shields.io/badge/Built%20at-HackSpire%202025-0052CC?style=flat-square)](https://hackspire2025.devfolio.co)
+
+> Enlightning Souls with AI...
+
+![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square) ![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![FastAPI](https://img.shields.io/badge/FastAPI-333333?style=flat-square) ![langchain](https://img.shields.io/badge/langchain-333333?style=flat-square) ![Gemini 2.0 Flash](https://img.shields.io/badge/Gemini%202.0%20Flash-333333?style=flat-square)
+
+**The problem it solves**
+
+SoulLift is an AI-powered mental health support platform offering empathetic, human-like conversations anytime. It detects user emotions in real-time, identifies crisis moments, and suggests helpline resources when necessary. Instead of intrusive registration forms, it uses a smart, informal questionnaire to build personalized user profiles. SoulLift adapts conversations based on the user’s coping styles, moods, and situations like relationship stress or anxiety. It maintains chat history for seamless continuity and generates insightful mental health reports from past conversations. Built on a modular microservices architecture, SoulLift ensures emotional support is accessible, personal, and non-judgmental for anyone, anytime.
+
+**Challenges we ran into**
+
+Building SoulLift presented multiple challenges. Integrating multiple AI models for emotion detection and chat handling in a modular microservices setup was tricky, especially managing inter-service communication and async requests without latency. Ensuring the chatbot felt emotionally natural while avoiding clinical diagnoses required careful system prompt design. Sentiment analysis tuning was tough — preventing false crisis triggers on mild phrases like “I’m a bit low.” Designing a dynamic, informal questionnaire that extracted mental health insights without sounding invasive took iteration. Lastly, deploying a real-time mental health report generator by analyzing user chats demanded thoughtful data aggregation and emotion trend mapping.
+
+Team **Soy Devs** -- [Umang Amrania](https://www.github.com/umgamrania), [Vishvam Moliya](https://github.com/0xvish), [Bhavarth Vakharia](https://github.com/Bhavarth005), [Deep Adatiya](https://github.com/deep-9549)
+
+`2025-04-27`
+
+---
+
+### InnerNova
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/innernova-b4c9) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Mahi-611/TechnoTrio-HackSpire2025.git) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://docs.google.com/presentation/d/1vSIou0m6DhSPUtXwBO143G48OgFELZyLplksZk0kfPI/edit?usp=sharing) [![Built at](https://img.shields.io/badge/Built%20at-HackSpire%202025-0052CC?style=flat-square)](https://hackspire2025.devfolio.co)
+
+> A gentle space for your thoughts to rest, reflect, and rise
+
+![Python](https://img.shields.io/badge/Python-333333?style=flat-square) ![Express.js](https://img.shields.io/badge/Express.js-333333?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-333333?style=flat-square) ![React.js](https://img.shields.io/badge/React.js-333333?style=flat-square) ![NLP](https://img.shields.io/badge/NLP-333333?style=flat-square)
+
+**The problem it solves**
+
+I helps sooth your mind by talking with chatbot called innobot and by getting positive affermations.
+
+**Challenges we ran into**
+
+integrating with supabase,
+managing to combine the typescript and python file
+
+Team **Techno Trio** -- [Mahi Patel](https://github.com/Mahi-611), [Richa Devaliya](https://github.com/Richa-devaliya), [Riya Devaliya](https://github.com/Riya-1410)
+
+`2025-04-27`
+
+---
+
+### Imposter
+[![Devfolio](https://img.shields.io/badge/Devfolio-View%20Project-4B32C3?style=flat-square&logo=devfolio&logoColor=white)](https://devfolio.co/projects/imposter-65d9) [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/yashhhhh1/imposter-HackSpire2025) [![Demo](https://img.shields.io/badge/Demo-Live-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://docs.google.com/presentation/d/1BTqfHBZnH9335wn1fdVJ1xjNq7g8NTgk/edit?usp=sharing&ouid=104856154751759520462&rtpof=true&sd=true) [![Built at](https://img.shields.io/badge/Built%20at-HackSpire%202025-0052CC?style=flat-square)](https://hackspire2025.devfolio.co)
+
+> Making a positive impact in the society through the kind solutions
+
+![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square) ![MERN stack](https://img.shields.io/badge/MERN%20stack-333333?style=flat-square) ![AI/ML](https://img.shields.io/badge/AI/ML-333333?style=flat-square)
+
+**The problem it solves**
+
+People can use it to gain insights on their mental health and get recommendations based on their current moods
+
+**Challenges we ran into**
+
+Portion of code done by one person and remainging by the other , collective team efforts helped get over it
+
+Team **Imposters** -- [gopal bhalani](https://github.com/Gopalbhalani137), [Dharmay Shah](https://github.com/Dharmayshah), [Kaushal Vadher](https://github.com/Kaushal-AU-FEST), [yash patel](https://github.com/yashhhhh1)
+
+`2025-04-27`
 
 ---
 
